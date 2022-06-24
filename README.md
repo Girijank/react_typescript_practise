@@ -1,1 +1,0 @@
-# react_typescript_practise
