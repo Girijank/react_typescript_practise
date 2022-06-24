@@ -1,0 +1,62 @@
+.ng_il .viewport img {
+    max-width: none;
+    padding: 5px;
+    display: block;
+    padding-bottom: 0;
+}
+
+.ng_il .il_viewport h2.il_int_title {
+    display: none;
+}
+
+.ng_il .il_question {
+    /* margin: 0; */
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+
+.ng_il .interactiveElements .btn {
+    text-align: center !important;
+}
+
+.ng_il .interactiveElements .btn.imgbtn {
+	width: 44% !important;
+    text-align: center !important;
+    margin-left: 1.5% !important;
+}
+
+.ng_il span.fortv,
+.ng_il .il_textversion audio,
+.ng_il .il_textversion img {
+    display: none;
+}
+
+.ng_il .il_textversion .fortv {
+    display: block;
+}
+
+.ng_il .fevmedia .il_question video {
+    height: 30px;
+    width: 290px;
+}
+
+
+.ng_il .il_textversion .fev_copy.copyright {
+    display: none;
+}
+
+
+.ng_il .fev_copy.copyright {
+    background: rgba(255, 255, 255, .54);
+    text-align: left;
+    margin-top: -18px;
+    display: block;
+    position: relative;
+    border-radius: 0;
+    padding: 2px;
+    margin-left: 20.4%;
+    margin-bottom: 0;
+    width: 60%;
+    color: #000;
+}

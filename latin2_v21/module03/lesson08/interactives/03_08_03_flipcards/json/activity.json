@@ -1,0 +1,69 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Let's translate these sentences into English and identify the pronouns in each sentence! Then select each card to check your answer.",
+    "instruction_textversion":"Let's translate these sentences into English and identify the pronouns in each sentence! Then check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p><strong>Quae dea</strong> domus familiarum Romanarum servat? </p>",
+          "textversion": "<p><strong>Quae dea</strong> domus familiarum Romanarum servat? </p>"
+        },
+        "back": {
+          "content": "<p>Which goddess protects the homes of the Roman families? <strong>Nominative sg. f.</strong></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Which goddess protects the homes of the Roman families? <strong>Nominative sg. f.</strong></p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p><strong>Quem</strong> Romulus necavit?</p>",
+          "textversion": "<p><strong>Quem</strong> Romulus necavit?</p>"
+        },
+        "back": {
+          "content": "<p>Whom did Romulus kill? <strong>Accusative sg. m.</strong></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>Whom did Romulus kill? <strong>Accusative sg. m.</strong></p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Cibum <strong>mea manu ipsa</strong> devoro.</p>",
+          "textversion": "<p>Cibum <strong>mea manu ipsa</strong> devoro.</p>"
+        },
+        "back": {
+          "content": "<p>I gulp down the food with my very hand. <strong>Ablative sg. f.</strong></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>I gulp down the food with my very hand. <strong>Ablative sg. f.</strong></p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p><strong>Medicus ipse</strong> clienti venenum preparavit.</p>",
+          "textversion": "<p><strong>Medicus ipse</strong> clienti venenum preparavit.</p>"
+        },
+        "back": {
+          "content": "<p>The doctor himself prepared the poison for his patient. <strong>Nominative sg. m.</strong></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>The doctor himself prepared the poison for his patient. <strong>Nominative sg. m.</strong></p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p><strong>Isti hostes</strong> arcem in oppido eorum aedificare coacti sunt.</p>",
+          "textversion": "<p><strong>Isti hostes</strong> arcem in oppido eorum aedificare coacti sunt.</p>"
+        },
+        "back": {
+          "content": "<p>Those nasty enemies have been compelled to build a citadel in their town. <strong>Nominative pl. m.</strong></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'>Those nasty enemies have been compelled to build a citadel in their town. <strong>Nominative pl. m.</strong></p>"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+.th-Width-2{
+    width: 20% !important;
+}
+.th-Width-3{
+    width: 30% !important;
+}
+.th-Width-5{
+    width: 50% !important;
+}
+.ng_il .viewport {
+    min-height: 550px;
+}

@@ -1,0 +1,193 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": [
+      "interactives/05_07_05/styles.css"
+    ],
+    "intMedia": "interactives/05_07_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Find the perfect English match for these infinitives and participles."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>armantes</p>",
+        "answer": "Arming",
+        "options": [
+          "To arm",
+          "Having been armed"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>efficere</p>",
+        "answer": "To effect",
+        "options": [
+          "Having hoped to effect",
+          "Effect"
+          
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>oppugnaturus</p>",
+        "answer": "He, about to attack",
+        "options": [
+          "She, about to attack",
+          "He, having been attacked"
+          
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>rescindi</p>",
+        "answer": "To be torn back",
+        "options": [
+          "To have torn back",
+          "I have torn back"
+          
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>speraturum esse</p>",
+        "answer": "To be about to hope for",
+        "options": [
+          "To hope for",
+          "It has been hoped for"
+          
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>lecti</p>",
+        "answer": "Of the man having been chosen",
+        "options": [
+          "The women having been chosen",
+          "About to be chosen"
+          
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>desuluisse</p>",
+        "answer": "To have leaped down",
+        "options": [
+          "About to leap down",
+          "Having been leaped down"
+          
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>constitutis</p>",
+        "answer": "For those things having been established",
+        "options": [
+          "Of the men having been established",
+          "By those men about to be established"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>recepisse</p>",
+        "answer": "To have received",
+        "options": [
+          "Receiving",
+          "To receive"
+         
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>observantium</p>",
+        "answer": "Of the ones observing",
+        "options": [
+          "Having been observed",
+          "For the ones observing"
+         
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>remittere</p>",
+        "answer": "To send back",
+        "options": [
+          "Sending back",         
+          "To be about to send back"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Portatum iri</p>",
+        "answer": "To be about to be carried",
+        "options": [
+          "To have carried",
+          "To carry",
+          "To be about to send back"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

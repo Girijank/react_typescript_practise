@@ -1,0 +1,122 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": [
+      "interactives/05_06_04/styles.css"
+    ],
+    "intMedia": "interactives/05_06_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "chores.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>家务</span> jiāwù (chores)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following falls in the category indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>叠衣服</span>",
+        "options": [
+          "<span lang='zh-Hans'>写作业</span>",
+          "<span lang='zh-Hans'>唱歌</span>",
+          "<span lang='zh-Hans'>读书</span>"
+        ],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>家务</span> jiāwù (chores) refers to chores around the house, such as doing laundry, cleaning, and of course, folding clothes.",
+        "incorrect": "Not quite… Listen to the word in the audio again to identify its meaning. Then, review the words in the choices to see which one is the type of activity it refers to.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "mirror.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>镜子</span> jìngzi (mirror) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Where do you <strong>least</strong> likely see the item indicated by the word in audio?</p>",
+        "answer": "In the forest",
+        "options": [
+          "Department store fitting room",
+          "At a sunglasses shop",
+          "At the dentist’s office"
+        ],
+
+        "correct": "Very nicely done! <span lang='zh-Hans'>镜子</span> jìngzi means “mirror,” and you can easily find it in many places such as the bathroom or a clothing store, but maybe not in the forest.",
+        "incorrect": "Not quite. Listen to the word again. Identify its meaning and imagine in which of the places in the choices you will least likely see it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+[
+      {
+        "type": "localAudio",
+        "src": "shower_area.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>淋浴间</span> línyùjiān (shower area) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In a household, which of the following items is <strong>most</strong> likely seen next to the item indicated in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>浴缸 </span> yùgāng</span><audio class='audio' controls src='interactives/05_06_04/intmedia/bathtub.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>冰箱</span> bīngxiāng</span><audio class='audio' controls src='interactives/05_06_04/intmedia/fridge.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>书架 </span> shūjià </span><audio class='audio' controls src='interactives/05_06_04/intmedia/bookshelf.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>炉子</span> lúzi</span><audio class='audio' controls src='interactives/05_06_04/intmedia/stove.mp3'></audio>"
+        ],
+        
+        "correct": "Fantastic job! <span lang='zh-Hans'>淋浴间</span> línyùjiān means “shower area,” and you can most likely see it next to a <span lang='zh-Hans'>浴缸</span> yùgāng (bathtub). You might not want to see a <span lang='zh-Hans'>炉子</span> lúzi (stove) next to it.",
+        "incorrect": "Almost there! Listen to the audio several more times to identify its meaning. Then, listen to the audios in the choices, and imagine these items next to the one indicated in the question. See which one fits most reasonably.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+
+    [
+      {
+        "type": "localAudio",
+        "src": "to_mop.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>拖</span> tuō (to mop) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>她今天下午_____地板。</span> Tā jīntiānxiàwǔ_____ dìbǎn.",
+        "options": [
+          "<span lang='zh-Hans'>我哥哥星期六_____衣柜。</span> Wǒ gēge xīngqīliù _____ yīguì.",
+          "<span lang='zh-Hans'>我晚上_____电视。</span> Wǒ wǎnshàng _____ diànshì.",
+          "<span lang='zh-Hans'>他每天上午_____衣服。</span> Tā měitiān shàngwǔ _____yīfu."
+        ],
+
+        "correct": "Amazingly done! <span lang='zh-Hans'>拖</span> tuō means “to mop,” and it can best complete the sentence <span lang='zh-Hans'>她今天下午拖地板。</span> Tā jīntiānxiàwǔ tuō dìbǎn. (She mops the floor this afternoon.)",
+        "incorrect": "Not quite. Listen to the audio again and consider its meaning. Then, review all four sentences in the choices to see for which one this word can fit most reasonably.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_sweep.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>扫</span> sǎo (to sweep) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>bold type</strong> characters have the same initial as the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'><strong>三</strong>明治</span>",
+        "options": [
+          "<span lang='zh-Hans'>扶<strong>手</strong>椅</span>",
+          "<span lang='zh-Hans'><strong>下</strong>边</span>",
+          "<span lang='zh-Hans'>水<strong>槽</strong></span>"
+        ],
+
+        "correct": "Very nicely done! <span lang='zh-Hans'>扫</span> sǎo (to sweep) has the initial “s,” and so does the character <span lang='zh-Hans'>三</span> sān in <span lang='zh-Hans'>三明治</span> sānmíngzhì (sandwich). ",
+        "incorrect": "Not quite. Listen to the audio again and identify its initial. Then sound out the bold type characters in the choices to see which one has the same initial. Pay attention to the difference between tongue-curling initials such as “zh,” “ch,” “sh,” and non-tongue-curling ones such as “z,” “c,” and “s.”",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+
+  ]
+}

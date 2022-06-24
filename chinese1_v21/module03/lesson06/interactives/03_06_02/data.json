@@ -1,0 +1,178 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/03_06_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/03_06_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “z”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Outstanding work finding the “z” sounds among these words. You got it!",
+                "incorrect": "Not quite. Missing a few? Try again and identify all four of them.",
+                "text": "<span lang='zh-Hans'>儿子</span> érzi",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/son.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding work finding the “z” sounds among these words. You got it!",
+                "incorrect": "Not quite. Missing a few? Try again and identify all four of them.",
+                "text": "<span lang='zh-Hans'>总是</span> zǒngshì",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/always.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding work finding the “z” sounds among these words. You got it!",
+                "incorrect": "Not quite. Missing a few? Try again and identify all four of them.",
+                "text": "<span lang='zh-Hans'>最</span> zuì",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/the_most.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding work finding the “z” sounds among these words. You got it!",
+                "incorrect": "Not quite. Missing a few? Try again and identify all four of them.",
+                "text": "<span lang='zh-Hans'>早餐</span> zǎocān",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/breakfast.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “un”",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "Job wonderfully done, identifying the only word we’ve learned so far with final “un.” Fabulous job and more will come! ",
+                "incorrect": "Oops…you might have missed the word(s). Listen again to identify the right word(s).",
+                "text": "<span lang='zh-Hans'>春天</span>  chūntiān",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/spring.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ing”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve done terrifically, identifying the words that have “ing” in them. Very nice listening skills!",
+                "incorrect": "Almost there! You will need to listen again to identify all four words.",
+                "text": "<span lang='zh-Hans'>秃顶</span> tūdǐng",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/bald.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done terrifically, identifying the words that have “ing” in them. Very nice listening skills!",
+                "incorrect": "Almost there! You will need to listen again to identify all four words.",
+                "text": "<span lang='zh-Hans'>庆祝</span> qìngzhù",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/celebrate.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done terrifically, identifying the words that have “ing” in them. Very nice listening skills! ",
+                "incorrect": "Almost there! You will need to listen again to identify all four words.",
+                "text": "<span lang='zh-Hans'>经常</span> jīngcháng",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/often.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done terrifically, identifying the words that have “ing” in them. Very nice listening skills! ",
+                "incorrect": "Almost there! You will need to listen again to identify all four words.",
+                "text": "<span lang='zh-Hans'>松饼</span> sōngbǐng",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_06_02/media/pancakes.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

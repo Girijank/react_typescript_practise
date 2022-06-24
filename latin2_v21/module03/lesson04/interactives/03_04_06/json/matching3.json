@@ -1,0 +1,21 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "truefitb",
+        "quiz": "In the blanks, write the correct noun form. Be careful with spelling!<br /><br />For example:<br />Noun: mare, maris n. sea<br />English: of the seas<br />Latin Answer: marium<br /><br /><table class='table table-bordered'><thead><tr><th scope='col'>Latin Noun to Use</th><th scope='col'>Identification</th><th scope='col'>Latin Answer</th></tr></thead><tbody><tr><td>anim<strong>al</strong>, animalis n. animal</td><td>of the animals</td><td>*_</td></tr><tr><td>mar<strong>e</strong>, maris n. sea</td><td>for the sea</td><td>*_</td></tr><tr><td>Canis, canis m. dog</td><td>of the dog</td><td>*_</td></tr><tr><td>mar<strong>e</strong>, maris n. sea</td><td>the sea</td><td>*_</td></tr></tbody></table>",
+        "answers": [
+          "animalium",
+          "mari",
+          "canis",
+          "mare"
+        ]
+      }
+    ]
+  ]
+}

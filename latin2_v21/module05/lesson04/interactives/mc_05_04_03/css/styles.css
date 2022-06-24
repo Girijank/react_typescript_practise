@@ -1,0 +1,44 @@
+.ng_il.fevng_mc,
+.ng_il.fevng_mc .viewport {
+    min-height: 380px !important;
+}
+
+/* .ng_il.fevng_mc .il_navigation {
+    margin-left: 0;
+} */
+
+.ng_il.fevng_mc .il_modal-backdrop {
+    display: block;
+}
+
+.ng_il.fevng_mc .modal-dialog {
+    transition: none;
+    -webkit-transition: none;
+}
+
+.ng_il.fevng_mc .il_question,
+.ng_il.fevng_mc .il_mc_options .btn {
+    font-size: 1em;
+}
+
+.ng_il.fevng_mc .col-xs-5 {
+    width: 41.66666667%;
+}
+
+.ng_il.fevng_mc .col-xs-7 {
+    width: 58.33333333%;
+}
+
+.ng_il.fevng_mc .il_question_wrapper,
+.ng_il.fevng_mc .viewport.il_textversion {
+    padding: 20px;
+}
+.ng_il .il_mc_options .btn-group .btn {
+    border: 2px solid #9F243D;
+    text-align: left;
+}
+
+/* new add */
+.ng_il .il_textversion_question h4 {
+    color: #fff !important;
+}

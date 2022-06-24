@@ -1,0 +1,113 @@
+#menu_inner .menubtn {
+    color: #ffd300;
+    box-shadow: none;
+}
+
+#menu_inner .menubtn:hover {
+    background-color: #ffd300;
+    color: #300c02;
+}
+
+.pagenums a, .pagenums p {
+    color: white;
+}
+
+.menuBox {
+    box-shadow: none;
+}
+
+#nav_menu .nav_menu_modules {
+    padding: 5px !important;
+    line-height: 1.3em;
+}
+
+#nav_menu .nav_menu_modules li .nav_menu_lessons, #nav_menu .nav_menu_modules {
+    background: #300c02;
+}
+
+#nav_menu .nav_menu_modules {
+    list-style: none;
+    margin: 0px;
+    position: fixed;
+    padding: 45px 5px 5px 5px;
+    width: 200px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#nav_menu .nav_menu_modules li a.modlink, .nav_menu_lessons li a, .nav_menu_lessons li a.odd {
+    background-color: #300c02;
+    color: #ffd300;
+}
+
+#nav_menu .nav_menu_modules li a.modlink:hover, .nav_menu_lessons li a:hover, .nav_menu_lessons li a.odd:hover {
+    background-color: #ae854e;
+}
+
+.nav_menu_lessons li a .lesson_num, .nav_menu_lessons li a .lesson_title, .nav_menu_lessons li a .lesson_nfo {
+    color: #ffd300;
+}
+
+#nav_menu .nav_menu_modules li .nav_menu_lessons {
+    left: 200px;
+    padding: 10px 0 0 0;
+}
+
+#menu_inner .menu_links li a {
+    color: white;
+}
+
+#menu_inner .menu_links li a:hover, .home:hover {
+    background-color: #ffd300;
+    color: #300c02;
+}
+
+.progress_meter_popup a:link, .progress_meter_popup a:visited {
+    color: #300c02;
+}
+
+.progress_meter_popup a:hover {
+    color: white;
+}
+
+.progress_meter_popup a:hover {
+    background-color: #ae854e;
+}
+
+#nav_menu .nav_menu_modules li a.modlink {
+    padding: 10px 12px;
+    width: 190px;
+    text-indent: -23px;
+    padding-left: 33px;
+    font-family: 'MontserratAlternates-Regular', san-serif;
+}
+
+#nav_menu .nav_menu_modules li a.modlink .num, #nav_menu .nav_menu_modules li a.modlink .mnumber  {
+    margin-right: 6px !important;
+}
+
+.nav_menu_lessons li {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 890px) {
+    #menu_inner .menubtn {
+        padding: 0 6px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    #menu_right {
+        float: unset;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+.nav_menu_lessons li a {
+        height: unset;
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+.nav_menu_lessons li a {
+        height: unset;
+}

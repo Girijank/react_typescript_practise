@@ -1,0 +1,142 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/05_02_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/05_02_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, and then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “y” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Terrific job catching the “y” sound. You are amazing!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>浴室</span> yùshì (bathroom)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_02_02/media/bathroom.mp3",
+                    "textVersion": "<span lang='zh-Hans'>浴室</span> yùshì",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job catching the “y” sound. You are amazing!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>右边</span> yòubiān (right side) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_02_02/media/right_side.mp3",
+                    "textVersion": "<span lang='zh-Hans'>右边</span> yòubiān",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job catching the “y” sound. You are amazing!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>椅子</span> yǐzi (chair)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_02_02/media/chair.mp3",
+                    "textVersion": "<span lang='zh-Hans'>椅子</span> yǐzi ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job catching the “y” sound. You are amazing!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>衣服</span> yīfu (clothes)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_02_02/media/clothes.mp3",
+                    "textVersion": "<span lang='zh-Hans'>衣服</span> yīfu ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ui” ",
+            "limit": 3,
+            "item": [
+              {
+                "correct": "Outstanding job! You’ve done an excellent job finding the “ui” sound. How awesome!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>灰色</span> huīsè (grey) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_02_02/media/grey.mp3",
+                    "textVersion": "<span lang='zh-Hans'>灰色</span> huīsè ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job! You’ve done an excellent job finding the “ui” sound. How awesome!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>会</span> huì (to know how to) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_02_02/media/to_know_how_to.mp3",
+                    "textVersion": "<span lang='zh-Hans'>会</span> huì ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job! You’ve done an excellent job finding the “ui” sound. How awesome!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>床头柜</span> chuángtóuguì (nightstand) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_02_02/media/nightstand.mp3",
+                    "textVersion": "<span lang='zh-Hans'>床头柜</span> chuángtóuguì",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

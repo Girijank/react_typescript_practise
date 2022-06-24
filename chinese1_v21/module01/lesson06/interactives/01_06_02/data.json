@@ -1,0 +1,148 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_06_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/01_06_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “j”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Awesome work finding  the “j” sounds among these words. You are amazing!",
+                "incorrect": "So close! Are you missing a few? Try again and catch them all.",
+                "text": "<span lang='zh-Hans'>再见</span> zàijiàn (goodbye)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_06_02/media/goodbye.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Awesome work finding  the “j” sounds among these words. You are amazing!",
+                "incorrect": "So close! Are you missing a few? Try again and catch them all.",
+                "text": "<span lang='zh-Hans'>金色</span> jīnsè (blonde)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_06_02/media/blonde.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Awesome work finding  the “j” sounds among these words. You are amazing!",
+                "incorrect": "So close! Are you missing a few? Try again and catch them all.",
+                "text": "<span lang='zh-Hans'>小姐</span> xiǎojiě (Miss)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_06_02/media/miss.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ou”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve done well identifying  the “ou” sounds, which is an outstanding job!",
+                "incorrect": "Oops… you might have missed one or two. Try again to identify all four.",
+                "text": "<span lang='zh-Hans'>朋友</span> péngyǒu (friend)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_06_02/media/friend.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done well identifying  the “ou” sounds, which is an outstanding job!",
+                "incorrect": "Oops… you might have missed one or two. Try again to identify all four.",
+                "text": "<span lang='zh-Hans'>有点</span> yǒudiǎn (a little)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_06_02/media/little.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done well identifying  the “ou” sounds, which is an outstanding job!",
+                "incorrect": "Oops…you might have missed one or two. Try again to identify all four.",
+                "text": "<span lang='zh-Hans'>头发</span> tóufà (hair)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_06_02/media/toufa.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Initial “j” and Final “ou”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve done well identifying the word that has the initial “j” and the final “ou” sounds, which is an outstanding job!",
+                "incorrect": "Oops…you might have missed one or two. Try again to identify all four.",
+                "text": "<span lang='zh-Hans'>教授</span> jiàoshòu (professor)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_06_02/media/professor.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

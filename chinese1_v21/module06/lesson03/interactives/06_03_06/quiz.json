@@ -1,0 +1,78 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_03_06/styles.css"],
+    "disableRemoteCss": true,
+
+    "customTextversionAll": "interactives/06_03_06/textversion/textversion.htm",
+    "modal": {
+      "directions": "Match the places in Chinese to their appropriate images, based on the speech.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "_______<span lang='zh-Hans'></span> <br> <img src='interactives/06_03_06/intmedia/img1.jpg' alt='Image of a museum' class='border'><span class='fev_copy copyright'>©iStock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>博物馆</span>"
+              }
+            ]
+          },
+          {
+            "title": "_______<span lang='zh-Hans'></span> <br> <img src='interactives/06_03_06/intmedia/img2.jpg' alt='Image of a square' class='border'><span class='fev_copy copyright'>©iStock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>广场</span>"
+              }
+            ]
+          },
+          {
+            "title": "_______<span lang='zh-Hans'></span> <br> <img src='interactives/06_03_06/intmedia/img3.jpg' alt='Image of a theater' class='border'><span class='fev_copy copyright'>©iStock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>剧院</span>"
+              }
+            ]
+          },
+          {
+            "title": "_______<span lang='zh-Hans'></span> <br> <img src='interactives/06_03_06/intmedia/img4.jpg' alt='Image of a library' class='border'><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>图书馆</span>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

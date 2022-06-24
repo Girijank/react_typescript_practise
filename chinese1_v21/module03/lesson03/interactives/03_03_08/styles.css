@@ -1,0 +1,194 @@
+.ng_il .viewport {
+    background-image: url(map.jpg);
+    min-height: 0;
+    width: 700px;
+    height: 470px;
+    background-color: #FAFAFA;
+}
+
+.ng_il .modal_holder {
+    margin-left: -20px;
+}
+
+.ng_il .bin {
+    border-radius: 4px;
+    /* width: 142px !important; */
+    /* height: 33px !important;
+    margin: 10px 0 0 -10px; */
+    position: relative;
+}
+
+.ng_il .bin.col {
+	float: none !important;
+}
+
+.il_question {
+    width: 100px;
+	min-height: 40px !important;
+	/* height: 40px !important; */
+}
+
+.ng_il h2 {
+    display: none;
+}
+
+.il_dragdrop_items {
+	position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 50%;
+    z-index: 100;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.ng_il .il_dragdrop_items .il_btn {
+    background-color: #FFF !important;
+    border: 3px solid #9F243D !important;
+     height: auto !important; 
+    width: 125px !important;
+    color: #333 !important;
+    font-weight: bold !important;
+    text-align: center;
+    white-space: normal;
+    margin-right: 12px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.2;
+} 
+
+.ui-droppable {
+    z-index: 0;
+    padding: 3px 0 !important;
+    margin: 0 auto !important;
+}
+
+.ng_il .il_btns {
+    position: absolute;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    float: left;
+    width: 200px;
+    height: 50px;
+	z-index:9999;
+}
+
+.ng_il .il_btn {
+    border: none;
+    background-color: #DDD;
+    background-image: none;
+    color: #4c4c4c;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.ng_il .ui-droppable .il_btn {
+    border: none !important;
+    background-color: transparent !important;
+    color: #464646 !important;
+    white-space: normal;
+       /* top: -15px; */
+    /* width: 150px; */
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.ui-droppable {
+    padding: 0;
+    margin: 2px auto;
+    text-align: center;
+    min-height: 0;
+}
+
+.ng_il .il_question_wrapper {
+    height: 420px;
+	width: 100%;
+}
+
+.ng_il .il_question {
+	opacity: 1;
+    width: 100%;
+    margin-top: -100px;
+    margin-left: -40px;
+}
+
+.ng_il button.il_wb_submit {
+	display:none;
+}
+
+.ng_il button.il_wb_submit, .ng_il button.il_wb_restart_btn {
+    position: absolute;
+    right: 20px;
+    width: 70px;
+	border-radius: 4px;
+    height: auto !important;
+    bottom: 4px !important;
+}
+
+
+
+/* Cuba */
+.ng_il .bin:nth-child(2) {
+    top: 130px;
+    left: 280px;
+}
+
+/* La Rep&uacute;blica Dominicana */
+.ng_il .bin:nth-child(3) {
+	top: 175px;
+    left: 10px;
+}
+
+/* Espa&ntilde;a */
+.ng_il .bin:nth-child(4) {
+    top: 275px;
+    left: 310px;
+    height: 47px !important;
+}
+
+/* Guinea Ecuatorial */
+.ng_il .bin:nth-child(5) {
+    top: 272px;
+    left: 333px;
+}
+
+.ng_il .bin:nth-child(6){
+    top: 125px;
+    left: 260px;
+}
+
+.ng_il .bin:nth-child(7){
+    top: -105px;
+    left: 30px;
+}
+
+.textversion1.viewport {
+    height: auto !important;
+    padding: 10px !important;
+}
+
+#custom_textVersion ul {
+    margin-left:20px;
+}
+
+#custom_textVersion ul li {
+    list-style-type: decimal;
+}
+
+#custom_textVersion {
+    margin: 10px 0;
+}
+
+.il_question.ng-pristine.ng-untouched.ng-valid.ui-droppable{
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .ng_il .viewport {
+        height: 510px;
+    }
+}

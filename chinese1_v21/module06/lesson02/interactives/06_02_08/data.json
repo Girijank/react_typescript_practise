@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_02_08/styles.css"],
+    "intMedia": "interactives/06_02_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_run_to_jog.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>跑步</span> pǎobù (to run/to jog) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words indicate an activity similar in physical requirement as the one indicated by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>游泳</span> yóuyǒng (to swim) </span><audio class='audio' controls src='interactives/06_02_08/intmedia/to_swim.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>购物</span> gòuwù(to go shopping ) </span><audio class='audio' controls src='interactives/06_02_08/intmedia/to_go_shopping.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>拍照</span> pāizhào (to take pictures)</span><audio class='audio' controls src='interactives/06_02_08/intmedia/to_take_pictures.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>独处</span> dúchǔ (to spend time alone ) </span><audio class='audio' controls src='interactives/06_02_08/intmedia/to_spend_time_alone.mp3' ></audio>"
+        ],
+        "correct": "Excellently done! <span lang='zh-Hans'>跑步</span> pǎobù means “to run/to jog.” It’s a physical workout and of the activities in the choices, <span lang='zh-Hans'>游泳</span> yóuyǒng (to swim) is also a physical exercise or workout.",
+        "incorrect": "Very close. Listen to the word again to identify its meaning and consider the nature of the activity it indicates. Then review the activities in the choices to see which one shares the same physical characteristic.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_exercise_fitness_sports.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>运动</span> yùndòng (to exercise; fitness/sports) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>我姐姐喜欢_____。</span>Wǒ jiějie xǐhuān _____.",
+        "options": [
+          "<span lang='zh-Hans'>她在冬天穿_____。</span>Tā zài dōngtiān chuān_____.",
+          "<span lang='zh-Hans'>你要去卧室叠_____。</span>Nǐ yào qù wòshì dié _____.",
+          "<span lang='zh-Hans'>他要去超市买_____。</span>Tā yàoqù chāoshì mǎi _____."
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>运动</span> yùndòng means “to exercise/fitness/sports,” and it can fit well in the sentence <span lang='zh-Hans'>我姐姐喜欢运动。</span> Wǒ jiějie xǐhuān yùndòng.(My older sister likes to exercise.) ",   
+        "incorrect": "Not quite. Listen to the word again to identify its meaning. Then, insert it in each of the sentences in the choices to see which one fits the best, both in meaning and in structure",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_play_pingpong.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>打乒乓球</span> dǎ pīngpāngqiú (to play pingpong) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which bold type character in the following words contain the same final as the fourth character in the word in audio?</p>", 
+        "answer": "<span lang='zh-Hans'><strong>休</strong>闲活动</span>",      
+        "options":[
+          "<span lang='zh-Hans'>枕<strong>头</strong></span>",
+          "<span lang='zh-Hans'><strong>电</strong>影院</span>",
+          "<span lang='zh-Hans'>演<strong>奏</strong></span>"
+        ],
+        "correct": "Excellently done! The fourth character in <span lang='zh-Hans'>打乒乓球</span> dǎ pīngpāngqiú (to play pingpong) has the final “iu,” which is also in the first character, <span lang='zh-Hans'>休</span> xiū, in the word <span lang='zh-Hans'>休闲活动</span> xiūxiánhuódòng(pastime).",
+        "incorrect": "Not quite. Listen to the word again to identify the final in its fourth character. Then, sound out the bold type characters in the choices to see which one has the same final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "question_particle.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>吗</span> ma (question particle)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In what situation will the word in the audio be needed?</p>",
+        "answer": "When asking a question",
+        "options": [
+          "When giving a command",
+          "When stating a fact",
+          "When expressing an exclamation"
+        ],
+        "correct": "Outstanding job! <span lang='zh-Hans'>吗</span> ma is a question particle, and it is placed at the end of a sentence to indicate a question. Later in this lesson, you will learn more about it.",        
+        "incorrect": "Oops…Listen to the audio one more time to identify the function of the word. Consider what type of speech it indicates, and check which of the choices suits the best.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_03_03/styles.css"],
+    "intMedia": "interactives/05_03_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_vacuum.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>吸尘</span> xīchén "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can the activity indicated in the audio <strong>most</strong> likely be applied to?</p>",
+        "answer": "<span lang='zh-Hans'>卧室</span>",
+        "options": ["<span lang='zh-Hans'>尺子</span>", "<span lang='zh-Hans'>叉子</span>", "<span lang='zh-Hans'>蛋糕</span>"],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>吸尘</span> xīchén means “to vacuum.” It can most likely be applied to a bedroom of the four items in the choices. You may not want to vacuum a cake. ",
+        "incorrect": "Not quite. Listen to the audio again to identify its meaning, and then imagine applying the activity it indicates to the items in the choices to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "rug_carpet.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>地毯</span> dìtǎn "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words has the same initial as the first character in the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>床单</span>",
+        "options": [
+          "<span lang='zh-Hans'>房子</span>",
+          "<span lang='zh-Hans'>公寓</span>",
+          "<span lang='zh-Hans'>门廊</span>"
+        ],
+        "correct": "Outstanding work! The first character, <span lang='zh-Hans'>地</span> dì, in the word <span lang='zh-Hans'>地毯</span> dìtǎn (rug/carpet) has the initial “d,” which is also the initial for the second character, <span lang='zh-Hans'>单</span> dān, in the word <span lang='zh-Hans'>床单</span> chuángdān (bedsheet).",
+        "incorrect": "So close! Listen again and identify the initial of the first character in the word. Then sound out the pinyin of the words in the choices to see which one has the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/05_03_03/customview_imgbtn.htm"
+      },
+      {
+        "type": "localAudio",
+        "src": "sofa.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>沙发</span> shāfā "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following images best describes the word in the audio?</p>",
+        "answer": "<span class='fortv'>Image of a sofa</span><img src='interactives/05_03_03/images/sofa.jpg' alt='Image of a sofa'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of an end table</span><img src='interactives/05_03_03/images/table.jpg' alt='Image of an end table'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a chair </span><img src='interactives/05_03_03/images/chair.jpg' alt='Image of a chair'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a bed</span><img src='interactives/05_03_03/images/bed_gi.jpg' alt='Image of a bed'>"
+        ],
+        "correct": "Totally awesome ! <span lang='zh-Hans'>沙发</span> shāfā means “sofa,” and the image of a sofa best describes it. Also, since it’s a borrowed word, you can guess its meaning by the pronunciation.",
+        "incorrect": "Not quite. Think about the meaning of the word in the audio, and then consider which item best describes it. Pay special attention to its pronunciation and consider the possibility of a borrowed word in English.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "television.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>电视</span> diànshì  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be best completed by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我在客厅看____。</span>Wǒ zài kètīng kàn____.",
+        "options": [
+          "<span lang='zh-Hans'>她在卧室读____。</span>Tā zài wòshì dú____.",
+          "<span lang='zh-Hans'>他在阳台唱____。</span>Tā zài yángtái chàng____.",
+          "<span lang='zh-Hans'>我们在院子画____。</span>Wǒmen zài yuànzi huà____."
+        ],
+        "correct": "How awesome! <span lang='zh-Hans'>电视</span> diànshì means “television,” and it can best complete the sentence <span lang='zh-Hans'>我在客厅看电视。</span>Wǒ zài kètīng kàn diànshì. (I am watching TV in the living room.)",
+        "incorrect": "Oops…Listen to the audio several more times to identify its meaning. Then fit it in the four sentences in the choices to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

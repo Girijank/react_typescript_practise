@@ -1,0 +1,232 @@
+
+.threed {
+ color:#131313;
+ text-shadow: 0 1px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+
+
+.name {
+    font-size: 2em;
+    display: inline-block;
+    background: rgba(33, 33, 33, 0.9);
+    color: #f8f8f8;
+    font-family: Courier;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0.1em 0.1em 0.05em #333;  
+}
+
+.name2 {
+   	font-size: 16px;
+    display: inline-block;
+    background: rgba(33, 33, 33, 0.9);
+    color: #f8f8f8;
+    font-family: Courier;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0.1em 0.1em 0.05em #333;  
+}
+
+.name3 {
+    font-size: 3em;
+    display: inline-block;
+    background: rgba(33, 33, 33, 0.9);
+    color: #f8f8f8;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0.1em 0.1em 0.05em #333;  
+}
+
+
+.box p{
+	text-align:left;
+	position:relative;
+	
+}
+.box {
+	width:70%;
+	background:#FFF;
+	margin:40px auto;
+	padding:20px;
+}
+
+
+
+
+/* **** Shadow Boxes ****************************/
+
+.border01 {
+
+-webkit-box-shadow: 6px 6px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px -2px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 5px -2px rgba(0,0,0,0.75);
+
+}
+
+
+.border02 {
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 1px dashed #000000;
+padding: 10px;
+}
+
+.vborderL {
+	border-left: 1px dashed #000000;
+	
+}
+.vborderR {
+	border-right: 1px dashed #000000;
+	
+	
+}
+
+/* **** Polaroid Effect ****************************/
+
+.polaroid {
+  position: relative;
+ 
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  /*-webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;*/
+  
+-webkit-box-shadow: 3px 3px 12px -4px rgba(0,0,0,0.81);
+-moz-box-shadow: 3px 3px 12px -4px rgba(0,0,0,0.81);
+box-shadow: 3px 3px 12px -4px rgba(0,0,0,0.81);
+		  	
+}
+ 
+.polaroid .tiltr {
+	-ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+}
+
+.polaroid .tiltl {
+	-ms-transform: rotate(-4deg); /* IE 9 */
+    -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    transform: rotate(-4deg);
+}
+
+.polaroid .copyright {
+	position: relative;
+	top: -46px !important;
+	background-color:transparent;
+	
+}
+
+.polaroid .caption {
+	position: relative;
+	top: -36px !important;
+}
+
+
+span.step {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #FAF6EF;
+}
+
+hr.style-nine {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style9 {
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+
+hr.style10 {
+	border-top: 1px dotted #8c8b8b;
+	border-bottom: 1px dotted #fff;
+}
+
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 5px 5px -5px #000 inset;
+	margin:0px;
+}
+
+
+.paper {
+	background-color: #fff; 
+	background-image: linear-gradient(90deg, transparent 29px, #abced4 29px, #abced4 30px, transparent 30px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+}
+

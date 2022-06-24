@@ -1,0 +1,34 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Translate each sentence and find its translation match. Practice as many times as you need until you translate it correct every time!",
+        "options": [
+          {
+            "left": "I was coming to the farmhouse.",
+            "right": "<em>Ad villam veniebam. </em>"
+          },
+          {
+            "left": "The girl will have heard the farmers.",
+            "right": "<em>Puella agricolas audiverit.</em>"
+          },
+          {
+            "left": "<em>Puella agricolam audit.</em>",
+            "right": "The girl hears the farmer."
+          },
+          {
+            "left": "The farmers will have found the girls.",
+            "right": "<em>Agricolae puellas invenerint.</em>"
+          }
+        ],
+        "chances": "2"
+      }
+    ]
+  ]
+}

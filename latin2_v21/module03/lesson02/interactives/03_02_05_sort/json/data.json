@@ -1,0 +1,36 @@
+{
+  "config": {
+    "src": "quizmo",
+    "showInteractive": "Show Quiz",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false,
+    "copyright": []
+  },
+  "body": [
+    [
+      {
+        "type": "sortable",
+        "$$hashKey": "object:75",
+        "options": [
+          "Paper is invented",
+          "Roman Empire falls",
+          "Leonardo da Vinci is born",
+          "America is discovered",
+          "US independence",
+          "French revolution"
+        ],
+        "quiz": "Sort the events chronologically by moving each world event in the list into the correct order, starting with oldest at the top.",
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      },
+      {
+        "type": "config",
+        "layout": "layout1",
+        "$$hashKey": "object:468",
+        "directions": "Select the correct options."
+      }
+    ]
+  ]
+}

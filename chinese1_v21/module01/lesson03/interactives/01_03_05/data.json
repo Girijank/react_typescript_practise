@@ -1,0 +1,69 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_03_05/styles.css"],
+    "intMedia": "interactives/01_03_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Please read the phrases in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>我的眼睛是...的</span> Wǒde yǎnjīng shì...de."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words would complete this sentence?</p>",
+        "answer": "<span class='fortv'> Audio for <span lang='zh-Hans'>褐色</span> hèsè</span><audio class='audio' controls src='interactives/01_03_05/intmedia/brown.mp3'></audio>",
+        "options": [
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>朋友</span> péngyǒu</span><audio class='audio' controls src='interactives/01_03_05/intmedia/friend.mp3' ></audio>",
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>下午好</span> xiàwǔhǎo</span><audio class='audio' controls src='interactives/01_03_05/intmedia/goodafternoon.mp3' ></audio>",
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>男孩</span> nánhái</span><audio class='audio' controls src='interactives/01_03_05/intmedia/boy.mp3' ></audio>"
+        ],
+        "correct": "Job well done! “<span lang='zh-Hans'>我的眼睛是...的。</span> Wǒde yǎnjīng shì...de” is used to describe one’s eyes; therefore, the word <span lang='zh-Hans'>褐色</span> hèsè (brown) is most suitable to complete the sentence.",
+        "incorrect": "Very close. Please consider what this sentence is describing.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>绿色</span> lǜsè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the color indicated by the word presented?</p>",
+        "answer": "Grass",
+        "options": ["Snow", "Sky", "Sand"],
+        "correct": "You got it! <span lang='zh-Hans'>绿色</span> lǜsè is “green,” and it’s the color of healthy grass! Feel free to walk barefoot!",
+
+        "incorrect": "Not quite. Please use the pinyin part as reference and consider what color it is.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>黑色</span> hēisè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can this word complete?</p>",
+        "answer": "<span lang='zh-Hans'>我的眼睛是...的。</span> Wǒde yǎnjīng shì ...de.",
+        "options": [
+          "<span lang='zh-Hans'>我从…来.</span> Wǒ cóng…lái.",
+          "<span lang='zh-Hans'>我叫…</span> Wǒ jiào…",
+          "<span lang='zh-Hans'>我的电话号码是…</span> Wǒde diànhuà hàomǎ shì…"
+          
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>黑色</span> hēisè means “black,” and it can fit <span lang='zh-Hans'>“我的眼睛是...的。</span> Wǒde yǎnjīng shì...de “ to make the sentence <span lang='zh-Hans'>“我的眼睛是黑色的。</span> Wǒde yǎnjīng shì hēisè de. (My eyes are black.)”",
+        "incorrect": "So close! Please think about what “<span lang='zh-Hans'>色</span> sè” indicates. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Toolbox</title>
+<meta charset="utf-8" />
+<script>
+	var isexternal = true; // Loads External Assets
+	var pg_csslibs = ["css/main.css"]; // CSS Libs for this Page
+	var pg_jslibs = ['js/jquery.quicksand.js','js/script.js']; // JS Libs for this Page
+</script>
+<script src="../js/settings.js" id="settingJS"></script>
+</head>
+<body>
+<div id="toolbox_content">
+    <!-- CONTENT GOES HERE -->
+    <img src="images/header_flvs.png" alt="Toolbox" class="showcase" />
+    <hr />
+    <div class="instructions">
+    	<p>Have you ever felt overwhelmed by too much information? Have you ever wished that your online courses worked more like your cell phone…giving you only the information you need right now? Well, consider this your lucky day! Welcome to your easy-to-use, information packed tool box. Here’s how it works:</p>
+		<ol>
+            <li>Select the filters to search a particular topic.
+            	<ol style="list-style-type:lower-alpha">
+                	<li>You can sort by module or name.</li>
+            		<li>You can select more than one topic to broaden your search.</li>
+                </ol>
+            </li>
+            <li>Scroll down to view various items related to your area of interest (including lessons, note guides, videos, and more).</li>
+            <li>Enjoy!</li>
+        </ol>
+	</div>
+    <hr />
+    <form id="filter">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2><span class="sort_title">Filter</span></h2>
+                <div id="filters">
+                    <label>
+                        <input type="radio" name="type" value="all" checked="checked">
+                        All </label>
+                    <br />
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h2><span class="sort_title">Sort</span></h2>
+                <div id="sorts">
+                    <label>
+                        <input type="radio" class="sorter" name="sort" value="module" checked="checked">
+                        Module </label>
+                    <label>
+                        <input class="sorter" type="radio" name="sort" value="name">
+                        Name </label>
+                </div>
+            </div>
+        </div>
+    </form>
+    <hr />
+    <ul id="applications" class="list-group">
+        <li><img src="images/loading.gif" class="showcase" alt="loading"/></li>
+    </ul>
+    <br class="clear"/>
+
+    <!-- END CONTENT -->
+
+</div>
+</body>
+</html>

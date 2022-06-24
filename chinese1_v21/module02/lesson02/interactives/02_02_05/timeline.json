@@ -1,0 +1,48 @@
+{
+  "config": {
+    "interactiveTitle": "History of Chinese Tea",
+    "intMedia": "interactives/02_02_05/intmedia/",
+    "css": ["interactives/02_02_05/timeline.css"],
+    "src": "timeline",
+    "directions": "Move the timeline bar to view content from different time periods for the history of Chinese tea.",
+    "theme": "",
+    "entries": [
+      {
+        "date": "5000 years ago",
+        "content": "The history of Chinese tea goes back 5,000 years. The legendary person Shennong, the father of Chinese agriculture and medicine, was boiling water when some leaves from a wild tree fell into the boiling water and added enjoyable flavor to it.",
+        "image": "shennong.jpg",
+        "copyright": "©Minghui.com, Illustration of Shennong",
+        "alt": "Image of Shennong",
+        "summaryLength": "400"
+      },
+      {
+        "date": "3rd Century",
+        "content": "Tea was originally used for its medicinal values to help with digestion. Then starting in the 3rd century, it gradually became a popular daily beverage in Chinese people’s everyday lives for pleasure and refreshment.",
+        "image": "beverage.jpg",
+        "copyright": "©Shutterstock",
+        "alt": "Close-up of tea on a wooden table against trees during foggy weather"
+      },
+      {
+        "date": "8th Century",
+        "content": "In the 8th century, a writer and tea master named <em><span lang='zh-Hans'>陆羽</span> Lù Yǔ</em> (Lu Yu) published “The Classic Art of Tea” to introduce the proper ways of brewing, steeping, and serving tea. This was the origin of the Chinese tea culture.",
+        "image": "luyu.jpg",
+        "copyright": "Public Domain",
+        "alt": "Image of Lu Yu"
+      },
+      {
+        "date": "17th Century",
+        "content": "All Chinese tea was green tea until the mid-17th century when black tea came into being, with a special preserving method so the tea flavor would last for long journeys when exported to other countries. Through the years, Chinese tea has developed into six major types: green tea, black tea, oolong tea, white tea, yellow tea, and dark tea.",
+        "image": "teacategories.jpg",
+        "copyright": "©Shutterstock",
+        "alt": "Directly above shot of various tea leaves against white background"
+      },
+      {
+        "date": "Modern Time",
+        "content": "Modern Chinese tea has developed many new variations such as rose petal tea, fruit tea, organic tea, and boba milk tea, etc. Such variations reflect the Chinese culture and its evolution into the fast-paced modern ages.",
+        "image": "modern.jpg",
+        "copyright": "©Shutterstock",
+        "alt": "Various modern tea drinks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": true,
+    "resultsPage": false,
+    "interactiveTitle": "",
+    "css": ["interactives/02_matching/matching.css"],
+    "_customTextversionAll": "../../global/templates/quizmo/matching_text.htm"
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Match each vocabulary word with its correct image.",
+        "customView": "../../global/templates/quizmo/matching.htm"
+      },
+
+      {
+        "type": "matching",
+        "quiz": "",
+        "chances": "99999",
+        "options": [
+          {
+            "left": "avus, avi m.",
+            "right": "<span class='forTV'>Image of a photograph of a young woman hugging her grandfather</span><img src='interactives/02_matching/intmedia/img_1.jpg' alt='A photograph of a young woman hugging her grandfather' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for dog"
+          },
+          {
+            "left": "modus, <br>modi m.",
+            "right": "<span class='forTV'>Image of hands sorting the puzzle pieces</span><img src='interactives/02_matching/intmedia/img_2.jpg' alt='Hands sorting the puzzle pieces' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for fish"
+          },
+          {
+            "left": "spatium, <br>spatii n.",
+            "right": "<span class='forTV'>Image of sand running through the bulbs of an hourglass</span><img src='interactives/02_matching/intmedia/img_3.png' alt='Sand running through the bulbs of an hourglass' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for giraffe"
+          },
+          {
+            "left": "incola, incolae m.",
+            "right": "<span class='forTV'>Image of inhabitants of an Indonesian island</span><img src='interactives/02_matching/intmedia/img_4.jpg' alt='Inhabitants of an Indonesian island' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          },
+          {
+            "left": "saxum, saxi n.",
+            "right": "<span class='forTV'>Image of a huge rock</span><img src='interactives/02_matching/intmedia/img_5.jpg' alt='A huge rock' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          },
+          {
+            "left": "bracchium, bracchii n.",
+            "right": "<span class='forTV'>Image of a hand with a colorful bracelet</span><img src='interactives/02_matching/intmedia/img_6.jpg' alt='A hand with a colorful bracelet' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          },
+          {
+            "left": "redeo, redire, redii, <br>rediturus, -a, -um",
+            "right": "<span class='forTV'>Image of children running together in a group</span><img src='interactives/02_matching/intmedia/img_7.jpg' alt='Children running together in a group' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          },
+          {
+            "left": "cerno, cernere, crevi, <br>cretus, -a, -um ",
+            "right": "<span class='forTV'>Image of a woman in a thinking posture</span><img src='interactives/02_matching/intmedia/img_8.jpg' alt='A woman in a thinking posture' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          },
+          {
+            "left": "colo, colere, colui, <br>cultus, -a, -um ",
+            "right": "<span class='forTV'>Image of farmer tilling land</span><img src='interactives/02_matching/intmedia/img_9.png' alt='Farmer tilling land' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          },
+          {
+            "left": "relinquo, relinquere, reliqui, <br>relictus, -a, -um ",
+            "right": "<span class='forTV'>Image of child waving from the deck of a ship</span><img src='interactives/02_matching/intmedia/img_10.png' alt='Child waving from the deck of a ship' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          },
+          {
+            "left": "pello, pellere, pepuli, <br>pulsus, -a, -um ",
+            "right": "<span class='forTV'>Image of an Arab woman driving a car</span><img src='interactives/02_matching/intmedia/img_11.png' alt='An Arab woman driving a car' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image for jellyfish"
+          }
+        ]
+      },      
+      {
+        "type":"text",
+        "content":"<span class='copyright'>©Shutterstock</span>"
+      }
+
+    ]
+  ]
+}

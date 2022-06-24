@@ -1,0 +1,236 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_04_07_drop/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "slidesToDisplay": 5,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "Using the dropdowns, find the correct Latin forms for each piece of the indirect statement sentence. The puzzle pieces are written in the Latin word order of the indirect statement.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "The experienced leader hopes that the weapon will stop the naval fleet."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>Princeps peritus</span>",
+            "options": [
+              "<span>Princeps perita</span>",
+              "<span>Princeps peritum</span>"
+              
+            ]
+          },
+          {
+            "answer": "<span>sperat</span>",
+            "options": [
+              "<span>speravit</span>",
+              "<span>sperabat</span>"
+            ]
+          },
+          {
+            "answer": "<span>telum</span>",
+            "options": [
+              "<span>telo</span>",
+              "<span>telis</span>"
+            ]
+          },
+          {
+            "answer": "<span>classem navalem</span>",
+            "options": [
+              "<span>classis navalis</span>",
+              "<span>classi navali</span>"
+            ]
+          },
+          {
+            "answer": "<span>constiturum esse</span>",
+            "options": [
+              "<span>constituisse</span>",
+              "<span>constituere</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "The legate hoped that the gift had been refused by the naval fleet."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>Legatus</span>",
+            "options": [
+              "<span>Legati</span>",
+              "<span>Legatorum</span>"
+            ]
+          },
+          {
+            "answer": "<span>speravit</span>",
+            "options": [
+              "<span>sperat</span>",
+              "<span>sperabit</span>"
+            ]
+          },
+          {
+            "answer": "<span>munus</span>",
+            "options": [
+              "<span>munera</span>",
+              "<span>munerum</span>"
+            ]
+          },
+          {
+            "answer": "<span>a classe navali</span>",
+            "options": [
+              "<span>classem navalem</span>",
+              "<span>in classem navalem</span>"
+            ]
+          }
+          ,
+          {
+            "answer": "<span>recusatum esse</span>",
+            "options": [
+              "<span> recusaturum esse</span>",
+              "<span>recusatare</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "The dictator knows that the naval fleets are stopping the weapons."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>Dictator</span>",
+            "options": [
+              "<span>Dictatoris</span>",
+              "<span>Dictatorum</span>"
+            ]
+          },
+          {
+            "answer": "<span>scit</span>",
+            "options": [
+              "<span>sciet</span>",
+              "<span>sciebat</span>"
+            ]
+          },
+          {
+            "answer": "<span>classes navales</span>",
+            "options": [
+              "<span>classum navalium</span>",
+              "<span>classis navalis</span>"
+            ]
+          },
+          {
+            "answer": "<span>tela</span>",
+            "options": [
+              "<span>telum</span>",
+              "<span>telo</span>"
+            ]
+          },
+          {
+            "answer": "<span>constituere</span>",
+            "options": [
+              "<span>constituisse</span>",
+              "<span>constiturum esse</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "The old chief vows that the naval fleet will stop the weapons."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>Princeps senex</span>",
+            "options": [
+              "<span>Principes senes</span>",
+              "<span>Principium senium</span>"
+            ]
+          },
+          {
+            "answer": "<span>vovet</span>",
+            "options": [
+              "<span>voverit</span>",
+              "<span>vovebat</span>"
+            ]
+          },
+          {
+            "answer": "<span> classem navalem</span>",
+            "options": [
+              "<span>classi navali</span>",
+              "<span>classis navalis</span>"
+            ]
+          },
+          {
+            "answer": "<span>tela</span>",
+            "options": [
+              "<span>telo</span>",
+              "<span> telum</span>"
+            ]
+          },
+          {
+            "answer": "<span> constiturum esse</span>",
+            "options": [
+              "<span>constitutum esse</span>",
+              "<span> constituere</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

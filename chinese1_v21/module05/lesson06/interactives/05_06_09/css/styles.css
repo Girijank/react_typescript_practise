@@ -1,0 +1,144 @@
+.ng_il.fevng_slideshow .viewport:not(.il_textversion) {
+    padding: 0 !important;
+    min-height: 600px;
+}
+
+.ng_il.fevng_slideshow .il_navigation{
+    margin-left: auto;
+}
+
+/* .ng_il.fevng_slideshow .il_navigation {
+    margin-left: 0;
+    color: white;
+    min-height: 43px;
+    font-size: 12pt;
+    background-color: #4c7839 !important;
+    background-image: none !important;
+    border: none !important;
+}
+
+.ng_il.fevng_slideshow span.il_slide_num {
+    margin-top: 10px;
+    color: white;
+    text-shadow: none !important;
+    text-align: left;
+} 
+
+.ng_il.fevng_slideshow .il_nav_btns {
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+    left: auto;
+}
+
+.ng_il.fevng_slideshow .il_nav_btns button {
+    color: white !important;
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 120px !important;
+    background-image: none !important;
+    transform: none;
+    position: relative;
+    bottom: auto !important;
+}
+
+.ng_il.fevng_slideshow .il_nav_btns button:focus {
+    box-shadow: none !important;
+}
+
+.ng_il.fevng_slideshow .il_next span,
+.ng_il.fevng_slideshow .il_previous span {
+    display: inline !important;
+    text-indent: 0;
+    float: left;
+    text-align: center;
+    position: static;
+    font-size: inherit;
+}
+
+.ng_il.fevng_slideshow .il_next span.il_nav_text {
+    margin-left: 25px;
+    margin-right: 3px;
+}
+
+.ng_il.fevng_slideshow .il_previous span.il_arrow {
+    margin-left: 4px;
+    margin-right: 3px;
+}
+*/
+.ng_il.fevng_slideshow div.il_textversion h2.il_int_title,
+.ng_il.fevng_slideshow .il_viewport h2.il_int_title {
+    transform: none;
+    margin: 0 auto !important;
+    display: block;
+    background-image: none !important;
+    min-height: auto;
+    background-color: #3b424f !important;
+    text-shadow: none !important;
+    color: #fff !important;
+    top: 0;
+    padding: 10px 15px !important;
+    border-radius: 0;
+}
+
+.ng_il.fevng_slideshow .il_viewport h2.il_int_title:before {
+    display: none;
+}
+
+.ng_il.fevng_slideshow table.fevng_table {
+    margin: 0 auto;
+}
+
+.ng_il.fevng_slideshow table.fevng_table,
+.ng_il.fevng_slideshow table.fevng_table th,
+.ng_il.fevng_slideshow table.fevng_table td {
+    border: solid 1px #336174;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.ng_il.fevng_slideshow table.fevng_table th {
+    background: #336174;
+    text-align: center;
+    color: #fff;
+    padding: 6px;
+}
+
+.ng_il.fevng_slideshow table.fevng_table td {
+    padding: 5px;
+}
+
+.ng_il.fevng_slideshow .il_question_wrapper {
+    margin: 0 auto;
+    height: auto;
+}
+
+.ng_il.fevng_slideshow .il_textversion img {
+    margin-top: 0;
+    display: block;
+}
+
+.ng_il.fevng_slideshow table th.col_15 {
+    width: 15%
+}
+
+.ng_il.fevng_slideshow table th.col_70 {
+    width: 70%
+}
+
+.ng_il.fevng_slideshow .il_textversion_question h4 {
+    background: transparent;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.ng_il.fevng_slideshow .il_question,
+.ng_il.fevng_slideshow .il_wb_remaining_words {
+    padding: 10px;
+    box-sizing: border-box;
+}

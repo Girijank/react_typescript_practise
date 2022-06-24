@@ -1,0 +1,70 @@
+#marker0.ng_il .marker {
+	top: -20px;
+	left: -20px;
+}
+#marker0 .imageMarkerHolder {
+	top: 20px;
+}
+#marker0 .markerWrap .area {
+	width: 170px;
+	height: 151px;
+	background-color: rgba(103, 57, 98, 0);
+	position: absolute;
+	transition: 180ms linear all;
+}
+#marker0 .markerWrap .area:hover {
+	background-color: rgba(79, 122, 187, 0.3);
+}
+
+#marker0 .marker #custom_marker_4 {
+	top: 153px;
+	left: 0;
+}
+#marker_0 {
+	top: 0;
+	left: 0;
+}
+#marker_1 {
+	top: 0;
+	left: 170px;
+}
+#marker_2 {
+	top: 0;
+	left: 340px;
+}
+#marker_3 {
+	top: 0;
+	left: 510px;
+}
+#marker_4 {
+	top: 152px;
+	left: 0;
+}
+#marker_5 {
+	top: 152px;
+	left: 170px;
+}
+#marker_6 {
+	top: 152px;
+	left: 340px;
+}
+#marker_7 {
+	top: 152px;
+	left: 510px;
+}
+#marker_8 {
+	top: 302px;
+	left: 0;
+}
+#marker_9 {
+	top: 302px;
+	left: 170px;
+}
+#marker_10 {
+	top: 302px;
+	left: 340px;
+}
+#marker_11 {
+	top: 302px;
+	left: 510px;
+}

@@ -1,0 +1,92 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_06_08/styles.css"],
+    "intMedia": "interactives/04_06_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "shorts.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>短裤</span> duǎnkù "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items can be worn to <strong>best</strong> match the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>凉鞋</span>",
+        "options": ["<span lang='zh-Hans'>毛衣</span>",
+           "<span lang='zh-Hans'>裙子</span>",
+            "<span lang='zh-Hans'>制服</span>"],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>短裤</span> duǎnkù means “shorts.” Shorts are commonly worn for warm or hot weather and may be best matched with a pair of sandals.",
+        "incorrect": "Not quite. Listen to the phrase again. Think about its meaning, and then consider in what weather you may wear it and what item in the choices can best go along with it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "jeans.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>牛仔裤</span> niúzǎikù "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which of the situations is it <strong>least</strong> appropriate to wear the item in the audio?</p>", 
+        "answer": "When you give a speech at a national conference",      
+        "options":[
+          "When you have a playdate with a friend",
+          "When you go grocery shopping with a family member",
+          "When you visit your grandparents on the weekend"
+        ],
+        "correct": "Fantastic job!  <span lang='zh-Hans'>牛仔裤</span> niúzǎikù means “jeans.” It’s casual wear and may not be the most appropriate attire when you give a formal speech to a large audience. ",
+        "incorrect": "Not quite. Listen to the audio again, and identify the meaning of the word. Then consider what type of clothing it is. Imagine yourself wearing it in the different situations in the choices, and see in which one it may not seem appropriate to you. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "weather.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>天气</span> tiānqì "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>今天____很好。</span> Jīntiān____hěnhǎo.",      
+        "options":[
+          "<span lang='zh-Hans'>你午餐吃____</span> ？Nǐ wǔcān chī____?",
+          "<span lang='zh-Hans'>我需要练习____。</span> Wǒ xūyào liànxí____.",
+          "<span lang='zh-Hans'>他九点上____课。</span> Tā jiǔ diǎn shàng____kè."
+        ],
+        "correct": "Outstanding job!<span lang='zh-Hans'>天气</span> tiānqì means “weather.” Of the four sentences it can best complete the fourth one: <span lang='zh-Hans'>今天天气很好。</span> Jīntiān tiānqì hěnhǎo. (The weather today is very good.)",
+        "incorrect": "So close! Listen to the word again. Think about its meaning. Then fit it in the four sentences in the choices to see which one makes the most sense to you.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "warm.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>暖和</span> nuǎnhuo "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words is the antonym (word with opposite meaning) of the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>凉</span>",      
+        "options":[
+          "<span lang='zh-Hans'>晚</span>",
+          "<span lang='zh-Hans'>热</span>",
+          "<span lang='zh-Hans'>早</span>"
+        ],
+        "correct": "Terrifically done! <span lang='zh-Hans'>暖和</span> nuǎnhuomeans “warm,” and its opposite should be <span lang='zh-Hans'>凉</span> liáng (cool), which is the first character in the word <span lang='zh-Hans'>凉鞋</span> liángxié (sandals). ",
+        "incorrect": "So close! Listen to the word again. Consider its meaning. Then review the four single-character words in the choices to see which one has its opposite meaning. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>TMP: Page 5</title>
+    <script type="text/javascript">
+        var pg_csslibs = []; // CSS Libs for this Page
+        var pg_jslibs = ['js/slideshow.js','../../global/js/simplySpeak.js']; // JS Libs for this Page
+    </script>
+    <script src="../../global/js/settings.js" id="settingJS" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="pageContent">
+    <!-- CONTENT GOES HERE -->
+    <h1>Slideshows and Activities</h1>
+    <hr />
+    <h2>SimplySpeak - <small>Speech-to-text tool</small></h2>
+    <div class="sptFrame" data-phrase="phrase to practice" data-customWidth="300" data-customHeight="140"></div>
+    <hr />
+    <h2>Slideshow</h2>
+    <div id="slideShowA" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="4000" data-height="600">
+        <div class="carousel-inner">
+            <div class="item active"><img src="../../global/images/samples/Jellyfish.jpg"></div>
+            <div class="item"><img src="../../global/images/samples/Koala.jpg"><div class="carousel-caption">
+                <h3>2nd slide Label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div></div>
+            <div class="item"><img src="../../global/images/samples/Penguins.jpg"></div>
+        </div>
+        <a class="left carousel-control" href="#slideShowA" title="Previous" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#slideShowA" title="Next" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        <ol class="carousel-indicators">
+            <li data-target="#slideShowA" data-slide-to="0" class="active"></li>
+            <li data-target="#slideShowA" data-slide-to="1"></li>
+            <li data-target="#slideShowA" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <h2>Custom Slideshow</h2>
+    <div id="slideShowOne" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="false" data-height="420" data-width="700">
+        <div class="carousel-inner">
+            <div class="item active">
+                <h3>Think Outside the Box!</h3>
+                <div class="row show-grid">
+                    <div class="col-sm-6">
+                        <p>Use this custom slideshow to pass user content from a text input to the next slide.</p>
+                        <p>Change all content as needed for your presentation.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="" alt="image or other media" class="showcase"/>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h3>The Input Box</h3>
+                <img src="" alt="image or other media" class="pull-right top-flush"/>
+                <p>This is the quiz or question you want user input for.</p>
+                <p>Type your answers in the area below, and then select "Results." </p>
+                <textarea rows="4" cols="50" class="slide_txt" id="sld_1" placeholder="Students will enter their response here:"></textarea>
+                <br/>
+                <button type="button" data-ref="1" class="btn btn-default btnResults" data-slide="next">Results</button>
+            </div>
+            <div class="item">
+                <h3>Result Screen</h3>
+                <p>How does your answer compare?</p><br/>
+                <div class="row show-grid">
+                    <div class="col-sm-6">
+                        <p>Here are some possible uses for ..... EXAMPLE:</p>
+                        <p><strong>This is where you will add your correct answers or list of items. Can be any text, list, etc.</strong></p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Here are the uses you have entered:</p>
+                        <p class="txt_results" id="txt_1"><strong></strong></p>
+                    </div>
+                </div>
+                <hr>
+                <img src="images/paperclip_earing_ts.jpg" alt="paper clip " class="pull-right top-flush"/> <br/>
+                <p>If you didn&#39;t come up with as many possibilities, don&#39;t worry! As you dive deeper into the art of science, you will be challenged to expand your creative thinking. So, start thinking big! Think outside the box. Think like a scientist. </p>
+                <div class="clearfix"></div>
+                <button type="button" class="btn btn-default btnReset">Reset</button>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#slideShowOne" title="Previous" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#slideShowOne" title="Next" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        <ol class="carousel-indicators">
+            <li data-target="#slideShowOne" data-slide-to="0" class="active"></li>
+            <li data-target="#slideShowOne" data-slide-to="1"></li>
+            <li data-target="#slideShowOne" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <hr />
+    <h2>Quizmo</h2>
+    <div class="ng_il" data-json="interactives/example/practice.json"></div>
+    <!-- END CONTENT -->
+</div>
+</body>
+</html>

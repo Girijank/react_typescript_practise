@@ -1,0 +1,14 @@
+.mejs-container {
+    width: 800px !important;
+}
+@media (max-width: 1024px) {
+    .mejs-container {
+        width: 700px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .mejs-container {
+        width: 580px !important;
+    }
+}

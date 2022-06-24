@@ -1,0 +1,85 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_06_06/styles.css"],
+    "intMedia": "interactives/02_06_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read the phrases in Chinese, and then answer the question that follows.",
+        "customView": "interactives/02_06_06/customview_imgbtn.htm"
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>晚餐</span> wǎncān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following images best describes a typical meal indicated by this word?</p>",
+        "answer": "<span class='fortv'>Image of family sitting together, having dinner with a lot of dishes on the table</span><img src='interactives/02_06_06/images/dish_together.jpg' alt='Image of family sitting together, having dinner with a lot of dishes on the table' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+        "options": ["<span class='fortv'>Image of a girl, having breakfast with milk and toast</span><img src='interactives/02_06_06/images/girl_having_breakfast.jpg' alt='Image of a girl, having breakfast with milk and toast' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+         "<span class='fortv'>Image of someone, having takeout food for lunch next to a laptop</span><img src='interactives/02_06_06/images/laptop.jpg' alt='Image of someone, having takeout food for lunch next to a laptop' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+         "<span class='fortv'>Image of a girl. eating fast food while driving</span><img src='interactives/02_06_06/images/girl_driving.jpg' alt='Image of a girl. eating fast food while driving' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>"],
+        "correct": "You got it! <em><span lang='zh-Hans'>晚餐</span> wǎncān</em> means “dinner,” and it’s a more formal occasion with more dishes involved.",
+        "incorrect": "Very close. Think about the meaning of this word and what a common meal like this is usually like.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>比萨饼</span> bǐsàbǐng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following food items has the same origin as this word?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>意大利面</span> yìdàlìmiàn </span><audio class='audio' controls src='interactives/02_06_06/intmedia/spaghetti.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>炸薯条</span> zhà shǔtiáo </span><audio class='audio' controls src='interactives/02_06_06/intmedia/french_fries.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>松饼</span> sōngbǐng </span><audio class='audio' controls src='interactives/02_06_06/intmedia/pancakes.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>米饭</span> mǐfàn </span><audio class='audio' controls src='interactives/02_06_06/intmedia/rice.mp3' ></audio>"
+        ],
+        "correct": "Outstanding! The words <em><span lang='zh-Hans'>比萨饼</span> bǐsàbǐng</em> means pizza and is Italian food just like <em><span lang='zh-Hans'>意大利面</span> yìdàlì miàn</em> (spaghetti).",
+        "incorrect": "Not quite. Think about the meaning of the word; then consider where it is from and what other food is also from the same origin.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>牛排</span> niúpái"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the item described often made from?",
+        "answer": "<span lang='zh-Hans'>牛肉</span> niúròu",
+        "options": ["<span lang='zh-Hans'>面包</span> miànbāo", "<span lang='zh-Hans'>奶酪</span> nǎilào.", "<span lang='zh-Hans'>牛奶</span> niúnǎi"],
+        "correct": "Fantastic job! <em><span lang='zh-Hans'>牛排</span> niúpái</em> is often made of beef (or some other types of meat), but is very unlikely to be made from cheese or bread.",
+        "incorrect": "So close! Consider the meaning of the word; then go through the options to see what kind of material each option is.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>虾</span> xiā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Where do you most likely find the item described by this word?",
+        "answer": "At a seafood restaurant",
+        "options": [
+          "At a coffee shop",
+          "At a vegetarian restaurant",
+          "At a juice bar"
+        ],
+        "correct": "How fabulous! The word <em><span lang='zh-Hans'>虾</span> xiā</em> means “shrimp,” and you can definitely find it at a seafood restaurant.",
+        "incorrect": "Not quite. Think about what this word means, what type of food it is, and where it is harvested.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

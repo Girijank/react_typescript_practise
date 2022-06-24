@@ -1,0 +1,65 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/03_06_07/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/03_06_07/textversion/textversion.htm",
+    "modal": {
+      "directions": "During which seasons are these festivals celebrated? Match them.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job finding the right seasons in Chinese for these festivals! You are now an expert of Chinese festivals and seasons. Way to go!",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "bins": [
+          {
+            "title": "Winter Solstice ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>冬天 </span> dōngtiān"                
+              }
+            ]
+          },
+          {
+            "title": "Dragon Boat Festival",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>夏天 </span> xiàtiān "
+              }
+            ]
+          },
+          {
+            "title": "Moon Festival",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>秋天</span> qiūtiān "
+              }
+            ]
+          },
+          {
+            "title": "Spring Festival",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>春天 </span> chūntiān"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

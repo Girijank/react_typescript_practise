@@ -1,0 +1,534 @@
+{
+  "objectives": [
+    {
+      "mID": "gs",
+      "lessons": [
+        {
+          "lessID": "00.01",
+          "title": "After completing this lesson, you will understand course specific items such as:",
+          "items": [
+            "What you are learning in this course",
+            "Supporting resources in the course",
+            "How to navigate the course and course icons",
+            "Parts of a lesson",
+            "Types of assessments and how to submit your work"
+          ]
+        }
+      ]
+    },
+    {
+      "mID": "s0",
+      "lessons": [
+        {
+          "lessID": "01",
+          "title": "After completing this lesson, you will be able to:",
+          "items": [
+            "participate in a collaborative activity using Chinese"
+          ]
+        }
+      ]
+    },
+    {
+      "mID": "1",
+      "lessons": [
+        {
+          "lessID": "01.01",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations with greetings and introductions.",
+            "Participate in a conversation with greetings and introductions.",
+            "Identify the initial and final sounds and the four tones needed for pronunciation in Chinese.",
+            "Identify pinyin and its use for learning pronunciation.",
+            "Compare with greetings and introductions in Chinese culture with own culture.",
+            "Identify examples of loanwords in Chinese.",
+            "Compare the way people introduce themselves and ask for names in Chinese with own culture."
+          ]
+        },
+        {
+          "lessID": "01.02",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations with introductions and sharing basic information.",
+            "Participate in a conversation with introductions and sharing basic information.",
+            "Recognize vocabulary needed for introductions and sharing basic information.",
+            "Identify the initial and final sounds “h” + final “o,” “ua,” and the pronunciation in Chinese.",
+            "Recognize basic practices for phone use in the Chinese culture.",
+            "Recognize gestures and practices when using numbers in Chinese.",
+            "Identify how to say and write numbers.",
+            "Compare how to say and write numbers and places in Chinese with own language."
+          ]
+        },
+        {
+          "lessID": "01.03",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations with descriptions.",
+            "Participate in a conversation with descriptions.",
+            "Identify the initial and final sounds “sh,” “i,” and “e” and the pronunciation in Chinese.",
+            "Recognize the need for adverbs when describing the Chinese culture.",
+            "Compare the use and placement of adverbs in Chinese with their use and placement in English.",
+            "Identify Chinese characters and their pronunciation.",
+            "Compare and contrast the way Chinese is written with their own language."
+          ]
+        },
+        {
+          "lessID": "01.04",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a comic strip in Chinese about greetings and introductions.",
+            "Identify the rules for writing Chinese characters. "
+          ]
+        },
+        {
+          "lessID": "01.05",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Actively participate in a in a basic conversation exchanging basic personal information in Chinese"
+          ]
+        },
+        {
+          "lessID": "01.06",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in formal conversations about ages and titles ",
+            "Participate in a formal conversation, sharing basic information including age",
+            "Recognize vocabulary needed for ages and titles",
+            "Identify the initial sound “j,” final “ou,” and the pronunciation in Chinese",
+            "Recognize basic practices in addressing people by titles or by professions in the Chinese culture",
+            "Recognize the difference between formal conversations in Chinese",
+            "Identify how to say and write numbers",
+            "Identify key information and details in a narrative of a Chinese American student living in the United States",
+            "Compare how to say and write numbers and ages in Chinese with their own language"
+          ]
+        },
+        {
+          "lessID": "01.07",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a spoken presentation describing basic information about a friend or an adult"
+          ]
+        }
+      ]
+    },
+    {
+      "mID": "2",
+      "lessons": [
+        {
+          "lessID": "02.01",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about food and food preferences",
+            "Participate in a conversation about food and food preferences",
+            "Recognize vocabulary needed to talk about food and food preferences",
+            "Identify the initial sound “c,” the final “ai” sound, and their pronunciations in Chinese",
+            "Identify basic sentence order in Chinese",
+            "Compare and contrast a typical Chinese diet with own"
+          ]
+        },
+        {
+          "lessID": "02.02",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about food and drink",
+            "Participate in a conversation about food and drink",
+            "Recognize vocabulary needed to talk about food and drink ",
+            "Identify the initial sound “ch,”  final “ao” and “eng” sounds, and their pronunciations in Chinese",
+            "Identify and apply the use of adverbs and adverbs of degree in Chinese",
+            "Identify and apply standard negation with bu in Chinese",
+            "Recognize the practices and characteristics of the Chinese tea culture",
+            "Compare Chinese desserts with desserts from one’s own culture"
+          ]
+        },
+        {
+          "lessID": "02.03",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about restaurant experiences",
+            "Participate in a conversation about restaurant experiences ",
+            "Recognize vocabulary about restaurant experiences",
+            "Identify the initial “x” and final “ie” sounds and their pronunciation in Chinese",
+            "Recognize the need for measure words when ordering or requesting in Chinese culture",
+            "Identify and apply the use of '<span lang='zh-Hans'>呢</span> ne' in questions",
+            "Identify and apply the use of '<span lang='zh-Hans'>呢</span> ne' in questions",
+            "Identify and apply the use of '<span lang='zh-Hans'>要</span> yào' for expressing wants",
+            "Identify table etiquette and rituals in China",
+            "Practice ordering in Chinese"
+          ]
+        },
+        {
+          "lessID": "02.04",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a coffee shop or diner menu in Chinese",
+            "Identify the rules for writing Chinese characters"
+          ]
+        },
+        {
+          "lessID": "02.05",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Actively participate in a in a basic conversation about preferences in Chinese",
+            "Actively participate in a simulated conversation between a server and a customer in a restaurant"
+          ]
+        },
+        {
+          "lessID": "02.06",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about meals and prices",
+            "Participate in a conversation about meals and prices",
+            "Recognize vocabulary about meals and prices",
+            "Identify the initial sound “q” and the final sounds “uo” and “an” and their pronunciation in Chinese",
+            "Recognize basic practices in paying for meals in the Chinese culture",
+            "Recognize basic practices for morning and afternoon tea in the Chinese culture",
+            "Identify borrowed food words in Chinese from other cultures",
+            "Identify currencies in Chinese speaking regions and their exchange rate with USD ",
+            "Identify key information and details in a narrative about a Chinese student from Hong Kong"
+          ]
+        },
+        {
+          "lessID": "02.07",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a spoken presentation ordering food and drink from a menu"
+          ]
+        }
+      ]
+    },
+    {
+      "mID": "3",
+      "lessons": [
+        {
+          "lessID": "03.01",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about family",
+            "Participate in a conversation about family",
+            "Recognize vocabulary needed to talk about family",
+            "Identify the initial sound “g,” final “ei” sound, and their pronunciations in Chinese",
+            "Identify how to express existence with '<span lang='zh-Hans'>有</span> yǒu' and the negation of 'yǒu' with 'méi'",
+            "Explore family structure in the Chinese culture",
+            "Identify the use of “ji(step)” when discussing family"
+          ]
+        },
+        {
+          "lessID": "03.02",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about describing family members",
+            "Participate in a conversation about describing family members ",
+            "Recognize vocabulary needed to talk about describing family members",
+            "Identify the initial sound “n” and final “en” sound and their pronunciations in Chinese",
+            "Identify and apply how to express close possession without 'de'",
+            "Identify and apply the use of “men” to indicate plural in pronouns",
+            "Recognize the practices and characteristics of taking care of the elderly in China",
+            "Compare a typical family in China with examples of family from own culture",
+            "Explore family ties and kinship in China"
+          ]
+        },
+        {
+          "lessID": "03.03",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about family descriptions, including origin",
+            "Participate in a conversation about family descriptions, including origin",
+            "Recognize vocabulary about family descriptions, including origin",
+            "Identify the initial “zh” and final “ong” sounds and their pronunciation in Chinese",
+            "Compare Chinese American family traditions with those in China as well as with own culture and traditions",
+            "Identify the extent and importance of national identity amongst Chinese minorities and majority",
+            "Identify and apply the use of 'both/all' as adverb 'dou'",
+            "Identify family traditions in China",
+            "Identify Chinese American family traditions",
+            "Use a map to identify the locations of various minority groups in China"
+          ]
+        },
+        {
+          "lessID": "03.04",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a family tree, using Chinese characters ",
+            "Identify the rules for writing Chinese characters"
+          ]
+        },
+        {
+          "lessID": "03.05",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Actively participate in a basic conversation about families in Chinese"
+          ]
+        },
+        {
+          "lessID": "03.06",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about seasons and celebrations",
+            "Participate in a conversation about seasons and celebrations",
+            "Recognize vocabulary about seasons and celebrations",
+            "Identify the initial sound “z” and the final sounds “un” and “ing” and their pronunciation in Chinese",
+            "Identify and apply the structures of dates when talking about important events",
+            "Read narrations about childhood memories in China",
+            "Identify various festivals and seasons in China",
+            "Identify and apply time frequency and tense words and phrases in Chinese ",
+            "Identify key information and details in a narrative about a Chinese student from Northern China"
+          ]
+        },
+        {
+          "lessID": "03.07",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a spoken presentation describing an important family event in the past"
+          ]
+        }
+      ]
+    },
+    {
+      "mID": "4",
+      "lessons": [
+        {
+          "lessID": "04.01",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about a school day",
+            "Participate in a conversation about a school day",
+            "Recognize vocabulary needed to talk about a school day ",
+            "Identify the initial sound “k” and final “a” and “üe” sounds and their pronunciations in Chinese",
+            "Identify how to express 'going to' in Chinese",
+            "Compare and contrast classroom settings in China and in the U.S.",
+            "Identify basic time structures in Chinese"
+          ]
+        },
+        {
+          "lessID": "04.02",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about school supplies",
+            "Participate in a conversation about school supplies",
+            "Recognize vocabulary needed to talk about school supplies  ",
+            "Identify the initial sound “w” and final sound “ang” and their pronunciations in Chinese",
+            "Identify and apply the two different ways to say “or” in Chinese",
+            "Identify and apply how to express need in Chinese",
+            "Compare Chinese classroom structure and size with own culture"
+          ]
+        },
+        {
+          "lessID": "04.03",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about school schedules and activities",
+            "Participate in a conversation about school schedules and activities ",
+            "Recognize vocabulary about school schedules and activities",
+            "Identify the initial “t” and final “u” sounds and their pronunciation in Chinese",
+            "Identify and apply how to express the days of the week in Chinese",
+            "Compare and contrast school schedules in China and in the U.S.",
+            "Identify and apply the use of '<span lang='zh-Hans'>会</span> huì' to express a learned skill",
+            "Identify and apply the use of '<span lang='zh-Hans'>能</span> néng' to express an ability or possibility",
+            "Identify and apply the use of '<span lang='zh-Hans'>不要</span> búyào' for negative commands",
+            "Identify aspects of a typical Chinese school day"
+          ]
+        },
+        {
+          "lessID": "04.04",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a school schedule in Chinese with times and items you need for the classes ",
+            "Identify the rules for writing Chinese characters"
+          ]
+        },
+        {
+          "lessID": "04.05",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Actively participate in a basic conversation about a typical school day in Chinese",
+            "Actively participate in a simulated conversation between two students talking about a typical school day"
+          ]
+        },
+        {
+          "lessID": "04.06",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about clothing used in school and other occasions",
+            "Participate in a conversation about clothing used in school and other occasions ",
+            "Recognize vocabulary about clothing used in school and other occasions",
+            "Identify the initial sound “m” and the final sound “uan” and their pronunciation in Chinese",
+            "Recognize basic practices in clothing used for school in the Chinese culture",
+            "Identify and apply the use of the verbs for “to wear”",
+            "Identify and apply the use of '<span lang='zh-Hans'>可以</span> kěyǐ' to express permission ",
+            "Compare and contrast the educational systems in China with those in the United States",
+            "Identify key information and details in a narrative about a Chinese student from Taiwan"
+          ]
+        },
+        {
+          "lessID": "04.07",
+          "title": "After completing this lesson, you will be able to",
+          "items": ["Create a spoken presentation about a favorite class"]
+        }
+      ]
+    },
+    {
+      "mID": "5",
+      "lessons": [
+        {
+          "lessID": "05.01",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about the rooms in a house",
+            "Participate in a conversation about the rooms in a house",
+            "Recognize vocabulary needed to talk about the rooms in a house",
+            "Identify the initial “f” sound and final “ian” sounds and their pronunciations in Chinese",
+            "Identify how to express existence with <span lang='zh-Hans'>有</span> yǒu (to have) and <span lang='zh-Hans'>在</span> zài (in/on/at) in Chinese",
+            "Compare and contrast types of homes in China and in the U.S.",
+            "Identify how houses are situated in China, using feng shui"
+          ]
+        },
+        {
+          "lessID": "05.02",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about items and chores in a bedroom",
+            "Participate in a conversation about items and chores in a bedroom",
+            "Recognize vocabulary needed to talk about items and chores in a bedroom",
+            "Identify the initial sound “y” and final “ui” sounds and their pronunciations in Chinese",
+            "Identify and apply how to express possession with <span lang='zh-Hans'>有</span> yǒu (to have) in Chinese",
+            "Identify and apply how to use <span lang='zh-Hans'>要</span> yào (be going to) to talk about chores",
+            "Compare and contrast the use of prepositions in Chinese and English",
+            "Identify how rooms are set up and customs in China using feng shui"
+          ]
+        },
+        {
+          "lessID": "05.03",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about chores and items in the common areas of a home",
+            "Participate in a conversation about chores and items in the common areas of a home",
+            "Recognize vocabulary about chores and items in the common areas of a home ",
+            "Identify the initial “d” and final “iang” and “ia” sounds and their pronunciation in Chinese",
+            "Compare and contrast cooking routines in China and in the U.S.",
+            "Identify how living rooms and kitchens are set up and customs in China, using feng shui",
+            "Identify how the Chinese almanac affects house arrangement, moving, or building"
+          ]
+        },
+        {
+          "lessID": "05.04",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Apply the rules of feng shui, create a plan for your dream house, and label it in Chinese.",
+            "Identify the rules for writing Chinese characters."
+          ]
+        },
+        {
+          "lessID": "05.05",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Actively participate in a in a basic conversation about homes and chores in Chinese",
+            "Actively participate in a simulated conversation between two students talking about homes and chores"
+          ]
+        },
+        {
+          "lessID": "05.06",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about chores and items in the bathroom",
+            "Participate in a conversation about chores and items in the bathroom",
+            "Recognize vocabulary about chores and items in the bathroom",
+            "Identify the initial sound “s” and the final sound “in” and their pronunciation in Chinese",
+            "Identify chores and responsibilities in the Chinese culture ",
+            "Compare and contrast chores and responsibilities in China with those in the United States",
+            "Compare and contrast laundry services in China with those in the United States",
+            "Identify key information and details in a narrative about a Chinese student from Southern China"
+          ]
+        },
+        {
+          "lessID": "05.07",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Create a spoken presentation comparing a type of Chinese home with own"
+          ]
+        }
+      ]
+    },
+    {
+      "mID": "6",
+      "lessons": [
+        {
+          "lessID": "06.01",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about places in a community",
+            "Participate in a conversation about places in a community",
+            "Recognize vocabulary needed to talk about places in a community",
+            "Identify the initial “l” and final “uai” sounds and their pronunciations in Chinese",
+            "Identify and apply how to discuss specialized stores with “<span lang='zh-Hans'>店</span> diàn” in Chinese",
+            "Identify and apply how to express negation of past actions with structure: Subject + <span lang='zh-Hans'>没有</span> méiyǒu + verb + <span lang='zh-Hans'>过</span> guò + (object)",
+            "Explore shared activity/entertainment/recreation areas in apartment communities in China",
+            "Read signs representing places in the community"
+          ]
+        },
+        {
+          "lessID": "06.02",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about activities done around town",
+            "Participate in a conversation about activities done around town ",
+            "Recognize vocabulary needed to talk about activities done around town ",
+            "Identify the initial “p” and final “iu” sounds and their pronunciations in Chinese",
+            "Identify and apply how to use tag questions with “<span lang='zh-Hans'>吗</span> ma” ",
+            "Compare and contrast popular pastimes in China with own culture",
+            "Identify Chinese music genres and the music culture in China"
+          ]
+        },
+        {
+          "lessID": "06.03",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about the downtown area of a community",
+            "Participate in a conversation about the downtown area of a community",
+            "Recognize vocabulary about the downtown area of a community",
+            "Identify the initial “b” sounds, final “u” sounds, and their pronunciation in Chinese",
+            "Compare and contrast downtown city layouts in China and in the U.S. (culture)",
+            "Identify and apply how to give suggestions with “<span lang='zh-Hans'>吧</span> ba”",
+            "Identify and apply how to use tag questions with “<span lang='zh-Hans'>不</span> bù” ",
+            "Identify and apply how to form affirmative-negative questions in Chinese",
+            "Identify and provide the locations of different buildings in a community, using prepositions"
+          ]
+        },
+        {
+          "lessID": "06.04",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Draw and label a map of a community",
+            "Plan a trip to a Chinese city",
+            "Identify the rules for writing Chinese characters"
+          ]
+        },
+        {
+          "lessID": "06.05",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Actively participate in a basic conversation about places and activities around my community in Chinese",
+            "Actively participate in a simulated conversation between two students talking about what to do at different places in the community",
+            "Ask for and give directions to different places in a community in order to solve problems or complete tasks"
+          ]
+        },
+        {
+          "lessID": "06.06",
+          "title": "After completing this lesson, you will be able to",
+          "items": [
+            "Identify details in conversations about travel and places in and around the community",
+            "Participate in a conversation about travel and places in and around the community ",
+            "Recognize vocabulary about travel and places in and around the community ",
+            "Identify the initial sound “r” and the final sound “er” and their pronunciation in Chinese",
+            "Identify the difference between <span lang='zh-Hans'>坐</span> zuò and <span lang='zh-Hans'>骑</span> qí for “to ride” in different modes of transportation",
+            "Identify and apply how to do something with “<span lang='zh-Hans'>怎么</span> zenme”",
+            "Identify the order of addresses in Chinese",
+            "Identify key information and details in a narrative about rural versus urban life for a Chinese student from Beijing"
+          ]
+        },
+        {
+          "lessID": "06.07",
+          "title": "After completing this lesson, you will be able to",
+          "items": ["Create a spoken presentation about my destination"]
+        }
+      ]
+    }
+  ]
+}

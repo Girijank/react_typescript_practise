@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_02_08/styles.css"],
+    "intMedia": "interactives/04_02_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then, complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "dictionary.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>字典</span> zìdiǎn (dictionary)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following classes would you <strong>most</strong> likely need the item indicated in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>中文课</span> zhōngwénkè </span><audio class='audio' controls src='interactives/04_02_08/intmedia/chinese_class.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>数学课</span> shùxuékè  </span><audio class='audio' controls src='interactives/04_02_08/intmedia/math_class.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>体育课</span> tǐyùkè  </span><audio class='audio' controls src='interactives/04_02_08/intmedia/physical_education_class.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>艺术课</span> yìshùkè  </span><audio class='audio' controls src='interactives/04_02_08/intmedia/art_class.mp3' ></audio>"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>字典</span> zìdiǎn means “dictionary,” and you most likely need it for language classes such as <span lang='zh-Hans'>中文课</span> zhōngwénkè (Chinese class). ",
+        "incorrect": "So close! Listen to the word again to identify its meaning. Then consider how you may use it for one of the classes in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "scissors.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>剪刀</span> jiǎndāo (scissors)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following places would you <strong>least</strong> likely find the item indicated in the audio?</p>",
+        "answer": "In my PE class",
+        "options": [
+          "In a barber’s shop",
+          "In my art class",
+          "In a tailor’s shop"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>剪刀</span> jiǎndāo means “scissors,” and the place in the choices that you need it the least would be in your PE class.",   
+        "incorrect": "Not quite…listen to the word again to understand its meaning, and then consider in which of the four choices you would least expect it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "marker.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>马克笔</span> mǎkèbǐ (marker)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words belongs in the same category as the word in audio?</p>",
+        "answer": "<span lang='zh-Hans'>苏打</span>",
+        "options": [
+          "<span lang='zh-Hans'>学校</span>",
+          "<span lang='zh-Hans'>电脑</span>",
+          "<span lang='zh-Hans'>牛奶</span>"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>马克笔</span> mǎkèbǐ means “marker,” and it’s a borrowed word. Another borrowed word among the choices is <span lang='zh-Hans'>苏打</span> sūdǎ (soda), which is also a direct translation by sound from English.",        
+        "incorrect": "Not quite…listen to the word again and think about its meaning in English. Then compare their pronunciations in both Chinese and English and check the choices to see which word has similar feature.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "ruler.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>尺子</span> chǐzi (ruler)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be best completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>上数学课我需要_____。</span> Shàng shùxuékè wǒ xūyào _____.",
+        "options": [
+          "<span lang='zh-Hans'>今天我_____到达学校</span> Jīntiān wǒ _____ dàodá xuéxiào.",
+          "<span lang='zh-Hans'>我的生日是六月_____</span> Wǒde shēngrì shì liùyuè _____.",
+          "<span lang='zh-Hans'>请给我三碗_____。</span> Qǐng gěi wǒ sān wǎn_____."
+        ],
+        "correct": "Fantastic job! <span lang='zh-Hans'>尺子</span> chǐzi means “ruler,” and it can best fit in the sentence <span lang='zh-Hans'>上数学课我需要尺子</span> Shàng shùxuékè wǒ xūyào chǐzi. (For math class, I need a ruler.)",
+        "incorrect": "Oops… listen to the audio one more time to identify the meaning of the word, and then place it in the blanks of the choices to see which one fits the best for both grammar and meaning. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

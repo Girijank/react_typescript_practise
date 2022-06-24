@@ -1,0 +1,248 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_08_02/styles.css"],
+    "progressBar": true,
+    "resultsPage": false
+  },
+  "body": [    
+    [
+      {
+        "type": "config",
+        "customView": "interactives/04_08_02/index.htm",
+        "directions": "Read the question, and select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>他在上英文课。</span> Tā zài shàng yīngwénkè.</span><audio class='audio' controls src='interactives/04_08_02/intmedia/attending_english_class.mp3'></audio>",
+
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>他在上社会研究课。</span> Tā zài shàng shèhuìyánjiūkè.</span><audio class='audio' controls src='interactives/04_08_02/intmedia/attending_social_studies_class.mp3' ></audio>",
+
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>他在上体育课。</span> Tā zài shàng tǐyùkè.</span><audio class='audio' controls src='interactives/04_08_02/intmedia/attending_pe_class.mp3'></audio>"
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "Image of smiling male teacher with student in front of chalkboard, writing Chinese",
+          "src": "interactives/04_08_02/intmedia/image002.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "<p>Select the most appropriate word in the audio that describes the image.</p><p class='fortv'>Image of smiling male teacher with student in front of chalkboard, writing Chinese</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>他在上中文课。</span> Tā zài shàng zhōngwénkè.</span><audio class='audio' controls src='interactives/04_08_02/intmedia/attending_chinese_class.mp3'></audio>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>你今天下午什么时候上课</span> ？Nǐ jīntiān xiàwǔ shénme shíhòu shàngkè.",
+          "<span lang='zh-Hans'>你今天上午上什么课</span> ？Nǐ jīntiān shàngwǔ shàng shénme kè?",
+          "<span lang='zh-Hans'>你今天什么时候到达学校</span> ？Nǐ jīntiān shénme shíhòu dàodá xuéxiào?"
+        ],
+        "quiz": "Read the statement in Chinese.</br> <span lang='zh-Hans'>我今天上午七点去学校。</span> Wǒ jīntiān shàngwǔ qīdiǎn qù xuéxiào. Which of the following questions would give this answer?",
+        
+        "answer": "<span lang='zh-Hans'>你今天什么时候去学校</span> ？Nǐ jīntiān shénme shíhòu qù xuéxiào?",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>说中文</span>",
+          "<span lang='zh-Hans'>写英文</span>",
+          "<span lang='zh-Hans'>画画</span>"
+        ],
+        "quiz": "Tracy just came back home from school, and she’s writing a journal entry about her day. Read the provided part of her journal.<br><br><span lang='zh-Hans'>今天是星期一。我下午上数学课和艺术课。数学课一点开始，两点结束。艺术课两点十分开始，三点十分结束。上艺术课我们练习画画。星期三下午我们一点有英文课，两点十分上社会研究课。上英文课我们练习说英文。我们每天都有音乐课和体育课。</span> Jīntiān shì xīngqīyī. Wǒ xiàwǔ shàng shùxuékè hé yìshùkè. Shùxuékè yīdiǎn kāishǐ, liǎngdiǎn jiéshù. Yìshùkè liǎngdiǎn shífēn kāishǐ, sāndiǎn shéfēn jiéshù. Shàng yìshùkè wǒmen liànxí huàhuà. Xīngqīsān xiàwǔ wǒmen yīdiǎn yǒu yīngwénkè, liǎngdiǎn shífēn shàng shèhuì yánjiūkè. Shàng yīngwénkè wǒmen liànxí shuō yīngwén. Wǒmen měitiān dōuyǒu yīnyuèkè hé tǐyùkè. <br><br> Which activity does Tracy <strong>most</strong> likely do every day? ",
+
+
+        "answer": "<span lang='zh-Hans'>唱歌</span>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>体育课</span>",
+          "<span lang='zh-Hans'>电脑</span>",
+          "<span lang='zh-Hans'>需要</span>"
+        ],
+        "quiz": "Which of the following words contains the initial sound “w”? <br><br>",
+        "answer": "<span lang='zh-Hans'>文件夹</span>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+
+
+    [
+      {
+        "type": "config",
+        "customView": "interactives/04_08_02/custom_withvideo.htm"
+      },
+      {
+        "type": "video",
+        "entryID": "1_8e25m4ye",
+        "textVersion": "The audio for this video content is an example of the Chinese Language."
+      },
+    
+      {
+        "type": "mc",
+        "options": [
+          "Chinese class",
+          "English class",
+          "Art class"
+        ],   
+        "quiz": "According to the dialogue video, what class does Zhang Ming have at 2 p.m.?",
+        "answer": "Music class",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>尺子和剪刀</span>",
+          "<span lang='zh-Hans'>字典和剪刀</span>",
+          "<span lang='zh-Hans'>尺子和笔</span>"
+        ],
+        "quiz": "Tracy just came back home from school, and she’s writing a journal entry about her day. Read the provided part of her journal.  <br><br><span lang='zh-Hans'>今天是星期一。我下午上数学课和艺术课。数学课一点开始，两点结束。艺术课两点十分开始，三点十分结束。上艺术课我们练习画画。星期三下午我们一点有英文课，两点十分上社会研究课。上英文课我们练习说英文。我们每天都有音乐课和体育课。</span> Jīntiān shì xīngqīyī. Wǒ xiàwǔ shàng shùxuékè hé yìshùkè. Shùxuékè yīdiǎn kāishǐ, liǎngdiǎn jiéshù. Yìshùkè liǎngdiǎn shífēn kāishǐ, sāndiǎn shéfēn jiéshù. Shàng yìshùkè wǒmen liànxí huàhuà. Xīngqīsān xiàwǔ wǒmen yīdiǎn yǒu yīngwénkè, liǎngdiǎn shífēn shàng shèhuì yánjiūkè. Shàng yīngwénkè wǒmen liànxí shuō yīngwén. Wǒmen měitiān dōuyǒu yīnyuèkè hé tǐyùkè.<br><br> Which of the following group of supplies does Tracy most likely need on Wednesday at 1 p.m.? ",
+
+        "answer": "<span lang='zh-Hans'>字典和笔</span>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/04_08_02/custom_withvideo.htm"
+      },
+      {
+        "type": "video",
+        "entryID": "1_8e25m4ye",
+        "textVersion": "The audio for this video content is an example of the Chinese Language."
+      },
+    
+      {
+        "type": "mc",
+        "options": [
+          "Zhang Ming probably needs some snacks before his afternoon classes are over.",
+          "If Zhang Ming had a cold and lost his voice, his afternoon classes on that day would not be affected.",
+          "If Chen Lili’s invited to the chorus at school, she will probably get the role of lead singer."
+        ],   
+        "quiz": "What can <strong>most</strong> likely be deduced from the dialogue video? ",
+        "answer": "Zhang Ming will have no trouble writing a letter to his pen pal in the U.S.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    
+    [{
+      "type": "text",
+      "content": "Listen to the dialogue in the audio between Kylie and her dad at home on Monday morning when she’s preparing for school; then answer the question that follows."
+    },{
+      "type": "localAudio",
+      "src": "interactives/04_08_02/intmedia/kylie_and_dad_monday_morning.mp3",
+      "textVersion": "<p>Audio for Kylie’s Dad: <span lang='zh-Hans'>今天上午很冷，你需要穿毛衣和外套。</span> Jīntiān shàngwǔ hěn lěng, nǐ xūyào chuān máoyī hé wàitào.</p><p>Kylie: <span lang='zh-Hans'>我上午想穿裙子。</span> Wǒ shàngwǔ xiǎng chuān qúnzi.</p><p>Kylie’s Dad: <span lang='zh-Hans'>不可以，太冷了。你可以穿牛仔裤。下午很热，你可以穿裙子或是短裤。</span> Bù kěyǐ, tàilěngle. Nǐ kěyǐ chuān niúzǎikù. Xiàwǔ hěnrè, nǐ kěyǐ chuān qúnzi huòshì duǎnkù.</p><p>Kylie: <span lang='zh-Hans'>好的。星期三我有音乐课，我需要穿制服。</span> Hǎode. Xīngqīsān wǒ yǒu yīnyuèkè, wǒ xūyào chuān zhìfú.</p><p>Kylie’s Dad: <span lang='zh-Hans'>好。我们星期六去爷爷奶奶家，你可以穿衬衫和裤子。</span> Hǎo. Wǒmen xīngqīliù qù yéyenǎinai jiā, nǐ kěyǐ chuān chènshān hé kùzi.</p><p>Kylie: <span lang='zh-Hans'>我可以穿毛衣和牛仔裤吗？</span> Wǒ kěyǐ chuān máoyī hé niúzǎikù ma?</p><p>Kylie’s Dad: <span lang='zh-Hans'>可以的。不过你不可以穿短裤和凉鞋。</span> Kěyǐde. Búguò nǐ bùkěyǐ chuān duǎnkù hé liángxié.</p>"  
+    },
+      {
+        "type": "mc",
+        "options": [
+          "Skirt or shorts",
+          "Jeans or skirt",
+          "Sweater and shorts"
+        ],
+        "quiz": "What does Kylie’s dad suggest that Kylie wear on Monday morning? ",
+        "answer": "Sweater and coat",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+
+
+    [
+      {
+        "type": "config",
+        "customView": "interactives/04_08_02/index.htm",
+        "directions": "Read the question, and then select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>她穿制服和鞋。</span> Tā chuān zhìfú hé xié.",
+
+          "<span lang='zh-Hans'>她穿衬衫和裤子。</span> Tā chuān chènshān hé kùzi.",
+
+          "<span lang='zh-Hans'>她穿裙子和凉鞋。</span> Tā chuān qúnzi hé liángxié."
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "Image of a young woman, wearing a sweater and coat",
+          "src": "interactives/04_08_02/intmedia/image003.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "<p>Which sentence <strong>best</strong> describes the image?</p><p class='fortv'>Image of a young woman, wearing a sweater and coat</p>",
+        "answer": "<span lang='zh-Hans'>她穿毛衣和外套。</span> Tā chuān máoyī hé wàitào.",
+
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+    [
+      {
+        "type": "mc",
+        "options": [
+          "Tracy’s wardrobe has many sandals and dress shoes.",
+          "The weather on Friday is similar to that on Monday.",
+          "It’s probably very cold on Sunday."
+        ],
+        "quiz": "It’s Sunday morning, and Tracy is writing an email to her friend describing her past week at school. Below is a paragraph from her writing. Read the paragraph, and then answer the question that follows.</br> <span lang='zh-Hans'>星期一天气有点凉，我穿衬衫，毛衣，牛仔裤和球鞋去学校。星期二很热，我穿裙子和球鞋。星期三我们上音乐课练习唱歌，我穿制服，裙子和球鞋。星期四我穿衬衫，裤子和球鞋。星期五我也穿裙子和球鞋。星期六我去庆祝朋友的生日，我穿毛衣，外套，牛仔裤和球鞋。今天是星期天，我可以穿短裤和球鞋。</span> Xīngqīyī tiānqì yǒudiǎn liáng, wǒ chuān chènshān, máoyī, niúzǎikù hé qiúxié qù xuéxiào. Xīngqīèr hěn rè, wǒ chuān qúnzi hé qiúxié. Xīngqīsān wǒmen shàng yīnyùkè liànxí chànggē, wǒ chuān zhìfú, qúnzi hé qiúxié. Xīngqīsì wǒ chuān chènshān, kùzi hé qiúxié. Xīngqīwǔ wǒ yě chuān qúnzi hé qiúxié. Xīngqīliù wǒ qù qìngzhù péngyǒu de shēngrì, wǒ chuān máoyī, wàitào, niúzǎikù hé qiúxié. Jīntiān shì xīngqītiān, wǒ kěyǐ chuān duǎnkù hé qiúxié. </br></br> What can <strong>most</strong> likely be deduced from the paragraph above? ",
+        "answer": "It’s probably quite warm on Wednesday.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+
+
+    
+      
+    
+  ]
+}

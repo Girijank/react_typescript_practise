@@ -1,0 +1,41 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": "<span lang='zh-Hans'>生字</span> (New Characters)",
+    "theme": "standard",
+    "showInteractive": "Show Slideshow",
+    "css": ["interactives/04_04_03/css/styles.css"]
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr> <th class='col_15'>Character</th> <th class='col_15'>Pinyin</th> <th class='col_70'>Stroke sequence</th></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>上</span></p> </td> <td> <p class='text-center pinyin'>shàng</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image1_flvs.png' alt='Stroke sequence for shàng' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>下</span></p> </td> <td> <p class='text-center pinyin'>xià</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image2_flvs.png' alt='Stroke sequence for xià' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>午</span></p> </td> <td> <p class='text-center pinyin'>wǔ</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image3_flvs.png' alt='Stroke sequence for wǔ' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>要</span></p> </td> <td> <p class='text-center pinyin'>yào</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image4_flvs.png' alt='Stroke sequence for yào' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>课</span></p> </td> <td> <p class='text-center pinyin'>kè</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image5_flvs.png' alt='Stroke sequence for kè' /></div> </td></tr> </table>"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr> <th class='col_15'>Character</th> <th class='col_15'>Pinyin</th> <th class='col_70'>Stroke sequence</th></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>学</span></p> </td> <td> <p class='text-center pinyin'>xué</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image6_flvs.png' alt='Stroke sequence for xué' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>会</span></p> </td> <td> <p class='text-center pinyin'>huì</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image7_flvs.png' alt='Stroke sequence for huì' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>科</span></p> </td> <td> <p class='text-center pinyin'>kē</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image8_flvs.png' alt='Stroke sequence for kē' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>需</span></p> </td> <td> <p class='text-center pinyin'>xū</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image9_flvs.jpg' alt='Stroke sequence for xū' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>笔</span></p> </td> <td> <p class='text-center pinyin'>bǐ</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image10_flvs.png' alt='Stroke sequence for bǐ' /></div> </td></tr> </table>"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr> <th class='col_15'>Character</th> <th class='col_15'>Pinyin</th> <th class='col_70'>Stroke sequence</th></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>书</span></p> </td> <td> <p class='text-center pinyin'>shū</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image11_flvs.png' alt='Stroke sequence for shū' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>艺</span></p> </td> <td> <p class='text-center pinyin'>yì</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image12_flvs.png' alt='Stroke sequence for yì' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>术</span></p> </td> <td> <p class='text-center pinyin'>shù</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image13_flvs.png' alt='Stroke sequence for shù' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>马</span></p> </td> <td> <p class='text-center pinyin'>mǎ</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image14_flvs.png' alt='Stroke sequence for mǎ' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>星</span></p> </td> <td> <p class='text-center pinyin'>xīng</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image15_flvs.png' alt='Stroke sequence for xīng' /></div> </td></tr> </table>"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr> <th class='col_15'>Character</th> <th class='col_15'>Pinyin</th> <th class='col_70'>Stroke sequence</th></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>期</span></p> </td> <td> <p class='text-center pinyin'>qī</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image16_flvs.jpg' alt='Stroke sequence for qī' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>画</span></p> </td> <td> <p class='text-center pinyin'>huà</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image17_flvs.png' alt='Stroke sequence for huà' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>读</span></p> </td> <td> <p class='text-center pinyin'>dú</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image18_flvs.png' alt='Stroke sequence for dú' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>听</span></p> </td> <td> <p class='text-center pinyin'>tīng</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image19_flvs.png' alt='Stroke sequence for tīng' /></div> </td></tr><tr> <td> <p class='text-center'><span lang='zh-Hans'>说</span></p> </td> <td> <p class='text-center pinyin'>shuō</p> </td> <td> <div class='fevimagecenter'><img class='fevimageBorder' src='interactives/04_04_03/intmedia/image20_flvs.png' alt='Stroke sequence for shuō' /></div> </td></tr> </table>"
+      }
+    ]
+
+
+
+
+  ]
+}

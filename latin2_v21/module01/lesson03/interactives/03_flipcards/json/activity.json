@@ -1,0 +1,80 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Change each of these English Active sentences into a Passive Voice sentence. Then select each card to check your answer.",
+    "instruction_textversion":"Change each of these English Active sentences into a Passive Voice sentence. Then check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>I love my mother.</p><p>(Active)</p>",
+          "textversion": "<p>I love my mother. (Active)</p>"
+        },
+        "back": {
+          "content": "<p>My mother is loved by me.</p><p>(Passive)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>My mother is loved by me. (Passive)</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>The boy gave the girl a flower.</p><p>(Active)</p>",
+          "textversion": "<p>The boy gave the girl a flower. (Active)</p>"
+        },
+        "back": {
+          "content": "<p>The flower was given to the girl by the boy.</p><p>(Passive)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>The flower was given to the girl by the boy. (Passive)</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>True football fans will watch the Super Bowl.</p><p>(Active)</p>",
+          "textversion": "<p>True football fans will watch the Super Bowl. (Active)</p>"
+        },
+        "back": {
+          "content": "<p>The Super Bowl will be watched by true football fans.</p><p>(Passive)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>The Super Bowl will be watched by true football fans. (Passive)</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Many students have finished the course.</p><p>(Active)</p>",
+          "textversion": "<p>Many students have finished the course. (Active)</p>"
+        },
+        "back": {
+          "content": "<p>The course has been finished by many students.</p><p>(Passive)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>The course has been finished by many students. (Passive)</p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>The Romans had named Caesar Dictator for Life.</p><p>(Active)</p>",
+          "textversion": "<p>The Romans had named Caesar Dictator for Life. (Active)</p>"
+        },
+        "back": {
+          "content": "<p>Julius Caesar had been named Dictator for Life by the Romans.</p><p>(Passive)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'>Julius Caesar had been named Dictator for Life by the Romans. (Passive)</p>"
+        }
+      },
+      {
+        "id": "card_06",
+        "front": {
+          "content": "<p>I will have expanded my English vocabulary when I finish Latin 2.</p><p>(Active)</p>",
+          "textversion": "<p>I will have expanded my English vocabulary when I finish Latin 2. (Active)</p>"
+        },
+        "back": {
+          "content": "<p>My English vocabulary will have been expanded when I finish Latin 2.</p><p>(Passive)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans6'>Show Answer</div><p id='ans6' class='collapse'>My English vocabulary will have been expanded when I finish Latin 2. (Passive)</p>"
+        }
+      }
+    ]
+  }
+}

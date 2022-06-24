@@ -1,0 +1,696 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_02_09_drop/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "_slidesToDisplay": 4,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "Select each drop-down, and select the right word to complete the sentence.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "Your younger brother likes to play videogames, doesn’t he?"
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>?</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>你</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>弟弟</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>喜欢</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>玩电子游戏</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>是</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>吗</span>",
+            "options": [
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>你 弟弟 喜欢 玩电子游戏，是 吗</span>? means “Your younger brother likes to play videogames, doesn’t he?”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Let’s go watch a concert, okay?"
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>?</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我们</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>去</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>看</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>演唱会</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>好</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>吗</span>",
+            "options": [
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我们 去 看 演唱会，好 吗</span>? means “Let’s go watch a concert, okay?”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Her mom is a doctor, isn’t she?"
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>?</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>她</span>",
+            "options": [             
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>妈妈</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>是</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>医生</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>是</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>吗</span>",
+            "options": [
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>她 妈妈 是 医生，是 吗</span>？means “Her mom is a doctor, isn’t she?”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Dad, I want to eat ice cream, may I?"
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_*_ <span lang='zh-Hans'>？</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>爸爸</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>要</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>吃</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>冰激凌</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>可以</span>",
+            "options": [
+              "<span lang='zh-Hans'>吗</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>吗</span>",
+            "options": [
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>玩电子游戏</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>好</span>",
+              "<span lang='zh-Hans'>演唱会</span>",
+              "<span lang='zh-Hans'>看</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>我们</span>",
+              "<span lang='zh-Hans'>医生</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>可以</span>",
+              "<span lang='zh-Hans'>冰激凌</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>爸爸</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>爸爸，我 要 吃 冰激凌，可以 吗</span>？ means “Dad, I want to eat ice cream, may I?”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}
+
+

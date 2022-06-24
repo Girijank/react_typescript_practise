@@ -1,0 +1,313 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_01_08/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "_slidesToDisplay": 5,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "Choose the correct Chinese character to form the sentence shown.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "What is your name?"
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ ?",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>你</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>叫</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>什</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>么</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>名</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>字</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>你叫什么名字</span>? means “What is your name?”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "My last name is…"
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_ … ",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>姓</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我姓</span>… means “My last name is…”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Very nice to meet you."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>很</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>高</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>兴</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>认</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>识</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>你</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>叫</span>",
+              "<span lang='zh-Hans'>姓</span>",
+              "<span lang='zh-Hans'>认</span>",
+              "<span lang='zh-Hans'>识</span>",
+              "<span lang='zh-Hans'>高</span>",
+              "<span lang='zh-Hans'>兴</span>",
+              "<span lang='zh-Hans'>什</span>",
+              "<span lang='zh-Hans'>么</span>",
+              "<span lang='zh-Hans'>名</span>",
+              "<span lang='zh-Hans'>字</span>",
+              "<span lang='zh-Hans'>很</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>很高兴认识你。</span> means “Very nice to meet you.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

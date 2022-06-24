@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_02_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/06_02_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, and then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “p”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Terrific job catching the “p” sound. You are on fire!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>外婆</span> wàipó (maternal grandmother)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/maternal_grandmother.mp3",
+                    "textVersion": "<span lang='zh-Hans'>外婆</span> wàipó",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job catching the “p” sound. You are on fire!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>店铺</span> diànpù (store)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/store.mp3",
+                    "textVersion": "<span lang='zh-Hans'>店铺</span> diànpù",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job catching the “p” sound. You are on fire!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>拍照</span> pāizhào (to take pictures)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/to_take_pictures.mp3",
+                    "textVersion": "<span lang='zh-Hans'>拍照</span> pāizhào ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job catching the “p” sound. You are on fire!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>跑步</span> pǎobù (to run/to jog)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/to_run_to_jog.mp3",
+                    "textVersion": "<span lang='zh-Hans'>跑步</span> pǎobù ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “iu” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Fabulous job! You’ve done an excellent job finding the “iu” sound. Totally awesome!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>社会研究课</span> shèhuìyánjiūkè (social studies class)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/social_studies_class.mp3",
+                    "textVersion": "<span lang='zh-Hans'>社会研究课</span> shèhuìyánjiūkè ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Fabulous job! You’ve done an excellent job finding the “iu” sound. Totally awesome!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>牛仔裤</span> niúzǎikù (jeans)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/jeans.mp3",
+                    "textVersion": "<span lang='zh-Hans'>牛仔裤</span> niúzǎikù",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Fabulous job! You’ve done an excellent job finding the “iu” sound. Totally awesome!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>打乒乓球</span> dǎ pīngpāngqiú (to play ping-pong) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/to_play_pingpong.mp3",
+                    "textVersion": "<span lang='zh-Hans'>打乒乓球</span> dǎ pīngpāngqiú ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Fabulous job! You’ve done an excellent job finding the “iu” sound. Totally awesome!",
+                "incorrect": "Oops…looks like you missed the correct sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>休闲活动</span> xiūxiánhuódòng (pastime)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_02_02/media/pastime.mp3",
+                    "textVersion": "<span lang='zh-Hans'>休闲活动</span> xiūxiánhuódòng",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

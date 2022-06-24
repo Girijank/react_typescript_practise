@@ -1,0 +1,18 @@
+.listmaxwidth {
+    max-width: 190px;
+    padding-left: 0;
+}
+
+.listmaxwidth li {
+    margin: 15px;
+}
+
+
+#slideShowOne .carousel-inner>.item {
+    min-height: 323px;
+}
+
+#slideShowOne .carousel-inner>.item p {
+    font-weight: bold;
+    font-size: 1.1em;
+}

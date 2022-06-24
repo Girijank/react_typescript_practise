@@ -1,0 +1,40 @@
+#st_content {
+	border-top:12px solid #e86741;
+	border-bottom:12px solid #bdbab5;
+	margin:0;
+	padding:14px;
+}
+
+#st_content .card {
+	border: 1px solid #c0c0c0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+#st_content .card .card-content {
+	padding:15px !important;
+}
+
+#st_content .card .card-content .card-title {
+	line-height:12px;
+}
+
+#st_content .card-title {
+	color: #3c3c3c !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+}
+
+#st_content p {
+	margin-top:0px !important;
+	padding-left:20px !important;
+}
+
+#st_content p.indent {
+	padding-left:40px !important;
+}
+
+#st_content hr {
+	width:80%;
+	border-top:1px solid #c0c0c0 !important;
+}

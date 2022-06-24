@@ -1,0 +1,58 @@
+/* ol.simple-list .bigNumber {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 0.8em;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+}
+
+
+ol.simple-list > li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    border-left: 2px solid #CCCCCC;
+}
+
+ol.simple-list {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+} */
+
+.fev_stepsgroupcard {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.fev_stepsnum {
+    background: #2d3b42;
+    position: absolute;
+    top: -17.5px;
+    left: -17.5px;
+    font-size: 2em;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px #000;
+    cursor: default;
+}
+
+.fev_stepscard {
+    position: relative;
+    padding: 10px;
+    padding-top: 18px;
+    background: #f3f3f3;
+    border-radius: 5px;
+}

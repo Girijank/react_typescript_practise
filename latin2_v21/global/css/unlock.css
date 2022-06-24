@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* 
+
+unlock.css - Version 0.5 - Updated 05/2016
+unlock.css is used to hide/show state specific content within already existing pages as well as lesson names, module names, module numbers. Uncomment the block below to highlight lesson numbers, module names, and lesson names while tagging the course. Just remember to re-comment the code when you are finished.
+
+
+*/
+.unlockTop {
+	display: none !important;
+}
+.unlock {
+	display: none;
+}
+
+.lname, .mname, .mnumber, .assessment_block, .default {
+    display: inline;
+}
+
+li.default {
+    display: list-item;
+}
+tr.default {
+	display: table-row;
+}
+.well.default {
+	display: block;
+}
+
+
+/* uncomment these to color code the unlock MALN tagging 
+.lesson_number {
+	background-color:#F0F;
+	border-color:#0F0 1px solid;
+}
+
+.lang[data-term="module_name:uc"] {
+	background-color:#0F0;
+	border-color:#0F0 1px solid;
+}
+.lang[data-term="module_name"] {
+	background-color:#0F0;
+	border-color:#0F0 1px solid;
+}
+.lang[data-term="lesson_name:uc"] {
+	background-color:#FF0;
+	border-color:#0F0 1px solid;
+}
+.lang[data-term="lesson_name"] {
+	background-color:#FF0;
+	border-color:#0F0 1px solid;
+}
+.lname {
+	background-color:#66F;
+}
+.mname {
+	background-color:#F60;
+}*/

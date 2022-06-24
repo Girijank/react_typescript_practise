@@ -1,0 +1,92 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_06_06/styles.css"],
+    "intMedia": "interactives/06_06_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [{
+      "type": "config",
+      "customView": "interactives/06_06_06/customview_imgbtn.htm",
+      "directions": "Read the phrases in Chinese, and then answer the question that follows."
+      
+    },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>开车</span> kāichē "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words best describes the action indicated by the word presented?</p>",
+        "answer": "<span class='fortv'>Image of someone who is driving a car</span><img src='interactives/06_06_06/intmedia/img_1.jpg' alt='Image of someone who is driving a car' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of someone who is climbing a mountain</span><img src='interactives/06_06_06/intmedia/img_2.jpg' alt='Image of someone who is climbing a mountain' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of someone who is riding a bike</span><img src='interactives/06_06_06/intmedia/img_3.jpg' alt='Image of someone who is riding a bike' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of someone who is riding a train</span><img src='interactives/06_06_06/intmedia/img_4.jpg' alt='Image of someone who is riding a train' class='border center-block'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>开车</span> kāichē means driving a car. Of the four choices, you've selected the one in which someone's riding in a car.",   
+        "incorrect": "Very close. Review the word several more times to understand its meaning. Sound it out if you need to. Then, match it to the images in the choices to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>摩托车</span> mótuōchē"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following falls in the same category as the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>地铁</span> dìtiě (subway)</span><audio class='audio' controls src='interactives/06_06_06/intmedia/subway.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>医院</span> yīyuàn (hospital) </span><audio class='audio' controls src='interactives/06_06_06/intmedia/hospital.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>瑜伽</span> yújiā (yoga) </span><audio class='audio' controls src='interactives/06_06_06/intmedia/yoga.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>面包</span> miànbāo (bread) </span><audio class='audio' controls src='interactives/06_06_06/intmedia/bread.mp3' ></audio>"
+        ],
+        "correct": "Fabulous job! <span lang='zh-Hans'>摩托车</span> mótuóchē means “motorcycle,” and it’s a mode of transportation. So is <span lang='zh-Hans'>地铁</span> dìtiě (subway).",        
+        "incorrect": "Not quite. Review the word several more times to understand its meaning. Then consider the nature of the item it indicates, listen to the choices, and then consider which item shares the same nature.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>转</span> zhuǎn "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following single-character words can be reasonably placed <strong>before</strong> the word presented?</p>", 
+        "answer": "<span lang='zh-Hans'>左</span>",      
+        "options":[
+          "<span lang='zh-Hans'>有</span>",
+          "<span lang='zh-Hans'>在</span>",
+          "<span lang='zh-Hans'>是</span>"
+        ],
+        "correct": "Terrific job! <span lang='zh-Hans'>转</span> zhuǎn means “to turn,” and it works with a direction word such as <span lang='zh-Hans'>左</span> zuǒ (left). Remember that the to turn direction word needs to be placed before <span lang='zh-Hans'>转</span> zhuǎn (to turn), not after.",
+        "incorrect": "Oops.First identify the meaning of the word in the audio. Then consider which character in the options can form a meaningful phrase with it. Pay extra attention to the shapes of the characters in the choices as they are very similar.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>怎么</span> zěnme"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed by the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>我们____去邮局</span>？Wǒmen ____ qù yóujú?",
+        "options": [
+          "<span lang='zh-Hans'>你的电话是____</span>？Nǐde diànhuà shì ____?",
+          "<span lang='zh-Hans'>他叫____名字</span>? Tā jiào ____ míngzi?",
+          "<span lang='zh-Hans'>她住在____</span>？Tā zhùzài ____?"
+        ],
+        "correct": "How excellent! The word <span lang='zh-Hans'>怎么</span> zěnme means “how,” and it’s often placed before the verb in a sentence to form a “how to” question. Later in this lesson you will learn more about how to use this word.",
+        "incorrect": "Not quite…Think about the meaning of the word in the audio. Then fit it in the four sentences in the choices to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

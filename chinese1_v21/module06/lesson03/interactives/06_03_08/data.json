@@ -1,0 +1,93 @@
+{
+	"config": {
+		"src": "quizmo",
+		"interactiveTitle": "",
+		"css": ["interactives/06_03_08/styles.css"],
+		"disableRemoteCss": true,
+		
+    	"customTextversionAll":"interactives/06_03_08/textversion.htm",
+		"modal": {
+			"directions": "Drag each preposition word to the matching location, relative to the store in the image. (<strong>Note</strong>: The left or right side is decided by your viewpoint.)",
+			"title": "Instructions"
+		}
+	},
+	"body": [
+		[
+			{
+				"type":"dragdrop",
+				"failedHeading": "Incorrect",
+				"rejectIncorrect": true,
+				"quiz":"",
+				"bins":[
+					{
+						"title": "dg",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Prepositions Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "<span class='cityname'>on top of</span><audio class='audio' controls src='interactives/06_03_08/intmedia/on_top.mp3' ></audio>"
+								
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Prepositions Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "<span class='cityname'>on bottom/under</span><audio class='audio' controls src='interactives/06_03_08/intmedia/on_bottom_under.mp3' ></audio>"
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Prepositions Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "<span class='cityname'>right side</span><audio class='audio' controls src='interactives/06_03_08/intmedia/right_side.mp3' ></audio>"
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Prepositions Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "<span class='cityname'>behind</span><audio class='audio' controls src='interactives/06_03_08/intmedia/behind.mp3' ></audio>"
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Prepositions Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "<span class='cityname'>in front of</span><audio class='audio' controls src='interactives/06_03_08/intmedia/in_front_of.mp3' ></audio>"
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Prepositions Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "<span class='cityname'>left side</span><audio class='audio' controls src='interactives/06_03_08/intmedia/left_side.mp3' ></audio>"
+							}
+						]
+					}
+				]
+			}
+		]
+	]
+}

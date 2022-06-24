@@ -1,0 +1,110 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_02_04/styles.css"],
+    "intMedia": "interactives/02_02_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_drink.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>喝</span> hē (to drink)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items does <strong>not</strong> go with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>牛肉</span> niúròu ",
+        "options": ["<span lang='zh-Hans'>果汁</span> guǒzhī ", "<span lang='zh-Hans'>咖啡</span> kāfēi", "<span lang='zh-Hans'>牛奶</span> niúnǎi"],
+        "correct": "Wonderfully done! <em><span lang='zh-Hans'>喝</span> hē</em> means “to drink,” and <em><span lang='zh-Hans'>牛肉</span> niúròu</em> means “beef.” Obviously, we can’t “drink beef.”",
+        "incorrect": "Very close. Think about what action the word in the audio performs and what items can or cannot go with it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "milk.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>牛奶</span> niúnǎi "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items have the same color as the item in the audio?</p>",
+        "answer": "A tuft of cloud",
+        "options": [
+          "A tomato",
+          "A bar of chocolate",
+          "The sky"
+        ],
+        "correct": "Excellent job! <em><span lang='zh-Hans'>牛奶</span> niúnǎi</em> (milk) is white, and so is a tuft of cloud.",   
+        "incorrect": "So close! Listen to the audio again to understand what it means; then think about the color of each choice to match it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "tea.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>茶</span> chá "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following have the same initial as the word in the audio?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>吃</span> chī </span><audio class='audio' controls src='interactives/02_02_04/intmedia/to_eat.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>和</span> hé </span><audio class='audio' controls src='interactives/02_02_04/intmedia/and.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>水</span> shuǐ </span><audio class='audio' controls src='interactives/02_02_04/intmedia/water.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>肉</span> ròu </span><audio class='audio' controls src='interactives/02_02_04/intmedia/meat.mp3' ></audio>"
+        ],
+        "correct": " Outstanding job! <em><span lang='zh-Hans'>茶</span> chá</em> (tea) has the initial “ch,” which is also in the word <em><span lang='zh-Hans'>吃</span> chī</em> (to eat).",
+        "incorrect": "Not quite… listen to the word again, and think about what initial it has; then compare that with all four choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "coffee.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>咖啡</span> kāfēi "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>At which of the following sites can we most likely get the item in the audio?</p>",
+        "answer": "At a café",
+        "options": [
+          "On a mountain trail",
+          "In a classroom",
+          "At a butcher shop"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>咖啡</span> kāfēi means “coffee” and of all the four choices, we can most likely get a cup of joe at a coffee shop.",        
+        "incorrect": "So close… think about the item in the audio, and then imagine yourself at each site in the choices. Decide whether you can obtain the item there.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "soda.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>苏打</span> sūdǎ "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does <strong>not</strong> fall in the same category as the word in the audio?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>苹果</span> píngguǒ </span><audio class='audio' controls src='interactives/02_02_04/intmedia/apple.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>果汁</span> guǒzhī </span><audio class='audio' controls src='interactives/02_02_04/intmedia/juice.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>牛奶</span> niúnǎi </span><audio class='audio' controls src='interactives/02_02_04/intmedia/milk.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>咖啡</span> kāfēi </span><audio class='audio' controls src='interactives/02_02_04/intmedia/coffee.mp3' ></audio>"
+        ],
+        "correct": " Fabulous job! <em><span lang='zh-Hans'>苏打</span> sūdǎ</em> (soda) is a type of drink, and among the options, only <em><span lang='zh-Hans'>苹果</span> píngguǒ</em> (apple) is not a drink. ",
+        "incorrect": "Oops… listen to the word in the audio and compare it with English. Then check the words in the choices to see which one does not share the same physical characteristics. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

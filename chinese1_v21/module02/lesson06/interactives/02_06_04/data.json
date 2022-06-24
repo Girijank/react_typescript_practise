@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_06_04/styles.css"],
+    "intMedia": "interactives/02_06_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "breakfast.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>早餐</span> zǎocān "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is a reasonable time for the meal said in the audio?</p>",
+        "answer": "7 a.m.",
+        "options": ["12 p.m.", "3 a.m.", "6 p.m."],
+        "correct": "Job well done! <em><span lang='zh-Hans'>早餐</span> zǎocān</em> means “breakfast,” and the best time to have it is early morning.",
+        "incorrect": "Very close. Listen to the word in the audio again, especially the first character, to understand its meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "lunch.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>午餐</span> wǔcān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same final as the second character in the word in the audio?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>鸡蛋</span> jīdàn </span><audio class='audio' controls src='interactives/02_06_04/intmedia/eggs.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>曲奇</span> qǔqí </span><audio class='audio' controls src='interactives/02_06_04/intmedia/cookie.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>筷子</span> kuàizi </span><audio class='audio' controls src='interactives/02_06_04/intmedia/chopsticks.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>松饼</span> sōngbǐng </span><audio class='audio' controls src='interactives/02_06_04/intmedia/pancakes.mp3' ></audio>"
+        ],
+        "correct": "Outstanding! The 2nd character in the word <em><span lang='zh-Hans'>午餐</span> wǔcān</em> (lunch) has final “an,” which is the same as the 2nd character in <em><span lang='zh-Hans'>鸡蛋</span> jīdàn</em> (egg). ",
+        "incorrect": "Not quite. Listen to the 2nd character in the word again, and consider what final it has. Then listen to the words in the options to see which one matches.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "french_fries.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>炸薯条</span> zhàshǔtiáo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which character in the word in the audio is usually omitted, and what’s its meaning?</p>", 
+        "answer": "<span lang='zh-Hans'>炸</span> zhà (deep-fried)",      
+        "options":[
+          "<span lang='zh-Hans'>薯</span> shǔ (potato)",
+          "<span lang='zh-Hans'>条</span> tiáo (strips)",
+          "None of the three characters can be omitted."
+        ],
+        "correct": "Terrific job! The 1st character <em><span lang='zh-Hans'>炸</span> zhà</em> in the word <em><span lang='zh-Hans'>炸薯条</span> zhà shǔtiáo</em> (French fries) can be omitted. It means “deep-fried” by itself. ",
+        "incorrect": "Not quite. Think about the meaning of the word in the audio, and then consider the meanings of some of the characters in it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "hamburger.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>汉堡</span> hànbǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items is <strong>least</strong> likely to go with the item said in the audio during a meal?</p>", 
+        "answer": "<span lang='zh-Hans'>筷子</span> kuàizi",      
+        "options":[
+          "<span lang='zh-Hans'>刀子</span> dāozi",
+          "<span lang='zh-Hans'>叉子</span> chāzi",
+          "<span lang='zh-Hans'>餐巾</span> cānjīn"
+        ],
+        "correct": "Wonderfully done! <em><span lang='zh-Hans'>汉堡</span> hànbǎo</em> (Hamburger) can be eaten with a knife and fork, but it may not work well with chopsticks. ",
+        "incorrect": "Not quite. Listen to the word in the audio again, and then consider its meaning and what utensils can be used for it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

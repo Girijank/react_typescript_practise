@@ -1,0 +1,39 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+		"theme": "standard"
+  },
+  "body": [
+    [{
+      "type": "matching",
+      "quiz": "Match each Latin vocabulary word to its English derivative.",
+      "options": [
+        {
+          "left": "<em>tempestas, tempestatis f.</em>",
+          "right": "tempestuous"
+        },
+			  {
+          "left": "<em>salus, salutatis f.</em>",
+          "right": "salubrious"
+        },
+			  {
+          "left": "<em>pax, pacis f.</em>",
+          "right": "pacify"
+        },
+			  {
+          "left": "<em>lex, legis f.</em>",
+          "right": "legal"
+        },
+			  {
+          "left": "<em>miles, militis m.</em>",
+          "right": "military"
+        },
+			  {
+          "left": "<em>dux, ducis m.</em>",
+          "right": "Duke"
+        }
+      ],"chances": "5"
+    }]
+  ]
+}

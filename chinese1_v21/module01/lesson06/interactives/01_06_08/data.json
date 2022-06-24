@@ -1,0 +1,74 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_06_08/styles.css"],
+    "intMedia": "interactives/01_06_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "how_old_are_you_this_year.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你今年多大</span>？Nǐ jīnnián duōdà?"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the correct word order as a response to the question in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我今年十五岁。</span>Wǒ jīnnián shíwǔ suì.",
+        "options": [
+          "<span lang='zh-Hans'>十五岁我今年。</span>Shíwǔ suì wǒ jīnnián.",
+          "<span lang='zh-Hans'>今年十五岁我。</span>Jīnnián shíwǔ suì wǒ.",
+          "<span lang='zh-Hans'>十五岁今年我。</span>Shíwǔ suì jīnnián wǒ."
+        ],
+        "correct": "Job well done! For the question ”<span lang='zh-Hans'>你今年多大</span>？Nǐ jīnnián duōdà? How old are you this year?”; the proper word order in the response would be “I + this year + 15 + years old.”",
+        "incorrect": "Very close. Pay attention to both characters in the word and what the combination means.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "which_year_were_you_born.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你哪一年出生</span>？Nǐ nǎyìnián chūshēng?"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is an appropriate response to the question in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>我二零零八年出生。</span> Wǒ èr líng líng bā nián chūshēng</span><audio class='audio' controls src='interactives/01_06_08/intmedia/slide2_choice4.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>我二十十八年出生。</span> Wǒ èrshí shíbā nián chūshēng.</span><audio class='audio' controls src='interactives/01_06_08/intmedia/slide2_choice1.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>我的电话号码是531-2928。</span> Wǒde diànhuà hàomǎ shì wǔ sān yī èr jiǔ èr bā. </span><audio class='audio' controls src='interactives/01_06_08/intmedia/slide2_choice2.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>我今年十三岁。</span> Wǒ jīnnián shísān suì</span><audio class='audio' controls src='interactives/01_06_08/intmedia/slide2_choice3.mp3' ></audio>"
+        ],
+        "correct": "Fantastic job! The question in the audio “<span lang='zh-Hans'>你哪一年出生</span>？Nǐ nǎyìnián chūshēng?” means “What year were you born?”, and the proper response to it is ”<span lang='zh-Hans'>我二零零八年出生。</span>Wǒ èr líng líng bā nián chūshēng. This means, “I was born in year two zero zero eight.” Remember that the digits in a year need to be said digit-by-digit individually. ",
+        "incorrect": "Not quite. Listen to the audio again to understand the question. Pay attention to each syllable as it’s a relatively long sentence. Listen to it repeatedly if you need to.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "i_am_years_old_this_year.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>我今年…岁</span> Wǒ jīnnián .. suì."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In the sentence structure in the audio, which word <strong>cannot</strong> be omitted at any time?</p>",
+        "answer": "<span lang='zh-Hans'>我</span> wǒ",
+        "options": [
+          "<span lang='zh-Hans'>今年</span> jīnnián",
+          "<span lang='zh-Hans'>岁</span> suì",
+          "None of the words can be omitted."
+        ],
+        "correct": "Wonderful job! <span lang='zh-Hans'>今年</span> jīnnián (this year) and <span lang='zh-Hans'>岁</span> suì (years old) can be omitted (when the age is not a single digit number). ",
+        "incorrect": "So close! Listen to this single-syllable word, and think about what it means, what function it can serve, and where to place it in a sentence.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

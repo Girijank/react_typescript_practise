@@ -1,0 +1,29 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"intMedia": "interactives/01_02_01/intmedia/",
+			"theme": "standard"
+        },
+        "body": [
+            [
+              {
+                "type": "text",
+                "content": "<h3>Infinitives</h3><p>The infinitive is a verbal noun. The present infinitive is the second principal part of a verb. When you encounter these, translate them as &quot;<strong>to (verb)</strong>&quot; (e.g. amare = to love and monere = to warn).</p><p>Complementary Infinitive: An infinitive used to complete an action of the sentence.</p><p>Latin examples:</p><ul><li><em>Libros <strong>legere</strong> amo.</em> I love <strong>to read</strong> books.</li></ul>"
+              }
+            ],
+			[
+              {
+                "type": "text",
+                "content": "<h3>Imperatives</h3><p>The imperative mood is used to form 2<sup>nd</sup> person singular or plural &quot;<strong>commands</strong>.&quot; It is formed by using the present stem of the verb (second principal part minus -re).</p><p>The SINGULAR imperative is formed by <u>dropping the -re</u> from the <u>2<sup>nd</sup> principal part</u>.</p><p><strong class='text-center'>Examples:</strong></p><table class='table table-bordered'><thead><tr><th scope='col'>Dictionary Entry</th><th scope='col'>Singular Imperative</th></tr></thead><tbody><tr><td>amo, amare, amavi, amatus, -a, -um to love</td><td><strong>ama</strong> (love!)</td></tr><tr><td>doceo, docere, docui, doctus, -a, -um to teach</td><td><strong>doce</strong> (teach!)</td></tr><tr><td>mitto, mittere, misi, missus, -a, -um to send</td><td><strong>mitte</strong> (send!)</td></tr><tr><td>capio, capere, cepi, captus, -a, -um to seize</td><td><strong>cape</strong> (seize!)</td></tr><tr><td>audio, audire, audivi, auditus, -a, -um  to hear</td><td><strong>audi</strong> (hear!)</td></tr></tbody></table><p>The PLURAL IMPERATIVE is formed by <em>dropping the -re from the 2<sup>nd</sup> principal part</em> and adding <strong>-te</strong> to the stem. Note that in the <em>3<sup>rd</sup> conjugation, we change the last -e- in the present stem into an -i prior to adding -te.</em></p><p><strong class='text-center'>Examples:</strong></p><table class='table table-bordered'><thead><tr><th scope='col'>Dictionary Entry</th><th scope='col'>Plural Imperative</th></tr></thead><tbody><tr><td>amo, amare, amavi, amatus, -a, -um to love</td><td><strong>amate</strong> (love!)</td></tr><tr><td>doceo, docere, docui, doctus, -a, -um to teach</td><td><strong>docete</strong> (teach!)</td></tr><tr><td>mitto, mittere, misi, missus, -a, -um to send</td><td><strong>mittite</strong> (send!)</td></tr><tr><td>capio, capere, cepi, captus, -a, -um to seize</td><td><strong>capite</strong> (seize!)</td></tr><tr><td>audio, audire, audivi, auditus, -a, -um hear</td><td><strong>audite</strong> (hear!)</td></tr></tbody></table><p>Latin examples:</p><ul><li><em>Romani, <strong>laudate</strong> Caesarem!</em> Romans, <strong>praise</strong> Caesar!</li><li><em><strong>Da</strong> mihi librum!</em> <strong>Give</strong> the book to me!</li></ul>"
+              }
+            ],
+			[
+              {
+                "type": "text",
+                "content": "<h3>Irregular Imperatives</h3><p>Some verbs have irregular imperative forms that you must memorize.</p><div class='row'><div class='col-sm-6'><table class='table table-bordered'><thead><tr><th  class='black white-text' scope='col'>Dictionary Entry</th><th class='black white-text' scope='col'>Irregular Singular Imperative</th></tr></thead><tbody><tr><td>duco, ducere, duxi, ductus, -a, -um to teach</td><td><strong>duc</strong> (teach!)</td></tr><tr><td>fero, ferre, tuli, latus, -a, -um to bring</td><td><strong>fer</strong> (bring!)</td></tr><tr><td>dico, dicere, dixi, dictus,-a, -um to say</td><td><strong>dic</strong> (say!)</td></tr><tr><td>facio, facere, feci, factus, -a, -um to do</td><td><strong>fac</strong> (do!)</td></tr></tbody></table></div><div class='col-sm-6'><p>Latin examples:</p><ul><li><img src='images/dummy_1.png' alt='Need to update' data-caption='' class='showcase' /><em>Populos duce!</em> Lead the people!</br></br></li><li><img src='images/dummy_2.png' alt='Need to update' data-caption='' class='showcase' /><em>Ad agricolas dic!</em> Speak to the farmers!</li></ul></div>"
+              }
+            ]
+        ]
+      }
+    

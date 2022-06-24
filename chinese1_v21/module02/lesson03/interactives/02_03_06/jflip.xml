@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Fill in the blanks with the appropriate words to complete the sentence. Select each flip card to review the answer.</directionsTextVer>
+	<width>180</width>
+	<height>180</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/02_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p><span lang='zh-Hans'>我 _____ _______ 咖啡。</span></span></p> <br> <p>Wǒ _____ _______ kāfēi.</p> <br> <p>I <strong>want two cups of</strong> coffee.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>要</span> yào; <span lang='zh-Hans'>两杯</span> liǎngbēi</p> <br> <p><strong>Complete sentence:</strong></p> <br> <p><span lang='zh-Hans'>我要两杯咖啡。</span></p><p>Wǒ yào liǎng bēi kāfēi.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>我 ____ 胡萝卜 ____ 鸡肉。</span></p> <br> <p>Wǒ ____ húluóbo ____ jīròu.</p> <br> <p>I <strong>want</strong> carrots <strong>stir-fry</strong> chicken.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>要</span> yào; <span lang='zh-Hans'>炒</span> chǎo</p> <br> <p><strong>Complete sentence:</strong></p> <br> <p><span lang='zh-Hans'>我要胡萝卜炒鸡肉。</span></p><p>Wǒ yào húluóbo chǎo jīròu.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>她 ____ 米饭 ____ 鱼肉。</span></p> <br> <p>Tā ____ mǐfàn ____ yúròu.</p> <br> <p>She <strong>wants</strong> rice <strong>and</strong> fish.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>要</span> yào; <span lang='zh-Hans'>和</span> hé</p> <br> <p><strong>Complete sentence:</strong></p> <br> <p>Tā yào mǐfàn hé yúròu.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>我要_____汤。_____？</span></p> <br> <p>Wǒ yào _____ tang. _____?</p> <br> <p>I want <strong>a bowl of</strong> soup. <strong>What about you</strong>?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>一碗</span>  yīwǎn; <span lang='zh-Hans'>你呢</span>Nǐne</p> <br> <p><strong>Complete sentence:</strong></p> <br> <p><span lang='zh-Hans'>我要一碗汤。你呢？</span></p><p>Wǒ yào yīwǎn tāng. Nǐne?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

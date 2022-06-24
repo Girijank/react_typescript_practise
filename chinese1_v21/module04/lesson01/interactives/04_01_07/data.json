@@ -1,0 +1,114 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_01_07/styles.css"],
+    "intMedia": "interactives/04_01_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "english_class.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>英文课</span> yīngwénkè "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following initials is in the pinyin for the word in the audio?</p>",
+        "answer": "k",
+        "options": ["q", "c", "g"],
+        "correct": "Outstanding job! The 3rd character <span lang='zh-Hans'>课</span> of the word in audio <span lang='zh-Hans'>英文课</span> yīngwénkè (English class) has initial “k.”",
+        "incorrect": "Oops...Listen to the word again. Identify all three initials in the word, and then compare it with the initials in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [{
+      "type": "config",       
+      "customView": "interactives/04_01_07/customview_imgbtn.htm"
+    },
+      {
+        "type": "localAudio",
+        "src": "chinese_class.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>中文课</span> zhōngwénkè "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following images <strong>best</strong> describes the word in the audio?</p>",
+        "answer": "<span class='fortv'>Class chalkboard with Chinese written on it</span><img src='interactives/04_01_07/images/chinese_class.jpg' class='border center-block' alt='Image of Class chalkboard with Chinese written on it.'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of science class </span><img src='interactives/04_01_07/images/science_class.jpg' alt='Image of science class' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of music class </span><img src='interactives/04_01_07/images/music_class.jpg' alt='Image of music class' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>A girl writing answers in math class</span><img src='interactives/04_01_07/images/math_class.jpg' class='border center-block' alt='A girl solving a sum on a white board.'><span class='fev_copy copyright'>©Shutterstock</span>"
+        ],
+        "correct": "Outstanding job! The word <span lang='zh-Hans'>中文课</span> zhōngwénkè means “Chinese class.” From the images in the choices, the 1st shows the content taught being Chinese. Do you recognize some of the Chinese characters on the board? :)",
+        "incorrect": "Almost there…Listen again several times, and think about what the word means. Look at the images in the choices, then decide which one can be best described by the word.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "math_class.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>数学课</span> shùxuékè "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following school supplies is <strong>most</strong> likely needed for the class indicated in the audio?</p>", 
+        "answer": "Calculator",      
+        "options":[
+          "Musical instrument",
+          "Drawing pad",
+          "Running shoes"
+        ],
+        "correct": "You got it! <em><span lang='zh-Hans'>数学课</span></em> shùxuékè means “math class,” and the most common school supply you will need for it is the calculator. ",
+        "incorrect": "Oops…Listen to the audio several more times to find out what school subject it represents. Then think about what will be needed if you go to that class.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "social_studies_class.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>数学课</span> shùxuékè "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following topics is <strong>most</strong> likely to be learned in the class indicated in the audio?</p>", 
+        "answer": "What is the domestic etiquette of modern Americans?",      
+        "options":[
+          "How do you pronounce the initial “ch” in pinyin?",
+          "How does music affect animal behavior?",
+          "What are the major genres of modern music?"
+        ],
+        "correct": "You got it! <em><span lang='zh-Hans'>社会研究课</span> shèhuìyánjiūkè</em> means “social studies (class).” An appropriate topic to be discussed in that class would be something related to the human society. ",
+        "incorrect": "Oops…Listen to the audio again to identify what school subject it represents. Then think about what you will most likely discuss in that class.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "science_class.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>科学课</span> kēxuékè "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following classes has the <strong>most</strong> different physical requirements than the class indicated in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>体育课</span> tǐyùkè </span><audio class='audio' controls src='interactives/04_01_07/intmedia/physical_education_class.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>社会研究课</span> shèhuìyánjiūkè   </span><audio class='audio' controls src='interactives/04_01_07/intmedia/social_studies_class.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>英文课</span> yīngwénkè  </span><audio class='audio' controls src='interactives/04_01_07/intmedia/english_class.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>数学课</span> shùxuékè </span><audio class='audio' controls src='interactives/04_01_07/intmedia/math_class.mp3' ></audio>"
+        ],
+        "correct": "Excellent job! The word <span lang='zh-Hans'>科学课</span> kēxuékè means “science class,” and of all classes in the choices, only <span lang='zh-Hans'>体育课</span> tǐyùkè (physical education class) requires great amounts of physical movements.",
+        "incorrect": "Not quite…listen to the audio several times to identify what class it represents, then consider the classes in the options. Imagine yourself in these classes and consider in which one you will do things differently. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

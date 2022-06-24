@@ -1,0 +1,44 @@
+.grid figure {
+    width: 48%;
+}
+
+.grid figure figcaption, .grid figure figcaption > a{
+    top: 8px;
+}
+
+
+@media (max-width: 768px) {
+
+    .grid figure.effect-sarah:nth-child(2) figcaption{
+     top:17px;
+    }
+
+    .grid figure.effect-sarah:nth-child(2)  figcaption p{
+        font-size: 13px;
+    }
+
+
+    .grid:nth-child(2) figure.effect-sarah:nth-child(1) figcaption{
+        top:0px;
+       }
+   
+       .grid:nth-child(2) figure.effect-sarah:nth-child(1)  figcaption p{
+           font-size: 13px;
+       }
+    
+
+
+       .grid:nth-child(2) figure.effect-sarah:nth-child(2) figcaption{
+        top:2px;
+       }
+   
+       .grid:nth-child(2)  figure.effect-sarah:nth-child(2)  figcaption p{
+           font-size: 13px;
+       }
+
+
+}
+
+@media (max-width: 768px) {
+ 
+}

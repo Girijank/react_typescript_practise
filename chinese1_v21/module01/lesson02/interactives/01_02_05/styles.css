@@ -1,0 +1,255 @@
+.ng_il .viewport {
+    background-image: url(map_flvs.jpg);
+    min-height: 0;
+    width: 700px;
+    height: 540px;
+    background-color: #FAFAFA;
+}
+
+.ng_il .modal_holder {
+    margin-left: -20px;
+}
+
+.ng_il .bin {
+    border-radius: 4px;
+    width: 122px !important;
+    height: 33px !important;
+    margin: 10px 0 0 -10px;
+    position: relative;
+}
+
+.ng_il .bin.col {
+    float: none !important;
+}
+
+.il_question {
+    width: 100px;
+    min-height: 0 !important;
+    height: 40px !important;
+}
+
+.ng_il h2 {
+    display: none;
+}
+
+.il_dragdrop_items {
+    position: absolute;
+    bottom: -4px;
+    left: -16px;
+    width: 76%;
+    z-index: 100;
+    padding: 0 !important;
+    margin: 0;
+    height: 192px;
+    margin: 0;
+    background: white;
+    border: 1px solid #300c02;
+    border-radius: 5px;
+}
+
+.il_dragdrop_items::before {
+    content: "Bank";
+    font-size: 1.3em;
+    display: block;
+    background: #300c02;
+    text-align: center;
+    color: #fff;
+}
+
+.ng_il .il_dragdrop_items .il_btn {
+    /* background-color: #FFF !important;
+    border: 1px solid #bb5831 !important; */
+    height: auto !important;
+    /* width: 100px !important; */
+    color: #5b5b5b !important;
+    font-weight: normal !important;
+    text-align: center;
+    white-space: normal;
+    margin-right: 2px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ng_il .il_dragdrop_items .il_btn span.cityname {
+    display: none;
+}
+
+.ng_il .il_dragdrop_items .il_btn audio {
+    width: 100px;
+    height: 30px;
+}
+
+.ui-droppable {
+    z-index: 0;
+    padding: 3px 0 !important;
+    margin: 0 auto !important;
+}
+
+.ng_il .il_btns {
+    position: absolute;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    float: left;
+    width: 200px;
+    height: 50px;
+    z-index: 200;
+}
+
+.ng_il .il_btn {
+    border: none;
+    background-color: #DDD;
+    background-image: none;
+    color: #4c4c4c;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.ng_il .ui-droppable .il_btn {
+    border: none !important;
+    background-color: transparent !important;
+    color: #464646 !important;
+    max-width: 150px;
+    white-space: normal;
+    top: -5px;
+    position: relative;
+}
+
+.ng_il .ui-droppable .il_btn audio {
+    display: none;
+}
+
+
+.ng_il .ui-droppable .il_btn span.cityname {
+    display: block;
+}
+
+
+.ui-droppable {
+    padding: 0;
+    margin: 2px auto;
+    text-align: center;
+    min-height: 0;
+}
+
+.ng_il .il_question_wrapper {
+    height: 500px;
+    width: 100%;
+}
+
+.ng_il .il_question {
+    opacity: 1;
+    width: 100%;
+    padding: 4px 10px 0;
+}
+
+.ng_il button.il_wb_submit {
+    display: none;
+}
+
+.ng_il button.il_wb_submit,
+.ng_il button.il_wb_restart_btn {
+    position: absolute;
+    right: 20px;
+    width: 70px;
+    border-radius: 4px;
+    height: auto !important;
+    bottom: 4px !important;
+}
+
+
+
+/* Arizona */
+.ng_il .bin:nth-child(2) {
+    top: 171px;
+    left: 197px;
+}
+
+/* California */
+.ng_il .bin:nth-child(3) {
+    top: 46px;
+    left: 30px;
+}
+
+/* Florida */
+.ng_il .bin:nth-child(4) {
+    top: 180px;
+    left: 435px;
+}
+
+/* Georgia */
+.ng_il .bin:nth-child(5) {
+    top: 78px;
+    left: 395px;
+}
+
+
+/* South Carolina */
+.ng_il .bin:nth-child(6) {
+    top: 10px;
+    left: 569px;
+    width: 115px !important;
+}
+
+.ng_il .bin:nth-child(6) span.cityname {
+    line-height: 14px;
+    margin-top: -3px;
+}
+
+
+/* Texas */
+.ng_il .bin:nth-child(7) {
+    top: 17px;
+    left: 207px;
+}
+
+
+/* Washington */
+.ng_il .bin:nth-child(8) {
+    top: -282px;
+    left: -9px;
+}
+
+/* Utah */
+.ng_il .bin:nth-child(9) {
+    top: -196px;
+    left: 205px;
+}
+
+/* New York */
+.ng_il .bin:nth-child(10) {
+    top: -301px;
+    left: 460px;
+}
+
+/* Hawaii */
+.ng_il .bin:nth-child(11) {
+    top: 22px;
+    left: 533px;
+}
+
+
+.textversion1.viewport {
+    height: auto !important;
+    padding: 10px !important;
+}
+
+#custom_textVersion ul {
+    margin-left: 20px;
+}
+
+#custom_textVersion ul li {
+    list-style-type: decimal;
+}
+
+#custom_textVersion {
+    margin: 10px 0;
+}
+
+.il_question.ng-pristine.ng-untouched.ng-valid.ui-droppable {
+    border: 1px solid black !important;
+    border-radius: 6px;
+    border: 1px solid black !important;
+    text-align: center;
+}

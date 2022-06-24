@@ -1,0 +1,23 @@
+<p>{{ vm.data.config.modal.directions }}</p>
+
+<div ng-repeat="slide in vm.data.body">
+	<hr>
+	<p><strong>Slide {{ $index + 1}}</strong></p>
+
+	<div ng-repeat="object in slide" ng-if="object.type === 'mc'">
+		<p><strong>Question: </strong> {{ object.quiz }}</p>
+
+		<span><strong>Options:</strong></span>
+		<ul class="options">
+			<li ng-repeat="currentOption in object.options">{{ currentOption.text }}</li>
+		</ul>
+
+		 <button class="btn btn-default" type="button" data-toggle="collapse" href="#collapse{{::$id}}" aria-expanded="false" aria-controls="collapse{{::$id}}">Check Answer</button>
+
+    <div id="collapse{{::$id}}" class="collapse">
+      <div class="panel-body results">
+        <p><strong>Correct answer is:</strong> {{ object.answer.text }}</p>
+      </div>
+    </div>
+	</div>
+</div>

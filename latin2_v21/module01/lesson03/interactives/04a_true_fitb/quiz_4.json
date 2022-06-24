@@ -1,0 +1,27 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "They are being taught."
+        ],
+        "quiz": "<p>Fill in the blank: Translate the Latin verb into English. </p><br> <p><strong>Sentence Verb to Use:</strong> <em>doceo, docere, docui, doctus, -a, -um</em> = to teach</p><p> <strong>Latin:</strong> <em>docentur</em></p><br> Fill in the blank English answer: *_ ",
+        "correct": "That's right! Gratulationes on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin and give it another shot. Bona fortuna!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

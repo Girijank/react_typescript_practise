@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Answer the following questions. Select each flip card to review the answer.</directionsTextVer>
+	<width>180</width>
+	<height>180</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/02_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p>What are some of Kailan’s family traditions during the Chinese New Year?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>They have the New Year’s Eve family dinner, visit relatives, set off firecrackers or fireworks, and hang couplets and lanterns. The children in the family receive red packets from the adults.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p>What do the newlyweds do after the wedding in Kailan’s family?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>After the wedding, the newlyweds return to the husband’s house. They will visit the wife’s parents three days after the wedding.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p>Who is responsible for taking care of the elderly in Kailan’s family?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>Kailan’s dad is the oldest son of the Zhang family, and he takes care of her paternal grandpa and grandma. His siblings share financial responsibilities when needed.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p>Does Kailan’s family celebrate Western holidays?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>It is not common in her family to celebrate Western holidays, such as Christmas, baby showers, or gender reveal parties.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

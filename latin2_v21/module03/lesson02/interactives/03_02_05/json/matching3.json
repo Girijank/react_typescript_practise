@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the following.",
+        "options": [
+          {
+            "left": "aciem",
+            "right": "Accusative"
+          },
+          {
+            "left": "domuum",
+            "right": "Genitive"
+          },
+          {
+            "left": "adventu",
+            "right": "Ablative"
+          },
+          {
+            "left": "casibus",
+            "right": "Dative"
+          },
+          {
+            "left": "res",
+            "right": "Nominative"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

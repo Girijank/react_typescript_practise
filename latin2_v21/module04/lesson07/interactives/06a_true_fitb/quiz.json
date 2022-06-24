@@ -1,0 +1,93 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true,
+    "css":["interactives/06a_true_fitb/style.css"]
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "In Latin, write the correct adjective form into each cell."
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "plurimae"
+        ],
+        "quiz": "<p>In Latin, write the correct adjective form into each cell.</p><br><p>“most”</p> <br><p>Dative sg. f.</p><br> Fill in the blank: *_ .",
+        "correct": "<em>Bene!</em> Your hard work is paying off!",
+        "incorrect": "Not quite—try again. <em>In memoria tene!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],   
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "maximis"
+        ],
+        "quiz": "<p>In Latin, write the correct adjective or adverb form:</p><br><p>“largest”</p> <br><p>Dative pl. m.</p><br> Fill in the blank: *_ .",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "<em>Iterum tempta.</em> Try again! Learning Latin takes effort—give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "optima"
+        ],
+        "quiz": "<p>In Latin, write the correct adjective or adverb form:</p><br><p>“best”</p> <br><p>Accusative pl. n.</p><br> Fill in the blank: *_ .",
+        "correct": "<em>Bene!</em> Your hard work is paying off!",
+        "incorrect": "Not quite—try again! Look back over your notes. <em>In memoria tene!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "pessimi"
+        ],
+        "quiz": "<p>In Latin, write the correct adjective or adverb form:</p><br><p>“worst”</p> <br><p>Nominative pl. m.</p><br> Fill in the blank: *_ .",
+        "correct": "That's right! Gratulaciones on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin, and give it another shot. <em>Bona fortuna!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "plus"
+        ],
+        "quiz": "<p>In Latin, write the correct adjective or adverb form:</p><br><p>more</p> <br> Fill in the blank: *_ .",
+        "correct": "That's right! Gratulaciones on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin, and give it another shot. <em>Bona fortuna!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "paulum"
+        ],
+        "quiz": "<p>In Latin, write the correct adjective or adverb form:</p><br><p>A little</p> <br> Fill in the blank: *_ .",
+        "correct": "That's right! Gratulaciones on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin, and give it another shot. <em>Bona fortuna!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

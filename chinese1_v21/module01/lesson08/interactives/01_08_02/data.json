@@ -1,0 +1,213 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_08_02/styles.css"],
+    "progressBar": true,
+    "resultsPage": false
+  },
+  "body": [    
+    [
+      {
+        "type": "config",
+        "customView": "interactives/01_08_02/index.htm",
+        "directions": "Read the question; then select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>女孩</span> nǚhái</span><audio class='audio' controls src='interactives/01_08_02/intmedia/girl.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>晚安</span> wǎn'ān</span><audio class='audio' controls src='interactives/01_08_02/intmedia/goodnight.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>再见</span> zàijiàn</span><audio class='audio' controls src='interactives/01_08_02/intmedia/goodbye.mp3'></audio>"
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "A portrait of a young boy with braces, smiling at home",
+          "src": "interactives/01_08_02/intmedia/smilingkid.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "Select the most appropriate word in the audio that describes the image.",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>男孩</span> nánhái</span><audio class='audio' controls src='interactives/01_08_02/intmedia/boy.mp3'></audio>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>你叫</span> Hunter. Nǐ jiào Hunter.",
+          "<span lang='zh-Hans'>你姓</span> Garcia. Nǐ xìng Garcia.",
+          "<span lang='zh-Hans'>我姓</span> Garcia. Wǒ xìng Garcia."
+        ],
+        "quiz": "Read the following question in Chinese. Which option is the most appropriate response to it? <br><br> <span lang='zh-Hans'>你叫什么名字</span>？Nǐ jiào shénme míngzi? ",
+        "answer": "<span lang='zh-Hans'>我叫</span> Hunter. Wǒ jiào Hunter.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>她从加利福尼亚州来。</span> Tā cóng Jiālìfúníyà Zhōu lái.",
+          "<span lang='zh-Hans'>她住在加利福尼亚州。</span> Tā zhùzài Jiālìfúníyà Zhōu.",
+          "<span lang='zh-Hans'>她住在佛罗里达州。</span> Tā zhùzài Fóluólǐdá Zhōu."
+        ],
+        "quiz": "Lili Zhang wants to join a national performance arts competition. She called the competition organizer to sign up. Below is the conversation between her and the agent. Listen to the conversation, and then answer the question that follows. <br /> <br /> <span class='fortv'>Audio for<br/>Male : <span lang='zh-Hans'>你好</span>！<br/>Female: <span lang='zh-Hans'>下午好</span>！<br/>Male: <span lang='zh-Hans'>你叫什么名字</span>？<br/>Female: <span lang='zh-Hans'>我叫张丽丽。很高兴认识你。</span><br/>Male: <span lang='zh-Hans'>张小姐，你从哪里来</span>？<br/>Female: <span lang='zh-Hans'>我从佛罗里达州来。</span><br/>Male: <span lang='zh-Hans'>你长什么样</span>？<br/>Female: <span lang='zh-Hans'>我的眼睛是褐色的。</span><br/>Male: <span lang='zh-Hans'>张小姐，你今年多大</span>？<br/>Female: <span lang='zh-Hans'>我今年十六岁。</span><br/></span><audio class='audio' controls src='interactives/01_08_02/intmedia/dialogue_audio_lili_miss_zhang.mp3'></audio> <br><br> According to the dialogue in the audio, which of the following sentences in Chinese is correct about Lili Zhang? ",
+        "answer": "<span lang='zh-Hans'>她从佛罗里达州来。</span> Tā cóng Fóluólǐdá Zhōu lái.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": ["Los Angeles", "New York City", "Washington D. C."],
+        "quiz": "<p>Read the introduction in Chinese, then answer the question that follows.</p><p> <span lang='zh-Hans'>  你好！我叫Jackie。我从佛罗里达州来。我的电话号码是八一七六四六八。我的朋友叫Nina。她从加利福尼亚州来。她的电话号码是六四五三一八二。</span></p> <p>Nǐhǎo! Wǒ jiào Jackie. Wǒ cóng Fóluólǐdá Zhōu lái. Wǒ de diànhuà hàomǎ shì bāyīqīliùsìliùbā. Wǒ de péngyǒu jiào Nina. Tā cóng Jiālìfúníyà Zhōu lái. Tā de diànhuà hàomǎ shì liùsìwǔsānyībā’èr.</p> <p>According to the paragraph, which city can the narrator be from?</p>",
+        "answer": "Orlando",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>是</span>",
+          "<span lang='zh-Hans'>我</span>",
+          "<span lang='zh-Hans'>岁</span>"
+        ],
+        "quiz": "Which of the following characters has the pinyin initial “h” in its pronunciation? ",
+        "answer": "<span lang='zh-Hans'>很</span>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "Her eyes are black.",
+          "Her hair is brown.",
+          "Her hair is black."
+        ],
+        "quiz": "<p>Listen to the dialogue in the audio, and then answer the question that follows.</p> <span class='fortv'>Audio for<br/>Male : <span lang='zh-Hans'>你好</span>！<br/>Female: <span lang='zh-Hans'>下午好</span>！<br/>Male: <span lang='zh-Hans'>你叫什么名字</span>？<br/>Female: <span lang='zh-Hans'>我叫张丽丽。很高兴认识你。</span><br/>Male: <span lang='zh-Hans'>张小姐，你从哪里来</span>？<br/>Female: <span lang='zh-Hans'>我从佛罗里达州来。</span><br/>Male: <span lang='zh-Hans'>你长什么样</span>？<br/>Female: <span lang='zh-Hans'>我的眼睛是褐色的。</span><br/>Male: <span lang='zh-Hans'>张小姐，你今年多大</span>？<br/>Female: <span lang='zh-Hans'>我今年十六岁。</span><br/></span><br/><audio class='audio' controls src='interactives/01_08_02/intmedia/dialogue_audio_lili_miss_zhang.mp3'></audio><p>According to the dialogue in the audio, which of the following is true about the appearance of the female in the audio?</p>",
+        "answer": "Her eyes are brown.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/01_08_02/index.htm",
+        "directions": "Read the question; then select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>他比较开朗。</span> Tā bǐjiào kāilǎng.",
+          "<span lang='zh-Hans'>它很高。</span> Tā hěn gāo.",
+          "<span lang='zh-Hans'>它比较害羞。</span> Tā bǐjiào hàixiū."
+        ],
+        "media": {
+          "type": "image",
+          "id": "image2",
+          "alt": "Teenaged boy hiding his face",
+          "src": "interactives/01_08_02/intmedia/shykid.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "Which of the following sentences best matches the provided description written in Chinese?",
+        "answer": "<span lang='zh-Hans'>他有点害羞。</span> Tā yǒudiǎn hàixiū.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "A radical is the smallest unit in a Chinese character.",
+          "Radicals in a Chinese character are written in order of “bottom to top” and “right to left.”",
+          "For a symmetrical character, draw left, then right, then the middle."
+        ],
+        "quiz": "<p>Which of the following is true about Chinese character writing rules? </p>",
+        "answer": "“Inside and outside” is a common structure for Chinese characters.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],   
+    [
+      {
+        "type": "config",
+        "customView": "interactives/01_08_02/custom_withvideo.htm",
+        "directions": "Read the question; then select the correct answer."
+      },
+      {
+        "type": "video",
+        "entryID": "1_o571l9f0",
+        "textVersion": "The audio for this video content is an example of the Chinese Language."
+      },
+    
+      {
+        "type": "mc",
+        "options": [
+          "Spends the afternoon in the library reading books",
+          "Stays at home alone listening to classical music",
+          "Plays chess with her grandfather on Sunday morning"
+        ],   
+        "quiz": "According to the dialogue video, which of the following activities does Chen Lili's friend Cathy most likely do?",
+        "answer": "Goes skateboarding with a group of friends at the local park",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/01_08_02/index.htm",
+        "directions": "Read the question; then select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>她是刘医生。她今年二十六岁。</span> Tā shì Liú Yīshēng. Tā jīnnián èrshíliù suì.",
+          "<span lang='zh-Hans'>她是刘老师。她今年二十六岁。</span> Tā shì Liú Lǎoshī. Tā jīnnián èrshíliù suì.",
+          "<span lang='zh-Hans'>她是刘老师。她今年六十二岁。</span> Tā shì Liú Lǎoshī. Tā jīnnián liùshíèr suì."
+        ],
+        "media": {
+          "type": "image",
+          "id": "image2",
+          "alt": "Portrait of an older female doctor standing in a hospital room",
+          "src": "interactives/01_08_02/intmedia/doctor.jpg",
+          "copyright":"©Shutterstock"
+        },
+        "quiz": "Which of the following sentences in Chinese best describes the person in the image whose last name is <span lang='zh-Hans'>刘</span> liú? ",
+        "answer": "<span lang='zh-Hans'>她是刘医生。她今年六十二岁。</span> Tā shì Liú Yīshēng. Tā jīnnián liùshíèr suì.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

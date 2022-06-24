@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Resources</title>
+  <script>
+    var isexternal = true // Loads External Assets
+  </script>
+  <script>
+    var pg_csslibs = ['css/resources.css'] // CSS Libs for this Page
+    var pg_jslibs = ['js/main.js'] // JS Libs for this Page
+  </script>
+  <script src="../../global/js/settings.js" id="settingJS"></script>
+</head>
+
+<body id="externalBackground">
+  <div id="externalContent">
+    <!-- PLACE CONTENT HERE -->
+    <h1 class="text-center">Resources</h1>
+
+    <div class="container">
+      <div class="row btn-holder">
+        <div class="col-sm-12 text-center">
+          <button class="btn_tabs" id="btn_timeline" data-content="content/timeline.htm">Timeline</button>
+          <button class="btn_tabs" id="btn_documents" data-content="content/documents.htm">Note Guide</button>
+          <button class="btn_tabs" id="btn_all">Show All</button>
+        </div>
+      </div>
+      <!-- <hr> -->
+      <div class="content-box" id="timeline"> </div>
+      <div class="content-box" id="documents"> </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Now it's time to practice your 2<sup>nd</sup> Declension skills. Use your knowledge of the endings specific to this declension to match case and number. Keep going until you get them all right!",
+        "options": [
+          {
+            "left": "<em>saxo</em>",
+            "right": "Dative singular; Ablative singular"
+          },
+			{
+            "left": "<em>bellum</em>",
+            "right": "Nominative singular; Accusative singular"
+          },
+			{
+            "left": "<em>templorum</em>",
+            "right": "Genitive plural"
+          },
+			{
+            "left": "<em>templa</em>",
+            "right": "Nominative plural; Accusative plural"
+          },
+			{
+            "left": "<em>belli</em>",
+            "right": "Genitive singular"
+          },
+			{
+            "left": "<em>amici</em>",
+            "right": "Genitive singular; Nominative plural"
+          },
+			{
+            "left": "<em>puer</em>",
+            "right": "Nominative singular"
+          },		
+			{
+            "left": "<em>puerum</em>",
+            "right": "Accusative singular"
+          }
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

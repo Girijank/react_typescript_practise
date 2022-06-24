@@ -1,0 +1,80 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"What is the Latin equivalent to these English adjective translations? Select each card to check your answer.",
+    "instruction_textversion":"What is the Latin equivalent to these English adjective translations? Check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>the most like thing </p>",
+          "textversion": "<p>the most like thing </p>"
+        },
+        "back": {
+          "content": "<p><em>simillimum</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'><em>simillimum</em></p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>to/for the most beautiful women </p>",
+          "textversion": "<p>to/for the most beautiful women/p>"
+        },
+        "back": {
+          "content": "<p><em>pulcherribus</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'><em>pulcherribus</em></p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>the most swift man</p>",
+          "textversion": "<p>the most swift man</p>"
+        },
+        "back": {
+          "content": "<p><em>celerrimus</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'><em>celerrimus</em></p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>for the most humble man </p>",
+          "textversion": "<p>for the most humble man </p>"
+        },
+        "back": {
+          "content": "<p><em>humillimo</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'><em>humillimo</em></p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>with the most difficult thing </p>",
+          "textversion": "<p>with the most difficult thing </p>"
+        },
+        "back": {
+          "content": "<p><em>difficillimo</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'><em>difficillimo</em></p>"
+        }
+      },
+      {
+        "id": "card_06",
+        "front": {
+          "content": "<p>of the most sacred women </p>",
+          "textversion": "<p>of the most sacred women </p>"
+        },
+        "back": {
+          "content": "<p><em>sacerrimarum</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans6'>Show Answer</div><p id='ans6' class='collapse'><em>sacerrimarum</em></p>"
+        }
+      }
+    ]
+  }
+}

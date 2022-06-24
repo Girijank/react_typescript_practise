@@ -1,0 +1,39 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [    
+   
+    [
+      {
+        "type": "matching",
+        "quiz": "Translate each sentence and find its translation match. Practice as many times as you need until you translate it correct every time!",
+        "options": [
+          {
+            "left": "<em>Puella pilam capit.</em>",
+            "right": "The girl seizes the ball."
+          },
+          {
+            "left": "<em>Puellae ad agricolam pilam iacient.</em>",
+            "right": "The girls will hurl the ball to the farmer."
+          },
+          {
+            "left": "<em>Ab agricola fugiebamus.</em>",
+            "right": "We were fleeing from the farmer."
+          },
+          {
+            "left": "<em>In villa dormiebamus.</em>",
+            "right": "In the farmhouse we were sleeping."
+          },
+          {
+            "left": "<em>Villam munietis.</em>",
+            "right": "You will fortify the farmhouse."
+          }
+        ],
+        "chances": "2"
+      }
+    ]
+  ]
+}

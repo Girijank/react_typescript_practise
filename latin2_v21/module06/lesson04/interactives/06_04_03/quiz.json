@@ -1,0 +1,107 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_04_03/styles.css"],
+    "disableRemoteCss": true,
+
+    "customTextversionAll": "interactives/06_04_03/textversion/textversion.htm",
+    "modal": {
+      "directions": "Match the infinitive verb translation to its correct sentence. Pay attention to the tense of the main \"sensory\" verb.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "<span class='tv_linehide'>_________________</span>_______ Catullus <strong>scivit</strong> Lesbiam eum <strong>amavisse</strong>.",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "had loved"
+              }
+            ]
+          },
+          {
+            "title": "<br><span class='tv_linehide'>_________________</span>_______ Poeta <strong>monstrabit</strong> populos poemata bene <strong>respondere</strong>.",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "reply to"
+              }
+            ]
+          },
+          {
+            "title": "<br><span class='tv_linehide'>_________________</span>_______ Classes <strong>putaverunt</strong> naves Romanos ad eos <strong>navigare</strong>.",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "were sailing"
+              }
+            ]
+          },
+          {
+            "title": "<br><span class='tv_linehide'>_________________</span>_______ Nauta <strong>audivit</strong> monstrum aves <strong>devoraturum esse</strong>.",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "would devour"
+              }
+            ]
+          },
+          {
+            "title": "<br><span class='tv_linehide'>_________________</span>_______ <strong>Dico</strong> pueros a puellis <strong>vocari</strong>.",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "is being called"
+              }
+            ]
+          },
+          {
+            "title": "<br><span class='tv_linehide'>_________________</span>_______ Princeps <strong>cognoscebat</strong> vim exercituum bonum <strong>esse</strong>.",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "was"
+              }
+            ]
+          }
+
+
+
+        ]
+      }
+    ]
+  ]
+}

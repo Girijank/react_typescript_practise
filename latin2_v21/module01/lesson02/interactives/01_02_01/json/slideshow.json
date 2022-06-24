@@ -1,0 +1,54 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"intMedia": "interactives/01_02_01/intmedia/",
+			"theme": "standard"
+        },
+        "body": [
+            [
+              {
+                "type": "image",
+				  "alt": "Picture of Greek writing and architecture",
+                "src": "greek_influence_1084907292_gi.jpg"
+              },
+				{
+                "type": "text",
+                "content": "<strong>How did the Greeks influence Rome's mythological history?</strong><br /><br />Like many people today, the ancient Romans enjoyed a variety of forms of entertainment. From chariot races to gladiatorial contests, the Romans relished watching the games. However, the Romans also enjoyed listening to and reading literature on a variety of topics. One of the Romans' favorite genres was epic poetry, and two of the most celebrated epic poems in antiquity were the <em>Iliad</em> and the <em>Odyssey</em>, poems about the Trojan War and its aftermath.<br /><br />According to tradition, both the <em>Iliad</em> and the <em>Odyssey</em> were composed by the blind Greek poet, Homer, around 1100 BCE, four hundred years before the founding of Rome."
+              }
+            ],
+			[
+              {
+                "type": "image",
+				  "alt": "Picture of the Trojan horse",
+                "src": "trojan_horse_486511082_gi.jpg"
+              },
+				{
+                "type": "text",
+                "content": "<strong>The Iliad</strong><br /><br />In the <em>Iliad</em>, the Greeks were fighting the Trojans because Paris, one of the Trojan king Priam's sons, abducted Queen Helen of Sparta after falling in love with her. The king of Sparta, Menelaus, was enraged by this act and along with his brother, Agamemnon, and an alliance of Greek kings and their armies, waged war against the Trojans. Throughout the story, Greek heroes like Achilles battled Trojan heroes like Hector, and the Olympian gods and goddesses also took an active role in the fighting with some favoring the Greeks and others favoring the Trojans. Using the Trojan horse, the Greeks were ultimately able to capture and defeat Troy with only a handful of Trojans escaping.  One of these Trojans was the Dardanian prince, Aeneas."
+              }
+            ],
+			[
+              {
+                "type": "image",
+				  "alt": "Map of the Mediterranean Odyssey",
+                "src": "odyssey_154212924_gi.jpg"
+              },
+				{
+                "type": "text",
+                "content": "<strong>The Odyssey</strong><br /><br />The <em>Odyssey</em>, another poem attributed to Homer, concerns the aftermath of the Trojan War and Odysseus, the Greek king of Ithaca, who is trying to return home.  Over the course of his journey, Odysseus encountered many creatures like the cyclops, Polyphemus, and the witch Circe. Eventually, Odysseus returned home to Ithaca only to fight unwelcome Greek suitors who desire his kingdom."
+              }
+            ],
+			[
+              {
+                "type": "image",
+				  "alt": "Statue of Vergil",
+                "src": "vergil_484428237_gi.jpg"
+              },
+				{
+                "type": "text",
+                "content": "<strong>The Aeneid</strong><br /><br />For centuries, these stories were handed down and inspired many writers.  One of these writers was the Roman writer Vergil who modeled his own epic poem, the <em>Aeneid</em>, after Homer's <em>Iliad</em> and <em>Odyssey</em>. In Vergil's story, the Trojan prince Aeneas, who was a minor figure in Homer's <em>Iliad</em>, becomes the main character. Like Odysseus, Aeneas goes on a series of sea adventures before making his way to Italy.<br /><br />Vergil wrote the Aeneid nearly 700 years after the founding of Rome in 753 BCE and 1300 years after the actual Trojan War."
+              }
+            ]
+        ]
+      }

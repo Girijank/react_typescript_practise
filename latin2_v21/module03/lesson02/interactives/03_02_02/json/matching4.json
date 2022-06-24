@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the following.",
+        "options": [
+          {
+            "left": "Accusative case",
+            "right": "Receives the action"
+          },
+          {
+            "left": "Nominative case",
+            "right": "Performs the action"
+          },
+          {
+            "left": "Ablative case",
+            "right": "Object of the preposition"
+          },
+          {
+            "left": "Genitive case",
+            "right": "Possessive noun"
+          },
+          {
+            "left": "Dative case",
+            "right": "Indirect object"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

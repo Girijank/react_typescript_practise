@@ -1,0 +1,17 @@
+#flipcard01 .fev-wrapper {
+  width: 630px;
+  height: 180px;
+  /* background-color: darkgrey; */
+}
+
+#card_04, #card_05 {
+  width: 280px;
+}
+.fev-interactive-container .modal_holder { 
+  margin-top: 1%;
+}
+
+/* #card_02 {
+  width: 160px;
+  height: 200px;
+} */

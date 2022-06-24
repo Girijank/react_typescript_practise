@@ -1,0 +1,45 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "customTextversionAll": "interactives/02_imgmarker_tiles_02/imgmarker_text.htm",
+    "css": [
+      "interactives/02_imgmarker_tiles_02/imgmarker.css"
+    ]
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Select each image to view the sign for that word. When you're ready, use the audio recorder to practice on your own."
+      },
+      {
+        "type": "imageMarker",
+        "background": "interactives/02_imgmarker_tiles_02/intmedia/months_gi.jpg",
+        "width": "680",
+        "items": [
+          {
+            "title": "1",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='ac'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_0202_and.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>ac</td></tr><tr><td><strong>Part of Speech</strong></td><td>conjunction</td></tr><tr><td><strong>Definition</strong></td><td>and</td></tr><tr><td><strong>Derivative</strong></td><td></td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "2",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='nam'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_0202_for.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>nam</td></tr><tr><td><strong>Part of Speech</strong></td><td>conjunction</td></tr><tr><td><strong>Definition</strong></td><td>for</td></tr><tr><td><strong>Derivative</strong></td><td></td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "3",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='itaque'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_0202_andso.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>itaque</td></tr><tr><td><strong>Part of Speech</strong></td><td>conjugation</td></tr><tr><td><strong>Definition</strong></td><td>and so, and as a result</td></tr><tr><td><strong>Derivative</strong></td><td></td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "4",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='quis, quid'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_0202_who.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>quis, quid</td></tr><tr><td><strong>Part of Speech</strong></td><td>pronoun</td></tr><tr><td><strong>Definition</strong></td><td>who, what</td></tr><tr><td><strong>Derivative</strong></td><td></td></tr></tbody></table></div></div>",
+            "marker": "area"
+          }
+        ]
+      }
+    ]
+  ]
+}

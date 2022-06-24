@@ -1,0 +1,97 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/02_03_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/02_03_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “x”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve identified the correct sound. Fabulous job!",
+                "incorrect": "Oops! You've caught the wrong sound…try to listen again.",
+                "text": "<span lang='zh-Hans'>喜欢</span> xǐhuān (to like)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_03_02/media/to_like.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve identified the correct sound. Fabulous job!",
+                "incorrect": "Oops! You've caught the wrong sound…try to listen again.",
+                "text": "<span lang='zh-Hans'>害羞</span> hàixiū (shy)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_03_02/media/shy.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Initial “x” and Final “ie”",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "You’ve identified the correct sound. Fabulous job!",
+                "incorrect": "Oops! You've caught the wrong sound…try to listen again.",
+                "text": "<span lang='zh-Hans'>小姐</span> xiǎojiě (Miss)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_03_02/media/miss.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve identified the correct sound. Fabulous job!",
+                "incorrect": "Oops! You've caught the wrong sound…try to listen again.",
+                "text": "<span lang='zh-Hans'>谢谢</span> xièxiè (thanks)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_03_02/media/thanks.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin sentence to its correct Latin translation.",
+        "options": [
+          {
+            "left": "<em>Speravi te Romanos amaturum esse.</em>",
+            "right": "I hoped that you would love the Romans."
+          },
+          {
+            "left": "<em>Spero te Romanos amare.</em>",
+            "right": "I hope that you love the Romans."
+          },
+          {
+            "left": "<em>Speravi te Romanos amavisse.</em>",
+            "right": "I hoped that you had loved the Romans."
+          },
+          {
+            "left": "<em>Spero Romanos a te amatos esse</em>",
+            "right": "I hope that the Romans have been loved by you."
+          },
+          {
+            "left": "<em>Speravi te Romanos amare.</em>",
+            "right": "I hoped that you loved the Romans. "
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_02_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/04_02_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word; then, drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “w”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Outstanding job done catching the “w” sound. Fabulous job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>下午</span> xiàwǔ (p.m./afternoon)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/pm_afternoon.mp3",
+                    "textVersion": "<span lang='zh-Hans'>下午</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job done catching the “w” sound. Fabulous job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>英文课</span> yīngwénkè (English class)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/english_class.mp3",
+                    "textVersion": "<span lang='zh-Hans'>英文课</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job done catching the “w” sound. Fabulous job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>宠物</span> chǒngwù (pet)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/pet.mp3",
+                    "textVersion": "<span lang='zh-Hans'>宠物</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job done catching the “w” sound. Fabulous job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>晚餐</span> wǎncān (dinner)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/dinner.mp3",
+                    "textVersion": "<span lang='zh-Hans'>晚餐</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ang”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Terrific job! You’ve done an excellent job finding  the “ang” sound. How great!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>开朗</span> kāilǎng (outgoing)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/outgoing.mp3",
+                    "textVersion": "<span lang='zh-Hans'>开朗</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job! You’ve done an excellent job finding  the “ang” sound. How great!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>经常</span> jīngcháng (often)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/often.mp3",
+                    "textVersion": "<span lang='zh-Hans'>经常</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job! You’ve done an excellent job finding  the “ang” sound. How great!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>上</span> shàng (to attend class)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/to attend_class.mp3",
+                    "textVersion": "<span lang='zh-Hans'>上</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Terrific job! You’ve done an excellent job finding  the  “ang” sound. How great!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>香港</span> Xiānggǎng (Hong Kong)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_02_02/media/hong_kong.mp3",
+                    "textVersion": "<span lang='zh-Hans'>香港</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

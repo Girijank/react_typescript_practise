@@ -1,0 +1,106 @@
+
+div.activeInteractive {
+    padding: 0;
+}
+
+div.activeInteractive iframe {
+    border: 3px solid #eeeeef !important;
+    border-radius: 0 !important;
+}
+
+
+.infograph {
+	width: 960px;
+	height: 836px;
+	background: url("../images/architecture_flvs.jpg") no-repeat;
+	background-size: contain;
+	display: block;
+}
+.dialog1 {
+	position: relative;
+    width: 185px;
+    height: 222px;
+    left: 445px;
+    top: 25px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
+.dialog2 {
+	position: relative;
+    width: 215px;
+    height: 226px;
+    left: 12px;
+    top: 91px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
+.dialog3 {
+	position: relative;
+    width: 258px;
+    height: 214px;
+    left: 353px;
+    top: 158px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
+ @media (max-width: 1199px) {
+	.infograph {
+		width: 100%;
+		height: 704px;
+	}
+	.dialog1 {
+		width: 217px;
+		height: 223px;
+		top: 66px;
+		left: 115px;
+	}
+	.dialog2 {
+		width: 214px;
+		height: 254px;
+		top: 162px;
+		left: 437px;
+	}
+}
+@media (max-width: 991px) {
+	.infograph {
+		height: 593px;
+	}
+	.dialog1 {
+		left: 84px;
+		top: 50px;
+		width: 170px;
+		height: 171px;
+	}
+	.dialog2 {
+		left: 329px;
+		top: 125px;
+		width: 167px;
+		height: 192px;
+	}
+}
+@media (max-width: 768px) {
+	.infograph {
+		height: 593px;
+	}
+	.dialog1 {
+		left: 102px;
+		top: 59px;
+		width: 195px;
+		height: 194px;
+	}
+	.dialog2 {
+		left: 388px;
+		top: 153px;
+		width: 194px;
+		height: 225px;
+	}
+}
+
+.copyright{
+	margin-top: -14px!important;
+	padding-left: 20px;
+	text-align:left!important;
+}

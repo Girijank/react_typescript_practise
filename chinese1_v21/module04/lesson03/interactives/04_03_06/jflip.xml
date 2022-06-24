@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Select each flip card to review the answer.</directionsTextVer>
+	<width>180</width>
+	<height>180</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/02_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p><strong>Select the right word to complete the sentence:</strong></p><p><span lang='zh-Hans'>我妹妹____喝牛奶。</span></p><br><div class='row'><div class='col-md-6'>A: <span lang='zh-Hans'>会</span></div><div class='col-md-6'>B: <span lang='zh-Hans'>能</span></div></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>B: <span lang='zh-Hans'>能</span></p><p><span lang='zh-Hans'>我妹妹能喝牛奶。</span>Wǒ mèimei néng hē niúnǎi.</p><p>My younger sister can (is able to) drink milk.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><strong>Select the right word to complete the sentence:</strong></p><p><span lang='zh-Hans'>我朋友____说英文。</span></p><br><div class='row'><div class='col-md-6'>A: <span lang='zh-Hans'>会</span></div><div class='col-md-6'>B: <span lang='zh-Hans'>能</span></div></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>A: <span lang='zh-Hans'>会</span></p><p><span lang='zh-Hans'>我朋友会说英文。</span>Wǒ péngyǒu huì shuō yīngwén.</p><p>My friend knows how to speak English.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><strong>Select the right word to complete the sentence:</strong></p><p><span lang='zh-Hans'>我哥哥有现金</span>，<span lang='zh-Hans'>他____付钱。</span></p><br><div class='row'><div class='col-md-6'>A: <span lang='zh-Hans'>会</span></div><div class='col-md-6'>B: <span lang='zh-Hans'>能</span></div></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>B: <span lang='zh-Hans'>能</span></p><p><span lang='zh-Hans'>我哥哥有现金</span>，<span lang='zh-Hans'>他能付钱。</span>Wǒ gēge yǒu xiànjīn, tā néng fùqián.</p><p>My older brother has cash; he can (is able to) pay.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><strong>Select the right word to complete the sentence:</strong></p><p><span lang='zh-Hans'>我爸爸____画画。</span></p><br><div class='row'><div class='col-md-6'>A: <span lang='zh-Hans'>会</span></div><div class='col-md-6'>B: <span lang='zh-Hans'>能</span></div></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>A: <span lang='zh-Hans'>会</span></p><p><span lang='zh-Hans'>我爸爸会画画。</span>Wǒ bàba huì huàhuà.</p><p>My dad knows how to draw pictures.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

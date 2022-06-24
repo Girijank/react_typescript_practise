@@ -1,0 +1,27 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "moribundissima"
+        ],
+        "quiz": "<p>In Latin, write the correct superlative adjective answer into each cell.</p><br> <p><strong>Sentence Verb to Use:</strong> <em>moribundus,-a,-um Ablative sg. f.</em> </p><br> Fill in the blank superlative adjective answer: *_ .",
+        "correct": "That's right! Gratulationes on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin and five it another shot. Bona fortuna!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+.table_div .audio_container,
+.table_div .mejs-container {
+    max-width: 320px !important;
+    margin: 0 auto;
+}
+
+.mejs-controls div.mejs-time-rail {
+    width: calc(100% - 150px) !important;
+    max-width: 90% !important;
+    ;
+}
+
+.mejs-controls .mejs-time-rail>span {
+    width: calc(100% - 163px) !important;
+    max-width: 97% !important;
+    ;
+}
+
+.mejs-ios .mejs-controls div.mejs-time-rail,
+.mejs-ipad .mejs-controls div.mejs-time-rail {
+    width: calc(100% - 70px) !important;
+}
+
+.mejs-ios .mejs-controls .mejs-time-rail>span,
+.mejs-ipad .mejs-controls .mejs-time-rail>span {
+    width: calc(100% - 83px) !important;
+}
+

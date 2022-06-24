@@ -1,0 +1,109 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_02_06/styles.css"],
+    "intMedia": "interactives/03_02_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>我们</span> wǒmen"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same final in pinyin as the second character in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>很</span> hěn (very)</span><audio class='audio' controls src='interactives/03_02_06/intmedia/hen.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>谁</span> shéi (who)</span><audio class='audio' controls src='interactives/03_02_06/intmedia/who.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>家</span> jiā (family; home)</span><audio class='audio' controls src='interactives/03_02_06/intmedia/family_home.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>猫</span> māo (cat)</span><audio class='audio' controls src='interactives/03_02_06/intmedia/cat.mp3' ></audio>"
+        ],
+        "correct": "Job excellently done! The second character in <em><span lang='zh-Hans'>我们</span> wǒmen</em> (we/us) is “men.” Of the options, <em><span lang='zh-Hans'>很</span> hěn</em> (very) also has the final “en.”",
+        "incorrect": "Very close. First pronounce the word to identify its second final and how it sounds. Then listen very carefully to the choices to see which one has the same sound.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>你们</span> nǐmen"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>can</strong> you <strong>not</strong> use to refer to the word presented?</p>",
+        "answer": "Your best friend",
+        "options": [
+          "Your three cousins",
+          "Both of your grandparents",
+          "Your whole class"
+        ],
+        "correct": "Awesome job! <em><span lang='zh-Hans'>你们</span> nǐmen</em> is the plural for “you.” You can use it to address a group with two or more people.",   
+        "incorrect": "Oops... think about what type of word it is and in what situation(s) you can use it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>凶</span> xiōng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can this word be used to complete?</p>", 
+        "answer": "<span lang='zh-Hans'>我的狗有点</span>_____。Wǒde gǒu yǒudiǎn _____.",      
+        "options":[
+          "<span lang='zh-Hans'>我的咖啡很</span>_____。Wǒde kāfēi hěn _____.",
+          "<span lang='zh-Hans'>请给我一盘</span>_____。Qǐng gěiwǒ yīpán _____.",
+          "<span lang='zh-Hans'>我今年_____岁</span> Wǒ jīnián _____ suì."
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>凶</span> xiōng means “mean,” and it is used in the second sentence—“My dog is a little mean.”",
+        "incorrect": "So close! Think about the meaning of this word and how it can be used in a sentence properly.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>善良</span> shànliáng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words is <strong>not</strong> the same part of speech as the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>汤</span> tāng",
+        "options": [
+          "<span lang='zh-Hans'>害羞</span> hàixiū",
+          "<span lang='zh-Hans'>开朗</span> kāilǎng",
+          "<span lang='zh-Hans'>冷</span> lěng"
+        ],
+        "correct": "Fabulous job! <span lang='zh-Hans'>善良</span> shànliáng is an adjective. Of the options, only<span lang='zh-Hans'>汤</span> tāng (soup) is not an adjective. It’s a noun.",        
+        "incorrect": "So close! Think about what type of word it is (noun, pronoun, adjective, adverb… etc.). Then review the words in the choices to see which one does not belong.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>有智慧</span> yǒuzhìhuì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In the phrase presented, what does <em><span lang='zh-Hans'>智慧</span> zhìhuì</em> mean by itself?</p>",
+        "answer": "wisdom",
+        "options": [
+          "bravery",
+          "courage",
+          "calmness"
+        ],
+        "correct": "Wonderfully done! <em><span lang='zh-Hans'>智慧</span> zhìhuì</em> by itself means “wisdom” as a noun. ",        
+        "incorrect": "So close! Think about what the original phrase means, and when broken down, what each part refers to.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

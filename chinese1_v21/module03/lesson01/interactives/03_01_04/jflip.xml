@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Fill in the blanks with the appropriate words to complete the sentence. Select each flip card to review the answer.</directionsTextVer>
+	<width>180</width>
+	<height>180</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p><span lang='zh-Hans'>你家有____人？</span></p> <br> <p>Nǐjiā yǒu ____rén?</p> <br> <p><strong>How many</strong> people are in your family?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>多少</span> duōshǎo</p> <p>or</p><br> <p><span lang='zh-Hans'>几个</span> jǐgè</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>我家有____人。</span></p> <br> <p>Wǒ jiā yǒu ____rén.</p> <br> <p>There are <strong>four</strong> people in my family.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>四个</span></p> <br> <p>sìgè</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>我有____弟弟。</span></p> <br> <p>Wǒ yǒu dìdi.</p> <br> <p>I have  <strong>two</strong> younger brothers.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>两个</span></p> <br> <p>liǎnggè</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>你家有____？</span></p> <br> <p>Nǐ jiā yǒu___？ </p> <br> <p><strong>Who</strong>  are you in your family?</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>谁</span></p> <br> <p>shéi</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>我____妹妹。</span></p> <br> <p>Wǒ ____ mèimei.</p> <br> <p><strong>I don’t have</strong> younger sisters.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>没有</span></p> <br> <p>méiyǒu</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

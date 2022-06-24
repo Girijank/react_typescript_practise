@@ -1,0 +1,50 @@
+<div class="objectLoop" data-quizmo-jqmath data-ng-repeat="object in vm.slide" data-ng-switch data-on="object.type">
+    <h3 data-ng-switch-when="title" class="il_wb animate-if il_h_wrapper il_question"
+        data-ng-class="{'col-xs-9':vm.slide.image}" data-ng-bind-html="vm.format(object.content)"></h3>
+    <p data-ng-switch-when="text" class="il_wb animate-if il_p_wrapper il_question"
+        ng-class="{'col-xs-9':vm.slide.image}" data-ng-bind-html="vm.format(object.content)"></p>
+
+    <!-- <div data-ng-switch-when="image" class="myimages">
+        <img data-ng-src="{{ object.src }}" alt="{{ object.alt }}" />       
+        <span class="copyright" data-ng-bind-html="vm.format(object.data.copyright)"></span>   
+    </div> -->
+
+    <!-- <div data-ng-switch-when="video" class="myVideo">
+        <div data-quizmo-kaltura id="{{object.entryID}}" object="object" tabindex="0"></div>
+    </div> -->
+
+    <div data-ng-switch-when="mc" class="il_wb animate-if mc" data-ng-class="object.customClass">
+
+        <div class="il_question myQuestions" data-quizmo-jqmath data-ng-bind-html="object.quiz"></div>
+        <div class="myimages col-xs-4">
+            <img data-ng-src="{{ object.media.src }}" alt="{{  object.media.alt }}" />
+            <span data-ng-if="object.media.copyright"
+                                data-ng-bind-html="vm.format(object.media.copyright)"></span>
+        </div>
+
+        <!-- <div data-ng-switch-when="image" class="myimages col-xs-6">
+            <img data-ng-src="{{ object.src }}" alt="{{ object.alt }}" />         
+        </div> -->
+
+        <div class="myChoices col-xs-8">
+            <div class="il_question">
+                <div class="btn-group interactiveElements">
+                    <button data-ng-repeat="option in object.options" data-ng-click="vm.mcClick(option)"
+                        data-quizmo-jqmath data-ng-class="{'hasMedia': option.media}" class="btn btn-primary"
+                        data-ng-model="object.selection" data-ng-checked="object.selection" uib-btn-radio="option.text"
+                        uncheckable>
+                        <span data-ng-if="option.text" data-ng-bind-html="vm.format(option.text)"></span>
+
+                        <span class="mc_image" data-ng-if="option.image">
+                            <img data-ng-src="{{vm.data.config.intMedia + option.image.src}}"
+                                alt="{{option.image.alt}}" />
+                            <span data-ng-if="option.image.copyright"
+                                data-ng-bind-html="vm.format(option.image.copyright)"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

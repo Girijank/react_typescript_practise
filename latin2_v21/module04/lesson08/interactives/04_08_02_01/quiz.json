@@ -1,0 +1,51 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": true,
+    "resultsPage": false,
+    "interactiveTitle": "",
+    "css": ["interactives/04_08_02_01/matching.css"],
+    "_customTextversionAll": "../../global/templates/quizmo/matching_text.htm"
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Match the Latin vocabulary word with its corresponding derivative.",
+        "customView": "../../global/templates/quizmo/matching.htm"
+      },
+
+      {
+        "type": "matching",
+        "quiz": "",
+        "chances": "99999",
+        "options": [
+          {
+            "left": "curvatura, curvaturae f. ",
+            "right": "curvature",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Nominative pl. n., Accusative pl. n."
+          },
+          {
+            "left": "pastor, pastoris m.",
+            "right": "pastoral",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Nominative sg. f., Genitive sg. f., Nominative pl. f., Accusative pl. f."
+          },
+          {
+            "left": "pluma, plumae f.",
+            "right": "plumage",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A big tall man standing in the middle of a road"
+          },
+          {
+            "left": "stipendium, stipendii",
+            "right": "stipend",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A man in traditional attire standing with a Cretan lyre player"
+          }
+        ]
+      }
+    ]
+  ]
+}

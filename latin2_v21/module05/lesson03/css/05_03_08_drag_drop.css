@@ -1,0 +1,46 @@
+.figure {
+    text-align: center;
+}
+
+.figure>figcaption {
+    font-size: small;
+    bottom: 4px;
+    position: relative;
+    top: 10px;
+}
+.ui-draggable{
+    cursor: pointer !important;
+}
+
+.copyright_1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 10px;
+}
+
+.carousel-indicators li {
+    padding-top: 0;
+}
+
+#pageContent {
+    margin: 0;
+}
+
+.text{
+    padding: 10px 0;
+}
+
+
+@media only screen and (min-device-width: 768px) {
+    .carousel-control.right {
+        left: 45px;
+        bottom: 16px;
+    }
+    .carousel-control.left {
+        bottom: 15px;
+    }
+}
+
+.il_interactive .drop .bin, .il_interactive .droppable .bin{
+    color: black;
+}

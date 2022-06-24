@@ -1,0 +1,22 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/05_01_01_timeline/intmedia/",
+		"css":["interactives/05_01_01_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [
+
+			{
+				"date": "510 BCE–27 BCE",
+				"content": "<p><strong>The Roman Empire. C. 27 BCE–476 CE </strong>",
+				"image": "timeline_img1_gi.jpg",
+				"copyright": "",
+				"alt":"Map of the Roman Empire  ",
+				"summaryLength": "200"
+			}
+		
+		]
+	}
+}

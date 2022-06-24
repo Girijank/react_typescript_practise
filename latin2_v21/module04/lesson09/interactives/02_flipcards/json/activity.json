@@ -1,0 +1,64 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"How would you translate the words in <strong>bold</strong> type in these sentences? Select the card to check your answer.",
+    "instruction_textversion":"How would you translate the words in <strong>bold</strong> type in these sentences? Check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>In the Theatre of Pompey, a smaller bird was <strong>very swiftly</strong> devoured by a larger bird.</p>",
+          "textversion": "<p>In the Theatre of Pompey, a smaller bird was <strong>very swiftly</strong> devoured by a larger bird.</p>"
+        },
+        "back": {
+          "content":  "<p><em>Celerrime</em></p>",
+          "textversion":  "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'><em>Celerrime</em></p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>The conspirators <strong>rather sharply </strong>attacked Caesar on the Ides of March. </p>",
+          "textversion": "<p>The conspirators <strong>rather sharply </strong>attacked Caesar on the Ides of March. </p>"
+        },
+        "back": {
+          "content":   "<p><em>Acrius</em></p>",
+          "textversion":  "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'><em>Acrius</em></p>"
+        }
+      },
+      
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Caesar believed he did <strong>more</strong> for the Roman people than any other leader. </p>",
+          "textversion": "<p>Caesar believed he did <strong>more</strong> for the Roman people than any other leader. </p>"
+        },
+        "back": {
+          "content":   "<p><em>Plus</em></p>",
+          "textversion":   "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'><em>Plus</em></p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content":  "<p>Caesar had become a <strong> very wealthy man</strong> after the Gallic Wars. </p>",
+          "textversion":  "<p>Caesar had become a <strong> very wealthy man</strong> after the Gallic Wars. </p>"
+        },
+        "back": {
+          "content":  "<p><em>Divitissimus</em></p>",
+          "textversion":  "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'><em>Divitissimus</em></p>"
+        }
+      }
+    ]
+  }
+}
+
+
+
+
+

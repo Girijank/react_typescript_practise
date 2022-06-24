@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Select each flip card to review the answer.</directionsTextVer>
+	<width>180</width>
+	<height>180</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/02_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p><span lang="zh-Hans">弟弟</span> dìdi (younger brother)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang="zh-Hans">继弟</span> jìdì (younger stepbrother)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><span lang="zh-Hans">姐姐</span> jiějie (older sister)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang="zh-Hans">继姐</span> jìjiě (older stepsister)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

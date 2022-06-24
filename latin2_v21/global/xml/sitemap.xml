@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemap>
+  <!--Welcome-->
+  <module title="Welcome" pre="" visible="true" icon="" bg="" num="Welcome Folder" mID="wffl" gl_default="false" gl_state="flvs">
+    <lesson title="Course Information" num="01" time="30" points="0" gl_default="false" gl_state="flvs">
+      <page href="../../welcome_latin2_v21/course_information/general.htm" title="Welcome" gl_default="false" gl_state="flvs"/>
+    </lesson>
+  </module>
+
+  <module title="Welcome" pre="" visible="true" icon="" bg="" num="Welcome Folder" mID="wf" gl_state="flvs-off">
+    <lesson title="Course Information" num="01" time="30" points="0" gl_state="flvs-off">
+      <page href="../../welcome_latin2_v21/course_information/course_information.htm" title="Welcome" gl_state="flvs-off"/>
+    </lesson>
+  </module>
+
+  <!-- Getting Started -->
+  <module title="Getting Started" visible="true" pre="00:" icon="" bg="" mID="gs">
+    <lesson title="Things to Know" num="00.01" time="5" points="0">
+      <page href="../../getting_started/lesson01/gs_01_01.htm" title="00.01 Page 01"/>
+      <page href="../../getting_started/lesson01/gs_01_02.htm" title="00.01 Page 02"/>
+      <page href="../../getting_started/lesson01/gs_01_03.htm" title="00.01 Page 03"/>
+      <page href="../../getting_started/lesson01/gs_01_04.htm" title="00.01 Page 04"/>
+    </lesson>
+  </module>
+
+  <!-- Collaboration --> 
+  <module title="Collaboration" visible="true" pre="00:" num="00" modID="7" mID="7">
+    <lesson title="Collaboration" num="00" time="5" points="0" lID="00">
+      <page href="../../collaboration/lesson00/s0_00_01.htm" title="Collaboration"/>
+    </lesson>
+    <lesson title="Segment One Collaboration" num="01" time="60" points="30" lID="01">
+      <page href="../../collaboration/lesson01/s1_01_01.htm" title="Collaboration Page 01"/>
+      <page href="../../collaboration/lesson01/s1_01_02.htm" title="Collaboration Page 02"/>
+      <!-- <page href="../../collaboration/lesson01/s1_01_03.htm" title="Collaboration Page 03"/> -->
+    </lesson>
+    <lesson title="Segment Two Collaboration" num="02" time="60" points="30" lID="02">
+      <page href="../../collaboration/lesson02/s2_02_01.htm" title="Collaboration Page 01"/>
+      <page href="../../collaboration/lesson02/s2_02_02.htm" title="Collaboration Page 02"/>
+      <!-- <page href="../../collaboration/lesson02/s2_02_03.htm" title="Collaboration Page 03"/> -->
+    </lesson>
+  </module>
+
+  <!-- Main Course content -->
+  <module title="Roman Foundations" visible="true" icon="" bg="" pre="01:" num="01" modID="1" mID="1">
+    <lesson title="Roman Foundations Pretest" num="01.00" time="50" points="1" lID="0">
+      <page href="../../module01/lesson00/01_00_01.htm" title="01.00 Page 01"/>
+      <page href="../../module01/lesson00/01_00_02.htm" title="01.00 Page 02"/>
+      <page href="../../module01/lesson00/01_00_03.htm" title="01.00 Page 03"/>
+      <page href="../../module01/lesson00/01_00_04.htm" title="01.00 Page 04"/>
+    </lesson>
+    <lesson title="Welcome to Rome" num="01.01" time="85" points="10" lID="1">
+      <page href="../../module01/lesson01/01_01_01.htm" title="01.01 Page 01"/>
+      <page href="../../module01/lesson01/01_01_02.htm" title="01.01 Page 02"/>
+      <page href="../../module01/lesson01/01_01_03.htm" title="01.01 Page 03"/>
+      <page href="../../module01/lesson01/01_01_04.htm" title="01.01 Page 04"/>
+      <page href="../../module01/lesson01/01_01_05.htm" title="01.01 Page 05"/>
+      <page href="../../module01/lesson01/01_01_06.htm" title="01.01 Page 06"/>
+      <page href="../../module01/lesson01/01_01_07.htm" title="01.01 Page 07"/>
+      <page href="../../module01/lesson01/01_01_08.htm" title="01.01 Page 08"/>
+      <page href="../../module01/lesson01/01_01_09.htm" title="01.01 Page 09"/>
+    </lesson>
+    <lesson title="Classical Foundations" num="01.02" time="85" points="10" lID="2">
+      <page href="../../module01/lesson02/01_02_01.htm" title="01.02 Page 01"/>
+      <page href="../../module01/lesson02/01_02_02.htm" title="01.02 Page 02"/>
+      <page href="../../module01/lesson02/01_02_03.htm" title="01.02 Page 03"/>
+      <page href="../../module01/lesson02/01_02_04.htm" title="01.02 Page 04"/>
+      <page href="../../module01/lesson02/01_02_05.htm" title="01.02 Page 05"/>
+      <page href="../../module01/lesson02/01_02_06.htm" title="01.02 Page 06"/>
+      <page href="../../module01/lesson02/01_02_07.htm" title="01.02 Page 07"/>
+      <page href="../../module01/lesson02/01_02_08.htm" title="01.02 Page 08"/>
+      <page href="../../module01/lesson02/01_02_09.htm" title="01.02 Page 09"/>
+    </lesson>
+    <lesson title="Aeneas's Guide to Founding Rome" num="01.03" time="75" points="10" lID="3">
+      <page href="../../module01/lesson03/01_03_01.htm" title="01.03 Page 01"/>
+      <page href="../../module01/lesson03/01_03_02.htm" title="01.03 Page 02"/>
+      <page href="../../module01/lesson03/01_03_03.htm" title="01.03 Page 03"/>
+      <page href="../../module01/lesson03/01_03_04.htm" title="01.03 Page 04"/>
+      <page href="../../module01/lesson03/01_03_05.htm" title="01.03 Page 05"/>
+      <page href="../../module01/lesson03/01_03_06.htm" title="01.03 Page 06"/>
+      <page href="../../module01/lesson03/01_03_07.htm" title="01.03 Page 07"/>
+      <page href="../../module01/lesson03/01_03_08.htm" title="01.03 Page 08"/>
+    </lesson>
+    <lesson title="Myth and Monarchy" num="01.04" time="80" points="50" lID="4">
+      <page href="../../module01/lesson04/01_04_01.htm" title="01.04 Page 01"/>
+      <page href="../../module01/lesson04/01_04_02.htm" title="01.04 Page 02"/>
+      <page href="../../module01/lesson04/01_04_03.htm" title="01.04 Page 03"/>
+      <page href="../../module01/lesson04/01_04_04.htm" title="01.04 Page 04"/>
+      <page href="../../module01/lesson04/01_04_05.htm" title="01.04 Page 05"/>
+      <page href="../../module01/lesson04/01_04_06.htm" title="01.04 Page 06"/>
+      <page href="../../module01/lesson04/01_04_07.htm" title="01.04 Page 07"/>
+      <page href="../../module01/lesson04/01_04_08.htm" title="01.04 Page 08"/>
+      <page href="../../module01/lesson04/01_04_09.htm" title="01.04 Page 09"/>
+    </lesson>
+    <lesson title="Roman Foundations Workshop" num="01.05" time="100" points="100" lID="5">
+      <page href="../../module01/lesson05/01_05_01.htm" title="01.05 Page 01"/>
+      <page href="../../module01/lesson05/01_05_02.htm" title="01.05 Page 02"/>
+      <page href="../../module01/lesson05/01_05_03.htm" title="01.05 Page 03"/>
+      <page href="../../module01/lesson05/01_05_04.htm" title="01.05 Page 04"/>
+    </lesson>
+    <lesson title="Roman Foundations Discussion-Based Assessment" num="01.06" time="30" points="50" lID="6">
+      <page href="../../module01/lesson06/01_06_01.htm" title="01.06 Page 01"/>
+      <page href="../../module01/lesson06/01_06_02.htm" title="01.06 Page 02"/>
+      <page href="../../module01/lesson06/01_06_03.htm" title="01.06 Page 03"/>
+    </lesson>
+    <lesson title="Talking Kings and Succession" num="01.07" time="75" points="10" lID="7">
+      <page href="../../module01/lesson07/01_07_01.htm" title="01.07 Page 01"/>
+      <page href="../../module01/lesson07/01_07_02.htm" title="01.07 Page 02"/>
+      <page href="../../module01/lesson07/01_07_03.htm" title="01.07 Page 03"/>
+      <page href="../../module01/lesson07/01_07_04.htm" title="01.07 Page 04"/>
+      <page href="../../module01/lesson07/01_07_05.htm" title="01.07 Page 05"/>
+      <page href="../../module01/lesson07/01_07_06.htm" title="01.07 Page 06"/>
+      <page href="../../module01/lesson07/01_07_07.htm" title="01.07 Page 07"/>
+      <page href="../../module01/lesson07/01_07_08.htm" title="01.07 Page 08"/>
+    </lesson>
+    <lesson title="Etruscan Kings of Rome" num="01.08" time="75" points="10" lID="8">
+      <page href="../../module01/lesson08/01_08_01.htm" title="01.08 Page 01"/>
+      <page href="../../module01/lesson08/01_08_02.htm" title="01.08 Page 02"/>
+      <page href="../../module01/lesson08/01_08_03.htm" title="01.08 Page 03"/>
+      <page href="../../module01/lesson08/01_08_04.htm" title="01.08 Page 04"/>
+      <page href="../../module01/lesson08/01_08_05.htm" title="01.08 Page 05"/>
+      <page href="../../module01/lesson08/01_08_06.htm" title="01.08 Page 06"/>
+      <page href="../../module01/lesson08/01_08_07.htm" title="01.08 Page 07"/>
+      <page href="../../module01/lesson08/01_08_08.htm" title="01.08 Page 08"/>
+      <page href="../../module01/lesson08/01_08_09.htm" title="01.08 Page 09"/>
+      <page href="../../module01/lesson08/01_08_10.htm" title="01.08 Page 10"/>
+    </lesson>
+    <lesson title="Monarchy in Decline" num="01.09" time="120" points="100" lID="9">
+      <page href="../../module01/lesson09/01_09_01.htm" title="01.09 Page 01"/>
+      <page href="../../module01/lesson09/01_09_02.htm" title="01.09 Page 02"/>
+      <page href="../../module01/lesson09/01_09_03.htm" title="01.09 Page 03"/>
+      <page href="../../module01/lesson09/01_09_04.htm" title="01.09 Page 04"/>
+      <page href="../../module01/lesson09/01_09_05.htm" title="01.09 Page 05"/>
+      <page href="../../module01/lesson09/01_09_06.htm" title="01.09 Page 06"/>
+      <page href="../../module01/lesson09/01_09_07.htm" title="01.09 Page 07"/>
+    </lesson>
+    <lesson title="Roman Foundations Exam" num="01.10" time="80" points="104" lID="10">
+      <page href="../../module01/lesson10/01_10_01.htm" title="01.10 Page 01"/>
+      <page href="../../module01/lesson10/01_10_02.htm" title="01.10 Page 02"/>
+      <page href="../../module01/lesson10/01_10_03.htm" title="01.10 Page 03"/>
+    </lesson>
+  </module>
+  <!-- Module 2 -->
+  <module title="To the Republic" visible="true" icon="" bg="" pre="02:" num="02" modID="2" mID="2">
+    <lesson title="To the Republic Pretest" num="02.00" time="50" points="1" lID="0">
+      <page href="../../module02/lesson00/02_00_01.htm" title="02.00 Page 01"/>
+      <page href="../../module02/lesson00/02_00_02.htm" title="02.00 Page 02"/>
+      <page href="../../module02/lesson00/02_00_03.htm" title="02.00 Page 03"/>
+    </lesson>
+    <lesson title="Birth of a Republic" num="02.01" time="85" points="10" lID="1">
+      <page href="../../module02/lesson01/02_01_01.htm" title="02.01 Page 01"/>
+      <page href="../../module02/lesson01/02_01_02.htm" title="02.01 Page 02"/>
+      <page href="../../module02/lesson01/02_01_03.htm" title="02.01 Page 03"/>
+      <page href="../../module02/lesson01/02_01_04.htm" title="02.01 Page 04"/>
+      <page href="../../module02/lesson01/02_01_05.htm" title="02.01 Page 05"/>
+      <page href="../../module02/lesson01/02_01_06.htm" title="02.01 Page 06"/>
+      <page href="../../module02/lesson01/02_01_07.htm" title="02.01 Page 07"/>
+      <page href="../../module02/lesson01/02_01_08.htm" title="02.01 Page 08"/>
+    </lesson>
+    <lesson title="Twelve Tables" num="02.02" time="85" points="10" lID="2">
+      <page href="../../module02/lesson02/02_02_01.htm" title="02.02 Page 01"/>
+      <page href="../../module02/lesson02/02_02_02.htm" title="02.02 Page 02"/>
+      <page href="../../module02/lesson02/02_02_03.htm" title="02.02 Page 03"/>
+      <page href="../../module02/lesson02/02_02_04.htm" title="02.02 Page 04"/>
+      <page href="../../module02/lesson02/02_02_05.htm" title="02.02 Page 05"/>
+      <page href="../../module02/lesson02/02_02_06.htm" title="02.02 Page 06"/>
+      <page href="../../module02/lesson02/02_02_07.htm" title="02.02 Page 07"/>
+      <page href="../../module02/lesson02/02_02_08.htm" title="02.02 Page 08"/>
+    </lesson>
+    <lesson title="From Several, One" num="02.03" time="75" points="10" lID="3">
+      <page href="../../module02/lesson03/02_03_01.htm" title="02.03 Page 01"/>
+      <page href="../../module02/lesson03/02_03_02.htm" title="02.03 Page 02"/>
+      <page href="../../module02/lesson03/02_03_03.htm" title="02.03 Page 03"/>
+      <page href="../../module02/lesson03/02_03_04.htm" title="02.03 Page 04"/>
+      <page href="../../module02/lesson03/02_03_05.htm" title="02.03 Page 05"/>
+      <page href="../../module02/lesson03/02_03_06.htm" title="02.03 Page 06"/>
+      <page href="../../module02/lesson03/02_03_07.htm" title="02.03 Page 07"/>
+    </lesson>
+    <lesson title="Neighbor Disputes" num="02.04" time="90" points="50" lID="4">
+      <page href="../../module02/lesson04/02_04_01.htm" title="02.04 Page 01"/>
+      <page href="../../module02/lesson04/02_04_02.htm" title="02.04 Page 02"/>
+      <page href="../../module02/lesson04/02_04_03.htm" title="02.04 Page 03"/>
+      <page href="../../module02/lesson04/02_04_04.htm" title="02.04 Page 04"/>
+      <page href="../../module02/lesson04/02_04_05.htm" title="02.04 Page 05"/>
+      <page href="../../module02/lesson04/02_04_06.htm" title="02.04 Page 06"/>
+      <page href="../../module02/lesson04/02_04_07.htm" title="02.04 Page 07"/>
+      <page href="../../module02/lesson04/02_04_08.htm" title="02.04 Page 08"/>
+    </lesson>
+    <lesson title="To the Republic Workshop" num="02.05" time="100" points="100" lID="5">
+      <page href="../../module02/lesson05/02_05_01.htm" title="02.05 Page 01"/>
+      <page href="../../module02/lesson05/02_05_02.htm" title="02.05 Page 02"/>
+      <page href="../../module02/lesson05/02_05_03.htm" title="02.05 Page 03"/>
+      <page href="../../module02/lesson05/02_05_04.htm" title="02.05 Page 04"/>
+    </lesson>
+    <lesson title="To the Republic Discussion-Based Assessment" num="02.06" time="30" points="50" lID="6">
+      <page href="../../module02/lesson06/02_06_01.htm" title="02.06 Page 01"/>
+      <page href="../../module02/lesson06/02_06_02.htm" title="02.06 Page 02"/>
+      <page href="../../module02/lesson06/02_06_03.htm" title="02.06 Page 03"/>
+    </lesson>
+    <lesson title="Pyrrhic Victories" num="02.07" time="75" points="10" lID="7">
+      <page href="../../module02/lesson07/02_07_01.htm" title="02.07 Page 01"/>
+      <page href="../../module02/lesson07/02_07_02.htm" title="02.07 Page 02"/>
+      <page href="../../module02/lesson07/02_07_03.htm" title="02.07 Page 03"/>
+      <page href="../../module02/lesson07/02_07_04.htm" title="02.07 Page 04"/>
+      <page href="../../module02/lesson07/02_07_05.htm" title="02.07 Page 05"/>
+      <page href="../../module02/lesson07/02_07_06.htm" title="02.07 Page 06"/>
+      <page href="../../module02/lesson07/02_07_07.htm" title="02.07 Page 07"/>
+    </lesson>
+    <lesson title="Rome vs. Carthage" num="02.08" time="75" points="10" lID="8">
+      <page href="../../module02/lesson08/02_08_01.htm" title="02.08 Page 01"/>
+      <page href="../../module02/lesson08/02_08_02.htm" title="02.08 Page 02"/>
+      <page href="../../module02/lesson08/02_08_03.htm" title="02.08 Page 03"/>
+      <page href="../../module02/lesson08/02_08_04.htm" title="02.08 Page 04"/>
+      <page href="../../module02/lesson08/02_08_05.htm" title="02.08 Page 05"/>
+      <page href="../../module02/lesson08/02_08_06.htm" title="02.08 Page 06"/>
+    </lesson>
+    <lesson title="Carthage Must Be Destroyed!" num="02.09" time="120" points="100" lID="9">
+      <page href="../../module02/lesson09/02_09_01.htm" title="02.09 Page 01"/>
+      <page href="../../module02/lesson09/02_09_02.htm" title="02.09 Page 02"/>
+      <page href="../../module02/lesson09/02_09_03.htm" title="02.09 Page 03"/>
+      <page href="../../module02/lesson09/02_09_04.htm" title="02.09 Page 04"/>
+      <page href="../../module02/lesson09/02_09_05.htm" title="02.09 Page 05"/>
+      <page href="../../module02/lesson09/02_09_06.htm" title="02.09 Page 06"/>
+      <page href="../../module02/lesson09/02_09_07.htm" title="02.09 Page 07"/>
+      <page href="../../module02/lesson09/02_09_08.htm" title="02.09 Page 08"/>
+    </lesson>
+    <lesson title="To the Republic Exam" num="02.10" time="80" points="104" lID="10">
+      <page href="../../module02/lesson10/02_10_01.htm" title="02.10 Page 01"/>
+      <page href="../../module02/lesson10/02_10_02.htm" title="02.10 Page 02"/>
+      <page href="../../module02/lesson10/02_10_03.htm" title="02.10 Page 03"/>
+    </lesson>
+  </module>
+  <!-- Module 3 -->
+  <module title="Growth of a Civilization" visible="true" icon="" bg="" pre="03:" num="03" modID="3" mID="3">
+    <lesson title="Growth of a Civilization Pretest" num="03.00" time="50" points="1" lID="0">
+      <page href="../../module03/lesson00/03_00_01.htm" title="03.00 Page 01"/>
+      <page href="../../module03/lesson00/03_00_02.htm" title="03.00 Page 02"/>
+      <page href="../../module03/lesson00/03_00_03.htm" title="03.00 Page 03"/>
+    </lesson>
+    <lesson title="Home Sweet Rome" num="03.01" time="85" points="10" lID="1">
+      <page href="../../module03/lesson01/03_01_01.htm" title="03.01 Page 01"/>
+      <page href="../../module03/lesson01/03_01_02.htm" title="03.01 Page 02"/>
+      <page href="../../module03/lesson01/03_01_03.htm" title="03.01 Page 03"/>
+      <page href="../../module03/lesson01/03_01_04.htm" title="03.01 Page 04"/>
+      <page href="../../module03/lesson01/03_01_05.htm" title="03.01 Page 05"/>
+      <page href="../../module03/lesson01/03_01_06.htm" title="03.01 Page 06"/>
+      <page href="../../module03/lesson01/03_01_07.htm" title="03.01 Page 07"/>
+    </lesson>
+    <lesson title="We Are Family" num="03.02" time="85" points="10" lID="2">
+      <page href="../../module03/lesson02/03_02_01.htm" title="03.02 Page 01"/>
+      <page href="../../module03/lesson02/03_02_02.htm" title="03.02 Page 02"/>
+      <page href="../../module03/lesson02/03_02_03.htm" title="03.02 Page 03"/>
+      <page href="../../module03/lesson02/03_02_04.htm" title="03.02 Page 04"/>
+      <page href="../../module03/lesson02/03_02_05.htm" title="03.02 Page 05"/>
+      <page href="../../module03/lesson02/03_02_06.htm" title="03.02 Page 06"/>
+      <page href="../../module03/lesson02/03_02_07.htm" title="03.02 Page 07"/>
+    </lesson>
+    <lesson title="City Living" num="03.03" time="75" points="10" lID="3">
+      <page href="../../module03/lesson03/03_03_01.htm" title="03.03 Page 01"/>
+      <page href="../../module03/lesson03/03_03_02.htm" title="03.03 Page 02"/>
+      <page href="../../module03/lesson03/03_03_03.htm" title="03.03 Page 03"/>
+      <page href="../../module03/lesson03/03_03_04.htm" title="03.03 Page 04"/>
+      <page href="../../module03/lesson03/03_03_05.htm" title="03.03 Page 05"/>
+      <page href="../../module03/lesson03/03_03_06.htm" title="03.03 Page 06"/>
+      <page href="../../module03/lesson03/03_03_07.htm" title="03.03 Page 07"/>
+    </lesson>
+    <lesson title="Ancient Remedies" num="03.04" time="90" points="50" lID="4">
+      <page href="../../module03/lesson04/03_04_01.htm" title="03.04 Page 01"/>
+      <page href="../../module03/lesson04/03_04_02.htm" title="03.04 Page 02"/>
+      <page href="../../module03/lesson04/03_04_03.htm" title="03.04 Page 03"/>
+      <page href="../../module03/lesson04/03_04_04.htm" title="03.04 Page 04"/>
+      <page href="../../module03/lesson04/03_04_05.htm" title="03.04 Page 05"/>
+      <page href="../../module03/lesson04/03_04_06.htm" title="03.04 Page 06"/>
+      <page href="../../module03/lesson04/03_04_07.htm" title="03.04 Page 07"/>
+      <page href="../../module03/lesson04/03_04_08.htm" title="03.04 Page 08"/>
+    </lesson>
+    <lesson title="Growth of a Civilization Workshop" num="03.05" time="100" points="100" lID="5">
+      <page href="../../module03/lesson05/03_05_01.htm" title="03.05 Page 01"/>
+      <page href="../../module03/lesson05/03_05_02.htm" title="03.05 Page 02"/>
+      <page href="../../module03/lesson05/03_05_03.htm" title="03.05 Page 03"/>
+      <page href="../../module03/lesson05/03_05_04.htm" title="03.05 Page 04"/>
+    </lesson>
+    <lesson title="Growth of a Civilization Discussion-Based Assessment" num="03.06" time="30" points="50" lID="6">
+      <page href="../../module03/lesson06/03_06_01.htm" title="03.06 Page 01"/>
+      <page href="../../module03/lesson06/03_06_02.htm" title="03.06 Page 02"/>
+      <page href="../../module03/lesson06/03_06_03.htm" title="03.06 Page 03"/>
+    </lesson>
+    <lesson title="Country Life" num="03.07" time="75" points="10" lID="7">
+      <page href="../../module03/lesson07/03_07_01.htm" title="03.07 Page 01"/>
+      <page href="../../module03/lesson07/03_07_02.htm" title="03.07 Page 02"/>
+      <page href="../../module03/lesson07/03_07_03.htm" title="03.07 Page 03"/>
+      <page href="../../module03/lesson07/03_07_04.htm" title="03.07 Page 04"/>
+      <page href="../../module03/lesson07/03_07_05.htm" title="03.07 Page 05"/>
+      <page href="../../module03/lesson07/03_07_06.htm" title="03.07 Page 06"/>
+      <page href="../../module03/lesson07/03_07_07.htm" title="03.07 Page 07"/>
+      <page href="../../module03/lesson07/03_07_08.htm" title="03.08 Page 08"/>
+    </lesson>
+    <lesson title="The Outsiders" num="03.08" time="120" points="100" lID="8">
+      <page href="../../module03/lesson08/03_08_01.htm" title="03.08 Page 01"/>
+      <page href="../../module03/lesson08/03_08_02.htm" title="03.08 Page 02"/>
+      <page href="../../module03/lesson08/03_08_03.htm" title="03.08 Page 03"/>
+      <page href="../../module03/lesson08/03_08_04.htm" title="03.08 Page 04"/>
+      <page href="../../module03/lesson08/03_08_05.htm" title="03.08 Page 05"/>
+      <page href="../../module03/lesson08/03_08_06.htm" title="03.08 Page 06"/>
+    </lesson>
+    <lesson title="Segment One Exam" num="03.09" time="90" points="320" lID="9">
+      <page href="../../module03/lesson09/03_09_01.htm" title="03.09 Page 01"/>
+      <page href="../../module03/lesson09/03_09_02.htm" title="03.09 Page 02"/>
+      <page href="../../module03/lesson09/03_09_03.htm" title="03.09 Page 03"/>
+      <page href="../../module03/lesson09/03_09_04.htm" title="03.09 Page 04"/>
+    </lesson>
+  </module>
+  <!-- Module 4 -->
+  <module title="War Stories" visible="true" icon="" bg="" pre="04:" num="04" modID="4" mID="4">
+    <lesson title="War Stories Pretest" num="04.00" time="50" points="1" lID="0">
+      <page href="../../module04/lesson00/04_00_01.htm" title="04.00 Page 01"/>
+      <page href="../../module04/lesson00/04_00_02.htm" title="04.00 Page 02"/>
+      <page href="../../module04/lesson00/04_00_03.htm" title="04.00 Page 03"/>
+    </lesson>
+    <lesson title="In the Army Now" num="04.01" time="85" points="10" lID="1">
+      <page href="../../module04/lesson01/04_01_01.htm" title="04.01 Page 01"/>
+      <page href="../../module04/lesson01/04_01_02.htm" title="04.01 Page 02"/>
+      <page href="../../module04/lesson01/04_01_03.htm" title="04.01 Page 03"/>
+      <page href="../../module04/lesson01/04_01_04.htm" title="04.01 Page 04"/>
+      <page href="../../module04/lesson01/04_01_05.htm" title="04.01 Page 05"/>
+      <page href="../../module04/lesson01/04_01_06.htm" title="04.01 Page 06"/>
+      <page href="../../module04/lesson01/04_01_07.htm" title="04.01 Page 07"/>
+      <page href="../../module04/lesson01/04_01_08.htm" title="04.01 Page 08"/>
+      <page href="../../module04/lesson01/04_01_09.htm" title="04.01 Page 09"/>
+      <page href="../../module04/lesson01/04_01_10.htm" title="04.01 Page 10"/>
+    </lesson>
+    <lesson title="Rebellion and Revolt" num="04.02" time="85" points="10" lID="2">
+      <page href="../../module04/lesson02/04_02_01.htm" title="04.02 Page 01"/>
+      <page href="../../module04/lesson02/04_02_02.htm" title="04.02 Page 02"/>
+      <page href="../../module04/lesson02/04_02_03.htm" title="04.02 Page 03"/>
+      <page href="../../module04/lesson02/04_02_04.htm" title="04.02 Page 04"/>
+      <page href="../../module04/lesson02/04_02_05.htm" title="04.02 Page 05"/>
+      <page href="../../module04/lesson02/04_02_06.htm" title="04.02 Page 06"/>
+      <page href="../../module04/lesson02/04_02_07.htm" title="04.02 Page 07"/>
+      <page href="../../module04/lesson02/04_02_08.htm" title="04.02 Page 08"/>
+      <page href="../../module04/lesson02/04_02_09.htm" title="04.02 Page 09"/>
+    </lesson>
+    <lesson title="Rise Up" num="04.03" time="75" points="10" lID="3">
+      <page href="../../module04/lesson03/04_03_01.htm" title="04.03 Page 01"/>
+      <page href="../../module04/lesson03/04_03_02.htm" title="04.03 Page 02"/>
+      <page href="../../module04/lesson03/04_03_03.htm" title="04.03 Page 03"/>
+      <page href="../../module04/lesson03/04_03_04.htm" title="04.03 Page 04"/>
+      <page href="../../module04/lesson03/04_03_05.htm" title="04.03 Page 05"/>
+      <page href="../../module04/lesson03/04_03_06.htm" title="04.03 Page 06"/>
+      <page href="../../module04/lesson03/04_03_07.htm" title="04.03 Page 07"/>
+    </lesson>
+    <lesson title="Mythic Proportions" num="04.04" time="90" points="50" lID="4">
+      <page href="../../module04/lesson04/04_04_01.htm" title="04.04 Page 01"/>
+      <page href="../../module04/lesson04/04_04_02.htm" title="04.04 Page 02"/>
+      <page href="../../module04/lesson04/04_04_03.htm" title="04.04 Page 03"/>
+      <page href="../../module04/lesson04/04_04_04.htm" title="04.04 Page 04"/>
+      <page href="../../module04/lesson04/04_04_05.htm" title="04.04 Page 05"/>
+      <page href="../../module04/lesson04/04_04_06.htm" title="04.04 Page 06"/>
+      <page href="../../module04/lesson04/04_04_07.htm" title="04.04 Page 07"/>
+    </lesson>
+    <lesson title="War Stories Workshop" num="04.05" time="100" points="100" lID="5">
+      <page href="../../module04/lesson05/04_05_01.htm" title="04.05 Page 01"/>
+      <page href="../../module04/lesson05/04_05_02.htm" title="04.05 Page 02"/>
+      <page href="../../module04/lesson05/04_05_03.htm" title="04.05 Page 03"/>
+      <page href="../../module04/lesson05/04_05_04.htm" title="04.05 Page 04"/>
+    </lesson>
+    <lesson title="War Stories Discussion-Based Assessment" num="04.06" time="30" points="50" lID="6">
+      <page href="../../module04/lesson06/04_06_01.htm" title="04.06 Page 01"/>
+      <page href="../../module04/lesson06/04_06_02.htm" title="04.06 Page 02"/>
+      <page href="../../module04/lesson06/04_06_03.htm" title="04.06 Page 03"/>
+    </lesson>
+    <lesson title="Rome vs. Rome" num="04.07" time="75" points="10" lID="7">
+      <page href="../../module04/lesson07/04_07_01.htm" title="04.07 Page 01"/>
+      <page href="../../module04/lesson07/04_07_02.htm" title="04.07 Page 02"/>
+      <page href="../../module04/lesson07/04_07_03.htm" title="04.07 Page 03"/>
+      <page href="../../module04/lesson07/04_07_04.htm" title="04.07 Page 04"/>
+      <page href="../../module04/lesson07/04_07_05.htm" title="04.07 Page 05"/>
+      <page href="../../module04/lesson07/04_07_06.htm" title="04.07 Page 06"/>
+      <page href="../../module04/lesson07/04_07_07.htm" title="04.07 Page 07"/>
+    </lesson>
+    <lesson title="The Power of Three" num="04.08" time="75" points="10" lID="8">
+      <page href="../../module04/lesson08/04_08_01.htm" title="04.08 Page 01"/>
+      <page href="../../module04/lesson08/04_08_02.htm" title="04.08 Page 02"/>
+      <page href="../../module04/lesson08/04_08_03.htm" title="04.08 Page 03"/>
+      <page href="../../module04/lesson08/04_08_04.htm" title="04.08 Page 04"/>
+      <page href="../../module04/lesson08/04_08_05.htm" title="04.08 Page 05"/>
+      <page href="../../module04/lesson08/04_08_06.htm" title="04.08 Page 06"/>
+    </lesson>
+    <lesson title="Beware the Ides of March" num="04.09" time="120" points="100" lID="9">
+      <page href="../../module04/lesson09/04_09_01.htm" title="04.09 Page 01"/>
+      <page href="../../module04/lesson09/04_09_02.htm" title="04.09 Page 02"/>
+      <page href="../../module04/lesson09/04_09_03.htm" title="04.09 Page 03"/>
+      <page href="../../module04/lesson09/04_09_04.htm" title="04.09 Page 04"/>
+      <page href="../../module04/lesson09/04_09_05.htm" title="04.09 Page 05"/>
+      <page href="../../module04/lesson09/04_09_06.htm" title="04.09 Page 06"/>
+      <page href="../../module04/lesson09/04_09_07.htm" title="04.09 Page 07"/>
+    </lesson>
+    <lesson title="War Stories Exam" num="04.10" time="80" points="104" lID="10">
+      <page href="../../module04/lesson10/04_10_01.htm" title="04.10 Page 01"/>
+      <page href="../../module04/lesson10/04_10_02.htm" title="04.10 Page 02"/>
+      <page href="../../module04/lesson10/04_10_03.htm" title="04.10 Page 03"/>
+    </lesson>
+  </module>
+
+  <!-- Module 5 -->
+  <module title="Rise of an Empire" visible="true" icon="" bg="" pre="05:" num="05" modID="5" mID="5">
+    <lesson title="Rise of an Empire Pretest" num="05.00" time="50" points="1" lID="0">
+      <page href="../../module05/lesson00/05_00_01.htm" title="05.00 Page 01"/>
+      <page href="../../module05/lesson00/05_00_02.htm" title="05.00 Page 02"/>
+      <page href="../../module05/lesson00/05_00_03.htm" title="05.00 Page 03"/>
+    </lesson>
+    <lesson title="Augustan Expansion" num="05.01" time="85" points="10" lID="1">
+      <page href="../../module05/lesson01/05_01_01.htm" title="05.01 Page 01"/>
+      <page href="../../module05/lesson01/05_01_02.htm" title="05.01 Page 02"/>
+      <page href="../../module05/lesson01/05_01_03.htm" title="05.01 Page 03"/>
+      <page href="../../module05/lesson01/05_01_04.htm" title="05.01 Page 04"/>
+      <page href="../../module05/lesson01/05_01_05.htm" title="05.01 Page 05"/>
+      <page href="../../module05/lesson01/05_01_06.htm" title="05.01 Page 06"/>
+      <page href="../../module05/lesson01/05_01_07.htm" title="05.01 Page 07"/>
+      <page href="../../module05/lesson01/05_01_08.htm" title="05.01 Page 08"/>
+    </lesson>
+    <lesson title="Emperor for Life" num="05.02" time="85" points="10" lID="2">
+      <page href="../../module05/lesson02/05_02_01.htm" title="05.02 Page 01"/>
+      <page href="../../module05/lesson02/05_02_02.htm" title="05.02 Page 02"/>
+      <page href="../../module05/lesson02/05_02_03.htm" title="05.02 Page 03"/>
+      <page href="../../module05/lesson02/05_02_04.htm" title="05.02 Page 04"/>
+      <page href="../../module05/lesson02/05_02_05.htm" title="05.02 Page 05"/>
+      <page href="../../module05/lesson02/05_02_06.htm" title="05.02 Page 06"/>
+      <page href="../../module05/lesson02/05_02_07.htm" title="05.02 Page 07"/>
+      <page href="../../module05/lesson02/05_02_08.htm" title="05.02 Page 08"/>
+      <page href="../../module05/lesson02/05_02_09.htm" title="05.02 Page 09"/>
+    </lesson>
+    <lesson title="Infamous Emperors" num="05.03" time="75" points="10" lID="3">
+      <page href="../../module05/lesson03/05_03_01.htm" title="05.03 Page 01"/>
+      <page href="../../module05/lesson03/05_03_02.htm" title="05.03 Page 02"/>
+      <page href="../../module05/lesson03/05_03_03.htm" title="05.03 Page 03"/>
+      <page href="../../module05/lesson03/05_03_04.htm" title="05.03 Page 04"/>
+      <page href="../../module05/lesson03/05_03_05.htm" title="05.03 Page 05"/>
+      <page href="../../module05/lesson03/05_03_06.htm" title="05.03 Page 06"/>
+      <page href="../../module05/lesson03/05_03_07.htm" title="05.03 Page 07"/>
+      <page href="../../module05/lesson03/05_03_08.htm" title="05.03 Page 08"/>
+      <page href="../../module05/lesson03/05_03_09.htm" title="05.03 Page 09"/>
+      <page href="../../module05/lesson03/05_03_10.htm" title="05.03 Page 10"/>
+    </lesson>
+    <lesson title="Architectural Influences" num="05.04" time="90" points="50" lID="4">
+      <page href="../../module05/lesson04/05_04_01.htm" title="05.04 Page 01"/>
+      <page href="../../module05/lesson04/05_04_02.htm" title="05.04 Page 02"/>
+      <page href="../../module05/lesson04/05_04_03.htm" title="05.04 Page 03"/>
+      <page href="../../module05/lesson04/05_04_04.htm" title="05.04 Page 04"/>
+      <page href="../../module05/lesson04/05_04_05.htm" title="05.04 Page 05"/>
+      <page href="../../module05/lesson04/05_04_06.htm" title="05.04 Page 06"/>
+      <page href="../../module05/lesson04/05_04_07.htm" title="05.04 Page 07"/>
+      <page href="../../module05/lesson04/05_04_08.htm" title="05.04 Page 08"/>
+      <page href="../../module05/lesson04/05_04_09.htm" title="05.04 Page 09"/>
+      <page href="../../module05/lesson04/05_04_10.htm" title="05.04 Page 10"/>
+    </lesson>
+    <lesson title="Rise of an Empire Workshop" num="05.05" time="100" points="100" lID="5">
+      <page href="../../module05/lesson05/05_05_01.htm" title="05.05 Page 01"/>
+      <page href="../../module05/lesson05/05_05_02.htm" title="05.05 Page 02"/>
+      <page href="../../module05/lesson05/05_05_03.htm" title="05.05 Page 03"/>
+      <page href="../../module05/lesson05/05_05_04.htm" title="05.05 Page 04"/>
+    </lesson>
+    <lesson title="Rise of an Empire Discussion-Based Assessment" num="05.06" time="30" points="50" lID="6">
+      <page href="../../module05/lesson06/05_06_01.htm" title="05.06 Page 01"/>
+      <page href="../../module05/lesson06/05_06_02.htm" title="05.06 Page 02"/>
+      <page href="../../module05/lesson06/05_06_03.htm" title="05.06 Page 03"/>
+    </lesson>
+    <lesson title="Life in the Provinces" num="05.07" time="75" points="10" lID="7">
+      <page href="../../module05/lesson07/05_07_01.htm" title="05.07 Page 01"/>
+      <page href="../../module05/lesson07/05_07_02.htm" title="05.07 Page 02"/>
+      <page href="../../module05/lesson07/05_07_03.htm" title="05.07 Page 03"/>
+      <page href="../../module05/lesson07/05_07_04.htm" title="05.07 Page 04"/>
+      <page href="../../module05/lesson07/05_07_05.htm" title="05.07 Page 05"/>
+      <page href="../../module05/lesson07/05_07_06.htm" title="05.07 Page 06"/>
+      <page href="../../module05/lesson07/05_07_07.htm" title="05.07 Page 07"/>
+      <page href="../../module05/lesson07/05_07_08.htm" title="05.07 Page 08"/>
+    </lesson>
+    <lesson title="Everyone's Speaking Latin" num="05.08" time="75" points="10" lID="8">
+      <page href="../../module05/lesson08/05_08_01.htm" title="05.08 Page 01"/>
+      <page href="../../module05/lesson08/05_08_02.htm" title="05.08 Page 02"/>
+      <page href="../../module05/lesson08/05_08_03.htm" title="05.08 Page 03"/>
+      <page href="../../module05/lesson08/05_08_04.htm" title="05.08 Page 04"/>
+      <page href="../../module05/lesson08/05_08_05.htm" title="05.08 Page 05"/>
+      <page href="../../module05/lesson08/05_08_06.htm" title="05.08 Page 06"/>
+      <page href="../../module05/lesson08/05_08_07.htm" title="05.08 Page 07"/>
+      <page href="../../module05/lesson08/05_08_08.htm" title="05.08 Page 08"/>
+    </lesson>
+    <lesson title="Constantine's Rome" num="05.09" time="120" points="100" lID="9">
+      <page href="../../module05/lesson09/05_09_01.htm" title="05.09 Page 01"/>
+      <page href="../../module05/lesson09/05_09_02.htm" title="05.09 Page 02"/>
+      <page href="../../module05/lesson09/05_09_03.htm" title="05.09 Page 03"/>
+      <page href="../../module05/lesson09/05_09_04.htm" title="05.09 Page 04"/>
+      <page href="../../module05/lesson09/05_09_05.htm" title="05.09 Page 05"/>
+      <page href="../../module05/lesson09/05_09_06.htm" title="05.09 Page 06"/>
+      <page href="../../module05/lesson09/05_09_07.htm" title="05.09 Page 07"/>
+      <page href="../../module05/lesson09/05_09_08.htm" title="05.09 Page 08"/>
+    </lesson>
+    <lesson title="Rise of an Empire Exam" num="05.10" time="80" points="104" lID="10">
+      <page href="../../module05/lesson10/05_10_01.htm" title="05.10 Page 01"/>
+      <page href="../../module05/lesson10/05_10_02.htm" title="05.10 Page 02"/>
+      <page href="../../module05/lesson10/05_10_03.htm" title="05.10 Page 03"/>
+    </lesson>
+  </module>
+
+  <!-- Module 6 -->
+  <module title="Poetry and Oration" visible="true" icon="" bg="" pre="06:" num="06" modID="6" mID="6">
+    <lesson title="Poetry and Oration Pretest" num="06.00" time="50" points="1" lID="0">
+      <page href="../../module06/lesson00/06_00_01.htm" title="06.00 Page 01"/>
+      <page href="../../module06/lesson00/06_00_02.htm" title="06.00 Page 02"/>
+      <page href="../../module06/lesson00/06_00_03.htm" title="06.00 Page 03"/>
+    </lesson>
+    <lesson title="Famous Poets" num="06.01" time="85" points="10" lID="1">
+      <page href="../../module06/lesson01/06_01_01.htm" title="06.01 Page 01"/>
+      <page href="../../module06/lesson01/06_01_02.htm" title="06.01 Page 02"/>
+      <page href="../../module06/lesson01/06_01_03.htm" title="06.01 Page 03"/>
+      <page href="../../module06/lesson01/06_01_04.htm" title="06.01 Page 04"/>
+      <page href="../../module06/lesson01/06_01_05.htm" title="06.01 Page 05"/>
+      <page href="../../module06/lesson01/06_01_06.htm" title="06.01 Page 06"/>
+      <page href="../../module06/lesson01/06_01_07.htm" title="06.01 Page 07"/>
+      <page href="../../module06/lesson01/06_01_08.htm" title="06.01 Page 08"/>
+    </lesson>
+    <lesson title="Poetry and Patrons" num="06.02" time="85" points="10" lID="2">
+      <page href="../../module06/lesson02/06_02_01.htm" title="06.02 Page 01"/>
+      <page href="../../module06/lesson02/06_02_02.htm" title="06.02 Page 02"/>
+      <page href="../../module06/lesson02/06_02_03.htm" title="06.02 Page 03"/>
+      <page href="../../module06/lesson02/06_02_04.htm" title="06.02 Page 04"/>
+      <page href="../../module06/lesson02/06_02_05.htm" title="06.02 Page 05"/>
+      <page href="../../module06/lesson02/06_02_06.htm" title="06.02 Page 06"/>
+      <page href="../../module06/lesson02/06_02_07.htm" title="06.02 Page 07"/>
+      <page href="../../module06/lesson02/06_02_08.htm" title="06.02 Page 08"/>
+      <page href="../../module06/lesson02/06_02_09.htm" title="06.02 Page 09"/>
+    </lesson>
+    <lesson title="Words, Words, Words" num="06.03" time="75" points="10" lID="3">
+      <page href="../../module06/lesson03/06_03_01.htm" title="06.03 Page 01"/>
+      <page href="../../module06/lesson03/06_03_02.htm" title="06.03 Page 02"/>
+      <page href="../../module06/lesson03/06_03_03.htm" title="06.03 Page 03"/>
+      <page href="../../module06/lesson03/06_03_04.htm" title="06.03 Page 04"/>
+      <page href="../../module06/lesson03/06_03_05.htm" title="05.03 Page 06"/>
+      <page href="../../module06/lesson03/06_03_06.htm" title="06.03 Page 06"/>
+      <page href="../../module06/lesson03/06_03_07.htm" title="06.03 Page 07"/>
+      <page href="../../module06/lesson03/06_03_08.htm" title="06.03 Page 08"/>
+      <page href="../../module06/lesson03/06_03_09.htm" title="06.03 Page 09"/>
+    </lesson>
+    <lesson title="Battle Ballads" num="06.04" time="90" points="50" lID="4">
+      <page href="../../module06/lesson04/06_04_01.htm" title="06.04 Page 01"/>
+      <page href="../../module06/lesson04/06_04_02.htm" title="06.04 Page 02"/>
+      <page href="../../module06/lesson04/06_04_03.htm" title="06.04 Page 03"/>
+      <page href="../../module06/lesson04/06_04_04.htm" title="06.04 Page 04"/>
+      <page href="../../module06/lesson04/06_04_05.htm" title="06.04 Page 05"/>
+      <page href="../../module06/lesson04/06_04_06.htm" title="06.04 Page 06"/>
+      <page href="../../module06/lesson04/06_04_07.htm" title="06.04 Page 07"/>
+      <page href="../../module06/lesson04/06_04_08.htm" title="06.04 Page 08"/>
+      <page href="../../module06/lesson04/06_04_09.htm" title="06.04 Page 09"/>
+    </lesson>
+    <lesson title="Poetry and Oration Workshop" num="06.05" time="100" points="100" lID="5">
+      <page href="../../module06/lesson05/06_05_01.htm" title="06.05 Page 01"/>
+      <page href="../../module06/lesson05/06_05_02.htm" title="06.05 Page 02"/>
+      <page href="../../module06/lesson05/06_05_03.htm" title="06.05 Page 03"/>
+      <page href="../../module06/lesson05/06_05_04.htm" title="06.05 Page 04"/>
+    </lesson>
+    <lesson title="Poetry and Oration Discussion-Based Assessment" num="06.06" time="30" points="50" lID="6">
+      <page href="../../module06/lesson06/06_06_01.htm" title="06.06 Page 01"/>
+      <page href="../../module06/lesson06/06_06_02.htm" title="06.06 Page 02"/>
+      <page href="../../module06/lesson06/06_06_03.htm" title="06.06 Page 03"/>
+    </lesson>
+    <lesson title="Latin Oration" num="06.07" time="75" points="10" lID="7">
+      <page href="../../module06/lesson07/06_07_01.htm" title="06.07 Page 01"/>
+      <page href="../../module06/lesson07/06_07_02.htm" title="06.07 Page 02"/>
+      <page href="../../module06/lesson07/06_07_03.htm" title="06.07 Page 03"/>
+      <page href="../../module06/lesson07/06_07_04.htm" title="06.07 Page 04"/>
+      <page href="../../module06/lesson07/06_07_05.htm" title="06.07 Page 05"/>
+      <page href="../../module06/lesson07/06_07_06.htm" title="06.07 Page 06"/>
+      <page href="../../module06/lesson07/06_07_07.htm" title="06.07 Page 07"/>
+      <page href="../../module06/lesson07/06_07_08.htm" title="06.07 Page 08"/>
+      <page href="../../module06/lesson07/06_07_09.htm" title="06.07 Page 09"/>
+    </lesson>
+    <lesson title="Authentic Poetry and Oration" num="06.08" time="120" points="100" lID="8">
+      <page href="../../module06/lesson08/06_08_01.htm" title="06.08 Page 01"/>
+      <page href="../../module06/lesson08/06_08_02.htm" title="06.08 Page 02"/>
+      <page href="../../module06/lesson08/06_08_03.htm" title="06.08 Page 03"/>
+      <page href="../../module06/lesson08/06_08_04.htm" title="06.08 Page 04"/>
+      <page href="../../module06/lesson08/06_08_05.htm" title="06.08 Page 05"/>
+      <page href="../../module06/lesson08/06_08_06.htm" title="06.08 Page 06"/>
+      <page href="../../module06/lesson08/06_08_07.htm" title="06.08 Page 07"/>
+      <page href="../../module06/lesson08/06_08_08.htm" title="06.08 Page 08"/>
+    </lesson>
+    <lesson title="Segment Two Exam" num="06.09" time="90" points="320" lID="9">
+      <page href="../../module06/lesson09/06_09_01.htm" title="06.09 Page 01"/>
+      <page href="../../module06/lesson09/06_09_02.htm" title="06.09 Page 02"/>
+      <page href="../../module06/lesson09/06_09_03.htm" title="06.09 Page 03"/>
+      <page href="../../module06/lesson09/06_09_04.htm" title="06.09 Page 04"/>
+    </lesson>
+  </module>
+
+  <!-- TEMP MODULE FOR CONFIGURING CSS - REMOVE WHEN LOOK/FEEL COMPLETE -->
+  <!-- <module title="Style Guide" visible="true" icon="" bg="" mID="">
+    <lesson title="Style Guide" num="" time="N/A" points="N/A">
+      <page href="../../template/lesson00/tmp_00_01.htm" title="Standard Elements"/>
+      <page href="../../template/lesson00/tmp_00_02.htm" title="Panels, Wells and Content Blocks"/>
+      <page href="../../template/lesson00/tmp_00_03.htm" title="Media"/>
+      <page href="../../template/lesson00/tmp_00_04.htm" title="Interactive Elements"/>
+      <page href="../../template/lesson00/tmp_00_05.htm" title="Slideshows and Activities"/>
+    </lesson>
+  </module> -->
+</sitemap>

@@ -1,0 +1,34 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English definition.",
+        "options": [
+          {
+            "left": "<em>curvatura, curvaturae f.</em>",
+            "right": "curvature"
+          },
+          {
+            "left": "<em>pastor, pastoris m.</em>",
+            "right": "pastoral"
+          },
+          {
+            "left": "<em>pluma, plumae f.</em>",
+            "right": "plumage"
+          },
+          {
+            "left": "<em>stipendium, stipendii</em>",
+            "right": "stipend"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

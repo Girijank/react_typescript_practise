@@ -1,0 +1,86 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_03_03/styles.css"],
+    "intMedia": "interactives/01_03_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "what_do_you_look_like.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你长什么样</span>？Nǐ zhǎng shénme yàng?"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What information can you give when responding to the question in the audio?</p>",
+        "answer": "My height",
+        "options": ["My last name", "My origin", "My phone number"],
+        "correct": "Job well done! <span lang='zh-Hans'>你长什么样？</span> Nǐ zhǎng shénme yàng? inquires about one’s appearance such as, height and other physical features.",
+        "incorrect": "Very close. Please listen to the audio again. Replay several times if needed, so you can catch each word.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "i_am_very.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>我很</span>... Wǒ hěn…"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following from the audio can be used to complete the sentence?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>开朗</span> kāilǎng</span><audio class='audio' controls src='interactives/01_03_03/intmedia/outgoing.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>男孩</span> nánhái</span><audio class='audio' controls src='interactives/01_03_03/intmedia/boy.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>朋友</span> péngyǒu</span><audio class='audio' controls src='interactives/01_03_03/intmedia/friend.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>晚安</span> wǎn’ān</span><audio class='audio' controls src='interactives/01_03_03/intmedia/goodnight.mp3' ></audio>"
+        ],
+        "correct": "Excellent job! <span lang='zh-Hans'>我很</span>... Wǒ hěn… (I am very…) is used to describe one’s appearance or personality, and the adjective <span lang='zh-Hans'>开朗</span> kāilǎng (outgoing) is a good fit for it.",
+        "incorrect": "So close! Please listen again several times to try to catch both words.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "tall.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>高</span> gāo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can the phrase in the audio be used to describe?</p>",
+        "answer": "A tree",
+        "options": ["A map", "A window", "A phone number"],
+        "correct": "Wonderful job! <span lang='zh-Hans'>高</span> gāo (tall) is used to describe the height of a person or vertical objects such as trees, mountains, or buildings.",
+        "incorrect": "So close! Please listen again and pay attention to the single initial and final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "outgoing.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>开朗</span> kāilǎng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can the phrase in the audio be used to describe?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>朋友</span> péngyǒu</span><audio class='audio' controls src='interactives/01_03_03/intmedia/friend.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>名字</span> míngzi</span><audio class='audio' controls src='interactives/01_03_03/intmedia/mingzi.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>下午</span> xiàwǔ</span><audio class='audio' controls src='interactives/01_03_03/intmedia/goodafternoon.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>电话</span> diànhuà</span><audio class='audio' controls src='interactives/01_03_03/intmedia/telephone.mp3' ></audio>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>开朗</span> kāilǎng (outgoing) is used to describe a person’s personality.",
+        "incorrect": "Not quite. Pay attention to both pinyin parts in the audio.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

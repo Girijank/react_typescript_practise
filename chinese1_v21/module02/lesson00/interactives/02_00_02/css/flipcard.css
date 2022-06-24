@@ -1,0 +1,71 @@
+
+
+.jFlipCard .fev_copybtn {
+    position: absolute;
+    /* bottom: 10px;
+    right: 12px; */
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 2px;
+    margin: 0;
+    line-height: 1;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    background: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.jFlipCard .popover.top {
+    margin-left: -5px;
+    margin-right: 6px;
+}
+
+
+.jFlipCard .fev_copybtn.fevlocation_1{
+    top: 249px;
+    left: 205px;
+}
+
+/* .jFlipCard .fev_copybtn:nth-child(3){
+    top: 549px;
+    left: 205px;
+} */
+
+.jFlipCard .fev_copybtn.fevlocation_2{
+    top: 249px;
+    left: 433px;
+}
+
+.jFlipCard .fev_copybtn.fevlocation_3{
+    top: 249px;
+    left: 661px;
+}
+
+.jFlipCard .fev_copybtn.fevlocation_4{
+    top: 523px;
+    left: 205px;
+}
+
+.jFlipCard .fev_copybtn.fevlocation_5{
+    top: 523px;
+    left: 433px;
+}
+
+.jFlipCard .fev_copybtn.fevlocation_6{
+    top: 523px;
+    left: 661px;
+}
+
+
+/* .fev_flipcardcopyright{
+    position: relative;
+    display: block;
+    margin-top: -17px;
+    margin-left: 0px;
+    background-color: antiquewhite;
+    width: 220px;
+    min-height: 20px;
+    text-align: center;
+} */

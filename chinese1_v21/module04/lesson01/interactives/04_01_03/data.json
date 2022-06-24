@@ -1,0 +1,114 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_01_03/styles.css"],
+    "intMedia": "interactives/04_01_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "school.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>学校</span> xuéxià"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following will you <strong>most</strong> likely find where the word in the audio indicates?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>老师</span> lǎoshī  </span><audio class='audio' controls src='interactives/04_01_03/intmedia/teacher.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>医生</span> yīshēng </span><audio class='audio' controls src='interactives/04_01_03/intmedia/doctor.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>服务员</span> fúwùyuán  </span><audio class='audio' controls src='interactives/04_01_03/intmedia/waiter_waitress.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>外公</span> wàigōng  </span><audio class='audio' controls src='interactives/04_01_03/intmedia/maternal_grandfather.mp3' ></audio>"
+        ],
+        "correct": "Wonderfully done!  <span lang='zh-Hans'>学校</span> xuéxiào means “school,” and you are <strong>most</strong> likely to find teachers there. Maybe not a waiter or waitress.",
+        "incorrect": "Very close. Listen to the word, think about what place it refers to, and then consider which professional works there.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_arrive.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>到达</span> dàodá"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我_____我的学校</span> Wǒ _____ wǒde xuéxiào.",
+        "options": [
+          "<span lang='zh-Hans'>我_____我爷爷奶奶</span> Wǒ _____ wǒ yéye nǎinai.",
+          "<span lang='zh-Hans'>你的姐姐很_____。</span> Nǐde jiějie hěn _____.",
+          "<span lang='zh-Hans'>请给我一杯_____。</span> Qǐng gěiwǒ yībēi _____."
+        ],
+        "correct": "Outstanding job!  <span lang='zh-Hans'>到达</span> dàodá means ”to arrive,” and you can use it to complete the sentence “<span lang='zh-Hans'>我到达我的学校。</span> Wǒ dàodá wǒde xuéxiào. (I arrive at my school.)",
+        "incorrect": "Not quite. Listen to the audio again, and understand the word’s meaning. Next, review all the incomplete sentences in the choices, and then see which one the word fits for both meaning and structure.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_go_to.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>去</span> qù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the bold type characters in the following words has the same initial as the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>以前</span> (in the past)",
+        "options": [
+          "<span lang='zh-Hans'>丑</span> (ugly)",
+          "<span lang='zh-Hans'>早餐</span> (breakfast)",
+          "<span lang='zh-Hans'>春天</span> (spring)"
+        ],
+        "correct": "Terrific job! The word <span lang='zh-Hans'>去</span> qù (to go to) in audio has initial “q,” while the character <span lang='zh-Hans'>前</span> in the word <span lang='zh-Hans'>以前</span> qián (in the past) has the same initial.",
+        "incorrect": "Not quite… Listen to the word in the audio again, and then identify its final. You will then sound out the words in the choices to see which one has the same final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "early.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>早</span> zǎo  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the <strong>antonym</strong> (word with opposite meaning) of the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>晚</span> wǎn  </span><audio class='audio' controls src='interactives/04_01_03/intmedia/late.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>热</span> rè </span><audio class='audio' controls src='interactives/04_01_03/intmedia/hot.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>瘦</span> shòu </span><audio class='audio' controls src='interactives/04_01_03/intmedia/skinny.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>丑</span> chǒu  </span><audio class='audio' controls src='interactives/04_01_03/intmedia/ugly.mp3' ></audio>"
+        ],
+        "correct": "Beautifully done! The word <span lang='zh-Hans'>早</span> zǎo means “early,” and its antonym (word with opposite meaning) should be <span lang='zh-Hans'>晚</span> wǎn (late).",
+        "incorrect": "Not quite… Listen to the word in the audio again, and think about its meaning. Then consider what its opposite meaning should be, and compare it with the words in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "on_time.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>准时</span> zhǔnshí "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following situations do you <strong>least</strong> need to do as indicated by the word in the audio?</p>",
+        "answer": "To sleep in on a Sunday morning",
+        "options": [
+          "To catch my school bus",
+          "To attend a science seminar",
+          "To go to my doctor’s appointment"
+        ],
+        "correct": "Excellent job! The word <span lang='zh-Hans'>准时</span> zhǔnshímeans “on time”. You should be on time most of the time, except, of course, when you are sleeping in on a Sunday morning.",
+        "incorrect": "Oops…Listen to the word in the audio again and think about its meaning. Then consider in what situation you would not need to do as it indicates.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

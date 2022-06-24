@@ -1,0 +1,87 @@
+nav {
+    font-family: "Bitter", serif;
+}
+#menu_inner .menubtn {
+    color: #d76eff;
+    box-shadow: none;
+}
+
+#menu_inner .menubtn:hover {
+    background-color: #e08bff;
+}
+
+#menu_inner .menubtn:hover {
+    color: #1c1d4d;
+}
+
+#nav_menu .nav_menu_modules {
+    padding: 5px !important;
+    line-height: 1.3em;
+    font-family: "Bitter", serif;
+}
+
+#nav_menu .nav_menu_modules li .nav_menu_lessons, #nav_menu .nav_menu_modules {
+    background: #8d1dca;
+}
+
+#nav_menu .nav_menu_modules {
+    list-style: none;
+    margin: 0px;
+    position: fixed;
+    padding: 45px 5px 5px 5px;
+    width: 200px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+#nav_menu .nav_menu_modules li a.modlink, .nav_menu_lessons li a, .nav_menu_lessons li a.odd {
+    background-color: #1c1d4d;
+    color: white;
+    text-decoration: none;
+}
+
+#nav_menu .nav_menu_modules li a.modlink:hover, .nav_menu_lessons li a:hover, .nav_menu_lessons li a.odd:hover {
+    background-color: #d76eff;
+}
+
+.nav_menu_lessons li a .lesson_num, .nav_menu_lessons li a .lesson_title, .nav_menu_lessons li a .lesson_nfo {
+    color: white;
+}
+
+#nav_menu .nav_menu_modules li .nav_menu_lessons {
+    left: 200px;
+    padding: 10px 0 0 0;
+}
+
+#menu_inner .menu_links li a {
+    color: white;
+}
+
+#menu_inner .menu_links li a:hover, .pagenums a:hover, .home:hover {
+    background-color: #e08bff;
+    color: #1c1d4d;
+}
+
+#nav_menu .nav_menu_modules li a.modlink {
+    padding: 10px 12px;
+    width: 190px;
+    text-indent: -23px;
+    padding-left: 33px;
+}
+
+#nav_menu .nav_menu_modules li a.modlink .num {
+    margin-right: 6px !important;
+}
+
+.nav_menu_lessons li {
+    margin: 0;
+}
+
+.progress_meter_popup a:link, .progress_meter_popup a:visited {
+    color: #8d1dca;
+}
+
+@media screen and (max-width: 890px) {
+    #menu_inner .menubtn {
+        padding: 0 6px;
+    }
+}

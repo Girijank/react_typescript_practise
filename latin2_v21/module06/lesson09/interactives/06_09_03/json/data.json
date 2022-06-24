@@ -1,0 +1,389 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_09_03/styles.css"],
+    "intMedia": "interactives/06_09_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Using your knowledge from the course so far, select the choice that best answers the question."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Auxiliary troops were granted Roman citizenship for serving how many years in the Roman army?</p>",
+        "answer": "25",
+        "options": [
+          "30",
+          "10",
+          "15"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the correct translation of the sentence.<br><em>Coniuratio inter certiores velites et ignotiores peditus ab equitatibus mutata erat.</em></p>",
+        "answer": "The alliance between the rather fixed light-armed infantry and the rather unknown infantry had been changed by the calvary.",
+        "options": [
+          "The rather fixed alliance between the light-armed infantry and the infantry had been changed by the calvary.",
+          "The rather alliance between the fixed light-armed infantry and the infantry had been changed by the calvary.",
+          "The alliance between the rather fixed light-armed infantry and the infantry had been changed by the calvary."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Read the following passage, and answer the question below:<br><em>Omnes de Aenea fabulas legerunt (1). Sed multi de me, Lavinia, coniunx Italica Aeneae, non legerunt (2). Paris et Troiani bellum cum Menalao et Graecis de Helena gesserant.  Tamen, Turnus et alii Italici bellum cum Aenea et Troianis et aliis Italis de me gerebant (3). Dum Troiani in Italia bellum gerebant, multi viri pugnabant; sed, paucae feminae non timebant sed eae iuvabant (4).</em><br><br>Based upon sentence 3, who were Turnus and Aeneas fighting a war over?</p>",
+        "answer": "Lavinia",
+        "options": [
+          "Menelaus",
+          "Paris",
+          "Helen"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Name the case, number, and gender of the superlative adjective in <strong>bold type</strong> in the sentence.<br><em>Mars ab Iunone <strong>audacissima</strong> in bello Troiano castigatus erat.</em></p>",
+        "answer": "Ablative, singular, feminine",
+        "options": [
+          "Ablative, singular, neuter",
+          "Nominative, plural, feminine",
+          "Nominative, singular, masculine"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Read the following passage and answer the question below:<br><em>In fabula Martis et Veneris, deus, Sol, deis immortalibus de amore tacitiore eorum dixit (1).  Venus erat iratissima ad Solem, qui in aures Vulcani, artificis ignomiam eius propulsaverat (2). Itaque, dea acrior, Venus, Soli nympham Leucothoen  dedit (3). Ob hoc, Sol Leucothoen cupiditate ferocius amare incepit (4). Ob hunc amorem dementiorem, frater Leucothoes filiam suam crudellime castigavit (5).</em><br><br>Based on sentence 5, what did Leucothoe’s father to do her?</p>",
+        "answer": "He punished her very cruelly.",
+        "options": [
+          "He punished her rather cruelly",
+          "He punished her brother very cruelly.",
+          "He punished Sol very cruelly."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Which winner of the Third Punic War received the Grass Crown? </p>",
+        "answer": "Scipio Aemilianus",
+        "options": [
+          "Scipio Africanus",
+          "Varrus",
+          "Fabius Cunctator"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the correct translation of the sentence.<br><em>Per acerrimum ventum, triarii in proelium facilius iter faciebant.</em></p>",
+        "answer": "Through the most bitter wind, the heavy infantry marched rather easily into battle.",
+        "options": [
+          "Through the most bitter wind, the front-line soldiers marched rather easily into battle.",
+          "Through the rather bitter wind, the heavy infantry marched rather easily into battle.",
+          "Through the most bitter wind, the heavy infantry marched very easily into battle."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Based on this sentence from your readings on “Regulus and the Giant Snake,” what grammatical form is <em>acrius</em>?<br><em>Acrius instant, iamque alvo penitus demersa falarica sedit, et geminum volucres lumen rapuere sagittae.</em> (Silius Italicus, <em>Punica</em>, book VI, lines 272&ndash;274) </p>",
+        "answer": "Comparative adverb",
+        "options": [
+          "Superlative adverb",
+          "Superlative adjective",
+          "Comparative adjective"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Read the following steps, and answer the question below:<br>How I can become a Roman Emperor:<br>Step 1: <em>Mortem hostium</em> _______ <strong>(fighting)</strong> <em>contra me impera</em>.<br>Step 2: <em>Senatoribus</em> ________ <strong>(wanting)</strong> <em>potestatem mihi auctoritatem dare persuade</em>.<br>Step 3: ________ <strong>(while creating)</strong>  <em>cognomen pro me,  modum nostrum vivendi mutare consilium cape</em>.<br>Step 4: <em>Pacem et spem in populos</em> _______ <strong>(receiving)</strong> <em>in provinciis cognitationem prema</em>.<br><br>In step 4, what is the correct Latin form of the English word in <strong>bold type</strong>?</p>",
+        "answer": "Recipientes",
+        "options": [
+          "Recipienti",
+          "Receptos",
+          "Recepturi"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Through his ingenious <em>publica magnificentia</em>, Augustus had turned Rome from a city of bricks into a city of what?</p>",
+        "answer": "Marble",
+        "options": [
+          "Dust",
+          "Limestone",
+          "Tufa"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Identify the participle in the English sentence.<br>We gave freedom to the monster attacking us.</p>",
+        "answer": "Attacking",
+        "options": [
+          "Monster",
+          "We gave",
+          "Us"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Identify the tense, voice, case, and number of the participle.<br><em>spiranti</em></p>",
+        "answer": "Present, Active, Ablative, Singular",
+        "options": [
+          "Present, Active, Genitive, Plural",
+          "Present, Active, Ablative, Plural",
+          "Present, Active, Genitive, Singular"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>What is the correct Latin form of the perfect Passive participle (from the verb <em>remitto, remittere, remisi, remissus, -a, -um</em>) in the sentence?<br>The legate, <strong>having been sent back</strong> to the camp, observed his men sitting and doing nothing.</p>",
+        "answer": "Remissus",
+        "options": [
+          "Remissum",
+          "Remisi",
+          "Remittens"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Use this passage to answer the question that follows.<br><em>Regnum Neronis crudelia effecerunt (1). Primum, Nerone Imperatore facturo, Agrippina maritum, Claudium, necavit (2). Tum, Roma incendienti, Nero, observans ignem, lyram ludit (3). Nero, qui Domum Auream aedificaturus erat, demens et pessimus factus erat (4).</em><br><br>Based on sentence 4, what action was Nero taking in regard to his Domus Aurea?</p>",
+        "answer": "He was about to build it.",
+        "options": [
+          "He was about to burn it.",
+          "He was building it.",
+          "He had built it."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Which emperor was the founder of the Flavian dynasty?</p>",
+        "answer": "Vespasian",
+        "options": [
+          "Galba",
+          "Otho",
+          "Vitellius"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Identify the case, number, and gender of the future Active participle.<br><em>rescissurarum</em></p>",
+        "answer": "Genitive, plural, feminine",
+        "options": [
+          "Accusative, singular, masculine",
+          "Nominative, singular, neuter",
+          "Ablative, singular, masculine"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the correct translation of the sentence.<br><em>Actaeone eam approprinquanti, Diana mortem in eum effectura esse videtur.</em></p>",
+        "answer": "With Actaeon approaching her, Diana seemed to be about to bring about death onto him.",
+        "options": [
+          "With Actaeon having been approached by her, Diana seemed to be about to bring about death upon him.",
+          "With Actaeon approaching her, Diana seemed to bring about death onto him.",
+          "With Actaeon approaching her, Diana seemed to have brought about death onto him."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>The Arch of Septimius Severus was erected for his victory over which people?</p>",
+        "answer": "Parthians",
+        "options": [
+          "Dacians",
+          "Danubians",
+          "Gauls"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+	[
+    {
+      "type": "mc",
+      "quiz": "<p>Select the correct English definition for the Latin word.<br><em>confirmatio, confirmationis,</em>  f.</p>",
+      "answer": "Confirmation",
+      "options": [
+        "Conformity",
+        "Connection",
+        "Community"
+      ],
+      "correct": "Well done!",
+      "incorrect": "Very close. Try again.",
+      "incorrectHeading": "Incorrect"
+    }
+    ],
+	[
+    {
+      "type": "mc",
+      "quiz": "<p>What is the Latin word for the part of the speech where the argument against the opposition is presented?</p>",
+      "answer": "Refutatio",
+      "options": [
+        "Peroratio",
+        "Propositio",
+        "Confirmatio"
+      ],
+      "correct": "Well done!",
+      "incorrect": "Very close. Try again.",
+      "incorrectHeading": "Incorrect"
+    }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Read the steps below and answer the question that follows.<br>How to be a great speaker:<br>Step 1: <em>Scriptiones optimas tuas coge!</em><br>Step 2: <em>Verba memoria tene!</em><br>Step 3: <em>Pro amicis et familiis verba fac!</em><br><br>In step 3, which two words make up the idiom <em>“to make a speech”</em>?</p>",
+        "answer": "Verba fac",
+        "options": [
+          "Pro amicis",
+          "Et families",
+          "Familiis verba"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Review these lines from your lesson and answer the question that follows.<br><strong><em>Aeneid</em>, Book 1, lines 1&ndash;7<br>Arma virumque <strong>cano</strong>, Troiae qui primus ab oris (line 1)</strong><br>Italiam, fato <strong>profugus</strong>, Laviniaque venit (line 2)<br>litora, multum ille et terris <strong>iactatus</strong> et alto (line 3)<br>vi superum <strong>saevae</strong> memorem Iunonis ob iram (line 4).<br><br>In line 4, which Roman god is mentioned?</p>",
+        "answer": "Juno",
+        "options": [
+          "Diana",
+          "Jupiter",
+          "Apollo"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>What war did Gnaeus Naevius write a poem about?</p>",
+        "answer": "Punic War",
+        "options": [
+          "Trojan War",
+          "Gallic War",
+          "Civil War"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Read the following steps and answer the question below:<br><br>How to be a member of the <em>Circle of Maecenas (M-Circle)</em>:<br>Step 1: <em>Sci te magnum poetam esse.</em><br>Step 2: <em>Dic Maecenam optimum patronum esse.</em><br>Step 3: <em>Monstra scriptiones tuas Augusto delectatas esse.</em><br>Step 4: <em>Cognosce opera tua ab omnibus Romanis memoriam tenturum iri</em>.<br><br>In step 4, what is a great way to become part of the <em>M-Circle</em>?</p>",
+        "answer": "Know that your works will be remembered by all Romans.",
+        "options": [
+          "Know that your works have been remembered by all Romans.",
+          "Know that your works are remembered by all Romans.",
+          "Know that all Romans remember your works."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the correct translation of the sentence.<br><em>Populi dicent poetas Romanos optimam artem creavisse.</em></p>",
+        "answer": "People will say that the Roman poets created the best art.",
+        "options": [
+          "People will say that the Roman poets will have created the best art.",
+          "People will say that the Roman poets create the best art.",
+          "People will say that the Roman poets will create the best art."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

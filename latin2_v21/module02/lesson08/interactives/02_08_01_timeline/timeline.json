@@ -1,0 +1,21 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/02_08_01_timeline/intmedia/",
+		"css":["interactives/02_08_01_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [
+		
+			{
+				"date": "264 BCE–146 BCE",
+				"content": "<p><strong>Punic Wars:  c. 264 BCE–146 BCE. </strong>Known for: </p><ul><li>wars between Carthage and Rome  </li><li>the Barca Family </li><li>the Scipio Family </li><li>the Carthaginian, Hannibal  </li><li>the Roman general, Scipio Africanus</li><li>the Roman general, Scipio Aemilianus</li></ul>",
+				"image": "timeline_img5.jpg",
+				"copyright": "Punic Wars ",
+				"alt":"Picture of Hannibal on war elephants with his men marching underneath him",
+				"summaryLength": "200"
+			}
+		]
+	}
+}

@@ -1,0 +1,114 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_03_03/styles.css"],
+    "intMedia": "interactives/06_03_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "library.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>图书馆</span> túshūguǎn (library) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What will you <strong>most</strong> reasonably find at the site indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>书</span>",
+        "options": [
+          "<span lang='zh-Hans'>猫</span>",
+          "<span lang='zh-Hans'>茶</span>",
+          "<span lang='zh-Hans'>鞋</span>"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>图书馆</span> túshūguǎn means “library” where you can most reasonably and easily find many <span lang='zh-Hans'>书</span> shū (books).",
+        "incorrect": "Not quite. Listen to the audio again to identify what site it indicates, and then imagine what you can most likely see at the site to make the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "museum.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>博物馆</span> bówùguǎn (museum) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words has the same initial as the first character in the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>跑步</span>",
+        "options": [
+          "<span lang='zh-Hans'>旅店</span>",
+          "<span lang='zh-Hans'>漂亮</span>",
+          "<span lang='zh-Hans'>庆祝</span>"
+        ],
+        "correct": "Fabulous work! The first character, <span lang='zh-Hans'>博</span> bó, in the word <span lang='zh-Hans'>博物馆</span> bówùguǎn (museum) has the initial “b,” which is also the initial for the second character, <span lang='zh-Hans'>步</span> bù, in the word <span lang='zh-Hans'>跑步</span> pǎobù (to run).",   
+        "incorrect": "So close! Listen again and identify the initial of the first character in the word. Then sound out the pinyin of the words in the choices to see which one has the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "downtown.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>市中心</span> shìzhōngxīn (downtown) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What do the last two characters mean in the word in the audio?</p>", 
+        "answer": "Center",      
+        "options":[
+          "Downtown",
+          "Suburb",
+          "City"
+        ],
+        "correct": "Totally fantastic! <span lang='zh-Hans'>市中心</span> shìzhōngxīn means “downtown,” namely “city center,” and the last two characters, <span lang='zh-Hans'>中心</span> zhōngxīn, mean “center.”",
+        "incorrect": "Not quite. Listen to the audio several times to identify its meaning, and then consider how the word can be broken down and what each part means. You can refer to the notes under the vocabulary tiles for more information.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "town_square_plaza.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>广场</span> guǎngchǎng (town square; plaza) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be best completed by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>她在____拍照。</span>Tā zài ____ pāizhào.",
+        "options": [
+          "<span lang='zh-Hans'>我在____做饭。</span>Wǒ zài ____ zuòfàn.",
+          "<span lang='zh-Hans'>他在____看电视。</span>Tā zài ____ kàndiànshì.",
+          "<span lang='zh-Hans'>他们在____游泳。</span>Tāmen zài ____ yóuyǒng."
+        ],
+        "correct": "How awesome! <span lang='zh-Hans'>广场</span> guǎngchǎng means “town square; plaza,” and it can best complete the sentence <span lang='zh-Hans'>她在广场拍照。</span> Tā zài guǎngchǎng pāizhào. (She’s taking pictures at the plaza.) You may not want to go swimming at a plaza.",        
+        "incorrect": "Oops…Listen to the audio several more times to identify its meaning. Then fit it in the four sentences in the choices to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "theater.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>剧院</span> jùyuàn (theater) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following activities most likely takes place at the site indicated by the word in the audio?</p>",
+        "answer": "A Shakespeare play",      
+        "options":[
+          "A college football game",
+          "A holiday parade",
+          "A swimming competition"
+        ],
+        "correct": "Outstanding job! <span lang='zh-Hans'>剧院</span> jùyuàn means “theater,”  and you can most likely view a classic Shakespeare play there instead of a college football game.",   
+        "incorrect": "Oops…Listen to the audio several more times to identify its meaning. Then consider which of the four activities in the choices can most reasonably take place at the site indicated by the word. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

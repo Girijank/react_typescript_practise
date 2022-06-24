@@ -1,0 +1,91 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_01_07/styles.css"],
+    "intMedia": "interactives/05_01_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "door.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>门</span> mén"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can <strong>best</strong> be completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我的房子有  _____和窗。</span>Wǒ de fángzi yǒu_____hé chuāng.",
+        "options": ["<span lang='zh-Hans'>她每天练习唱_____。</span>Tā měitiān liànxí chàng _____.", "<span lang='zh-Hans'>他上午八_____到达学校。</span>Tā shàngwǔ bā _____ dàodá xuéxiào.", "<span lang='zh-Hans'>我妹妹喜欢_____米饭。</span>Wǒ mèimei xǐhuān _____ mǐfàn."],
+        "correct": "You got it! <span lang='zh-Hans'>门</span> mén means “door.” This word can best complete the sentence <span lang='zh-Hans'>我的房子有门和窗。</span>Wǒ de fángzi yǒu mén hé chuāng. (My house has doors and windows.)",
+        "incorrect": "Not quite…Think about the meaning of <span lang='zh-Hans'>门</span> mén and what part of a house it indicates. Then place it in the sentences in the choices to see which one fits the best for both meaning and structure.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "window.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>窗户</span> chuānghù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>least</strong> likely has the item indicated in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>车库</span>",
+        "options": [
+          "<span lang='zh-Hans'>厨房</span>",
+          "<span lang='zh-Hans'>卧室</span>",
+          "<span lang='zh-Hans'>客厅</span>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>窗户</span> chuānghù means “window.” Of the rooms of a house shown in the choices<span lang='zh-Hans'>车库</span> chēkù (garage) is least likely to have a window, compared to the other three.",
+        "incorrect": "Oops…Listen to the audio again to identify what item it is. Then consider the different rooms of a house indicated in the choices to see which one is least likely to have this item.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "left_side.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>左边</span> zuǒbiān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the <strong>antonym</strong> (word with the opposite meaning) of the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>右边</span>",      
+        "options":[
+          "<span lang='zh-Hans'>没有</span>",
+          "<span lang='zh-Hans'>上午</span>",
+          "<span lang='zh-Hans'>学生</span>"
+        ],
+        "correct": "Beautifully done! The word <span lang='zh-Hans'>左边</span> zuǒbiān means “left side.” Its antonym (word with the opposite meaning) should be <span lang='zh-Hans'>右边</span> yòubiān (right side). ",
+        "incorrect": "Not quite…Listen to the word in the audio again to identify its meaning. Then consider what its opposite meaning should be, and compare it with the words in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "right_side.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>右边</span> yòubiān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does not have the same final as the second character in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>院子</span> yuànzi </span><audio class='audio' controls src='interactives/05_01_07/intmedia/yard.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>冬天</span> dōngtiān  </span><audio class='audio' controls src='interactives/05_01_07/intmedia/winter.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>电脑</span> diànnǎo </span><audio class='audio' controls src='interactives/05_01_07/intmedia/computer.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>文件夹</span> wénjiànjiā </span><audio class='audio' controls src='interactives/05_01_07/intmedia/folder_binder.mp3' ></audio>"
+        ],
+        "correct": "You got it! The second character, <span lang='zh-Hans'>边</span> biān, in the word <span lang='zh-Hans'>右边</span> yòubiān has the initial “ian.” Of the choices, only the word <span lang='zh-Hans'>院子</span> yuànzi (yard) doesn’t have the same final.",
+        "incorrect": "Not quite…First identify the final of the second character in the word presented; then listen to the words in the choices to see which one doesn’t have the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

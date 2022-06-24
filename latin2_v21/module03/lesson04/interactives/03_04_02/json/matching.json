@@ -1,0 +1,42 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>canis, canis m./f.</em>",
+            "right": "canine"
+          },
+          {
+            "left": "<em>gaudium, gaudi n.</em>",
+            "right": "gaudy"
+          },
+          {
+            "left": "<em>ius, iuris n.</em>",
+            "right": "jury, justice, juridical, jurisprudence"
+          },
+          {
+            "left": "<em>iuventus, iuventutis m.</em>",
+            "right": "juvenile"
+          },
+          {
+            "left": "<em>maritus, mariti m.</em>",
+            "right": "marital"
+          },
+          {
+            "left": "<em>mendicus, mendici m.</em>",
+            "right": "mendicant, mendacity"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Check your knowledge on the Second Triumvirate. Select the card to reveal your answer.",
+    "instruction_textversion":"Check your knowledge on the Second Triumvirate. Check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Who were the members of the Second Triumvirate?</p>",
+          "textversion": "<p>Who were the members of the Second Triumvirate?</p>"
+        },
+        "back": {
+          "content": "<p>Mark Antony, Lepidus, and Octavian</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Mark Antony, Lepidus, and Octavian</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>Mark Antony controlled which geographical region? </p>",
+          "textversion": "<p>Mark Antony controlled which geographical region? </p>"
+        },
+        "back": {
+          "content": "<p>The east</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>The east</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Octavian controlled which geographical region? </p>",
+          "textversion": "<p>Octavian controlled which geographical region?</p>"
+        },
+        "back": {
+          "content": "<p>The west</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>The west</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Whom did Mark Antony marry?</p>",
+          "textversion": "<p>Whom did Mark Antony marry?</p>"
+        },
+        "back": {
+          "content": "<p>Octavia, the sister of Octavian</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>Octavia, the sister of Octavian</p>"
+        }
+      }
+     
+    ]
+  }
+}

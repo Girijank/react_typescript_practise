@@ -1,0 +1,89 @@
+.row {margin: 30px 0;}
+
+.greetings img {
+    
+    max-height: 200px;
+    max-width:300px;
+   
+	-webkit-box-shadow: 1px 1px 5px 0 rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    1px 1px 5px 0 rgba(50, 50, 50, 0.75);
+	box-shadow:         1px 1px 5px 0 rgba(50, 50, 50, 0.75);
+	border: 10px solid #fff;
+}
+
+.righty {
+	float:right;
+	margin-top: -10px;
+    margin-right: -5px;      
+}
+
+.lefty {
+	float:left;
+	margin-top: -10px;
+	margin-right: 75px;          
+}
+
+#content .title {
+    font-family: 'Catamaran', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    margin: 15px 0 0 15px;
+    padding:10px;
+}
+.secondtitle {
+    font-family: 'Catamaran', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 0 15px;
+    padding:10px;
+	max-height: 45px;
+}
+.title p {margin: 0;}
+
+.text {
+    font-family: 'Catamaran', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000;
+    margin: 0 0 0 15px;
+    padding:10px 10px 20px 10px;
+}
+
+.title_india {
+    background-color: #ebdcef;
+}
+.text_india {
+    background-color: #ebdcef;
+}
+
+.title_japan {
+    background-color: #ebdcef;
+}
+.text_japan {
+    background-color: #ebdcef;
+}
+
+.title_latinamerica {
+    background-color: #c87600;
+}
+.text_latinamerica {
+    background-color: #ffe8c7;
+}
+
+.title_tibet {
+    background-color: #003569;
+}
+.text_tibet {
+    background-color: #dee9f4;
+}
+.mb-8{
+    margin-bottom: 80px;
+}
+.mt-6{
+    margin-top: 60px;
+}
+
+.para-text {
+    margin-left: 40px;
+}

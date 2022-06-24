@@ -1,0 +1,533 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_01_04/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "_slidesToDisplay": 5,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "For each pull-down menu, select the correct word to form a complete sentence.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "He is going to my older brother’s house."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>他</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",            
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>要</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>去</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>我哥哥</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>家</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>他 要 去 我哥哥 家。</span>? means “He is going to my older brother’s house.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "I am going to the restaurant to eat steak."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>要</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>去</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>餐厅</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>吃</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>牛排</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我 要 去 餐厅 吃 牛排。</span>. means “I am going to the restaurant to eat steak.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "She is going to celebrate her younger sister’s birthday."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>她</span>",
+            "options": [             
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>要</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>庆祝</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>她妹妹</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>的</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>生日</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>她 要 庆祝 她妹妹 的 生日。</span>. means “She is going to celebrate her younger sister’s birthday.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "I am going to school on time."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>要</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>准时</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>去</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>学校</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>学校</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>要</span>",
+              "<span lang='zh-Hans'>他</span>",              
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>庆祝</span>",
+              "<span lang='zh-Hans'>准时</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>我哥哥</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>家</span>",
+              "<span lang='zh-Hans'>餐厅</span>",
+              "<span lang='zh-Hans'>牛排</span>",
+              "<span lang='zh-Hans'>的</span>",
+              "<span lang='zh-Hans'>生日</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我 要 准时 去 学校。</span>. means “I am going to school on time.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

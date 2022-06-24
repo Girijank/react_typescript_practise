@@ -1,0 +1,50 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Can you identify the participle in the sentence? Select the card to check your answer.",
+    "instruction_textversion":"Can you identify the participle in the sentence? Check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Establishing the Roman Empire was a task only worthy of the great Caesar Augustus. </p>",
+          "textversion": "<p>Establishing the Roman Empire was a task only worthy of the great Caesar Augustus. </p>"
+        },
+        "back": {
+          "content": "<p>Establishing</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Establishing</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>The Trojans were being sucked in by the whirlpool shattering all boats in its path. </p>",
+          "textversion": "<p>The Trojans were being sucked in by the whirlpool shattering all boats in its path. </p>"
+        },
+        "back": {
+          "content": "<p>Shattering</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>Shattering</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>On our journey, we needed to place wax in our ears on account of the singing sirens. </p>",
+          "textversion": "<p>On our journey, we needed to place wax in our ears on account of the singing sirens. </p>"
+        },
+        "back": {
+          "content": "<p>Singing</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>Singing</p>"
+        }
+      }
+      
+      
+      
+    ]
+  }
+}

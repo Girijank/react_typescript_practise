@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <title>Drop part of sentence into the correct box.</title>
+    <directions>Drop part of sentence into the correct Ablative Absolute or Main Sentence box.</directions>
+    <directionsTextVer></directionsTextVer>
+    <defaultFinished>
+        Way to go! 
+               <!--  <![CDATA[Many of the methods for producing energy are well developed and commonly used Other methods have limitations that make their use less common.  <br> Which of these resources do you think are most commonly used to generate electricity today? <br> Correct answer: Nonrenewable ]]> -->
+    </defaultFinished>
+    <!-- <heading>Continental Drift vs. Plate Tectonics</heading> -->
+    <draggables>multiple</draggables>
+    <droppables>append</droppables>
+    <prebin>
+    </prebin>
+    <bin>
+        <title>Ablative Absolute</title>
+        <text></text>
+        <binID>A</binID>
+        <item>
+            <itemText>With the expansion plan having been established,</itemText>
+        </item>
+        <item>
+            <itemText>With the Roman Republic having been completed,</itemText>
+        </item>
+        <item>
+            <itemText>With Claudius having been possibly poisoned by his wife,</itemText>
+        </item>
+        <item>
+            <itemText>With the soothsayer portending an omen to Caesar,</itemText>
+        </item>
+
+    </bin>
+    <bin>
+        <title>Main Sentence</title>
+        <text></text>
+        <binID>B</binID>
+        <item>
+            <itemText>Roman Emperors supplied statues, monuments, and infrastructure throughout the Empire.</itemText>
+        </item>
+        <item>
+            <itemText>the Roman Empire became the new form of government.</itemText>
+        </item>
+        <item>
+            <itemText>Nero was able to ascend into power.</itemText>
+        </item>
+        <item>
+            <itemText>the Ides of March was foretold to be an ominous day.</itemText>
+        </item>
+
+    </bin>
+
+
+    <postbin>
+    </postbin>
+</settings>

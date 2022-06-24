@@ -1,0 +1,27 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "audacissimus"
+        ],
+        "quiz": "<p>In Latin, write the correct superlative adjective answer into each cell. </p> <br> <p><strong>Sentence Verb to Use:</strong> <em>audax, audacis Nominative sg. m.</em></p> <br> Fill in the blank superlative adjective answer: *_ .",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "Iterum tempta! Try again! Learning Latin takes effort –give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

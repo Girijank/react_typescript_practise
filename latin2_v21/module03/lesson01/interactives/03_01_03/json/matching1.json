@@ -1,0 +1,44 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Roman virtue with its meaning. ",
+        "options": [
+          {
+            "left": "<em>Virtus</em>",
+            "right": "Virtue, courage"
+          },
+          {
+            "left": "<em>Humanitas</em>",
+            "right": "Refinement, being cultured"
+          },
+          {
+            "left": "<em>Prudentia</em>",
+            "right": "Wisdom"
+          },         	
+          {
+            "left": "<em>Veritas</em>",
+            "right": "Honesty in dealing with others"
+          },
+          {     	
+            "left": "<em>Auctoritas</em>",
+            "right": "Ultimate authority"
+          }, 
+          {
+            "left": "<em>Honestas</em>",
+            "right": "Respectability"
+          }
+        ],  	
+        		
+        "chances": "5"
+      }
+    ]
+  ]
+}
+

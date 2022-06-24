@@ -1,0 +1,70 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_02_08/styles.css"],
+    "intMedia": "interactives/01_02_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio of a word, then answer the question that follows"
+      },
+      {
+        "type": "localAudio",
+        "src": "what_is_your_phone_number.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你的电话号码是多少？</span> Nǐde diànhuàhàomǎ shì duōshǎo?"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is another way of asking the question in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>你的电话是多少</span>？Nǐde diànhuà shì duōshǎo?",
+        "options": [
+          "<span lang='zh-Hans'>你叫什么名字</span>？Nǐ jiàoshénme míngzi?",
+          "<span lang='zh-Hans'>你从哪里来</span>？Nǐ cóng nǎlǐ lái?",
+          "<span lang='zh-Hans'>你住在哪里</span>？Nǐ zhùzài nǎlǐ?"
+        ],
+        "correct": "Job well done!  Sometimes we say <span lang='zh-Hans'>电话</span> diànhuà instead of <span lang='zh-Hans'>电话号码</span> diànhuà màomǎ for the word “phone number.”",
+        "incorrect": "So close! Please listen again. Pay attention to each syllable and repeat the audio when needed.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "checkpoint_slide2.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>五五二三八七九</span> wǔwǔèr sānbāqījiǔ."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following digit is <strong>not</strong> said in the phone number in the audio?</p>",
+        "answer": "6",
+        "options": ["5", "3", "9"],
+        "correct": "You’ve got an ear for numbers! Excellently done! Saying phone numbers in Chinese is easy as one-two-three.",
+        "incorrect": "Oops…please listen again. Pay special attention to the digits said at the second half of the sentence. You can refer to earlier in this lesson “All About Counting” for more information on the digits 0 to 10.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "my_phone_number_is.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>我的电话号码是</span>… Wǒde diànhuàhàomǎ shì… "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can be used to complete the sentence in the audio?",
+        "answer": "<audio class='audio' controls src='interactives/01_02_08/intmedia/checkpoint_slide3_choice2.mp3' ></audio>",
+        "options": [
+          "<audio class='audio' controls src='interactives/01_02_08/intmedia/goodmorning.mp3' ></audio>",
+          "<audio class='audio' controls src='interactives/01_02_08/intmedia/likewise.mp3' ></audio>",
+          "<audio class='audio' controls src='interactives/01_02_08/intmedia/florida.mp3' ></audio>"
+        ],
+        "correct": "Fantastic! The phrase in the audio ”<span lang='zh-Hans'>我的电话号码是</span>… Wǒde diànhuà hàomǎ shì…” (My phone number is…) should be followed by one’s phone number. ",
+        "incorrect": "Oops…please listen again. Try to catch each syllable and put together the words for the phrase. Repeat the audio if needed.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

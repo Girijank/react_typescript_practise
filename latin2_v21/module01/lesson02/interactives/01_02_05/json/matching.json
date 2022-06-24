@@ -1,0 +1,57 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Translate each sentence and find its translation match. Practice as many times as you need until you translate it correctly every time!",
+        "options": [
+          {
+            "left": "<em>Puella agricolam amaverit.</em>",
+            "right": "The girl will have loved the farmer."
+          },
+			{
+            "left": "<em>Puella agricolam docet.</em>",
+            "right": "The girl teaches the farmer."
+          },
+			{
+            "left": "<em>Agricolam spectaveramus.</em>",
+            "right": "We had watched the farmer."
+          },
+			{
+            "left": "<em>Puellas videram.</em>",
+            "right": "I had seen the girls."
+          },
+			{
+            "left": "<em>Agricolam portabatis.</em>",
+            "right": "You all used to carry the farmer."
+          },
+			{
+            "left": "<em>Agricolam laudabam.</em>",
+            "right": "I was praising the farmer."
+          },
+			{
+            "left": "<em>Agricolas mones.</em>",
+            "right": "You warn the farmers."
+          },
+			{
+            "left": "<em>Puellae agricolas amaverunt.</em>",
+            "right": "The girls loved the farmers."
+          },
+			{
+            "left": "<em>Puellas docuimus.</em>",
+            "right": "We taught the girls."
+          },
+			{
+            "left": "<em>Agricolam monebamus.</em>",
+            "right": "We used to warn the farmer. "
+          }
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

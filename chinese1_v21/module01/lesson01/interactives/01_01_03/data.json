@@ -1,0 +1,109 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_01_03/styles.css"],
+    "intMedia": "interactives/01_01_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "girl.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>女孩</span> nǚhái"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Choose the English word for the Chinese word in the audio.</p>",
+        "answer": "girl",
+        "options": ["boy", "hello", "friend"],
+        "correct": "Job well done! <span lang='zh-Hans'>女孩</span> nǚhái means “girl,” <span lang='zh-Hans'>女</span> nǚ means “female,” and <span lang='zh-Hans'>孩</span> hái means “child.” Pay special attention to the first syllable nǚ.”",
+        "incorrect": "Very close. Please try to listen to the audio again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "friend.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>朋友</span> péngyǒu"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Choose the English word for the Chinese word in the audio.</p>",
+        "answer": "friend",
+        "options": ["boy", "hello", "girl"],
+        "correct": "You got it! Péngyǒu means “friend.”",
+        "incorrect": "Not quite. Do you want to listen to the audio one more time?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "hello.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你好</span> nǐhǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>How would you respond to the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>你好</span> nǐhǎo</span><audio class='audio' controls src='interactives/01_01_03/intmedia/hello.mp3' ></audio>",
+
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>再见</span> zàijiàn</span><audio class='audio' controls src='interactives/01_01_03/intmedia/goodbye.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>朋友</span> péngyǒu</span><audio class='audio' controls src='interactives/01_01_03/intmedia/friend.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>男孩</span> nánhái</span><audio class='audio' controls src='interactives/01_01_03/intmedia/girl.mp3' ></audio>"
+        ],
+        "_answer": "<span lang='zh-Hans'>你好</span> nǐhǎo",
+        "_options": [
+          "<span lang='zh-Hans'>再见</span> zàijiàn",
+          "<span lang='zh-Hans'>朋友</span> péngyǒu",
+          "<span lang='zh-Hans'>男孩</span> nánhái"
+        ],
+        "correct": "Excellent job! When people say <span lang='zh-Hans'>“你好</span> nǐhǎo (Hello),”. you respond by saying <span lang='zh-Hans'>“你好</span> nǐhǎo (Hello),” too.",
+        "incorrect": "So close! Please listen again and pay attention to both initials.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "boy.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>男孩</span> nánhái"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Choose the English word for the Chinese word in the audio.</p>",
+        "answer": "boy",
+        "options": ["hello", "girl", "friend"],
+        "correct": "Wonderful job! <span lang='zh-Hans'>男孩</span> nánhái means “boy.” <span lang='zh-Hans'>男</span> nán means “male,” <span lang='zh-Hans'>孩</span> hái means “child.”",
+        "incorrect": "So close! Please listen again and pay attention to both initials.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "goodbye.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>再见</span> zàijiàn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>When would you use the word in the audio?</p>",
+        "answer": "At the end of the conversation",
+        "options": [
+          "At the beginning of a conversation",
+          "When introducing someone",
+          "As a response to meeting someone"
+        ],
+        "correct": "You got it! We say <span lang='zh-Hans'>再见</span> zàijiàn to end a conversation or to depart from someone.",
+        "incorrect": "Not quite. Pay attention to the first initial that’s said.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

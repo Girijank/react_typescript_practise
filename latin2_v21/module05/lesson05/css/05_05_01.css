@@ -1,0 +1,8 @@
+.image-container.pull-left {
+  float: left;
+  margin: 20px 50px 20px 0;
+}
+
+.image-container.top-flush {
+  margin-top: 0;
+}

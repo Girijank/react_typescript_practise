@@ -1,0 +1,638 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/02_02_07_drop/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "_slidesToDisplay": 5,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "Move the puzzle pieces provided to construct complete sentences in Chinese.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "What do you like?"
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_ ?",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>你</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",              
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>喜欢</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",            
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>什么</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",                       
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>你 喜欢 什么</span>? means “What do you like?”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "He likes soda the most."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>他</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",              
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>最</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",              
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>喜欢</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",              
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>苏打</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",              
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>他 最 喜欢 苏打</span>. means “He likes soda the most.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "I don’t like milk."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [             
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>不</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",             
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>喜欢</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",              
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>牛奶</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",             
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我 不 喜欢 牛奶</span>. means “I don’t like milk.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "She somewhat likes coffee."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>她</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",       
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>比较</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",             
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>喜欢</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",             
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>咖啡</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",           
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>她 比较 喜欢 咖啡</span>. means “She somewhat likes coffee.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "The juice is too cold."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>果汁</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",              
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>太</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",           
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>冷</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>", 
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>了</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",            
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>果汁 太 冷 了</span>. means “The juice is too cold.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "The water is very hot."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>水</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",             
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>很</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",           
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>",
+              "<span lang='zh-Hans'>热</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>热</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>你</span>",
+              "<span lang='zh-Hans'>牛奶</span>",
+              "<span lang='zh-Hans'>果汁</span>",
+              "<span lang='zh-Hans'>水</span>",
+              "<span lang='zh-Hans'>苏打</span>",
+              "<span lang='zh-Hans'>咖啡</span>",
+              "<span lang='zh-Hans'>最</span>",
+              "<span lang='zh-Hans'>不</span>",
+              "<span lang='zh-Hans'>比较</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>太</span>",
+              "<span lang='zh-Hans'>了</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>什么</span>",           
+              "<span lang='zh-Hans'>冷</span>"             
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>水 很 热</span>. means “The water is very hot.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

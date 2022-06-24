@@ -1,0 +1,74 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_02_09/styles.css"],
+    "intMedia": "interactives/01_02_09/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "localAudio",
+        "src": "wo.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>我</span> wǒ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the possessive adjective format of the word in the audio to show possession?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>我的</span> wǒde</span><audio class='audio' controls src='interactives/01_02_09/intmedia/practice_slide1_choice2.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>我是</span> wǒshì</span><audio class='audio' controls src='interactives/01_02_09/intmedia/practice_slide1_choice1.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>你是</span> nǐshì</span><audio class='audio' controls src='interactives/01_02_09/intmedia/practice_slide1_choice3.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>你的</span> nǐde</span><audio class='audio' controls src='interactives/01_02_09/intmedia/practice_slide1_choice4.mp3' ></audio>"
+        ],
+        "correct": "You got it! The word “<span lang='zh-Hans'>我</span> wǒ” means “I,” followed by the possessive adjective particle ”<span lang='zh-Hans'>的</span> de,” so it becomes “my/mine.” ",
+        "incorrect": "Very close. Would you like to listen again? Pay attention to the first syllable and the second part, which is the possessive adjective “<span lang='zh-Hans'>的</span> de.”",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "practice_slide2_question.mp3",
+        "textVersion": "Audio for tāde"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words in characters matches the audio you’ve heard?</p>",
+        "answer": "<span lang='zh-Hans'>他的</span>",
+        "options": [
+          "<span lang='zh-Hans'>你的</span>",
+          "<span lang='zh-Hans'>我的</span>",
+          "<span lang='zh-Hans'>他是</span>"
+        ],
+        "correct": "You nailed it! The audio can correspond to <span lang='zh-Hans'>他的</span>— his.",
+        "incorrect": "Very close! Please listen again and think about what pronoun the sound “tā” can correspond to. You can refer to the earlier lesson “Rooted in Place” for more information.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "practice_slide3_question.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>他的电话是多少</span>？ Tāde diànhuà shì duōshǎo? "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What is a good response to the question in the audio?",
+        "answer": "<span lang='zh-Hans'>她的电话是</span> 794-3846. tā de diàn huà shì qī jiǔ sì sān bā sì liù",
+        "options": [
+          "<span lang='zh-Hans'>我的电话是</span> 794-3846. Wǒ de diàn huà shì qī jiǔ sì sǎn bā sì liù.",
+          "<span lang='zh-Hans'>他住在佛罗里达州。</span> Tā zhùzài Fúluólǐdá zhōu.",
+          "<span lang='zh-Hans'>她叫</span> Lisa. Tā jiào Lisa. "
+        ],
+        "correct": "What an excellent job catching the correct audio response! You’ve got both the numbers and pronouns right. Yay!",
+        "incorrect": "Not quite… please listen to the question again. Remember that sometimes we say <span lang='zh-Hans'>电话</span> diànhuà instead of <span lang='zh-Hans'>电话号码</span> diànhuà màomǎ for the word “phone number.”",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

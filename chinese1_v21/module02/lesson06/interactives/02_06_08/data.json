@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_06_08/styles.css"],
+    "intMedia": "interactives/02_06_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "how_much.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>多少钱</span> duōshǎoqián"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In what situation will you be using the phrase in the audio?</p>",
+        "answer": "When you are at the cashier at a store",
+        "options": [
+          "When you turn in work to your teacher in class",
+          "When you receive a phone call from a friend",
+          "When you leave your parents for school in the morning"
+        ],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>多少钱</span> duōshǎo qián means “how much,” and it’s used when you are ready to pay at places such as a store or restaurant.",
+        "incorrect": "Not quite. Listen to the phrase again, and think about its meaning, as well as in what places or situations you can use such a phrase.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "price.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>价钱</span> jiàqián"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same initial as the 2nd character of the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>巧克力</span> qiǎokèlì</span><audio class='audio' controls src='interactives/02_06_08/intmedia/chocolate.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>午餐</span> wǔcān</span><audio class='audio' controls src='interactives/02_06_08/intmedia/lunch.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>松饼</span> sōngbǐng</span><audio class='audio' controls src='interactives/02_06_08/intmedia/pancakes.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>现金</span> xiànjīn</span><audio class='audio' controls src='interactives/02_06_08/intmedia/cash.mp3' ></audio>"
+        ],
+        "correct": "Fabulous job! The 2nd character in the word <em><span lang='zh-Hans'>价钱</span> jiàqián</em> (price) has initial “q;” so does the 1st character in the word <em><span lang='zh-Hans'>巧克力</span> qiǎokèlì</em> (chocolate).",
+        "incorrect": "Not quite. Listen to the audio again, identify the initial, and then compare it with the four options on the list.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_pay.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>付钱</span> fùqián"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is a method to complete the action described by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>信用卡</span> xìnyòngkǎ",
+        "options": [
+          "<span lang='zh-Hans'>今年</span> jīnnián",
+          "<span lang='zh-Hans'>买单</span> mǎidān",
+          "<span lang='zh-Hans'>谢谢</span> xièxiè"
+        ],
+        "correct": "Awesome job! <em><span lang='zh-Hans'>付钱</span> fùqián</em> means “to pay,” and a credit card is a good way to complete this action, instead of a simple <em><span lang='zh-Hans'>谢谢</span> xièxiè</em> (thanks).",
+        "incorrect": "So close! Listen to the word several times. Keep in mind to differentiate it from other words you’ve learned in this group, as several of them have the same character(s). Then, consider what is needed in order to complete that action.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_pay_for_the_bill.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>买单</span> mǎidān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Where do you most likely use this phrase in the audio?</p>",
+        "answer": "At the table in a restaurant",
+        "options": [
+          "At the cashier in a store",
+          "At the counter of a bank",
+          "At your school’s front office"
+        ],
+        "correct": "Excellently done! <em><span lang='zh-Hans'>买单</span> mǎidān</em> (to pay the bill) is specifically used for paying the bill at a restaurant, but not in other locations.",
+        "incorrect": "So close! Listen to the word several more times. Understand its meaning, and then consider in what situations it can be used.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_06_04/styles.css"],
+    "intMedia": "interactives/01_06_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "mr.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>先生</span> xiānsheng "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Who would you address using the title in the audio?</p>",
+        "answer": "A male banker",
+        "options": ["A high school girl", "A female teacher", "Your own niece"],
+        "correct": "Job well done! <span lang='zh-Hans'>先生</span>xiānsheng means “Mr.” and is used to address adult men.",
+        "incorrect": "Very close. Pay attention to both characters in the word and what the combination means.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "mrs.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>太太</span> tàitai"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does <strong>not</strong> have the same social function as the word in the audio?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>朋友</span> péngyǒu</span><audio class='audio' controls src='interactives/01_06_04/intmedia/friend.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>小姐</span> xiǎojiě</span><audio class='audio' controls src='interactives/01_06_04/intmedia/miss.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>女士</span> nǚshì</span><audio class='audio' controls src='interactives/01_06_04/intmedia/ms.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>先生</span> xiāngsheng</span><audio class='audio' controls src='interactives/01_06_04/intmedia/mr.mp3' ></audio>"
+        ],
+        "_answer": "<span lang='zh-Hans'>朋友</span> péngyǒu (friend)",
+        "_options": [
+          "<span lang='zh-Hans'>小姐</span> xiǎojiě (Miss)",
+          "<span lang='zh-Hans'>女士</span> nǚshì (Ms.)",
+          "<span lang='zh-Hans'>先生</span> xiāngsheng (Mr.)"
+        ],
+        "correct": "Outstanding! The words <span lang='zh-Hans'>太太</span> tàitai (Mrs.). <span lang='zh-Hans'>小姐</span> xiǎojiě (Miss), <span lang='zh-Hans'>女士</span> nǚshì (Ms.), and <span lang='zh-Hans'>先生</span> xiānsheng (Mr.) are all titles used to formally address someone, while <span lang='zh-Hans'>朋友</span> péngyǒu (friend) is a noun and cannot be used as a title.",
+        "incorrect": "Not quite. Pay attention that in the word, the same syllable is said twice. Think about which word we have learned that has that feature.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

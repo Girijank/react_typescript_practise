@@ -1,0 +1,96 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_01_03/styles.css"],
+    "intMedia": "interactives/05_01_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "house.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>房子</span> fángzi"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following will you most likely find as part of the item indicated by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>车库</span> chēkù </span><audio class='audio' controls src='interactives/05_01_03/intmedia/garage.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>春天</span> chūntiān</span><audio class='audio' controls src='interactives/05_01_03/intmedia/spring.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>学校</span> xuéxiào</span><audio class='audio' controls src='interactives/05_01_03/intmedia/school.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>星期</span> xīngqī</span><audio class='audio' controls src='interactives/05_01_03/intmedia/week.mp3' ></audio>"
+        ],
+        "correct": "Excellently done! <span lang='zh-Hans'>房子</span><em> fángzi</em> means “house.” Of the four choices, <span lang='zh-Hans'>车库</span> chēkù (garage) is most likely a part of a house.",
+        "incorrect": "Very close. Listen to the word to identify its meaning. Then review the choices to see which one can reasonably be part of it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "floor_story_building.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>楼</span> lóu"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be completed with the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>我的公寓在三</span>_____。Wǒde gōnyù zài sān_____.",
+        "options": [
+          "<span lang='zh-Hans'>他_____四有体育课。</span>Tā _____ sìyǒu tǐyùkè.",
+          "<span lang='zh-Hans'>她家有五</span>_____<span lang='zh-Hans'>人。</span>Tā jiā yǒu wǔ _____rén.",
+          "<span lang='zh-Hans'>今天是八月四</span>_____。Jīntiān shì bā yuè sì _____."
+        ],
+        "correct": " Fantastic job! <span lang='zh-Hans'>楼</span><em> lóu</em> means “floor/story/building,” and you can use it to complete the sentence “<span lang='zh-Hans'>我的公寓在三楼。</span>Wǒde gōnyù zài sān lóu. (My apartment is on the third floor.)“",
+        "incorrect": "Not quite. Listen to the audio again to identify this word’s meaning. Then review all the incomplete sentences in the choices to see which one this word fits the best for both meaning and structure.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "yard.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>院子</span> yuànzi"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following furniture items can <strong>most</strong> likely be found at the location indicated by the word in the audio?</p>",
+        "answer": "A picnic table",
+        "options": [
+          "A bookshelf",
+          "A stove",
+          "A bed"
+        ],
+        "correct": "Very nice job! The word <span lang='zh-Hans'>院子</span><em> yuànzi</em> means “yard.” We can most likely find a picnic table there, maybe for a family dinner outdoors on a nice summer evening.",
+       
+        "incorrect": "Not quite. Listen to the word in the audio again to identify its meaning. Then review the items in the choices to see which one can be most reasonably seen at the location.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "balcony.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>阳台</span> yángtái "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words can the word in the audio <strong>best</strong> be associated with?</p>",
+        "answer": "<span lang='zh-Hans'>公寓</span>",
+        "options": [
+          "<span lang='zh-Hans'>国家</span>",
+          "<span lang='zh-Hans'>背包</span>",
+          "<span lang='zh-Hans'>季节</span>"
+        ],
+        "correct": "Excellent job! The word <span lang='zh-Hans'>阳台</span> <em>yángtái</em> means “balcony.” It can best be associated with <span lang='zh-Hans'>公寓</span> gōngyù (apartment), which usually have balconies.",        
+        "incorrect": "Oops…Listen to the word in the audio again to identify its meaning. Then review the words in the choices to see which one you can associate the word with.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

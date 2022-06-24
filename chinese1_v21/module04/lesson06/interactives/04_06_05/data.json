@@ -1,0 +1,165 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_06_05/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/04_06_05/textversion/textversion.htm",
+    "modal": {
+      "directions": "Drag and drop the image under the appropriate verb.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>穿</span> chuān",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A winter coat",
+                "class":"hideback",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/coat.jpg",
+                    "alt": "Image of a winter coat",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A pair of socks",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/socks.jpg",
+                    "alt": "Image of a pair of socks",
+                    "height": "50",
+                    "width": "100",
+                    "copyright": "©iStock"
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A skirt",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/skirt.jpg",
+                    "alt": "Image of a skirt",
+                    "height": "50",
+                    "width": "100",
+                    "copyright": "©iStock"
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A pair of sandals",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/sandals.jpg",
+                    "alt": "Image of a pair of sandals",
+                    "height": "50",
+                    "width": "100",
+                    "copyright": "©iStock"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>戴</span> dài",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A pair of glasses",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/glasses.jpg",
+                    "alt": "Image of a pair of glasses",
+                    "height": "50",
+                    "width": "100",
+                    "copyright": "©iStock"
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A mask",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/mask.jpg",
+                    "alt": "Image of a mask",
+                    "height": "50",
+                    "width": "100",
+                    "copyright": "©iStock"
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A pair of gloves",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/gloves.jpg",
+                    "alt": "Image of a pair of gloves",
+                    "height": "50",
+                    "width": "100",
+                    "copyright": "©iStock"
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "A pair of earrings",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/04_06_05/images/earrings.jpg",
+                    "alt": "Image of a pair of earrings",
+                    "height": "50",
+                    "width": "100",
+                    "copyright": "©iStock"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <title>Drop the Participle into the correct Tense  </title>
+    <directions>Place each participle according to its tense.</directions>
+    <directionsTextVer></directionsTextVer>
+    <defaultFinished>
+        Way to go! 
+       <!--  <![CDATA[Many of the methods for producing energy are well developed and commonly used Other methods have limitations that make their use less common.  <br> Which of these resources do you think are most commonly used to generate electricity today? <br> Correct answer: Nonrenewable ]]> -->
+    </defaultFinished>
+    <!-- <heading>Continental Drift vs. Plate Tectonics</heading> -->
+    <draggables>multiple</draggables>
+    <droppables>append</droppables>
+    <prebin>
+    </prebin>
+    <bin>
+        <title>future active</title>
+        <text></text>
+        <binID>A</binID>
+        <item>
+            <itemText>iacturi</itemText>
+        </item>
+       
+    </bin>
+    <bin>
+        <title>perfect passive	 </title>
+        <text></text>
+        <binID>B</binID>
+        <item>
+            <itemText>amatus</itemText>
+        </item>
+        <item>
+            <itemText>coacti</itemText>
+        </item>
+        
+    </bin>
+   <bin>
+        <title>present active </title>
+        <text></text>
+        <binID>C</binID>
+        <item>
+            <itemText>clamantibus</itemText>
+        </item>
+        <item>
+            <itemText>propellens</itemText>
+        </item>
+      
+    </bin>
+
+    
+    <postbin>
+    </postbin>
+</settings>

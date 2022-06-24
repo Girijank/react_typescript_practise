@@ -1,0 +1,89 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_06_06/styles.css"],
+    "intMedia": "interactives/03_06_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read the phrases in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>季节</span> jìjié"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following falls in the category indicated by the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>冬天</span> dōngtiān </span><audio class='audio' controls src='interactives/03_06_06/intmedia/winter.mp3' ></audio>",
+        "options": ["<span class='fortv'>Audio for <span lang='zh-Hans'>苏打</span> sūdǎ </span><audio class='audio' controls src='interactives/03_06_06/intmedia/soda.mp3' ></audio>",
+         "<span class='fortv'>Audio for <span lang='zh-Hans'>女儿</span>  nüér </span><audio class='audio' controls src='interactives/03_06_06/intmedia/daughter.mp3' ></audio>",
+         "<span class='fortv'>Audio for <span lang='zh-Hans'>老师</span> lǎoshī </span><audio class='audio' controls src='interactives/03_06_06/intmedia/teacher.mp3' ></audio>"],
+        "correct": "You got it! <span lang='zh-Hans'>季节</span> jìjié means “season.” Of the four choices, only <span lang='zh-Hans'>冬天</span> dōngtiān (winter) is a season.",
+        "incorrect": "Very close. Think about the meaning of this word, and which of the words listed is its kind in the audio.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "directions": "Read the phrases in Chinese, and then answer the question that follows.",
+        "customView": "interactives/03_06_06/customview_imgbtn.htm"
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>春天</span> chūntiān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following images best represent the word?</p>",
+        "answer": "<span class='fortv'>Image of bird on a flowering tree with blossoms, indicating spring</span><img src='interactives/03_06_06/images/spring.jpg' alt='Image of bird on a flowering tree with blossoms, indicating spring' class='border center-block' data-copyright='©iStock'>",
+        "options": [
+          "<span class='fortv'>Image of little girl, having fun in the summer in a swimming pool</span><img src='interactives/03_06_06/images/pool.jpg' alt='Image of little girl, having fun in the summer in a swimming pool' class='border center-block' data-copyright='©iStock'>",
+          "<span class='fortv'>Image of someone standing on fallen yellow maple leaves, indicating autumn</span><img src='interactives/03_06_06/images/autumn.jpg' alt='Image of someone standing on fallen yellow maple leaves, indicating autumn' class='border center-block' data-copyright='©iStock'>",
+          "<span class='fortv'>Image of winter landscape of the frozen pond and rime ice on the trees</span><img src='interactives/03_06_06/images/trees.jpg' alt='Image of winter landscape of the frozen pond and rime ice on the trees' class='border center-block' data-copyright='©iStock'>"
+        ],
+        "correct": "Outstanding! The words <span lang='zh-Hans'>春天</span> chūntiān means “spring,” and the first image vividly shows the promise of hope in the spring.",
+        "incorrect": "Not quite. Think about what season the word represents, and then consider which image you are most likely to see during that season.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>夏天</span> xiàtiān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following characters can be used in place of the second character in the word presented, while keeping the same meaning?",
+        "answer": "<span lang='zh-Hans'>季</span> jì",
+        "options": ["<span lang='zh-Hans'>个</span> gè", "<span lang='zh-Hans'>月</span> yuè", "<span lang='zh-Hans'>元</span> yuán"],
+        "correct": "Terrific job! In the word <span lang='zh-Hans'>夏天</span> xiàtiān (summer), the 2nd character <span lang='zh-Hans'>天</span> tiān can be replaced with <span lang='zh-Hans'>季</span> jì, which itself is the first character for the word <span lang='zh-Hans'>季节</span> jìjié (season) to keep the same meaning.",
+        "incorrect": "Not quite. Review the vocabulary chart above and its notes to see which character you’ve also just learned, which can be used to replace天tiān without changing the word’s meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>秋天</span> qiūtiān"
+      },
+      {
+        "type": "mc",
+        "quiz": "Which of the following activities will people most likely do during the season indicated by this word?",
+        "answer": "Picking up colorful maple leaves in the woods",
+        "options": [
+          "Swimming at the pool and having ice cream",
+          "Observing sprouting trees in the backyard",
+          "Going sledding with friends in the snow"
+        ],
+        "correct": "How outstanding! The word <span lang='zh-Hans'>秋天</span> qiūtiān means “autumn,” during which, people will most likely see lots of falling leaves with all colors. How beautiful!",
+        "incorrect": "Not quite. Think about what season this word represents, and what typical activities people will most likely do during that season.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

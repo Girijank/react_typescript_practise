@@ -1,0 +1,127 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_01_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/06_01_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “l”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve done a great job identifying the “l” sound. Excellent job!",
+                "incorrect": "Oops, you just missed the sound. Let’s try again.",
+                "text": "<span lang='zh-Hans'>炉子</span> lúzi (stove)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_01_02/media/stove.mp3",
+                    "textVersion": "<span lang='zh-Hans'>炉子</span> lúzi",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying the “l” sound. Excellent job!",
+                "incorrect": "Oops, you just missed the sound. Let’s try again.",
+                "text": "<span lang='zh-Hans'>垃圾桶</span> lājītǒng (garbage can)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_01_02/media/garbage_can.mp3",
+                    "textVersion": "<span lang='zh-Hans'>垃圾桶</span> lājītǒng",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying the “l” sound. Excellent job!",
+                "incorrect": "Oops, you just missed the sound. Let’s try again.",
+                "text": "<span lang='zh-Hans'>淋浴间</span> línyùjiān (shower area)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_01_02/media/shower_area.mp3",
+                    "textVersion": "<span lang='zh-Hans'>淋浴间</span> línyùjiān",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying the “l” sound. Excellent job!",
+                "incorrect": "Oops, you just missed the sound. Let’s try again.",
+                "text": "<span lang='zh-Hans'>旅店</span> lǚdiàn (hotel)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_01_02/media/hotel.mp3",
+                    "textVersion": "<span lang='zh-Hans'>旅店</span> lǚdiàn",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “uai” ",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "What a fabulous job! You’ve identified the “uai” sound. Totally awesome!",
+                "incorrect": "Not quite…got to get the sound right. Let’s try again.",
+                "text": "<span lang='zh-Hans'>筷子</span> kuàizi (chopsticks)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_01_02/media/chopsticks.mp3",
+                    "textVersion": "<span lang='zh-Hans'>筷子</span> kuàizi",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "What a fabulous job! You’ve identified the “uai” sound. Totally awesome!",
+                "incorrect": "Not quite…got to get the sound right. Let’s try again.",
+                "text": "<span lang='zh-Hans'>帅</span> shuài (handsome)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_01_02/media/handsome.mp3",
+                    "textVersion": "<span lang='zh-Hans'>帅</span> shuài",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

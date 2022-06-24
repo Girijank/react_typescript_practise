@@ -1,0 +1,118 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_02_08/styles.css"],
+    "intMedia": "interactives/03_02_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "bald.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>秃顶</span> tūdǐng (bald)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following phrases is the most appropriate description of the word in audio?</p>",
+        "answer": "<span lang='zh-Hans'>没有头发</span> méiyǒu tóufà",
+        "options": [
+          "<span lang='zh-Hans'>有头发</span> yǒu tóufà",
+          "<span lang='zh-Hans'>有眼睛</span> yǒu yǎnjīng",
+          "<span lang='zh-Hans'>没有眼睛</span> méiyǒu yǎnjīng"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>秃顶</span> tūdǐng means “bald.” Of the four choices, <span lang='zh-Hans'>没有头发</span> méiyǒu tóufà (doesn’t have hair) is the description that fits the best.",
+        "incorrect": "So close! Listen to the word again to identify its meaning. Then check the choices to see which one gives the most accurate description.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "glasses.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>眼镜</span> yǎnjìng (glasses)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which of the following situations do some people most likely need assistance of the device referred to in the audio?</p>",
+        "answer": "When we drive a car",
+        "options": [
+          "When we go to sleep",
+          "When we listen to music",
+          "When we talk on the phone"
+        ],
+        "correct": "Excellently done! <span lang='zh-Hans'>眼镜</span> yǎnjìng means glasses. Some people who are nearsighted will need to wear glasses when driving a car.",
+        "incorrect": "Not quite… listen to the word again to understand its meaning, and then read the situations in the choices to see in which one someone might need the device for.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",       
+        "customView": "interactives/03_02_08/customview_imgbtn.htm"
+      },
+      {
+        "type": "localAudio",
+        "src": "grey.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>灰色</span> huīsè (grey)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following images best matches the word in audio?</p>",
+        "answer": "<span class='fortv'>Image of something in grey color</span><img src='interactives/03_02_08/intmedia/img_2.jpg' alt='Image of something in grey color' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of something in red color</span><img src='interactives/03_02_08/intmedia/img_1.jpg' alt='Image of something in red color' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of something in green color</span><img src='interactives/03_02_08/intmedia/img_3.jpg' alt='Image of something in green color' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of something in brown color</span><img src='interactives/03_02_08/intmedia/img_4.jpg' alt='Image of something in brown color' class='border center-block'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Wonderful work! <span lang='zh-Hans'>灰色</span>huīsè means grey. The image of the color grey in the choices best matches the word.",
+        "incorrect": "Oops… listen to the audio a few more times to understand which color it refers to, and then match it to the images in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "white.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>白色</span> báisè (white)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items can be described, using the word in the audio?</p>",
+        "answer": "A winter snowfall",
+        "options": [
+          "A grove of pine trees",
+          "A piece of charcoal",
+          "A summer sunset"
+        ],
+        "correct": "Terrific job! <span lang='zh-Hans'>白色</span> báisè means white, and a winter snowfall would perfectly match that color.",
+        "incorrect": "Oops… listen to the audio one more time to identify the color, and then check the descriptions in the choices to see which one matches that color. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "big.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>大</span> dà (big)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the <strong>opposite</strong> of the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>小</span> xiǎo (small)</span><audio class='audio' controls src='interactives/03_02_08/intmedia/small.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>冷</span> lěng (cold) </span><audio class='audio' controls src='interactives/03_02_08/intmedia/cold.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>热</span> rè (hot) </span><audio class='audio' controls src='interactives/03_02_08/intmedia/hot.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>凶</span> xiōng (mean) </span><audio class='audio' controls src='interactives/03_02_08/intmedia/mean.mp3' ></audio>"
+        ],
+        "correct": "Job well done! <span lang='zh-Hans'>大</span> dà means “big,” and its opposite is<span lang='zh-Hans'>小</span> xiǎo (small).",
+        "incorrect": "Oops… listen to the audio again to understand what it means, and then listen to the adjectives in the choices to see which one is its opposite. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

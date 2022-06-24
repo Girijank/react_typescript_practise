@@ -1,0 +1,83 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_06_07/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/06_06_07/textversion/textversion.htm",
+    "modal": {
+      "directions": "Match each of the modes of transportation to its appropriate destination, based on the speech of Jiajun's mom.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job finding the right match.",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>市中心</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>地铁</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>电影院</span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>巴士</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>餐厅</span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>走路</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>乡下</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>火车</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>农场</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>单车</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>家</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>出租车</span>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

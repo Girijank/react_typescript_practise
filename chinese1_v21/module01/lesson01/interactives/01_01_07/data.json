@@ -1,0 +1,126 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_01_07/styles.css"],
+    "intMedia": "interactives/01_01_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Play each audio of vocabulary phrases in Chinese. Then, select the correct answer."
+      },
+      {
+        "type": "localAudio",
+        "src": "whats_your_last_name.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>你姓什么</span>? </p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is a good response to the audio question?</p>",
+        "answer": "<span lang='zh-Hans'>我姓</span> Smith. Wǒ xìng Smith. ",
+        "options": [
+          "<span lang='zh-Hans'>我也是</span> Wǒ yě shì.",
+          "<span lang='zh-Hans'>我叫</span> Mary. Wǒjiào Mary.",
+          "<span lang='zh-Hans'>下午好。</span>Xiàwǔhǎo."
+        ],
+        "correct": "You got it! We can use the verb <span lang='zh-Hans'>姓</span> xìng to ask people for their last names.",
+        "incorrect": "Oops… please pay attention to the second syllable “xìng.”",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "my_name_is.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>我叫</span>… </p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What information should you give, following the audio phrase?</p>",
+        "answer": "My first name ",
+        "options": ["My last name", "A greeting", "Goodbye"],
+        "correct": "Nice job! The verb <span lang='zh-Hans'>叫</span> jiào is used to ask people for their names.",
+        "incorrect": "Oops…please pay attention to the second syllable “jiào.”",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "very_nice_to_meet_you.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>很高兴认识你。</span></p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>How would you respond to the audio sentence?</p>",
+        "answer": "<span lang='zh-Hans'>我也是。</span> Wǒ yě shì.",
+        "options": [
+          "<span lang='zh-Hans'>晚安。</span> Wǎn ān.",
+          "<span lang='zh-Hans'>我叫</span> Jack. Wǒjiào Jack.",
+          "<span lang='zh-Hans'>你好。</span>Nǐ hǎo."
+        ],
+        "correct": "You are right! The phrase “<span lang='zh-Hans'>很高兴认识你。</span>Hěn gāoxìng rènshi nǐ.” means “Very nice to meet you.” A nice response to it would be “Same here.”",
+        "incorrect": "Please try again. You may want to break down the sentence into individual words in order to understand it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "likewise.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>我也是。</span></p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What does the audio phrase express?</p>",
+        "answer": "agreement",
+        "options": ["disagreement", "gratitude", "objection"],
+        "correct": "Excellent job! The phrase “<span lang='zh-Hans'>我也是。</span> Wǒ yě shì.” means “Likewise./I also am.” You can use this phrase any time you wish to express agreement.",
+        "incorrect": "So close… please listen to the audio again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "whats_your_name.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>你叫什么名字</span>?</p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In what situation would you say the audio sentence?</p>",
+        "answer": "When you are introduced to a new classmate",
+        "options": [
+          "When you run into an old friend",
+          "When you visit your grandparents",
+          "Talking to your mom before going to bed"
+        ],
+        "correct": "You nailed it! Meeting a new classmate is a perfect occasion to ask for his or her name.",
+        "incorrect": "Not quite… please listen to the audio again. You may want to break down the sentence into individual words in order to understand it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "my_last_name_is.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>我姓</span>… </p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What would be the question that prompts the audio as a response?</p>",
+        "answer": "What’s your last name?",
+        "options": [
+          "What’s your nickname?",
+          "What’s your full name?",
+          "What’s your first name?"
+        ],
+        "correct": "Excellent job! We can use the verb <span lang='zh-Hans'>姓</span> xìng in a sentence to introduce our last names.",
+        "incorrect": "Very close… please pay attention to the second syllable “xìng.”",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

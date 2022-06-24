@@ -1,0 +1,41 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Match the English Derivative to its Latin vocabulary term.",
+        "options": [
+          {
+            "left": "<em>furtum, furti n.</em>",
+            "right": "furtive"
+          },
+          {
+            "left": "<em>funus, funeris n.</em>",
+            "right": "funerary"
+          },
+          {
+            "left": "<em>patrimonium, patrimonii n.</em>",
+            "right": "patrimony" 
+          },
+          {
+            "left": "<em>patricius, patricii m.</em>",
+            "right": "patrician"
+          },
+          {
+            "left": "<em>rostrum, rostri n.</em>",
+            "right": "rostrum"
+          },
+          {
+            "left": "<em>iudicium,iudicii n.</em>",
+            "right": "judicial, judge"
+          }			
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

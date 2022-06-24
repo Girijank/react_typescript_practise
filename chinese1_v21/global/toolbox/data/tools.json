@@ -1,0 +1,1096 @@
+{
+  "tools": [
+    {
+      "id": "1",
+      "title": "Chinese Pinyin Chart",
+      "text": "Speaking and Listening",
+      "content": {
+        "text": "content/chinese1/module01/resources_chinese_pinyin_chart.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Pronunciation"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "U.S. States in Chinese",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module01/us_states_in_chinese.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary", "Geography"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "My Life Characters Spreadsheet",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module01/module_1_characters_spreadsheet.pdf"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing", "Basic Information"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Greetings and Intros Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module01/resources_greetings_and_intros_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Greetings and Introductions"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Call Me Maybe Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module01/resources_call_me_maybe_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Basic Information"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Describing Myself Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module01/resources_describing_myself_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary", "Descriptions"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Young at Heart Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module01/resources_young_at_heart_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary", "Titles"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Resource One Digit Numbers Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module01/resource_one_digit_numbers_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary", "Numbers"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Resource Two Digit Numbers Review",
+      "text": "Grammar",
+      "content": {
+        "text": "content/chinese1/module01/resource_two_digit_numbers_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Grammar","Numbers"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Installing Chinese Input Method",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module01/installing_chinese_input_method.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Technical"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Questions and Answers",
+      "text": "Grammar",
+      "content": {
+        "text": "content/chinese1/module01/resources_questions_and_answers.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Grammar","Interrogative Sentences"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Resource Chinese Character Writing Rules",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module01/resource_chinese_character_writing_rules.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Writing Rules"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Listening Strategies",
+      "text": "Speaking and Listening",
+      "content": {
+        "text": "content/chinese1/module01/listening_strategies.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Listening"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Resource Hand Gestures for Numbers",
+      "text": "Culture",
+      "content": {
+        "text": "content/chinese1/module01/resource_hand_gestures_for_numbers_in_chinese.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Culture","Numbers"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Resource My Life Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module01/resource_my_life_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Introductions","Self Descriptions"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "My Life Dialogue Video 1",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module01/my_life_dialogue_video_1_text_version.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "My Life Dialogue Video 2",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module01/my_life_dialogue_video_2_text_version.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My Life"]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Resources Chinese Language Pack Installation Instructions",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module02/resources_chinese_language_pack_installation_instructions.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Technical"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Typing Chinese Characters",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module02/typing_chinese_characters.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Technical"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "My Preferences Characters Spreadsheet",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module02/module_2_charaters_spreadsheet.pdf"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Basic Information"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Resources Let's Eat Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module02/resources_lets_eat_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Food"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Resources Check Please Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module02/resources_check_please_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Restaurant"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Resources Coffee or Tea Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module02/resources_coffee_or_tea_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Drinks and Desserts"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Resources Table for Two Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module02/resources_table_for_two_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Utensils and Manners"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Resource My Preferences Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module02/resource_my_preferences_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Preferences"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "My Preferences Dialogue Video 1",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module02/my_preferences_dialogue_video_1_text_version.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "My Preferences Dialogue Video 2",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module02/my_preferences_dialogue_video_2_text_version.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My Preferences"]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Resources Decription Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module03/resources_decription_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Adjectives","Adverbs of Degree"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "My Family Characters Spreadsheet",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module03/module_3_characters_spreadsheet.pdf"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Basic Information"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Resources We Are Family Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module03/resources_we_are_family_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Family Members"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Resources It Runs in the Family Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module03/resources_it_runs_in_the_family_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Grandparents"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Resources It's Party Time Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module03/resources_its_party_time_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Celebrations"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Resources Back to Your Roots Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module03/resources_back_to_your_roots_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Origins","Appearances"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Resources Food and Drinks Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module03/resources_food_and_drinks_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Food and Drinks"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Resource My Family Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module03/resource_my_family_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Family"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "My Family Dialogue Video 1",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module03/03_my_family_dialogue_video_1.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "My Family Dialogue Video 2",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module03/03_my_family_dialogue_video_2.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My Family"]
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Resources Borrowed Words Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_borrowed_words.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Borrowed Words"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "My School Characters Spreadsheet",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module04/module_4_characters_spreadsheet.pdf"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Basic Information"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Resources Time for School Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_time_for_school_vocab.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Subjects"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Resources Its in the Bag Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_its_in_the_bag_vocab.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","School Supplies"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Resources All in a Day's Work Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_all_in_a_days_work_vocab.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Activities"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Resources Dress for Success Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_dress_for_success_vocab.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Clothing","Weather"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Resources School Supplies Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_school_supplies_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","School Supplies"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Resources Classes and Activities Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_classes_and_activities.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Classes","Activities"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "Resources Clothes Items Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resources_clothes_items.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Clothing"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Resource My School Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module04/04_resource_my_school_vocab.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","School"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "My School Dialogue Video 1",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module04/04_my_school_dialogue_video_1.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "My School Dialogue Video 2",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module04/04_my_school_dialogue_video_2.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My School"]
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "Resource Feng Shui Rules Review",
+      "text": "Culture",
+      "content": {
+        "text": "content/chinese1/module05/05_resource_feng_shui_rules.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Culture","Feng shui"],
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "title": "My House Characters Spreadsheet",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module05/module_5_characters_spreadsheet.pdf"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Basic Information"],
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "title": "Resources Home Sweet Home Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module05/05_resources_home_sweet_home_vocab.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Parts of Home"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "title": "Resources Make Yourself at Home Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module05/05_resources_make_yourself_at_home_vocab.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Kitchen","Living Room"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "title": "Resources My Room My Rules Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module05/05_resources_my_home_my_rules_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Bedroom"],
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "title": "Resources Bathroom Break Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module05/05_resources_bathroom_break_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Bathroom"],
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "title": "Resource Types of Chinese Homes Review",
+      "text": "Culture",
+      "content": {
+        "text": "content/chinese1/module05/05_resource_types_of_chinese_homes_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Culture","Types of Homes"],
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "title": "Resource Parts of A House and Furniture Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module05/05_resource_parts_of_a_house_and_furniture_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","House","Furniture","Appliances"],
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "title": "Resource My House Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module05/05_resource_my_house_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","House"],
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "title": "My House Dialogue Video 1",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module05/05_my_house_dialogue_video_1.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "title": "My House Dialogue Video 2",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module05/05_my_house_dialogue_video_2.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My House"]
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "title": "Resources Preposition Words Review",
+      "text": "Grammar",
+      "content": {
+        "text": "content/chinese1/module06/06_resources_preposition_words_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Grammar","Preposition Words"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "title": "Resources Pastimes and Activities Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module06/06_resources_pastimes_and_activities_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Pastime","Activities"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "title": "My Community Characters Spreadsheet",
+      "text": "Writing",
+      "content": {
+        "text": "content/chinese1/module06/module_6_characters_spreadsheet.pdf"
+      },
+      "meta": [
+        {
+          "keywords": ["Character Writing","Basic Information"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "title": "Resources Travel Time Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module06/06_resources_travel_time_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Community"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "title": "Resources Active in the Community Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module06/06_resources_active_in_the_community_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Community"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "title": "Resources Describing Downtown Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module06/06_resources_describing_downtown_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Community"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "title": "Resources Around Town Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module06/06_resources_around_town_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Community"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "title": "Resource Time Week Frequency Review",
+      "text": "Grammar",
+      "content": {
+        "text": "content/chinese1/module06/06_resource_time_week_frequency_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Grammar","Time","Frequency"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "title": "Resources Types of Transportation Review",
+      "text": "Grammar",
+      "content": {
+        "text": "content/chinese1/module06/06_resources_types_of_transportation_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Grammar","Verbs for Transportation"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "title": "Resource My Community Vocab Review",
+      "text": "Vocabulary",
+      "content": {
+        "text": "content/chinese1/module06/06_resource_my_community_vocab_review.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Vocabulary","Community"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "title": "My Community Dialogue Video 1",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module06/06_my_community_dialogue_video_1.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "title": "My Community Dialogue Video 2",
+      "text": "Dialogue Video",
+      "content": {
+        "text": "content/chinese1/module06/06_my_community_dialogue_video_2.htm"
+      },
+      "meta": [
+        {
+          "keywords": ["Dialogue Video"],
+          "course": ["Chinese 1"],
+          "modules": ["My Community"]
+        }
+      ]
+    }
+  ]
+}

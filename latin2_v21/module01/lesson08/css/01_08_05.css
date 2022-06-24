@@ -1,0 +1,13 @@
+@media (max-width: 768px){
+    .kWidgetPlayBtn.audio{
+        width: 320px !important;
+    }
+}
+
+.red-text {
+    color: #FF0000;
+}
+
+.bottom {
+    right: 20px !important; 
+}

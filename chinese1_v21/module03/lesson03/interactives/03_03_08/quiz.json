@@ -1,0 +1,92 @@
+{
+	"config": {
+		"src": "quizmo",
+		"interactiveTitle": "",
+		"css": ["interactives/03_03_08/styles.css"],
+		"disableRemoteCss": true,
+		
+    	"customTextversionAll":"interactives/03_03_08/textversion.htm",
+		"modal": {
+			"directions": "<h4>Drag the country names to the correct place on the map.</h4>",
+			"title": "Instructions"
+		}
+	},
+	"body": [
+		[
+			{
+				"type":"dragdrop",
+				"failedHeading": "Incorrect",
+				"rejectIncorrect": true,
+				"quiz":"",
+				"bins":[
+					{
+						"title": "dg",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Geography Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "Mongol (Mongolians) ethnic group"
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Geography Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "Zang (Tibetan) ethnic group "
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Geography Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "Zhuang ethnic group "
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Geography Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "Li ethnic group"
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Geography Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "Miao (Hmong) ethnic group"
+							}
+						]
+					},
+					{
+						"title": "",
+						"limit": 1,
+						"item": [
+							{
+								"correct": "You are a Geography Superstar. Well done!",
+								"incorrect": "That was incorrect, but mistakes are an opportunity to learn.",
+								"text": "Weiwu’er (Uygur) ethnic group "
+							}
+						]
+					}
+				]
+			}
+		]
+	]
+}

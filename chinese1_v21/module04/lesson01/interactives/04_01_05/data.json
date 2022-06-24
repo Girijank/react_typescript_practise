@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_01_05/styles.css"],
+    "intMedia": "interactives/04_01_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>今天</span> jīntiān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has a character that’s the same as one of the characters in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>春天</span> chūntiān  </span><audio class='audio' controls src='interactives/04_01_05/intmedia/spring.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>上午</span> shàngwǔ </span><audio class='audio' controls src='interactives/04_01_05/intmedia/am_morning.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>从不</span> cóngbù </span><audio class='audio' controls src='interactives/04_01_05/intmedia/never.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>刀子</span> dāozi  </span><audio class='audio' controls src='interactives/04_01_05/intmedia/knife.mp3' ></audio>"
+        ],
+        "correct": "Job nicely done! <span lang='zh-Hans'>今天</span> jīntiān has the character  <span lang='zh-Hans'>天</span>, which is the same as the second character in <span lang='zh-Hans'>春天</span> chūntiān (spring). ",
+        "incorrect": "Not quite. Listen to the audios in the choices, and then recall the characters that are in them. Compare them to the characters in the word presented, and find a match.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>点</span> diǎn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can be <strong>most</strong> reasonably placed before the word presented?</p>",
+        "answer": "<span lang='zh-Hans'> 十一</span>",
+        "options": [
+          "<span lang='zh-Hans'>今天 </span>",
+          "<span lang='zh-Hans'>八十</span>",
+          "<span lang='zh-Hans'>刀子</span>"       
+        ],
+        "correct": "Fantastic job! <span lang='zh-Hans'>点</span> diǎn means “o’clock,” and a number should be placed before it. Of the two numbers in the choices, <span lang='zh-Hans'>十一</span>(11) is a more suitable number to describe time than <span lang='zh-Hans'>八十</span>(80). ",
+        "incorrect": "Oops...Think about the meaning of the word presented, and then consider what type of noun can be placed before it. Maybe numbers?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>分</span> fēn"     
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>The word presented can <strong>most</strong> reasonably be used with which choice below?</p>",
+        "answer": "Taking a math class",
+        "options": [
+          "Having a summer vacation",
+          "Shaking hands with a stranger",
+          "Driving cross country"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>分</span> fēn means “minute,” and of the activities listed, taking a math class can most likely be done in minutes, not days or seconds.",
+        "incorrect": "Not quite…Think about the meaning of <span lang='zh-Hans'>分</span> fēn, and consider what kind of time length it describes. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>上午</span> shàngwǔ"     
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the <strong>antonym</strong> (word with opposite meaning) of the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>下午</span> xiàwǔ",
+        "options": [
+          "<span lang='zh-Hans'>今天</span> jīntiān",
+          "<span lang='zh-Hans'>上学</span> shàngxué",
+          "<span lang='zh-Hans'>晚安</span> wǎn'ān"       
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>上午</span> shàngwǔmeans “a.m./morning,” indicating time before noon, and <span lang='zh-Hans'>下午</span> xiàwǔ means “p.m./afternoon,” indicating time after 12 p.m.",
+        "incorrect": "Not quite…Think about the meaning of <span lang='zh-Hans'>上午</span> shàngwǔ and what time period of the day it indicates, and then look for its opposite in the choices. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

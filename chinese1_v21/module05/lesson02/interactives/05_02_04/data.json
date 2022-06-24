@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_02_04/styles.css"],
+    "intMedia": "interactives/05_02_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "bed.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>床</span> chuáng (bed)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items do you <strong>most</strong> likely find on the furniture said in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>枕头</span> zhěntóu (pillow) </span><audio class='audio' controls src='interactives/05_02_04/intmedia/pillow.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>冰激凌</span> bīngjīlíng (ice cream) </span><audio class='audio' controls src='interactives/05_02_04/intmedia/ice_cream.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>阳台</span> yángtái (balcony) </span><audio class='audio' controls src='interactives/05_02_04/intmedia/balcony.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>勺子</span> sháozi (spoon) </span><audio class='audio' controls src='interactives/05_02_04/intmedia/spoon.mp3' ></audio>"
+        ],
+        "correct": "Wonderfully done! <em><span lang='zh-Hans'>床</span> chuáng</em> means “bed,” and the one item you can most likely find would be a <em><span lang='zh-Hans'>枕头</span> zhěntóu</em> (pillow). Maybe not a spoon or ice cream. ",
+        "incorrect": "Very close. Listen to the audio several times to understand its meaning, and then consider what you usually see on this item in your everyday life.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_tidy_up_to_sort_out.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>整理</span> zhěnglǐ (to tidy up/to sort out)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我今天上午_____卧室。</span>Wǒ jīntiān shàngwǔ _____ wòshì.",
+        "options": [
+          "<span lang='zh-Hans'>她下午两点_____数学课。</span>Tā xiàwǔ liǎngdiǎn _____ shùxuékè.",
+          "<span lang='zh-Hans'>他喜欢_____比萨饼。</span>Tā xǐhuān _____ bǐsàbǐng.",
+          "<span lang='zh-Hans'>我姐姐星期一_____生日。</span>Wǒ jiějie xīngqīyī _____ shēngrì."
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>整理</span> zhěnglǐ means “to tidy up/to sort out,” and it can be used for the sentence <span lang='zh-Hans'>我今天上午整理卧室。</span>Wǒjīntiān shàngwǔ zhěnglǐ wòshì. (I tidied up the bedroom this morning.) You might not  want to “tidy up” a math class.",   
+        "incorrect": "Not quite…listen to the word again to understand its meaning. Then, try it for all four sentences in the choices to see which one makes the most sense in both meaning and structure.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "bed_sheet.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>床单</span> chuángdān (bedsheet)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following places need the item said in the audio the <strong>most</strong>?</p>", 
+        "answer": "A hotel",      
+        "options":[
+          "A restaurant",
+          "A classroom",
+          "A library"
+        ],
+        "correct": "Outstanding job! <span lang='zh-Hans'>床单</span> chuángdān means “bedsheet,” and a hotel will need a lot of bedsheets for the beds in its rooms",
+        "incorrect": "Oops…listen to the word again to identify its meaning. Then consider how each of the places function and which one needs the item the most.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "nightstand.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>床头柜</span> chuángtóuguì (nightstand)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words contains the same final as the third character of the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>有智慧</span>",
+        "options": [
+          "<span lang='zh-Hans'>面包</span>",
+          "<span lang='zh-Hans'>车库</span>",
+          "<span lang='zh-Hans'>马克笔</span>"
+        ],
+        "correct": "Amazingly done! The third character in the word <span lang='zh-Hans'>床头柜</span> chuángtóuguì (nightstand) has the final “ui” and so does the third character in the word <span lang='zh-Hans'>有智慧</span> yǒuzhìhuì (intelligent/wise).",        
+        "incorrect": "Very close! Listen to the audio several times to identify the final for the third character, and then sound out the words in the choices to see which one has the same final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

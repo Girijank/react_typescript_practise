@@ -1,0 +1,71 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_02_06/styles.css"],
+    "intMedia": "interactives/05_02_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>帘子</span> liánzi"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>On which of the following do you <strong>most</strong> likely find the item indicated by the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>窗</span>",
+        "options": [
+          "<span lang='zh-Hans'>床</span>",
+          "<span lang='zh-Hans'>书</span>",
+          "<span lang='zh-Hans'>猫</span>"
+        ],
+        "correct": "Job wonderfully done, especially recognizing the characters in the choices without the assistance of pinyin. Awesome! <em><span lang='zh-Hans'>帘子</span> liánzi</em> means curtain, and you can easily find it on a window, but maybe not on a cat! ",
+        "incorrect": "Very close. Think about the meaning of the word, and then read the words in the choices to identify their meanings and consider which one can match the word presented the most. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>椅子</span> yǐzi"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items <strong>best</strong> matches the item indicated by the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>书桌</span> shūzhuō (desk) </span><audio class='audio' controls src='interactives/05_02_06/intmedia/desk.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>帘子</span> liánzi (curtain) </span><audio class='audio' controls src='interactives/05_02_06/intmedia/curtain.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>门</span> mén (door) </span><audio class='audio' controls src='interactives/05_02_06/intmedia/door.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>床</span> chuáng (bed) </span><audio class='audio' controls src='interactives/05_02_06/intmedia/bed.mp3' ></audio>"
+        ],
+        "correct": "Fabulous job! <em><span lang='zh-Hans'>椅子</span> yǐzi </em>means “chair,” and the best furniture item to match with it would be <em><span lang='zh-Hans'>书桌</span> shūzhuō </em>(desk). It would be awkward having a curtain on the chair, wouldn’t it?",   
+        "incorrect": "Not quite…first identify the meaning of the word, and then listen to the audios in the choices to identify their meanings as well. Then match them one by one to see which one suits the best.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>上边</span> shàngbiān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is an antonym (word with opposite meaning) of the word presented?</p>", 
+        "answer": "<span lang='zh-Hans'>下边</span>",      
+        "options":[
+          "<span lang='zh-Hans'>左边</span>",
+          "<span lang='zh-Hans'>右边</span>",
+          "<span lang='zh-Hans'>上午</span>"
+        ],
+        "correct": "You got it!  Another excellent job recognizing the words in the choices without the assistance of pinyin. <em><span lang='zh-Hans'>上边</span> shàngbiān</em> means “on top,” and the opposite of it would be <em><span lang='zh-Hans'>下边</span> xiàbiān</em> (on bottom/under).",
+        "incorrect": "So close! Think about the meaning of this word and what its opposite should be. Then check the four words in the choices to see which one suits the best. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

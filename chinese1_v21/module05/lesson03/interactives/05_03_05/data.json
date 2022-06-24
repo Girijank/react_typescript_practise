@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_03_05/styles.css"],
+    "intMedia": "interactives/05_03_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese; then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>擦</span> cā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>我姐姐星期六_____桌子。</span>Wǒ jiěji exīngqīliù_____zhuōzi.",
+        "options": ["<span lang='zh-Hans'>他哥哥每天_____作业。</span>Tāgēge měitiān_____zuòyè.",
+           "<span lang='zh-Hans'>她今天上午_____毛衣。</span>Tā jīntiān shàngwǔ_____máoyī.", 
+           "<span lang='zh-Hans'>我上课_____铅笔。</span>Wǒ shàngkè_____qiānbǐ."
+          ],
+        "correct": "Job excellently done! <span lang='zh-Hans'>擦</span> cā means “to wipe,” and it can best complete the sentence <span lang='zh-Hans'>我姐姐星期六擦桌子。</span>Wǒ jiějie xīngqīliù cā zhuōzi. (My older sister wipes the table on Saturdays.)",
+        "incorrect": "Almost. Identify the meaning of the word, and then try it with the sentences in the choices to see which one fits the best.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>扶手椅</span> fúshǒuyǐ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following furniture items serves the <strong>most</strong> similar function in a house as the item indicated by the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>沙发</span>",
+        "options": [
+          "<span lang='zh-Hans'>帘子</span>",
+          "<span lang='zh-Hans'>床头柜</span>",
+          "<span lang='zh-Hans'>地板</span>"
+        ],
+        "correct": "Job excellently done! The word <span lang='zh-Hans'>扶手椅</span> fúshǒuyǐ means “armchair.” It is for sitting on, and so is a <span lang='zh-Hans'>沙发</span> shāfā (sofa). ",
+        "incorrect": "Not quite. Think about the meaning of the word. Consider its function in a house, and then review the items in the choices to see which one serves a similar function.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>电扇</span> diànshàn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which season is the item in the audio <strong>most</strong> commonly used?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>夏天</span> xiàtiān (summer) </span><audio class='audio' controls src='interactives/05_03_05/intmedia/summer.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>春天</span> chūntiān (spring) </span><audio class='audio' controls src='interactives/05_03_05/intmedia/spring.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>秋天</span> qiūtiān (autumn)  </span><audio class='audio' controls src='interactives/05_03_05/intmedia/autumn.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>冬天</span> dōngtiān (winter)  </span><audio class='audio' controls src='interactives/05_03_05/intmedia/winter.mp3' ></audio>"
+        ],
+        "correct": "Outstanding! <span lang='zh-Hans'>电扇</span> diànshàn means “fan,” which is most commonly used during summer. ",
+        "incorrect": "Almost! First identify the meaning of the word presented, and then consider in what type of weather it is most commonly used.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/05_03_05/customview_imgbtn.htm"
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>书架</span> shūjià"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What can you <strong>most</strong> reasonably find on the furniture item indicated by the word presented?</p>",
+        "answer": "<span class='fortv'>Image of a stack of books</span><img src='interactives/05_03_05/images/books.jpg' alt='Image of a stack of books'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of plate and utensils</span><img src='interactives/05_03_05/images/utensils.jpg' alt='Image of plate and utensils'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a stack of folded clothes</span><img src='interactives/05_03_05/images/clothes.jpg' alt='Image of a stack of folded clothes'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a basket of fruit</span><img src='interactives/05_03_05/images/fruit.jpg' alt='Image of a basket of fruit'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>书架</span> shūjià means “bookshelf,” and you can most likely find books on it. ",
+        "incorrect": "Oops…Think about the meaning of the word. Consider what type of furniture item it represents, and what you can most reasonably find on it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+
+  ]
+}

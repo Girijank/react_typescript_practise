@@ -1,0 +1,3 @@
+.local03-04-06-olstyle li:nth-child(even){
+    list-style-type: disc;
+}

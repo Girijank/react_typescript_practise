@@ -1,0 +1,126 @@
+{
+  "name": "concentration",
+  "interactiveTitle": "Let's count!",
+  "config": {
+    "src": "concentration",
+    "height": 820,
+    "width": 655,
+    "restartButton": "Restart",
+    "intmedia": "interactives/01_03_02/intmedia/",
+    "css": ["interactives/01_03_02/styles.css"],
+    "bonus": false,
+    "version": 2,
+    "theme": "standard"
+  },
+  "settings": {
+    "directions": "<p>Match a question block to an answer block. If correct, they will reveal parts of a hidden puzzle. Solve the puzzle for bonus points.</p> <p>Select 'Begin' to start the game.</p>",
+    "tryAgain": "Good try but not quite. Choose again.",
+    "correctBonus": "You won the Bonus Round!!!",
+    "incorrectBonus": "Sorry, that's incorrect. The correct answer is: <br>",
+    "congrats": "Congratulations! You have solved the puzzles! Select the 'Restart' button to play again."
+  },
+
+  "levels": [
+    [
+      {
+        "question": "0",
+        "audio": {
+          "src": "zero.mp3",
+          "text": "cero"
+        }
+
+      },
+      {
+        "question": "1",
+        "audio": {
+          "src": "one.mp3",
+          "text": "uno"
+        }
+
+      },
+      {
+        "question": "2",
+
+        "audio": {
+          "src": "two.mp3"
+        }
+
+      },
+      {
+        "question": "3",
+
+        "audio": {
+          "src": "three.mp3"
+        }
+      },
+      {
+        "question": "4",
+
+        "audio": {
+          "src": "four.mp3"
+        }
+      },
+      {
+        "question": "5",
+
+        "audio": {
+          "src": "five.mp3"
+        }
+      },
+      {
+        "question": "6",
+
+        "audio": {
+          "src": "six.mp3"
+        }
+      },
+      {
+        "question": "7",
+        "audio": {
+          "src": "seven.mp3"
+        }
+      },
+      {
+        "question": "8",
+
+        "audio": {
+          "src": "eight.mp3"
+        }
+      },
+      {
+        "question": "9",
+
+        "audio": {
+          "src": "nine.mp3"
+        }
+      },
+      {
+        "question": "10",
+
+        "audio": {
+          "src": "ten.mp3"
+        }
+      },
+      {
+        "question": "11",
+        "audio": {
+          "src": "eleven.mp3",
+          "text": "once"
+        }
+
+      },
+      {
+        "question": "12",
+        "audio": {
+          "src": "twelve.mp3",
+          "text": "doce"
+        }
+
+      },
+      {
+        "bonus_image": "maracas.jpg",
+        "bonus_answer": "Congratulations!"
+      }
+    ]
+  ]
+}

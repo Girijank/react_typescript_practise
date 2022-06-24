@@ -1,0 +1,61 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding derivative and you will become a vocab guru!",
+        "options": [
+          {
+            "left": "<em>femina, feminae f.</em>",
+            "right": "feminine"
+          },
+			{
+            "left": "<em>insula, insulae f.</em>",
+            "right": "insular"
+          },
+			{
+            "left": "<em>poeta, poetae m.</em>",
+            "right": "poet, poetic"
+          },
+			{
+            "left": "<em>agricola, agricolae m.</em>",
+            "right": "agriculture"
+          },
+			{
+            "left": "<em>amicus, amici m.</em>",
+            "right": "amicable"
+          },
+			{
+            "left": "<em>puer, pueri m.</em>",
+            "right": "puerile"
+          },
+			{
+            "left": "<em>bellum, belli n.</em>",
+            "right": "bellicose"
+          },
+			{
+            "left": "<em>templum, templi n.</em>",
+            "right": "temple"
+          },
+			{
+            "left": "<em>pax, pacis f.</em>",
+            "right": "pacify"
+          },
+			{
+            "left": "<em>homo, hominis m.</em>",
+            "right": "hominid"
+          },
+			{
+            "left": "<em>mare, maris n.</em>",
+            "right": "marine, submarine, mariner"
+          }
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

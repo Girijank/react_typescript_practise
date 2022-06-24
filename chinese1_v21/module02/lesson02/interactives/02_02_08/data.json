@@ -1,0 +1,95 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_02_08/styles.css"],
+    "intMedia": "interactives/02_02_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "bread.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>面包</span> miànbāo "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same final as the second character of the word in the audio?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>奶酪</span> nǎilào </span><audio class='audio' controls src='interactives/02_02_08/intmedia/cheese.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>果汁</span> guǒzhī </span><audio class='audio' controls src='interactives/02_02_08/intmedia/juice.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>苏打</span> sūdǎ </span><audio class='audio' controls src='interactives/02_02_08/intmedia/soda.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>橙子</span> chéngzi </span><audio class='audio' controls src='interactives/02_02_08/intmedia/orange.mp3' ></audio>"
+        ],
+        "correct": "Well done! <span lang='zh-Hans'>面包</span> miànbāo means “bread,” and its second character has the final “ao.” <span lang='zh-Hans'>奶酪</span> nǎilào (cheese) also has “ao” as the second character’s final. ",
+        "incorrect": "So close! Listen to the word again, and pay attention to its second character—what final do you hear? ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "soup.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>汤</span> tāng (soup)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is least likely to be the ingredient for the item in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>咖啡</span> kāfēi",
+        "options": [
+          "<span lang='zh-Hans'>白菜</span> báicài",
+          "<span lang='zh-Hans'>鸡肉</span> jīròu",
+          "<span lang='zh-Hans'>胡萝卜</span> húluóbo"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>汤</span> tāng means “soup.” We can add vegetables or meat into soup, while coffee is the least likely ingredient.",
+        "incorrect": "Not quite… listen to the single-character word several times again to understand its meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+   
+    [
+      {
+        "type": "localAudio",
+        "src": "sandwich.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>三明治</span> sānmíngzhì (sandwich)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Where do we most likely find the item in the audio?</p>",
+        "answer": "At a local deli",
+        "options": [
+          "At a Chinese restaurant",
+          "In the forest",
+          "In a classroom"
+        ],
+        "correct": "Fabulous work! A <span lang='zh-Hans'>三明治</span> sānmíngzhì (sandwich) can be easily found at a local deli—maybe not in a Chinese restaurant.",        
+        "incorrect": "Oops… listen to the audio several more times to better understand its meaning; then consider where you can usually find it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "chocolate.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>巧克力</span> qiǎokèlì (chocolate)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What is the usual color of the item in audio?</p>", 
+        "answer": "<span lang='zh-Hans'>褐色</span> hèsè",      
+        "options":[
+          "<span lang='zh-Hans'>红色</span> hóngsè",
+          "<span lang='zh-Hans'>蓝色</span> lánsè",
+          "<span lang='zh-Hans'>绿色</span> lǜsè"
+        ],
+        "correct": "Wonderful job! <span lang='zh-Hans'>巧克力</span> qiǎokèlì (Chocolate) is usually brown, so<span lang='zh-Hans'>褐色</span> hèsè is the word to use.",
+        "incorrect": "Oops… listen to the audio several more times, and then compare its pronunciation to its English meanings to see what characteristic you’ve noticed.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Select the question card to reveal the answer behind the card.</directionsTextVer>
+	<width>180</width>
+	<height>160</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/05_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p><strong>Specialty:</strong></p><p><span lang="zh-Hans">肉</span> ròu (meat)</p><p><strong>Followed by:</strong></p><p><span lang="zh-Hans">市</span> shì (market)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang="zh-Hans">肉市</span> ròushì (meat market)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	   <text><![CDATA[<p><strong>Specialty:</strong></p><p><span lang="zh-Hans">房</span> fáng (house)</p><p><strong>Followed by:</strong></p><p><span lang="zh-Hans">市</span> shì (market)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang="zh-Hans">房市</span> fángshì (housing market)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	   <text><![CDATA[<p><strong>Specialty:</strong></p><p><span lang="zh-Hans">书</span> shū (book)</p><p><strong>Followed by:</strong></p><p><span lang="zh-Hans">店</span> diàn (store)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang="zh-Hans">书店</span> shūdiàn (bookstore)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	   <text><![CDATA[<p><strong>Specialty:</strong></p><p><span lang="zh-Hans">宠物</span> chǒngwù (pet)</p><p><strong>Followed by:</strong></p><p><span lang="zh-Hans">店</span> diàn (store)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    	<text><![CDATA[<p><span lang="zh-Hans">宠物店</span> chǒngwùdiàn (pet store)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

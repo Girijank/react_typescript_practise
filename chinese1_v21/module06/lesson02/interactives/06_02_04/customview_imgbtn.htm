@@ -1,0 +1,24 @@
+<div class="objectLoop" data-ng-init="objNum = $index" data-quizmo-jqmath data-ng-repeat="object in vm.slide"
+    data-ng-switch data-on="object.type">
+    <div data-elements class="fevmedia"></div>
+    <div data-ng-attr-id="{{object.id}}" data-ng-switch-when="mc" class="mc">
+        <div class="il_question col-xs-5 il_mc_quiz" data-quizmo-jqmath data-ng-bind-html="object.quiz"></div>
+        <div class="il_question col-xs-7 il_mc_options">
+            <div class="btn-group interactiveElements">
+                <div data-ng-repeat="option in object.options" data-ng-click="vm.mcClick(option)" data-ng-keypress="vm.keypress($event)" data-quizmo-jqmath
+                    data-ng-class="{'hasMedia': option.media || vm.hasMedia($event.currentTarget)}"
+                    class="btn imgbtn btn-primary" data-ng-model="object.selection" data-ng-checked="object.selection"
+                    uib-btn-radio="option.text" uncheckable role="button" tabindex="0">
+                    <span data-ng-if="option.text" data-ng-bind-html="vm.format(option.text)"></span> <span
+                        class="mc_image" data-ng-if="option.image">
+                        <img data-ng-src="{{vm.data.config.intMedia + option.image.src}}" alt="{{option.image.alt}}" />
+                        <span data-ng-if="option.image.copyright"
+                            data-ng-bind-html="vm.format(option.image.copyright)"></span>
+                    </span>
+                    <span data-ng-if="option.media" data-medialoop data-ng-repeat="object in option.media"
+                        data-ng-switch data-on="object.type"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Identify whether each sentence or question below contains a relative pronoun, interrogative pronoun, or interrogative adjective. Then select each card to check your answer.",
+    "instruction_textversion":"Identify whether each sentence or question below contains a relative pronoun, interrogative pronoun, or interrogative adjective. Then check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p><strong>Cui</strong> Romano servus cenam bonam preparavit?</p>",
+          "textversion": "<p><strong><em>Cui</em> </strong><em>Romano servus cenam bonam preparavit?</em>  </p>"
+        },
+        "back": {
+          "content": "<p>interrogative adjective</p><br><p>For which Roman has the servant prepared dinner?</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>interrogative adjective</br></br>For which Roman has the servant prepared dinner?</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p> <strong>Quid</strong> milites Romani vastaverunt, et <strong> quid  </strong> Hannibal fecit?  </p>",
+          "textversion": "<p> <strong><em>Quid</em> </strong><em>milites Romani vastaverunt, et <strong> quid</em> </strong><em>Hannibal fecit?</em> </p>"
+        },
+        "back": {
+          "content": "<p>interrogative pronoun</p><br><p>What did the Roman soldiers destroy, and what did Hannibal make?</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>interrogative pronoun</br></br>What did the Roman soldiers destroy, and what did Hannibal make?</p>"          
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Femina ob litteras,  <strong>quae</strong> a coniunge amissae erant, lacrimavit. </p>",
+          "textversion": "<p><em>Femina ob litteras,</em> <strong><em>quae</em></strong><em> a coniunge amissae erant, lacrimavit.</em> </p>"
+        },
+        "back": {
+          "content": "<p>relative pronoun</p><br><p>The woman cried on account of the letters, which had been send by her husband.</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>relative pronoun</br></br>The woman cried on account of the letters, which had been send by her husband.</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Iuventus, <strong>cui</strong> magnum gaudium habeo, est comes Aeneae.</p>",
+          "textversion": "<p><em>Iuventus,</em> <strong><em>cui</em></strong><em> magnum gaudium habeo, est comes Aeneae.</em> </p>"
+        },
+        "back": {
+          "content": "<p>relative pronoun</p><br><p>The young man, for whom I have great joy, is a companion of Aeneas.</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>relative pronoun</br></br>The young man, for whom I have great joy, is a companion of Aeneas.</p>"
+          
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p><strong>Quem</strong> Vestales virgines laudant?</p>",
+          "textversion": "<p><strong><em>Quem</em></strong><em> Vestales virgines laudant?</em></p>"
+        },
+        "back": {
+          "content": "<p>interrogative pronoun</p><br><p>Whom do the Vestal maidens praise?</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'>interrogative pronoun</br></br>Whom do the Vestal maidens praise?</p>"          
+        }
+      },
+      {
+        "id": "card_06",
+        "front": {
+          "content": "<p><strong>Qui</strong> mendicus a cani suo cretus erat?</p>",
+          "textversion": "<p><strong><em>Qui</em></strong><em> mendicus a cani suo cretus erat?</em> </p>"
+        },
+        "back": {
+          "content": "<p>interrogative adjective</p><br><p>Which beggar had been discerned by his own dog?</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans6'>Show Answer</div><p id='ans6' class='collapse'>interrogative adjective</br></br>Which beggar had been discerned by his own dog?</p>"       
+        }
+      }
+     
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_01_05/styles.css"],
+    "intMedia": "interactives/06_01_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>药店</span> yàodiàn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has a character that’s the same as one of the characters in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'> 店铺</span> diànpù</span><audio class='audio' controls src='interactives/06_01_05/intmedia/store.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>银行</span> yínháng</span><audio class='audio' controls src='interactives/06_01_05/intmedia/bank.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>床单</span> chuángdān</span><audio class='audio' controls src='interactives/06_01_05/intmedia/bed_sheet.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>车库</span> chēkù</span><audio class='audio' controls src='interactives/06_01_05/intmedia/garage.mp3' ></audio>"
+        ],
+        "correct": "Job excellently done! <span lang='zh-Hans'>药店</span> yàodiàn has the character <span lang='zh-Hans'>店</span>, which is also the first character in <span lang='zh-Hans'>店铺</span> diànpù (store). ",
+        "incorrect": "Not quite. Listen to the audios in the choices, and then recall the characters that are in them. Compare them to the characters in the word presented and find a match. Careful—don’t be confused by the characters with similar shapes in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>邮局</span> yóujú"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>When do you <strong>most</strong> likely go to the location indicated by the word presented?</p>",
+        "answer": "When I need to mail a package",
+        "options": [
+          "When I need to cook a nice dinner",
+          "When I am out of toilet paper",
+          "When I need to withdraw money"
+        ],
+        "correct": "Very nice job! <span lang='zh-Hans'>邮局</span> yóujú means “post office.” Of the errands in the choices, mailing a package needs to be done at the post office. You might not be lucky trying to find ingredients for a nice dinner there.",
+        "incorrect": "Oops...Think about the meaning of the word presented, and then review the errands in the choices. Consider where you need to go for each errand.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>旅店</span> lǚdiàn"    
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same initial as the first character in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>理发店</span> lǐfàdiàn</span><audio class='audio' controls src='interactives/06_01_05/intmedia/barbershop.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>牛奶</span> niúnǎi</span><audio class='audio' controls src='interactives/06_01_05/intmedia/milk.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>你们</span> nǐmen</span><audio class='audio' controls src='interactives/06_01_05/intmedia/you_plural.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>药店</span> yàodiàn</span><audio class='audio' controls src='interactives/06_01_05/intmedia/pharmacy.mp3' ></audio>"
+        ],
+        "correct": "You got it!  The first character, <span lang='zh-Hans'>旅</span> lǚ, in the word <span lang='zh-Hans'>旅店</span> lǚdiàn has the initial “l.” So does the first character, <span lang='zh-Hans'>理</span> lǐ, in the word <span lang='zh-Hans'>理发店</span> lǐfàdiàn (barbershop).",
+        "incorrect": "Not quite. First identify the initial of the first character in the word presented; then listen to the words in the choices to see which one has the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>银行</span> yínháng"     
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can <strong>best</strong> be completed with the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>我需要现金，我可以去_____。</span> Wǒ xūyào xiànjīn, wǒ kěyǐ qù _____.",
+        "options": [
+          "<span lang='zh-Hans'>她需要蔬菜，她可以去_____。</span> Tā xūyào shūcài, tā kěyǐ qù _____.",
+          "<span lang='zh-Hans'>你需要面包，你可以去_____。</span> Nǐ xūyào miànbāo, nǐ kěyǐ qù _____.",
+          "<span lang='zh-Hans'>他需要理发，他可以去_____。</span> Tā xūyào lǐfà, tā kěyǐ qù _____."
+        ],
+        "correct": "You got it!  <span lang='zh-Hans'>银行</span> yínháng means “bank,” and it’s the place where you can get cash. Therefore, this word can best complete the sentence <span lang='zh-Hans'>我需要现金，我可以去银行。</span> Wǒ xūyào xiànjīn, wǒ kěyǐ qù yínháng. (I need cash, and I can go to the bank.)",
+        "incorrect": "Not quite…Think about the meaning of <span lang='zh-Hans'>银行</span> yínháng and what type of service or product you can get there. Then place it in the sentences in the choices to see which one fits the best for both meaning and structure.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

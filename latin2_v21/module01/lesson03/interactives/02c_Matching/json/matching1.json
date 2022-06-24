@@ -1,0 +1,42 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary with their correct English definition.",
+        "options": [
+          {
+            "left": "<em>statim</em>",
+            "right": "immediately"
+          },
+          {
+            "left": "<em>benigne</em>",
+            "right": "kindly"
+          },
+          {
+            "left": "<em>bene</em>",
+            "right": "well"
+          },
+          {
+            "left": "<em>ante</em>",
+            "right": "before"
+          },
+          {
+            "left": "<em>inter (+acc)</em>",
+            "right": "between, among"
+          },
+          {
+            "left": "<em>ob (+acc)</em>",
+            "right": "on account of, because of, for"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

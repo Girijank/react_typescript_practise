@@ -1,0 +1,35 @@
+
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the English derivative to its Latin vocabulary term. ",
+        "options": [
+          {
+            "left": "<em>cupiditas, cupiditatis f.</em>",
+            "right": "cupidity, Cupid"
+          },
+          {
+            "left": "<em>finis, finis m.</em>",
+            "right": "final, finite, finale, finalize"
+          },
+          {
+            "left": "<em>hostis, hostis m.</em>",
+            "right": "hostile, hostility, hostage"
+          },
+          {
+            "left": "<em>iter, itineris n.</em>",
+            "right": "itinerant, itinerary"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

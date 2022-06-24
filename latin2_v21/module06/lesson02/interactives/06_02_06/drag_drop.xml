@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <title>Can you match the individual to his description? </title>
+    <directions>Place each individual to the matching description.</directions>
+    <directionsTextVer></directionsTextVer>
+    <defaultFinished>
+        Way to go! 
+               <!--  <![CDATA[Many of the methods for producing energy are well developed and commonly used Other methods have limitations that make their use less common.  <br> Which of these resources do you think are most commonly used to generate electricity today? <br> Correct answer: Nonrenewable ]]> -->
+    </defaultFinished>
+    <!-- <heading>Continental Drift vs. Plate Tectonics</heading> -->
+    <draggables>I am a frenemy of Augustus.  </draggables>
+    <droppables>append</droppables>
+    <prebin>
+    </prebin>
+    <bin>
+        <title>I am a frenemy of Augustus.  </title>
+        <text></text>
+        <binID>A</binID>
+        <item>
+            <itemText>Propertius</itemText>
+        </item>
+    </bin>
+    <bin>
+        <title>Today, I would be a great writer on the TV show, Saturday Night Live.</title>
+        <text></text>
+        <binID>B</binID>
+        <item>
+            <itemText>Horace</itemText>
+        </item>
+    </bin>
+    <bin>
+        <title>Give me a farm, and I’ll write about it till the cows come home.</title>
+        <text></text>
+        <binID>C</binID>
+        <item>
+            <itemText>Vergil</itemText>
+        </item>
+    </bin>
+    <bin>
+        <title>Maecenas thinks I’m part of his circle, but excuse me—I am the one who is emperor!</title>
+        <text></text>
+        <binID>D</binID>
+        <item>
+            <itemText>Augustus</itemText>
+        </item>
+    </bin>
+
+    <postbin>
+    </postbin>
+
+</settings>

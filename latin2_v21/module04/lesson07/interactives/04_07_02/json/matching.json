@@ -1,0 +1,46 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>bonus, bona, bonum</em>",
+            "right": "bonus"
+          },
+          {
+            "left": "<em>magnus, magna, magnum</em>",
+            "right": "magnificent"
+          },
+          {
+            "left": "<em>malus, mala, malum</em>",
+            "right": "malcontent"
+          },
+          {
+            "left": "<em>expello, expellere, expuli, expulsus, -a, -um</em>",
+            "right": "expulsion"
+          },
+          {
+            "left": "<em>nutrio, nutrire, nutrivi, nutritus, -a, -um</em>",
+            "right": "nutrient, nutritious"
+          },
+          {
+            "left": "<em>carcer, carceris m.</em>",
+            "right": "incarcerate, incarceration"
+          },
+          {
+            "left": "<em>cognitatio, cogitationius f.</em>",
+            "right": "cognition"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

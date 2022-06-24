@@ -1,0 +1,71 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_03_04/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/04_03_04/textversion/textversion.htm",
+    "modal": {
+      "directions": "Look at the image and use the information visible in it to drag the appropriate days of week in Chinese to match the correct descriptions.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "image",
+        "src": "interactives/04_03_04/images/calendar_flvs.png",
+        "alt": "Class Schedule. See text version for more detailed information."
+      },
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job finding the right days of week in Chinese for these descriptions. You are now a master of names of classes and days of the week!",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "image": "interactives/04_03_04/image/box.png",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>有数学课和英文课。没有科学课。</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>星期二 </span> xīngqīèr"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>有数学课和科学课。没有英文课。</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>星期三</span> xīngqīsān"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>有数学课，科学课和英文课。</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>星期四</span> xīngqīsì"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>有英文课和体育课。</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>星期五</span> xīngqīwǔ "
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

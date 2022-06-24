@@ -1,0 +1,31 @@
+#flipcard02 .fev-wrapper {
+  margin-top: 0px;
+  width: 100%;
+}
+
+.fev-content-holder {
+  height: 500px;
+}
+
+#card_05 {
+  width: 300px;
+  height: 430px;
+}
+
+.fev-card {
+  border: none;
+}
+
+.fev-card .front, .fev-card .back {
+  color: black;
+  background-color: white;
+}
+
+.fev-card .back {
+  text-align: inherit;
+}
+
+span.caption, span.copyright {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

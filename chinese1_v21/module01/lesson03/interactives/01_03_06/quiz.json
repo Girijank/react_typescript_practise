@@ -1,0 +1,91 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_03_06/styles.css"],
+    "disableRemoteCss": true,
+
+    "customTextversionAll": "interactives/01_03_06/textversion/textversion.htm",
+    "modal": {
+      "directions": "Drag and drop each word with <span lang='zh-Hans'>的</span> de for the appropriate phrase, according to the function of <span lang='zh-Hans'>的</span> de",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "_______<span lang='zh-Hans'>电话号码</span> <br> <img src='interactives/01_03_06/intmedia/p6_img_1.jpg' alt='Friends exchanging phone numbers' class='border'><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>朋友的</span>"
+              }
+            ]
+          },
+          {
+            "title": "_______<span lang='zh-Hans'>眼睛</span> <br> <img src='interactives/01_03_06/intmedia/p6_img_2.jpg' alt='Little girl with blue eyes holding a magnifying glass' class='border'> <span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>蓝色的</span>"
+              }
+            ]
+          },
+          {
+            "title": "_______<span lang='zh-Hans'>男孩</span> <br> <img src='interactives/01_03_06/intmedia/p6_img_3.jpg' alt='Shy boy holding Christmas gift ' class='border'><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>害羞的</span>"
+              }
+            ]
+          },
+          {
+            "title": "_______<span lang='zh-Hans'>朋友</span> <br> <img src='interactives/01_03_06/intmedia/p6_img_4.jpg' alt='Tall and short businessmen looking at each other' class='border'><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>很矮的</span>"
+              }
+            ]
+          },
+          {
+            "title": "_______<span lang='zh-Hans'>女孩</span> <br> <img src='interactives/01_03_06/intmedia/p6_img_5.jpg' alt='Outgoing young women piggybacking on sandy beach' class='border'> <span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "<span lang='zh-Hans'>开朗的</span>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

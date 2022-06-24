@@ -1,0 +1,59 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css":["interactives/06_01_02/css/06_01_02.css"],
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding derivative, and you will become a vocab guru!",
+        "options": [
+          {
+            "left": "<em>audio, audire, audivi, auditus, -a, -um</em>",
+            "right": "audition, inaudible, auditory"
+          },
+          {
+            "left": "<em>dico, dicere, dixi, dictus, -a, -um</em>",
+            "right": "dictionary, edict, dictum, diction"
+          },
+          {
+            "left": "<em>monstro, monstrare, monstravi, monstratus, -a, -um</em>",
+            "right": "demonstrate, monstrance"
+          },
+          {
+            "left": "<em>cognosco, cognoscere, cognovi, cognotus, -a, -um</em>",
+            "right": "cognizant, cognition"
+          },
+          {
+            "left": "<em>ostendo, ostendere, ostendi, ostensus, -a, -um</em>",
+            "right": "ostentatious, ostensibly"
+          },
+          {
+            "left": "<em>puto, putare, putavi, putatus, -a, -um</em>",
+            "right": "impute, compute, repute"
+          },
+          {
+            "left": "<em>scio, scire, scivi, scitus, -a, -um</em>",
+            "right": "omniscient, science"
+          },
+          {
+            "left": "<em>sentio, sentire, sensi, sensus, -a, -um</em>",
+            "right": "sentient, sentiment"
+          },
+          {
+            "left": "<em>spero, sperare, speravi, speratus, -a, -um</em>",
+            "right": "despair, desperate, desperation"
+          },
+          {
+            "left": "<em>video, videre, vidi, visus, -a, -um</em>",
+            "right": "visual, video, provide, revision"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

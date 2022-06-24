@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_03_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/04_03_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word; then, drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “t”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve successfully identified the “t” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>太太</span> tàitai (Mrs.) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/mrs.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “t” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>他们</span> tāmen (they/them) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/they_them.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “t” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>春天</span> chūntiān (spring) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/spring.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “t” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>听</span> tīng (to listen to) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/to_listen_to.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “u”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>庆祝</span> qìngzhù (celebrate) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/celebrate.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>上午</span> shàngwǔ (a.m./morning) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/am_morning.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>结束</span> jiéshù (to end) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/to_end.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>读</span> dú (to read) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_03_02/media/to_read.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

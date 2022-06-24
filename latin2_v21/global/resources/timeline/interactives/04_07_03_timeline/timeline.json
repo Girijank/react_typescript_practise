@@ -1,0 +1,38 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/04_07_03_timeline/intmedia/",
+		"css":["interactives/04_07_03_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [
+
+			{
+				"date": "88 BCE – 82 BCE  ",
+				"content": "<p><strong>1<sup>st</sup> Civil War  c. 88 BCE – 82 BCE.</strong>  known for: </p><ul><li>Marius vs. Sulla</li><li>Two marches on Rome</li></ul>",
+				"image": "timeline_img1.jpg",
+				"caption": "First Civil War",
+				"alt":"Picture of Marius vs. Sulla",
+				"copyright": "©Bridgeman Images / ImageQuest 2021",
+				"summaryLength": "300"
+			},{
+				"date": "50 BCE –45 BCE",
+				"content": "<p><strong>2<sup>nd</sup> Civil War: 50 BCE – 45 BCE.</strong>  known for: </p><ul><li>first Triumvirate: 60 BCE–53 BCE. </li><li>rivalry between Caesar, Pompey, and Crassus</li><li>political alliances</li><li>Cleopatra</li><li>veni, vidi, vici</li></ul>",
+				"image": "timeline_img2_gi.jpg",
+				"caption": "Julius Caesar",
+				"alt":"Statue of Julius Caesar",
+				"summaryLength": "300"
+			},
+			{
+				"date": "32 BCE – 31 BCE",
+				"content": "<p><strong>3<sup>rd</sup> Civil War: c. 32 BCE – 31 BCE.</strong>  known for: </p><ul><li>War between 3<sup>rd</sup> Triumvirate </li><li>Gaius Octavian            </li><li>Mark Antony</li><li>Lepidus </li><li>Battle of Actium</li></ul>",
+				"image": "timeline_img3.jpg",
+				"caption": "Third Civil War",
+				"alt":"Battle of Actium wood engraving of ships on the seas",
+				"copyright": "©akg Images/ Universal Images Group / ImageQuest 2021",
+				"summaryLength": "300"
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Select the image of each emperor to learn more about what they did during their reign.",
+    "cards": [
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<div><img src='images/flip_02_caligula.jpg' alt='Marble head of Emperor Caligula ' class='frame' data-caption='Tiberius Bust' data-width=' ' data-copyright='©Prisma / ImageQuest 2021' /></div><span class='caption'>Head of Emperor Caligula, 1st century CE., Roman art</span><span class='copyright'>©G. DAGLI ORTI / ImageQuest 2021</span>",
+          "textversion": "<p>Image: Marble head of Emperor Caligula </p>"
+        },
+        "back": {
+          "content": "<h4>Reign: 37 CE–41 CE.</h4><h5>I am known for:</h5><ul><li>my nickname of “little boots”</li><li>being the grandnephew of Tiberius</li><li>being an actor, singer, and performer</li><li>being assassinated by his Praetorian Guard for erratic behavior</li></ul>",
+          "textversion": "<h4>Reign: 37 CE–41 CE.</h4><h5>I am known for:</h5><ul><li>my nickname of “little boots”</li><li>being the grandnephew of Tiberius</li><li>being an actor, singer, and performer</li><li>being assassinated by his Praetorian Guard for erratic behavior</li></ul>"
+        }
+      }
+      
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "I am being praised."
+        ],
+        "quiz": "<p>Fill in the blank: Translate the Latin verb into English. </p><br> <p><strong>Sentence Verb to Use:</strong> <em>laudo, laudare, laudavi, laudatus, -a, -um</em> = to praise</p><p> <strong>Latin:</strong> <em>laudor</em></p><br> Fill in the blank English answer: *_ ",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "Iterum tempta! Try again! Learning Latin takes effort—give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_01_07/styles.css"],
+    "intMedia": "interactives/03_01_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "pet.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>宠物</span> chǒngwù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items belongs to the category described by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>狗</span> gǒu",
+        "options": ["<span lang='zh-Hans'>茶</span> chá", "<span lang='zh-Hans'>碗</span> wǎn", "<span lang='zh-Hans'>家</span> jiā"],
+        "correct": "Excellently done! <span lang='zh-Hans'>宠物</span> chǒngwù means “pets,” and <span lang='zh-Hans'>狗</span> gǒu (dog) is definitely one of the most popular pets in the world!",
+        "incorrect": "Almost. Listen to the word again, and then review all four single-character words in the choices, think about what they mean, and think about which one belongs to the word in the audio.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "cat.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>苹果</span> píngguǒ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is most likely an appropriate description of the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>它喜欢鱼肉。</span> Tā xǐhuān yúròu.",
+        "options": [
+          "<span lang='zh-Hans'>她有宠物。</span> Tā yǒu chǒngwù.",
+          "<span lang='zh-Hans'>它是红色的。</span> Tā shì hóngsè de.",
+          "<span lang='zh-Hans'>他很开朗。</span> Tā hěn kāilǎng."
+        ],
+        "correct": "Fabulous job! <span lang='zh-Hans'>猫<span> māo means “cat,” and cats like fish in general. Therefore, the sentence <span lang='zh-Hans'>它喜欢鱼肉。</span> Tā xǐhuān yúròu. (It likes fish) is the most appropriate choice.",
+        "incorrect": "Not quite…listen again several times, and think about what the word means. Read through the descriptions carefully to see which one is most suitable to describe the animal said in the audio.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "stepmother.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>继母</span> jìmǔ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words does not belong in the same group as the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>朋友</span> péngyǒu",      
+        "options":[
+          "<span lang='zh-Hans'>儿子</span> érzi",
+          "<span lang='zh-Hans'>继父</span> jìfù",
+          "<span lang='zh-Hans'>女儿</span> nüér"
+        ],
+        "correct": "YYou got it! <span lang='zh-Hans'>继母</span> jìmǔ means “stepmother,” and in the same household there can be stepdad, son, and daughter, while <span lang='zh-Hans'>朋友</span> péngyǒu (friend) does not fall in the same group. ",
+        "incorrect": "Oops… listen to the audio several more times to find out what it represents. Then think about what other roles can fall in the same group with it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

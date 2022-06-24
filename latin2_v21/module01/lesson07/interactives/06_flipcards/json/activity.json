@@ -1,0 +1,47 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Identify the noun-adjective pairing in these sentences, along with their CNG. Then select each card to check your answer.",
+    "instruction_textversion":"Identify the noun-adjective pairing in these sentences, along with their CNG. Check your answer by selecting Back of Card.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>He will point the way with a <strong>large sign</strong>.</p>",
+          "textversion": "<p>He will point the way with a <strong>large sign</strong>.</p>"
+        },
+        "back": {
+          "content": "<p><em>sign<strong>o</strong> magn<strong>o</strong></em>—with/by means of the large sign (Ablative, Singular, Neuter)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'><em>sign<strong>o</strong> magn<strong>o</strong></em>—with/by means of the large sign (Ablative, Singular, Neuter)</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>He gave a reward to the <strong>good boys</strong>.</p>",
+          "textversion": "<p>He gave a reward to the <strong>good boys</strong>.</p>"
+        },
+        "back": {
+          "content": "<p><em>puer<strong>is</strong> bon<strong>is</strong></em>—good boys (Dative, Plural, Masculine)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'><em>puer<strong>is</strong> bon<strong>is</strong></em>—good boys (Dative, Plural, Masculine)</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>The <strong>large signs</strong> are in the street.</p>",
+          "textversion": "<p>The <strong>large signs</strong> are in the street.</p>"
+        },
+        "back": {
+          "content": "<p><em>sign<strong>a</strong> magn<strong>a</strong></em>—large signs (Nominative, Plural, Neuter)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'><em>sign<strong>a</strong> magn<strong>a</strong></em>—large signs (Nominative, Plural, Neuter)</p>"
+        }
+      }
+    ]
+  }
+}

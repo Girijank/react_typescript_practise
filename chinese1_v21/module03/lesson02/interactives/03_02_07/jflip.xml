@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Click each flip card to reveal the answer.</directionsTextVer>
+	<width>180</width>
+	<height>195</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/02_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p><strong>Write the plural form of the pronoun:</strong></p> <br> <p><span lang='zh-Hans'>我</span> wǒ (I, me)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>我们</span> wǒ<strong>men</strong> (we, us)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	   <text><![CDATA[<p><strong>Write the plural form of the pronoun:</strong></p> <br> <p><span lang='zh-Hans'>它</span> tā (it)</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>它们</span> tā<strong>men</strong> (they (all non-human))</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p>Rewrite the sentence below, using what you’ve learned in this lesson, to express the same meaning. Then write the sentence’s meaning in English.</span></p> <p><span lang='zh-Hans'>他是我的朋友。</span> Tāshì wǒde péngyǒu.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>他是我朋友。</span> Tāshì wǒ péngyǒu. </p> <br> <p>He is my friend.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p>Rewrite the sentence below, using what you’ve learned in this lesson, to express the same meaning. Then write the sentence’s meaning in English.</p> <p><span lang='zh-Hans'>你的哥哥很高。</span> Nǐde gēge hěngāo.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p><span lang='zh-Hans'>你哥哥很高。</span>  Nǐ gēge hěngāo.</p> <br> <p>Your older brother is very tall.</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

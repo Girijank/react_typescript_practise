@@ -1,0 +1,514 @@
+{
+  "words": [
+    {
+      "numberid":"0",
+      "number": "0",
+      "written":"Cero<br>Vocabulary:pompa, pompae f.<br>Part of Speech:noun<br>Definition:parade, ostentation, solemn ",
+      "image": {
+        "source": "images/01_03_02/0_ts.jpg",
+        "alt": "0",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_w6lhgd7k",
+      "comment": ""
+    },
+    {
+      "numberid":"1",
+      "number": "1",
+      "written":"Uno",
+      "image": {
+        "source": "images/01_04_09/1_ts.png",
+        "alt": "1",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_6uvqi16u",
+      "comment": ""
+    },
+    {
+      "numberid":"2",
+      "number": "2",
+      "written":"Dos",
+      "image": {
+        "source": "images/01_04_09/2_ts.png",
+        "alt": "2",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_hb7efl5x",
+      "comment": ""
+    },
+    {
+      "numberid":"3",
+      "number": "3",
+      "written":"Tres",
+      "image": {
+        "source": "images/01_04_09/3_ts.png",
+        "alt": "3",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_dtn0y9up",
+      "comment": ""
+    },
+    {
+      "numberid":"4",
+      "number": "4",
+      "written":"Cuatro",
+      "image": {
+        "source": "images/01_04_09/4_ts.png",
+        "alt": "4",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_jnl51xhl",
+      "comment": ""
+    },
+    {
+      "numberid":"5",
+      "number": "5",
+      "written":"Cinco",
+      "image": {
+        "source": "images/01_04_09/5_ts.png",
+        "alt": "5",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_m8hhzg6c",
+      "comment": ""
+    },
+    {
+      "numberid":"6",
+      "number": "6",
+      "written":"Seis",
+      "image": {
+        "source": "images/01_04_09/6_ts.png",
+        "alt": "6",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_xp6t2oot",
+      "comment": ""
+    },
+    {
+      "numberid":"7",
+      "number": "7",
+      "written":"Siete",
+      "image": {
+        "source": "images/01_04_09/7_ts.png",
+        "alt": "7",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_54ouajs5",
+      "comment": ""
+    },
+    {
+      "numberid":"8",
+      "number": "8",
+      "written":"Ocho",
+      "image": {
+        "source": "images/01_04_09/8_ts.png",
+        "alt": "8",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_yr6indgq",
+      "comment": ""
+    },
+    {
+      "numberid":"9",
+      "number": "9",
+      "written":"Nueve",
+      "image": {
+        "source": "images/01_04_09/9_ts.png",
+        "alt": "9",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_9qzacryu",
+      "comment": ""
+    },
+    {
+      "numberid":"10",
+      "number": "10",
+      "written":"Diez",
+      "image": {
+        "source": "images/01_04_09/10_ts.png",
+        "alt": "10",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_nrtaow42",
+      "comment": ""
+    },
+    {
+      "numberid":"11",
+      "number": "11",
+      "written":"Once",
+      "image": {
+        "source": "images/01_04_09/11_ts.png",
+        "alt": "11",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_sdhdny46",
+      "comment": ""
+    },
+    {
+      "numberid":"12",
+      "number": "12",
+      "written":"Doce",
+      "image": {
+        "source": "images/01_04_09/12_ts.png",
+        "alt": "12",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_m13klg9m",
+      "comment": ""
+    },
+    {
+      "numberid":"11.2",
+      "number": "11",
+      "written":"Once",
+      "image": {
+        "source": "images/01_08_08/11_ts.png",
+        "alt": "11",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_sdhdny46",
+      "comment": ""
+    },
+    {
+      "numberid":"12.2",
+      "number": "12",
+      "written":"Doce",
+      "image": {
+        "source": "images/01_08_08/12_ts.png",
+        "alt": "12",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_m13klg9m",
+      "comment": ""
+    },
+    {
+      "numberid":"13",
+      "number": "13",
+      "written": "Trece",
+      "image": {
+        "source": "images/01_08_08/13_ts.png",
+        "alt": "13",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_k0g63p53",
+      "comment": ""
+    },
+    {
+      "numberid":"14",
+      "number": "14",
+      "written": "Catorce",
+      "image": {
+        "source": "images/01_08_08/14_ts.png",
+        "alt": "14",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_pds8u34m",
+      "comment": ""
+    },
+    {
+      "numberid":"15",
+      "number": "15",
+      "written": "Quince",
+      "image": {
+        "source": "images/01_08_08/15_ts.png",
+        "alt": "15",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_0zc4vxim",
+      "comment": ""
+    },
+    {
+      "numberid":"16",
+      "number": "16",
+      "written": "Dieciséis",
+      "image": {
+        "source": "images/01_08_08/16_ts.png",
+        "alt": "16",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_2r6pklca",
+      "comment": ""
+    },
+    {
+      "numberid":"17",
+      "number": "17",
+      "written": "Diecisiete",
+      "image": {
+        "source": "images/01_08_08/17_ts.png",
+        "alt": "17",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_acoz2zx4",
+      "comment": ""
+    },
+    {
+      "numberid":"18",
+      "number": "18",
+      "written": "Dieciocho",
+      "image": {
+        "source": "images/01_08_08/18_ts.png",
+        "alt": "18",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_jcsjbs5t",
+      "comment": ""
+    },
+    {
+      "numberid":"19",
+      "number": "19",
+      "written": "Diecinueve",
+      "image": {
+        "source": "images/01_08_08/19_ts.png",
+        "alt": "19",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_rp1t0xm2",
+      "comment": ""
+    },
+    {
+      "numberid":"20",
+      "number": "20",
+      "written": "Veinte",
+      "image": {
+        "source": "images/01_08_08/20_ts.png",
+        "alt": "20",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_ak4ig9oa",
+      "comment": ""
+    },
+    {
+      "numberid":"21",
+      "number": "21",
+      "written": "Veintiuno",
+      "image": {
+        "source": "images/01_08_08/21_ts.png",
+        "alt": "21",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_a8piogbb",
+      "comment": ""
+    },
+    {
+      "numberid":"22",
+      "number": "22",
+      "written": "Veintidós",
+      "image": {
+        "source": "images/01_08_08/22_ts.png",
+        "alt": "22",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_v242ogi4",
+      "comment": ""
+    },
+    {
+      "numberid":"23",
+      "number": "23",
+      "written": "Veintitrés",
+      "image": {
+        "source": "images/01_08_08/23_ts.png",
+        "alt": "23",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_qeg12rwr",
+      "comment": ""
+    },
+    {
+      "numberid":"24",
+      "number": "24",
+      "written": "Veinticuatro",
+      "image": {
+        "source": "images/01_08_08/24_ts.png",
+        "alt": "24",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_hb9do9t4",
+      "comment": ""
+    },
+    {
+      "numberid":"25",
+      "number": "25",
+      "written": "Veinticinco",
+      "image": {
+        "source": "images/01_08_08/25_ts.png",
+        "alt": "25",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_z6oa703u",
+      "comment": ""
+    },
+    {
+      "numberid":"26",
+      "number": "26",
+      "written": "Veintiséis",
+      "image": {
+        "source": "images/01_08_08/26_ts.png",
+        "alt": "26",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_j05d6alr",
+      "comment": ""
+    },
+    {
+      "numberid":"27",
+      "number": "27",
+      "written": "Veintisiete",
+      "image": {
+        "source": "images/01_08_08/27_ts.png",
+        "alt": "27",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_0xdbybcg",
+      "comment": ""
+    },
+    {
+      "numberid":"28",
+      "number": "28",
+      "written": "Veintiocho",
+      "image": {
+        "source": "images/01_08_08/28_ts.png",
+        "alt": "28",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_k018gfpf",
+      "comment": ""
+    },
+    {
+      "numberid":"29",
+      "number": "29",
+      "written": "Veintinueve",
+      "image": {
+        "source": "images/01_08_08/29_ts.png",
+        "alt": "29",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_ms8aasal",
+      "comment": ""
+    },
+    {
+      "numberid":"30",
+      "number": "30",
+      "written": "Treinta",
+      "image": {
+        "source": "images/01_08_08/30_ts.png",
+        "alt": "30",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_zotbburg",
+      "comment": ""
+    },
+    {
+      "numberid":"31",
+      "number": "31",
+      "written": "Treinta y uno",
+      "image": {
+        "source": "images/01_08_08/31_ts.png",
+        "alt": "31",
+        "class": "showcase border01",
+        "width": "240px",
+        "copyright": "",
+        "caption": ""
+      },
+      "kaltura": "0_evervveq",
+      "comment": ""
+    }
+  ]
+}

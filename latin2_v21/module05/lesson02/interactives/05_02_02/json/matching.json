@@ -1,0 +1,42 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>aestas, aestatis f.</em>",
+            "right": "aestival"
+          },
+          {
+            "left": "<em>benignitas, benignitatis f.</em>",
+            "right": "benign"
+          },
+          {
+            "left": "<em>consul, consulis m.</em>",
+            "right": "consulate"
+          },
+          {
+            "left": "<em>cor, cordis n.</em>",
+            "right": "cordial, record"
+          },
+          {
+            "left": "<em>hiems, hiemis f.</em>",
+            "right": "hiemal"
+          },
+          {
+            "left": "<em>lumen, luminis n.</em>",
+            "right": "illuminate"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

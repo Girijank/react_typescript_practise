@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Select each image to learn a little more about these famous people from Hong Kong.</directionsTextVer>
+	<width>220</width>
+	<height>265</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<span class='fev_flipcardcopyright'>Public Domain</span>]]></text>
+		<img>
+		  <alt>Charles K. Kao  receiving an honorary degree</alt>
+		  <description></description>
+		    <src>interactives/02_00_02/intmedia/flip_1.jpg</src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text>Sir Charles Kuen Kao is a scientist who won the Nobel Prize in Physics in 2009, for his “groundbreaking achievements concerning the transmission of light in fibers for optical communication.” He is known as the “Father of Fiber Optic Communications.”</text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<span class='fev_flipcardcopyright'>Public Domain</span>]]></text>
+		<img>
+		  <alt>Jackie Chan arriving for the press conference</alt>
+		  <description></description>
+		   <src>interactives/02_00_02/intmedia/flip_2.jpg</src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[Jackie Chan is a Hong Kong actor, martial artist, and singer. He is world-renowned for his acrobatic fighting styles and comic acting. He’s made many movies in both Hong Kong and in Hollywood, such as Rush Hour and Kung Fu Panda. He received stars on Hollywood Walk of Fame in 2002.]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<span class='fev_flipcardcopyright'>Public Domain</span>]]></text>
+		<img>
+		  <alt>Photograph of  Li Ka-shing</alt>
+		  <description></description>
+		    <src>interactives/02_00_02/intmedia/flip_3.jpg</src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	    <title></title>
+	    <text>Sir Ka-shing Li is a Hong Kong businessman, investor, and philanthropist. He’s greatly contributed to the development of real estate, transportation, financial services, and energy and utilities in Hong Kong. As of 2019, he is the 30th richest person in the world.</text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<span class='fev_flipcardcopyright'>Public Domain</span>]]></text>
+		<img>
+		  <alt>Jacky Cheung performs in Wembley Arena on November 23, 2018 in London, England.</alt>
+		  <description></description>
+		    <src>interactives/02_00_02/intmedia/flip_4.jpg</src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	    <title></title>
+	    <text>Jacky Cheung is a Hong Kong singer and actor. He is widely popular in Asian communities around the world. He is nicknamed “God of Songs,” and he has won numerous awards for his outstanding singing skills and talents. He has received a plaque with his handprint and autograph on the  Avenue of Stars in Hong Kong.</text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<span class='fev_flipcardcopyright'>Copyright 2013 AP. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</span>]]></text>
+		<img>
+		  <alt>Guo Jinjin</alt>
+		  <description></description>
+		  <src>interactives/02_00_02/intmedia/flip_5.jpg</src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	    <title></title>
+	    <text>Guo Jinjin is an Olympic gold medalist and world champion. She originates from the Hubei province in China. She won her first individual Olympic gold in the 3-meter women's springboard in the 2004 summer Olympics and won two more gold medals at the 2008 Olympic Games in Beijing. She is known as the “Diving Queen” in China. In 2012 Guo Jinjin was married to Fok Kai-kong, the grandson of Hong Kong businessman, Henry Fok.</text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<span class='fev_flipcardcopyright'>Copyright 2005 AP. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</span>]]></text>
+		<img>
+		  <alt>Karen Mok</alt>
+		  <description></description>
+		  <src>interactives/02_00_02/intmedia/flip_6.jpg</src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	    <title></title>
+	    <text><![CDATA[Karen is a Hong Kong singer, songwriter, and entertainer. Karen has Chinese, Persian, Welsh, and German ancestry, and she speaks multiple languages. Karen released her first personal album in 1993 and started acting in 1995. In 2003 Karen was awarded the best Hong Kong singer by the 5<sup>th</sup> CCTV-MTV music event. By 2020, Karen Mok had released over 30 albums, acted in over 50 movies, and held over 30 concerts.]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

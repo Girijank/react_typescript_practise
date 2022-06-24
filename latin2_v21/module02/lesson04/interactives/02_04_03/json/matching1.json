@@ -1,0 +1,39 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Relative Pronoun to its correct case, number, and gender",
+        "options": [
+          {
+            "left": "qui",
+            "right": "Nominative plural masculine"
+          },
+          {
+            "left": "cuius",
+            "right": "Genitive singular masculine"
+          },
+          {
+            "left": "quem",
+            "right": "Accusative singular masculine"
+          },         	
+          {
+            "left": "quorum",
+            "right": "Genitive plural neuter"
+          },
+          {     	
+            "left": "quod",
+            "right": "Accusative singular neuter"
+          }
+        ],  	
+        		
+        "chances": "5"
+      }
+    ]
+  ]
+}

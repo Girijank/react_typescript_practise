@@ -1,0 +1,37 @@
+{
+  "config": {
+    "src": "quizmo",
+    "showInteractive": "Show Quiz",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false,
+    "copyright": []
+  },
+  "body": [
+    [
+      {
+        "type": "sortable",
+        "$$hashKey": "object:75",
+        "options": [
+          "Mars Rheam Silviam amat: Mars loves Rhea Silvia.",
+          "Rhea Silvia habet infantes: Rhea Silvia has babies.",
+          "Aemulius infantes in flumine ponit: Amulius places the babies on the river.",
+          "Pater Tiber pueros servat: Father Tiber protects the boys.",
+          "Romulus et Remus regiam revincunt: Romulus and Remus reconquer the palace.",
+          "Romulus Remum necat: Romulus kills Remus.",
+          "Romulus est rex Romae: Romulus is the king of Rome."
+        ],
+        "quiz": "Put the events in chronological order.",
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      },
+      {
+        "type": "config",
+        "layout": "layout1",
+        "$$hashKey": "object:468",
+        "directions": "Put the events in chronological order."
+      }
+    ]
+  ]
+}

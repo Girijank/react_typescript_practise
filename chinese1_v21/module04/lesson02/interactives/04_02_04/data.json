@@ -1,0 +1,91 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_02_04/styles.css"],
+    "intMedia": "interactives/04_02_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then, complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_need.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>需要</span> xūyào (to need)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be reasonably completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我上英文课_____笔记本</span>。Wǒ shàng yīngwénkè _____ bǐjìběn.",
+         
+        "options": ["<span lang='zh-Hans'>我爸爸和妈妈都很_____</span>。Wǒ bàba hé māma dōu hěn _____.", "<span lang='zh-Hans'>我爷爷总是在秋天_____生日</span>。Wǒ yéye zǒngshì zài qiūtiān _____ shēngrì.", "<span lang='zh-Hans'>我今天上午八点_____学校</span>。Wǒ jīntiān shàngwǔ bādiǎn _____ xuéxiào."],
+        "correct": "Wonderfully done! <em><span lang='zh-Hans'>需要</span></em> xūyào means “to need,” and it can be best used to form the sentence “ <span lang='zh-Hans'>我上英文课需要笔记本</span> Wǒ shàng yīngwénkè xūyào bǐjìběn. (I need a notebook for English class.)”",
+        "incorrect": "Very close. Think about the meaning of the word in the audio, and then place it in the sentences in the choices to see which one fits the best with an appropriate meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "backpack.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>背包</span> bèibāo (backpack) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items can you <strong>most</strong> likely find in the item indicated in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>笔记本和书</span>",
+        "options": [
+          "<span lang='zh-Hans'>狗和猫</span>",
+          "<span lang='zh-Hans'>蛋糕和冰激凌</span>",
+          "<span lang='zh-Hans'>意大利面和虾</span>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>背包</span> bèibāo means “backpack,” and the most appropriate items to fit in it would be notebooks and books. ",   
+        "incorrect": "Not quite… listen to the word again and think about its meaning. Then identify the meanings of the items in the choices to see which ones can best fit.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "book.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>书</span> shū (book) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Where of the following places are you <strong>least</strong> likely to find the item indicated in the audio?</p>", 
+        "answer": "On the stove in a kitchen",      
+        "options":[
+          "On a desk in a classroom",
+          "On a shelf in the library",
+          "At a seat in a coffee shop"
+        ],
+        "correct": " Outstanding job! <span lang='zh-Hans'>书</span> shū means “book,” and the last place you’d expect it to be is on a kitchen stove. ",
+        "incorrect": "Oops… listen to the word again and think about its meaning. Then consider which place described would you least expect the item.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "student.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>学生</span> xuésheng (student) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following people can often be seen with the one indicated in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>老师</span> lǎoshī (teacher) </span><audio class='audio' controls src='interactives/04_02_04/intmedia/teacher.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>女儿</span> nüér (daughter) </span><audio class='audio' controls src='interactives/04_02_04/intmedia/daughter.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>服务员</span> fúwùyuán (waiter/waitress) </span><audio class='audio' controls src='interactives/04_02_04/intmedia/waiter_waitress.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>医生</span> yīshēng (doctor)  </span><audio class='audio' controls src='interactives/04_02_04/intmedia/doctor.mp3' ></audio>"
+        ],
+        "correct": "Terrifically done! <span lang='zh-Hans'>学生</span> xuésheng means “student.” We would most likely expect <span lang='zh-Hans'>老师</span> lǎoshī (teacher) to be with a student.",        
+        "incorrect": "Very close. Listen to the audio several times to understand its meaning; then review the audios in the choices to identify the one profession you would most likely expect to match.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

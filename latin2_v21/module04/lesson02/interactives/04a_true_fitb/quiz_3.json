@@ -1,0 +1,27 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "ferocissimis"
+        ],
+        "quiz": "<p>In Latin, write the correct superlative adjective answer into each cell.</p><br> <p><strong>Sentence Verb to Use:</strong> <em>fortis, forte Dative pl. n.</em></p><br> Fill in the blank superlative adjective answer: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

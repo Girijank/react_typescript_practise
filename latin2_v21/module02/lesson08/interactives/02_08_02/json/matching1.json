@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the English derivative to its Latin vocabulary term. ",
+        "options": [
+          {
+            "left": "<em>plico, plicare, plicavi, plicatus, -a, -um</em>",
+            "right": "application, apply, pleat"
+          },
+          {
+            "left": "<em>ignotus, ignota, ignotum</em>",
+            "right": "ignorant"
+          },
+          {
+            "left": "<em>auris, auris f.</em>",
+            "right": "aural"
+          },
+          {
+            "left": "<em>civis, civis m.</em>",
+            "right": "civic, civilian, civilize, civilization, civility"
+          },
+          {
+            "left": "<em>civitas, civitatis f.</em>",
+            "right": "citizen"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

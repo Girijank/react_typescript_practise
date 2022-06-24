@@ -1,0 +1,64 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to write the correct form of a Latin verb for each sentence in the slideshow"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "movebantur"
+        ],
+        "quiz": "<p>Fill in the blank with the correct Latin form.</p> <br><p>For example: <br>Verb to use: doceo, docere, docui, doctus, -a, -um = to teach<br>English: The girls and boys <strong>were being taught</strong> in the house.<br>Latin: <em>Puellae et pueri in casa</em> </p><p>Fill in the blank answer: docebantur<br>Why? Docebantur = Imperfect Tense Passive Voice 3<sup>rd</sup> person plural. </p><br><p><strong>Verb to Use :</strong> <em>moveo, movere, movi, motus, -a, -um</em> = to move</p><p> <strong>English:</strong> The soldiers were being moved into the camp. </p><p><strong>Latin:</strong> <em>Milites in castra</em> </strong></p><br> Fill in the blank answer: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],   
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "laudabatur"
+        ],
+        "quiz": "<p>Fill in the blank with the correct Latin form. </p><br> <p><strong>Verb to Use:</strong> <em>laudo, laudare, laudavi, laudatus, -a, -um</em> = to praise</p><p> <strong>English:</strong> Iuno was being praised in the temple. </p><p><strong>Latin:</strong> <em>Iuno in templo</em> </p><br> Fill in the blank answer: *_ .",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "Iterum tempta! Try again! Learning Latin takes effort –give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "videbamur"
+        ],
+        "quiz": "<p>Fill in the blank with the correct Latin form. </p><br> <p><strong>Verb to Use:</strong> <em>video, videre, vidi, visus, -a, -um</em> = to see</p><p> <strong>English:</strong> We were being seen with the men.  </p><p><strong>Latin:</strong> <em>Cum viris</em>  </p><br> Fill in the blank answer: *_ .",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "docebatur"
+        ],
+        "quiz": "<p>Fill in the blank with the correct Latin form. </p><br> <p><strong>Verb to Use:</strong> <em>doceo, docere, docui, doctus, -a, -um</em> = to teach</p><p> <strong>English:</strong> The Latin story was being taught near the gates of Rome. </p><p><strong>Latin:</strong> <em>Fabula Latina prope portas Romae</em> </p><br> Fill in the blank answer: *_ .",
+        "incorrect": "Take another look at the Latin and five it another shot. Bona fortuna!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

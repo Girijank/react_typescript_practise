@@ -1,0 +1,53 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/02_01_01_timeline/intmedia/",
+		"css":["interactives/02_01_01_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [
+
+			{
+				"date": "510 BCE–27 BCE",
+				"content": "<p><strong>Roman Republic:  510 BCE–27 BCE.</strong> Known for:  </p><ul><li>consuls</li><li>senate</li><li>assemblies  </li><li>expansion  </li><li>military  </li><li>laws  </li><li>writing</li></ul>",
+				"image": "timeline_img1_gi.jpg",
+				"copyright": "SPQR",
+				"alt":"Image of SPQR",
+				"summaryLength": "200"
+			},
+			{
+				"date": "498 BCE–338 BCE",
+				"content": "<p><strong>Latin Wars: c. 498 BCE–338 BCE.  </strong>Known for:</p><p><ul><li>wars between Latin regions and the Romans </li></ul></p>",
+				"image": "timeline_img2.jpg",
+				"copyright": "©Science Photo Library / ImageQuest 2021",
+				"alt":"Map of ancient Italy highlighting Etruria",
+				"summaryLength": "200"
+			},
+			{
+				"date": "483 BCE–273 BCE",
+				"content": "<p><strong>Etruscan Wars: c. 483 BCE–273 BCE.</strong>  Known for: </p><ul><li>wars between Etruscan regions and the Romans</li></ul>",
+				"image": "timeline_img3_gi.jpg",
+				"copyright": "Italy",
+				"alt":"Map of Italian cities",
+				"summaryLength": "200"
+			},
+			{
+				"date": "281 BCE–275 BCE",
+				"content": "<p><strong>Pyrrhic Wars:  c. 281 BCE–275 BCE.  </strong>Known for: </p><ul><li>wars between Pyrrhus, the king of Epirus, and the Romans</li></ul>",
+				"image": "timeline_img4.jpg",
+				"copyright": "©Public domain",
+				"alt":"Picture of soldiers on elephants",
+				"summaryLength": "200"
+			},
+			{
+				"date": "264 BCE–146 BCE",
+				"content": "<p><strong>Punic Wars:  c. 264 BCE–146 BCE. </strong>Known for: </p><ul><li>wars between Carthage and Rome  </li><li>the Barca Family </li><li>the Scipio Family </li><li>the Carthaginian, Hannibal  </li><li>the Roman general, Scipio Africanus</li><li>the Roman general, Scipio Aemilianus</li></ul>",
+				"image": "timeline_img5.jpg",
+				"copyright": "©Public domain",
+				"alt":"Picture of Hannibal on war elephants with his men marching underneath him",
+				"summaryLength": "200"
+			}
+		]
+	}
+}

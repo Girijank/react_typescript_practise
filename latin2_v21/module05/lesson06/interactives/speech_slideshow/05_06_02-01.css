@@ -1,0 +1,400 @@
+#slideShow .carousel-indicators li:nth-child(odd) {
+    width: 66px;
+}
+
+#slideShow .carousel-indicators li:nth-child(even) {
+    width: 55px;
+}
+
+#slideShow .carousel-caption p.bubble {
+    top: 177px;
+    left: 96px;
+    width: 380px;
+}
+
+#slideShow .carousel-caption p.bubbleflip {
+    top: 210px;
+    left: 32px;
+    width: 385px;
+}
+
+#slideShow .kalturaAudio, #slideShow .sptFrame {
+    position: relative;
+    top: 20px;
+}
+
+.large1 {
+    left: 35px !important;
+    width: 420px !important;
+}
+
+span.copyright {
+    position: absolute;
+    color: rgb(214, 214, 214);
+    text-align: right;
+    top: 0px;
+    right: 5px;
+}
+
+/*  added same as slideShow because slideshow css not added in interactives.css (like spanish course)*/
+
+#slideShow.carousel {
+    background-color: #f4f4f4;
+    border: solid 10px #6e8292;
+    max-width: 580px;
+    -webkit-border-radius: 4px;
+    border-radius: 0px;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+#slideShow .carousel-caption {
+    left: 0;
+    top: 0;
+    z-index: 0;
+    right: 0;
+    padding-bottom: 0px;
+    text-shadow: none;
+    height: 380px;
+}
+
+#slideShow div.mike {
+    position: relative;
+    z-index: 500;
+}
+
+#slideShow .carousel-caption p {
+    font-size: 1.3em;
+    color: #000000;
+    text-align: left;
+    margin: 0;
+    padding: 4px;
+    position: absolute;
+}
+
+#slideShow .carousel-caption p.rshift {
+    left: 33%;
+}
+
+.bubble {
+    position: absolute;
+}
+
+#slideShow .flip img {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-left: -180px;
+}
+
+#slideShow .tabs {
+    position: absolute;
+    bottom: 159px;
+    z-index: 5;
+}
+
+#slideShow .cbar {
+    background: #FFFFFF;
+    border-top: 2px solid #8d4224;
+    border-left: 2px solid #8d4224;
+    border-right: 2px solid #8d4224;
+    border-bottom: 2px solid #8d4224;
+    padding: 20px 10px;
+}
+
+#slideShow ul {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+
+#slideShow li {
+    margin-right: 5px;
+    background: #8d4224;
+    padding: 5px 8px 5px 8px;
+    border-top: 2px solid #8d4224;
+    border-left: 2px solid #8d4224;
+    border-right: 2px solid #8d4224;
+    color: #FFFFFF;
+}
+
+#slideShow li.active {
+    background: #FFFFFF;
+    color: #8d4224;
+}
+
+#slideShow .carousel-control2 {
+    background: #bb5831 !important;
+    color: #FFF !important;
+    border-radius: 0 !important;
+    margin: 0 auto !important;
+    padding: 4px 20px 4px 20px !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#slideShow .carousel-control2.a {
+    padding-right: 10px;
+}
+
+#slideShow .carousel-inner {
+    margin-bottom: 10px;
+}
+
+#slideShow .carousel-indicators {
+    position: absolute;
+    margin: 0 !important;
+    left: 10px !important;
+    z-index: 15;
+    bottom: 255px;
+    width: 100%;
+    text-align: left;
+    list-style: none;
+}
+
+#slideShow .carousel-indicators li {
+    margin-right: 0px;
+    padding: 0 !important;
+    width: 55px;
+    height: 30px;
+    opacity: 0;
+    background-color: green;
+    border: none;
+    border-radius: 0;
+}
+
+#slideShow #controlbar {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+#slideShow .clear {
+    clear: none;
+}
+
+#slideShow .record_icon {
+    height: 40px;
+}
+
+#slideShow .panel-block {
+    margin-bottom: 0px;
+}
+
+#slideShow #control-arrows2 {
+    padding-right: 4%;
+    top: -20px;
+    z-index: 101;
+}
+
+#slideShow .kalturaAudio {
+    z-index: 115;
+    width: 260px !important;
+}
+
+#slideShow a {
+    z-index: 116;
+}
+
+#slideShow #control-arrows2 a:first-child {
+    margin-left: 5px !important;
+}
+
+#slideShow .bubble {
+    position: relative;
+    padding: 0px;
+    background: #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: #000000 solid 2px;
+    box-shadow: 3px 3px 11px #000000;
+}
+
+#slideShow .bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 11px 15px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-left: -11px;
+    top: -15px;
+    left: 77%;
+}
+
+#slideShow .bubble:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 12px 16px;
+    border-color: #000000 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-left: -12px;
+    top: -18px;
+    left: 77%;
+}
+
+#slideShow .bubbleflip {
+    position: relative;
+    padding: 0px;
+    background: #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: #000000 solid 2px;
+    box-shadow: 3px 3px 11px #000000;
+}
+
+.bubbleflip:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 11px 15px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-right: -1px;
+    top: -15px;
+    right: 35%;
+}
+
+#slideShow .bubbleflip:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 12px 16px;
+    border-color: #000000 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    margin-right: -2px;
+    top: -18px;
+    right: 35%;
+}
+
+@media screen and (max-width: 767px) {
+    #slideShow .bubble {
+        position: relative;
+        padding: 0px;
+        background: #FFFFFF;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        border: #000000 solid 2px;
+        box-shadow: 3px 3px 11px #000000;
+    }
+    #slideShow .bubble:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 7px 11px;
+        border-color: #FFFFFF transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -11px;
+        top: -10px;
+        left: 18%;
+    }
+    #slideShow .bubble:before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 8px 12px;
+        border-color: #000000 transparent;
+        display: block;
+        width: 0;
+        z-index: 0;
+        margin-left: -12px;
+        top: -13px;
+        left: 18%;
+    }
+    #slideShow .bubbleflip {
+        position: relative;
+        padding: 0px;
+        background: #FFFFFF;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        border: #000000 solid 2px;
+        box-shadow: 3px 3px 11px #000000;
+    }
+    #slideShow .bubbleflip:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 7px 11px;
+        border-color: #FFFFFF transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-right: -11px;
+        top: -10px;
+        right: 24%;
+    }
+    #slideShow .bubbleflip:before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 8px 12px;
+        border-color: #000000 transparent;
+        display: block;
+        width: 0;
+        z-index: 0;
+        margin-right: -12px;
+        top: -13px;
+        right: 24%;
+    }
+    #slideShow .carousel-indicators li {
+        width: 39px;
+    }
+    #slideShow #control-arrows2 {
+        padding-right: 4%;
+    }
+    #slideShow .panel-block {
+        margin-bottom: -10%;
+    }
+    #slideShow .kalturaAudio {
+        width: 175px !important;
+    }
+    #slideShow .carousel-caption p {
+        font-size: .8em;
+        top: 46%;
+    }
+    #slideShow #controlbar {
+        padding-right: 8px;
+    }
+    #slideShow li {
+        padding: 5px 2px 5px 2px;
+    }
+    #slideShow .carousel-indicators li {
+        margin-left: 0px;
+        opacity: 0;
+        margin-right: 1px;
+        margin-top: -4%;
+    }
+    #slideShow .carousel-indicators {
+        right: 0;
+        top: -95px;
+        padding-left: 13px;
+    }
+    #slideShow .carousel-caption p.flip {
+        left: 17%;
+    }
+    #slideShow .tabs {
+        bottom: 15.5%;
+    }
+}

@@ -1,0 +1,83 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/05_06_09_1/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/05_06_09_1/textversion/textversion.htm",
+    "modal": {
+      "directions": "Match each of the chores to its appropriate room, based on Jiajun's mom's speech.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job finding the right match.",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>厨房</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>洗碗</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>客厅</span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>整理沙发</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>卧室</span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>叠衣服</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>浴室</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>拖地板</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>阳台</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>洗衣服</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>饭厅</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>擦桌子</span>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

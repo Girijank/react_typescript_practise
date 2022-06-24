@@ -1,0 +1,6 @@
+.il_interactive .droppable{
+    width: 300px;
+}
+.il_interactive .drop .bin, .il_interactive .droppable .bin{
+    color: black;
+}

@@ -1,0 +1,63 @@
+.jTimeline .timelineInfo {
+    height: 83%;
+}
+
+.jTimeline .jcarousel-skin .jcarousel-list {
+    width: 630px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.jTimeline #head {
+    background-color: #000 !important;
+    margin: 0;
+}
+
+.jTimeline #head h2{
+    color:#fff;
+    text-align: center;
+    margin: 5px;
+}
+
+.jTimeline .timelineInfo .item {
+    width: 100%;
+    height: 100%
+}
+
+.text_elem {
+    margin-top: 15px;
+}
+
+.jTimeline .jcarousel-skin .jcarousel-item a,
+.jTimeline .jcarousel-skin .jcarousel-item a.jcarousel-item-active {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+p.eDate {
+    display: none;
+}
+
+.jTimeline .jcarousel-next, .jTimeline .jcarousel-prev{
+    display: none !important;
+}
+
+.jTimeline .item>h3{
+    margin-top:10px;
+}
+
+.jTimeline .jcarousel-item{
+    /* border: 1px solid #000; */
+}
+
+.jTimeline .jcarousel-skin .jcarousel-item a:focus {
+    background-color: #333;
+    -moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5);
+    -o-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5);
+    color: white;
+    text-shadow: 0px -1px 0px black;
+    cursor: pointer
+}

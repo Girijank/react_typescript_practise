@@ -1,0 +1,230 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_08_02/styles.css"],
+    "progressBar": true,
+    "resultsPage": false
+  },
+  "body": [    
+    [ 
+      {
+      "type": "config",
+      "directions": "Read the question, and then select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+        "<span lang='zh-Hans'>说中文</span>",
+        "<span lang='zh-Hans'>写英文</span>",
+        "<span lang='zh-Hans'>画画</span>"
+        ],
+        "quiz": "Tracy just came back home from school, and she’s writing a journal entry about her day. Read the provided part of her journal.<br><br><span lang='zh-Hans'>今天是星期一。我下午上数学课和艺术课。数学课一点开始，两点束。艺术课两点十分开始，三点十分结束。上艺术课我们练习画画。星期三下午我们一点有英文课，两点十分上社会研究课。上英文课我们练习说英文。我们每天都有音乐课和体育课。</span>Jīntiān shì xīngqīyī. Wǒ xiàwǔ shàng shùxuékè hé yìshùkè. Shùxuékè yīdiǎn kāishǐ, liǎngdiǎn jiéshù. Yìshùkè liǎngdiǎn shífēn kāishǐ, sāndiǎn shéfēn jiéshù. Shàng yìshùkè wǒmen liànxí huàhuà. Xīngqīsān xiàwǔ wǒmen yīdiǎn yǒu yīngwénkè, liǎngdiǎn shífēn shàng shèhuì yánjiūkè. Shàng yīngwénkè wǒmen liànxí shuō yīngwén. Wǒmen měitiān dōuyǒu yīnyuèkè hé tǐyùkè. <br><br> Which activity does Tracy most likely do every day?",
+      
+        "answer": "<span lang='zh-Hans'>唱歌</span>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+      ],   
+      
+      [
+      {
+        "type": "config",
+        "customView": "interactives/06_08_02/custom_withvideo.htm"
+      },
+      {
+        "type": "video",
+        "entryID": "1_8e25m4ye",
+        "textVersion": "The audio for this video content is an example of the Chinese Language."
+      },
+      
+      {
+        "type": "mc",
+        "options": [
+        "Zhang Ming probably needs some snacks before his afternoon classes are over.",
+        "If Zhang Ming had a cold and lost his voice, his afternoon classes on that day would not be affected.",
+        "If Chen Lili’s invited to the chorus at school, she will probably get the role of lead singer. "
+        ],   
+        "quiz": "What can most likely be deduced from the dialogue video?",
+        "answer": "Zhang Ming will have no trouble writing a letter to his pen pal in the U.S.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+      ],
+      [
+        {
+          "type": "text",
+          "content": "Listen to the dialogue in the audio between Kylie and her dad at home on Monday morning when she’s preparing for school; then answer the question that follows."
+        },
+        {
+          "type": "localAudio",
+          "src": "interactives/06_08_02/intmedia/kylie_and_dad_monday_morning.mp3",
+          "textVersion": "Audio for  <p>Kylie’s Dad: <span lang='zh-Hans'>今天上午很冷，你需要穿毛衣和外套。</span> Jīntiān shàngwǔ hěn lěng, nǐ xūyào chuān máoyī hé wàitào.<br>Kylie: <span lang='zh-Hans'>我上午想穿裙子。</span>Wǒ shàngwǔ xiǎng chuān qúnzi.<br>Kylie’s Dad: <span lang='zh-Hans'>不可以，太冷了。你可以穿牛仔裤。下午很热，你可以穿裙子或是短裤。</span>Bù kěyǐ, tàilěngle. Nǐ kěyǐ chuān niúzǎikù. Xiàwǔ hěnrè, nǐ kěyǐ chuān qúnzi huòshì duǎnkù.<br>Kylie: <span lang='zh-Hans'>好的。星期三我有音乐课，我需要穿制服。</span> wǒ yǒu yīnyuèkè, wǒ xūyào chuān zhìfú.<br>Kylie’s Dad: <span lang='zh-Hans'>好。我们星期六去爷爷奶奶家，你可以穿衬衫和裤子。</span> Hǎo. Wǒmen xīngqīliù qù yéyenǎinai jiā, nǐ kěyǐ chuān chènshān hé kùzi.<br>Kylie: <span lang='zh-Hans'>我可以穿毛衣和牛仔裤吗</span>？Wǒ kěyǐchuān máoyī hé niúzǎikù ma?<br>Kylie’s Dad: <span lang='zh-Hans'>可以的。不过你不可以穿短裤和凉鞋。</span> Búguò nǐ bùkěyǐ chuān duǎnkù hé liángxié.</p>"  
+        },
+        {
+          "type": "mc",
+          "options": [
+            "Skirt or shorts",
+            "Jeans or skirt",
+            "Sweater and shorts"
+          ],
+          "quiz": "<p> What does Kylie’s dad suggest that Kylie wear on Monday morning?</p>",
+          "answer": "Sweater and coat",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ],
+      [
+        {
+          "type": "config",
+          "customView": "interactives/06_08_02/index.htm"
+        },
+        {
+          "type": "mc",
+          "options": [
+            "<span class='fortv'>Audio for <span lang='zh-Hans'>厨房</span> chúfáng (kitchen)</span><audio class='audio' controls src='interactives/06_08_02/intmedia/kitchen.mp3'></audio>",
+  
+            "<span class='fortv'>Audio for <span lang='zh-Hans'>卧室</span> wòshì (bedroom)</span><audio class='audio' controls src='interactives/06_08_02/intmedia/bedroom.mp3' ></audio>",
+  
+            "<span class='fortv'>Audio for <span lang='zh-Hans'>浴室</span> yùshì (bathroom)</span><audio class='audio' controls src='interactives/06_08_02/intmedia/bathroom.mp3'></audio>"
+          ],
+          "media": {
+            "type": "image",
+            "id": "image1",
+            "alt": "Balcony design of modern urban residential building",
+            "src": "interactives/06_08_02/intmedia/img1.jpg",
+            "copyright":"©iStock"
+          },
+          "quiz": "<p>Which of the following audios best describes the image?</p>",
+          "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>阳台</span> yángtái (balcony)</span><audio class='audio' controls src='interactives/06_08_02/intmedia/balcony.mp3'></audio>",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "content": "Listen to the dialogue in the audio between David and Lili on a Saturday morning; then answer the question that follows."
+        },
+        {
+          "type": "localAudio",
+          "src": "interactives/06_08_02/intmedia/david_lili_yard_and_garage.mp3",
+          "textVersion": "Audio for  <p>Lili: <span lang='zh-Hans'>你家有院子吗</span>？ Nǐjiā yǒu yuànzi ma?<br>David: 我家有一个大院子。 Wǒ jiā yǒu yīgè dà yuànzi.<br>Lili: <span lang='zh-Hans'>我家没有院子。你家有车库吗</span>？ Wǒjiā méiyǒu yuànzi. Nǐjiā yǒu chēkù ma?<br>David: <span lang='zh-Hans'>我家没有车库。你家有门廊吗</span>？Wǒjiā méiyǒu chēkù. Nǐjiā yǒu ménláng ma?<br>Lili: <span lang='zh-Hans'>没有。不过我家有阳台。我家有三个卧室和两个浴室。</span> Méiyǒu. Búguò wǒjiā yǒu yángtái. Wǒjiā yǒu sāngè wòshì hé liǎnggè yùshì.<br>David: <span lang='zh-Hans'>我家也有三个卧室。不过只有一个浴室。对了，你今天做什么</span>？ Wǒjiā yě yǒu sāngè wòshì. Búguò zhǐyǒu yīgè yùshì. Duìle, nǐ jīntiān zuò shénme?<br>Lili: <span lang='zh-Hans'>我要擦椅子和灯，整理床和衣柜，还要叠衣服。</span> Wǒyào cā yǐzi hé dēng, zhěnglǐ chuáng hé yīguì, háiyào dié yīfu.<br>David: 你太忙了！我今天一整天都看书。Nǐ tài máng le! Wǒ jīntiān yīzhěngtiān dōu kànshū.<br>Lili: <span lang='zh-Hans'>你要看什么书</span>？ Nǐ yào kàn shénme shū?<br>David: <span lang='zh-Hans'>我星期一有数学课，我要复习数学。</span> WǑ xīngqīyī yǒu shùxuékè, wǒ yào fùxí shùxué.<br>Lili: <span lang='zh-Hans'>你晚上也要看书吗</span>？ Nǐ wǎnshàng yě yào kànshū ma?<br>David: <span lang='zh-Hans'>你看，我的书桌上有灯。我是有准备的。</span> Nǐkàn, wǒde shūzhuō shàng yǒu dēng. Wǒ shì yǒuzhǔnbèi de.</p>"  
+        },
+        {
+          "type": "mc",
+          "options": [
+            "Free",
+            "Lazy",
+            "Funny"
+          ],
+          "quiz": "<p>Based on the context in the dialogue, what does the word <strong><span lang='zh-Hans'>忙</span> máng</strong> probably mean in the sentence that David said “<span lang='zh-Hans'>你太<strong>忙</strong>了</span>！Nǐ tài <strong>máng</strong> le!?”</p>",
+          "answer": "Busy",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ],
+      [
+        {
+          "type": "mc",
+          "options": [
+            "In the kitchen, the stove should be away from the sink because the elements of fire and water are not compatible.",
+            "Bedrooms should be away from the kitchen; otherwise, the heat will make the room uncomfortable or too hot.",
+            "In the bedroom, the bottom of the beds should be lifted up from the floor, which protects the sleeper(s) from the unpleasant spirits from the ground."
+          ],
+          "quiz": "<p>Based on the feng shui rules introduced in the lesson, which of the following is <strong>not</strong> true about the setup of the bedroom, living room, and kitchen in a house using feng shui? </p>",
+          "answer": "In the living room, end tables should be square-shaped. They should be placed in front of a sofa and need to be the same length as the sofa.",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ],
+      [
+        {
+          "type": "mc",
+          "options": [
+            "<span lang='zh-Hans'>鱼市</span>",
+            "<span lang='zh-Hans'>肉市</span>",
+            "<span lang='zh-Hans'>面包店</span>"
+          ],
+          "quiz": "<p>Which of the following is the name of a store that specializes in selling fruits?</p>",
+          "answer": "<span lang='zh-Hans'>水果店</span>",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ],
+      [
+        {
+          "type": "mc",
+          "options": [
+            "Reading a book",
+            "Viewing an ancient sculpture",
+            "Enjoying a stage play"
+          ],
+          "quiz": "It’s the first day of summer break, and David plans for a day trip to downtown. When he wakes up in the morning, he finds a note that his mom left him before going to work, giving him tips on what places to go at different times of day to avoid traffic. Read what David's mom wrote on her note.<br><br> <span lang='zh-Hans'>你在上午九点去购物中心，上午十一点去图书馆，下午一点去电影院，下午三点去博物馆，晚上七点去剧院。</span><br><br>If David follows his mom’s note, what will he be doing at 1 p.m. that day? ",
+          "answer": "Watching a movie",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ],
+      [
+        {
+          "type": "config",
+          "customView": "interactives/06_08_02/index.htm"
+        },
+        {
+          "type": "mc",
+          "options": [
+            "Radicals in a Chinese character are written in order of “top to bottom” and “left to right.”",
+  
+            "Write horizontal strokes, then vertical ones.",
+  
+            "For a symmetrical character, draw the middle first, then left, then right."
+          ],
+          "media": {
+            "type": "image",
+            "id": "image1",
+            "alt": "Balcony design of modern urban residential building",
+            "src": "interactives/06_08_02/intmedia/img1_flvs.png",
+            "copyright":""
+          },
+          "quiz": "<p>Which of the following writing rules does the stroke sequence of character <span lang='zh-Hans'>图</span> given follow?</p>",
+          "answer": "For “inside and outside” characters, the outside frame (completely or half-closed) is completed last.",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ],
+      [
+        {
+          "type": "mc",
+          "options": [
+            "<span lang='zh-Hans'>广场</span>",
+            "<span lang='zh-Hans'>公园</span>",
+            "<span lang='zh-Hans'>春天</span>"
+          ],
+          "quiz": "<p>Which word has a Chinese character that has the final “er”?</p>",
+          "answer": "<span lang='zh-Hans'>儿子</span>",
+          "correct": "Nailed it! Great job!",
+          "incorrect": "Good try. Keep that same great effort and try again.",
+          "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+          "failedHeading": "Not quite, but you'll get it soon!"
+        }
+      ]
+  ]
+}

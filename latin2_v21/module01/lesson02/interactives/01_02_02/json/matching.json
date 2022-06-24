@@ -1,0 +1,57 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English definition.",
+        "options": [
+          {
+            "left": "<em>clamo</em>",
+            "right": "to shout, to cry out"
+          },
+			{
+            "left": "<em>do</em>",
+            "right": "to give"
+          },
+			{
+            "left": "<em>laudo</em>",
+            "right": "to praise"
+          },
+			{
+            "left": "<em>timeo</em>",
+            "right": "to fear, be afraid"
+          },
+			{
+            "left": "<em>habeo</em>",
+            "right": "to have, hold"
+          },
+			{
+            "left": "<em>duco</em>",
+            "right": "to lead"
+          },
+			{
+            "left": "<em>facio</em>",
+            "right": "to make, do"
+          },
+			{
+            "left": "<em>iacio</em>",
+            "right": "to throw, hurl"
+          },
+			{
+            "left": "<em>venio</em>",
+            "right": "to come"
+          },
+			{
+            "left": "<em>dormio</em>",
+            "right": "to sleep"
+          }
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

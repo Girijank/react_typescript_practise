@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_03_05/styles.css"],
+    "intMedia": "interactives/06_03_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>寺庙</span> sìmiào"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Whom do you most likely see at the site indicated by the word presented?</p>",
+        "answer": "Monks",
+        "options": [
+          "Police officers",
+          "Doctors",
+          "Professors"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>寺庙</span> sìmiào means “temple,” and you can most likely see monks here instead of doctors, police officers, or professors.",
+        "incorrect": "Oops…View the word several times and maybe sound it out to help you remember the meaning of the word and what site it indicates. Then consider what type of persons you can see at the site. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>医院</span> yīyuàn "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words does not share a character with the word presented?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>衣服</span> yīfu (clothes) </span><audio class='audio' controls src='interactives/06_03_05/intmedia/clothes.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>剧院</span> jùyuàn (theater)</span><audio class='audio' controls src='interactives/06_03_05/intmedia/theater.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>医生</span> yīshēng (doctor)  </span><audio class='audio' controls src='interactives/06_03_05/intmedia/doctor.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>衣服</span> yuànzi (yard)  </span><audio class='audio' controls src='interactives/06_03_05/intmedia/yard.mp3' ></audio>"
+        ],
+        "correct": "Job excellently done! The first character, <span lang='zh-Hans'>医</span>, in the word <span lang='zh-Hans'>医院</span> yīyuàn (hospital) is shared by <span lang='zh-Hans'>医生</span> yīshēng (doctor); the second character, <span lang='zh-Hans'>院</span>, in it is shared by <span lang='zh-Hans'>剧院</span> jùyuàn (theater) and <span lang='zh-Hans'>院子</span> yuànzi (yard). The only word that has neither character is <span lang='zh-Hans'>衣服</span> yīfu (clothes).",
+        "incorrect": "Almost. Identify the audios in the choices, sound out the words, and identify their characters. Then compare them with the two characters in the word presented to see which choice has neither character in it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>警察局</span> jǐngchájú"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which of the following situations will you call help from the place indicated by the word presented?</p>", 
+        "answer": "When my car is stolen",
+        "options": [
+          "When I sprain my ankle",
+          "When my house is on fire",
+          "When I prepare for my final exam"
+        ],
+        "correct": "Job excellently done! The word <span lang='zh-Hans'>警察局</span> jǐngchájú means “police department.” You will call for the police’s help when a crime is committed, such as a car stolen.",
+        "incorrect": "Not quite. Think about the meaning of the word and what place it indicates. Then review the situations in the choices and consider which one suits the service the place provides.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [{
+      "type": "config",
+      "customView": "interactives/06_03_05/customview_imgbtn.htm"
+    },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>消防站</span> xiāofángzhàn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following uniformed people works at the place indicated by the word presented?</p>",
+        "answer": "<span class='fortv'>Image of a firefighter </span><img src='interactives/06_03_05/intmedia/img_1.jpg' alt='Image of a firefighter ' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          "<span class='fortv'>Image of a nurse</span><img src='interactives/06_03_05/intmedia/img_2.jpg' alt='Image of a nurse' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>Image of a construction worker </span><img src='interactives/06_03_05/intmedia/img_3.jpg' alt='Image of a construction worker ' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>Image of a waitress</span><img src='interactives/06_03_05/intmedia/img_4.jpg' alt='Image of a waitress' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>消防站</span> xiāofángzhàn means “fire station,” and firefighters work there. ",   
+        "incorrect": "Oops…Think about the meaning of the word. Consider what type of professionals work there, and identify it in the choices based on the uniform that is worn.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary with their correct English definition.",
+        "options": [         
+          {
+            "left": "<em>ante (+acc)</em>",
+            "right": "before"
+          },
+          {
+            "left": "pompa, pompae f.</em>",
+            "right": "parade, ostentation, solemn presentation "
+          },
+          {
+            "left": "<em>superbia, superbiae f. </em>",
+            "right": "haughtiness, pride, arrogance "
+          },
+          {
+            "left": "<em>incola, incolae m.</em>",
+            "right": "inhabitant "
+          },
+          {
+            "left": "<em>sto, stare, steti, status, -a, -um</em>",
+            "right": "to stand, to stand up"
+          },
+          {
+            "left": "<em>gusto, gustare, gustavi, gustatus, -a, -um</em>",
+            "right": "to enjoy, to eat"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

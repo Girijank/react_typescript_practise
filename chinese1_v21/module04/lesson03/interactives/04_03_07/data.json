@@ -1,0 +1,97 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_03_07/styles.css"],
+    "intMedia": "interactives/04_03_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then, complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_exerice_to_practice.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>练习</span> liànxí "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following activities <strong>cannot</strong> be associated with the action indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>去学校</span>",
+        "options": [
+          "<span lang='zh-Hans'>说英文</span>",
+          "<span lang='zh-Hans'>唱歌</span>",
+          "<span lang='zh-Hans'>画苹果</span>"
+        ],
+        "correct": "Job excellently done! <span lang='zh-Hans'>练习</span> liànxí means &quot;to exercise/to practice,&quot; and we usually don’t practice the action of going to school, while we can practice skills such as speaking, singing, or drawing.",
+        "incorrect": "Not quite…listen to the word in the audio again to understand its meaning, and then consider what type of activity does not require the action it indicates.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [{
+      "type": "config",       
+      "customView": "interactives/04_03_07/customview_imgbtn.htm"
+    },
+      {
+        "type": "localAudio",
+        "src": "music_class.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>音乐课</span> yīnyuèkè "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is <strong>most</strong> likely seen at the class indicated by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Image of musical notes on a piece of sheet music </span><img src='interactives/04_03_07/images/img1.jpg' class='border center-block' alt='Image of musical notes on a piece of sheet music'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of drawing pad and art supplies </span><img src='interactives/04_03_07/images/img2.jpg' class='border center-block' alt='Image of drawing pad and art supplies'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of calculator, pencil, and notebook</span><img src='interactives/04_03_07/images/img3.jpg' class='border center-block' alt='Image of calculator, pencil, and notebook'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of PE class supplies </span><img src='interactives/04_03_07/images/img4.jpg' alt='Image of PE class supplies' class='border center-block'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Terrific work! <span lang='zh-Hans'>音乐课</span> yīnyuèkè means &quot;music class,&quot; where you will most likely see musical notes, which is indicated with the image you selected.",
+        "incorrect": "Not quite…listen again several times to identify which class it is, and then consider what you might need for that particular class.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_talk_to_speak_words.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>说话</span> shuōhuà"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does <strong>not</strong> have the same grammatical structure as the phrase in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>我们</span> wǒmen </span><audio class='audio' controls src='interactives/04_03_07/intmedia/we_us.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>唱歌</span> chànggē </span><audio class='audio' controls src='interactives/04_03_07/intmedia/to_sing_songs.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>读书</span> dúshū  </span><audio class='audio' controls src='interactives/04_03_07/intmedia/to_read_books.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>画画</span> huàhuà </span><audio class='audio' controls src='interactives/04_03_07/intmedia/to_draw_pictures.mp3' ></audio>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>说话</span> shuōhuà (to talk/to speak (words)) is a verb + object unit, and so are the other phrases in the choices, except <span lang='zh-Hans'>我们</span> wǒmen (we/us), which is in the plural pronoun form.",
+        "incorrect": "Oops…listen to the audio several more times to identify its meaning and grammatical form (consider <strong>verb + object</strong> structure), and then review all the choices to see which one does not have the same structure.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_sing_songs.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>唱歌</span> chànggē"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences <strong>cannot</strong> be completed with the phrase in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我有点_____。</span> Wǒ yǒudiǎn_____.",
+        "options": [
+          "<span lang='zh-Hans'>我很喜欢_____。</span> Wǒ hěn xǐhuān _____.",
+          "<span lang='zh-Hans'>她姐姐每天_____。</span> Tā jiějie měitiān _____.",
+          "<span lang='zh-Hans'>我听他_____。</span> Wǒ tīng tā _____."
+        ],
+        "correct": "Totally awesome! <span lang='zh-Hans'>唱歌</span> chànggē (to sing songs) can be used to form sentences &quot;<span lang='zh-Hans'>我很喜欢唱歌。</span> Wǒ hěn xǐhuān chànggē. (I like to sing.)&quot;; &quot;<span lang='zh-Hans'>她姐姐每天唱歌。</span> Tā jiějie měitiān chànggē. (Her older sister sings every day.)&quot;; and &quot;<span lang='zh-Hans'>我听他唱歌。</span> Wǒ tīng tā chànggē. (I listen to him sing.).&quot; But it may not suit the 3rd structure &quot;I am a little___,&quot; which should be followed by an adjective, not a verb or verb + object unit.",
+        "incorrect": "Oops…listen to the audio several more times to identify its meaning; then place it with the sentences in the choices to see which one does <strong>not</strong> logically and grammatically fit.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

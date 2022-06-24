@@ -1,0 +1,48 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+    
+  },
+  "body": {
+    "instruction":"Can you identify the participle in the sentence? Select the card to check your answer.",
+    "instruction_textversion":"Can you identify the participle in the sentence? Check your answer.", 
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Rome, about to establish provinces in different countries, was becoming a colossal empire. </p>",
+          "textversion": "<p>Rome, about to establish provinces in different countries, was becoming a colossal empire. </p>"
+        },
+        "back": {
+          "content": "<p>About to establish</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>About to establish</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>The teachers will praise the students about to learn the future Active participle. </p>",
+          "textversion": "<p>The teachers will praise the students about to learn the future Active participle. </p>"
+        },
+        "back": {
+          "content": "<p>About to learn</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>About to learn</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Some of the emperors about to rule Rome were good; others were bad. </p>",
+          "textversion": "<p>Some of the emperors about to rule Rome were good; others were bad. </p>"
+        },
+        "back": {
+          "content": "<p>About to rule</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>About to rule</p>"
+        }
+      }
+    ]
+  }
+}

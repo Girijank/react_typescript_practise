@@ -1,0 +1,242 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": false,
+    "resultsPage": false,
+    "css": [],
+	 "showInteractive": "Show Interactive",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 115,
+            "left": 292,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "dux, ducis m.",
+            "textversion":"<h3>dux, ducis m.</h3><p>noun</p><p class='engTrans'>leader</p><p>conductor, Duke</p><div class=\"sptFrame\" data-phrase=\"dux, ducis\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_1.jpg",
+        "alt":"A business leading holding a meeting"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 155,
+            "left": 440,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "miles, militis m.",
+            "textversion":"<h3>miles, militis m.</h3><p>noun</p><p class='engTrans'>soldier</p><p>military, militia</p><div class=\"sptFrame\" data-phrase=\"miles, militis\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_2.jpg",
+        "alt":"An American soldier"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 170,
+            "left": 325,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "coniunx, coniungis m./f.",
+            "textversion":"<h3>coniunx, coniungis m./f.</h3><p>noun</p><p class='engTrans'>husband, wife, spouse</p><p>conjugal</p><div class=\"sptFrame\" data-phrase=\"coniunx, coniungis\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_3.jpg",
+        "alt":"Couple standing in front of a building."
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 155,
+            "left": 430,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "lex, legis f.",
+            "textversion":"<h3>lex, legis f.</h3><p>noun</p><p class='engTrans'>Law</p><p>legal, legislature</p><div class=\"sptFrame\" data-phrase=\"lex, legis\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_4.jpg",
+        "alt":"US constitutional law"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 170,
+            "left": 210,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "salus, salutatis f.",
+            "textversion":"<h3>salus, salutatis f.</h3><p>noun</p><p class='engTrans'>health, safety</p><p>salutary, salubrious</p><div class=\"sptFrame\" data-phrase=\"salus, salutatis\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_5.jpg",
+        "alt":"The salubriousness of a meal"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 230,
+            "left": 395,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "tempestas, tempestatis f.",
+            "textversion":"<h3>tempestas, tempestatis f.</h3><p>noun</p><p class='engTrans'>Storm</p><p>tempest, tempestuous</p><div class=\"sptFrame\" data-phrase=\"tempestas, tempestatis\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_6.jpg",
+        "alt":"A storm"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 325,
+            "left": 155,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "premo, premere, pressi, pressus, -a, -um",
+            "textversion":"<h3>premo, premere, pressi, pressus, -a, -um</h3><p>verb</p><p class='engTrans'>to press, to press hard</p><p>pressure</p><div class=\"sptFrame\" data-phrase=\"premo, premere, pressi, pressus, -a, -um\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_7.jpg",
+        "alt":"Applying pressure for a massage"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 170,
+            "left": 280,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "solvo, solvere, solvi, solutus, -a, -um ",
+            "textversion":"<h3>solvo, solvere, solvi, solutus, -a, -um </h3><p>verb</p><p class='engTrans'>to loosen</p><p>solution, solute</p><div class=\"sptFrame\" data-phrase=\"solvo, solvere, solvi, solutus, -a, -um \"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_8.jpg",
+        "alt":"A person loosening his tie"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 150,
+            "left": 290,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "solvere + navis",
+            "textversion":"<h3>solvere + navis</h3><p>idiom</p><p class='engTrans'>to set sail</p><p></p><div class=\"sptFrame\" data-phrase=\"solvere + navis\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_9.jpg",
+        "alt":"Group of people setting sail"
+      }
+    ],
+    [
+      {
+        "type": "imageMarker",
+        "marker": true,
+        "items": [
+          {
+            "top": 140,
+            "left": 230,
+            "marker": "custom",
+            "displayType": "custom",
+            "height": "100%",
+            "custom_marker": "interactives/01_08_02/imagemarker/marker.png",
+            "width": "100%",
+            "custom_marker_width": "31px",
+            "custom_marker_height": "31px",
+            "title": "cado, cadere, cecidi, casus, -a, -um",
+            "textversion":"<h3>cado, cadere, cecidi, casus, -a, -um</h3><p>verb</p><p class='engTrans'>to fall</p><p>cadence, casualty</p><div class=\"sptFrame\" data-phrase=\"cado, cadere, cecidi, casus, -a, -um\"></div>"
+          }
+        ],
+        "background": "interactives/01_08_02/imagemarker/image_10.jpg",
+        "alt":"A homeless man who fell from his position in life"
+      }
+    ]
+  ]
+}

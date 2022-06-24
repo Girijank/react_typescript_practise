@@ -1,0 +1,17 @@
+.table-border-blue{
+    border: 2px solid #66B7AE;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.th-Width-2{
+    width: 20% !important;
+}
+.th-Width-3{
+    width: 30% !important;
+}
+.th-Width-5{
+    width: 50% !important;
+}
+.ng_il .viewport {
+    min-height: 550px;
+}

@@ -1,0 +1,43 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Match the English Derivative to its Latin vocabulary term.",
+        "options": [
+        
+          {
+            "left": "<em>palus, pali m.</em>",
+            "right": "impale"
+          },
+          {
+            "left": "<em>pes, pedis m.</em>",
+            "right": "pedestrian, pedestal"
+          },
+          {
+            "left": "<em>porta, portae f.</em>", 
+            "right": "portal"
+          },
+          {
+            "left": "<em>regnum, regni n.</em>",
+            "right": "Interregnum, reign"
+          },
+          {
+            "left": "<em>rex, regis m.</em>",
+            "right": "regal"
+          },
+          {
+            "left": "<em>saccus, sacci m.</em>",
+            "right": "saccate, sack"
+          }
+			
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

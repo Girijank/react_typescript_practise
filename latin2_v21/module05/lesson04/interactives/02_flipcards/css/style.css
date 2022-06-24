@@ -1,0 +1,14 @@
+#flipcard01 .fev-wrapper {
+  width: 630px;
+  height: 343px;
+  /* background-color: darkgrey; */
+}
+
+#card_04, #card_03, #card_02, #card_01 {
+  width: 280px;
+}
+
+/* #card_02 {
+  width: 160px;
+  height: 200px;
+} */

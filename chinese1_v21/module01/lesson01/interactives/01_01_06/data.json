@@ -1,0 +1,81 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_01_06/styles.css"],
+    "disableRemoteCss": true,
+
+    "_customTextversionAll": "textversion/drag_03.htm",
+    "modal": {
+      "directions": "Match each greeting in Chinese culture with a similar greeting in U.S. culture.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "Match each greeting in Chinese culture with a similar greeting in U.S. culture.",
+        "bins": [
+          {
+            "title": "What’s up?",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are right! Food always comes first in Chinese culture.",
+                "incorrect": "Not quite. Try again.",
+                "text": "<span lang='zh-Hans'>吃了吗</span>? Chīle ma?"
+              }
+            ]
+          },
+          {
+            "title": "Hello!",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "Very nice job! <span lang='zh-Hans'>你好</span> nǐhǎo (“you good”) is a good way to start a conversation.",
+                "incorrect": "Not quite… think again. You can refer to your notes for more information.",
+                "text": "<span lang='zh-Hans'>你好</span> Nǐhǎo"
+              }
+            ]
+          },
+          {
+            "title": "Hello (with respect).",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "Very well done! People of old age are highly respected in the Chinese culture. Always use <span lang='zh-Hans'>您</span> nín to express your respect.",
+                "incorrect": "Oops… please try again. You can refer to your notes for more information.",
+                "text": "<span lang='zh-Hans'>您好</span> nínhǎo"
+              }
+            ]
+          },
+          {
+            "title": "Good afternoon.",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "Totally awesome! <span lang='zh-Hans'>下午好</span>！xiàwǔhǎo! – “afternoon good.” It’s a universal greeting, isn’t it? Again, think Yoda for word order.",
+                "incorrect": "So close… please try again. You can refer to your notes for more information.",
+                "text": "<span lang='zh-Hans'>下午好</span> xiàwǔ hǎo"
+              }
+            ]
+          },
+          {
+            "title": "How’s it going?",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You nailed it! Greeting phrases such as “Where are you going?,” “Are you busy lately?,” and “Are you going to work?” are a quick way to check on friends.",
+                "incorrect": "Not quite… would you like to check your notes for more hints?",
+                "text": "<span lang='zh-Hans'>最近忙吗</span>？ Zuìjìn máng ma?"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

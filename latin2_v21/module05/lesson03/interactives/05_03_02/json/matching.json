@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>pars, partis</em>",
+            "right": "partition, party, impart"
+          },
+          {
+            "left": "<em>pons, pontis m.</em>",
+            "right": "pontoon"
+          },
+          {
+            "left": "<em>senator, senatoris m.</em>",
+            "right": "senatorial"
+          },
+          {
+            "left": "<em>mille</em>",
+            "right": "millennial, millipede"
+          },
+          {
+            "left": "<em>scutum, scuti n.</em>",
+            "right": "scute"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

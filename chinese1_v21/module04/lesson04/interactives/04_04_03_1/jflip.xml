@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer>Select the question card to reveal the answer behind the card.</directionsTextVer>
+	<width>200</width>
+	<height>200</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/02_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<p><strong>Select the character that applies the following writing rule:</strong></p><p>Write left-falling strokes, then right-falling ones.</p><p>A: <span lang="zh-Hans">书</span>     B: <span lang="zh-Hans">会 </span>    C: <span lang="zh-Hans">要</span>     D: <span lang="zh-Hans">画</span></p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>B: <span lang="zh-Hans">会</p><img src="interactives/04_04_03_1/images/image1.png" alt="stroke sequence for huì">]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><strong>Select the character that applies the following writing rule:</strong></p><p>For “inside and outside” characters, the outside frame (completely or half-closed) is completed last.</p><p>A: <span lang="zh-Hans">书</span>     B: <span lang="zh-Hans">要 </span>    C: <span lang="zh-Hans">术</span>     D: <span lang="zh-Hans">画</span></p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>D: <span lang="zh-Hans">画</p><img src="interactives/04_04_03_1/images/image2.png" alt="stroke sequence for huà">]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><strong>Select the character that has final “ang” in its pinyin:</strong></p><p>A: <span lang="zh-Hans">上</span>     B: <span lang="zh-Hans">午 </span>    C: <span lang="zh-Hans">科</span>     D: <span lang="zh-Hans">艺</span></p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>A: <span lang="zh-Hans">上</p><p><span lang="zh-Hans">上</span> shàng</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<p><strong>Select the character that has initial “t” in its pinyin:</strong></p><p>A: <span lang="zh-Hans">科</span>     B: <span lang="zh-Hans">午</span>    C: <span lang="zh-Hans">听</span>     D: <span lang="zh-Hans">星</span></p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>C: <span lang="zh-Hans">听</p></p><p><span lang="zh-Hans">听</span> tīng</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

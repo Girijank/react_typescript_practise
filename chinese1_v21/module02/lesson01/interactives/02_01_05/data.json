@@ -1,0 +1,69 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_01_05/styles.css"],
+    "intMedia": "interactives/02_01_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>肉</span> ròu"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following professions is most likely associated with the word presented?</p>",
+        "answer": "Butcher",
+        "options": ["Salesperson", "Teacher", "Accountant"],
+        "correct": " Job well done! <span lang='zh-Hans'>肉</span><em>ròu</em> means “meat,” and it is best handled by a butcher.",
+        "incorrect": "Very close. Listen to the one syllable word carefully and think about its meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>猪肉</span> zhūròu"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does <strong>not</strong> fall in the same category as the word presented?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>教授</span> jiàoshòu</span><audio class='audio' controls src='interactives/02_01_05/intmedia/professor.mp3' ></audio> ", 
+            
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>鸡肉</span> jīròu</span><audio class='audio' controls src='interactives/02_01_05/intmedia/chicken.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>牛肉</span> niúròu</span><audio class='audio' controls src='interactives/02_01_05/intmedia/beef.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>鱼肉</span> yúròu</span><audio class='audio' controls src='interactives/02_01_05/intmedia/fish.mp3' ></audio>"
+        ],
+        "correct": "Awesome job! <span lang='zh-Hans'>猪肉</span><em> zhūròu</em> (pork), <span lang='zh-Hans'>鸡肉</span><em> jīròu</em>(chicken), <span lang='zh-Hans'>牛肉</span><em> niúròu</em> (beef), and <span lang='zh-Hans'>鱼肉</span><em> yúròu</em>(fish) are all meats, while<span lang='zh-Hans'>教授</span><em> jiàoshòu</em> means “professor” —although the pronunciations are quite similar.",    
+        "incorrect": "Oops... listen to the audios in the options again, and pay attention to the use of different initials for the second characters.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>和</span> hé"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following phrases can the word presented best complete?</p>",
+        "answer": "<span lang='zh-Hans'>你</span>____ <span lang='zh-Hans'>我</span> nǐ ___ wǒ",
+        "options": [
+          "<span lang='zh-Hans'>他</span> ____ <span lang='zh-Hans'>矮</span> tā ____ ǎi",
+          "<span lang='zh-Hans'>她</span> ____ <span lang='zh-Hans'>头发</span> tā ____ tóufà",
+          "<span lang='zh-Hans'>我</span> ____ <span lang='zh-Hans'>肉</span> wǒ ___ ròu"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>和</span><em> hé</em> means “and” and can be used to connect two words of the same type such as the pronouns “you” and “I.”",
+        "incorrect": "So close! Please think about the meaning of <span lang='zh-Hans'>和</span><em> hé</em> and how it can function in a phrase or sentence.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

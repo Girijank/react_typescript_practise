@@ -1,0 +1,661 @@
+/*======================================
+CSS DOCUMENT FOR HOME PAGE
+======================================*/
+:root {
+  --main-bg: #FFF;
+  --main-color: #355688;
+  --main-hover: #4f7abb;
+  --fade: 300ms ease all;
+  --font-header: "Bitter", Arial, Helvetica, sans-serif;
+  --font-main: "Bitter", Helvetica, Arial, sans-serif;
+  --font-default: "Bitter", Helvetica, Arial, sans-serif;
+  --helper: #66B7AE;
+  --link-bg: #D2E8E5;
+  --text-light: #EAEAEA;
+  --text-main: #333333;
+}
+
+html {
+  min-height: 100vh;
+  background: #d76eff url("../images/home/index_latin.jpg") no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#course_title {
+  display: none;
+}
+
+img.course_title {
+  width: 58%;
+  margin: 0 auto;
+  margin-top: 11%;
+}
+
+body {
+  color: var(--main-bg);
+  min-height: 100%;
+  background-color: transparent;
+  font-family: var(--font-main);
+}
+
+.index_border {
+  border: 19px solid #d76eff;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+}
+
+#course_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+main {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.bg_txt {
+  position: relative;
+  top: 0;
+  width: 550px;
+  background: rgba(50, 78, 103, 0.87);
+  padding: 10px;
+  color: var(--main-bg);
+  margin: 0 auto;
+  text-align: left;
+}
+.bg_txt h4 {
+  text-align: center;
+}
+
+nav {
+  display: none;
+}
+
+.menuGS_Coll {
+  position: relative;
+  margin: 15px auto;
+  width: auto;
+  height: 35px;
+  transition: 500ms ease all;
+  background: url("../images/home/cgsbg.png") top left no-repeat;
+  background-position: center;
+}
+
+#cgsbg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 4vh);
+  width: auto;
+  height: auto;
+}
+
+div#gs_1 {
+  position: absolute;
+  left: 20%;
+  margin: auto;
+  top: 20%;
+  background-color: #d76eff;
+  padding: 0px 24px;
+  height: 24px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+div#gs_2 {
+  position: absolute;
+  right: 20%;
+  margin: auto;
+  top: 20%;
+  background-color: #d76eff;
+  padding: 0px 24px;
+  height: 24px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+#gs_1 a {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 6px 12px 3px;
+  text-decoration: none;
+}
+#gs_1 a:hover {
+  text-decoration: none;
+  color: #b64140;
+}
+
+#gs_2 a {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 6px 12px 3px;
+  text-decoration: none;
+}
+#gs_2 a:hover {
+  text-decoration: none;
+  color: #b64140;
+}
+
+.modules {
+  position: relative;
+  margin: 15px auto 0;
+  top: 50%;
+  width: 752px;
+  z-index: 951;
+  transition: 500ms ease all;
+}
+
+.moduleLink {
+  width: auto;
+  margin-right: 0;
+  position: relative;
+  opacity: 1;
+  transition: 140ms linear all;
+}
+.moduleLink:hover {
+  background-color: #d76eff;
+}
+.moduleLink a {
+  width: 125px;
+  height: 125px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: var(--font-header);
+  color: #530a59;
+  text-decoration: none;
+}
+.moduleLink a span {
+  text-shadow: 0px 0px 4px #000000;
+}
+.moduleLink .lessons {
+  background: rgba(239, 239, 239, 0.9);
+  border-radius: 0;
+  border-style: none;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.3);
+  bottom: 80px;
+  display: none;
+  margin-left: -16px;
+  overflow: visible;
+  padding: 10px;
+  position: absolute;
+  width: 600px;
+  z-index: 999;
+}
+.moduleLink .lessons a {
+  border-bottom: 1px solid lightgray;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  padding: 6px 6px 6px 10px;
+  text-align: left;
+}
+.moduleLink div.lessons a span:first-child {
+  font-weight: bold;
+}
+.moduleLink img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.moduleLink .hover {
+  opacity: 0;
+  transition: 250ms ease all;
+}
+.moduleLink .hover:hover {
+  opacity: 1;
+}
+
+.moduleLink.selected {
+  background-color: #d76eff;
+}
+.moduleLink.selected a {
+  color: #530a59;
+}
+.moduleLink.selected .hover {
+  opacity: 1;
+}
+
+#module1 {
+  background: url("../images/home/mod_1_icon_teal.png") no-repeat top center;
+  background-size: contain;
+}
+#module1:hover {
+  background: url("../images/home/mod_1_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+#module2 {
+  background: url("../images/home/mod_2_icon_teal.png") no-repeat top center;
+  background-size: contain;
+}
+#module2:hover {
+  background: url("../images/home/mod_2_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+#module3 {
+  background: url("../images/home/mod_3_icon_teal.png") no-repeat top center;
+  background-size: contain;
+}
+#module3:hover {
+  background: url("../images/home/mod_3_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+#module4 {
+  background: url("../images/home/mod_4_icon_teal.png") no-repeat top center;
+  background-size: contain;
+}
+#module4:hover {
+  background: url("../images/home/mod_4_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+#module5 {
+  background: url("../images/home/mod_5_icon_teal.png") no-repeat top center;
+  background-size: contain;
+}
+#module5:hover {
+  background: url("../images/home/mod_5_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+#module6 {
+  background: url("../images/home/mod_6_icon_teal.png") no-repeat top center;
+  background-size: contain;
+}
+#module6:hover {
+  background: url("../images/home/mod_6_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+.moduleLink.selected#module1 {
+  background: url("../images/home/mod_1_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+.moduleLink.selected#module2 {
+  background: url("../images/home/mod_2_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+.moduleLink.selected#module3 {
+  background: url("../images/home/mod_3_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+.moduleLink.selected#module4 {
+  background: url("../images/home/mod_4_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+.moduleLink.selected#module5 {
+  background: url("../images/home/mod_5_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+.moduleLink.selected#module6 {
+  background: url("../images/home/mod_6_icon.png") no-repeat top center;
+  background-size: contain;
+}
+
+.moduleLink.invisible {
+  opacity: 0;
+}
+
+.subMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modcase {
+  padding: 11px 10px;
+  display: inline;
+  text-align: left;
+  width: 175px !important;
+}
+
+.closeMe {
+  color: var(--main-color);
+  padding: 5px 7px;
+  font-size: 20px;
+  height: 36px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 180ms ease all;
+  margin-left: 5%;
+  margin-top: 20px;
+  z-index: 999;
+}
+.closeMe:hover {
+  color: var(--helper);
+  font-size: 24px;
+  padding: 3px 5px;
+}
+
+#lesson_popup {
+  background: #1c1d4d;
+  opacity: 0.9;
+  width: -webkit-calc(100% - 38px);
+  width: -moz-calc(100% - 38px);
+  width: calc(100% - 38px);
+  position: absolute;
+  overflow: hidden;
+  transition: all 300ms ease 100ms;
+  top: 100%;
+  left: 19px;
+  text-align: left;
+  z-index: 999;
+}
+
+#content.open #lesson_popup {
+  height: calc(50% - 50px);
+  top: calc(50% + 70px);
+}
+#content.open div#title {
+  background-position: center 0;
+}
+
+.lesson {
+  display: none;
+  margin: -40px 0 0 40px;
+  overflow: hidden;
+  z-index: 700;
+}
+.lesson > .col-sm-3 {
+  width: 36%;
+}
+
+div#lessons {
+  border: none;
+  margin: auto;
+  text-align: left;
+  max-width: 860px;
+  width: 100%;
+}
+div#lessons a {
+  font-family: var(--font-main);
+  font-size: 15px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  transition: 140ms ease all;
+  float: left;
+  margin-bottom: -15px;
+  clear: left;
+  width: 100%;
+}
+div#lessons p, div#lessons .lesson_name {
+  font-weight: 300;
+}
+div#lessons .moduleTitle {
+  font-family: var(--font-header);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  display: inline;
+  text-align: left;
+}
+
+#lessons a:hover {
+  color: #55eefc;
+  background-color: transparent;
+}
+
+.lesson.active {
+  display: block;
+}
+
+.lesson_name {
+  width: 220px;
+  display: inline-block;
+  float: left;
+}
+
+span.linkColor.lesson_num {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 902;
+}
+
+#footer_inner {
+  width: 100%;
+  padding: 0;
+}
+
+#footer_copyright {
+  margin: 0;
+  background-color: #d76eff;
+  padding: 0 29px 19px 0;
+  border: none;
+  text-align: right;
+  width: 100%;
+}
+#footer_copyright span {
+  position: absolute;
+  right: 73px;
+  bottom: 18px;
+}
+
+.developers {
+  position: fixed !important;
+  bottom: 40px;
+  left: 10px;
+  z-index: 999;
+}
+.developers a {
+  color: black;
+  padding: 4px 8px 2px 14px;
+}
+
+#nav_menu .nav_menu_modules li:last-child a.modlink {
+  margin-bottom: 0;
+}
+
+#wrapper #nav_menu {
+  margin-top: 0;
+}
+
+.segments {
+  position: relative;
+  left: 50px;
+  padding-bottom: 70px;
+}
+.segments img {
+  padding-right: 30px;
+}
+
+@media (max-width: 1024px) {
+  .moduleLink img {
+    width: 85px;
+  }
+
+  #content {
+    padding: 0;
+  }
+
+  div#lessons {
+    width: 100%;
+  }
+
+  .menuGS_Coll {
+    width: 80%;
+  }
+
+  .closeMe {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  img.course_title {
+    width: 70%;
+    margin: 13% auto 0;
+  }
+}
+@media (max-height: 800px) {
+  .moduleLink {
+    width: 80px;
+  }
+  .moduleLink a {
+    width: 80px;
+    height: 80px;
+  }
+  .moduleLink img {
+    width: 80px;
+  }
+
+  #content {
+    padding: 0;
+  }
+
+  div#lessons {
+    width: 100%;
+  }
+
+  .menuGS_Coll {
+    width: 80%;
+  }
+
+  .closeMe {
+    margin-top: 0;
+  }
+
+  .lesson_name {
+    float: none;
+    display: unset;
+  }
+}
+@media (max-width: 870px) {
+  .closeMe {
+    display: none;
+  }
+
+  #lesson_popup {
+    padding-top: 40px;
+  }
+
+  div#lessons .moduleTitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    color: white;
+  }
+  div#lessons a {
+    font-size: 14px;
+    padding: 9px 10px;
+  }
+
+  .moduleLink img {
+    width: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .lesson > .col-sm-3 {
+    width: 36%;
+  }
+}
+@media (max-height: 700px) {
+  .closeMe {
+    display: none;
+  }
+
+  #lesson_popup {
+    padding-top: 40px;
+  }
+
+  div#lessons .moduleTitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    color: white;
+  }
+  div#lessons a {
+    font-size: 14px;
+    padding: 9px 10px;
+  }
+
+  .moduleLink img {
+    width: 80px;
+  }
+}
+@media (min-width: 1024px) and (max-height: 604px) {
+  .closeMe {
+    display: none;
+  }
+
+  #lesson_popup {
+    padding-top: 30px;
+  }
+
+  div#lessons .moduleTitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    color: white;
+  }
+
+  .moduleLink img {
+    width: 80px;
+  }
+
+  #footer_copyright {
+    padding: 10px 20px;
+  }
+
+  #nav_menu ul.nav_menu_modules li a.modlink {
+    padding: 9px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

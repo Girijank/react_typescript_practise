@@ -1,0 +1,74 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_03_03/styles.css"],
+    "intMedia": "interactives/03_03_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "both_all.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>都</span> dōu  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>cannot </strong>be used to describe the word in the audio?</p>",
+        "answer": "One student",
+        "options": ["Two parents", "Fifteen teachers", "Three sisters"],
+        "correct": "Excellently done! <span lang='zh-Hans'>都</span> dōu means “both/all,” and it’s used to describe two or more persons or objects.",
+        "incorrect": "Not quite. Listen to the audio again, think about its meaning, and the quantity it can be used to describe. You got this!",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/03_03_03/customview_imgbtn.htm"
+      },
+      {
+        "type": "localAudio",
+        "src": "funny_comic.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>好笑</span> hǎoxiào"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following cannot be used to describe the word in the audio?</p>",
+        "answer": "<span class='fortv'>Image of woman comforting upset man</span><img src='interactives/03_03_03/images/upset_man.jpg' alt='Woman comforting upset man'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of dog with glasses and bulging eyes</span><img src='interactives/03_03_03/images/dog.jpg' alt='Dog with glasses and bulging eyes'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of man working on computer while his daughters give him a make-over </span><img src='interactives/03_03_03/images/man.jpg' alt='Man working on computer while his daughters give him a make-over'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of white hamster as music star singing with microphone and holding guitar on the stage</span><img src='interactives/03_03_03/images/guitar.jpg' alt='white hamster as music star singing with microphone and holding guitar on the stage'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Fabulous job! <span lang='zh-Hans'>好笑</span> hǎoxiào means funny or comical. Of the four choices, the last image is the least likely funny or comical.",
+        "incorrect": "So close! Listen again and identify the meaning of the word in the audio; then consider what kind of emotion it depicts.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "pretty.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'> 漂亮</span> piàoliàng "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the antonym of the word in the audio?</p>",
+        "answer": "<span class='fortv'> Audio for <span lang='zh-Hans'>丑</span> chǒu</span><audio class='audio' controls src='interactives/03_03_03/intmedia/ugly.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>帅</span> shuài</span><audio class='audio' controls src='interactives/03_03_03/intmedia/handsome.mp3' ></audio>",
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>高</span> gāo</span><audio class='audio' controls src='interactives/03_03_03/intmedia/tall.mp3' ></audio>",
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>矮</span> ǎi</span><audio class='audio' controls src='interactives/03_03_03/intmedia/short.mp3' ></audio>"
+        ],
+        "correct": "Outstanding job! <span lang='zh-Hans'>漂亮</span> piàoliàng means “pretty”; therefore, its antonym (opposite) is <span lang='zh-Hans'>丑</span> chǒu (ugly).",
+        "incorrect": "Not quite… think about the meaning of the word in the audio and consider its antonym (word with opposite meaning).",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

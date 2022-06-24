@@ -1,0 +1,163 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_01_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/04_01_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word; then drag it to the initial or final that you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “k”",
+            "limit": 3,
+            "item": [
+              {
+                "correct": "You’ve done a great job identifying  the “k” sound. You’ve got an ear!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>开朗</span> kāilǎng (outgoing)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/outgoing.mp3",
+                    "textVersion": "<span lang='zh-Hans'>开朗</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying  the “k” sound. You’ve got an ear!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>不客气</span> búkèqì(you are welcome)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/you_are_welcome.mp3",
+                    "textVersion": "<span lang='zh-Hans'>不客气</span> búkèqì",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying  the “k” sound. You’ve got an ear!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>巧克力</span> qiǎokèlì(chocolate)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/chocolate.mp3",
+                    "textVersion": "<span lang='zh-Hans'>巧克力</span> qiǎokèlì ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “a” ",
+            "limit": 3,
+            "item": [
+              {
+                "correct": "What an outstanding job! You’ve identified the “a” sound. You are on a roll!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>他/她/它</span> tā (he/she/it)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/he_she_it.mp3",
+                    "textVersion": "<span lang='zh-Hans'>他/她/它</span> tā ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "What an outstanding job! You’ve identified the “a” sound. You are on a roll!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>苏打</span> sūdǎ(soda)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/soda.mp3",
+                    "textVersion": "<span lang='zh-Hans'>苏打</span> sūdǎ ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "What an outstanding job! You’ve identified the “a” sound. You are on a roll!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>叉子</span> chāzi(fork)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/fork.mp3",
+                    "textVersion": "<span lang='zh-Hans'>叉子</span> chāzi",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “üe” ",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "Totally awesome! You’ve identified the “üe” sound. Terrific!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>月</span> yuè(month)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/month.mp3",
+                    "textVersion": "<span lang='zh-Hans'>月</span> yuè ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Totally awesome! You’ve identified the “üe” sound. Terrific!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>学校</span> xuéxiào (school)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_01_02/media/school.mp3",
+                    "textVersion": "<span lang='zh-Hans'>学校</span xuéxiào >",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }       
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

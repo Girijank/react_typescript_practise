@@ -1,0 +1,21 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "truefitb",
+        "quiz": "In the blanks, write the correct noun form. Be careful with spelling!<br /><br />For example:<br />Noun: pars, partis f. share, part<br />English: Genitive plural f.<br />Latin Answer: partium<br /><br /><table class='table table-bordered'><thead><tr><th scope='col'>Latin Noun to Use</th><th scope='col'>Identification</th><th scope='col'>Latin Answer</th></tr></thead><tbody><tr><td>Arx, arcis f. citadel</td><td>Accusative singular f.</td><td>*_</td></tr><tr><td>Navis, navis f. ship</td><td>Ablative singular f.</td><td>*_</td></tr><tr><td>Canis, canis m. dog</td><td>Genitive plural m.</td><td>*_</td></tr><tr><td>Pars, partis f. share</td><td>Dative singular f.</td><td>*_</td></tr></tbody></table>",
+        "answers": [
+          "arcem",
+          "navi",
+          "canium",
+          "parti"
+        ]
+      }
+    ]
+  ]
+}

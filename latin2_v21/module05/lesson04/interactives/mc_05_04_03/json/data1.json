@@ -1,0 +1,150 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": "",
+    "showInteractive": "Show Interactive",    
+    "theme": "standard",
+    "css": [
+      "../../global/css/fev_styles/fevng_mc.css",
+      "interactives/mc_05_04_03/css/styles.css"
+    ]
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Choose the best translation for each participle. Rest your cursor on the choices to see the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<em>praised</em> ",
+         
+          "<em>praising</em> "
+        ],
+        "quiz": "laudaturus",
+        "answer": "<em>going to praise</em> ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": ["<em>going to warn</em>   ",  "<em>warning  </em>"],
+        "quiz": "monita",
+        "answer": "<em>warned</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": ["<em>going to lead  </em>   ",  "<em>leading  </em>"],
+        "quiz": "ductus",
+        "answer": "<em>led</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ]
+
+    ,
+    [
+      {
+        "type": "mc",
+        "options": ["<em>felt </em>   ",  "<em>going to feel </em>"],
+        "quiz": "sensurum",
+        "answer": "<em>about to feel</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ]
+
+
+    ,
+    [
+      {
+        "type": "mc",
+        "options": ["<em>done/made    </em>   ",  "<em>doing/making</em>"],
+        "quiz": "facturus",
+        "answer": "<em>going to do/going to make</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ]
+
+    ,
+    [
+      {
+        "type": "mc",
+        "options": ["<em>warned     </em>   ",  "<em>going to warn   </em>"],
+        "quiz": "monens",
+        "answer": "<em>warning</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ]
+
+
+    ,
+    [
+      {
+        "type": "mc",
+        "options": ["<em>going to love </em>   ",  "<em>loved </em>"],
+        "quiz": "amans",
+        "answer": "<em>loving</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ]
+
+
+    ,
+    [
+      {
+        "type": "mc",
+        "options": ["<em>seeing     </em>   ",  "<em>going to see   </em>"],
+        "quiz": "visus",
+        "answer": "<em>seen</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ]
+
+    ,
+    [
+      {
+        "type": "mc",
+        "options": ["<em>said     </em>   ",  "<em>saying  </em>"],
+        "quiz": "dictura",
+        "answer": "<em>going to say</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": ["<em>done     </em>   ",  "<em>doing  </em>"],
+        "quiz": "acturus ",
+        "answer": "<em>going to do</em>  ",
+        "incorrect": "You’re almost there!  then try again.",
+        "correct": "Outstanding!",
+        "failed": "That’s not it, but you’re making progress!  You’ll get it next time!"
+      }
+    ]
+    
+  ]
+}

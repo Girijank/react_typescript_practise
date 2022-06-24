@@ -1,0 +1,219 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_08_02/styles.css"],
+    "progressBar": true,
+    "resultsPage": false
+  },
+  "body": [    
+    [{
+      "type": "config",
+      "customView": "interactives/03_08_02/index.htm",
+      "directions": "Read the question, and then select the correct answer."
+    },{
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>他比较开朗。</span>Tā bǐjiào kāilǎng.",
+          "<span lang='zh-Hans'>它很高。</span> Tā hěn gāo.",
+          "<span lang='zh-Hans'>它比较害羞。</span> Tā bǐjiào hàixiū."
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "Teenaged boy hiding his face",
+          "src": "interactives/03_08_02/intmedia/boy.jpg",
+          "copyright":"©iStock",
+          "textVersion":"Image of Teenaged boy hiding his face"
+        },
+        "quiz": "Which of the following sentences in Chinese best describes the image?",
+        "answer": "<span lang='zh-Hans'>他有点害羞。</span> Tā yǒudiǎn hàixiū.",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/03_08_02/index.htm"
+      },{
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>她是刘医生。她今年二十六岁。</span>Tā shì Liú Yīshēng. Tā jīnnián èrshíliù suì.",
+          "<span lang='zh-Hans'>她是刘老师。她今年二十六岁。</span> Tā shì Liú Lǎoshī. Tā jīnnián èrshíliù suì.",
+          "<span lang='zh-Hans'>她是刘老师。她今年六十二岁。</span> Tā shì Liú Lǎoshī. Tā jīnnián liùshíèr suì."
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "Portrait of an older female doctor standing in a hospital room",
+          "src": "interactives/03_08_02/intmedia/doctor.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "Which of the following sentences in Chinese best describes the person in the image whose last name is <span lang='zh-Hans'>刘</span> liú?",
+        "answer": "<span lang='zh-Hans'>她是刘医生。她今年六十二岁。</span> Tā shì Liú Yīshēng. Tā jīnnián liùshíèr suì.",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [{
+      "type":"text",
+      "content":"Read the introduction in Chinese below, and then answer the question that follows. <span lang='zh-Hans'>你好！我叫</span> Jackie。<span lang='zh-Hans'>我从佛罗里达州来。我的电话号码是八一七六四六八。我的朋友叫Nina。她从加利福尼亚州来。她的电话号码是六四五三一八二。</span> <br> Nǐhǎo! Wǒ jiào Jackie. Wǒ cóng Fóluólǐdá Zhōu lái. Wǒ de diànhuà hàomǎ shì bāyīqīliùsìliùbā. Wǒ de péngyǒu jiào Nina. Tā cóng Jiālìfúníyà Zhōu lái. Tā de diànhuà hàomǎ shì liùsìwǔsānyībā’èr. "
+    },
+      {
+        "type": "mc",
+        "quiz": "According to the paragraph, which city can the narrator be from?  ",
+        "answer": "Orlando",
+        "options": [
+          "Loa Angeles",
+          "New York City",
+          "Washington D. C."
+        ],
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items best matches the provided description written in Chinese? <span lang='zh-Hans'>它有蔬菜，肉和水。</span> Tā yǒu shūcài, ròu hé shuǐ.</p>",
+        "options": ["<span lang='zh-Hans'>茶</span> chá", 
+          "<span lang='zh-Hans'>奶酪</span> nǎilào", 
+          "<span lang='zh-Hans'>牛奶</span> niúnǎi"],
+        "answer": "<span lang='zh-Hans'>汤</span>  tāng",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [{
+      "type":"text",
+      "content":"Lili and Keysie are close friends. They sometimes stay at Lili’s house after school to do their homework together. This afternoon when the two finish their homework, they start to discuss their favorite foods. Below is what Lili says about her preferences of foods. "
+    },
+    {
+      "type": "localAudio",
+      "src": "interactives/03_08_02/intmedia/i_somewhat_like_carrots_but_like_broccoli_the_most.mp3",
+      "textVersion": "Audio for I somewhat like carrots, but I like broccoli the most. I don’t like fish at all, but I like chicken a little."
+    },
+    {
+      "type": "mc",
+      "quiz": "<p>According to Lili’s statement, which of the following shows the foods she likes from the most to the least?</p>",
+      "options": ["<span lang='zh-Hans'>胡萝卜</span> húluóbo; <span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>鱼肉</span> yúròu; <span lang='zh-Hans'>鸡肉</span> jīròu", 
+        "<span lang='zh-Hans'>胡萝卜</span> húluóbo; <span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>牛肉</span> niúròu; <span lang='zh-Hans'>猪肉</span> zhūròu", 
+        "<span lang='zh-Hans'>三明治</span> sānmíngzhì; <span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>猪肉</span> zhūròu; <span lang='zh-Hans'>鸡肉</span> jīròu"],
+      "answer": "<span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>胡萝卜</span> húluóbo; <span lang='zh-Hans'>鸡肉</span> jīròu; <span lang='zh-Hans'>鱼肉</span> yúròu",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+      "failedHeading": "Not quite, but you'll get it soon!"
+    }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "The components are written from left to right.",
+          "Write left-falling strokes, and then write right-falling ones.",
+          "Write horizontal strokes, and then write vertical ones."
+        ],
+        "quiz": "According to the stroke sequence below, which writing rule does the character <span lang='zh-Hans'>盘</span> follow? <br/><br/><span class='fortv'>Image of Stroke sequence for pán</span>  <img class='imgstroke' alt='Stroke sequence for pán' src='interactives/03_08_02/intmedia/strokes_flvs.jpg'>",
+        "answer": "The components are written from top to bottom.",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [ {
+      "type": "config",
+      "customView": "interactives/03_08_02/index.htm"
+    },{
+      "type": "mc",
+      "options": [
+        "<span lang='zh-Hans'>妈妈</span> māma",
+        "<span lang='zh-Hans'>姐姐</span> jiějie",
+        "<span lang='zh-Hans'>女儿</span> nüér"
+      ],
+      "media": {
+        "type": "image",
+        "id": "image1",
+        "alt": "Portrait of smiling, mid-adult woman in casual clothing",
+        "src": "interactives/03_08_02/intmedia/women.jpg",
+        "copyright":"©iStock"
+      },
+      "quiz": "Which of the following is <strong>least</strong> likely a family role that the person in the image takes? ",
+      "answer": "<span lang='zh-Hans'>爷爷</span> yéye",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+      "failedHeading": "Not quite, but you'll get it soon!"
+    }
+    ],   
+    [
+    {
+      "type": "localAudio",
+      "src": "interactives/03_08_02/intmedia/paternalgrandpa.mp3",
+      "textVersion": "Audio for <span lang='zh-Hans'>我的爷爷秃顶了，我的奶奶有眼镜，他们很善良。</span>Wǒde yéye tūdǐng le, wǒde nǎinai yǒu yǎnjìng, tāmen hěn shànliáng."
+    },
+      {
+        "type": "mc",
+        "options": [
+          "My paternal grandma sees very well.",
+          "My paternal grandpa needs a comb.",
+          "My paternal grandpa gets mad all the time."
+        ],   
+        "quiz": "Which of the following statements is true based on the description above? ",
+        "answer": "My paternal grandma treats people well.",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/03_08_02/index.htm"
+      },{
+        "type": "mc",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>高</span> gāo </span><audio class='audio' controls src='interactives/03_08_02/intmedia/tall.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>热</span> rè </span><audio class='audio' controls src='interactives/03_08_02/intmedia/hot.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>瘦</span> shòu</span><audio class='audio' controls src='interactives/03_08_02/intmedia/skinny.mp3' ></audio>"
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "Fat Chihuahua dog, sitting on the desk.",
+          "src": "interactives/03_08_02/intmedia/dog.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "Which of the following adjectives in audio <strong>best</strong> describes the pet in the image?",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>胖</span> pàng </span><audio class='audio' controls src='interactives/03_08_02/intmedia/fat.mp3' ></audio>",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],[
+      {
+        "type": "mc",
+        "quiz": "<p>Tingting is a girl from Shanghai, China. She is just texting her new friend, Yan, when her birthday is. Read the text message she sent.</p><br><p>Tingting: <span lang='zh-Hans'>我的生日是十二月十三日。</span> </p><br><p>In what season is Tingting’s birthday, based on the text message she sent? </p>",
+        "options": ["<span lang='zh-Hans'>春天</span> chūntiān", 
+          "<span lang='zh-Hans'>夏天</span> xiàtiān", 
+          "<span lang='zh-Hans'>秋天</span>  qiūtiān"],
+        "answer": "<span lang='zh-Hans'>冬天</span>  dōngtiān",
+        "correct": "Correct",
+        "incorrect": "Incorrect",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

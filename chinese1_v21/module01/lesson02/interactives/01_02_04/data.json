@@ -1,0 +1,106 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_02_04/styles.css"],
+    "intMedia": "interactives/01_02_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "where_are_you_from.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你从哪里来</span>？ Nǐ cóng nǎlǐ lái? "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following would be a good response to the question from the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>我从</span> Florida <span lang='zh-Hans'>来。</span> Wǒ cóng Florida lái.</span><audio class='audio' controls src='interactives/01_02_04/intmedia/i_am_from_florida.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>早上好</span> zǎoshàng hǎo</span><audio class='audio' controls src='interactives/01_02_04/intmedia/goodmorning.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>我叫</span>  Lily. Wǒ jiào Lili.</span><audio class='audio' controls src='interactives/01_02_04/intmedia/my_name_is_lily.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>我姓</span> Smith. Wǒ xìng Smith.</span><audio class='audio' controls src='interactives/01_02_04/intmedia/my_last_name_is_smith.mp3'></audio>"
+        ],
+        "correct": "You nailed it! The question “<span lang='zh-Hans'>你从哪里来</span>？Nǐ cóng nǎlǐ lái?” is asking where you are from. The response should use the structure “我从…来. Wǒ cóng…lái.” (I am from…).",
+        "incorrect": "Very close. Please try to listen to the audio again. Pay attention to the syllables, and listen to it several times if needed.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "what_about_you.mp3",
+        "textVersion": "Audio for  <span lang='zh-Hans'>你呢</span>? Nǐ ne? "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is an English phrase that’s similar to the question in the audio?</p>",
+        "answer": "What about you?",
+        "options": [
+          "What’s your name?",
+          "Where are you from?",
+          "Where do you live?"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>你呢</span>? Nǐ ne? means “What about you?” The word <span lang='zh-Hans'>呢</span> ne prompts a “what about” question.",
+        "incorrect": "Not quite. Try listening to the audio one more time. Pay attention to the second syllable and think about what kind of word it is.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "where_do_you_live.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你住在哪里</span>？ Nǐ zhùzài nǎlǐ?"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can be given as response to the question in the audio?</p>",
+        "answer": "I live in Miami.",
+        "options": ["She’s my friend.", "My name is Jack.", "Good morning."],
+        "correct": "Excellent job! The question <span lang='zh-Hans'>你住在哪里?</span> Nǐ zhùzài nǎlǐ? means “Where do you live?”",
+        "incorrect": "So close! Please listen again and pay attention to the second part “zhùzài.”",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "he_she_it.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>他</span>/<span lang='zh-Hans'>她</span>/<span lang='zh-Hans'>它</span> tā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does this word not represent?</p>",
+        "answer": "they",
+        "options": ["he", "she", "it"],
+        "correct": "Wonderful job! The pinyin tā corresponds to three different singular pronouns <span lang='zh-Hans'>他</span>(he), <span lang='zh-Hans'>她</span>(she), and <span lang='zh-Hans'>它</span>(it).",
+        "incorrect": "So close! Please listen again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_be.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>是</span> shì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In what situation would you use this word?</p>",
+        "answer": "When I want to state a fact",
+        "options": [
+          "When I want to deny something",
+          "When I want to disagree with someone",
+          "When I want to express my excitement"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>是</span> shì means “to be” to state a fact, just like “is,” “am,” “are,” “was,” and “were” in English.",
+        "incorrect": "Not quite. Think about what type of word this is. You can refer to your notes for more information.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

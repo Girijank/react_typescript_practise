@@ -1,0 +1,42 @@
+<div class="objectLoop" data-quizmo-jqmath data-ng-repeat="object in vm.slide" data-ng-switch data-on="object.type" v-if="object.type !== 'config'">
+
+  <h3 data-ng-switch-when="title" class="il_wb animate-if il_h_wrapper il_question" data-ng-class="{'col-xs-9':vm.slide.image}" data-ng-bind-html="vm.format(object.content)"></h3>
+
+  <p data-ng-switch-when="text" class="il_wb animate-if il_p_wrapper il_question" ng-class="{'col-xs-9':vm.slide.image}" data-ng-bind-html="vm.format(object.content)"></p>
+
+  <div data-ng-switch-when="image" class="col-xs-3">
+    <img data-ng-src="{{ object.src }}" alt="{{ object.alt }}" />
+    <span class="copyright" data-ng-bind-html="vm.format(object.data.copyright)"></span>
+  </div>
+
+  <div data-ng-switch-when="video" data-ng-attr-id="{{object.id}}" class="il_wb animate-if il_question">
+    <div data-quizmo-kaltura id="{{object.entryID}}" object="object"></div>
+  </div>
+
+  <div data-ng-switch-when="fitb" class="il_wb animate-if fitb" data-ng-class="{'col-xs-9':vm.slide.image}">
+    <div class="il_question il_wb_question">
+      <span class="sentence_begin" ng-bind-html="vm.format(object.text.first)"></span>
+
+      <span class="il_wb_sentence_frag" data-ng-repeat="select in object.options">
+
+        <span ng-class="{wrong: object.answer[$index].wrong}" class="il_wb_select_parent">
+          <select id="il_wb_select_{{$index}}"
+                  class="il_wb_select select{{$index}}"
+                  data-quizmo-jqmath
+                  data-ng-options="option for option in object.options[$index].options"
+                  data-ng-change="vm.fitbChange($index, question.fitbOption[$index])"
+                  data-ng-model="object.fitbOption[$index]">
+            <option value=""></option>
+          </select>
+
+          <span class="text-danger"
+                title="answer is incorrect">&cross;</span>
+            </span>
+
+            <span class="sentence{{$index}}" ng-bind-html="vm.format(object.text[$index])"></span>
+            </span>
+
+      <span class="sentence_begin" ng-bind-html="vm.format(object.text.last)"></span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.grid figure {
+    width: 48%;
+}
+
+figure.sm-text p{
+    font-size:12px;
+    padding:1px 0!important;
+}
+
+
+@media (max-width: 768px) {
+    figure.sm-text p{
+        font-size:10px;
+        padding:0px 0!important;
+    }
+    figure.md-text p{
+        font-size:14px;
+    }
+}

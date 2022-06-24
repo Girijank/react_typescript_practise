@@ -1,0 +1,76 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/01_07_01_timeline/intmedia/",
+		"css":["interactives/01_07_01_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [			
+			{
+				"date": "753 BCE",
+				"content": "<strong>The Founding of Rome: 753 BCE</strong><ul><li>Establishment of the Roman Monarchy</li></ul>",
+				"image": "timeline_img2_gi.jpg",
+				"caption": "Rome",
+				"copyright": "",
+				"alt":"Picture of Roman Forum ruins"
+			},
+			{
+				"date": "753 BCE–715 BCE",
+				"content": "<strong>I am Romulus, 1<sup>st</sup> King of Rome.</strong> I ruled from: 753 BCE–715 BCE. I am known for:<ul><li>establishing the Roman Monarchy </li></ul>",
+				"image": "timeline_img3.jpg",
+				"caption": "Romulus",
+				"copyright": "©Design Pics Historical Collection / Universal Images Group | Britannica ImageQuest 2021",
+				"alt":"Portrait of Romulus"
+			},
+			{
+				"date": "715 BCE–673 BCE",
+				"content": "<strong>I am Numa Pompilius, 2<sup>nd</sup> King of Rome. </strong>I ruled from: 715 BCE–673 BCE. I am known for: <ul><li>the Temple of Janus</li><li>the nymph Egeria</li><li>the calendar change</li><li>religion/Pontifex Maximus</li><li>peace during my rule </li></ul>",
+				"image": "timeline_img4.jpg",
+				"caption": "Numa Pompilius",
+				"copyright": "Public domain, via Wikimedia Commons",
+				"alt":"Statue of Numa Pompilius with a staff couched on a building facade"
+			},
+			{
+				"date": "673 BCE–642 BCE",
+				"content": "<strong>I am Tullus Hostilius, 3<sup>rd</sup> king of Rome. </strong>I ruled from: 673 BCE–642 BCE. I am known for: <ul><li>being a war-like king</li><li>building the Curia Hostilia</li><li>the defeat of the Albans</li><li>the addition of Albans to Roman Senate</li></ul>",
+				"image": "timeline_img5.jpg",
+				"caption": "Tullus Hostilius",
+				"copyright": "Public domain, via Wikimedia Commons",
+				"alt":"Sketch of the bust of Tullius Histilius with Latin inscription underneath it."
+			},
+			{
+				"date": "642 BCE–617 BCE",
+				"content": "<strong>I am Ancus Marcius, 4<sup>th</sup> King of Rome. </strong>I ruled from: 642 BCE–617 BCE. I am known for: <ul><li>being the grandson of Numa Pompilius</li><li>establishing the prison system</li><li>the defeat of the Latins</li><li>the addition of Latins to Rome</li><li>the Mamertine Prison  </li></ul>",
+				"image": "timeline_img6.jpg",
+				"caption": "Ancus Marcius",
+				"copyright": "©CC BY-SA 4.0, via Wikimedia Commons",
+				"alt":"Coin featuring name and image of Ancus Marius on one side and an equestrian statue over five aqueduct arches on reverse side"
+			},
+			{
+				"date": "616 BCE–579 BCE",
+				"content": "<strong>I am Tarquinius Priscus, 5<sup>th</sup> king of Rome. </strong>I ruled from: c. 616 BCE–579 BCE.  I am known for: <ul><li>the death of Ancus Marcius</li><li>the Etruscan heritage</li><li>increasing the Senate</li><li>plunder funding from wars</li><li>the Circus Maximus</li><li>the Temple of Jupiter Optimus Maximus</li></ul>",
+				"image": "timeline_img7.jpg",
+				"caption": "Tarquinius Priscus ",
+				"copyright": "Public domain, via Wikimedia Commons",
+				"alt":"Coin of bust of Tarquinius Priscus with his name on it."
+			},
+			{
+				"date": "578 BCE–534 BCE",
+				"content": "<strong>I am Servius Tullius, 6<sup>th</sup> king of Rome. </strong>I ruled from: 578 BCE–534 BCE. I am known for the following:<ul><li>marriage to Tarquinia</li><li>prophecy by Tanaquil</li><li>creation of election by Senate</li><li>the Census</li><li>creation of five classes</li><li>the Servian Wall</li><li>murder of spouses by Tarquinius Superbus and Tullia Minor</li></ul>",
+				"image": "timeline_img8.jpg",
+				"caption": "Servius Tullius",
+				"copyright": "Public domain, via Wikimedia Commons",
+				"alt":"Drawing of bust of Servius Tullius with Latin text underneath"
+			},
+			{
+				"date": "534 BCE–510 BCE",
+				"content": "<strong>I am Tarquinius Superbus, 7<sup>th</sup> king of Rome. </strong>I ruled from: c. 534 BCE–510 BCE. I am known for the following:  <ul><li>the assassination of Servius Tullius</li><li>distrust of nobles</li><li>creation of capital punishment</li><li>the Cloaca Maxima</li><li>the Cumaean Sibyl</li><li>Sextus/Lucretia</li><li>exile  </li></ul>",
+				"image": "timeline_img9.jpg",
+				"caption": "Tarquinius Superbus",
+				"copyright": "Public domain, via Wikimedia Commons",
+				"alt":"Bust of Tarquinius Superbus"
+			}
+		]
+	}
+}

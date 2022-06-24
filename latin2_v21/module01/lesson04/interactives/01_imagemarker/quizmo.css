@@ -1,0 +1,29 @@
+#marker.ng_il .viewport {
+    min-height:630px;
+	padding: 40px 20px 25px;
+}
+
+#marker.ng_il .markerPopup {
+	margin: 0px 20px;
+	width: 660px;
+    top: 60px;
+}
+
+#marker.ng_il .markerPopupClose {
+	height: 35px;
+}
+
+.ng_il .il_question_wrapper {
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+.ng_il .il_p_wrapper{
+	position: relative;
+}
+
+.ng_il .il_p_wrapper .copyright{
+	position: absolute;
+    bottom: 5px;
+}

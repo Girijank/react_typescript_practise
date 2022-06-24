@@ -1,0 +1,10 @@
+.margLeft {
+    height: auto;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.ui_flip,
+.ui_flipped {
+    padding: 5px;
+}

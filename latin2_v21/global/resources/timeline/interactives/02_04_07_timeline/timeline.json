@@ -1,0 +1,54 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/02_04_07_timeline/intmedia/",
+		"css":["interactives/02_04_07_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [			
+			{
+				"date": "483 BCE – 273 BCE",
+				"content": "<strong>Etruscan Wars. c483 BCE–273 BCE. </strong>",
+				"image": "timeline_img1.jpg",				
+				"copyright": "©The Granger Collection / Universal Images Group / ImageQuest 2021 ",
+				"caption": "WOUNDED ETRUSCAN detail from Etruscan urn ",
+				"alt":"Image on an Etruscan urn of comrades lifting a wounded soldier into chariot"
+			},
+			{
+				"date": "356 BCE",
+				"content": "<strong>In 356 BCE:</strong><ul><li>The Tarquinians sacrificed 307 Roman prisoners of war in their forum; the Romans publicly killed 358 aristocratic Tarquinians in the forum.</li><li>Since the Etruscan League suffered internal battles, other Etruscan cities did not send aid. </li></ul>",
+				"image": "timeline_img2.jpg",
+				"copyright": "©iStock ",
+				"caption": "Italy",
+				"alt":"Map of Italian cities"
+			},
+			{
+				"date": "353 BCE",
+				"content": "<strong>In 353 BCE: </strong><ul><li>Cerveteri was forced to sign a truce with Rome for 100 years and may have been given the status of <em><span class='glossary'>civitas sine suffragio</span></em> of Rome. </li><li>Tarquinia sued for peace in 351 BCE, and then formed a truce with Rome for 40 years and became Rome’s ally. </li></ul>",
+				"image": "timeline_img3.jpg",
+				"copyright": "©De Agostini / G. Nimatallah / Universal Images Group / ImageQuest 2021 ",
+				"caption": "Trilobate bowl depicting Hannibal's camp in Etruria",
+				"alt":"Trilobate bowl depicting Hannibal's camp in Etruria"
+			},
+			{
+				"date": "294 BCE - 273 BCE",
+				"content": "<ul><li>Rome continued to aggressively pursue Etruscan cities allied with the Samnites, an aboriginal Italian nation, including Volsinii, Perugia, and Arezzo in 294 BCE.  </li><li>Cerveteri fell in 273 BCE, ending the Etruscan Wars. The southern cities were forced to pay tribute, and some cities like Cerveteri, Tarquinia, and Vulci were forced to give up their territory.  </li></ul>",				
+				"image": "timeline_img4.jpg",
+				"copyright": "©iStock",
+				"caption": "Etruscan area",
+				"alt":"Map of northern Italy"
+			},
+			{
+				"date": "3rd c. - 1st c. BCE",
+				"content": "<strong>As a result of both Etruscan wars, Rome:</strong><ul><li>increased its territorial holdings</li><li>set up colonies in Etruscan cities</li><li>created alliances with Etruscan and Latin city-states</li><li>grew its army and military intelligence</li><li>took over the widespread land of Etruria, its agriculture, and its trade routes.</li></ul>",
+				"image": "timeline_img5.jpg",
+				"copyright": "©de Agostini Picture Library / Universal Images Group / ImageQuest 2021",
+				"caption": "Ancient Rome, mapillustration",
+				"alt":"Map of regional Italy regions: Latium et Campania"
+			}
+			
+			
+		]
+	}
+}

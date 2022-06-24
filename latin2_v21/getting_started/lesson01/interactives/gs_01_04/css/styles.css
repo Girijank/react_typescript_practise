@@ -1,0 +1,265 @@
+#custom_interactive {
+    background: url("../intmedia/gs_01_04_navigation_bg_flvs.jpg") no-repeat;
+    width: 660px;
+    height: 489px;
+    position: relative;
+}
+
+@-webkit-keyframes blink {
+    50% {
+        /* border-color: #e0376e; */
+        /* border-color: #f5a61c; */
+        border-color: #25C3F3;
+    }
+}
+
+@keyframes blink {
+    50% {
+        /* border-color: #e0376e; */
+        /* border-color: #f5a61c; */
+        border-color: #25C3F3;
+    }
+}
+
+.dialog_trigger {
+    /* background: rgba(220, 220, 220, 0.5); */
+    background: rgba(220, 220, 220, 0.16);
+    border: 2px dashed transparent;
+   /* animation: blink .5s step-end infinite alternate;
+    -webkit-animation: blink .5s step-end infinite alternate;*/
+    cursor: pointer;
+    border-color: #25C3F3 !important;
+}
+
+.dialog_trigger:hover {
+    background: rgba(220, 220, 220, 0.3);
+    border: none;
+}
+
+#gs_menu,
+#gs_objectives,
+#gs_glossary,
+#gs_toolbox,
+#gs_resource,
+#gs_speechtools,
+#gs_printscreen,
+#gs_progress,
+#gs_homebtn
+
+ {
+    display: block;
+    height: 25px;
+    position: absolute;
+    top: 1px;
+}
+
+#gs_menu {
+    left: 3px;
+    width: 43px;
+}
+
+#gs_objectives {
+    left: 51px;
+    width: 47px;
+}
+#gs_glossary {
+    left: 101px;
+    width: 48px;
+}
+#gs_toolbox {
+    left: 151px;
+    width: 40px;
+}
+#gs_resource {
+    left: 196px;
+    width: 48px;
+}
+#gs_speechtools {
+    left: 248px;
+    width: 60px;
+}
+#gs_printscreen{
+    left: 311px;
+    width: 31px;
+}
+#gs_progress {
+    left: 417px;
+    width: 54px;
+    ;
+}
+
+#gs_homebtn {
+    right: 3px;
+    width: 102px;
+}
+
+#gs_progress {
+    left: 495px;
+    width: 54px;
+}
+/* #gs_notes {
+
+    left: 67px;
+    width: 47px;
+
+}
+
+#gs_glossary {
+    left: 115px;
+    width: 67px;
+}
+
+#gs_printscreen {
+    left: 184px;
+    width: 42px;
+}
+
+#gs_resource {
+    left: 228px;
+    width: 77px;
+}
+
+#gs_objectives {
+    left: 309px;
+    width: 76px;
+}
+
+#gs_bookmark {
+    left: 387px;
+    width: 28px;
+}
+
+#gs_progress {
+    left: 417px;
+    width: 54px;
+    ;
+}
+
+#gs_homebtn {
+    left: 474px;
+    width: 179px;
+} */
+
+
+.custom_dialog {
+    display: none;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    z-index: 2;
+    padding: 3px;
+    /* border: 2px solid #ccc;
+    background: #fff; */
+    /* border: 2px solid #9eed37; */
+    /* background-color: #171717; */
+    border-radius: 5px;
+}
+
+.custom_dialog .panel-head {
+    padding: 10px 15px;
+    background: #9456AC;
+    font-size: 16px;
+    color: #fff;
+}
+
+.custom_dialog .panel {
+    margin-bottom: 0;
+    border: none
+}
+
+.custom_dialog img {
+    border: solid 1px #cccfd8;
+    margin-bottom: 5px;
+}
+
+#coverit {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #faf6ef;
+    opacity: 0.6;
+    display: none;
+    z-index: 1;
+}
+
+.closeit {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: block;
+    background: #e8e8e8;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #1C1C4E;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px;
+    border: none;
+    line-height: 16px;
+}
+
+.closeit:hover,
+.closeit:focus {
+    /* background-color: #2b669a;
+    border-color: #2b669a; */
+    /* outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; */
+    border-color: #fff;
+    background-color: #1C1C4E;
+}
+
+.ui-widget-content .ui-state-focus {
+    color: #fff !important;
+}
+
+.ui-dialog .ui-widget-header .ui-icon {
+    /* background-image: url(../../../../../global/css/ilskin/template/images/ui-icons_ffffff_256x240.png); */
+    background-image: url(../../../../../global/css/ilskin/template/images/ui-icons_000000_256x240.png);
+}
+
+.custom_dialog .panel-body.nopadding p {
+    padding: 0 15px;
+}
+
+.custom_dialog .panel-body.nopadding img {
+    /* margin: 10px auto; */
+    position: relative;
+    display: block;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    color: #fff;
+    background: #0a0a0a;
+    border: none;
+}
+
+.ui-dialog.ui-front {
+    background: #fff;
+    /* border: 2px solid #ed375b; */
+}
+
+.ui-dialog.ui-front button {
+    background-color: #ed375b;
+    color: #000;
+}
+
+.ui-dialog.ui-front button:focus,
+.ui-dialog.ui-front button:hover {
+    border-color: #fff;
+    background-color: #df2c4f;
+}
+
+.ui-dialog.ui-front .ui-dialog-buttonpane{
+    background: transparent;
+    border: none;
+}
+
+.ui-dialog.ui-front .ui-widget-content{
+    color: #000;
+}

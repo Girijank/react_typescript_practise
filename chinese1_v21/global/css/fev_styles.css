@@ -1,0 +1,401 @@
+.checklangspan [lang="zh-Hans"],
+.checklangspan [lang="zh-Hans"] .fev_greyout,
+.checklangspan [lang="zh-Hans"] .fev_yellowout,
+.checklangspan [lang="zh-Hans"] .fev_darkredout,
+.checklangspan .fev_imgaltText {
+    z-index: 9999;
+    position: relative;
+    background-color: aqua !important;
+    display: inline-block;
+}
+
+.fev_imgaltText {
+    display: none;
+}
+
+
+.well.fev_missing {
+    background-image: linear-gradient(to bottom, #ffa2c1 0%, #fbd9e4 100%);
+}
+
+.nopadding {
+    padding: 0;
+}
+
+table.fev_tdbgwhite {
+    background-color: #f9f9f9 !important;
+}
+
+.fev_card {
+    position: relative;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+    color: #000000;
+    background-color: #f2f0d0;
+}
+
+button.fev_singleddbtn {
+    background: none;
+    border: hidden;
+    padding: 0;
+}
+
+button.fev_singleddbtn span.collapseArrow.glyphicon {
+    margin-right: 3px;
+    margin-top: 1px;
+}
+
+.fev_box {
+    position: relative;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px #8e8e8e;
+    border: 2px solid #024059;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.fev_box .fev_box-line {
+    border-left: 1px solid #b7cdd6
+}
+
+.fev_audiogroup .audio_container {
+    margin-bottom: 10px;
+}
+
+/* start Template styles */
+
+.fev_Div4.well.notes {
+    background: transparent;
+    border: none;
+    position: relative;
+    padding-left: 110px;
+    margin: 40px 0 20px 0;
+    box-shadow: none;
+    background-image: none !important;
+}
+
+.fev_Div4.well.notes:after {
+    background-image: url(../../global/images/icons/icon_div4_notes.png);
+    top: 10px;
+    content: '';
+    position: absolute;
+    left: -50px;
+    height: 165px;
+    width: 136px;
+}
+
+.fev_Div4.well.notes .content {
+    margin: 0;
+    padding: 0;
+    min-height: auto;
+    max-width: unset;
+    border: none;
+}
+
+.fev_Div4.well.notes h4 {
+    /* text-transform: uppercase; */
+    word-spacing: 2px;
+    position: relative;
+}
+
+.fev_Div4.well.notes a.btn {
+    background-color: #355688;
+    border-color: #355688;
+    border-radius: 15px;
+    background-image: none;
+    color: #ffffff;
+    border-radius: 15px;
+    transition: background-color .5s;
+    border: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: 0;
+    box-shadow: none !important;
+    font-size: 16px;
+}
+
+.fev_Div4.well.notes a.btn:focus {
+    box-shadow: inset 0 0 3px 4px #2daff6 !important;
+    outline: none;
+    background-color: #4f7abb;
+}
+
+.fev_Div4.well.notes a.btn:hover {
+    background-color: #4f7abb;
+}
+
+.fev_hint.well {
+    background-image: none !important;
+}
+
+.nav-tabs>li.active>a:after {
+    right: 50%;
+    top: 13px;
+}
+
+.fev_greyout {
+    /* background-color: #CCCCCC; */
+    background-color: #2f4f4f;
+    color: #ffffff;
+}
+
+.fev_yellowout,
+.fev_darkredout {
+    /* background-color: #f7d84a; */
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+.fev_scenario .fev_scenarioTitle {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+p.vocab_inst {
+    padding: 8px;
+    /* background: #755a33; */
+    background: #9f243d;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #000;
+    margin: 10px 0 20px;
+}
+
+.ng_il audio {
+    height: 40px;
+}
+
+.ng_il .bin .il_question.ui-state-disabled {
+    opacity: 1;
+}
+
+.ng_il .bin .il_question.ui-state-disabled .btn {
+    cursor: default;
+}
+
+.carousel-indicators li {
+    background-image: url(../images/global/pagination.png)
+}
+
+.panel-heading h3 {
+    font-family: inherit;
+}
+
+a.fev_downloadbtn,
+a.fev_toolboxbtn {
+    /* color: #8E1764; */
+    color: #891560;
+}
+
+a.pop-over {
+    font-weight: bold;
+    display: inline-block;
+}
+
+a.pop-over strong {
+    /* background: #052f54; */
+    color: #615703;
+}
+
+.ilShell .jFlipCard.il_interactive div.ui-widget-header,
+.ilShell .jFlipCard.il_interactive .ui-dialog .ui-dialog-buttonpane button {
+    color: #FFF;
+    background-color: #9F243D !important;
+    background-image: none;
+}
+
+.ilShell .jFlipCard.il_interactive div.ui-widget-header {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.ilShell .jFlipCard.il_interactive .ui_card .ui_flipped {
+    background: #ffe9e9;
+}
+
+.ilShell.fev_flipcardActivity .ilTextVersion button.click_to_reveal {
+    cursor: pointer;
+    background: #9F243D;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.ilShell.fev_flipcardActivity .ilTextVersion button.click_to_reveal .collapseArrow {
+    display: none;
+}
+
+
+.ilShell.fev_flipcardActivity .ilTextVersion .fev_flipcardtv {
+    background: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #d0d0d0;
+    padding-bottom: 10px;
+}
+
+.ilShell.fev_flipcardActivity .ilTextVersion {
+    background: #e5e5e5;
+    padding: 20px;
+}
+
+.fev_pinyinAudioText {
+    margin-top: 10px;
+    text-align: center
+}
+
+.image-container .copyright,
+.card-image .copyright,
+.vocabElement .image-container .copyright,
+figure.effect-sarah .copyright,
+.vocab_img .copyright {
+    margin-bottom: 2px;
+    text-align: left;
+    border-radius: 0;
+}
+
+.card-image .copyright,
+.vocabElement .image-container .copyright,
+figure.effect-sarah .copyright {
+    padding-left: 2px;
+    margin: 0;
+    margin-top: -17px;
+    position: relative;
+    background: rgba(242, 235, 229, 0.85);
+    padding-top: 2px;
+}
+
+.vocabElement .image-container .copyright {
+    margin-top: -12px;
+    color: #333;
+}
+
+.grid figure.effect-sarah {
+    width: 48%;
+}
+
+/* watchYourTones Start */
+.watchYourTones .fev_pinyholder {
+    position: relative;
+    display: table;
+    margin: 10px auto;
+    background: #f2ebe5;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #9e7653;
+    min-height: 231px;
+    /* min-width: 280px; */
+    width: 280px;
+
+}
+
+.watchYourTones .mejs-container.audioBtn {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+
+.watchYourTones .fev_pinyans {
+    font-size: 1.4em;
+    display: inline-block;
+    margin-left: 5px;
+    color: #892514;
+    font-weight: bold;
+}
+
+.watchYourTones .fev_pinyaudioholder {
+    margin-bottom: 10px;
+}
+
+.watchYourTones .serialno {
+    font-weight: bold;
+}
+
+.watchYourTones .fev_pinytext {
+    font-size: 1.2em;
+}
+
+/* watchYourTones End */
+
+
+/*--------------------| Start Baanner Style |--------------------*/
+.fevBannerHolder {
+    /* padding-bottom: 25%; */
+    padding-bottom: 38%;
+}
+
+#lessonBanner {
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-height: 250px;
+}
+
+#lessonBanner img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bannerfigure {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.bannerfigure-copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    padding: .4em .4em;
+    font-weight: 700;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .75);
+    opacity: 1;
+    text-align: right;
+    display: block;
+}
+
+/*--------------------| End Baanner Style |--------------------*/
+
+button.translation {
+    width: 20px;
+    height: 20px;
+    padding: 0px 6px;
+}
+
+button.translation .glyphicon {
+    margin: 0;
+}
+
+.kWidgetIframeContainer.kaltura {
+    margin: 0 auto;
+}
+
+
+nav .menuBox a.nextt:focus,
+nav .menuBox a.prevt:focus {
+    outline: 1px solid #ffd300 !important
+}
+
+@media (max-width: 768px) {
+    .fev_Div4.well.notes {
+        padding-left: 132px;
+    }
+    .fev_Div4.well.notes:after{
+        left: -22px;
+    }
+}

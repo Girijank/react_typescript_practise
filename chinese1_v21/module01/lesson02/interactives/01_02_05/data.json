@@ -1,0 +1,135 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_02_05/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/01_02_05/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to the audio of the name of a state, then drag and drop it to the appropriate spot on the map of the U.S.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Arizona",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "Not quite, but you can learn from that mistake!",
+                "text": "<span class='cityname'>Arizona</span><audio class='audio' controls src='interactives/01_02_05/intmedia/arizona.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "California",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "Try again!",
+                "text": "<span class='cityname'>California</span><audio class='audio' controls src='interactives/01_02_05/intmedia/california.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "Florida",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That is not right, but you will get it if you keep trying! ",
+                "text": "<span class='cityname'>Florida</span><audio class='audio' controls src='interactives/01_02_05/intmedia/florida.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "Georgia",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That wasn’t correct, but mistakes are an opportunity to learn.",
+                "text": "<span class='cityname'>Georgia</span><audio class='audio' controls src='interactives/01_02_05/intmedia/georgia.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "South Carolina",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That wasn’t correct, but mistakes are an opportunity to learn.",
+                "text": "<span class='cityname'>South Carolina</span><audio class='audio' controls src='interactives/01_02_05/intmedia/south_carolina.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "Texas",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That wasn’t correct, but mistakes are an opportunity to learn.",
+                "text": "<span class='cityname'>Texas</span><audio class='audio' controls src='interactives/01_02_05/intmedia/texas.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "Washington",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That wasn’t correct, but mistakes are an opportunity to learn.",
+                "text": "<span class='cityname'>Washington</span><audio class='audio' controls src='interactives/01_02_05/intmedia/washington.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "Utah",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That wasn’t correct, but mistakes are an opportunity to learn.",
+                "text": "<span class='cityname'>Utah</span><audio class='audio' controls src='interactives/01_02_05/intmedia/utah.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "New York",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That wasn’t correct, but mistakes are an opportunity to learn.",
+                "text": "<span class='cityname'>New York</span><audio class='audio' controls src='interactives/01_02_05/intmedia/new_york.mp3' ></audio>"
+              }
+            ]
+          },
+          {
+            "title": "Hawaii",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You are a Geography Superstar. Well done!",
+                "incorrect": "That wasn’t correct, but mistakes are an opportunity to learn.",
+                "text": "<span class='cityname'>Hawaii</span><audio class='audio' controls src='interactives/01_02_05/intmedia/hawaii.mp3' ></audio>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

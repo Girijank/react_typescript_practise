@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemap>
+
+ <module title="Welcome" pre="" visible="true" icon="" bg="" num="Welcome Folder" mID="wffl" gl_default="false" gl_state="fl">
+        <lesson title="Course Information" num="01" time="30" points="0" gl_default="false" gl_state="fl">
+            <page href="../../welcome_chinese1_v21/course_information/general.htm" title="Welcome" gl_default="false" gl_state="fl"/>
+        </lesson>
+    </module>
+    <module title="Welcome" pre="" visible="true" icon="" bg="" num="Welcome Folder" mID="wf" gl_state="fl-off">
+        <lesson title="Course Information" num="01" time="30" points="0" gl_state="fl-off">
+            <page href="../../welcome_chinese1_v21/course_information/course_information.htm" title="Welcome" gl_state="fl-off"/>
+        </lesson>
+    </module>
+
+	<module title="Getting Started" visible="true" icon="" bg="" num="" mID="gs">
+	   <lesson title="Things to Know" num="00.01" time="5" points="0">
+            <page href="../../getting_started/lesson01/gs_01_01.htm" title="00.01 Page 01"/> 
+            <page href="../../getting_started/lesson01/gs_01_02.htm" title="00.01 Page 02"/> 
+			<page href="../../getting_started/lesson01/gs_01_03.htm" title="00.01 Page 03"/>
+			<page href="../../getting_started/lesson01/gs_01_04.htm" title="00.01 Page 04"/>
+        </lesson>
+	</module>
+	<module title="Collaboration" visible="true" icon="" bg="" num="" mID="s0">
+    <lesson title="Collaboration" num="00" time="5" points="0" lID="0">
+            <page href="../../collaboration/lesson00/s0_00_01.htm" title="00 Page 01"/> 
+        </lesson>
+	   <lesson title="Segment One Collaboration" num="01" time="60" points="30" lID="1">
+            <page href="../../collaboration/lesson01/s1_01_01.htm" title="01 Page 01"/> 
+        </lesson>
+		 <lesson title="Segment Two Collaboration" num="02" time="60" points="30" lID="2">
+            <page href="../../collaboration/lesson02/s2_02_01.htm" title="02 Page 01"/> 
+        </lesson>
+	</module>
+	
+	<!-- Main Course content -->  
+    <module title="My Life" visible="true" icon="" bg="" pre="01" num="01" modID="1" mID="1">   
+     <lesson title="My Life Pretest" num="01.00" time="50" points="1" lID="0">
+            <page href="../../module01/lesson00/01_00_01.htm" title="01.00 Page 01" pID="1"/>
+            <page href="../../module01/lesson00/01_00_02.htm" title="01.00 Page 02" pID="2"/>         
+            <page href="../../module01/lesson00/01_00_03.htm" title="01.00 Page 03" pID="2"/>         
+            <page href="../../module01/lesson00/01_00_04.htm" title="01.00 Page 04" pID="2"/>         
+        </lesson>
+        <lesson title="Greetings and Introductions" num="01.01" time="75" points="13" lID="1">
+			<page href="../../module01/lesson01/01_01_01.htm" title="01.01 Page 01" pID="1"/>
+			<page href="../../module01/lesson01/01_01_02.htm" title="01.01 Page 02" pID="2"/>
+			<page href="../../module01/lesson01/01_01_03.htm" title="01.01 Page 03" pID="3"/>
+			<page href="../../module01/lesson01/01_01_04.htm" title="01.01 Page 04" pID="4"/>
+			<page href="../../module01/lesson01/01_01_05.htm" title="01.01 Page 05" pID="5"/>
+			<page href="../../module01/lesson01/01_01_06.htm" title="01.01 Page 06" pID="6"/>
+			<page href="../../module01/lesson01/01_01_07.htm" title="01.01 Page 07" pID="7"/>
+			<page href="../../module01/lesson01/01_01_08.htm" title="01.01 Page 08" pID="8"/>
+        </lesson>  
+
+         <lesson title="Call Me Maybe" num="01.02" time="85" points="23" lID="2">
+			<page href="../../module01/lesson02/01_02_01.htm" title="01.02 Page 01" pID="1"/>
+			<page href="../../module01/lesson02/01_02_02.htm" title="01.02 Page 02" pID="2"/>
+			<page href="../../module01/lesson02/01_02_03.htm" title="01.02 Page 03" pID="3"/>
+			<page href="../../module01/lesson02/01_02_04.htm" title="01.02 Page 04" pID="4"/>
+			<page href="../../module01/lesson02/01_02_05.htm" title="01.02 Page 05" pID="5"/>
+			<page href="../../module01/lesson02/01_02_06.htm" title="01.02 Page 06" pID="6"/>
+			<page href="../../module01/lesson02/01_02_07.htm" title="01.02 Page 07" pID="7"/>
+			<page href="../../module01/lesson02/01_02_08.htm" title="01.02 Page 08" pID="8"/>
+			<page href="../../module01/lesson02/01_02_09.htm" title="01.02 Page 09" pID="9"/>
+        </lesson> 
+
+         <lesson title="Describing Myself" num="01.03" time="75" points="13" lID="3">
+			<page href="../../module01/lesson03/01_03_01.htm" title="01.03 Page 01" pID="1"/>
+			<page href="../../module01/lesson03/01_03_02.htm" title="01.03 Page 02" pID="2"/>
+			<page href="../../module01/lesson03/01_03_03.htm" title="01.03 Page 03" pID="3"/>
+			<page href="../../module01/lesson03/01_03_04.htm" title="01.03 Page 04" pID="4"/>
+			<page href="../../module01/lesson03/01_03_05.htm" title="01.03 Page 05" pID="5"/>
+			<page href="../../module01/lesson03/01_03_06.htm" title="01.03 Page 06" pID="6"/>
+			<page href="../../module01/lesson03/01_03_07.htm" title="01.03 Page 07" pID="7"/>
+			<page href="../../module01/lesson03/01_03_08.htm" title="01.03 Page 08" pID="8"/>
+        </lesson> 
+      
+        <lesson title="My Life Workshop" num="01.04" time="120" points="30" lID="4">
+			<page href="../../module01/lesson04/01_04_01.htm" title="01.04 Page 01" pID="1"/>
+			<page href="../../module01/lesson04/01_04_02.htm" title="01.04 Page 02" pID="2"/>
+            <page href="../../module01/lesson04/01_04_03.htm" title="01.04 Page 04" pID="3"/>
+            <page href="../../module01/lesson04/01_04_04.htm" title="01.04 Page 04" pID="4"/>
+            <page href="../../module01/lesson04/01_04_05.htm" title="01.04 Page 05" pID="5"/>
+        </lesson>
+        <lesson title="My Life Discussion-Based Assessment" num="01.05" time="45" points="50" lID="5">
+			<page href="../../module01/lesson05/01_05_01.htm" title="01.05 Page 01" pID="1"/>
+			<page href="../../module01/lesson05/01_05_02.htm" title="01.05 Page 02" pID="2"/>
+        </lesson>
+        <lesson title="Young at Heart" num="01.06" time="80" points="16" lID="6">
+			<page href="../../module01/lesson06/01_06_01.htm" title="01.06 Page 01" pID="1"/>
+			<page href="../../module01/lesson06/01_06_02.htm" title="01.06 Page 02" pID="2"/>
+            <page href="../../module01/lesson06/01_06_03.htm" title="01.06 Page 03" pID="3"/>
+            <page href="../../module01/lesson06/01_06_04.htm" title="01.06 Page 04" pID="4"/>
+            <page href="../../module01/lesson06/01_06_05.htm" title="01.06 Page 05" pID="5"/>
+            <page href="../../module01/lesson06/01_06_06.htm" title="01.06 Page 06" pID="6"/>
+            <page href="../../module01/lesson06/01_06_07.htm" title="01.06 Page 07" pID="7"/>
+            <page href="../../module01/lesson06/01_06_08.htm" title="01.06 Page 08" pID="8"/>
+            <page href="../../module01/lesson06/01_06_09.htm" title="01.06 Page 09" pID="9"/>
+        </lesson>
+
+           <lesson title="My Life Presentational Speaking" num="01.07" time="60" points="50" lID="7">
+			<page href="../../module01/lesson07/01_07_01.htm" title="01.07 Page 01" pID="1"/>			
+        </lesson> 
+
+           <lesson title="My Life Exam" num="01.08" time="80" points="74" lID="8">
+			<page href="../../module01/lesson08/01_08_01.htm" title="01.08 Page 01" pID="1"/>
+			<page href="../../module01/lesson08/01_08_02.htm" title="01.08 Page 02" pID="2"/>
+        </lesson>
+    </module>
+     <module title="My Preferences" visible="true" icon="" bg="" pre="02" num="02" modID="2" mID="2">   
+     <lesson title="My Preferences Pretest" num="02.00" time="50" points="1" lID="0">
+            <page href="../../module02/lesson00/02_00_01.htm" title="02.00 Page 01" pID="1"/>
+            <page href="../../module02/lesson00/02_00_02.htm" title="02.00 Page 02" pID="2"/>         
+            <page href="../../module02/lesson00/02_00_03.htm" title="02.00 Page 03" pID="3"/>                
+        </lesson>
+        <lesson title="Let's Eat" num="02.01" time="75" points="13" lID="1">
+			<page href="../../module02/lesson01/02_01_01.htm" title="02.01 Page 01" pID="1"/>
+			<page href="../../module02/lesson01/02_01_02.htm" title="02.01 Page 02" pID="2"/>
+			<page href="../../module02/lesson01/02_01_03.htm" title="02.01 Page 03" pID="3"/>
+			<page href="../../module02/lesson01/02_01_04.htm" title="02.01 Page 04" pID="4"/>
+			<page href="../../module02/lesson01/02_01_05.htm" title="02.01 Page 05" pID="5"/>
+			<page href="../../module02/lesson01/02_01_06.htm" title="02.01 Page 06" pID="6"/>
+			<page href="../../module02/lesson01/02_01_07.htm" title="02.01 Page 07" pID="7"/>
+			<page href="../../module02/lesson01/02_01_08.htm" title="02.01 Page 08" pID="8"/>
+        </lesson>  
+         <lesson title="Coffee or Tea" num="02.02" time="85" points="23" lID="2">
+			<page href="../../module02/lesson02/02_02_01.htm" title="02.02 Page 01" pID="1"/>
+			<page href="../../module02/lesson02/02_02_02.htm" title="02.02 Page 02" pID="2"/>
+			<page href="../../module02/lesson02/02_02_03.htm" title="02.02 Page 03" pID="3"/>
+			<page href="../../module02/lesson02/02_02_04.htm" title="02.02 Page 04" pID="4"/>
+			<page href="../../module02/lesson02/02_02_05.htm" title="02.02 Page 05" pID="5"/>
+			<page href="../../module02/lesson02/02_02_06.htm" title="02.02 Page 06" pID="6"/>
+			<page href="../../module02/lesson02/02_02_07.htm" title="02.02 Page 07" pID="7"/>
+			<page href="../../module02/lesson02/02_02_08.htm" title="02.02 Page 08" pID="8"/>
+			<page href="../../module02/lesson02/02_02_09.htm" title="02.02 Page 09" pID="9"/>
+        </lesson> 
+
+         <lesson title="Table for Two" num="02.03" time="75" points="13" lID="3">
+			<page href="../../module02/lesson03/02_03_01.htm" title="02.03 Page 01" pID="1"/>
+			<page href="../../module02/lesson03/02_03_02.htm" title="02.03 Page 02" pID="2"/>
+			<page href="../../module02/lesson03/02_03_03.htm" title="02.03 Page 03" pID="3"/>
+			<page href="../../module02/lesson03/02_03_04.htm" title="02.03 Page 04" pID="4"/>
+			<page href="../../module02/lesson03/02_03_05.htm" title="02.03 Page 05" pID="5"/>
+			<page href="../../module02/lesson03/02_03_06.htm" title="02.03 Page 06" pID="6"/>
+			<page href="../../module02/lesson03/02_03_07.htm" title="02.03 Page 07" pID="7"/>
+			<page href="../../module02/lesson03/02_03_08.htm" title="02.03 Page 08" pID="8"/>
+        </lesson> 
+      
+        <lesson title="My Preferences Workshop" num="02.04" time="120" points="30" lID="4">
+			<page href="../../module02/lesson04/02_04_01.htm" title="01.04 Page 01" pID="1"/>
+			<page href="../../module02/lesson04/02_04_02.htm" title="01.04 Page 02" pID="2"/>
+            <page href="../../module02/lesson04/02_04_03.htm" title="01.04 Page 04" pID="3"/>
+            <page href="../../module02/lesson04/02_04_04.htm" title="01.04 Page 04" pID="4"/>
+        </lesson>
+        <lesson title="My Preferences Discussion-Based Assessment" num="02.05" time="45" points="50" lID="5">
+			<page href="../../module02/lesson05/02_05_01.htm" title="02.05 Page 01" pID="1"/>
+			<page href="../../module02/lesson05/02_05_02.htm" title="02.05 Page 02" pID="2"/>
+        </lesson>
+        <lesson title="Check, Please" num="02.06" time="80" points="16" lID="6">
+			<page href="../../module02/lesson06/02_06_01.htm" title="02.06 Page 01" pID="1"/>
+			<page href="../../module02/lesson06/02_06_02.htm" title="02.06 Page 02" pID="2"/>
+            <page href="../../module02/lesson06/02_06_03.htm" title="02.06 Page 03" pID="3"/>
+            <page href="../../module02/lesson06/02_06_04.htm" title="02.06 Page 04" pID="4"/>
+            <page href="../../module02/lesson06/02_06_05.htm" title="02.06 Page 05" pID="5"/>
+            <page href="../../module02/lesson06/02_06_06.htm" title="02.06 Page 06" pID="6"/>
+            <page href="../../module02/lesson06/02_06_07.htm" title="02.06 Page 07" pID="7"/>
+            <page href="../../module02/lesson06/02_06_08.htm" title="02.06 Page 08" pID="8"/>
+            <page href="../../module02/lesson06/02_06_09.htm" title="02.06 Page 09" pID="9"/>
+        </lesson>
+           <lesson title="My Preferences Presentational Speaking" num="02.07" time="60" points="50" lID="7">
+			<page href="../../module02/lesson07/02_07_01.htm" title="02.07 Page 01" pID="1"/>			
+        </lesson> 
+           <lesson title="My Preferences Exam" num="02.08" time="80" points="74" lID="8">
+			<page href="../../module02/lesson08/02_08_01.htm" title="02.08 Page 01" pID="1"/>
+			<page href="../../module02/lesson08/02_08_02.htm" title="02.08 Page 02" pID="2"/>
+        </lesson> 
+
+    </module>
+    <module title="My Family" visible="true" icon="" bg="" pre="03" num="03" modID="3" mID="3">   
+     <lesson title="My Family Pretest" num="03.00" time="50" points="1" lID="0">
+            <page href="../../module03/lesson00/03_00_01.htm" title="03.00 Page 01" pID="1"/>
+            <page href="../../module03/lesson00/03_00_02.htm" title="03.00 Page 02" pID="2"/>         
+            <page href="../../module03/lesson00/03_00_03.htm" title="03.00 Page 03" pID="3"/>                
+        </lesson>
+        <lesson title="We Are Family" num="03.01" time="75" points="13" lID="1">
+			<page href="../../module03/lesson01/03_01_01.htm" title="03.01 Page 01" pID="1"/>
+			<page href="../../module03/lesson01/03_01_02.htm" title="03.01 Page 02" pID="2"/>
+			<page href="../../module03/lesson01/03_01_03.htm" title="03.01 Page 03" pID="3"/>
+			<page href="../../module03/lesson01/03_01_04.htm" title="03.01 Page 04" pID="4"/>
+			<page href="../../module03/lesson01/03_01_05.htm" title="03.01 Page 05" pID="5"/>
+			<page href="../../module03/lesson01/03_01_06.htm" title="03.01 Page 06" pID="6"/>
+			<page href="../../module03/lesson01/03_01_07.htm" title="03.01 Page 07" pID="7"/>
+			<page href="../../module03/lesson01/03_01_08.htm" title="03.01 Page 08" pID="8"/>
+        </lesson>  
+         <lesson title="It Runs in the Family" num="03.02" time="85" points="23" lID="2">
+			<page href="../../module03/lesson02/03_02_01.htm" title="03.02 Page 01" pID="1"/>
+			<page href="../../module03/lesson02/03_02_02.htm" title="03.02 Page 02" pID="2"/>
+			<page href="../../module03/lesson02/03_02_03.htm" title="03.02 Page 03" pID="3"/>
+			<page href="../../module03/lesson02/03_02_04.htm" title="03.02 Page 04" pID="4"/>
+			<page href="../../module03/lesson02/03_02_05.htm" title="03.02 Page 05" pID="5"/>
+			<page href="../../module03/lesson02/03_02_06.htm" title="03.02 Page 06" pID="6"/>
+			<page href="../../module03/lesson02/03_02_07.htm" title="03.02 Page 07" pID="7"/>
+			<page href="../../module03/lesson02/03_02_08.htm" title="03.02 Page 08" pID="8"/>
+			<page href="../../module03/lesson02/03_02_09.htm" title="03.02 Page 09" pID="9"/>
+        </lesson> 
+
+         <lesson title="Back to Your Roots" num="03.03" time="75" points="13" lID="3">
+			<page href="../../module03/lesson03/03_03_01.htm" title="03.03 Page 01" pID="1"/>
+			<page href="../../module03/lesson03/03_03_02.htm" title="03.03 Page 02" pID="2"/>
+			<page href="../../module03/lesson03/03_03_03.htm" title="03.03 Page 03" pID="3"/>
+			<page href="../../module03/lesson03/03_03_04.htm" title="03.03 Page 04" pID="4"/>
+			<page href="../../module03/lesson03/03_03_05.htm" title="03.03 Page 05" pID="5"/>
+			<page href="../../module03/lesson03/03_03_06.htm" title="03.03 Page 06" pID="6"/>
+			<page href="../../module03/lesson03/03_03_07.htm" title="03.03 Page 07" pID="7"/>
+			<page href="../../module03/lesson03/03_03_08.htm" title="03.03 Page 08" pID="8"/>
+        </lesson> 
+      
+        <lesson title="My Family Workshop" num="03.04" time="120" points="30" lID="4">
+			<page href="../../module03/lesson04/03_04_01.htm" title="03.04 Page 01" pID="1"/>
+			<page href="../../module03/lesson04/03_04_02.htm" title="03.04 Page 02" pID="2"/>
+            <page href="../../module03/lesson04/03_04_03.htm" title="03.04 Page 04" pID="3"/>
+            <page href="../../module03/lesson04/03_04_04.htm" title="03.04 Page 04" pID="4"/>
+        </lesson>
+        <lesson title="My Family Discussion-Based Assessment" num="03.05" time="45" points="50" lID="5">
+			<page href="../../module03/lesson05/03_05_01.htm" title="03.05 Page 01" pID="1"/>
+			<page href="../../module03/lesson05/03_05_02.htm" title="03.05 Page 02" pID="2"/>
+        </lesson>
+        <lesson title="It's Party Time" num="03.06" time="80" points="16" lID="6">
+			<page href="../../module03/lesson06/03_06_01.htm" title="03.06 Page 01" pID="1"/>
+			<page href="../../module03/lesson06/03_06_02.htm" title="03.06 Page 02" pID="2"/>
+            <page href="../../module03/lesson06/03_06_03.htm" title="03.06 Page 03" pID="3"/>
+            <page href="../../module03/lesson06/03_06_04.htm" title="03.06 Page 04" pID="4"/>
+            <page href="../../module03/lesson06/03_06_05.htm" title="03.06 Page 05" pID="5"/>
+            <page href="../../module03/lesson06/03_06_06.htm" title="03.06 Page 06" pID="6"/>
+            <page href="../../module03/lesson06/03_06_07.htm" title="03.06 Page 07" pID="7"/>
+            <page href="../../module03/lesson06/03_06_08.htm" title="03.06 Page 08" pID="8"/>
+            <page href="../../module03/lesson06/03_06_09.htm" title="03.06 Page 09" pID="9"/>
+        </lesson>
+           <lesson title="My Family Presentational Speaking" num="03.07" time="60" points="50" lID="7">
+			<page href="../../module03/lesson07/03_07_01.htm" title="03.07 Page 01" pID="1"/>
+        </lesson> 
+           <lesson title="Segment One Exam" num="03.08" time="80" points="191" lID="8">
+			<page href="../../module03/lesson08/03_08_01.htm" title="03.08 Page 01" pID="1"/>
+			<page href="../../module03/lesson08/03_08_02.htm" title="03.08 Page 02" pID="2"/>
+        </lesson> 
+
+    </module>
+
+    <module title="My School" visible="true" icon="" bg="" pre="04" num="04" modID="4" mID="4">   
+     <lesson title="My School Pretest" num="04.00" time="50" points="1" lID="0">
+            <page href="../../module04/lesson00/04_00_01.htm" title="04.00 Page 01" pID="1"/>
+            <page href="../../module04/lesson00/04_00_02.htm" title="04.00 Page 02" pID="2"/>         
+            <page href="../../module04/lesson00/04_00_03.htm" title="04.00 Page 03" pID="3"/>                
+        </lesson>
+        <lesson title="Time for School" num="04.01" time="75" points="13" lID="1">
+			<page href="../../module04/lesson01/04_01_01.htm" title="04.01 Page 01" pID="1"/>
+			<page href="../../module04/lesson01/04_01_02.htm" title="04.01 Page 02" pID="2"/>
+			<page href="../../module04/lesson01/04_01_03.htm" title="04.01 Page 03" pID="3"/>
+			<page href="../../module04/lesson01/04_01_04.htm" title="04.01 Page 04" pID="4"/>
+			<page href="../../module04/lesson01/04_01_05.htm" title="04.01 Page 05" pID="5"/>
+			<page href="../../module04/lesson01/04_01_06.htm" title="04.01 Page 06" pID="6"/>
+			<page href="../../module04/lesson01/04_01_07.htm" title="04.01 Page 07" pID="7"/>
+			<page href="../../module04/lesson01/04_01_08.htm" title="04.01 Page 08" pID="8"/>
+        </lesson>  
+         <lesson title="It's in the Bag" num="04.02" time="85" points="23" lID="2">
+			<page href="../../module04/lesson02/04_02_01.htm" title="04.02 Page 01" pID="1"/>
+			<page href="../../module04/lesson02/04_02_02.htm" title="04.02 Page 02" pID="2"/>
+			<page href="../../module04/lesson02/04_02_03.htm" title="04.02 Page 03" pID="3"/>
+			<page href="../../module04/lesson02/04_02_04.htm" title="04.02 Page 04" pID="4"/>
+			<page href="../../module04/lesson02/04_02_05.htm" title="04.02 Page 05" pID="5"/>
+			<page href="../../module04/lesson02/04_02_06.htm" title="04.02 Page 06" pID="6"/>
+			<page href="../../module04/lesson02/04_02_07.htm" title="04.02 Page 07" pID="7"/>
+			<page href="../../module04/lesson02/04_02_08.htm" title="04.02 Page 08" pID="8"/>
+			<page href="../../module04/lesson02/04_02_09.htm" title="04.02 Page 09" pID="9"/>
+        </lesson> 
+
+         <lesson title="All in a Day's Work" num="04.03" time="75" points="13" lID="3">
+			<page href="../../module04/lesson03/04_03_01.htm" title="04.03 Page 01" pID="1"/>
+			<page href="../../module04/lesson03/04_03_02.htm" title="04.03 Page 02" pID="2"/>
+			<page href="../../module04/lesson03/04_03_03.htm" title="04.03 Page 03" pID="3"/>
+			<page href="../../module04/lesson03/04_03_04.htm" title="04.03 Page 04" pID="4"/>
+			<page href="../../module04/lesson03/04_03_05.htm" title="04.03 Page 05" pID="5"/>
+			<page href="../../module04/lesson03/04_03_06.htm" title="04.03 Page 06" pID="6"/>
+			<page href="../../module04/lesson03/04_03_07.htm" title="04.03 Page 07" pID="7"/>
+			<page href="../../module04/lesson03/04_03_08.htm" title="04.03 Page 08" pID="8"/>
+        </lesson> 
+      
+        <lesson title="My School Workshop" num="04.04" time="120" points="30" lID="4">
+			<page href="../../module04/lesson04/04_04_01.htm" title="04.04 Page 01" pID="1"/>
+			<page href="../../module04/lesson04/04_04_02.htm" title="04.04 Page 02" pID="2"/>
+            <page href="../../module04/lesson04/04_04_03.htm" title="04.04 Page 04" pID="3"/>
+            <page href="../../module04/lesson04/04_04_04.htm" title="04.04 Page 04" pID="4"/>
+        </lesson>
+        <lesson title="My School Discussion-Based Assessment" num="04.05" time="45" points="50" lID="5">
+			<page href="../../module04/lesson05/04_05_01.htm" title="04.05 Page 01" pID="1"/>
+			<page href="../../module04/lesson05/04_05_02.htm" title="04.05 Page 02" pID="2"/>
+        </lesson>
+        <lesson title="Dress for Success" num="04.06" time="80" points="16" lID="6">
+			<page href="../../module04/lesson06/04_06_01.htm" title="04.06 Page 01" pID="1"/>
+			<page href="../../module04/lesson06/04_06_02.htm" title="04.06 Page 02" pID="2"/>
+            <page href="../../module04/lesson06/04_06_03.htm" title="04.06 Page 03" pID="3"/>
+            <page href="../../module04/lesson06/04_06_04.htm" title="04.06 Page 04" pID="4"/>
+            <page href="../../module04/lesson06/04_06_05.htm" title="04.06 Page 05" pID="5"/>
+            <page href="../../module04/lesson06/04_06_06.htm" title="04.06 Page 06" pID="6"/>
+            <page href="../../module04/lesson06/04_06_07.htm" title="04.06 Page 07" pID="7"/>
+            <page href="../../module04/lesson06/04_06_08.htm" title="04.06 Page 08" pID="8"/>
+            <page href="../../module04/lesson06/04_06_09.htm" title="04.06 Page 09" pID="9"/>
+        </lesson>
+           <lesson title="My School Presentational Speaking" num="04.07" time="60" points="50" lID="7">
+			<page href="../../module04/lesson07/04_07_01.htm" title="04.07 Page 01" pID="1"/>
+        </lesson> 
+           <lesson title="My School Exam" num="04.08" time="80" points="74" lID="8">
+			<page href="../../module04/lesson08/04_08_01.htm" title="04.08 Page 01" pID="1"/>
+			<page href="../../module04/lesson08/04_08_02.htm" title="04.08 Page 02" pID="2"/>
+        </lesson> 
+    </module>
+     <module title="My House" visible="true" icon="" bg="" pre="05" num="05" modID="5" mID="5">   
+     <lesson title=" My House Pretest" num="05.00" time="50" points="1" lID="0">
+            <page href="../../module05/lesson00/05_00_01.htm" title="05.00 Page 01" pID="1"/>
+            <page href="../../module05/lesson00/05_00_02.htm" title="05.00 Page 02" pID="2"/>         
+            <page href="../../module05/lesson00/05_00_03.htm" title="05.00 Page 03" pID="3"/>                
+        </lesson>
+        <lesson title=" Home Sweet Home" num="05.01" time="75" points="13" lID="1">
+			<page href="../../module05/lesson01/05_01_01.htm" title="05.01 Page 01" pID="1"/>
+			<page href="../../module05/lesson01/05_01_02.htm" title="05.01 Page 02" pID="2"/>
+			<page href="../../module05/lesson01/05_01_03.htm" title="05.01 Page 03" pID="3"/>
+			<page href="../../module05/lesson01/05_01_04.htm" title="05.01 Page 04" pID="4"/>
+			<page href="../../module05/lesson01/05_01_05.htm" title="05.01 Page 05" pID="5"/>
+			<page href="../../module05/lesson01/05_01_06.htm" title="05.01 Page 06" pID="6"/>
+			<page href="../../module05/lesson01/05_01_07.htm" title="05.01 Page 07" pID="7"/>
+			<page href="../../module05/lesson01/05_01_08.htm" title="05.01 Page 08" pID="8"/>
+        </lesson>  
+         <lesson title=" My Room, My Rules" num="05.02" time="85" points="23" lID="2">
+			<page href="../../module05/lesson02/05_02_01.htm" title="05.02 Page 01" pID="1"/>
+			<page href="../../module05/lesson02/05_02_02.htm" title="05.02 Page 02" pID="2"/>
+			<page href="../../module05/lesson02/05_02_03.htm" title="05.02 Page 03" pID="3"/>
+			<page href="../../module05/lesson02/05_02_04.htm" title="05.02 Page 04" pID="4"/>
+			<page href="../../module05/lesson02/05_02_05.htm" title="05.02 Page 05" pID="5"/>
+			<page href="../../module05/lesson02/05_02_06.htm" title="05.02 Page 06" pID="6"/>
+			<page href="../../module05/lesson02/05_02_07.htm" title="05.02 Page 07" pID="7"/>
+			<page href="../../module05/lesson02/05_02_08.htm" title="05.02 Page 08" pID="8"/>
+			<page href="../../module05/lesson02/05_02_09.htm" title="05.02 Page 09" pID="9"/>
+        </lesson> 
+
+         <lesson title=" Make Yourself at Home" num="05.03" time="75" points="13" lID="3">
+			<page href="../../module05/lesson03/05_03_01.htm" title="05.03 Page 01" pID="1"/>
+			<page href="../../module05/lesson03/05_03_02.htm" title="05.03 Page 02" pID="2"/>
+			<page href="../../module05/lesson03/05_03_03.htm" title="05.03 Page 03" pID="3"/>
+			<page href="../../module05/lesson03/05_03_04.htm" title="05.03 Page 04" pID="4"/>
+			<page href="../../module05/lesson03/05_03_05.htm" title="05.03 Page 05" pID="5"/>
+			<page href="../../module05/lesson03/05_03_06.htm" title="05.03 Page 06" pID="6"/>
+			<page href="../../module05/lesson03/05_03_07.htm" title="05.03 Page 07" pID="7"/>
+			<page href="../../module05/lesson03/05_03_08.htm" title="05.03 Page 08" pID="8"/>
+        </lesson> 
+      
+        <lesson title=" My House Workshop" num="05.04" time="120" points="30" lID="4">
+			<page href="../../module05/lesson04/05_04_01.htm" title="05.04 Page 01" pID="1"/>
+			<page href="../../module05/lesson04/05_04_02.htm" title="05.04 Page 02" pID="2"/>
+            <page href="../../module05/lesson04/05_04_03.htm" title="05.04 Page 04" pID="3"/>
+            <page href="../../module05/lesson04/05_04_04.htm" title="05.04 Page 04" pID="4"/>
+        </lesson>
+        <lesson title=" My House Discussion-Based Assessment" num="05.05" time="45" points="50" lID="5">
+			<page href="../../module05/lesson05/05_05_01.htm" title="05.05 Page 01" pID="1"/>
+			<page href="../../module05/lesson05/05_05_02.htm" title="05.05 Page 02" pID="2"/>
+        </lesson>
+        <lesson title=" Bathroom Break" num="05.06" time="80" points="16" lID="6">
+			<page href="../../module05/lesson06/05_06_01.htm" title="05.06 Page 01" pID="1"/>
+			<page href="../../module05/lesson06/05_06_02.htm" title="05.06 Page 02" pID="2"/>
+            <page href="../../module05/lesson06/05_06_03.htm" title="05.06 Page 03" pID="3"/>
+            <page href="../../module05/lesson06/05_06_04.htm" title="05.06 Page 04" pID="4"/>
+            <page href="../../module05/lesson06/05_06_05.htm" title="05.06 Page 05" pID="5"/>
+            <page href="../../module05/lesson06/05_06_06.htm" title="05.06 Page 06" pID="6"/>
+            <page href="../../module05/lesson06/05_06_07.htm" title="05.06 Page 07" pID="7"/>
+            <page href="../../module05/lesson06/05_06_08.htm" title="05.06 Page 08" pID="8"/>
+            <page href="../../module05/lesson06/05_06_09.htm" title="05.06 Page 09" pID="9"/>
+        </lesson>
+           <lesson title=" My House Presentational Speaking" num="05.07" time="60" points="50" lID="7">
+			<page href="../../module05/lesson07/05_07_01.htm" title="05.07 Page 01" pID="1"/>
+        </lesson> 
+           <lesson title=" My House Exam" num="05.08" time="80" points="74" lID="8">
+			<page href="../../module05/lesson08/05_08_01.htm" title="05.08 Page 01" pID="1"/>
+			<page href="../../module05/lesson08/05_08_02.htm" title="05.08 Page 02" pID="2"/>
+        </lesson> 
+    </module>
+    <module title="My Community" visible="true" icon="" bg="" pre="06" num="06" modID="6" mID="6">   
+     <lesson title=" My Community Pretest" num="06.00" time="50" points="1" lID="0">
+            <page href="../../module06/lesson00/06_00_01.htm" title="06.00 Page 01" pID="1"/>
+            <page href="../../module06/lesson00/06_00_02.htm" title="06.00 Page 02" pID="2"/>         
+            <page href="../../module06/lesson00/06_00_03.htm" title="06.00 Page 03" pID="3"/>                
+        </lesson>
+        <lesson title="Around Town" num="06.01" time="75" points="13" lID="1">
+			<page href="../../module06/lesson01/06_01_01.htm" title="06.01 Page 01" pID="1"/>
+			<page href="../../module06/lesson01/06_01_02.htm" title="06.01 Page 02" pID="2"/>
+			<page href="../../module06/lesson01/06_01_03.htm" title="06.01 Page 03" pID="3"/>
+			<page href="../../module06/lesson01/06_01_04.htm" title="06.01 Page 04" pID="4"/>
+			<page href="../../module06/lesson01/06_01_05.htm" title="06.01 Page 05" pID="5"/>
+			<page href="../../module06/lesson01/06_01_06.htm" title="06.01 Page 06" pID="6"/>
+			<page href="../../module06/lesson01/06_01_07.htm" title="06.01 Page 07" pID="7"/>
+			<page href="../../module06/lesson01/06_01_08.htm" title="06.01 Page 08" pID="8"/>
+        </lesson>  
+         <lesson title="Active in the Community" num="06.02" time="85" points="23" lID="2">
+			<page href="../../module06/lesson02/06_02_01.htm" title="06.02 Page 01" pID="1"/>
+			<page href="../../module06/lesson02/06_02_02.htm" title="06.02 Page 02" pID="2"/>
+			<page href="../../module06/lesson02/06_02_03.htm" title="06.02 Page 03" pID="3"/>
+			<page href="../../module06/lesson02/06_02_04.htm" title="06.02 Page 04" pID="4"/>
+			<page href="../../module06/lesson02/06_02_05.htm" title="06.02 Page 05" pID="5"/>
+			<page href="../../module06/lesson02/06_02_06.htm" title="06.02 Page 06" pID="6"/>
+			<page href="../../module06/lesson02/06_02_07.htm" title="06.02 Page 07" pID="7"/>
+			<page href="../../module06/lesson02/06_02_08.htm" title="06.02 Page 08" pID="8"/>
+			<page href="../../module06/lesson02/06_02_09.htm" title="06.02 Page 09" pID="9"/>
+        </lesson> 
+
+         <lesson title="Describing Downtown" num="06.03" time="75" points="13" lID="3">
+			<page href="../../module06/lesson03/06_03_01.htm" title="06.03 Page 01" pID="1"/>
+			<page href="../../module06/lesson03/06_03_02.htm" title="06.03 Page 02" pID="2"/>
+			<page href="../../module06/lesson03/06_03_03.htm" title="06.03 Page 03" pID="3"/>
+			<page href="../../module06/lesson03/06_03_04.htm" title="06.03 Page 04" pID="4"/>
+			<page href="../../module06/lesson03/06_03_05.htm" title="06.03 Page 05" pID="5"/>
+			<page href="../../module06/lesson03/06_03_06.htm" title="06.03 Page 06" pID="6"/>
+			<page href="../../module06/lesson03/06_03_07.htm" title="06.03 Page 07" pID="7"/>
+			<page href="../../module06/lesson03/06_03_08.htm" title="06.03 Page 08" pID="8"/>
+        </lesson> 
+      
+        <lesson title="My Community Workshop" num="06.04" time="120" points="30" lID="4">
+			<page href="../../module06/lesson04/06_04_01.htm" title="06.04 Page 01" pID="1"/>
+			<page href="../../module06/lesson04/06_04_02.htm" title="06.04 Page 02" pID="2"/>
+            <page href="../../module06/lesson04/06_04_03.htm" title="06.04 Page 04" pID="3"/>
+            <page href="../../module06/lesson04/06_04_04.htm" title="06.04 Page 04" pID="4"/>
+        </lesson>
+        <lesson title="My Community Discussion-Based Assessment" num="06.05" time="45" points="50" lID="5">
+			<page href="../../module06/lesson05/06_05_01.htm" title="06.05 Page 01" pID="1"/>
+			<page href="../../module06/lesson05/06_05_02.htm" title="06.05 Page 02" pID="2"/>
+        </lesson>
+        <lesson title="Travel Time" num="06.06" time="80" points="16" lID="6">
+			<page href="../../module06/lesson06/06_06_01.htm" title="06.06 Page 01" pID="1"/>
+			<page href="../../module06/lesson06/06_06_02.htm" title="06.06 Page 02" pID="2"/>
+            <page href="../../module06/lesson06/06_06_03.htm" title="06.06 Page 03" pID="3"/>
+            <page href="../../module06/lesson06/06_06_04.htm" title="06.06 Page 04" pID="4"/>
+            <page href="../../module06/lesson06/06_06_05.htm" title="06.06 Page 05" pID="5"/>
+            <page href="../../module06/lesson06/06_06_06.htm" title="06.06 Page 06" pID="6"/>
+            <page href="../../module06/lesson06/06_06_07.htm" title="06.06 Page 07" pID="7"/>
+            <page href="../../module06/lesson06/06_06_08.htm" title="06.06 Page 08" pID="8"/>
+            <page href="../../module06/lesson06/06_06_09.htm" title="06.06 Page 09" pID="9"/>
+        </lesson>
+           <lesson title="My Community Presentational Speaking" num="06.07" time="60" points="50" lID="7">
+			<page href="../../module06/lesson07/06_07_01.htm" title="06.07 Page 01" pID="1"/>
+        </lesson> 
+           <lesson title="Segment Two Exam" num="06.08" time="80" points="191" lID="8">
+			<page href="../../module06/lesson08/06_08_01.htm" title="06.08 Page 01" pID="1"/>
+			<page href="../../module06/lesson08/06_08_02.htm" title="06.08 Page 02" pID="2"/>
+        </lesson> 
+    </module>
+   
+   
+    <!-- TEMP MODULE FOR CONFIGURING CSS - REMOVE WHEN LOOK/FEEL COMPLETE -->
+    <!-- <module title="Style Guide" visible="true" icon="" bg="" mID="">
+        <lesson title="Style Guide" num="" time="N/A" points="N/A">
+            <page href="../../template/lesson00/tmp_00_01.htm" title="Standard Elements"/>
+            <page href="../../template/lesson00/tmp_00_02.htm" title="Panels, Wells and Content Blocks"/>
+            <page href="../../template/lesson00/tmp_00_03.htm" title="Media"/>
+            <page href="../../template/lesson00/tmp_00_04.htm" title="Interactive Elements"/>
+            <page href="../../template/lesson00/tmp_00_05.htm" title="Slideshows and Activities"/>
+        </lesson>
+    </module> -->
+</sitemap>

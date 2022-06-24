@@ -1,0 +1,68 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "ferocissimorum"
+        ],
+        "quiz": "<p>In Latin, write the correct superlative adjective answer into each cell. </p> <br><p><strong>Sentence Verb to Use:</strong> <em>ferox, ferocis Genitive pl. n.</em></p><br> Fill in the blank superlative adjective answer: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite—try again! Look back over your notes. <em>In memoria tene!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+      
+      
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "audacissimus"
+        ],
+        "quiz": "<p>In Latin, write the correct superlative adjective answer into each cell. </p> <br> <p><strong>Sentence Verb to Use:</strong> <em>audax, audacis Nominative sg. m.</em></p> <br> Fill in the blank superlative adjective answer: *_ .",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "<em>Iterum tempta!</em> Try again! Learning Latin takes effort –give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "fortissimis"
+        ],
+        "quiz": "<p>In Latin, write the correct superlative adjective answer into each cell.</p><br> <p><strong>Sentence Verb to Use:</strong> <em>fortis, forte Dative pl. n.</em></p><br> Fill in the blank superlative adjective answer: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite—try again! Look back over your notes. <em>In memoria tene!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "moribundissima"
+        ],
+        "quiz": "<p>In Latin, write the correct superlative adjective answer into each cell.</p><br> <p><strong>Sentence Verb to Use:</strong> <em>moribundus,-a,-um Ablative sg. f.</em> </p><br> Fill in the blank superlative adjective answer: *_ .",
+        "correct": "That's right! Gratulationes on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin and five it another shot. <em>Bona fortuna!</em>",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

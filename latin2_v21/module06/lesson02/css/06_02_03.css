@@ -1,0 +1,9 @@
+.tab1{
+    width: 276px;
+}
+.tabs a.active:after{
+    right: 13%;
+}
+td{
+    width: 50%;
+}

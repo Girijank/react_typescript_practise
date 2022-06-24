@@ -1,0 +1,96 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_01_03/styles.css"],
+    "intMedia": "interactives/06_01_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "community.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>社区</span> shèqū"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following will you least likely find at the site indicated by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>城市</span> chéngshì</span><audio class='audio' controls src='interactives/06_01_03/intmedia/city.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>面包店</span> miànbāodiàn</span><audio class='audio' controls src='interactives/06_01_03/intmedia/bakery.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>店铺</span> diànpù</span><audio class='audio' controls src='interactives/06_01_03/intmedia/store.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>学校</span> xuéxiào</span><audio class='audio' controls src='interactives/06_01_03/intmedia/school.mp3' ></audio>"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>社区</span> shèqū means “community.” Of the four choices, <span lang='zh-Hans'>城市</span> chéngshì (city), as a larger social unit, is unlikely found in a community.",
+        "incorrect": "Very close. Listen to the word to identify its meaning. Then review the choices to see which one is a larger social unit and is unlikely to be found at the site indicated by the word.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "shopping_center.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>购物中心</span> gòuwùzhōngxīn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be completed with the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>我和姐姐去_____。</span> Wǒ hé jiějie qù _____.",
+        "options": [
+          "<span lang='zh-Hans'> 我们晚上看_____。 </span> Wǒmen wǎnshàng kàn _____.",
+          "<span lang='zh-Hans'>她每星期天擦_____。</span> Tā měi xīngqītiān cā _____.",
+          "<span lang='zh-Hans'>他哥哥上午做_____。</span> Tā gēge shàngwǔ zuò _____. "
+        ],
+        "correct": "Fantastic job! <span lang='zh-Hans'>购物中心</span> gòuwùzhōngxīn means “shopping center,” and the verb that can go with it is <span lang='zh-Hans'>去</span> qù (to go to) in the sentence “<span lang='zh-Hans'>我和姐姐去购物中心。</span> Wǒ hé jiějie qù gòuwùzhōngxīn. (My sister and I go to the shopping center.) “",
+        "incorrect": "Not quite. Listen to the audio again to identify this word’s meaning. Then review all the incomplete sentences in the choices to see which one this word fits the best for both meaning and structure. Pay attention to the verb used in each sentence.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "bakery.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>面包店</span> miànbāodiàn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can you <strong>most</strong> reasonably get at the site indicated by the word in the audio?</p>",
+        "answer": "Cinnamon rolls",
+        "options": [
+          "Rental movies",
+          "Noodle soup",
+          "Prescription drugs"
+        ],
+        "correct": "Very nice job! The word <span lang='zh-Hans'>面包店</span> miànbāodiàn means “bakery.” You can get cinnamon rolls there, but maybe not noodle soup.",
+       
+        "incorrect": "Not quite. Listen to the word in the audio again to identify its meaning. Imagine yourself at the site indicated by the word, and consider what you can possibly find.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "grocery_store.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>超市</span> chāoshì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items can <strong>least</strong> likely be found at the site indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>浴缸</span>",
+        "options": [
+          "<span lang='zh-Hans'>冰激凌</span>",
+          "<span lang='zh-Hans'>猪肉</span>",
+          "<span lang='zh-Hans'>卫生纸</span>"
+        ],
+        "correct": "Wonderfully done! The word <span lang='zh-Hans'>超市</span> chāoshì means “grocery store.” You can easily find all the items in the choices except a <span lang='zh-Hans'>浴缸</span> yùgāng (bathtub).",        
+        "incorrect": "Oops…Listen to the word in the audio again to identify its meaning. Then review the words in the choices. Recall their meanings, and then consider if you can find them at the site indicated by the word.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

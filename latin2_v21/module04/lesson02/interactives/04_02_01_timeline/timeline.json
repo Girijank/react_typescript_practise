@@ -1,0 +1,44 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/04_02_01_timeline/intmedia/",
+		"css":["interactives/04_02_01_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [
+
+			{
+				"date": "164 BCE–102 BCE",
+				"content": "<p><strong>Jugurthine Wars. c. 164 BCE–102 BCE. Known for: </strong></p><ul><li>Numidians vs Romans </li><li>Jugurtha  </li></ul>",
+				"image": "timeline_img1.jpg",
+				"caption": "Map of Africa Propria and Numidia",
+				"alt":"Map of Africa Propria and Numidia",
+				"summaryLength": "200"
+			},
+			{
+				"date": "91 BCE–87 BCE",
+				"content": "<p><strong>Social Wars:  c. 91 BCE–87 BCE.  Known for:  </strong></p><ul><li>Italian allies vs. Romans</li></ul>",
+				"image": "timeline_img2.jpg",
+				"caption": "Social Wars",
+				"alt":"Panel of warriors",
+				"summaryLength": "200"
+			},{
+				"date": "88 BCE–63 BCE",
+				"content": "<p><strong>Mithridatic Wars:  c. 88 BCE–63 BCE. Known for: </strong></p><ul><li>city of Pontus vs. Rome  </li><li>the ruler, Mithridates VI</li><li>Mithridatic poison</li></ul>",
+				"image": "timeline_img3.jpg",
+				"caption": "Gates of Mithradates",
+				"copyright": "©iStock",
+				"alt":"Picture of Gates of Mithradates",
+				"summaryLength": "200"
+			},{
+				"date": "73 BCE–72 BCE",
+				"content": "<p><strong>Spartacus:  c. 73 BCE–72 BCE. Known for:  </strong></p><ul><li>slave rebellion    </li><li>the Thracian slave, Spartacus</li></ul>",
+				"image": "timeline_img4.jpg",
+				"caption": "",
+				"alt":"Image of Spartacus falling in battle against the Romans",
+				"summaryLength": "200"				
+			}
+		]
+	}
+}

@@ -1,0 +1,555 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_01_06/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "_slidesToDisplay": 4,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "Select each drop-down and select the right word to complete the sentence.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "My mom hasn’t been to Taiwan."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {    
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+              
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>妈妈</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",  
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>没有</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>去</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>过</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>台湾</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我 妈妈 没有 去 过 台湾。</span> means “My mom hasn’t been to Taiwan.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "I haven’t eaten hamburgers before."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>以前</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>没有</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>吃</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>过</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>汉堡包</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我 以前 没有 吃 过 汉堡包。</span>. means “I haven’t eaten hamburgers before.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "He hasn’t folded clothes before."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>他</span>",
+            "options": [             
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>以前</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>没有</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>叠</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>过</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>衣服</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>他 以前 没有 叠 过 衣服。</span>. means “He hasn’t folded clothes before.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "My younger brother hasn’t done chores."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>弟弟</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>没有</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>做</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>过</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>家务</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>家务</span>",
+            "options": [
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>妈妈</span>",   
+              "<span lang='zh-Hans'>他</span>",
+              "<span lang='zh-Hans'>弟弟</span>",
+              "<span lang='zh-Hans'>以前</span>",
+              "<span lang='zh-Hans'>没有</span>",
+              "<span lang='zh-Hans'>过</span>",
+              "<span lang='zh-Hans'>叠</span>",
+              "<span lang='zh-Hans'>做</span>",
+              "<span lang='zh-Hans'>去</span>",
+              "<span lang='zh-Hans'>吃</span>",
+              "<span lang='zh-Hans'>台湾</span>",
+              "<span lang='zh-Hans'>衣服</span>",
+              "<span lang='zh-Hans'>汉堡包</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我 弟弟 没有 做 过 家务。</span>. means “My younger brother hasn’t done chores.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}
+
+
+
+

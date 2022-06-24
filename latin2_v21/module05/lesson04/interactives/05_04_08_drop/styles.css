@@ -1,0 +1,43 @@
+.resizetest .viewport {
+    min-height: 440px;
+}
+
+.ng_il .wbbtn.dropdown {
+    min-width: 120px;
+    width: auto;
+    margin-right: -9px;
+}
+
+.ng_il .il_viewport h2.il_int_title {
+    display: none;
+}
+
+.ng_il .il_wb.il_p_wrapper {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* .il_textversion [data-ng-switch-when='fitb']>div>span {
+    display: none;
+} */
+
+li.ng-scope {
+    /* float: left; */
+    width: 200px;
+    /* border-right: 1px solid #d0d0d0;     */
+    box-shadow: 1px 1px 1px #dcdcdc;
+    text-align: center;
+}
+
+.ques_eng {
+    /* margin-bottom: 10px; */
+}
+
+.ques_eng span {
+    width: 120px;
+}
+
+/* new add */
+.ng_il .il_textversion_question h4 {
+    color: #fff !important;
+}

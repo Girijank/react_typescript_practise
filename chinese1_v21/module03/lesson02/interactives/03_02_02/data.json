@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/03_02_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/03_02_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “n”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Outstanding job done catching the “n” sound. Totally awesome!",
+                "incorrect": "Got to catch the sound...try again.",
+                "text": "<span lang='zh-Hans'>男孩</span> nánhái (boy)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/boy.mp3",
+                    "textVersion": "<span lang='zh-Hans'>男孩</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job done catching the “n” sound. Totally awesome!",
+                "incorrect": "Got to catch the sound...try again.",
+                "text": "<span lang='zh-Hans'>女儿</span> nüér (daughter)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/daughter.mp3",
+                    "textVersion": "<span lang='zh-Hans'>女儿</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job done catching the “n” sound. Totally awesome!",
+                "incorrect": "Got to catch the sound...try again.",
+                "text": "<span lang='zh-Hans'>奶奶</span> nǎinai (paternal grandmother)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/paternal_grandmother.mp3",
+                    "textVersion": "<span lang='zh-Hans'>奶奶</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Outstanding job done catching the “n” sound. Totally awesome!",
+                "incorrect": "Got to catch the sound...try again.",
+                "text": "<span lang='zh-Hans'>你们</span> nǐmen you (plural)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/you_plural.mp3",
+                    "textVersion": "<span lang='zh-Hans'>你们</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “en”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "High five! You’ve done a great job finding the “en” sound. How fabulous!",
+                "incorrect": "Oops...looks like you are missing the sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>很</span> hěn (very)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/hen.mp3",
+                    "textVersion": "<span lang='zh-Hans'>很</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "High five! You’ve done a great job finding the “en” sound. How fabulous!",
+                "incorrect": "Oops...looks like you are missing the sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>人rén</span> (person, people)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/person_people.mp3",
+                    "textVersion": "<span lang='zh-Hans'>人rén</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "High five! You’ve done a great job finding the “en” sound. How fabulous!",
+                "incorrect": "Oops...looks like you are missing the sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>他们</span> tāmen (they)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/they_them.mp3",
+                    "textVersion": "<span lang='zh-Hans'>他们</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "High five! You’ve done a great job finding the “en” sound. How fabulous!",
+                "incorrect": "Oops...looks like you are missing the sound. Keep trying.",
+                "text": "<span lang='zh-Hans'>你们</span> nǐmen you (plural)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_02_02/media/you_plural.mp3",
+                    "textVersion": "<span lang='zh-Hans'>你们</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

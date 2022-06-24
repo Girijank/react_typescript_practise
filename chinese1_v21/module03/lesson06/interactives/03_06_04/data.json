@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_06_04/styles.css"],
+    "intMedia": "interactives/03_06_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "when_is_your_birthday.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>你的生日是什么时候</span> Nǐde shēngrì shì shénme shíhòu?"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which structure would you use to respond to the question in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我的生日是...</span>",
+        "options": ["<span lang='zh-Hans'>我今年...岁。</span>", "<span lang='zh-Hans'>我的头发是...的。</span>", "<span lang='zh-Hans'>我不喜欢…</span>"],
+        "correct": "Job nicely done! The question “<span lang='zh-Hans'>你的生日是什么时候？</span> Nǐde shēngrì shì shénme shíhòu? “ means “When is your birthday,” and to respond to it, you need to use the structure <span lang='zh-Hans'>我的生日是...</span> Wǒde shēngrì shì… (My birthday is ….).",
+        "incorrect": "Very close. Listen to the question in the audio again, think about its meaning, and then recall what structure you can use to form a response to match this meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "month.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>月</span> yuè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be completed with the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>一年有十二个_____。</span> Yīnián yǒu shíèr gè ____.",      
+        "options":[
+          "<span lang='zh-Hans'>请给我两_____米饭。</span> Qǐng gěiwǒ liǎng ___ mǐfàn.",
+          "<span lang='zh-Hans'>我的眼睛是_____色的。</span> Wǒde yǎnjīng shì ____ sè de.",
+          "<span lang='zh-Hans'>一杯果汁十二_____。</span> Yībēi guǒzhī shièr ____ ."
+        ],
+        "correct": "Outstanding! <span lang='zh-Hans'>月</span> yuè means month, and it suits the sentence <span lang='zh-Hans'>一年有十二个_____。</span> Yīnián yǒu shièr gè ____. very well with the meaning, “There are twelve months in a year.”",
+        "incorrect": "Not quite. Listen to the word again. Identify its meaning, and then review the four sentences in the choices to see which you can fit the word into.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "day.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>日</span>  rì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following numbers in Chinese <strong>cannot</strong> be reasonably used with the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>三十六</span> sānshíliù",      
+        "options":[
+          "<span lang='zh-Hans'>三十 </span> sānshí",
+          "<span lang='zh-Hans'>二十一</span> èrshíyī",
+          "<span lang='zh-Hans'>二十八</span> èrshíbā"
+        ],
+        "correct": "Outstanding job! <span lang='zh-Hans'>日</span> rì means “day” to describe the days in a month. The only number that can’t be the day in a month would be <span lang='zh-Hans'>三十六</span> sānshíliù (36).",
+        "incorrect": "Not quite. Think about the meaning of the word in the audio, and then consider the range of numbers that can be used with it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "celebrate.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>庆祝</span> qìngzhù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which of the following situations can the verb in the audio be <strong>most</strong> reasonably used?</p>", 
+        "answer": "At your best friend’s birthday party",      
+        "options":[
+          "After a disagreement with your friend",
+          "During your math semester exam",
+          "When you are preparing for a presentation"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>庆祝</span> qìngzhù means “celebrate.” Of the situations provided, your best friend’s birthday party is the most worth celebrating.",
+        "incorrect": "Not quite. Listen to the word in the audio again, consider its meaning, and then review the situations in the choices to see which is the <strong>most</strong> reasonable for the action indicated by the word in the audio.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

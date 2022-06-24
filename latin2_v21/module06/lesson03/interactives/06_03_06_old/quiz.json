@@ -1,0 +1,62 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_03_06/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/06_03_06/textversion/textversion.htm",
+    "modal": {
+      "directions": "Drag and drop each word with <span lang='zh-Hans'>的</span> de for the appropriate phrase, according to the function of <span lang='zh-Hans'>的</span> de",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "_______We will hope that the chief is -----(verbing). Same Time",
+            "limit": 2,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "movere"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "_______We will hope that the chief is -----(verbing). Same Time",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "movere"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+
+  ]
+}

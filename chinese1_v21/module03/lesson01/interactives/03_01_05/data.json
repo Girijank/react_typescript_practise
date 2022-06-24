@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_01_05/styles.css"],
+    "intMedia": "interactives/03_01_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>妈妈</span> māma"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following pronouns can be used to address the person this word refers to?</p>",
+        "answer": "<span lang='zh-Hans'>她</span> tā",
+        "options": [
+          "<span lang='zh-Hans'>他</span> tā",
+          "<span lang='zh-Hans'>它</span> tā",
+          "<span lang='zh-Hans'>我</span> wǒ"
+        ],
+        "correct": "Job well done! <span lang='zh-Hans'>妈妈</span> māma means “mom,” and the pronoun <span lang='zh-Hans'>她</span> tā(she) is the right word to address her.",
+        "incorrect": "Very close. First understand the meaning of the word; then consider which pronoun by gender correctly addresses the person the word refers to.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>爸爸</span> bàba"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does <strong>not</strong> fall in the same category as the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>谢谢</span> xièxiè </span><audio class='audio' controls src='interactives/03_01_05/intmedia/thanks.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>妈妈</span> māma </span><audio class='audio' controls src='interactives/03_01_05/intmedia/mom.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>姐姐</span> jiějie</span><audio class='audio' controls src='interactives/03_01_05/intmedia/older_sister.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>弟弟</span> dìdi </span><audio class='audio' controls src='interactives/03_01_05/intmedia/younger_brother.mp3' ></audio>"
+        ],
+        "correct": "Fantastic job! <span lang='zh-Hans'>爸爸</span> bàba (dad), <span lang='zh-Hans'>妈妈</span> māma (mom), <span lang='zh-Hans'>姐姐</span> jiějie (older sister), and <span lang='zh-Hans'>弟弟</span> dìdi (younger brother) are all titles used to address your family members, while <span lang='zh-Hans'>谢谢</span> xièxiè means &quot;thanks.&quot;",
+        "incorrect": "Oops... listen to the audios in the options again, all of which are “duplicated words” (words with the same character(s) repeating), and see if you can identify the one word that doesn’t belong.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>儿子</span> érzi"    
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words can be used in similar conversations as the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>女儿</span> nü’ér",
+        "options": [
+          "<span lang='zh-Hans'>老师</span> lǎoshī",
+          "<span lang='zh-Hans'>朋友</span> péngyǒu",
+          "<span lang='zh-Hans'>先生</span> xiānshēng"       
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>儿子</span> érzi  means “son,” which can be used in conversations introducing family members.  The word <span lang='zh-Hans'>女儿</span> nü’ér (daughter) can also be used in such conversations.",
+        "incorrect": "Not quite… think about the meaning of <span lang='zh-Hans'>儿子</span> érzi and what kind of conversation it can be used for. Then among the options, find the one that can also be used in the same conversations.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>孩子</span> háizi"     
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>You can use the word presented in all of the following sentences <strong>except</strong> which one?</p>",
+        "answer": "<span lang='zh-Hans'>请给我两盘____。</span> Qǐng gěiwǒ liǎngpán ____.",
+        "options": [
+          "<span lang='zh-Hans'>我喜欢____。</span> Wǒ xǐhuān ____.",
+          "<span lang='zh-Hans'>他有三个____。</span> Tā yǒu sāngè ____.",
+          "<span lang='zh-Hans'>我是她的____。</span> Wǒ shì tāde ____."
+        ],
+        "correct": "You got it!  <span lang='zh-Hans'>孩子</span> háizi means “child,” and remember that in the Chinese language, you don’t need to change a noun for its plural. With the structures in the options, you can say “I like children,” “He has three children,” and “I am her child.” But you may not want to say, “Please, give me two plates of children.”",
+        "incorrect": "Not quite… think about the meaning of <span lang='zh-Hans'>孩子</span> háizi and how you can reasonably fit it in the sentences in the options. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

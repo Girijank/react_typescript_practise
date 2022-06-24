@@ -1,0 +1,26 @@
+
+.carousel-Height{
+    min-height: 340px;
+}
+.carousel{
+    margin-top: 20px;
+}
+.carousel .carousel-control.right:focus span.glyphicon {
+    text-shadow: none;
+}
+.carousel .carousel-control.left:focus span.glyphicon {
+    text-shadow: none;
+}
+.carousel .carousel-control.left:focus, .carousel .carousel-control.right:focus {
+    box-shadow:none;
+}
+.carousel *:not(.record_icon, .item):focus {
+    box-shadow: 0px 0px 0px 0px #2daff6;
+}
+.ng_il .viewport {
+    min-height: 620px !important;
+}
+.timeline .entry {
+    height: 410px !important;
+}
+

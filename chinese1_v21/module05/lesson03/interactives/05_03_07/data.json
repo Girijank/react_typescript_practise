@@ -1,0 +1,118 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_03_07/styles.css"],
+    "intMedia": "interactives/05_03_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "table.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>桌子</span> zhuōzi "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>best</strong> matches the item indicated by the word in the audio? </p>",
+        "answer": "<span lang='zh-Hans'>椅子</span>",
+        "options": ["<span lang='zh-Hans'>叉子</span>",
+           "<span lang='zh-Hans'>孩子</span>", 
+           "<span lang='zh-Hans'>帘子</span>"
+          ],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>桌子</span> zhuōzi means “table.” It can be best matched with a <span lang='zh-Hans'>椅子</span> yǐzi (chair). ",
+        "incorrect": "Not quite. Listen to the word in the audio again to understand what item it is, and then review the choices to see which one you would like to see next to the item to make the most sense. Don’t be confused by the many <span lang='zh-Hans'>子</span>’s in the word and the choices. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_cook.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>做饭</span> zuòfàn  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items will <strong>most</strong> likely be needed during the activity indicated by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>炉子</span> lúzi (stove)  </span><audio class='audio' controls src='interactives/05_03_07/intmedia/stove.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>书架</span> shūjià (bookshelf) </span><audio class='audio' controls src='interactives/05_03_07/intmedia/bookshelf.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>床单</span> chuángdān (bed sheet)  </span><audio class='audio' controls src='interactives/05_03_07/intmedia/bed_sheet.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>地毯</span> dìtǎn (rug/carpet)   </span><audio class='audio' controls src='interactives/05_03_07/intmedia/rug_carpet.mp3' ></audio>"
+        ],
+        "correct": "Terrific work! <span lang='zh-Hans'>做饭</span> zuòfàn means “to cook.” You will need a <span lang='zh-Hans'>炉子</span> lúzi (stove) to get the cooking going. You may not need a <span lang='zh-Hans'>床单</span> chuángdān (bedsheet) to cook a meal. ",
+        "incorrect": "Not quite. Listen again several times to identify which chore it is, and then consider what you might need for that particular activity.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "fridge.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>冰箱</span> bīngxiāng  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same final as the second character in the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>善良</span>",
+        "options": [
+          "<span lang='zh-Hans'>窗户</span>",
+          "<span lang='zh-Hans'>需要</span>",
+          "<span lang='zh-Hans'>壁橱</span>"
+        ],
+        "correct": "You got it! The second character in<span lang='zh-Hans'> 冰箱</span> bīngxiāng (fridge) has the final “iang,” which is also in the second character in the word <span lang='zh-Hans'>善良</span> shànliáng (nice/kind). ",
+        "incorrect": "Oops. Listen to the audio several more times to identify the final of its second character. Then, sound out the words in the choices to see which one shares the same final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/05_03_07/customview_imgbtn.htm"
+      },
+      {
+        "type": "localAudio",
+        "src": "to_wash_dishes.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>洗碗</span> xǐwǎn  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is an object for the activity indicated by the word in audio?</p>",
+        "answer": "<span class='fortv'>Image of some dishes</span><img src='interactives/05_03_07/images/dishes.jpg' alt='Image of some dishes'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of an array of desserts</span><img src='interactives/05_03_07/images/desserts.jpg' alt='Image of an array of desserts'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a stack of linen</span><img src='interactives/05_03_07/images/linen.jpg' alt='Image of a stack of linen'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a pile of stationery</span><img src='interactives/05_03_07/images/stationery.jpg' alt='Image of a pile of stationery'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Totally awesome! <span lang='zh-Hans'>洗碗</span> xǐwǎn means “to wash dishes.” Its object should be the dishes. You may not want to wash the desserts away!",
+        "incorrect": "Oops. Listen to the audio several more times to identify the activity it represents; then check the choices to see which one makes the most sense for this activity.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "sink.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>水槽</span> shuǐcáo  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which of the following parts of a house will you <strong>most</strong> likely find the item indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>厨房</span>",
+        "options": [
+          "<span lang='zh-Hans'>客厅</span>",
+          "<span lang='zh-Hans'>阳台</span>",
+          "<span lang='zh-Hans'>门廊</span>"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>水槽</span> shuǐcáo means “sink.” It can easily be found in the kitchen, but maybe not as likely on the front porch.  ",
+        "incorrect": "Oops. Listen to the audio several more times to identify the item indicated by the audio; then check the choices to see which part of a house this item can most reasonably be located in.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+
+  ]
+}

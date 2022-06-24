@@ -1,0 +1,163 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/02_02_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/02_02_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “ch”",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "Very nicely done catching  the “ch” sounds. Way to go!",
+                "incorrect": "Got to catch all the “ch” sounds… Let’s try again.",
+                "text": "<span lang='zh-Hans'>吃</span> chī (to eat) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/to_eat.mp3",
+                    "textVersion": "<span lang='zh-Hans'>吃</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Very nicely done catching  the “ch” sounds. Way to go!",
+                "incorrect": "Got to catch all the “ch” sounds… Let’s try again.",
+                "text": "<span lang='zh-Hans'>茶</span> chá (tea)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/tea.mp3",
+                    "textVersion": "<span lang='zh-Hans'>茶</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ao” ",
+            "limit": 3,
+            "item": [
+              {
+                "correct": "You’ve got an ear! Impressive job identifying  the “ao” sounds. Totally awesome!",
+                "incorrect": "Not quite… try to catch them all. You can do it!",
+                "text": "<span lang='zh-Hans'>老师</span> lǎoshī (teacher)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/teacher.mp3",
+                    "textVersion": "<span lang='zh-Hans'>老师</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Impressive job identifying the “ao” sounds. Totally awesome!",
+                "incorrect": "Not quite… try to catch them all. You can do it!",
+                "text": "<span lang='zh-Hans'>你好</span> nǐhǎo (hello)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/hello.mp3",
+                    "textVersion": "<span lang='zh-Hans'>你好</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Impressive job identifying  the “ao” sounds. Totally awesome!",
+                "incorrect": "Not quite… try to catch them all. You can do it!",
+                "text": "<span lang='zh-Hans'>面包</span> miànbāo (bread)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/bread.mp3",
+                    "textVersion": "<span lang='zh-Hans'>面包</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “eng” ",
+            "limit": 3,
+            "item": [
+              {
+                "correct": "High five! You’ve done well identifying the “eng” sounds. How terrific!",
+                "incorrect": "Oops… looks like you are missing some of the “eng” sounds. Try again.",
+                "text": "<span lang='zh-Hans'>朋友</span> péngyǒu (friend)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/friend.mp3",
+                    "textVersion": "<span lang='zh-Hans'>朋友</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "High five! You’ve done well identifying  the “eng” sounds. How terrific!",
+                "incorrect": "Oops… looks like you are missing some of the “eng” sounds. Try again.",
+                "text": "<span lang='zh-Hans'>先生</span> xiānshēng (Mr.)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/mr.mp3",
+                    "textVersion": "<span lang='zh-Hans'>先生</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "High five! You’ve done well identifying  the “eng” sounds. How terrific!",
+                "incorrect": "Oops… looks like you are missing some of the “eng” sounds. Try again.",
+                "text": "<span lang='zh-Hans'>冷</span> lěng (cold)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_02_02/media/cold.mp3",
+                    "textVersion": "<span lang='zh-Hans'>冷</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

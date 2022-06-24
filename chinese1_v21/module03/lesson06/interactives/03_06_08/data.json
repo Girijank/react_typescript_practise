@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_06_08/styles.css"],
+    "intMedia": "interactives/03_06_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "in_the_past.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>past 以前</span> yǐqián"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items can be associated with the word in the audio?",
+        "answer": "My grandma’s album with black-and-white photos",
+        "options": [
+          "My little sister’s class schedule for next semester",
+          "My mom’s TV guide showing this evening’s programs",
+          "The weatherman’s report for next week’s weather"
+        ],
+        "correct": "Job excellently done! <span lang='zh-Hans'>以前</span> yǐqián means “in the past,” and of the items shown, Grandma’s photo album can remind us of the past.",
+        "incorrect": "Not quite. Listen to the phrase again. Think about its meaning, and then consider what the items in the choices indicate; past, present, or future.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "often.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>经常</span> jīngcháng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does <strong>not</strong> have the same final as the 1st character of the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>城市</span> chéngshì</span><audio class='audio' controls src='interactives/03_06_08/intmedia/city.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>冰激凌</span> bīngjīlíng</span><audio class='audio' controls src='interactives/03_06_08/intmedia/ice_cream.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>庆祝</span> qìngzhù</span><audio class='audio' controls src='interactives/03_06_08/intmedia/celebrate.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>眼镜</span> yǎnjìng</span><audio class='audio' controls src='interactives/03_06_08/intmedia/glasses.mp3' ></audio>"
+        ],
+        "correct": "Outstanding job! The 1st character in the word <span lang='zh-Hans'>经常</span> jīngcháng (often) has final “ing.” Of the choices, the only word that does not have “ing” as final is <span lang='zh-Hans'>城市</span> chéngshì (city). ",
+        "incorrect": "Not quite. Listen to the audio again and identify the final. Then compare it with the four options on the list to see which one does not have the same final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "always.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>总是</span> zǒngshì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following serves the same function in a sentence as the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>从不</span> cóngbù",
+        "options": [
+          "<span lang='zh-Hans'>年轻</span> niánqīng",
+          "<span lang='zh-Hans'>他们</span> tāmen",
+          "<span lang='zh-Hans'>季节</span> jìjié"
+        ],
+        "correct": "Excellent job! <span lang='zh-Hans'>总是</span> zǒngshì means “always.” It’s an adverb indicating frequency of an action. So is <span lang='zh-Hans'>从不</span> cóngbù (never), which is also a frequency adverb.",
+        "incorrect": "So close! Listen to the word again. Think about what type of word it is and what function it serves in a sentence; then review the word in the choices and find the one that does the same thing.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "cake.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>蛋糕</span> dàngāo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Where do you <strong>most</strong> likely find the item indicated by the word in the audio?</p>",
+        "answer": "At the local bakery shop",
+        "options": [
+          "On the podium at a conference",
+          "When waiting at a bus station",
+          "Along the trail in the woods"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>蛋糕</span> dàngāo means “cake,” and you can easily find it at a local bakery shop, without it being a surprise. ",
+        "incorrect": "So close! Listen to the word again. Understand its meaning, and then consider at what places it can be reasonably found.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

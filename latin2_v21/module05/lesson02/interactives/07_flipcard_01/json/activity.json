@@ -1,0 +1,25 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Select the image of each emperor to learn more about what they did during their reign.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<div><img src='images/flip_01_tiberius.jpg' alt='Bronze bust of Tiberius, found in Tiermes (Spain)' class='frame' data-caption='Tiberius Bust' data-width=' ' data-copyright='©Prisma / ImageQuest 2021' /></div><span class='caption'>Tiberius Bust</span><span class='copyright'>©Prisma / ImageQuest 2021</span>",
+          "textversion": "<p>Image: Bronze bust of Tiberius, found in Tiermes (Spain)</p>"
+        },
+        "back": {
+          "content": "<h4>Reign: 14 CE–37 CE.</h4><h5>I am known for:</h5><ul><li>being adopted by Augustus Caesar</li><li>continuing to stabilize Rome under the Augustan agenda</li><li>countryside growing in wealth</li><li>living in the Villa Jovis on the island of Capri</li></ul>",
+          "textversion": "<h4>Reign: 14 CE–37 CE.</h4><h5>I am known for:</h5><ul><li>being adopted by Augustus Caesar</li><li>continuing to stabilize Rome under the Augustan agenda</li><li>countryside growing in wealth</li><li>living in the Villa Jovis on the island of Capri</li></ul>"
+        }
+      }
+      
+    ]
+  }
+}

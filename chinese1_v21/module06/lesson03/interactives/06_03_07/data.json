@@ -1,0 +1,79 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_03_07/styles.css"],
+    "intMedia": "interactives/06_03_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "in_front_of.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>前边</span> qiánbiān (in front of) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following preposition words is the <strong>antonym</strong> of the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>后边</span> hòubiān (behind)  </span><audio class='audio' controls src='interactives/06_03_07/intmedia/behind.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>上边</span> shàngbiān (on top) </span><audio class='audio' controls src='interactives/06_03_07/intmedia/on_top.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>左边</span> zuǒbiān (left side)  </span><audio class='audio' controls src='interactives/06_03_07/intmedia/left_side.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>旁边</span> pángbiān (next to </span><audio class='audio' controls src='interactives/06_03_07/intmedia/next_to.mp3' ></audio>"
+        ],
+        "correct": "Outstanding work! <span lang='zh-Hans'>前边</span> qiánbiān means “in front of,” and its opposite is <span lang='zh-Hans'>后边</span> hòubiān (behind). Note that all these preposition words have the word <span lang='zh-Hans'>边</span> biān (side).",
+        "incorrect": "Not quite. Listen again several times to identify which preposition word it is, and then consider what its opposite position is, and which preposition word in the choices describes it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [{
+      "type": "config",
+      "customView": "interactives/06_03_07/customview_imgbtn.htm"
+    },
+      {
+        "type": "localAudio",
+        "src": "next_to.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>旁边</span> pángbiān (next to) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following objects’ relative locations <strong>cannot</strong> be accurately described by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Image of two stacked books</span><img src='interactives/06_03_07/intmedia/img_1.jpg' alt='Image of two stacked books' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          "<span class='fortv'>Image of two chairs side by side</span><img src='interactives/06_03_07/intmedia/img_2.jpg' alt='Image of two chairs side by side' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>Image of two laptops next to each other </span><img src='interactives/06_03_07/intmedia/img_3.jpg' alt='Image of two laptops next to each other' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>Image of two cups of coffee next to each other</span><img src='interactives/06_03_07/intmedia/img_4.jpg' alt='Image of two cups of coffee next to each other' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>"
+        ],
+        "correct": "Totally fabulous! <span lang='zh-Hans'>旁边</span> pángbiān means “next to.” Of the images shown, each pair of the chairs, laptops, and cups of coffee are next to each other, while the books are stacked on top of each other.",   
+        "incorrect": "Oops. Listen to the audio several more times to identify what preposition word it is, and which position of the two objects in each of the images it cannot describe.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "corner.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>角落</span> jiǎoluò (corner) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which character in the word in the audio can be used by itself with the same meaning?</p>",
+        "answer": "<span lang='zh-Hans'>角</span>",
+        "options": [
+          "<span lang='zh-Hans'>落</span>",
+          "<span lang='zh-Hans'>菜</span>",
+          "<span lang='zh-Hans'>包</span>"
+        ],
+        "correct": "Job wonderfully done! In the word <span lang='zh-Hans'>角落</span> jiǎoluò (corner), the first character, <span lang='zh-Hans'>角</span>, can be used by itself with the same meaning: “corner.” You have selected the correct character out of the characters with similar shapes. Awesome!",   
+        "incorrect": "Oops. Listen to the audio several more times to identify the word and the characters it contains. Consider which character can be used by itself. Refer to the note under the vocabulary tiles for reference. Try not to be confused by the characters in the choices that have similar shapes.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+    
+  ]
+}

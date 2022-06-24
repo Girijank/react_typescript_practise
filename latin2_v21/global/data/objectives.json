@@ -1,0 +1,642 @@
+{
+  "objectives": [
+    {
+      "mID": "1",
+      "lessons": [
+        {
+          "lessID": "01.01",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify 1<sup>st</sup>, 2<sup>nd</sup>, and 3<sup>rd</sup> Declension noun forms in Latin sentences",
+            "demonstrate understanding of readings about the myth of Juno and Io.",
+            "demonstrate understanding of Latin1st, 2nd, and 3rd declension nouns used in context.",
+            "identify elements of Rome's mytho-historical storytelling tradition.",
+            "access information in Latin to reinforce understanding of English and Latin grammar structures.",
+            "compare use of noun forms in Latin and English."
+          ]
+        },
+        {
+          "lessID": "01.02",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify active voice verb forms, from all four conjugations, in the context of Roman history and mythology",
+            "demonstrate understanding of active voice Latin verbs, in all four conjugations and tenses, used in context when following written directions",
+            "use previously acquired vocabulary to discuss the Trojan War",
+            "examine the influence of Greek and Roman writers and literary traditions on the story of Rome's foundation",
+            "compare use of active voice verb forms, regular and irregular in Latin and English.",
+            "use Latin and classical knowledge to discover and enjoy epic narratives in a variety of media formats"
+          ]
+        },
+        {
+          "lessID": "01.03",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding of the Passive Voice.",
+            "identify and translate Latin verbs in both Active and Passive Voice.",
+            "examine significant historic and contemporary influence of Vergil and the story of Aeneas.",
+            "compare Present Tense Passive Voice formation in English and Latin including how passive verbs can be used in translation."
+            
+          ]
+        },
+        {
+          "lessID": "01.04",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the purpose of Rome's mythological foundation stories.",
+            "determine the main idea and essential details when reading the Wanderings of Aeneas.",
+            "interpret the story of Dido, Queen of Carthage.",
+            "identify and translate 3rd -io and 4th conjugation Latin verbs in the Active and Passive Voice.",
+            "determine the main idea and essential details when reading the story of Romulus and Remus.",
+            "compare the use of an agent in passive sentences in English and Latin, and apply to translation."
+            
+          ]
+        },
+        {
+          "lessID": "01.05",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "compare and contrast mythological and historical elements of Rome's founding with that of other cultures.",
+            "recognize similarities and differences between foundation traditions from Rome and other cultures.",
+            "research the identity and contributions of the mythological and/or historical founders of Rome and other cultures.",
+            "determine the central ideas or information in the foundation stories researched and provide an accurate summary of the key events from those stories."
+          ]
+        },
+        {
+          "lessID": "01.06",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "express views and effectively engage in a conversation regarding Latin 1 review material.",
+            "express views and effectively engage in a conversation regarding the founding of Rome.",
+            "describe and express an opinion regarding the story of Dido and Aeneas."
+            
+          ]
+        },
+        {
+          "lessID": "01.07",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the Latin adjective used in context when following written directions.",
+            "compare adjective use in English and Latin.",
+            "research contributions made by Numa Pompilius, Tullus Hostilius, and Ancus Marcius.",
+            "examine significant historic and contemporary influences of the Roman kings.",
+            "identify products of the Roman monarchy."
+          ]
+        },
+        {
+          "lessID": "01.08",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify Passive Voice verb forms from all four conjugations, in the context of Roman history and mythology.",
+            "demonstrate awareness of how Roman culture has contributed to modern sports and recreational activities.",
+            "research contributions made by the Etruscan kings of Rome.",
+            "identify sports and recreational activities popular during the time of the Roman monarchy.",
+            "identify similarities and differences in entertainment in modern times versus ancient Rome.",
+            "compare English derivatives to their Latin root.",
+            "compare how Perfect Passive verbs are used in Latin and English."
+          ]
+        },
+        {
+          "lessID": "01.09",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the main idea and supporting details of the story of Horatius.",
+            "identify important events and contributions of the last kings of Rome.",
+            "use context clues and background knowledge to demonstrate understanding of sentences in the Passive Voice.",
+            "research contributions made by Servius Tullius and Tarquinius Superbus.",
+            "identify similarities and differences in the way Rome was governed across time.",
+            "use expanded vocabulary and structures in the Latin language to increase knowledge of Roman monarchy.",
+            "use previously acquired vocabulary to discuss Roman political history to reinforce and further knowledge of world governments."
+          ]
+        }
+
+      ]
+    },
+    {
+      "mID": "2",
+      "lessons": [
+        {
+          "lessID": "02.01",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify essential information on the Roman Republic through a variety of media.",
+            "identify the main idea and key details in texts that contain review and new vocabulary used in context of Roman Republic stories.",
+            "identify elements of government structure during the Roman Republic.",
+            "identify assembly bodies of the Roman Republic and define <em>cursus honorum</em>.",
+            "identify cultural outcomes of the First Latin War.",
+            "compare the use of intensive pronouns in English and Latin."
+          ]
+        },
+        {
+          "lessID": "02.02",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of demonstrative pronouns used in context when following written directions",
+            "compare and contrast Roman Republic government with modern government practices",
+            "use previously acquired vocabulary to discuss government and law in Latin",
+            "compare the use of demonstrative pronouns in English and Latin"
+          ]
+        },
+        {
+          "lessID": "02.03",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the purpose of a lecture or talk on the lives of Roman women",
+            "use context clues and background knowledge to demonstrate understanding of reflexive pronouns in context",
+            "recognize similarities and differences between Rome and modern times in the approach to government, architecture, and the arts",
+            "examine significant historic and contemporary influences from women in the Roman Republic",
+            "identify traditions of Roman education in the Republic",
+            "compare use of relative pronouns and pronoun agreement in Latin and English to use in translation of dependent clauses"
+          ]
+        },
+
+        {
+          "lessID": "02.04",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the main idea and supporting details of Mercury myths",
+            "identify the main idea and key details in the story <em>The Moon is Down</em>",
+            "determine the main idea and essential details when reading narratives, literary selections, and other fictional writings about life during the Republic",
+            "identify similarities and differences in traditions and beliefs of the Romans and Etruscans",
+            "use previously acquired vocabulary to discuss Roman military history",
+            "compare use of relative pronouns and pronoun agreement in Latin and English"
+          ]
+        },
+        {
+          "lessID": "02.05",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "write informative texts through a variety of media, using connected sentences and providing supporting facts about social classes in the Roman Republic",
+            "draft, edit, and summarize information, concepts, and ideas about social classes in the Roman Republic",
+            "produce writing that has been edited for punctuation and correct use of grammar, in which the development and organization are appropriate to writing workshop"
+          ]
+        },
+        {
+          "lessID": "02.06",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "express views and effectively engage in conversations regarding Latin pronouns",
+            "express views and effectively engage in conversations regarding the structure of the Roman Republic",
+            "present information on Roman Republic class roles",
+            "provide supporting evidence using logically connected sentences that include relevant details about the Roman Republic"
+          ]
+        },
+        {
+          "lessID": "02.07",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding stories about the Pyrrhic Wars",
+            "demonstrate understanding of reflexive pronouns used in context",
+            "identify key details of the Pyrrhic wars",
+            "identify examples of Pyrrhic victories and compare in ancient and modern times",
+            "compare use of reflexive pronouns and pronoun agreement in Latin and English"
+          ]
+        },
+        {
+          "lessID": "02.08",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding of the main idea and essential details about the First Punic War",
+            "identify the main idea and key details in the story, <em>The Moon is Down</em> that contain familiar and unfamiliar vocabulary used in context",
+            "research advances in naval warfare during the First Punic War made by the Romans and Carthaginians",
+            "identify significant cultural outcomes of the First Punic War",
+            "compare use of possessive pronouns in English and Latin"
+          ]
+        },
+        {
+          "lessID": "02.09",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding of the main idea and essential details about the Second and Third Punic Wars",
+            "identify the main idea and key details in the story, <em>The Moon is Down</em>",
+            "state an opinion based on evidence provided about Rome versus Carthage",
+            "examine significant historic and contemporary influences of the leaders of the Roman Republic",
+            "compare how different pronoun forms are identified and used in Latin and English"
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "mID": "3",
+      "lessons": [
+        {
+          "lessID": "03.01",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "distinguish patterns of behavior and social interaction between social classes in Rome",
+            "use expanded vocabulary and structures in the target language to increase historical and cultural knowledge of Roman values",
+            "use previously acquired vocabulary to discuss cultural and linguistic derivatives of Roman values and virtues in other subject areas such as geography, history, music, art, science, math, language, or literature to reinforce and further the knowledge of other disciplines through the Latin language",
+            "compare formation and translation of 4th Declension nouns in Latin and English"
+          ]
+        },
+        {
+          "lessID": "03.02",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "interpret written literary text in which the writer tells or asks about family life",
+            "demonstrate awareness and appreciation of the daily life of a Roman family",
+            "demonstrate awareness and appreciation of Roman school-related activities and values",
+            "compare 5<sup>th</sup> Declension noun translation and formation in Latin and English"
+          ]
+        },
+        {
+          "lessID": "03.03",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of complex directions and instructions to navigate in a Roman city",
+            "identify the main idea and key details in texts that contain familiar and unfamiliar vocabulary used in context of Roman city life",
+            "discuss the standard of living in Roman cities with peers and adults",
+            "identify customs and traditions related to the priestesses of Vesta",
+            "identify products of Roman culture related to life in the city",
+            "use previously acquired vocabulary to discuss city planning and architecture",
+            "compare formation and use of interrogative pronouns in Latin and English"
+          ]
+        },
+        {
+          "lessID": "03.04",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "determine the main idea and essential details when reading dialogs concerning health and medicine",
+            "demonstrate understanding of vocabulary used in context when following doctor's orders",
+            "discover contributions made by the Vestal Virgins",
+            "use expanded vocabulary and structures in the target language to increase health and medical knowledge",
+            "compare use of interrogatives in Latin and English"
+          ]
+        },
+        {
+          "lessID": "03.05",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "compare and contrast mythological and historical elements of Rome's founding with that of other cultures",
+            "recognize similarities and differences between foundation traditions from Rome and other cultures",
+            "research the identity and contributions of the mythological and/or historical founders of Rome and other cultures",
+            "determine the central ideas or information in the foundation stories researched and provide an accurate summary of the key events from those stories"
+          ]
+        },
+        {
+          "lessID": "03.06",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "express views and effectively engage in conversations on culture topics in the Roman Republic  ",
+            "engage effectively in a collaborative discussion about the Roman Republic"
+          ]
+        },
+        {
+          "lessID": "03.07",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "interpret written literary text in which the writer tells or asks about agriculture and country life",
+            "distinguish patterns of behavior and social interaction between Romans in the city versus the country",
+            "identify products of Roman culture related to life in the country",
+            "compare the use of intensive pronouns in Latin and in English translation"
+          ]
+        },
+        {
+          "lessID": "03.08",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify essential information and supporting details on social interaction between Romans presented through a variety of media",
+            "identify similarities and differences in Roman home decor compared to other ancient cultures and modern times",
+            "compare use of differing pronouns in Latin and English."
+        
+          ]
+        }
+        
+      
+        
+        
+
+
+      ]
+    },
+    {
+      "mID": "4",
+      "lessons": [
+        {
+          "lessID": "04.01",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the units and weaponry of the Roman army",
+            "identify products of Roman culture associated with military life",
+            "compare use of comparative adjectives in English and Latin"
+          ]
+        },
+        {
+          "lessID": "04.02",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "determine the main idea and essential details when reading narratives, literary selections, and other fictional writings on familiar topics",
+            "recognize similarities and differences in the military roles of women in ancient Rome versus modern times",
+            "examine significant historic and contemporary influences of the leaders who rebelled against Rome",
+            "compare use of superlative adjectives in English and Latin"
+          ]
+        },
+        {
+          "lessID": "04.03",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify the main idea and key details in texts about rebellion in Rome",
+            "examine significant historic and contemporary influences on famous rebels like Spartacus",
+            "identify and the significance of the Grass Crown in Roman culture",
+            "compare use of comparative and superlative adverbs in English and Latin"
+          ]
+        },
+        {
+          "lessID": "04.04",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the roles women played in the Roman warfare",
+            "determine the main idea and essential details when reading narratives, literary selections, and other fictional writings on famous Roman myths",
+            "research contributions made by the Roman soldier Marius",
+            "compare the translation of superlative adjectives in Latin and English",
+            "use Latin to read about Roman mythology and storytelling for personal enjoyment and enrichment"
+          ]
+        },
+        {
+          "lessID": "04.05",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "write on events of the Roman Republic using main ideas and supporting details",
+            "describe an event or situation in the style of a Roman myth, using a variety of sentences and with supporting details",
+            "write a narrative during the time of the Roman Republic, using logically connected sentences with supporting details",
+            "produce writing that has been edited for punctuation and correct use of grammar, in which the development and organization are appropriate to task and purpose",
+            "write a narrative based on your experience in ancient Rome in the style of a Roman myth that uses descriptive language and details"
+          ]
+        },
+        {
+          "lessID": "04.06",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "express views and effectively engage in conversations on the Roman army and rebellions against Rome ",
+            "Present information on Roman military life and warfare, using a series of sentences with sufficient details"
+            
+          ]
+        },
+        {
+          "lessID": "04.07",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "examine significant historic and contemporary influences of key figures of Roman civil wars, such as Marius, Sulla, and Julius Caesar",
+            "use expanded vocabulary and structures in Latin to increase knowledge of modern representations of Julius Caesar",
+            "use previously acquired vocabulary to discuss Roman history and further knowledge of other disciplines through  Latin",
+            "compare use of irregular adjectives and adverbs in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "04.08",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "recognize many high frequency idiomatic expressions in texts from the Roman Republic",
+            "identify significant outcomes of the First Triumvirate and the Second Civil War",
+            "use expanded vocabulary and structures in Latin to increase your knowledge of Roman history ",
+            "use previously acquired vocabulary to discuss Roman history and further knowledge of other disciplines through Latin",
+            "compare use of idioms in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "04.09",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify key points and essential details on the contributions and assassination of Julius Caesar",
+            "use context clues and background knowledge to demonstrate understanding of dialog about life in the Roman Republic",
+            "examine significant historic and contemporary influences derived from the life and assassination of Julius Caesar",
+            "identify significant outcomes of the Second Triumvirate and the Third Civil War"
+            
+          ]
+        }
+    
+        
+        
+        
+        
+      
+        
+        
+
+
+      ]
+    },{
+      "mID": "5",
+      "lessons": [
+        {
+          "lessID": "05.01",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of vocabulary used in geographical and historical context when following written directions",
+            "research contributions to Roman architecture made by Caesar Augustus",
+            "examine significant influences of Emperor Augustus",
+            "compare uses and formation of participles in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "05.02",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the purpose of a lecture or talk on the role of emperor in Rome",
+            "distinguish patterns of behavior and societal position of the Roman emperor",
+            "compare uses and formation of participles in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "05.03",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "determine the main idea and essential details when reading stories about the Roman emperors",
+            "understand contributions made by Romans to mythological storytelling",
+            "examine significant historic and contemporary influences of the Roman emperors",
+            "compare uses and formation of participles in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "05.04",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding of the main idea and essential details in texts about art and architecture of the Roman Empire",
+            "identify the main idea and key details in the story of the Boudica Rebellion, using new and familiar vocabulary",
+            "research contributions made by Romans through iconic architectural structures ",
+            "compare use of participial phrases (such as Ablative Absolutes) in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "05.05",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "express and support opinions on Roman expansion, using a series of sentences",
+            "state an opinion on Roman expansion and provide supporting evidence, using connected sentences",
+            "conduct research and write a detailed plan to help a Roman province",
+            "develop a draft of a plan to help a Roman province that addresses purpose, audience, logical sequence, and a time frame for completion",
+            "produce writing that has been edited for punctuation and correct use of grammar, in which the development and organization are appropriate to task and purpose",
+            "write arguments focused on the environmental effects of Roman expansion"
+          ]
+        },
+        {
+          "lessID": "05.06",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "express views and effectively engage in conversations on places in the Roman Empire (both historical and contemporary)",
+            "engage effectively in a range of collaborative discussions on the Roman provinces",
+            "describe a problem or situation with details, and state an opinion on Roman expansion",
+            "present information on Roman expansion, findings, and supporting evidence clearly, concisely, and logically such that listeners can follow the line of reasoning and that the organization, development, substance, and style are appropriate to purpose, audience, and task"
+            
+            
+          ]
+        },
+        {
+          "lessID": "05.07",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "demonstrate understanding of the main idea and supporting details of presentations on Roman emperors",
+            "recognize similarities and differences in practices and perspectives used across cultures in the Roman empire and compare to differing cultural perspectives in modern times to understand one’s own and others’ ways of thinking",
+            "identify products of the Roman Empire",
+            "compare uses and formation of infinitives in Latin and English"
+            
+            
+          ]
+        },
+        {
+          "lessID": "05.08",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify key points and essential details, using Latin cognates and images",
+            "recognize similarities and differences in practices and perspectives of Roman emperors to understand one’s own and others’ ways of thinking",
+            "examine significant historic and contemporary influences of the Roman emperors",
+            "compare language structures and skills that transfer across the Romance languages",
+            "communicate with people from Latin online communities around the world",
+            "use a variety of media venues in Latin to access information about community events and organizations where  Latin is used around the world"
+            
+          ]
+        },
+        {
+          "lessID": "05.09",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding of the main idea and essential details in stories about the Roman emperors",
+            "interpret written literary text in which the writer tells or asks about the late Roman Empire",
+            "examine significant historic and contemporary influences from Roman emperors such as Constantine",
+            "identify similarities and differences in religious products and practices across the Roman empire and across Roman history"
+            
+            
+          ]
+        }
+    
+        
+        
+        
+        
+      
+        
+        
+
+
+      ]
+    },
+    {
+      "mID": "6",
+      "lessons": [
+        {
+          "lessID": "06.01",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify essential information and supporting details about Roman poets and poetry presented through a variety of media  ",
+            "research contributions made by individuals from Rome through the art of poetry",
+            "compare use of sensory verbs in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "06.02",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "examine significant political influences of Roman poets",
+            "determine the main idea and essential details when reading Roman poetry",
+            "compare indirect statement construction in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "06.03",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "examine significant historic and contemporary influences of Romans poets",
+            "use previously acquired Latin vocabulary to discuss and further knowledge of poetry through Latin",
+            "compare tense use in indirect statement in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "06.04",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding of the main idea and essential details in narratives about Roman poets in wartime",
+            "use context clues and background knowledge to demonstrate understanding of the main idea and essential details in poetry that contain themes on love and war",
+            "identify the main idea and key details in texts that contain familiar and unfamiliar vocabulary used in Roman poetry",
+            "recognize similarities and differences in practices and perspectives used across cultures in mythological storytelling to understand one’s own and others’ ways of thinking",
+            "use Roman poetry traditions to reinforce previously acquired knowledge about poetry",
+            "compare tense use in indirect statements in Latin and English"
+            
+          ]
+        },
+        {
+          "lessID": "06.05",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "write about your favorite Roman poets, using details of their writing styles and most prominent works",
+            "describe how your favorite poets would work together with you as a patron",
+            "conduct research and write a report on your favorite Roman literary artists",
+            "draft, edit, and summarize information, concepts, and ideas in a presentation about your favorite Roman poets and artists",
+            "produce writing that has been edited for punctuation and correct use of grammar in which the development and organization are appropriate to task and purpose"
+          ]
+        },
+        {
+          "lessID": "06.06",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "express views and effectively engage in conversations on Roman poetry",
+            "present information on the fall of Rome, using a series of sentences with sufficient details",
+            "initiate and participate effectively in a discussion about Roman poetry and the role of poetry in Roman history"
+          ]
+        },
+        {
+          "lessID": "06.07",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "identify essential information and supporting details on famous Roman speeches presented through a variety of media",
+            "examine significant historic and contemporary influences from Roman orators on different cultures",
+            "compare grammar used in public speaking in English and Latin",
+            "compare Latin root words as used in English derivatives",
+            "evaluate a Roman orator’s point of view, reasoning, and use of evidence and rhetoric, identifying any fallacious reasoning or exaggerated or distorted evidence"
+          ]
+        },
+        {
+          "lessID": "06.08",
+          "title": "By the end of this lesson, you will be able to",
+          "items": [
+            "use context clues and background knowledge to demonstrate understanding of the main idea and essential details in authentic Latin poetry and speeches",
+            "demonstrate understanding of vocabulary used in context when following written directions on how to be a great speaker",
+            "provide a logical sequence of instructions on how to write and perform a speech in the style of a Roman orator",
+            "use practices and characteristics of Roman oration to improve presentational skills"
+          ]
+        }
+    
+        
+        
+        
+        
+      
+        
+        
+
+
+      ]
+    }
+  ]
+
+
+}

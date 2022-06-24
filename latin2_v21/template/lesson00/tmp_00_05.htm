@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>TMP: Page 5</title>
+    <script type="text/javascript">
+        var pg_csslibs = []; // CSS Libs for this Page
+        var pg_jslibs = ['js/slideshow.js','../../global/js/simplySpeak.js']; // JS Libs for this Page
+    </script>
+    <script src="../../global/js/settings.js" id="settingJS" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="pageContent">
+    <!-- CONTENT GOES HERE -->
+    <h1>Slideshows and Activities</h1>
+    <hr />
+    <h2>SimplySpeak - <small>Speech-to-text tool</small></h2>
+    <div class="sptFrame" data-phrase="phrase to practice" data-customWidth="300" data-customHeight="140"></div>
+    <hr />
+    <h2>Slideshow</h2>
+    <div id="slideShowA" class="carousel slide" data-ride="carousel" data-wrap="false" data-interval="4000" data-height="600">
+        <div class="carousel-inner">
+            <div class="item active"><img src="../../global/images/samples/Jellyfish.jpg"></div>
+            <div class="item"><img src="../../global/images/samples/Koala.jpg"><div class="carousel-caption">
+                <h3>2nd slide Label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div></div>
+            <div class="item"><img src="../../global/images/samples/Penguins.jpg"></div>
+        </div>
+        <a class="left carousel-control" href="#slideShowA" title="Previous" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#slideShowA" title="Next" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        <ol class="carousel-indicators">
+            <li data-target="#slideShowA" data-slide-to="0" class="active"></li>
+            <li data-target="#slideShowA" data-slide-to="1"></li>
+            <li data-target="#slideShowA" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <hr />
+    <h2>Quizmo</h2>
+    <div class="ng_il" data-json="interactives/example/practice.json"></div>
+    <!-- END CONTENT -->
+</div>
+</body>
+</html>

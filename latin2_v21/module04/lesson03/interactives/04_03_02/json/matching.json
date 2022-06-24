@@ -1,0 +1,50 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>acer, acris, acre</em>",
+            "right": "acrid, acerbic"
+          },
+          {
+            "left": "<em>celer, celeris, celere</em>",
+            "right": "accelerate, celerity, excel"
+          },
+          {
+            "left": "<em>similis, simile</em>",
+            "right": "simile, assimilate, dissimilar, simulate, simultaneous"
+          },
+          {
+            "left": "<em>facilis, facile</em>",
+            "right": "facilitate, facility, facile"
+          },
+          {
+            "left": "<em>ventus, venti m. </em>",
+            "right": "ventilation"
+          },
+          {
+            "left": "<em>ambo, ambae, ambo</em>",
+            "right": "ambidextrous, ambivalent, ambiguous"
+          },
+          {
+            "left": "<em>quartus, quarta, quartum</em>",
+            "right": "quarter, quartile"
+          },
+          {
+            "left": "<em>tacitus, tacita, tacitum</em>",
+            "right": "tacit, taciturn"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

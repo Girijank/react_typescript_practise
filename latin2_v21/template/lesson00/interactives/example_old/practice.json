@@ -1,0 +1,20 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "Example Quizmo",
+    "theme": "simplicity"
+  },
+  "body": [
+    [
+      {
+        "type": "selectable",
+        "quiz": "Quizmo capabilities include:",
+        "answer": ["Multiple Choice","Selectable","Drag and Drop"],
+        "options": ["Vacuuming","Doing the dishes","Driving a car"],
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_06_04/styles.css"],
+    "intMedia": "interactives/06_06_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_ride_a_train.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>坐火车</span> zuòhuǒchē (to ride a train) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>For which of the following trips will you <strong>most</strong> likely consider the method of transportation indicated by the word in the audio?</p>",
+        "answer": "To my cousin’s house in the next city",
+        "options": [
+          "To visit my next-door neighbor",
+          "To the community park",
+          "To the farmers market in town"
+        ],
+        "correct": "Job excellently done! <span lang='zh-Hans'>坐火车</span> zuòhuǒchē means “to ride a train,” and you most likely need it when visiting somewhere farther than getting around town.",
+        "incorrect": "Not quite… Listen to the word in the audio again to identify its meaning. Then, review the different situations to see for which one this transportation method makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "taxi.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>出租车</span> chūzūchē (taxi)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following will you need the most when taking the transportation method indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>钱</span>",
+        "options": [
+          "<span lang='zh-Hans'>球鞋</span>",
+          "<span lang='zh-Hans'>书</span>",
+          "<span lang='zh-Hans'>铅笔</span>"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>出租车</span> chūzūchē means “taxi,” and to ride a taxi, you will need money more than you need a book.",   
+        "incorrect": "Not quite. Listen to the word again. Identify its meaning. Then review the words in the choices, and imagine which item will help you the most when you use this type of transportation.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "bus_station.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>巴士站</span> bāshìzhàn (bus station) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What does the third character in the word in the audio mean?</p>", 
+        "answer": "Station",      
+        "options":[
+          "Center",
+          "Store",
+          "Plaza"
+        ],
+        "correct": "Fantastic job! The character <span lang='zh-Hans'>站</span> zhàn in the word <span lang='zh-Hans'>巴士站</span> bāshìzhàn (bus station) means “station,” which is also the third character in the word <span lang='zh-Hans'>消防站</span> xiāofángzhàn (fire station).",
+        "incorrect": "Almost there! Listen to the audio several more times to identify the third character, and then consider its meaning. Think about any words you learned before that have the same third character.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_walk_to_somewhere.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>走路</span> zǒulù (to walk (to somewhere)) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我____去公园。</span>Wǒ ____qùgōngyuán.",
+        "options": [
+          "<span lang='zh-Hans'>她今天____垃圾。</span>Tā jīntiān____lājī.",
+          "<span lang='zh-Hans'>医院在银行____。</span>Yīyuàn zài yínháng____.",
+          "<span lang='zh-Hans'>床上____枕头。</span>Chuáng shàng ____zhěntóu."
+        ],
+        "correct": "Amazing job! <span lang='zh-Hans'>走路</span> zǒulù means “to walk (to somewhere),” and the sentence that it can best complete is <span lang='zh-Hans'>我走路去公园。</span> Wǒ zǒulù qù gōngyuán. (I walk to the park.)",        
+        "incorrect": "Not quite. Listen to the audio again and consider its meaning. Then, review all four sentences in the choices to see for which one this word can fit most reasonably.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_ride_a_bike.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>骑单车</span> qídānchē (to ride a bike) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>How many wheels does the transportation indicated in the audio have?</p>", 
+        "answer": "Two",      
+        "options":[
+          "None",
+          "Four",
+          "Sixteen"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>单车</span> dānchē in the audio means “bike,” not a sixteen-wheeler, and it has two wheels.",
+        "incorrect": "Not quite. Listen to the audio again, and identify the mode of transportation mentioned in it. Then think about what it looks like and how many wheels it has.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

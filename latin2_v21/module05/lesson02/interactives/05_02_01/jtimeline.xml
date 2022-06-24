@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timeline>
+	<title>The Roman Emperors</title>
+	<subtitle></subtitle>
+
+	<events>
+		<id>0</id>
+		<date>27 BCE</date>
+		<title>Emperor Augustus: 27 BCE</title>
+		<subtitle></subtitle>
+		<text>
+			<![CDATA[
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="image-container frame"><a href="interactives/05_02_01/intmedia/slide_01_caesar_large_gi.jpg" class="lightbox cboxElement" title="Caesar Augustus" data-maxwidth="" data-maxheight=""><img src="interactives/05_02_01/intmedia/slide_01_caesar_gi.jpg" alt="Statue of Caesar Augustus" class="" data-link="interactives/05_02_01/intmedia/slide_01_caesar_large_gi.jpg" data-width=""></a><span class="caption">Caesar Augustus</span><span class="copyright"></span><a class="enlarge lightbox cboxElement" href="interactives/05_02_01/intmedia/slide_01_caesar_large_gi.jpg" title="Caesar Augustus" data-maxwidth="" data-maxheight=""></a></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Caesar Augustus becomes the first emperor of Rome.</p>
+                    </div>
+                </div>
+            ]]>
+		</text>
+	</events>
+	<events>
+		<id>1</id>
+		<date>—67 CE</date>
+		<title>The Julio-Claudian Dynasty: 27 BCE—67 CE</title>
+		<text>
+			<![CDATA[
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="image-container frame"><a href="interactives/05_02_01/intmedia/slide_02_tiberiusi_large.jpg" class="lightbox cboxElement" title="Statue of Tiberius | ©De Agostini / ImageQuest 2021" data-maxwidth="" data-maxheight=""><img src="interactives/05_02_01/intmedia/slide_02_tiberiusi.jpg" alt="Statue of Tiberius" class="" data-link="interactives/05_02_01/intmedia/slide_02_tiberiusi_large.jpg" data-width=""></a><span class="caption">Statue of Tiberius</span><span class="copyright">©De Agostini / ImageQuest 2021</span><a class="enlarge lightbox cboxElement" href="interactives/05_02_01/intmedia/slide_02_tiberiusi_large.jpg" title="Statue of Tiberius | ©De Agostini / ImageQuest 2021" data-maxwidth="" data-maxheight=""></a></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>The Family of Augustus</p>
+                        <ul>
+                        <li>Augustus</li>
+                        <li>Tiberius</li>
+                        <li>Caligula</li>
+                        <li>Claudius</li>
+                        <li>Nero</li>
+               </ul>
+                    </div>
+                </div>
+            ]]>
+		</text>
+	</events>
+	<events>
+		<id>2</id>
+		<date>—68 CE</date>
+		<title>The Year of Four Emperors: 68 CE </title>
+		<text>
+			<![CDATA[
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="image-container frame"><a href="interactives/05_02_01/intmedia/slide_03_coins_large.jpg" class="lightbox cboxElement" title="Coin of Otho | ©The Granger Collection / ImageQuest 2021" data-maxwidth="" data-maxheight=""><img src="interactives/05_02_01/intmedia/slide_03_coins.jpg" alt="Image of two-sided coin with Otho" class="" data-link="interactives/05_02_01/intmedia/slide_03_coins_large.jpg" data-width=""></a><span class="caption">Coin of Otho</span><span class="copyright">©The Granger Collection / ImageQuest 2021</span><a class="enlarge lightbox cboxElement" href="interactives/05_02_01/intmedia/slide_03_coins_large.jpg" title="Coin of Otho | ©The Granger Collection / ImageQuest 2021" data-maxwidth="" data-maxheight=""></a></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Emperors:</p>
+                        <ul>
+                        <li>Galba</li>
+                          <li>Otho</li>
+                            <li>Vitellius</li>
+                              <li>Vespasian</li>
+                        </ul>
+             
+                    </div>
+                </div>
+            ]]>
+		</text>
+	</events>
+	<events>
+		<id>3</id>
+		<date>—96 CE</date>
+		<title>The Flavian Dynasty: 69 CE—96 CE</title>
+		<subtitle></subtitle>
+		<text>
+			<![CDATA[
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="image-container frame"><a href="interactives/05_02_01/intmedia/slide_04_vespasian.jpg" class="lightbox cboxElement" title="Vespasian | ©Mondadori Electa / ImageQuest 2021" data-maxwidth="" data-maxheight=""><img src="interactives/05_02_01/intmedia/slide_04_vespasian.jpg" alt="Bust of Vespasian" class="" data-link="interactives/05_02_01/intmedia/slide_04_vespasian.jpg" data-width=""></a><span class="caption">Vespasian</span><span class="copyright">©Mondadori Electa / ImageQuest 2021</span><a class="enlarge lightbox cboxElement" href="interactives/05_02_01/intmedia/slide_04_vespasian.jpg" title="Vespasian | ©Mondadori Electa / ImageQuest 2021" data-maxwidth="" data-maxheight=""></a></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p> Emperors:</p>
+                        <ul>
+                        <li>Vespasian</li>
+                         <li>Titus</li>
+                          <li>Domitian</li>
+                        </ul>
+                       
+                </div>
+                </div>
+            ]]>
+		</text>
+	</events>
+	<events>
+		<id>4</id>
+		<date>—192 CE</date>
+		<title>The Nerva–Antonine Dynasty: 97 CE—192 CE</title>
+		<subtitle></subtitle>
+		<text>
+			<![CDATA[
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="image-container frame"><a href="interactives/05_02_01/intmedia/slide_05_nerva_large.jpg" class="lightbox cboxElement" title="Statue of Nerva | ©AKG Images / ImageQuest 2021" data-maxwidth="" data-maxheight=""><img src="interactives/05_02_01/intmedia/slide_05_nerva.jpg" alt="Image of colossal statue of Nerva, seated on a throne with a scepter in his hand" class="" data-link="interactives/05_02_01/intmedia/slide_05_nerva_large.jpg" data-width=""></a><span class="caption">Statue of Nerva</span><span class="copyright">©AKG Images / ImageQuest 2021</span><a class="enlarge lightbox cboxElement" href="interactives/05_02_01/intmedia/slide_05_nerva_large.jpg" title="Statue of Nerva | ©AKG Images / ImageQuest 2021" data-maxwidth="" data-maxheight=""></a></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Notable Emperors:</p>
+                        <ul>
+                        <li>Nerva</li>
+                            <li>Trajan</li>
+                                <li>Hadrian</li>
+                                    <li>Antoninus Pius</li>
+                                        <li>Lucius Verus</li>
+                                            <li>Marcus Aurelius</li>
+                                                <li>Commodus</li>
+                        
+                        
+                        
+                        </ul>
+                    </div>
+
+    
+
+                </div>					
+            ]]>
+		</text>
+	</events>
+	<events>
+		<id>5</id>
+		<date>—235 CE</date>
+		<title>The Severan Dynasty: 193 CE—235 CE</title>
+		<subtitle></subtitle>
+		<text>
+			<![CDATA[
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="image-container frame"><a href="interactives/05_02_01/intmedia/slide_06_severan_large.jpg" class="lightbox cboxElement" title="Arch of Septimius Severus | ©Ethel Davies / ImageQuest 2021" data-maxwidth="" data-maxheight=""><img src="interactives/05_02_01/intmedia/slide_06_severan.jpg" alt="Image of Arch of Septimius Severus" class="" data-link="interactives/05_02_01/intmedia/slide_06_severan_large.jpg" data-width=""></a><span class="caption">Arch of Septimius Severus</span><span class="copyright">©Ethel Davies / ImageQuest 2021</span><a class="enlarge lightbox cboxElement" href="interactives/05_02_01/intmedia/slide_06_severan_large.jpg" title="Arch of Septimius Severus | ©Ethel Davies / ImageQuest 2021" data-maxwidth="" data-maxheight=""></a></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p> Notable Emperors:</p>
+                        <ul>
+                        <li>Septimus Severus</li>
+                        <li>Caracella</li>
+                        <li>Geta</li>
+                        </ul>
+                       
+	
+                    </div>
+                </div>					
+            ]]>
+		</text>
+	</events>
+	<events>
+		<id>6</id>
+		<date>—364 CE</date>
+		<title>The Constantinian Dynasty: 284 CE—364 CE</title>
+		<subtitle></subtitle>
+		<text>
+			<![CDATA[
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="image-container frame"><a href="interactives/05_02_01/intmedia/slide_07_constantine_large.jpg" class="lightbox cboxElement" title="Cameo depicting Constantine's mother, Helena; Constantine I; his son, Constantine II; his wife, Fausta; and his son, Crispus 337 CE | ©The Granger Collection / ImageQuest 2021" data-maxwidth="" data-maxheight=""><img src="interactives/05_02_01/intmedia/slide_07_constantine.jpg" alt="Cameo of Constantine’s family" class="" data-link="interactives/05_02_01/intmedia/slide_07_constantine_large.jpg" data-width=""></a><span class="caption">Cameo depicting Constantine's mother, Helena; Constantine I; his son, Constantine II; his wife, Fausta; and his son, Crispus 337 CE</span><span class="copyright">©The Granger Collection / ImageQuest 2021</span><a class="enlarge lightbox cboxElement" href="interactives/05_02_01/intmedia/slide_07_constantine_large.jpg" title="Cameo depicting Constantine's mother, Helena; Constantine I; his son, Constantine II; his wife, Fausta; and his son, Crispus 337 CE | ©The Granger Collection / ImageQuest 2021" data-maxwidth="" data-maxheight=""></a></div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Notable Emperors:</p>
+                        <ul>
+                        <li>Diocletian</li>
+                        <li>Constantine</li>
+                        </ul>
+                        
+	
+                    </div>
+                </div>					
+            ]]>
+		</text>
+	</events>
+</timeline>

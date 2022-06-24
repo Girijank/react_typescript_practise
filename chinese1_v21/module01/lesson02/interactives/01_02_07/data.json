@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_02_07/styles.css"],
+    "intMedia": "interactives/01_02_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "localAudio",
+        "src": "practice_slide1_88.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>八十八</span> bāshíbā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following mathematical calculations result in the number you hear?</p>",
+        "answer": "40+48",
+        "options": [
+          "9x9",
+          "70-52",
+          "160÷2"
+        ],
+        "correct": "Bingo! You’ve got it right. The number in the audio is 88. '<span lang='zh-Hans'>十</span> shí' in the middle indicates it’s a two-digit number, while the digits before and after it take the ten’s and one’s place.",
+        "incorrect": "So close… would you like to listen again and pay special attention to the syllable in the middle?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "practice_slide2_36.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>三十六</span> sānshíliù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What is the number that you hear?</p>",
+        "answer": "36",
+        "options": [
+          "63",
+          "16",
+          "60"
+        ],
+        "correct": "Fantastic job! You’ve got this number in audio 36. <em>“<span lang='zh-Hans'>十</span> shí“</em> in the middle indicates it’s a two-digit number, while the digits before and after it take the ten’s and one’s place.",
+        "incorrect": "Not quite… please listen again. This time pay attention to the syllable in the middle and try to catch the digits before and after it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "practice_slide3_12.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>十二</span> shíèr"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following best describes the number in the audio?",
+        "answer": "Months in a year",
+        "options": [
+          "Days in two weeks",
+          "Hours in a day",
+          "Minutes in an hour"
+        ],
+        "correct": "Outstanding work! Since we don’t hear any digit before <em>“<span lang='zh-Hans'>十</span> shí“</em>, that means the 10’s place digit is one, while <em>”<span lang='zh-Hans'>二</span> èr”</em> is “2” for one’s place, so “12” it is.",
+        "incorrect": "So close… would you like to listen again? This time pay attention if there’s any digit said before <em>“<span lang='zh-Hans'>十</span> shí“<em>",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "practice_slide4_90.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>九十</span> jiǔshí"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What is the number that you hear?",
+        "answer": "90",
+        "options": ["19", "99", "91"],
+        "correct": "Job well done! Since we don’t hear any more digits after '<span lang='zh-Hans'>十</span> shí,' that means the one’s place digit is zero, while <em>”<span lang='zh-Hans'>九</span> jiǔ”</em> is “nine” for ten’s place (so it is “90”).",
+        "incorrect": "Oops… would you like to listen again? This time pay attention if there’s any further digit said after <em>“<span lang='zh-Hans'>十</span> shí“</em>",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

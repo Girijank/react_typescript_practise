@@ -1,0 +1,224 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_08_02/styles.css"],
+    "progressBar": true,
+    "resultsPage": false
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read the phrases in Chinese, and then answer the question that follows.",
+        "customView": "interactives/02_08_02/customview_imgbtn.htm"
+      },
+      {
+        "type": "text",
+        "content": "Listen to the dialogue in the audio between the waiter at a restaurant and Lili ordering food; then answer the question that follows. "
+      },
+      {
+        "type": "localAudio",
+        "src": "interactives/02_08_02/intmedia/dialogue_audio_lili_and_waiter.mp3",
+        "textVersion": "Audio for  <p>Lili: <span lang='zh-Hans'>早上好</span>！<br>Waiter: <span lang='zh-Hans'>你好！你要鸡肉还是鱼肉</span>？<br> Lili: <span lang='zh-Hans'>我很喜欢鸡肉。我最不喜欢鱼肉。白菜炒鸡肉多少钱一盘</span>？<br>Waiter: <span lang='zh-Hans'>八元一盘。</span><br>Lili: <span lang='zh-Hans'>请给我一盘白菜炒鸡肉。</span><br>Waiter: <span lang='zh-Hans'>好的。你要茶还是咖啡</span>？<br>Lili: <span lang='zh-Hans'>我不喜欢喝茶。我最喜欢果汁。一杯橙汁多少钱</span>？<br>Waiter: <span lang='zh-Hans'>一杯三元。</span><br>Lili: <span lang='zh-Hans'>我要一杯橙汁。</span><br>Waiter: <span lang='zh-Hans'>好的。</span><br>Lili: <span lang='zh-Hans'>谢谢</span>！<br>Waiter: <span lang='zh-Hans'>不客气</span>！</p>"
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span class='fortv'>Image of pork ribs</span><img src='interactives/02_08_02/intmedia/pork_ribs.jpg' alt='Image of pork ribs' class=''><span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>Image of medium rare beef steak</span><img src='interactives/02_08_02/intmedia/beef.jpg' alt='Image of medium rare beef steak' class=''><span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>Image of fish</span><img src='interactives/02_08_02/intmedia/fish.jpg' alt='Image of fish' class=''><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "quiz": "Which of the following types of meat is <strong>most likely</strong> in Lili’s order, based on what she likes?",
+        "answer": "<span class='fortv'>Image of chicken</span><img src='interactives/02_08_02/intmedia/chicken.jpg' alt='Image of chicken' class=''><span class='fev_copy copyright'>©Shutterstock</span>",
+        "correct": "Job well done! You've caught the phrase “<span lang='zh-Hans'>很喜欢鸡肉</span> hěnxǐhuān jíròu (like chicken very much)” that Lili said. Excellent!",
+        "incorrect": "Oops...listen to the dialogue in the audio again, and pay attention to what type of meat Lily likes the most.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "Which Chinese character in <strong>bold type</strong> in the following words has a pinyin consisting of initial “c”? ",
+        "answer": "<p class='bigFont'><span lang='zh-Hans'>蔬<strong>菜</strong></span></p>",
+        "options": [
+          "<p class='bigFont'><span lang='zh-Hans'>米<strong>饭</strong></span></p>",
+          "<p class='bigFont'><span lang='zh-Hans'><strong>鸡</strong>肉</span></p>",
+          "<p class='bigFont'><span lang='zh-Hans'><strong>橙</strong>子</span></p>"
+        ],
+        "correct": "Very nicely done! The second character <span lang='zh-Hans'>菜</span> cài in the word <span lang='zh-Hans'>蔬菜</span> shūcài (vegetable) has the initial “c.”",
+        "incorrect": "Very nicely done! The second character <span lang='zh-Hans'>菜</span> cài in the word <span lang='zh-Hans'>蔬菜</span> shūcài (vegetable) has the initial “c”.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Lili and Keysie are close friends. They sometimes stay at Lili’s house after school to do their homework together. This afternoon when the two finish their homework, they start to discuss their favorite foods. Below is what Lili says about her preferences of foods."
+      },
+      {
+        "type": "localAudio",
+        "src": "interactives/02_08_02/intmedia/i_somewhat_like_carrots_but_like_broccoli_the_most.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>我比较喜欢胡萝卜，<strong>不过</strong>我最喜欢西兰花。我很不喜欢鱼肉，<strong>不过</strong>我有点喜欢鸡肉。</span>"
+      },
+      {
+        "type": "mc",
+        "quiz": "According to Lili’s statement, which of the following shows the foods she likes from the most to the least?  ",
+        "answer": "<span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>胡萝卜</span> húluóbo; <span lang='zh-Hans'>鸡肉</span> jīròu; <span lang='zh-Hans'>鱼肉</span> yúròu",
+        "options": [
+          "<span lang='zh-Hans'>胡萝卜</span> húluóbo; <span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>鱼肉</span> yúròu; <span lang='zh-Hans'>鸡肉</span> jīròu",
+          "<span lang='zh-Hans'>胡萝卜</span> húluóbo; <span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>牛肉</span> niúròu; <span lang='zh-Hans'>猪肉</span> zhūròu",
+          "<span lang='zh-Hans'>三明治</span> sānmíngzhì; <span lang='zh-Hans'>西兰花</span> xīlánhuā; <span lang='zh-Hans'>猪肉</span> zhūròu; <span lang='zh-Hans'>鸡肉</span> jīròu"
+        ],
+        "correct": "You got it! You've correctly caught phrases such as ”like the most”, “somewhat like”, “like a little”, and “don't like” in these Chinese phrases said in the audio: <span lang='zh-Hans'>比较喜欢胡萝卜，<span lang='zh-Hans'>最喜欢西兰花</span>，<span lang='zh-Hans'>很不喜欢鱼肉</span>，and <span lang='zh-Hans'>有点喜欢鸡肉。</span>",
+        "incorrect": "Not quite. Listen to the audio again, and pay attention to the items said after the phrases “like the most”, “somewhat like”, “like a little”, and “don't like.”",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<p class='bigFont'><span lang='zh-Hans'>果<strong>汁</strong></span></p>",
+          "<p class='bigFont'><span lang='zh-Hans'><strong>苏</strong>打</span></p>",
+          "<p class='bigFont'><span lang='zh-Hans'>曲<strong>奇</strong></span></p>"
+        ],
+        "quiz": "Which Chinese character in <strong>bold type</strong> in the following words has a pinyin consisting of initial “ch”?",
+        "answer": "<p class='bigFont'><span lang='zh-Hans '><strong>橙</strong>子</span></p>",
+        "correct": "Fantastic job! The first character <span lang='zh-Hans'>橙</span> chéng in the word <span lang='zh-Hans'>橙子</span> chéngzi (orange) has the initial “ch.”",
+        "incorrect": "Very close! Sound out the words in the choices, and see for which bold type character you pronounce the initial “ch”.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>茶</span> chá",
+          "<span lang='zh-Hans'>奶酪</span> nǎilào",
+          "<span lang='zh-Hans'>牛奶</span> niúnǎi"
+        ],
+        "quiz": "Which of the following items best matches the provided description written in Chinese?<br> <span lang='zh-Hans'>它有蔬菜，肉和水。</span> Tā yǒu shūcài, ròu hé shuǐ.",
+        "answer": "<span lang='zh-Hans'>汤</span> tāng",
+        "correct": "Well done! The Chinese sentence in the question is <span lang='zh-Hans'>它有蔬菜，肉和水。</span> Tā yǒu shūcài, ròu hé shuǐ. (It has vegetables, meat, and water). The one item that matches the description the best is <span lang='zh-Hans'>汤</span> tāng (soup).",
+        "incorrect": "Almost. Read the sentence again to understand its meaning, then review the items in the choices and consider which one has the ingredients mentioned.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Listen to the dialogue in the audio between the waiter at a restaurant and Lili ordering food, and then answer the question that follows."
+      },
+      {
+        "type": "localAudio",
+        "src": "interactives/02_08_02/intmedia/dialogue_audio_lili_and_waiter.mp3",
+        "textVersion": "Audio for  <p>Lili: <span lang='zh-Hans'>早上好</span>！<br>Waiter: <span lang='zh-Hans'>你好！你要鸡肉还是鱼肉</span>？<br> Lili: <span lang='zh-Hans'>我很喜欢鸡肉。我最不喜欢鱼肉。白菜炒鸡肉多少钱一盘</span>？<br>Waiter: <span lang='zh-Hans'>八元一盘。</span><br>Lili: <span lang='zh-Hans'>请给我一盘白菜炒鸡肉。</span><br>Waiter: <span lang='zh-Hans'>好的。你要茶还是咖啡</span>？<br>Lili: <span lang='zh-Hans'>我不喜欢喝茶。我最喜欢果汁。一杯橙汁多少钱</span>？<br>Waiter: <span lang='zh-Hans'>一杯三元。</span><br>Lili: <span lang='zh-Hans'>我要一杯橙汁。</span><br>Waiter: <span lang='zh-Hans'>好的。</span><br>Lili: <span lang='zh-Hans'>谢谢</span>！<br>Waiter: <span lang='zh-Hans'>不客气</span>！</p>"
+      },
+      {
+        "type": "mc",
+        "options": [
+          "She ordered apple juice.",
+          "She ordered coffee.",
+          "She ordered tea."
+        ],
+        "quiz": "<p>According to the dialogue, what type of drink did Lili order? </p>",
+        "answer": "She ordered orange juice.",
+        "correct": "You've got it! You've caught the sentence in the dialogue <span lang='zh-Hans'>我要一杯橙汁。</span>Wǒyào yībēi chéngzhī. (I want a glass of orange juice.) Awesome!",
+        "incorrect": "Very close! Listen to the dialogue in the audio again, and pay attention to the item Lily says after the phrase “I want...”",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "options": [
+          "The components are written from left to right.",
+          "Write left-falling strokes, and then write right-falling ones.",
+          "Write horizontal strokes, and then write vertical ones."
+        ],
+        "quiz": "According to the stroke sequence below, which writing rule does the character <span lang='zh-Hans'>盘</span> follow? <br/><br/><span class='fortv'>Image of Stroke sequence for pán</span>  <img class='imgstroke' alt='Stroke sequence for pán' src='interactives/02_08_02/intmedia/strokes_flvs.png'>",
+        "answer": "The components are written from top to bottom.",
+        "correct": "Excellently done! The character <span lang='zh-Hans'>盘</span> pán is written from top to bottom, based on its stroke sequence. It follows the writing rule “The components are written from top to bottom.”",
+        "incorrect": "Almost! Review the stroke sequence, and pay special attention to the order of the strokes.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/02_08_02/custom_withvideo.htm",
+        "directions": "read the question, then select the correct answer."
+      },
+      {
+        "type": "video",
+        "entryID": "1_qlrxudmz",
+        "textVersion": "The audio for this video content is an example of the Chinese Language."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "He thinks the food at Teddy’s is all too expensive. However, they have a variety of food items.",
+          "He thinks the food at Teddy’s is not very expensive. But he doesn’t like that they only provide chopsticks.",
+          "He thinks the food at Teddy’s is not expensive at all. But he thinks they should offer more breakfast items."
+        ],
+        "quiz": "<p>According to the dialogue video, what does Zhang Ming think about Teddy's?</p>",
+        "answer": "He thinks not all the items at Teddy’s are expensive. They also have a variety of food items.",
+        "correct": "Totally awesome! In the video Zhang Ming says “<span lang='zh-Hans'>汉堡包和炸薯条不贵。还有炒鸡蛋和松饼呢</span>！Hànbǎobāo hé zhàshǔtiáo búguì. Háiyǒu chǎojīdàn hé sōngbǐng ne! (The hamburgers and French fries are not expensive. There are also fried eggs and pancakes! )”. ",
+        "incorrect": "Oops...view the dialogue video several more times to fully understand what Zhang Ming says, from which you will come to a conclusion.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Listen to the dialogue in the audio between the waiter at a restaurant and Lili ordering food; then answer the question that follows."
+      },
+      {
+        "type": "localAudio",
+        "src": "interactives/02_08_02/intmedia/dialogue_audio_lili_and_waiter.mp3",
+        "textVersion": "Audio for  <p>Lili: <span lang='zh-Hans'>早上好</span>！<br>Waiter: <span lang='zh-Hans'>你好！你要鸡肉还是鱼肉</span>？<br> Lili: <span lang='zh-Hans'>我很喜欢鸡肉。我最不喜欢鱼肉。白菜炒鸡肉多少钱一盘</span>？<br>Waiter: <span lang='zh-Hans'>八元一盘。</span><br>Lili: <span lang='zh-Hans'>请给我一盘白菜炒鸡肉。</span><br>Waiter: <span lang='zh-Hans'>好的。你要茶还是咖啡</span>？<br>Lili: <span lang='zh-Hans'>我不喜欢喝茶。我最喜欢果汁。一杯橙汁多少钱</span>？<br>Waiter: <span lang='zh-Hans'>一杯三元。</span><br>Lili: <span lang='zh-Hans'>我要一杯橙汁。</span><br>Waiter: <span lang='zh-Hans'>好的。</span><br>Lili: <span lang='zh-Hans'>谢谢</span>！<br>Waiter: <span lang='zh-Hans'>不客气</span>！</p>"
+      },
+
+      {
+        "type": "mc",
+        "options": ["5 dollars", "9 dollars", "12 dollars"],
+        "quiz": "According to the dialogue, how much does Lili need to pay for her food (not including drink)?",
+        "answer": "8 dollars",
+        "correct": "You nailed it! In the dialogue Lili asks the waiter how much is the food item <span lang='zh-Hans'>白菜炒鸡肉</span> báicài chǎo jīròu (cabbage stir fry chicken), and the waiter told her <span lang='zh-Hans'>八元一盘</span> bāyuán yīpán (eight dollars per plate), then Lili says she wants one order of it.",
+        "incorrect": "Not quite. Listen to the dialogue in the audio again, and pay attention when the price of Lily's food order is mentioned.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+    [
+      {
+        "type": "text",
+        "content": "This Saturday, Zhang Ming and Chen Lili come to Teddy’s again for a quick lunch. They just love that restaurant! Below is Teddy’s newly printed promotional menu.<table class='table table-bordered table-condensed text-center mytable'><thead><tr><th colspan='3' class='text-center'>Teddy’s <span lang='zh-Hans'>菜单</span></th></tr></thead><tbody><tr><td><span lang='zh-Hans'>炒鸡蛋</span></td><td><span lang='zh-Hans'>盘</span></td><td><span lang='zh-Hans'>三元</span></td></tr><tr><td><span lang='zh-Hans'>松饼</span></td><td><span lang='zh-Hans'>盘</span></td><td><span lang='zh-Hans'>三元</span></td></tr><tr><td><span lang='zh-Hans'>三明治</span></td><td><span lang='zh-Hans'>个</span></td><td><span lang='zh-Hans'>五元</span></td></tr><tr><td><span lang='zh-Hans'>炸薯条</span></td><td><span lang='zh-Hans'>盘</span></td><td><span lang='zh-Hans'>三元</span></td></tr><tr><td><span lang='zh-Hans'>比萨饼</span></td><td><span lang='zh-Hans'>个</span></td><td><span lang='zh-Hans'>十二元</span></td></tr><tr><td><span lang='zh-Hans'>牛排</span></td><td><span lang='zh-Hans'>盘</span></td><td><span lang='zh-Hans'>十元</span></td></tr><tr><td><span lang='zh-Hans'>意大利面</span></td><td><span lang='zh-Hans'>盘</span></td><td><span lang='zh-Hans'>十二元</span></td></tr><tr><td><span lang='zh-Hans'>苏打</span></td><td><span lang='zh-Hans'>杯</span></td><td><span lang='zh-Hans'>二元</span></td></tr><tr><td><span lang='zh-Hans'>咖啡</span></td><td><span lang='zh-Hans'>杯</span></td><td><span lang='zh-Hans'>四元</span></td></tr><tr><td><span lang='zh-Hans'>曲奇</span></td><td><span lang='zh-Hans'>个</span></td><td><span lang='zh-Hans'>一元</span></td></tr></tbody></table>"
+      },
+
+      {
+        "type": "mc",
+        "options": [
+          "Two plates of spaghetti and three plates of pancakes ",
+          "One count of pizza, one plate of spaghetti, and two cups of coffee",
+          "Three plates of pancakes, one count of pizza, and two sandwiches"
+        ],
+        "quiz": "This time, Zhang Ming and Chen Lili have a budget of 30 dollars for their lunch. What can they order to stay within their budget?  ",
+        "answer": "Two plates of pancakes, two sandwiches, and two cups of soda",
+        "correct": "You've done a great job! Based on the prices of the food items and the spending budget of Zhang Ming and Chen Lili, they can stay within budget by ordering two plates of pancakes, two sandwiches, and two cups of soda.",
+        "incorrect": "Almost! Review the menu again to identify the prices of the items, then you need to do some math to see which of the choices sums up to meet your budget.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+<div class="objectLoop"
+     data-ng-init="objNum = $index"
+     data-quizmo-jqmath
+     data-ng-repeat="object in vm.slide"
+     data-ng-switch data-on="object.type">
+
+  <div data-elements></div>
+
+  <div data-ng-attr-id="{{object.id}}"
+       data-ng-switch-when="matching"
+       class="matching">
+
+    <div class="il_question il_match_quiz" data-ng-bind-html="vm.format(object.quiz)" compile-template data-quizmo-jqmath></div>
+
+    <div class="flex" data-ng-if="object.answered == false">
+      <div class="left">
+        <div class="hidden" data-ng-init="object.tempLeft = []">
+          <div data-ng-repeat="option in object.optionsLeft" data-ng-init="object.tempLeft[$index] = option.id"></div>
+          <div data-ng-repeat="option in object.optionsRight" data-ng-init="object.tempRight[$index] = option.id"></div>
+        </div>
+
+        <div class="btn-group interactiveElements">
+          <div data-ng-repeat="option in object.tempLeft" class="tile">
+            <button data-ng-class="{'hasMedia': vm.hasMedia($event.currentTarget)}"
+                    data-quizmo-jqmath
+                    data-ng-repeat="opt in object.optionsLeft"
+                    data-ng-if="opt.id === option"
+                    data-ng-change="vm.matchingClick(opt, $index, 'left')"
+                    data-ng-model="object.leftSelection"
+                    data-ng-checked="object.leftSelection"
+                    data-ng-init="object.leftSelection=''"
+                    uib-btn-radio="opt.text"
+                    uncheckable>
+
+              <span data-ng-bind-html="vm.format(opt.text)"></span>
+
+              <span data-ng-if="opt.media" data-ng-repeat="object in opt.media" data-ng-switch data-on="object.type" data-medialoop></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="btn-group">
+          <div class="tile" data-ng-repeat="option in object.tempRight">
+            <button data-ng-class="{'hasMedia': vm.hasMedia($event.currentTarget)}"
+                    data-ng-repeat="opt in object.optionsRight"
+                    data-ng-if="option === opt.id"
+                    data-quizmo-jqmath
+                    data-ng-change="vm.matchingClick(opt, $index, 'right')"
+                    data-ng-model="object.rightSelection"
+                    data-ng-checked="object.rightSelection"
+                    data-ng-init="object.rightSelection=''"
+                    uib-btn-radio="opt.text"
+                    uncheckable>
+
+              <span data-ng-bind-html="vm.format(opt.text)"></span>
+
+              <span data-ng-if="opt.media" data-ng-repeat="object in opt.media" data-ng-switch data-on="object.type" data-medialoop></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="il_correct_quiz"
+         data-ng-if="object.answered == true && vm.slide.wrong == false">
+      <div class="hidden" data-ng-init="object.tempLeft = false"></div>
+      <h4>You have correctly matched all of the items!</h4>
+      <ul>
+        <li data-ng-repeat="option in object.options" data-ng-class="{'hasMedia': vm.hasMedia($event.currentTarget)}">
+          <strong data-ng-bind-html="vm.format(option.left)"></strong>
+          <span data-ng-if="option.leftMedia" data-medialoop data-ng-repeat="object in option.leftMedia" data-ng-switch data-on="object.type"></span>
+          <em>- goes with -</em>
+          <strong data-ng-bind-html="vm.format(option.right)"><span data-ng-if="option.rightMedia" data-ng-repeat="object in option.rightMedia" data-medialoop data-ng-switch data-on="object.type"></span></strong>
+        </li>
+      </ul>
+    </div>
+
+    <div class="il_question il_incorrect_quiz" data-ng-if="object.answered == true && vm.slide.wrong == true">
+      <p><strong>The correct answers were:</strong></p>
+      <ul>
+        <li data-ng-repeat="option in object.options" data-ng-class="{'hasMedia': vm.hasMedia($event.currentTarget)}">
+          <strong data-ng-bind-html="vm.format(option.left)"></strong>
+          <span data-ng-if="option.media" data-ng-repeat="object in option.media" data-ng-switch data-on="object.type" data-medialoop></span>
+          <em>- goes with -</em> <strong data-ng-bind-html="vm.format(option.right)"></strong>
+          <span data-ng-if="option.media" data-ng-repeat="object in option.media" data-ng-switch data-on="object.type" data-medialoop></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

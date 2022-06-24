@@ -1,0 +1,182 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_06_05/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/06_06_05/textversion/textversion.htm",
+    "modal": {
+      "directions": "Drag and drop the image of each mode of transportation under the appropriate word.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>坐</span> zuò",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "ferry boat",
+                "class": "hideback",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/boat.jpg",
+                    "alt": "Image of a ferry boat",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©iStock"
+                    }
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "airplane",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/airplane.jpg",
+                    "alt": "Image of an airplane",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©iStock"
+                    }
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "street tram",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/tram.jpg",
+                    "alt": "Image of a street tram",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©iStock"
+                    }
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "truck",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/truck.jpg",
+                    "alt": "Image of a truck",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©iStock"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>骑</span> qí",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "jet ski",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/jet_ski.jpg",
+                    "alt": "Image of a jet ski",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©Shutterstock"
+                    }
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "motorcycle",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/motorcycle.jpg",
+                    "alt": "Image of a motorcycle",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©iStock"
+                    }
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "unicycle",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/unicycle.jpg",
+                    "alt": "Image of a unicycle",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©iStock"
+                    }
+                  }
+                ]
+              },
+              {
+                "correct": "Nice job selecting the correct item for the correct verb!",
+                "incorrect": "Looks like you selected the wrong verb for this item. Try again.",
+                "text": "horse",
+
+                "media": [
+                  {
+                    "type": "image",
+                    "src": "interactives/06_06_05/images/horse.jpg",
+                    "alt": "Image of a horse",
+                    "height": "50",
+                    "width": "100",
+                    "data": {
+                      "copyright": "©iStock"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

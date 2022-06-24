@@ -1,0 +1,114 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_03_07/styles.css"],
+    "intMedia": "interactives/01_03_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Please listen to the audio in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "localAudio",
+        "src": "my_hair_is.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>我的头发是...的。</span> Wǒde tóufà shì ...de."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words would complete this sentence?</p>",
+        "answer": "<span lang='zh-Hans'>黑色</span> hēisè",
+        "options": [
+          "<span lang='zh-Hans'>害羞</span> hàixiū",
+          "<span lang='zh-Hans'>朋友</span> péngyǒu",
+          "<span lang='zh-Hans'>高</span> gāo"
+        ],
+        "correct": "Job well done! The sentence <span lang='zh-Hans'>“我的头发是...的。</span> Wǒde tóufà shì...de “ is used to describe one’s hair; therefore, the word <span lang='zh-Hans'>黑色</span> hēisè (black) fits to complete the sentence.",
+        "incorrect": "Very close. Please consider what this sentence is used to describe.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",       
+        "customView": "interactives/01_03_07/customview_imgbtn.htm"
+      },
+      {
+        "type": "localAudio",
+        "src": "blonde.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>金色</span> jīnsè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following girls’ hair color can be described with the word in audio?</p>",
+        "answer": "<span class='fortv'>Image of candid portrait of a blonde toddler girl</span><img src='interactives/01_03_07/intmedia/girl_img_1.jpg' alt='Image of candid portrait of a blonde toddler girl' class='border center-block'><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          "<span class='fortv'>Image of young woman with black hair</span><img src='interactives/01_03_07/intmedia/girl_img_2.jpg' alt='Image of young woman with black hair' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of young girl with red hair</span><img src='interactives/01_03_07/intmedia/girl_img_3.jpg' alt='Image of young girl with red hair' class='border center-block' ><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of girl with brown hair</span><img src='interactives/01_03_07/intmedia/girl_img_4.jpg' alt='Image of girl with brown hair' class='border center-block'> <span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Excellent job! <span lang='zh-Hans'>金色</span> jīnsè means “blonde (hair)” or “golden,” and the toddler's hair is blonde.",
+        "incorrect": "So close! Please listen again and pay attention to the first syllable you hear.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "red.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>红色</span> hóngsè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following vegetables is the word in the audio most suitable for?</p>",
+        "answer": "tomato",
+        "options": ["avocado", "lemon", "potato"],
+        "correct": "You got it! <span lang='zh-Hans'>红色</span> hóngsè means “red,” and tomatoes are definitely red. ",
+        "incorrect": "Not quite. Do you want to listen to the audio one more time to fully understand the phrase?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "very.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>很</span> hěn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words is most appropriate to follow the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>害羞</span> hàixiū</span><audio class='audio' controls src='interactives/01_03_07/intmedia/shy.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>晚安</span> wǎn'ān</span><audio class='audio' controls src='interactives/01_03_07/intmedia/goodnight.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>朋友</span> péngyǒu</span><audio class='audio' controls src='interactives/01_03_07/intmedia/friend.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>十二</span> shièr</span><audio class='audio' controls src='interactives/01_03_07/intmedia/checkpoint_slide4_choice4.mp3' ></audio>"
+        ],
+        "correct": "Outstanding job! The word <span lang='zh-Hans'>很</span> hěn means “very,” and should be followed by an adjective. So <span lang='zh-Hans'>害羞</span> hàixiū (shy) is the perfect candidate.",
+        "incorrect": "So close! Please listen to this single syllable again, understand its meaning, and consider what type of word should follow it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "a_little.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>有点</span> yǒudiǎn  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words serves the same purpose in a sentence as the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>比较</span> bǐjiào</span><audio class='audio' controls src='interactives/01_03_07/intmedia/somewhat.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>红色</span> hóngsè</span><audio class='audio' controls src='interactives/01_03_07/intmedia/red.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>女孩</span> nǚhái</span><audio class='audio' controls src='interactives/01_03_07/intmedia/girl.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>晚上</span> wǎnshàng</span><audio class='audio' controls src='interactives/01_03_07/intmedia/evening.mp3' ></audio>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>有点</span> yǒudiǎn (a little) is an adverb of degree, and so is <span lang='zh-Hans'>比较</span> bǐjiào (somewhat).",
+        "incorrect": "Not quite. Consider what function it serves in a sentence, then select its kindred word.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

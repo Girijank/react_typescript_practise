@@ -1,0 +1,92 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_03_07/styles.css"],
+    "intMedia": "interactives/03_03_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio;then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "china.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>中国</span> zhōngguó"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What language is widely spoken in the region referred to by the word in the audio?</p>",
+        "answer": "Chinese",
+        "options": [
+          "Japanese",
+          "English",
+          "Spanish"
+        ],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>中国</span> zhōngguó means “China,” and its official (and widely spoken) language is Chinese.",
+        "incorrect": "So close! Listen to the word in the audio again to understand its meaning, and then consider what language is used in that region, based on what you’ve learned so far.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "united_states.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>美国</span> měiguó"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following best describes the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>国家</span> guójiā</span><audio class='audio' controls src='interactives/03_03_07/intmedia/country.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>中国</span> zhōngguó</span><audio class='audio' controls src='interactives/03_03_07/intmedia/china.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>餐厅</span> cāntīng</span><audio class='audio' controls src='interactives/03_03_07/intmedia/restaurant.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>城市</span> chéngshì</span><audio class='audio' controls src='interactives/03_03_07/intmedia/city.mp3' ></audio>"
+        ],
+        "correct": "Impressive work! <span lang='zh-Hans'>美国</span> měiguó means United States, and it is a <span lang='zh-Hans'>国家</span> guójiā (country). ",
+        "incorrect": "Not quite…listen again several times to identify its meaning; then consider what type of entity it is.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "country.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>国家</span> guójiā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following falls in the category referred to by the word in the audio?</p>",
+        "answer": "Brazil",
+        "options": ["California", 
+                    "Orlando", 
+                    "Hong Kong"],
+        "correct": "You got it! <span lang='zh-Hans'>国家</span> guójiā means “country.” Of the four choices, only “Brazil” falls in this category.",
+        "incorrect": "Oops…listen to the audio several more times to identify its meaning, and then think about what type of region it is and which choice falls in that category.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "hong_kong.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>香港</span> xiānggǎng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences <strong>cannot</strong> be completed by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我家有_____人。</span> Wǒjiā yǒu _____ rén.",
+        "options": [
+          "<span lang='zh-Hans'>我从_____来。</span> Wǒ cóng _____ lái.",
+          "<span lang='zh-Hans'>我很喜欢_____。</span> Wǒ hěn xǐhuān _____.",
+          "<span lang='zh-Hans'>_____是一个城市。_____ </span> shì yīgè chéngshì."
+        ],
+        "correct": "Outstanding work! <span lang='zh-Hans'>香港</span> xiānggǎng means “Hong Kong.” It can be used to complete all the sentences except <span lang='zh-Hans'>我家有_____人。</span> Wǒjiā yǒu _____ rén. (There are ____ people in my family.)",
+        "incorrect": "Oops… listen to the audio carefully to identify its meaning, and then review the sentences in the choices to see which one is the least suitable.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

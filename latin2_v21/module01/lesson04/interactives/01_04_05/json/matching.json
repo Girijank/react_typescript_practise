@@ -1,0 +1,57 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Find the correct English match for the Latin word.",
+        "options": [
+          {
+            "left": "<em>Munior</em>",
+            "right": "I am being fortified."
+          },
+          {
+            "left": "<em>Audiebantur</em>",
+            "right": "They used to be heard. "
+          },
+          {
+            "left": "<em>Regemur</em>",
+            "right": "We will be ruled. "
+          },
+          {
+            "left": "<em>Capieris</em>",
+            "right": "You will be seized. "
+          },
+          {
+            "left": "<em>Pellebar</em>",
+            "right": "I used to be driven."
+          },
+          {
+            "left": "<em>Relinquentur</em>",
+            "right": "They will be left behind."
+          },
+          {
+            "left": "<em>Muniemini</em>",
+            "right": "You all will be fortified."
+          },
+          {
+            "left": "<em>Ducemur</em>",
+            "right": "We will be led."
+          },
+          {
+            "left": "<em>Redimur</em>",
+            "right": "We are being returned."
+          },
+          {
+            "left": "<em>Cernitur</em>",
+            "right": "She is being discerned."
+          }
+        ],"chances": "5"
+      }
+    ]
+  ]
+}

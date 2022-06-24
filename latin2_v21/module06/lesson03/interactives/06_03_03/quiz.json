@@ -1,0 +1,54 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_03_03/styles.css"],
+    "disableRemoteCss": true,
+    "_customTextversionAll": "interactives/06_03_03/textversion/textversion.htm",
+    "modal": {
+      "directions": "Select all the correct infinitive form(s) which accurately complete(s) the translation of the indirect statement. Notice that the main “sensory” verb is in the imperfect/perfect tense.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        
+        "type": "selectable",
+        "quiz": "We hoped that the chief <strong>was _____(verbing). Same Time</strong>",
+        "answer": ["movere", "ambulare", "laborare", "ducere"],
+        "options": ["bibisse", "auditurum esse", "legisse"],
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "selectable",
+        "quiz": "We hope that the chief <strong>had _____(verbed). Time Before</strong>",
+        "answer": ["ambulavisse", "bibisse", "legisse"],
+        "options": ["movere", "laborare", "ducere", "auditurum esse"],
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "selectable",
+        "quiz": "We hope that the chief <strong>would ______(verb). Time After</strong>",
+        "answer": [
+          "moturum esse",
+          "laboraturum esse",
+          "auditurum esse",
+          "lecturum esse"
+        ],
+        "options": ["ambulavisse", "bibisse", "ducere"],
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

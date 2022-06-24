@@ -1,0 +1,102 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_02_06/styles.css"],
+    "intMedia": "interactives/01_02_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "checkpoint_slide1_301548.mp3",
+        "textVersion": "<span lang='zh-Hans'>零一五四八</span> sān líng yī wǔ sì bā"
+      }, 
+      {
+        "type": "mc",
+        "quiz": "<p>A six-digit safe code is given in the audio. Which of the following digits is not in the code?</p>",
+        "answer": "9",
+        "options": ["0", "4", "5"],
+        "correct": "Terrific job catching the digits one by one. Now you can open the safe! ",
+        "incorrect": "Very close. Try again. Please pay attention and try to catch each digit one by one.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "two.mp3",
+        "textVersion": "<span lang='zh-Hans'>二</span> èr"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which one of the following is the number in the audio equal to?</p>",
+        "answer": "1+1",
+        "options": ["2+3", "3x3", "8-1"],
+        "correct": "You are right. It’s number <span lang='zh-Hans'>二</span> èr (two)! Did you notice its unique pronunciation? We’ll learn this final “er” later in this course.",
+        "incorrect": "Oops…you almost got it. Would you like to listen again? Please check earlier on this page for more clues.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "seven.mp3",
+        "textVersion": "<span lang='zh-Hans'>七</span> qī"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does the number in the audio best describe? </p>",
+        "answer": "Days in a week",
+        "options": ["Days in a month", "Hours in a day", "Minutes in an hour"],
+        "correct": "Excellent! Yes, it’s number <span lang='zh-Hans'>七</span> qī (seven), and it best describes the days of the week.",
+        "incorrect": "Very close! Listen to the audio again to understand which number it refers to, then consider which of the choices you can use it to descibe.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "six.mp3",
+        "textVersion": "<span lang='zh-Hans'>六</span> liù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following descriptions does the number in the audio best fit?</p>",
+        "answer": "The number of sides a snowflake has",
+        "options": [
+          "The number of planets in our solar system",
+          "The number of continents on Earth",
+          "The number of players on a basketball team"
+        ],
+        "correct": "You got it! Snowflakes always have six sides. Isn’t nature amazing?",
+        "incorrect": "Very close. Try again. Please pay close attention to the initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "eight.mp3",
+        "textVersion": "<span lang='zh-Hans'>八</span> bā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following numbers does <strong>not</strong> have the same symbol (lucky/unlucky) as the number in the audio?</p>",
+        "answer": "<audio class='audio' controls src='interactives/01_02_06/intmedia/four.mp3' ></audio>",
+        "options": [
+          "<audio class='audio' controls src='interactives/01_02_06/intmedia/six.mp3' ></audio>",
+          "<audio class='audio' controls src='interactives/01_02_06/intmedia/nine.mp3' ></audio>",
+          "<audio class='audio' controls src='interactives/01_02_06/intmedia/ten.mp3' ></audio>"
+        ],
+        "correct": "Job well done! Number <span lang='zh-Hans'>八</span> bā (eight) is considered a lucky number because it has a similar pronunciation as <span lang='zh-Hans'>发</span> fā, which means prosperity. Numbers 6, 9, 10 all symbolize good luck in Chinese. Did you know that people in China would fight for a license plate that has many eights on it?",
+        "incorrect": "So close… would you like to listen again and pay special attention to the initial?",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

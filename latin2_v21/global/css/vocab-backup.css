@@ -1,0 +1,51 @@
+body { overflow-x:hidden; }
+
+#cboxLoadedContent {
+	float:left;
+	background:#FFF;
+	border:none;
+	margin-bottom:0px;
+	padding:0 20px 10px !important;
+	overflow-x: hidden !important;
+}
+/*
+#cboxLoadedContent p { 
+	clear:both;
+	float:left; 
+}
+*/
+#cboxLoadedContent .vocab_word,
+#cboxLoadedContent .vocab_phrase { 
+	clear:none;
+	width: 100%;
+}
+
+#cboxLoadedContent .vocab_word { 
+	font-size:22px; 
+	margin-top:10px;
+}
+
+#cboxLoadedContent .vocab_phrase {
+	font-size: 16px;
+}
+
+#cboxLoadedContent .showcase { margin-bottom:0px; }
+#cboxLoadedContent span.copyright { margin: 0 auto; }
+
+#cboxLoadedContent .kalturaAudio {
+	width:326px !important;	
+	height:40px !important;
+	margin-left: -20px;
+	margin-top: 10px;
+}
+
+#cboxLoadedContent .kWidgetPlayBtn.audio {
+	width:326px;
+	height:40px;
+	background: url(../../global/images/kaltura_audio_standard.png);
+}
+
+#cboxLoadedContent .record_icon { 
+	float:right;
+	margin:10px 0 10px 10px;
+}

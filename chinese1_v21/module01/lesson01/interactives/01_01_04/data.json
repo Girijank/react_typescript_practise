@@ -1,0 +1,182 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_01_04/styles.css"],
+    "intMedia": "interactives/01_01_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio then choose the English word that it was borrowed from."
+      },
+      {
+        "type": "localAudio",
+        "src": "party.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>派对</span> pàiduì</p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p><span lang='zh-Hans'>派对</span> pàiduì</p>",
+        "answer": "party",
+        "options": [
+          "sofa",
+          "typhoon",
+          "talk show",
+          "poker",
+          "modern",
+          "guitar",
+          "shock"
+        ],
+        "correct": "Bingo! <span lang='zh-Hans'>派对</span> pàiduì means “party.”",
+        "incorrect": "So close! Do you want to listen again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "sofa.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>沙发</span> shāfā</p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p><span lang='zh-Hans'>沙发</span> shāfā</p>",
+        "answer": "sofa",
+        "options": [
+          "party",
+          "typhoon",
+          "talk show",
+          "poker",
+          "modern",
+          "guitar",
+          "shock"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>沙发</span> shāfā means “sofa.”",
+        "incorrect": "Not quite… do you want to listen again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "typhoon.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>台风</span> táifēng </p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p><span lang='zh-Hans'>台风</span> táifēng</p>",
+        "answer": "typhoon",
+        "options": [
+          "party",
+          "sofa",
+          "talk show",
+          "poker",
+          "modern",
+          "guitar",
+          "shock"
+        ],
+        "correct": "Wonderful job! <span lang='zh-Hans'>台风</span> táifēng means “typhoon.”",
+        "incorrect": "Hmm… please try to listen to the audio again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "poker.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>扑克</span> pūkè</p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p><span lang='zh-Hans'>扑克</span> pūkè</p>",
+        "answer": "poker",
+        "options": [
+          "party",
+          "sofa",
+          "typhoon",
+          "talk show",
+          "modern",
+          "guitar",
+          "shock"
+        ],
+        "correct": "Nice work! <span lang='zh-Hans'>扑克</span> pūkè means “poker.”",
+        "incorrect": "Hmm…please try to listen to the audio again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "modern.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>摩登</span> módēng</p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p><span lang='zh-Hans'>摩登</span> módēng</p>",
+        "answer": "modern",
+        "options": [
+          "party",
+          "sofa",
+          "typhoon",
+          "talk show",
+          "poker",
+          "guitar",
+          "shock"
+        ],
+        "correct": "Job well done! <span lang='zh-Hans'>摩登</span> módēng means “modern.”",
+        "incorrect": "So close! Do you want to listen again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "guitar.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>吉他</span> jítā</p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p><span lang='zh-Hans'>吉他</span> jítā</p>",
+        "answer": "guitar",
+        "options": [
+          "party",
+          "sofa",
+          "typhoon",
+          "talk show",
+          "poker",
+          "modern",
+          "shock"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>吉他</span> jítā means “guitar.”",
+        "incorrect": "Not quite… do you want to listen again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "shock.mp3",
+        "textVersion": "<p><span lang='zh-Hans'>休克</span> xiūkè</p>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p><span lang='zh-Hans'>休克</span> xiūkè</p>",
+        "answer": "shock",
+        "options": [
+          "party",
+          "sofa",
+          "typhoon",
+          "talk show",
+          "poker",
+          "modern",
+          "guitar"
+        ],
+        "correct": "You are right! <span lang='zh-Hans'>休克</span> xiūkè means “shock.”",
+        "incorrect": "Hmm… please try to listen to the audio again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

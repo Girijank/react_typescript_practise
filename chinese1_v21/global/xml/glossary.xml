@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary>
+  
+  <!-- EXAMPLE
+	<item term="Cherries">
+		<![CDATA[ A delicious red fruit you put on ice cream.]]>
+	</item>
+	  
+-->
+  <item term="Annotate ">
+    <![CDATA[Making notes directly onto a text such as a book, a handout, or another type of publication.]]>
+  </item>
+  <item term="Objective Summary">
+    <![CDATA[An objective summary includes only factual information from the original source and does not include the emotional or biased opinions.]]>
+  </item>
+  <item term="Inferences">
+    <![CDATA[Meanings determined by the reader which may not be explicitly stated in the text.]]>
+  </item>
+  <item term="Rendition">
+    <![CDATA[A translation or interpretation.]]>
+  </item>
+  <item term="Denotations">
+    <![CDATA[The dictionary definition of a word; the literal, precise or exact meaning of a word.]]>
+  </item>
+  <item term="Chinese characters">
+    <![CDATA[symbols of Chinese language]]>
+  </item>
+  <item term="Chinese pinyin">
+    <![CDATA[phonetic notation for Chinese characters]]>
+  </item>
+  <item term="Cognates">
+    <![CDATA[ Words in different languages that share the same root or origin.]]>
+  </item>
+  <item term="Loan word">
+    <![CDATA[A word that was borrowed from another language]]>
+  </item>
+  <item term="Chinese sentence structure">
+    <![CDATA[a fixed format for a certain type of sentence in Chinese]]>
+  </item>
+  <item term="pinyin">
+    <![CDATA[phonetic annotation tool for Chinese characters]]>
+  </item>
+  <item term="initials and finals">
+    <![CDATA[components that compose of pinyin]]>
+  </item>
+  <item term="tones">
+    <![CDATA[unique pitch how Chinese characters are pronounced]]>
+  </item>
+   <item term="Angus Tung">
+    <![CDATA[A contemporary Chinese pop singer from Taiwan]]>
+  </item>
+   <item term="Two-digit numbers">
+    <![CDATA[numbers that consists of two digits such as 34 and 85]]>
+  </item>
+  <item term="Interrogative words">
+    <![CDATA[words that are used to start a question, such as “what” and “when”]]>
+  </item>
+  <item term="possessive adjectives">
+    <![CDATA[words that modify a noun or pronoun to indicate possession]]>
+  </item>
+  <item term="mobile phone culture">
+    <![CDATA[a term describing how people use mobile technologies in their everyday lives]]>
+  </item>
+  <item term="mobile commerce">
+    <![CDATA[buying and selling products or services through wireless hand-held devices such as mobile phones]]>
+  </item>
+  <item term="virtual community">
+    <![CDATA[a group of people sharing common interests, ideas, and feelings over the Internet]]>
+  </item>
+  <item term="Palate">
+    <![CDATA[the roof of the mouth]]>
+  </item>
+  <item term="Jay Chou">
+    <![CDATA[A contemporary Chinese pop singer from Taiwan]]>
+  </item>
+  <item term="Chinese diet">
+    <![CDATA[diet commonly practiced in China]]>
+  </item>
+  <item term="American diet">
+    <![CDATA[diet commonly practiced in America]]>
+  </item>
+  <item term="Chinese Tea">
+    <![CDATA[Loose Leaf tea that originates from China]]>
+  </item>
+   <item term="Chinese desserts">
+    <![CDATA[desserts that are common in diets in China]]>
+  </item>
+
+</glossary>

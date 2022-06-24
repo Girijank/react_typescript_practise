@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary>
+
+  <!-- EXAMPLE
+	<item term="Cherries">
+		<![CDATA[ A delicious red fruit you put on ice cream.]]>
+</item>
+	  
+-->
+  <item term="Ablative of Agent">
+    <![CDATA[The person by whom a Passive Verb action is completed. Passive Verbs are often accompanied by an ablative of (personal) agent. ]]>
+  </item>
+  <item term="verisimilitude">
+    <![CDATA[comes from two Latin adjectives: verus,a,um = truth; similis, simile = alike, similar to.  Together, it means &quot;like the truth.&quot;]]>
+  </item>
+  <item term="In maximo itinere agamus!">
+    <![CDATA[Let us go on the greatest journey!]]>
+  </item>
+  <item term="Post decem annos in mari, viri ad Troiam pervenient.">
+    <![CDATA[After ten years on the sea, the men will arrive at Troy.]]>
+  </item>
+  <item term="templum Apollonis">
+    <![CDATA[temple of Apollo]]>
+  </item>
+  <item term="Harpyae">
+    <![CDATA[Harpies]]>
+  </item>
+  <item term="Romani Carthaginem vastabunt.">
+    <![CDATA[The Romans will destroy Carthage.]]>
+  </item>
+  <item term="in media nocte navigavit">
+    <![CDATA[in the middle of the night, he sailed]]>
+  </item>
+  <item term="Eo tempore, perpetuam vindictam petere promisi">
+    <![CDATA[At that time, I promised to seek eternal vengeance]]>
+  </item>
+  <item term="Feminae mihi dona, oves et boves dant">
+    <![CDATA[The women give gifts, sheep and cattle to me.]]>
+  </item>
+  <item term="pulcherrima omnium feminarum.">
+    <![CDATA[The most beautiful of all women.]]>
+  </item>
+  <item term="Donum fuit ingens equus ligneus!">
+    <![CDATA[The gift was a huge wooden horse!]]>
+  </item>
+  <item term="Pauci Troani pugnam superfuit.">
+    <![CDATA[Few Trojans survived the fight.]]>
+  </item>
+  <item term="Parce mihi. Ero non amica illo">
+    <![CDATA[Forgive me. I will not be friendly to him.]]>
+  </item>
+  <item term="Ita, agamus!">
+    <![CDATA[Thus, let's go!]]>
+  </item>
+  <item term="Post mortem suam, fabulam vastari cupivit">
+    <![CDATA[After his death, he wanted the story to be destroyed.]]>
+  </item>
+  <item term="Atque plurimi centum anni postea">
+    <![CDATA[And so several hundred years later,]]>
+  </item>
+  <item term="Sceleratus Vicus">
+    <![CDATA[The evil street; ]]>
+  </item>
+  <item term="curiae">
+    <![CDATA[an original grouping of around 30 men who held wide powers in the early Republic]]>
+  </item>
+  <item term="Tebenna">
+    <![CDATA[long cloak draped over the left shoulder]]>
+  </item>
+  <item term="clavi">
+    <![CDATA[narrow strip tunic with two vertical purple stripes]]>
+  </item>
+  <item term="augury">
+    <![CDATA[the practice of interpreting omens]]>
+  </item>
+  <item term="gladius">
+    <![CDATA[sword]]>
+  </item>
+  <item term="Io trans Europam multos annos erravit.">
+    <![CDATA[Io wandered across Europe for many years.]]>
+  </item>
+  <item term="Iupiter Mercurium necare Argum demisit.">
+    <![CDATA[Jupiter sent down Mercury to kill Argus.]]>
+  </item>
+  <item term="Consilium eos adiuvare cogitavi.">
+    <![CDATA[I thought of a plan to help them.]]>
+  </item>
+  <item term="Eo tempore ipso, meus frater, Neptunus, et ego, Graecos pugnare Troianos adiuvaverunt.">
+    <![CDATA[At that very time, my father, Neptune, and I helped the Greeks to fight the Trojans.]]>
+  </item>
+  <item term="Praetor">
+    <![CDATA[served as a judicial officer with civic and provincial jurisdiction]]>
+  </item>
+  <item term="Quaestor">
+    <![CDATA[financial administrator]]>
+  </item>
+  <item term="Aedile">
+    <![CDATA[urban maintenance such as roads, food and water supplies, festivals]]>
+  </item>
+  <item term="Censor">
+    <![CDATA[responsible for the census, elected every five years for a year and a half period]]>
+  </item>
+  <item term="Tribune">
+    <![CDATA[office to protect the rights of the plebian class and had to be from this class]]>
+  </item>
+  <item term="Patricians">
+    <![CDATA[the elite class of Rome]]>
+  </item>
+  <item term="magistrate">
+    <![CDATA[elected officials]]>
+  </item>
+  <item term="Ego id cepi!">
+    <![CDATA[I caught it!]]>
+  </item>
+  <item term="mihi nomen est Mercurius, et ego sum saevus!">
+    <![CDATA[My name is Mercury, and I am a savage!]]>
+  </item>
+  <item term="(magister equitum)">
+    <![CDATA[master of the horse]]>
+  </item>
+  <item term="(foedus Cassianum)">
+    <![CDATA[Treaty of Spurius Cassius]]>
+  </item>
+  <item term="Civis">
+    <![CDATA[citizen]]>
+  </item>
+  <item term="Servi">
+    <![CDATA[slaves]]>
+  </item>
+  <item term="Liberti">
+    <![CDATA[freedmen]]>
+  </item>
+  <item term="decemviri legibus scribundis">
+    <![CDATA[the council for writing laws ]]>
+  </item>
+  <item term="tum ego ad urbem Thessalius cucurri.">
+    <![CDATA[I then ran to the city of Thessaly.]]>
+  </item>
+  <item term="Quomodo ego hoc feci?">
+    <![CDATA[How did I do this?]]>
+  </item>
+  <item term="Hoc erat magnum furtim.">
+    <![CDATA[This was a great theft.]]>
+  </item>
+  <item term="Carthago Nova">
+    <![CDATA[New Carthage]]>
+  </item>
+  <item term="Quinqueremes">
+    <![CDATA[Roman warship]]>
+  </item>
+  <item term="triremes">
+    <![CDATA[Roman warship]]>
+  </item>
+  <item term="corvus/corax">
+    <![CDATA[a large bridge-like device on Roman battleships]]>
+  </item>
+  <item term="Carthago Delenda Est">
+    <![CDATA[Carthage must be destroyed]]>
+  </item>
+  <item term="Ego id cepi!">
+    <![CDATA[I caught it!]]>
+  </item>
+  <item term="Mihi nomen est Mercurius, et ego sum saevus!">
+    <![CDATA[My name is Mercury, and I am a savage!]]>
+  </item>
+  <item term="Fidenae">
+    <![CDATA[truce]]>
+  </item>
+  <item term="hospitium publicum">
+    <![CDATA[public friendship]]>
+  </item>
+  <item term="civitas sine suffragio">
+    <![CDATA[citizenship without suffrage]]>
+  </item>
+  <item term="antecedent">
+    <![CDATA[to go before]]>
+  </item>
+  <item term="Cunctator">
+    <![CDATA[the delayer]]>
+  </item>
+  <item term="Pyrrhus erat rex fortis Epiri, qui in Romanos pugnavit">
+    <![CDATA[Pyrrhus was the brave king of Epirus, who fought against the Romans.]]>
+  </item>
+  <item term="Romani elephantos priusquam non viderant.">
+    <![CDATA[The Romans had never seen elephants before.]]>
+  </item>
+  <item term="Pyrrhus ad proelium Heracleae elephantos eius portavit.">
+    <![CDATA[Pyrrhus brought his elephants to the battle at Heraclea.]]>
+  </item>
+  <item term="Viri Romani a pedibus elephantorum fracti et iacti sunt.">
+    <![CDATA[Roman soldiers were shattered and flung away by the feet of the elephants.]]>
+  </item>
+  <item term="Tum, Apollo ad meum cavum volavit et accusavit me rapiendem bovem eius.">
+    <![CDATA[Then, Apollo flew to my cave and accused me of stealing his cattle.]]>
+  </item>
+  <item term="nobilitates">
+    <![CDATA[nobles]]>
+  </item>
+  <item term="annuit coeptis">
+    <![CDATA[he has favored our undertakings]]>
+  </item>
+  <item term="novus ordo seclorum">
+    <![CDATA[a new order of ages]]>
+  </item>
+  <item term="e pluribus unum">
+    <![CDATA[from several, one]]>
+  </item>
+  <item term="Sum Senator, qui in Etruria habitat.">
+    <![CDATA[I am a Senator, who lives in Etruria.]]>
+  </item>
+  <item term="Ut Senator, Consuli consilium do.">
+    <![CDATA[As Senator, I give advice to the Consul.]]>
+  </item>
+  <item term="In Roma, consul Romanus esse cupio.">
+    <![CDATA[In Rome, I wish to be a Roman consul.]]>
+  </item>
+  <item term="mores">
+    <![CDATA[customs]]>
+  </item>
+  <item term="antecedent">
+    <![CDATA[to go before]]>
+  </item>
+  <item term="Cult">
+    <![CDATA[Cult comes from the Latin <em>cultus (colo, colere, colui, cultus,-a,-um -to nurture, to worship)</em> which means the necessary acts of preserving active adoration towards deities, temples, and shrines.]]>
+  </item>
+  <item term="Rhea Silvia, mater primi regis Romae, Romuli, erat virgo Vestalis">
+    <![CDATA[Rhea Silvia, the mother of the first king of Rome, Romulus, was a Vestal Maiden.]]>
+  </item>
+  <item term="Familia">
+    <![CDATA[family]]>
+  </item>
+  <item term="cognati">
+    <![CDATA[shared ties]]>
+  </item>
+  <item term="dignitas">
+    <![CDATA[dignity]]>
+  </item>
+  <item term="honor">
+    <![CDATA[honor]]>
+  </item>
+  <item term="domus">
+    <![CDATA[a Roman household]]>
+  </item>
+  <item term="Pater/Patronus">
+    <![CDATA[father]]>
+  </item>
+  <item term="Paterfamilias">
+    <![CDATA[male head of the household]]>
+  </item>
+  <item term="patria potestas">
+    <![CDATA[absolute control]]>
+  </item>
+  <item term="Mater/ Materfamilias">
+    <![CDATA[mother]]>
+  </item>
+  <item term="cum manu">
+    <![CDATA[with binding]]>
+  </item>
+  <item term="sine manu">
+    <![CDATA[without binding]]>
+  </item>
+  <item term="Liberi">
+    <![CDATA[the children]]>
+  </item>
+  <item term="filius">
+    <![CDATA[son]]>
+  </item>
+  <item term="filia">
+    <![CDATA[daughter]]>
+  </item>
+  <item term="bulla">
+    <![CDATA[charm pouch]]>
+  </item>
+  <item term="toga virilis">
+    <![CDATA[manly toga]]>
+  </item>
+  <item term="Servi">
+    <![CDATA[slaves]]>
+  </item>
+  <item term="insulae">
+    <![CDATA[little islands]]>
+  </item>
+  <item term="groma">
+    <![CDATA[grid measuring instrument]]>
+  </item>
+  <item term="Viae">
+    <![CDATA[streets]]>
+  </item>
+  <item term="viaepublicae">
+    <![CDATA[public roads]]>
+  </item>
+  <item term="viaeprivatae">
+    <![CDATA[private roads ]]>
+  </item>
+  <item term="Cloaca Maxima">
+    <![CDATA[the greatest sewer]]>
+  </item>
+  <item term="Sum in meo templo cotidie maneo">
+    <![CDATA[I stay in my temple everyday.]]>
+  </item>
+  <item term="virtutes">
+    <![CDATA[Virtues]]>
+  </item>
+  <item term="vir bonus">
+    <![CDATA[a good man]]>
+  </item>
+  <item term="mos maiorum">
+    <![CDATA[ancestral ways]]>
+  </item>
+  <item term="ludus">
+    <![CDATA[ school]]>
+  </item>
+  <item term="Odor erat pessimus!">
+    <![CDATA[ The odor was the worst]]>
+  </item>
+  <item term="magnas villas">
+    <![CDATA[large villas]]>
+  </item>
+  <item term="a nobilitatibus,">
+    <![CDATA[ by nobilities]]>
+  </item>
+  <item term="magnus numerus servorum">
+    <![CDATA[large number of servants]]>
+  </item>
+  <item term="Pontifex Maximus">
+    <![CDATA[greatest priest]]>
+  </item>
+  <item term="mater">
+    <![CDATA[mother]]>
+  </item>
+  <item term="medicus">
+    <![CDATA[doctor]]>
+  </item>
+  <item term="Virtus">
+    <![CDATA[Virtue]]>
+  </item>
+  <item term="Clementia">
+    <![CDATA[Mercy]]>
+  </item>
+  <item term="Dignitas">
+    <![CDATA[Dignity]]>
+  </item>
+  <item term="Honestas">
+    <![CDATA[Respectibility]]>
+  </item>
+  <item term="Auctoritas">
+    <![CDATA[Spiritual Authority]]>
+  </item>
+  <item term="Sum deus fortis!">
+    <![CDATA[I am a brave god!]]>
+  </item>
+  <item term="colonia">
+    <![CDATA[military towns]]>
+  </item>
+  <item term="centuries">
+    <![CDATA[the fighting unit]]>
+  </item>
+  <item term="contubernia">
+    <![CDATA[smallest unit of soldiers]]>
+  </item>
+  <item term="auxilia alae">
+    <![CDATA[infantry]]>
+  </item>
+  <item term="auxilia cohortes">
+    <![CDATA[cavalry]]>
+  </item>
+  <item term="(foederati)">
+    <![CDATA[treaty]]>
+  </item>
+  <item term="mercenary">
+    <![CDATA[hired men paid to fight and who are not a member of any military group]]>
+  </item>
+  <item term="(socii)">
+    <![CDATA[allies]]>
+  </item>
+  <item term="Non Gaium Marium amo!">
+    <![CDATA[I do not like Gaius Marius]]>
+  </item>
+  <item term="pomerium">
+    <![CDATA[a sacred boundary surrounding Rome]]>
+  </item>
+  <item term="Frangam te, Sulla!">
+    <![CDATA[I will break you, Sulla!]]>
+  </item>
+  <item term="AleaIactaEst!">
+    <![CDATA[<strong>The die is cast!</strong> This is a variation of a Latin phrase attributed by Suetonius to Julius Caesar on January 10, 49 BCE when Caesar had crossed the Rubicon River]]>
+  </item>
+  <item term="'De bello Gallico'">
+    <![CDATA[The Gallic War]]>
+  </item>
+  <item term="Triumph">
+    <![CDATA[an elaborate celebration given to a select few leaders after securing victory abroad]]>
+  </item>
+  <item term="dignitas">
+    <![CDATA[a sense of honor, respect, and worthiness that one holds]]>
+  </item>
+  <item term="Veni, Vidi, Vici!">
+    <![CDATA[I came, I saw, I conquered.]]>
+  </item>
+  <item term="libertas!">
+    <![CDATA[ freedom!]]>
+  </item>
+  <item term="Sum amator et pugnator.">
+    <![CDATA[(I'm a lover and a fighter);  ]]>
+  </item>
+  <item term="Mars et Anna in perpetuum.">
+    <![CDATA[(Mars and Anna forever). ]]>
+  </item>
+  <item term="Populares">
+    <![CDATA[These patricians supported the greater rights and influence in government for the common people.]]>
+  </item>
+  <item term="Optimates">
+    <![CDATA[Literally translated as 'the best,' they are the traditional nobility who supported the ancestral ways of Rome.]]>
+  </item>
+  <item term="curale aedile">
+    <![CDATA[elected by the Tribal Assembly to manage the markets ]]>
+  </item>
+  <item term="Mecum galeam meam, scutum meum, gladium meum, et hastam meam porto—proelium paro!">
+    <![CDATA[I am carrying with me my helmet, my spear, my sword, and my shield—I am preparing for battle!]]>
+  </item>
+  <item term="Ita, et in corpore et in animo vulneror.">
+    <![CDATA[Thus, I am wounded both in body and in spirit]]>
+  </item>
+  <item term="novus homo">
+    <![CDATA[new man]]>
+  </item>
+  <item term="sacramentum">
+    <![CDATA[a pledge]]>
+  </item>
+  <item term="Etiam numerum virorum in Senatu auxi.">
+    <![CDATA[And I increased the size of the Senate.]]>
+  </item>
+  <item term="dictator perpetuo.">
+    <![CDATA[dictator for life]]>
+  </item>
+  <item term="quod in periculum me posuit.">
+    <![CDATA[which put me into trouble.]]>
+  </item>
+  <item term="Cinna e Roma expulsa est. Sulla ad Romam revenit, filium Marii in itinere, et potestatem rei publicae recuperavit">
+    <![CDATA[Sulla headed back to Rome, killed Marius son on his way, and regained control of the Republic]]>
+  </item>
+  <item term="technology">
+    <![CDATA[machina, machinae f.]]>
+  </item>
+  <item term="indefatigable">
+    <![CDATA[From Latin in- (not) + de- (completely) + fatigare (wear out).]]>
+  </item>
+  <item term="pietas">
+    <![CDATA[The Roman virtue of piety, faithfulness, and duty]]>
+  </item>
+  <item term="publica magnificentia">
+    <![CDATA[public splendor]]>
+  </item>
+  <item term="Res Gestae Divi Augusti">
+    <![CDATA[the events of the divine Augustus]]>
+  </item>
+  <item term="Pater Patriae">
+    <![CDATA[father of the country]]>
+  </item>
+  <item term="Pontifex Maximus">
+    <![CDATA[the greatest priest = the chief priest of the land]]>
+  </item>
+  <item term="auctoritas">
+    <![CDATA[ultimate authority]]>
+  </item>
+  <item term="mores maiorum">
+    <![CDATA[the ways of the ancestors]]>
+  </item>
+  <item term="imperium maius">
+    <![CDATA[greater command]]>
+  </item>
+  <item term="tribunicapotestas">
+    <![CDATA[authority over the tribune of the plebs]]>
+  </item>
+  <item term="Id tardius erat">
+    <![CDATA[It was too late.]]>
+  </item>
+  <item term="Quid facere debui?">
+    <![CDATA[What was I to do?]]>
+  </item>
+  <item term="Eum cinxerunt et eum assiluerunt">
+    <![CDATA[They surrounded him and leaped upon him.]]>
+  </item>
+  <item term="Meus amicus mortuus est et mea culpa est.">
+    <![CDATA[My friend is dead and I am the culprit.]]>
+  </item>
+  <item term="in hoc signovinces">
+    <![CDATA[In this sign, you will conquer]]>
+  </item>
+  <item term="Miles, nobiscum fortissime pugna et veni!">
+    <![CDATA[Soldier, come and fight very bravely with us!]]>
+  </item>
+  <item term="Etiam, ferociores peditus, equitatus, velites, et hastates Romanos video.">
+    <![CDATA[Also, I see rather courageous Roman infantry, calvary, light-armed infantry, and front-line soldiers.]]>
+  </item>
+  <item term="Id erat crudellimum!">
+    <![CDATA[That was most cruel!]]>
+  </item>
+  <item term="March 15th,">
+    <![CDATA[The Ides of March. The word “Ides” on a Roman calendar refers to the first new moon of the month.]]>
+  </item>
+  <item term="praenomen Imperator">
+    <![CDATA[the first name or title of emperor]]>
+  </item>
+  <item term="Pax Romana">
+    <![CDATA[Roman peace]]>
+  </item>
+  <item term="maiusimperium">
+    <![CDATA[more power]]>
+  </item>
+  <item term="Et tu, Agrippina?">
+    <![CDATA[And you, Agrippina?]]>
+  </item>
+  <item term="Tum omnia haec parva bella in Gallia et Brittania gesseram">
+    <![CDATA[Then I had waged all of these small war campaigns in Gaul and Britain]]>
+  </item>
+  <item term="Imperator">
+    <![CDATA[emperor]]>
+  </item>
+  <item term="Nunc, sum Imperator, sed meum regnum erat breve">
+    <![CDATA[Now, I am Emperor, but my rule was short]]>
+  </item>
+  <item term="cuius copiae in Italiam invaserunt">
+    <![CDATA[whose troops invaded Italy]]>
+  </item>
+  <item term="Ita, populi fidem in me amiserunt">
+    <![CDATA[Thus, the people left faith in me]]>
+  </item>
+  <item term="et Coliseum aedificare incepi!">
+    <![CDATA[and I began to build the Coliseum!]]>
+  </item>
+  <item term="de rerum Natura">
+    <![CDATA[about the Nature of things]]>
+  </item>
+  <item term="Verona">
+    <![CDATA[Yes, that same Verona where Romeo and Juliet lived! Shakespeare was very familiar with the poems of Catullus and was inspired by him to write this famous play of his.]]>
+  </item>
+  <item term="Etiam ego sum pugnator">
+    <![CDATA[Also I am a fighter]]>
+  </item>
+  <item term="quas meus avunculus Vulcanus pro me fecerat">
+    <![CDATA[which my uncle Vulcan had made for me]]>
+  </item>
+  <item term="Bucolics">
+    <![CDATA[]]>
+  </item>
+  <item term="Odes">
+    <![CDATA[a collection of lyric poems on various topics and devotion to Augustus.]]>
+  </item>
+  <item term="cui magnus amicus factus sum">
+    <![CDATA[ to whom I became a great friend!]]>
+  </item>
+  <item term="cui magnus amicus factus sum!">
+    <![CDATA[ to whom I became a great friend!]]>
+  </item>
+  <item term="Aetatem Augustam elegos scripsi">
+    <![CDATA[I wrote elegy during the Augustan Age.]]>
+  </item>
+  <item term="papyri">
+    <![CDATA[writing paper made from the stem of a papyrus plant]]>
+  </item>
+  <item term="pathico Caesari">
+    <![CDATA[sick Caesar]]>
+  </item>
+  <item term="Augusto magnus amicus eram">
+    <![CDATA[I was a great friend to Augustus]]>
+  </item>
+  <item term="In Catalinam.">
+    <![CDATA[Against Cataline]]>
+  </item>
+  <item term="O, quid ego feci!">
+    <![CDATA[O, what did I do! ]]>
+  </item>
+  <item term="Ita">
+    <![CDATA[Yes!]]>
+  </item>
+  <item term="Illa me non voluit">
+    <![CDATA[She did not want me]]>
+  </item>
+  <item term="Same Time">
+    <![CDATA[something that is happening as the main verb is happening]]>
+  </item>
+  <item term="Time Before">
+    <![CDATA[something happening before the main verb has happened]]>
+  </item>
+  <item term="Time After">
+    <![CDATA[something that will happen after the main verb happens]]>
+  </item>
+  <item term="Carmen Saeculare">
+    <![CDATA[commissioned by Augustus, a poem in Sapphic meter to celebrate the great Secular Games held once a century.]]>
+  </item>
+  <item term="Ars Poetica">
+    <![CDATA[a poem written about the art of poetic writing]]>
+  </item>
+  <item term="Etiam alia opera">
+    <![CDATA[also other works]]>
+  </item>
+  <item term="Primo, Mons Vesuvius erupit, vastans urbes Pompeii et Herculanii">
+    <![CDATA[First, Mt. Vesuvius erupted, destroying the cities of Pompei and Herculaneum.]]>
+  </item>
+  <item term="Suo mente">
+    <![CDATA[in my mind]]>
+  </item>
+  <item term="Post id, de me solo putam">
+    <![CDATA[After that, I will be thinking about myself only]]>
+  </item>
+
+  <item term="parsimonious">
+    <![CDATA[from the Latin parco, parcere, parcui, parsus,-a,-um, to be sparing]]>
+  </item>
+  <item term="legens proximas duas aetates imperatorum">
+    <![CDATA[selecting the next two generations of emperors]]>
+  </item>
+  <item term="Africani regentes Romam, ita!">
+    <![CDATA[Africans ruling Rome, yes!]]>
+  </item>
+  <item term="Tum, quisque nostrum virum regere praeter nos leget">
+    <![CDATA[Then, each of us will choose a man to rule alongside us]]>
+  </item>
+  <item term="tetrarchy">
+    <![CDATA[the rule of four]]>
+  </item>
+  <item term="Me et geminum fratrem, Apollonem, in insula Deli peperi">
+    <![CDATA[She gave birth to me and my twin brother, Apollo, on the island of Delos]]>
+  </item>
+  <item term="pulchrior, honestior, et divinior quam Leto">
+    <![CDATA[more beautiful, more respectable, and more divine than Leto]]>
+  </item>
+  <item term="Ut imperator Romae, in Roma habere non volui quod urbs in ruinas ceciderat">
+    <![CDATA[As emperor of Rome, I didn’t want to live in Rome because the city had fallen into decay]]>
+  </item>
+  <item term="in hoc signo vinces">
+    <![CDATA[In this sign, you will conquer]]>
+  </item>
+  <item term="Etiam meam Agrippinam ex Roma removere me adiuvaverunt">
+    <![CDATA[They also helped me remove my mother, Agrippina, from Rome.]]>
+  </item>
+  <item term="Me amante mores Graecos">
+    <![CDATA[with me loving Greek customs]]>
+  </item>
+  <item term="Domus Aurea">
+    <![CDATA[Golden palace]]>
+  </item>
+  <item term="Probiter, non amicum amiciorem Orione tenui">
+    <![CDATA[Honestly, I didn't have a friendlier friend than Orion.]]>
+  </item>
+  <item term="Amatne is tecum?">
+    <![CDATA[Is he in love with you?]]>
+  </item>
+  <item term="aliquem scriptorem qui mala de me scripsit">
+    <![CDATA[any writer who wrote bad things about me]]>
+  </item>
+  <item term="populo pecuniam dedi">
+    <![CDATA[I gave money to the people]]>
+  </item>
+  <item term="Autem, potestatem exercituum tenere non potui">
+    <![CDATA[However, I wasn’t able to keep control of the army]]>
+  </item>
+  <item term="Ut filius praesidis Romani, momentum militum cognovi">
+    <![CDATA[As the son of a Roman governor, I knew the importance of the military]]>
+  </item>
+  <item term="Optimus Princeps">
+    <![CDATA[the best leader]]>
+  </item>
+  <item term="Triumvirate">
+    <![CDATA[A Triumvirate was a commission of three magistrates for the running of public affairs]]>
+  </item>
+  <item term="mea mater, Livia, erat gravissima">
+    <![CDATA[my mother, Livia, was very influential]]>
+  </item>
+  <item term="Maximam partem vitae meae egi">
+    <![CDATA[I spent most of my life]]>
+  </item>
+
+
+
+</glossary>

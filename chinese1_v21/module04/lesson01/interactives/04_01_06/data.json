@@ -1,0 +1,69 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_01_06/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/04_01_06/textversion/textversion.htm",
+    "modal": {
+      "directions": "Match the time phrases in Chinese with their appropriate images.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job matching the images with the correct time phrases in Chinese! Way to go!",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>上午十点四十六分</span> <br> shàngwǔ shídiǎn sìshíliù fēn",
+            "limit": 1,
+            "item": [
+              {
+                "image": "interactives/04_01_06/images/p6_1046am_flvs.png",
+                "alt":"Digital clock 10:46 a.m."
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>下午两点零九分</span> <br> xiàwǔ liǎngdiǎn líng jiǔ fēn ",
+            "limit": 1,
+            "item": [
+              {
+                "image": "interactives/04_01_06/images/p6_0209pm_flvs.png",
+                "alt":"Digital clock 2:09 p.m."
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>晚上八点二十分</span> <br> wǎnshàng bādiǎn èrshí fēn ",
+            "limit": 1,
+            "item": [
+              {
+                "image": "interactives/04_01_06/images/p6_0820pm_flvs.png",
+                "alt":"Digital clock 8:20 p.m."
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>上午九点 </span> <br> shàngwǔ jiǔdiǎn",
+            "limit": 1,
+            "item": [
+              {
+                "image": "interactives/04_01_06/images/p6_0900am_flvs.png",
+                "alt":"Digital clock 9 a.m."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

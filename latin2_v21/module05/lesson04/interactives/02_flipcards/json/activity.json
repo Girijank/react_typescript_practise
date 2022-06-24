@@ -1,0 +1,64 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Did you identify the participial forms in passages? Test your skills.",
+    "instruction_textversion":"Did you identify the participial forms in passages? Test your skills.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p><em>Interroganti</em> </p>",
+          "textversion": "<p><em>Interroganti</em> </p>"
+        },
+        "back": {
+          "content":  "<p>Present Active participle, Dative singular masculine</p>",
+          "textversion":  "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Present Active participle, Dative singular masculine</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p><em>Deperditam </em></p>",
+          "textversion": "<p><em>Deperditam </em></p>"
+        },
+        "back": {
+          "content":   "<p>Perfect Passive participle, Accusative singular feminine</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>Perfect Passive participle, Accusative singular feminine</p>" 
+        }
+      },
+      
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p><em>Impatiens </em></p>",
+          "textversion": "<p><em>Impatiens </em></p>"
+        },
+        "back": {
+          "content":   "<p>Present Active participle, Nominative singular masculine</p>",
+          "textversion":   "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>Present Active participle, Nominative singular masculine</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content":  "<p><em>Efflagitante </em></p>",
+          "textversion":  "<p><em>Efflagitante </em></p>"
+        },
+        "back": {
+          "content":  "<p> Present Active participle, Ablative singular masculine</p>",
+          "textversion":  "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'> Present Active participle, Ablative singular masculine</p>"
+        }
+      }
+    ]
+  }
+}
+
+
+
+
+

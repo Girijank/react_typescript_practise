@@ -1,0 +1,80 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Identify the Ablative of Agent or Ablative of Means in these passive voice sentences. Then select each card to check your answer.",
+    "instruction_textversion":"Identify the Ablative of Agent or Ablative of Means in these passive voice sentences. Have back of card become a click to reveal to hide answer until student reveals it.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Saxa ab incola redientur.</p>",
+          "textversion": "<p>Saxa ab incola redientur.</p>"
+        },
+        "back": {
+          "content": "<p>ab incola (by the inhabitant = Ablative of Agent)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>ab incola (by the inhabitant = Ablative of Agent)</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>Pompa ab homine ducebatur.</p>",
+          "textversion": "<p>Pompa ab homine ducebatur.</p>"
+        },
+        "back": {
+          "content": "<p>ab homine (by the man = Ablative of Agent)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>ab homine (by the man = Ablative of Agent)</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Aves ab agricolis consulentur.</p>",
+          "textversion": "<p>Aves ab agricolis consulentur.</p>"
+        },
+        "back": {
+          "content": "<p>ab agricolis (by the farmers = Ablative of Agent)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>ab agricolis (by the farmers = Ablative of Agent)</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Vir ab pueris timebatur.</p>",
+          "textversion": "<p>Vir ab pueris timebatur.</p>"
+        },
+        "back": {
+          "content": "<p>ab pueris (by the boys = Ablative of Agent)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>a pueris (by the boys = Ablative of Agent)</p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Puella equum pecunia emit.</p>",
+          "textversion": "<p>Puella equum pecunia emit.</p>"
+        },
+        "back": {
+          "content": "<p>pecunia (with money = Ablative of Means)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'>pecunia (with money = Ablative of Means)</p>"
+        }
+      },
+      {
+        "id": "card_06",
+        "front": {
+          "content": "<p>Marcus et Lucius viros gladiis pugnant.</p>",
+          "textversion": "<p>Marcus et Lucius viros gladiis pugnant.</p>"
+        },
+        "back": {
+          "content": "<p>gladiis (with the swords = Ablative of Means)</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans6'>Show Answer</div><p id='ans6' class='collapse'>gladiis (with the swords = Ablative of Means)</p>"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Select the image of each emperor to learn more about what they did during their reign.",
+    "cards": [
+      {
+        "id": "card_06",
+        "front": {
+          "content": "<div><img src='images/flip_0904_vespasianbust.jpg' alt='Marble bust of emperor Vespasian ' class='frame' data-caption='VESPASIAN marble bust' data-width=' ' data-copyright='©Granger, NYC    / ImageQuest 2021' /></div><span class='caption'>VESPASIAN marble bust </span><span class='copyright'>©Granger, NYC   / ImageQuest 2021</span>",
+          "textversion": "<p>Image: Vespasian  </p>"
+        },
+        "back": {
+          "content": "<h5>I am known for:</h5><ul><li>being the last emperor in 69 CE </li><li>becoming emperor in December, 69 CE</li><li>going on to rule Rome for 10 years total</li><li>being the founder of the Flavian Dynasty</li><li>invading Britannia </li></ul>",
+          "textversion": "<h5>I am known for:</h5><ul><li>being the last emperor in 69 CE </li><li>becoming emperor in December, 69 CE</li><li>going on to rule Rome for 10 years total</li><li>being the founder of the Flavian Dynasty</li><li>invading Britannia </li></ul>"
+        }
+      }
+      
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": true,
+    "resultsPage": false,
+    "interactiveTitle": "",
+    "css": ["interactives/03_matching/matching.css"],
+    "_customTextversionAll": "../../global/templates/quizmo/matching_text.htm"
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Match each vocabulary word with its correct image.",
+        "customView": "../../global/templates/quizmo/matching.htm"
+      },
+
+      {
+        "type": "matching",
+        "quiz": "",
+        "chances": "99999",
+        "options": [
+          {
+            "left": "caper, capri m.",
+            "right": "<span class='forTV'>Image of two baby goats</span><img src='images/vocab_p3_img1.jpg' alt='Two baby goats' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Two baby goats"
+          },
+          {
+            "left": "dolus, doli m.",
+            "right": "<span class='forTV'>Image of two men shaking hands with one man crossing his fingers behind his back</span><img src='images/vocab_p3_img2.jpg' alt='Two men shaking hands with one man crossing his fingers behind his back' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Two men shaking hands with one man crossing his fingers behind his back"
+          },
+          {
+            "left": "gigas, gigantis m.",
+            "right": "<span class='forTV'>Image of a big tall man standing in the middle of a road</span><img src='images/vocab_p3_img3.jpg' alt='A big tall man standing in the middle of a road' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A big tall man standing in the middle of a road"
+          },
+          {
+            "left": "Graecus, Graeci m.",
+            "right": "<span class='forTV'>Image of a man in traditional attire standing with a Cretan lyre player</span><img src='images/vocab_p3_img4.jpg' alt='A man in traditional attire standing with a Cretan lyre player' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A man in traditional attire standing with a Cretan lyre player"
+          },
+          {
+            "left": "herba, herbae f.",
+            "right": "<span class='forTV'>Image of a box inside of which are different fresh herbs</span><img src='images/vocab_p3_img5.jpg' alt='A box inside of which are different fresh herbs' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A box inside of which are different fresh herbs"
+          },
+          {
+            "left": "impedimentum, impedimenti n.",
+            "right": "<span class='forTV'>Image of a woman typing on a laptop with a baby and the laptop on her lap</span><img src='images/vocab_p3_img6.jpg' alt='A woman typing on a laptop with a baby and the laptop on her lap' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A woman typing on a laptop with a baby and the laptop on her lap"
+          },
+          {
+            "left": "nihil n.",
+            "right": "<span class='forTV'>Image of a damaged wall with the words No Future written besides it</span><img src='images/vocab_p3_img7.jpg' alt='A damaged wall with the words No Future written besides it' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A damaged wall with the words No Future written besides it"
+          }
+        ]
+      }
+    ]
+  ]
+}

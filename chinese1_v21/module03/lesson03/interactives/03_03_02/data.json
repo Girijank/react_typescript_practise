@@ -1,0 +1,148 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/03_03_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/03_03_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “zh”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve identified  “zh” sounds. Fantastic job!",
+                "incorrect": "Not quite…try to catch all three of them.",
+                "text": "<span lang='zh-Hans'>猪肉</span> zhūròu (pork)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_03_02/media/pork.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve identified  “zh” sounds. Fantastic job!",
+                "incorrect": "Not quite…try to catch all three of them.",
+                "text": "<span lang='zh-Hans'>果汁</span> guǒzhī",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_03_02/media/juice.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },             
+              {
+                "correct": "You’ve identified  “zh” sounds. Fantastic job!",
+                "incorrect": "Not quite…try to catch all three of them.",
+                "text": "<span lang='zh-Hans'>健壮</span> jiànzhuàng (athletic)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_03_02/media/athletic.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ong”",
+            "limit": 4,
+            "item": [            
+              {
+                "correct": "You’ve got an ear! Outstanding job identifying  the “ong” sounds!",
+                "incorrect": "Oops…looks like you are missing one of two. Listen again and try to catch all four of them.",
+                "text": "<span lang='zh-Hans'>外公</span> wàigōng (maternal grandfather)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_03_02/media/maternal_grandfather.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Outstanding job identifying  the “ong” sounds!",
+                "incorrect": "Oops…looks like you are missing one of two. Listen again and try to catch all four of them.",
+                "text": "<span lang='zh-Hans'>宠物</span> chǒngwù (pet)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_03_02/media/pet.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Outstanding job identifying  the “ong” sounds!",
+                "incorrect": "Oops…looks like you are missing one of two. Listen again and try to catch all four of them.",
+                "text": "<span lang='zh-Hans'>信用卡</span> xìnyòngkǎ (credit card)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_03_02/media/credit_card.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Initial “zh” and Final “ong”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve done well identifying the word that has the initial “zh” and the final “ong” sounds, which is an outstanding job!",
+                "incorrect": "Not quite… try again",
+                "text": "<span lang='zh-Hans'>中国</span> zhōngguó (china)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_03_02/media/china.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

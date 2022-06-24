@@ -1,0 +1,291 @@
+.ng_il .il_viewport {
+    /* background-image: url(map.jpg); */
+    min-height: 0;
+    width: 690px;
+    height: 480px;
+    background-color: #FAFAFA;
+}
+
+.ng_il .modal_holder {
+    margin-left: -20px;
+}
+
+.ng_il .bin {
+    border-radius: 4px;
+    width: 580px !important;
+    height: 45px !important;
+    margin: 10px 0 0 -10px;
+    position: absolute;
+    /* box-shadow: 1px 1px 2px #0f100a; */
+}
+
+.ng_il .bin.col {
+    float: none !important;
+}
+
+.il_question {
+    width: 100px;
+    min-height: 0 !important;
+    height: 35px !important;
+}
+
+.ng_il h2 {
+    display: none;
+}
+
+.il_dragdrop_items {
+    position: relative;
+    display: inline-block;
+    /* top: 32px; */
+    /* right: -19px; */
+    /* width: 20%; */
+    z-index: 100;
+    padding: 0 !important;
+    margin: 0;
+    /* min-height: 200px; */
+    margin-top: 10px;
+}
+
+.ng_il .il_dragdrop_items .il_btn {
+    border: 3px solid #530a59 !important;
+    background-color: white !important;
+    background-image: none !important;
+    color: #173348 !important;
+    font-weight: bold !important;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    height: 40px !important;
+}
+
+.ui-droppable {
+    z-index: 0;
+    padding: 0 !important;
+    /* margin: 0 auto !important; */
+}
+
+.ng_il .il_btns {
+    position: relative;
+    /* right: 0 !important; */
+    /* bottom: 0 !important; */
+    left: auto !important;
+    float: right;
+    width: 100px;
+    height: 50px;
+    z-index: 9999;
+}
+
+.ng_il .il_btn {
+    border: none;
+    background-color: #DDD;
+    background-image: none;
+    color: #4c4c4c;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.ng_il .ui-droppable .il_btn {
+    border: none !important;
+    background-color: transparent !important;
+    /* background-color: #ffffff8a !important; */
+    color: #173348 !important;
+    font-weight: bold !important;
+}
+
+.ng_il .ui-droppable .il_btn {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.ui-droppable {
+    padding: 0;
+    margin: 2px auto;
+    text-align: center;
+    min-height: 0;
+}
+
+.ng_il .il_question_wrapper {
+    height: 450px;
+    width: 100%;
+}
+
+.ng_il .il_question {
+    opacity: 1;
+    width: 100%;
+}
+
+.dragdrop {
+    /* padding-top: 150px; */
+    position: relative;
+    height: 380px;
+    width: 650px;
+}
+
+.ng_il button.il_wb_submit {
+    display: none;
+}
+
+.ng_il button.il_wb_submit,
+.ng_il button.il_wb_restart_btn {
+    /* z-index: 999; */
+    position: relative;
+    right: -50px;
+    top: 0px;
+    /* width: 70px; */
+    border-radius: 4px;
+    height: auto !important;
+    /* bottom: 4px !important; */
+    margin: 0 auto;
+}
+
+/* M&eacute;xico */
+
+.ng_il .bin:nth-child(2) {
+    top: 90px;
+    left: 40px;
+}
+
+/* Honduras */
+
+.ng_il .bin:nth-child(3) {
+    top: 120px;
+    left: 40px;
+}
+
+/* Guatemala */
+
+.ng_il .bin:nth-child(4) {
+    top: 170px;
+    left: 40px;
+}
+
+/* El Salvador */
+
+.ng_il .bin:nth-child(5) {
+    top: 220px;
+    left: 40px;
+}
+
+/* Nicaragua */
+
+.ng_il .bin:nth-child(6) {
+    top: 270px;
+    left: 40px;
+}
+
+/* Costa Rica */
+
+.ng_il .bin:nth-child(7) {
+    top: 320px;
+    left: 40px;
+}
+
+/* Panam&aacute; */
+
+.ng_il .bin:nth-child(8) {
+    top: 500px;
+    left: 40px;
+}
+
+/* Panam&aacute; */
+
+.ng_il .bin:nth-child(9) {
+    top: 500px;
+    left: 240px;
+}
+
+/* Panam&aacute; */
+
+.ng_il .bin:nth-child(10) {
+    top: 500px;
+    left: 440px;
+}
+
+#custom_textVersion li {
+    margin-left: 20px;
+}
+
+#custom_textVersion {
+    margin: 10px 0;
+}
+
+.ng_il .il_question,
+.ng_il .il_wb_remaining_words {
+    padding: 0px;
+}
+
+.il_question.ng-pristine.ng-untouched.ng-valid.ui-droppable {
+    z-index: 0;
+    min-height: 110px;
+    border: none !important;
+    /* border-radius: 0 0 15px 15px; */
+    margin-top: -25px;
+    padding: 15px;
+    /* background: #FFF; */
+    background: none !important;
+    border-radius: none !important;
+    /* margin-top: -105px; */
+    margin-left: -10px;
+}
+
+.ng_il .il_header {
+    display: contents;
+    color: #000;
+}
+
+.ng_il .il_textversion .fev_copy.copyright {
+    display: none;
+}
+
+.ng_il .fev_copy.caption {
+    text-align: left;
+    margin-top: -30px;
+    padding-left: 2px;
+    background: #ffffff8a;
+    display: block;
+    position: absolute;
+    border-radius: 0;
+    padding: 2px;
+}
+
+.ng_il .fev_copy.copyright {
+    text-align: left;
+    margin-top: -15px;
+    padding-left: 2px;
+    background: #ffffff8a;
+    display: block;
+    position: absolute;
+    border-radius: 0;
+    padding: 2px;
+}
+
+/* fev */
+
+.ng_il .il_header {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/*.ng_il .ui-droppable .il_btn:nth-child(4){
+    margin-top:-140px;
+}*/
+
+/* .ng_il .bin:nth-child(5) .ui-droppable .il_btn {
+    margin-top: -142px;
+} */
+
+/* .il_question.ng-pristine.ng-untouched.ng-valid.ui-droppable {
+    background: none;
+} */
+
+.ng_il .viewport.il_textversion .tv_linehide,
+.ng_il .viewport.il_textversion .fevquestions br {
+    display: none;
+}
+
+.ng_il .viewport.il_textversion #slide1.il_textversion_question {
+    margin-top: 10px;
+}
+
+.ng_il .il_textversion ul {
+    padding-left: 10px;
+}

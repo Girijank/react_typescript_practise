@@ -1,0 +1,42 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Use your knowledge of the endings specific to this declension to match case and number. Keep going until you get them all right!",
+        "options": [
+          {
+            "left": "<em>hominis</em>",
+            "right": "Genitive singular"
+          },
+          {
+            "left": "<em>homo</em>",
+            "right": "Nominative singular"
+          },
+          {
+            "left": "<em>pacibus</em>",
+            "right": "Dative plural; Ablative plural"
+          },
+          {
+            "left": "<em>homine</em>",
+            "right": "Ablative singular"
+          },
+          {
+            "left": "<em>pacum</em>",
+            "right": "Genitive plural"
+          },
+          {
+            "left": "<em>corpus</em>",
+            "right": "Nominative singular; Accusative singular"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

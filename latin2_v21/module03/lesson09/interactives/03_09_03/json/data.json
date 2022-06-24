@@ -1,0 +1,377 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_09_03/styles.css"],
+    "intMedia": "interactives/03_09_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Using your knowledge from the course so far, select the choice that best answers the question."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Choose the best form for the word or words in <strong>bold type</strong> in the following sentence.</p> <p> Roma erat divis in <strong>agris</strong>.</p>",
+        "answer": "2nd Declension Ablative (Object of Preposition)",
+        "options": [
+          "1st Declension Nominative (Subject)",
+          "3rd Declension Ablative (Object of a Preposition)",
+          "1st Declension Accusative (Direct Object)"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Choose the best translation for the words in <strong>bold type</strong> : Puer, Ascanius, <strong>ad Italiam</strong> cum Aenea navigabit.</p>",
+        "answer": "To Italy",
+        "options": ["Away from Italy", "Italy", "On account of Italy"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Choose the best translation for the words in <strong>bold type</strong> : <strong>Animalia</strong> in mari sunt pisces.</p> <p>How do you translate “animalia?”</p>",
+        "answer": "The animals",
+        "options": ["The animal", "With the animal", "Of the animals"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>What type of storytelling helped classical authors craft a lofty image of Rome? </p>",
+        "answer": "Mytho-history",
+        "options": ["Comedy", "Satire", "Tragedy"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>If Juno tells you to “Ad pueros in via clama!,” what does Juno command?</p>",
+        "answer": "Shout at the boys in the street!",
+        "options": [
+          "Claim the boys in the street!",		  
+          "Let the boys shout in the street!",
+          "Carry a shout at the boys in the street!"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Dido est regina Cartaginis (1). Ut Aeneas ad Carthaginem ab Iunone pellitur, Dido eis patium facit (2). Statim ea eum amabat (3). Tamen, Mercurius Aeneam relinquere Didodem imperavit. (4). Itaque Aeneas et homines ex Cartagine navigaverunt (5). Dido misera clamavit (6).</p><p>According to sentence (6), after Aeneas left, how did Dido feel?</p>",
+        "answer": "Wretched",
+        "options": [
+          "Happy",
+          "Changed",
+          "Proud"	 
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Consider the sentence: Salus coniungum a ducibus pressa erat. What are the tense, person, voice, number, and gender of 'pressa erat?'</p>",
+        "answer": "Pluperfect, 3rd Person, Passive, Singular, Feminine",
+        "options": [
+          "Future Perfect, 3rd Person, Passive, Singular, Feminine",
+          "Perfect, 3rd Person, Passive, Plural, Neuter",
+		  "Pluperfect, 3rd Person, Passive, Plural, Neuter"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Civis in cursu honorum surgere cupit (1). Exampli gratia, quaestor praetor esse voluit (2). Praetor consul esse voluit (3). Cur (4)? Republica Romana&nbsp;<strong>a duobus consulibus&nbsp;</strong>regitur (5). Tum, in temporibus periculi, consul dictator <strong>vocatur</strong> (6). In the sentence 6, what is the tense and voice of the word(s) in bold type? </br></p><p>Tum, in temporibus periculi, consul dictator <strong>vocatur</strong>.</p><p>&nbsp;</p>",
+        "answer": "Present Passive",
+        "options": [
+          "Nominative case",
+          "Future Passive",
+		  "Present Active"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>In the Republic, which position would be responsible for administering the finances? </p>",
+        "answer": "Questor",
+        "options": [
+          "Aedile",
+		  "Censor",
+          "Tribune"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the best English translation of the Latin sentence.</p><p>Eidem et eaedem per cursum honorem venient.</p>",
+        "answer": "The same men and women will come through the cursus honorum.",
+        "options": [
+          "They come to the same man and to the same woman through the cursus honorum.",          
+		  "The same things and the same women will come through the cursus honorum.",
+          "The same men will come for the same woman through the cursus honorum."		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Follow these steps of the Twelve Tables, and then answer the corresponding question, based on your readings from the lesson:</p><ol style='list-style-position: inside;' start='1' type='1'><li>Noli ante iudicium fugere! (Table I)</li><li>Noli furtum ligni habere! (Table VI)</li><li>Noli bracchium frangere! (Table VIII)</li><li>Noli ignomia canere! (Table VIII)</li></ol><p>According to the explanation of Table VIII in your lesson, what is the punishment for the doing the action mentioned in the Latin sentence (4), &ldquo;Noli ignomia canere!&ldquo;?</p>",
+        "answer": "He shall suffer a capital penalty. ",
+        "options": [
+          "He will have to fight for his life.",
+          "He is put in a wooden box.",
+          "He has to attend a speech in the Curia."
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Whom did Rome have to first rely on to supply its warships in the First Punic War?</p>",
+        "answer": "Allies",
+        "options": [
+          "Celts",
+		  "Mercury",
+          "Cursus honorum"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>In the sentence, what is the correct form of the demonstrative pronoun in bold type?</p><p>The consul will speak before <strong>this</strong> rostrum.</p>",
+        "answer": "Hoc",
+        "options": [
+          "Illam",
+          "Hunc",
+          "Illi"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Which two gods wanted to marry Vesta?</p>",
+        "answer": "Apollo and Neptune",
+        "options": [
+          "Mercury and Jupiter",
+          "Mercury and Neptune",
+          "Apollo and Jupiter"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type":"mc",
+        "quiz":"<p>Read the following steps and answer the question below:</p><p>How to be a member of the&nbsp;<em>familia Romana:</em></p><ol style='list-style-position: inside;' start='1' type='1'><li>Es pater domi Romani.</li><li>Labora in agris.</li><li>Texe vestes pro liberis et omnibus familibus.</li><li>Es aut filia aut filius.</li></ol><p>In step 4, based upon your written role, which member of the Roman household are you?</p>",
+        "answer":"Liberi",
+        "options":[
+           "Pater",
+           "Paterfamilias",
+           "Materfamilias"
+        ],
+        "correct":"Well done!",
+        "incorrect":"Very close. Try again.",
+        "incorrectHeading":"Incorrect"
+     }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Videbitis multa in urbe Romae. Videbitis multas insulas, in quibus familiae habitant et quae sunt casus malos creant. Magni numeri servorum et libertorum per urbem cibum vendere ambulant. In urbe Romana odor erat pessimus ob familias, quae detrimentum e fenestris iaciunt. Tamen, patres matresque, fratres sororesque, in urbe evocantur.</p><p>Based upon the passage, why are members of the Roman family in Rome?</p>",
+        "answer": "They are being called forth into the city.",
+        "options": [
+          "They like living in accident-prone apartments.",          
+		  "They shop for food.",
+          "They are trying to escape to the countryside."		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>What system of channels, bridges, tunnels, pipes, and canals were used to transport water from freshwater sources into the city for drinking water, irrigation, public baths, and fountains?</p>",
+        "answer": "Aqueducts",
+        "options": [
+          "Opus quadratum",          
+		  "Groma",
+          "Circus Maximus"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the correct translation of the sentence.</p><p>Quid matres diem rapere confirmabit?</p>",
+        "answer": "What will encourage the mothers to seize the day?",
+        "options": [
+          "What mothers will encourage the day to seize?",
+          "Who will encourage the mothers to seize the day?",
+		  "Whose mothers are trying to seize the day?"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+	[
+      {
+        "type": "mc",
+        "quiz": "<p>Medicus (doctor):Salvete, parentes! Cur me visitatis? (Line 1)</p><p>Patronus (father): Ad domum tuum pro nostro filio aegro auxilium tuum petere advenimus. (Line 2)</p><p>Medicus: Quomodo eum iuvare possum? (Line 3)</p><p>Mater(mother): Meus filius a duodecim militibus in bello Etruscano oppugnatus erat. (Line 4)</p><p>Medicus: Filius tuus necatus estne? (Line 5)</p><p>Mater: Ne! (Line 6)</p><p>Medicus: Nonne filius tuus est moribundus!(Line 7)</p><p>Mater: Ne! (Line 8)</p><p>Patronus: Ob certamen et casum, manus suas amisa est! (Line 9)</p><p>In line 7, what answer does the word nonne expect?</p>",
+        "answer": "No",
+        "options": [
+          "Yes",
+          "Maybe",
+          "Sorry"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+	[
+      {
+        "type": "mc",
+        "quiz": "<p>Soror:</p><p>Salve, medicus. Casum in portu habui et ob eum, genua mea nunc conficiuntur. Etiam, multam ceram in meis auribus habeo. E me haec impedimenta solver poteris?</p><p>Translation: Hello, doctor. I had an accident in the port and on account of it, my knees are now exhausted. Also, I have a lot of wax in my ears. Will you be able to loosen these hindrances from me?</p><p>Medicus:</p><p>Ita, si haec imperia facis, nutrieris.</p><p>Translation: Yes, if you do these commands, you will be nourished.</p><p>Step 1: Primum: Fides et spes habe.</p><p>Step 2: Secundum: Gaudium in diem porta.</p><p>Step 3: Tertium: Omnes pariter ama: matrem, fratrem, sororem, et fratrem.</p><p>In step 4, who does the medicus want the soror to love?</p>",
+        "answer": "Her mother, father, sister, and brother",
+        "options": [
+          "Faith and hope",
+		      "Her knees",
+          "The wax in her ears"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the correct translation of the sentence.</p><p>Super quibus iuribus mariti proci in hac re in urbe evocaverunt?</p>",
+        "answer": "Upon which rights of the husband have the suitors called forth in this matter in the city?",
+        "options": [
+          "Through which rights have the husband’s suitors called forth in this matter in the city?",
+		  "For which rights have the married suitors called forth on this matter in the city?",
+          "Whose rights have the married suitors brought on account of this matter in the city?"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Review this passage from your lesson:“Nam super illa quae rettuli, altius ibi otium et pinguius eo que securius: nulla necessitas togae, (line 1)nemo accersitor ex proximo, placida omnia et quiescentia, quod ipsum salubritati regionis (line 2)ut purius caelum, ut aer liquidior accedit.  Ibi animo, ibi corpore maxime valeo. Nam studiis (line 3)animum, venatu corpus exerceo.” (line 4)</p><p>In line 4 of the passage, what declension is venatu?</p>",
+        "answer": "Fourth",
+        "options": [
+          "First",
+          "Second",
+		  "Third"	  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>Select the correct translation of the sentence.</p><p>Virtus ipsa artificis illius ab opere bono suo confirmata erit.</p>",
+        "answer": "The virtue itself of that craftsman will have been made firm by his own good work.",
+        "options": [
+          "The virtue itself of the craftsman himself will have been made firm by his own good work. ",
+          "Her virtue of the craftsman himself will have been made firm by this good work.",
+		  "The virtuous craftsman himself has been established by his own work."
+		  ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>In the Roman villa, where would you grow your garden? </p>",
+        "answer": "Peristylum",
+        "options": [
+          "Compluvium",
+		  "Impluvium",
+          "Atrium"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>In a Latin sentence, if you wanted to ask “who, what,” which pronoun group would you use? </p>",
+        "answer": "Quis, Quid",
+        "options": [
+          "Qui, Quae, Quod",
+		  "Hic, Haec, Hoc",
+          "Ipse, Ipsa, Ipsum"		  
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

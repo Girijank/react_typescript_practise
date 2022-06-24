@@ -1,0 +1,513 @@
+body.initial {
+    opacity: 0;
+}
+
+body {
+    opacity: 1;
+    transition: all 500ms ease 1s;
+}
+body #main *:focus {
+    box-shadow: 0 0 6px 6px rgba(45, 175, 246, 0.7) !important;
+    outline: none !important;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+#breadcrumbs {
+    display: none;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+nav {
+    display: none;
+}
+.wrapper {
+    padding-top: 0;
+    height: 100vh;
+}
+
+.col-xs-1 {
+    padding: 0;
+}
+.alphabet .search,
+.fingerspelling .search {
+    width: 20%;
+    margin-left: auto;
+    top: 20px;
+    right: 10px;
+    transition: width 300ms ease;
+}
+.alphabet .search.focused,
+.fingerspelling .search.focused {
+    width: 50%;
+}
+#pageContent .fingerspelling .btn {
+    margin-right: 2px;
+    margin-left: 0;
+}
+.btn:not(.active) {
+    box-shadow: 1px 1px 5px #8d8d8d !important;
+}
+
+.btn.active {
+    box-shadow: inset 1px 1px 5px #b3b3b3cc !important;
+    color: var(--main-color);
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.fingerspelling .row {
+    margin-top: 30px;
+    max-height: calc(100% - 74px);
+    overflow: auto;
+}
+.fingerspelling .letter {
+    position: absolute;
+    bottom: 5px;
+    width: 20px;
+    display: block;
+    right: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+#footer_copyright {
+    padding: 5px;
+    margin: 0;
+}
+#galleryTabs .fingerspelling .row > div {
+    padding: 0;
+    margin-bottom: 15px;
+    border: 1px solid #DDD;
+}
+#galleryTabs .fingerspelling .row .separator {
+    border: none;
+}
+
+#galleryTabs .centered {
+    display: none;
+    height: calc(100% - 40px);
+    align-items: center;
+    justify-content: center;
+}
+#galleryTabs .panel .header img {
+    width: 20px;
+    position: absolute;
+    margin-left: 5px;
+    transform: rotate(90deg);
+    opacity: .4;
+}
+#galleryTabs .panel .header a:hover {
+    background-color: transparent;
+}
+#galleryTabs .panel .header a:focus{
+    box-shadow: none !important;
+}
+#galleryTabs .panel .header a.sorting img {
+    display: inline-block;
+    transform: rotate(90deg);
+    opacity: 1;
+}
+#galleryTabs .panel .header a.sorting:not(.descending) img {
+    transform: rotate(270deg);
+}
+#galleryTabs .alphabet.noItems .centered,
+#galleryTabs .fingerspelling.noItems .centered {
+    display: flex;
+}
+#galleryTabs .fingerspelling.noItems .row {
+    display: none;
+}
+#galleryTabs .playlists .list {
+
+}
+
+.noItems .row.header, .noItems .list-contents {
+    display: none;
+}
+.fluid #galleryTabs .panel {
+    height: calc(100vh - 230px);
+}
+#galleryTabs .panel {
+    width: 100%;
+    border-image-width: 20px 0 0 0;
+    border-bottom: 0;
+    height: calc(100vh - 290px);
+}
+#galleryTabs .panel .header {
+    padding: 30px 10px 0;
+    text-transform: uppercase;
+}
+#galleryTabs .panel .list-contents {
+    height: calc(100vh - 390px);
+    overflow-x: hidden;
+}
+#galleryTabs .panel.playlists .list-contents {
+    height: calc(100vh - 365px);
+}
+#galleryTabs .panel.playlists .list {
+    height: 100%;
+    padding-top: 20px;
+}
+#galleryTabs li a {
+    display: block;
+    padding: 5px 10px;
+    transition: var(--fade);
+}
+#galleryTabs li a:hover {
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+}
+#galleryTabs div.panel-block {
+    margin-top: 0;
+}
+#main.fluid {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+#galleryTabs .tabs-block {
+    position: relative;
+    top: 10px;
+}
+#main .list-container {
+    max-width: 1000px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    transition: 200ms linear all;
+}
+#main.fluid .list-container {
+    max-width: 100vw;
+}
+#main.fluid #content {
+    margin: 0;
+    padding: 0;
+}
+#main.fluid #galleryTabs .panel .list-contents {
+    height: calc(100vh - 325px);
+}
+#main.fluid #galleryTabs .panel.playlists .list-contents {
+    height: calc(100vh - 305px);
+}
+#galleryMenuButton {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    width: 40px;
+    padding: 3px;
+    border-radius: 50%;
+    opacity: .6;
+    transition: 180ms ease all;
+}
+#galleryMenuButton:hover {
+    opacity: 1;
+}
+#main,
+#content {
+    transition: 200ms linear all;
+}
+#content {
+    padding-bottom: 0;
+}
+#menuOpen {
+    user-select: none;
+    -moz-user-select: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+}
+#menuOpen .btn {
+    margin: 0;
+    box-shadow: none;
+}
+#menuOpen li {
+    padding: 3px 5px;
+}
+#menuOpen li:hover {
+    background-color: var(--main-color);
+    color: white;
+    text-decoration: none;
+}
+#menuOpen .menuContainer {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    font-size: 14px;
+    transition: 200ms linear all;
+}
+#main.fluid #menuOpen .menuContainer {
+    top: 70px;
+    right: 50px;
+}
+#menuOpen.open .menuContainer {
+    width: 300px;
+    max-height: 1000px;
+}
+
+#openFWToolsMenu {
+    display: none;
+}
+.external_container #pageContent {
+    margin: 0;
+    padding: 30px 50px 10px;
+}
+.panel > .panel-heading {
+    padding: 10px 15px;
+}
+.panel > .panel-heading h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+#pageContent .panel li:nth-child(odd) {
+    /*background-color: rgba(170, 135, 170, 0.11);*/
+    background-color: rgba(79, 122, 187, 0.11);
+}
+
+#preview,
+#menuOpen,
+#welcome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    overflow: hidden;
+}
+#pageContent .close {
+    opacity: 0.5;
+    padding: 3px 7px 6px 9px;
+    border-radius: 50%;
+}
+#pageContent .close:hover {
+    opacity: 0.7;
+}
+#menuOpen.open,
+#preview.open,
+#welcome.open {
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    transition: 200ms ease opacity;
+}
+
+#pageContent .fullscreen .panel .panel-heading {
+    font-family: var(--font-header);
+}
+#pageContent .fullscreen .panel .panel-heading h2 > span {
+    display: inline-block;
+    max-width: calc(100% - 50px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#pageContent .panel .panel-body{
+    height: calc(100% - 100px);
+    padding: 0;
+}
+#pageContent .open .panel .panel-body {
+    height: calc(100% - 56px);
+    padding: 15px;
+}
+#pageContent .open.playlist .panel .panel-body {
+    /*height: calc(100% - 236px);*/
+}
+#pageContent .fullscreen.open .panel {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    background: white;
+    position: relative;
+}
+#pageContent .panel-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.panel.fingerspelling {
+    min-height: calc(100vh - 290px);
+}
+.panel.fingerspelling .vertical-center {
+    height: calc(100vh - 360px);
+    text-align: center;
+    justify-content: center;
+}
+#preview .panel {
+    max-width: 1020px;
+    max-height: 680px;
+}
+
+#preview iframe {
+    width: 100%;
+    height: 100%;
+}
+.search {
+    position: relative;
+}
+.search input {
+    padding: 1px 40px;
+    font-size: 19px;
+}
+.search .searchIcon {
+    position: absolute;
+    padding: 17px 17px;
+    font-size: 15px;
+    color: #909090;
+    background-image: url('intmedia/search.svg');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(100);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+#input:focus ~ .searchIcon {
+    opacity: 1;
+    filter: grayscale(0);
+}
+.search .glyphicon-remove-circle {
+    position: absolute;
+    right: 0;
+    padding: 9px 12px;
+    font-size: 15px;
+    text-decoration: none !important;
+    display: block;
+    opacity: .8;
+    transition: var(--fade);
+    filter: grayscale(40%);
+}
+.search .clear:hover {
+    background: transparent;
+    color: var(--main-color);
+    filter: grayscale(0);
+    opacity: 1;
+}
+#value {
+    margin-bottom: 10px;
+}
+#welcome.open .panel {
+    max-width: 700px;
+    max-height: 400px;
+    padding: 10px 15px;
+}
+#welcome.open .panel .panel-body {
+    padding-top: 45px;
+}
+.external_container {
+    overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+    .tabs a.tab {
+        width: 150px;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    #main #galleryTabs .panel {
+        height: calc(100vh - 220px);
+    }
+    #galleryTabs .panel .list-contents {
+        height: calc(100vh - 308px);
+    }
+    #menuOpen .fluid {
+        display: none;
+    }
+    #main {
+        max-width: none;
+    }
+    #main #content {
+        margin: 0;
+        padding: 0;
+    }
+    #main #menuOpen .menuContainer {
+        top: 70px;
+        right: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    #welcome.open .panel {
+        max-width: 90%;
+    }
+
+    #preview .panel {
+        max-width: 600px;
+        max-height: 445px;
+    }
+    #pageContent .fullscreen .panel .panel-heading h2 {
+        font-size: 26px
+    }
+}
+
+@media (max-width: 768px) {
+    .fingerspelling .letter {
+        right: 0;
+        bottom: 0;
+        font-size: 24px;
+    }
+    #main #galleryTabs .panel {
+        padding: 0;
+        height: calc(100vh - 190px);
+    }
+    .fingerspelling .row {
+        padding: 0 10px;
+        margin-top: 10px;
+    }
+    .tabs div.panel-block {
+        border: 3px var(--main-color) solid;
+        border-top: none;
+    }
+    #main #galleryTabs .panel .list-contents {
+        height: calc(100vh - 278px);
+    }
+    .external_container #pageContent {
+        padding: 10px;
+    }
+    #galleryMenuButton {
+        top: 5px;
+        right: 10px;
+    }
+    .alphabet .search,
+    .fingerspelling .search {
+        width: 100%;
+        margin-left: 0;
+    }
+    .galleryTitle {
+        font-size: 23px;
+    }
+    .fingerspelling .row {
+        max-height: calc(100% - 54px);
+    }
+}
+
+@media (max-width: 420px) {
+    #main #galleryTabs .panel {
+        padding: 0;
+        height: calc(100vh - 230px);
+    }
+    #main #galleryTabs .panel .list-contents {
+        height: calc(100vh - 318px);
+    }
+    .fingerspelling .letter {
+        font-size: 18px;
+    }
+}

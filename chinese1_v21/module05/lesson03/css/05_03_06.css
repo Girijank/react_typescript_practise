@@ -1,0 +1,22 @@
+/* fev */
+.ui_flip, .ui_flipped {
+padding:0;
+} 
+
+.ui_flip, .ui_flipped img{
+    margin-top:-11px;
+}
+
+.fev_flipcardActivity span.copyright{
+    padding-left: 2px;
+    margin: 0;
+    margin-top: -17px;
+    position: relative;
+    background: rgba(255 255 255 / 75%);
+    padding-top: 2px;
+    border-radius: 0;
+}
+
+#custom_textVersion  span.copyright{
+    width: 35.5%;
+}

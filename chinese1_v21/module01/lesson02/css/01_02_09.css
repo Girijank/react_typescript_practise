@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    figure.effect-sarah div {
+        padding: 0.5em 0;
+    }
+    figure.effect-sarah ol {
+        font-size: 13px;
+    }
+    figure.effect-sarah p {
+        padding: 0.5em 0;
+        font-size: 13px;
+    }
+}

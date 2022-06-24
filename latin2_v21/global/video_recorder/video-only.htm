@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Video Recorder</title>
+  <script>
+    isexternal = true
+    var pg_jslibs = ['js/adapter-latest.js', 'js/detect-browser.js'] // JS Libs for this Page
+    var pg_csslibs = ['css/main.css'] // CSS Libs
+  </script>
+
+  <script src="../js/settings.js" id="settingJS"></script>
+</head>
+
+<body class="initial hidden">
+
+<div class="wrapper">
+  <main id="main" role="main">
+    <div id="content">
+      <div id="pageContent">
+        <h2 class="recorderTitle mb-40">American Sign Language &mdash; Webcam Give It a Try tool</h2>
+
+        <p class="mb-30">The Give It a Try tool allows you to practice by temporarily recording videos in the browser using your computer's webcam. Videos are not stored on any servers, so if you want to keep one or two, make sure you save them.</p>
+
+        <div class="row no-data inactive" id="supportedBrowser">
+          <div class="col-xs-6" id="videos">
+            <video id="gum" playsinline autoplay muted></video>
+            <video id="recorded" playsinline></video>
+
+            <div class="controls">
+              <button class="btn btn-primary" id="start">
+                <span class="glyphicon glyphicon-facetime-video"></span>
+              </button>
+
+              <button class="btn btn-primary" id="record" disabled>Start Recording</button>
+              <button class="btn btn-primary" id="download" disabled>Save</button>
+            </div>
+          </div>
+
+          <div class="col-xs-6" id="recorderInstructions">
+            <h3>Instructions</h3>
+
+            <ul>
+              <li>Select the camera icon, or press "a," to preview the camera.</li>
+              <li>Select "Start Recording," or press "r," to start recording immediately.</li>
+            </ul>
+
+            <ul>
+              <li>Select "Start Recording," or press "r," to start recording.</li>
+            </ul>
+
+            <ul>
+              <li>Select "Stop Recording," or press "r," to stop recording.</li>
+            </ul>
+
+            <ul>
+              <li>Use video controls such as "play" to view the video.</li>
+              <li>Select "Save," or press "s," to download the video.</li>
+              <li>Select "Start Recording," or press "r," to start recording again.</li>
+              <li>Press "a" to preview the camera.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="notSupported">
+          <strong>Note: </strong>This browser does not support recording video. If available, use the built-in camera app on your device instead.
+        </div>
+
+        <div>
+          <span id="errorMsg"></span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="footer_inner">
+      <div id="footer_copyright"></div>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>

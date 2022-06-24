@@ -1,0 +1,50 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>aedifico, aedificare, aedificavi, aedificatus, -a, -um</em>",
+            "right": "edifice"
+          },
+          {
+            "left": "<em>bibo, bibere, bibi, bibitus, -a, -um</em>",
+            "right": "imbibe"
+          },
+          {
+            "left": "<em>cogo, cogere, coegi, coactus, -a, -um</em>",
+            "right": "cogent"
+          },
+          {
+            "left": "<em>consentio, consentire, consensi, consensus, -a, -um</em>",
+            "right": "consent"
+          },
+          {
+            "left": "<em>rapio, rapere, rapui, raptus, -a, -um</em>",
+            "right": "rapture"
+          },
+          {
+            "left": "<em>rideo, ridere, risi, risus, -a, -um</em>",
+            "right": "ridiculous"
+          },
+          {
+            "left": "<em>appropinquo, appropinquare, appropinquavi, appropinquatus, -a, -um</em>",
+            "right": "propinquity, propinquitous"
+          },
+          {
+            "left": "<em>rumpo, rumpere, rupi, ruptus, -a, -um</em>",
+            "right": "rupture"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/02_01_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/02_01_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “c”",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You’ve done an awesome job identifying  those “c” sounds. Totally wonderful!",
+                "incorrect": "Looks like you haven’t caught them all… Let’s try again.",
+                "text": "<span lang='zh-Hans'>从</span> <em>cóng</em> (from)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_01_02/media/from.mp3",
+                    "textVersion": "<span lang='zh-Hans'>从</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ai”",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "You’ve got an ear! Nice job identifying  the “ai” sounds. Well done!",
+                "incorrect": "Oops… got to get them all! Try again.",
+                "text": "<span lang='zh-Hans'>害羞</span> <em>hàixiū</em> (shy)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_01_02/media/shy.mp3",
+                    "textVersion": "<span lang='zh-Hans'>害羞</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Nice job identifying  the “ai” sounds. Well done!",
+                "incorrect": "Oops… got to get them all! Try again.",
+                "text": "<span lang='zh-Hans'>太太</span> <em>tàitai</em> (Mrs.)",
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_01_02/media/mrs.mp3",
+                    "textVersion": "<span lang='zh-Hans'>太太</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Initial “c” and Final “ai”",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "You’ve done well identifying the “c” and “ai” sounds, which is an outstanding job!",
+                "incorrect": "Oops…you might have missed one or two. Try again to identify all four.",
+                "text": "<span lang='zh-Hans'>白菜</span> <em>báicài</em> (cabbage)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_01_02/media/cabbage.mp3",
+                    "textVersion": "<span lang='zh-Hans'>白菜</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done well identifying the “c” and “ai” sounds, which is an outstanding job!",
+                "incorrect": "Looks like you haven’t caught them all… Let’s try again.",
+                "text": "<span lang='zh-Hans'>蔬菜</span> <em>shūcài</em> (vegetable)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/02_01_02/media/vegetable.mp3",
+                    "textVersion": "<span lang='zh-Hans'>蔬菜</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/05_03_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/05_03_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word; then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “d”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve successfully identified the “d” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>到达</span> dàodá (to arrive) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/to_arrive.mp3",
+                    "textVersion": "<span lang='zh-Hans'>到达</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “d” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>点</span> diǎn (o'clock) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/o_clock.mp3",
+                    "textVersion": "<span lang='zh-Hans'>点</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “d” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>剪刀</span> jiǎndāo (scissors) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/scissors.mp3",
+                    "textVersion": "<span lang='zh-Hans'>剪刀</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “d” sound. Terrific job!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>蛋糕</span> dàngāo (cake) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/cake.mp3",
+                    "textVersion": "<span lang='zh-Hans'>蛋糕</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ia” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “ia” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>夏天</span> xiàtiān (summer) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/summer.mp3",
+                    "textVersion": "<span lang='zh-Hans'>夏天</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “ia” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>价钱</span> jiàqián (price) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/price.mp3",
+                    "textVersion": "<span lang='zh-Hans'>价钱</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “ia” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>家</span> jiā (family; home) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/family_home.mp3",
+                    "textVersion": "<span lang='zh-Hans'>家</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “ia” final!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>国家</span> guójiā (country) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/country.mp3",
+                    "textVersion": "<span lang='zh-Hans'>国家</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }             
+            ]
+          },
+          {
+            "title": "Final “iang” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Very nicely done! Fantastic job identifying the “iang” sound!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>香港</span> xiānggǎng (Hong Kong) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/hong_kong.mp3",
+                    "textVersion": "<span lang='zh-Hans'>香港</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Very nicely done! Fantastic job identifying the “iang” sound!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>漂亮</span> piàoliàng (pretty) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/pretty.mp3",
+                    "textVersion": "<span lang='zh-Hans'>漂亮</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Very nicely done! Fantastic job identifying the “iang” sound!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>善良</span> shànliáng (nice/kind) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/nice_kind.mp3",
+                    "textVersion": "<span lang='zh-Hans'>善良</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Very nicely done! Fantastic job identifying the “iang” sound!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>两</span> liǎng (two) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_03_02/media/two.mp3",
+                    "textVersion": "<span lang='zh-Hans'>两</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

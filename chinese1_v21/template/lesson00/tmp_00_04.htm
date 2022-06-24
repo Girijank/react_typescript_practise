@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>TMP: Page 4</title>
+    <script type="text/javascript">
+        var pg_csslibs = []; // CSS Libs for this Page
+        var pg_jslibs = []; // JS Libs for this Page
+    </script>
+    <script src="../../global/js/settings.js" id="settingJS" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="pageContent">
+    <!-- CONTENT GOES HERE -->
+    <h1>Interactive Elements</h1>
+    <hr />
+    <h2>Popup Elements</h2>
+    <p>Lorem ipsum dolor sit <span class="tooltip" data-tip="<strong>Content</strong> for tooltip" data-position="top">amet</span>
+        morbo dig adel. </p>
+    <p>
+        <a class="popover" data-position="left auto" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-title="PopOver Title" data-trigger="click">Popover
+            on left</a></p>
+    <p><a href="pop/basic_popup.htm" class="modal-pop" data-mwidth="10%" data-mheight="400">Show Modal Window</a></p>
+    <hr />
+    <h2>Content Reveals</h2>
+    <div class="panel panel-default">
+        <div class="panel-heading" data-toggle="collapse" data-target="#collapseOne" tabindex="0">
+            <h3 class="panel-title">Collapsible Group Item #1</h3>
+        </div>
+        <div id="collapseOne" class="collapse">
+            <div class="panel-body">
+                <h3>Content Title</h3>
+                <p>Webtwo ipsum dolor sit amet, eskobo...</p>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+        simple collapsible
+    </button>
+    <div id="demo" class="collapse">Nihil anim keffiyeh helvetica...</div>
+    <hr />
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default" tabindex="0">
+            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo">
+                <h4 class="panel-title">Collapsible Group Item #1</h4>
+            </div>
+            <div id="collapseTwo" class="collapse">
+                <div class="panel-body">
+                    <h3>Content Title</h3>
+                    <p>Webtwo ipsum dolor sit amet, eskobo...</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" tabindex="0">
+            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree">
+                <h4 class="panel-title">Collapsible Group Item #2</h4>
+            </div>
+            <div id="collapseThree" class="collapse">
+                <div class="panel-body">
+                    <h3>Content Title</h3>
+                    <p>Napster sococo omgpop yammer...</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" tabindex="0">
+            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour">
+                <h4 class="panel-title">Collapsible Group Item #3</h4>
+            </div>
+            <div id="collapseFour" class="collapse in">
+                <div class="panel-body">
+                    <h3>Content Title</h3>
+                    <p>Kaboodle dogster wesabe zillow oooj...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <h2>Tabs</h2>
+    <div class="tabs">
+        <a class="tab" title="header title inside content area" >Tab Title</a>
+        <div class="panel">
+            <h3>#1</h3>...
+        </div>
+        <a class="tab" title="header title inside content area">Tab Title 2</a>
+        <div class="panel">
+            <h3>#2</h3>...
+        </div>
+        <a class="tab" title="header title inside content area">Tab Title 3</a>
+        <div class="panel">
+            <h3>#3</h3>...
+        </div>
+    </div>
+    <div class="tabs" data-position="left">
+        <a class="tab" title="header title inside content area" >Tab Title</a>
+        <div class="panel">
+            <h3>#1</h3>...
+        </div>
+        <a class="tab" title="header title inside content area">Tab Title 2</a>
+        <div class="panel">
+            <h3>#2</h3>...
+        </div>
+        <a class="tab" title="header title inside content area">Tab Title 3</a>
+        <div class="panel">
+            <h3>#3</h3>...
+        </div>
+    </div>
+    <ul class="nav nav-tabs">
+        <li><a href="#home" data-toggle="tab">Home</a></li>
+        <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+        <li><a href="#messages" data-toggle="tab">Messages</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade" id="home">
+            <p>Woopra sclipo...</p>
+        </div>
+        <div class="tab-pane fade in active" id="profile">
+            <p>Zoho gooru mobly...</p>
+
+        </div>
+        <div class="tab-pane fade" id="messages">
+            <p>Convore wakoopa zoodles... </p>
+
+        </div>
+    </div>
+    <hr/>
+    <h2>Text Version Div</h2>
+    <div class="htmltext_version" data-src="textversion/textversion.htm">
+        <div> Interactive content div here.</div>
+    </div>
+
+    <!-- END CONTENT -->
+</div>
+</body>
+</html>

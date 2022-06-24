@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>iustus, -a, -um</em>",
+            "right": "just"
+          },
+          {
+            "left": "<em>medius, media, medium</em>",
+            "right": "median, medium"
+          },
+          {
+            "left": "<em>dulcis, dulce</em>",
+            "right": "dulcimer, dulcets"
+          },
+          {
+            "left": "<em>castigo, castigare, castigavi, castigatus, -a, -um</em>",
+            "right": "castigate, castigation"
+          },
+          {
+            "left": "<em>constituto, constituere, constitui, constitutus, -a, -um</em>",
+            "right": "constitute, reconstitute"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

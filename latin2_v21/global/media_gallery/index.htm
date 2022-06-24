@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Media Gallery</title>
+  <script>
+    isexternal = true
+    var pg_jslibs = ['gallery.js'] // JS Libs for this Page
+    var pg_csslibs = ['../css/theme.css', 'gallery.css'] // CSS Libs
+  </script>
+
+  <script src="../js/settings.js" id="settingJS"></script>
+</head>
+
+<body class="hidden initial">
+
+<div class="wrapper">
+  <main id="main" role="main">
+    <div id="content">
+      <div id="pageContent">
+        <h2 class="galleryTitle mb-40">American Sign Language &mdash; Media Gallery</h2>
+
+        <a href="javascript:void(0);" id="galleryMenuButton" title="Menu icon. Select to open menu">
+          <img src="../images/home/menu_icon.svg" alt="">
+        </a>
+
+        <!--<h4 id="value" class="mb-10"></h4>-->
+        <div id="galleryTabs" class="position-relative">
+          <div class="tabs my-0">
+            <a class="tab" title="Select to view Videos tab">Videos</a>
+            <div class="panel alphabet p-0">
+              <div class="list">
+                <div class="search">
+                  <span class="searchIcon"></span>
+
+                  <input type="text" placeholder="enter some letters or words" class="form-control form-control-lg" id="alphabetFilter">
+
+                  <a href="javascript:void(0)"
+                     title="clear filter value"
+                     class="clearAlphabetFilter glyphicon glyphicon-remove-circle clear"></a>
+                </div>
+
+                <div class="row header">
+                  <a class="col-md-9 col-xs-10"
+                     id="sortByTitle"
+                     href="javascript:void(0)"
+                     title="Select to sort by word or phrase">Word / Phrase <img class="skipimg" src="../images/nav.svg" alt="sorting by word / phrase"></a>
+
+                  <a class="col-md-3 col-xs-2 text-center"
+                     href="javascript:void(0)"
+                     id="sortByModule"
+                     title="Select to sort by module">Module <img class="skipimg" src="../images/nav.svg" alt="sorting by module"></a>
+                </div>
+
+                <div class="list-contents"></div>
+              </div>
+
+              <div class="centered">
+                <div class="alert alert-warning text-center">
+                  <div>Search term: <em class="searchTerm"></em></div>
+                  <div>No results found.</div>
+                  <button type="button" class="btn btn-default clearAlphabetFilter">Clear filter</button>
+                </div>
+              </div>
+            </div>
+            <!--End tab #1-->
+
+            <a class="tab" title="Select to view Spell It Out tab">Spell It Out</a>
+            <div class="panel fingerspelling p-0">
+              <div class="mt-0">
+                <div class="search">
+                  <span class="searchIcon"></span>
+
+                  <input type="text" placeholder="enter some letters or words" class="form-control form-control-lg" id="input">
+
+                  <a href="javascript:void(0)"
+                     title="clear value"
+                     id="clearInput"
+                     class="glyphicon glyphicon-remove-circle clear"></a>
+                </div>
+              </div>
+
+              <div class="row"></div>
+
+              <div class="centered">
+                <div class="alert alert-info">Type something in the filter box to preview the signs.</div>
+              </div>
+            </div>
+
+            <a class="tab" title="Select to view Playlists tab">Playlists</a>
+            <div class="panel playlists p-0">
+              <div class="list">
+                <div class="row header">
+                  <span class="col-md-12">Playlist Name</span>
+                </div>
+
+                <div class="list-contents"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="welcome" class="fullscreen" title="start using the media gallery">
+          <div class="panel" title="">
+            <div class="panel-heading">
+              <h2>
+                <span class="title">Welcome</span>
+                <a href="javascript:void(0)" class="close">&cross;</a>
+              </h2>
+            </div>
+
+            <div class="panel-body">
+              <p>Welcome to the <strong>Media Gallery</strong>. Select the "Videos" tab to display a list of all
+                the videos in this course. You can sort them alphabetically by selecting "Word/Phrase" or by module by selecting "Module," in either ascending or descending order.
+                Use the filter box for a shorter list.</p>
+
+              <p>Select the "Spell It Out" tab to see a word or phrase spelled out using the ASL alphabet letters. Don't
+                forget to type it in!</p>
+
+              <div class="panel-footer">
+                <label class="checkboxLabel">
+                  <input type="checkbox" id="showNextTime">
+                  <span>Show next time</span>
+                </label>
+
+                <button class="btn btn-primary pull-right closeWelcome">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="preview" class="fullscreen" title="select to close video">
+          <div class="panel" title="">
+            <div class="panel-heading">
+              <h2 class="mb-0">
+                <span class="title"></span>
+                <a href="javascript:void(0)" class="close">&cross;</a>
+              </h2>
+            </div>
+
+            <div class="panel-body"></div>
+          </div>
+        </div>
+
+        <div id="menuOpen" class="fullscreen" title="select to close menu">
+          <div class="list-container">
+            <ul class="list-unstyled menuContainer" title="">
+              <li class="fluid" title="Select to toggle fluid layout">Full width <span class="status"></span></li>
+              <li class="reset hidden" title="Select this option to clear your stored settings">Reset preferences</li>
+              <li class="help" title="Show welcome dialog again">Help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="footer_inner">
+      <div id="footer_copyright"></div>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>

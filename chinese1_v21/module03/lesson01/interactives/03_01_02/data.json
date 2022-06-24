@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/03_01_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/03_01_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “g”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve done a fantastic job identifying the “g” sound. Totally awesome job!",
+                "incorrect": "Oops, you will need to catch the right sound...Let’s try again.",
+                "text": "<span lang='zh-Hans'>高</span> gāo (tall)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/tall.mp3",
+                    "textVersion": "<span lang='zh-Hans'>高</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a fantastic job identifying the “g” sound. Totally awesome job!",
+                "incorrect": "Oops, you will need to catch the right sound...Let’s try again.",
+                "text": "<span lang='zh-Hans'>苹果</span> píngguǒ (apple)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/apple.mp3",
+                    "textVersion": "<span lang='zh-Hans'>苹果</span> píngguǒ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a fantastic job identifying the “g” sound. Totally awesome job!",
+                "incorrect": "Oops, you will need to catch the right sound...Let’s try again.",
+                "text": "<span lang='zh-Hans'>哥哥</span> gēge (older brother)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/older_brother.mp3",
+                    "textVersion": "<span lang='zh-Hans'>哥哥</span> gēge ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a fantastic job identifying the “g” sound. Totally awesome job!",
+                "incorrect": "Oops, you will need to catch the right sound...Let’s try again.",
+                "text": "<span lang='zh-Hans'>狗</span> gǒu (dog)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/dog.mp3",
+                    "textVersion": "<span lang='zh-Hans'>狗</span> gǒu ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ei” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve got an ear! Terrific job identifying the “ei” sound. You are on a roll!",
+                "incorrect": "Oops...looks like you have missed the sound. Let's try again.",
+                "text": "<span lang='zh-Hans'>黑色</span> hēisè (black)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/black.mp3",
+                    "textVersion": "<span lang='zh-Hans'>黑色</span> hēisè ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Terrific job identifying the “ei” sound. You are on a roll!",
+                "incorrect": "Oops...looks like you have missed the sound. Let's try again.",
+                "text": "<span lang='zh-Hans'>咖啡</span> kāfēi  (coffee)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/coffee.mp3",
+                    "textVersion": "<span lang='zh-Hans'>咖啡</span kāfēi >",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Terrific job identifying the “ei” sound. You are on a roll!",
+                "incorrect": "Oops...looks like you have missed the sound. Let's try again.",
+                "text": "<span lang='zh-Hans'>杯</span> bēi (cup)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/cup.mp3",
+                    "textVersion": "<span lang='zh-Hans'>杯</span> bēi ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Terrific job identifying the “ei” sound. You are on a roll!",
+                "incorrect": "Oops...looks like you have missed the sound. Let's try again.",
+                "text": "<span lang='zh-Hans'>妹妹</span> mèimei (younger sister)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/03_01_02/media/younger_sister.mp3",
+                    "textVersion": "<span lang='zh-Hans'>妹妹</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

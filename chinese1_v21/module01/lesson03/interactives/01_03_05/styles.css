@@ -1,0 +1,42 @@
+/*.resizetest .viewport {
+	min-height: 350px;	
+}*/
+
+/*.resizetest .modal-dialog {
+	width: 400px;
+}
+
+.resizetest .progress {
+	width: 600px;
+}*/
+
+.ng_il .viewport img {
+	max-width: none;
+	float: left;
+	padding:10px;
+	display: none;
+}
+
+.ng_il .il_viewport h2.il_int_title{
+	display: none;
+}
+
+.ng_il .il_question {
+	/* margin: 0; */
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+
+.ng_il .interactiveElements .btn {
+    text-align: center !important;
+}
+
+.ng_il span.fortv,
+.ng_il .il_textversion audio {
+    display: none;
+}
+
+.ng_il .il_textversion .fortv {
+    display: block;
+}

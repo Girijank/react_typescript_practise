@@ -1,0 +1,67 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_06_08/styles.css"],
+    "intMedia": "interactives/05_06_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config", 
+        "directions": "Read the phrases in Chinese; then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>打扫</span> dǎsǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>reasonably</strong> completed with the verb presented?</p>",
+        "answer": "<span lang='zh-Hans'>我要_____我的卧室。</span> Wǒ yào _____ wǒde wòshì.",
+        "options": ["<span lang='zh-Hans'>他哥哥喜欢_____面条。</span> Tā gēge xǐhuān _____miàntiáo. ", 
+          "<span lang='zh-Hans'>我妹妹的床上_____枕头。</span> Wǒ mèimei de chuáng shàng _____ zhěntóu.", 
+          "<span lang='zh-Hans'>她每天晚上_____书。</span> Tā měitiān wǎnshàng _____ shū."],
+        "correct": "Job excellently done! <span lang='zh-Hans'>打扫</span> dǎsǎo means “to clean.” Of the choices, the sentence that can best be completed with this word is <span lang='zh-Hans'>我要打扫我的卧室。</span> Wǒ yào dǎsǎo wǒde wòshì. I am going to clean my bedroom. It’s less reasonable to “clean” noodles or books. ",
+        "incorrect": "Not quite. Review the word again to understand its meaning. Then, place it in the sentences in the choices one-by-one to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>洗衣机</span> xǐyījī"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following appliances is usually used as a pair with the item indicated by the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>烘干机</span> hōnggānjī</span><audio class='audio' controls src='interactives/05_06_08/intmedia/dryer.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>电扇</span> diànshàn</span><audio class='audio' controls src='interactives/05_06_08/intmedia/fan.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>电视</span> diànshì</span><audio class='audio' controls src='interactives/05_06_08/intmedia/television.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>炉子</span> lúzi</span><audio class='audio' controls src='interactives/05_06_08/intmedia/stove.mp3'></audio>"
+        ],
+        "correct": "Fantastic job! <span lang='zh-Hans'>洗衣机</span> xǐyījī means “washing machine.” The appliance that is usually used with it is <span lang='zh-Hans'>烘干机</span> hōnggānjī (dryer). ",
+        "incorrect": "Not quite. Review the word several more times to identify its meaning, then listen to the audios in the choices to identify their meanings as well. Then, consider which one you most often see with the written word presented.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>洗衣液</span> xǐyīyè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Based on the meaning of the word presented as well as a previously taught word, <span lang='zh-Hans'>洗碗液</span> xǐwǎnyè, what do you think the character <span lang='zh-Hans'>液</span> yè means?</p>",
+        "answer": "liquid",
+        "options": ["metal", 
+          "wood", 
+          "fire"],
+        "correct": "Terrific job! <span lang='zh-Hans'>洗衣液</span> xǐyīyè means “laundry detergent” and <span lang='zh-Hans'>洗碗液</span> xǐwǎnyè means “dish soap,” both of which are usually in liquid state. The character <span lang='zh-Hans'>液</span> yè means “liquid.”",
+        "incorrect": "So close! Study the word presented and the reference word, <span lang='zh-Hans'>洗碗液</span> xǐwǎnyè, to identify their meanings, and then consider what state of matter they are usually in.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

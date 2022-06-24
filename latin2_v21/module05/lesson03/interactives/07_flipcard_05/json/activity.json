@@ -1,0 +1,25 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Select the image of each emperor to learn more about what they did during their reign.",
+    "cards": [
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<div><img src='images/flip_0902_otho.jpg' alt='Portrait bust Otho, Marcus Salviusi.' class='frame' data-caption='Emperor Otho portrait bust' data-width=' ' data-copyright='©akg-images / ImageQuest 2021' /></div><span class='caption'>Emperor Otho portrait bust</span><span class='copyright'>©akg-images / ImageQuest 2021</span>",
+          "textversion": "<p>Image: Otho </p>"
+        },
+        "back": {
+          "content": "<h5>I am known for:</h5><ul><li>ruling Rome for three months total (January–April, 69 CE)</li><li>battling against Vitellius’ legions in Lower Germania</li></ul>",
+          "textversion": "<h5>I am known for:</h5><ul><li>ruling Rome for three months total (January–April, 69 CE)</li><li>battling against Vitellius’ legions in Lower Germania</li></ul>"
+        }
+      }
+      
+    ]
+  }
+}

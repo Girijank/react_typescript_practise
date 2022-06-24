@@ -1,0 +1,127 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": [],
+    "intMedia": "interactives/05_04_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Choose the best English translation for each Latin participle. Select submit to check your answer."
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>laudaturus</p>",
+        "answer": "<em>going to praise</em> ",
+        "options": [
+          "<em>praised</em> ",
+        "<em>praising</em>"
+        ],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>monita</p>",
+        "answer": "<em>warned</em>  ",
+        "options": ["<em>going to warn</em> ", "<em>warning  </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+   [
+      {
+        "type": "mc",
+        "quiz": "<p>ductus</p>",
+        "answer": "<em>led</em>  ",
+        "options": ["<em>going to lead  </em>   ",  "<em>leading  </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>sensurum</p>",
+        "answer": "<em>about to feel</em>  ",
+        "options": ["<em>felt </em>   ",  "<em>going to feel </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>facturus</p>",
+        "answer": "<em>going to do/going to make</em> ",
+        "options": ["<em>done/made</em>   ",  "<em>doing/making</em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>monens</p>",
+        "answer": "<em>warning</em>  ",
+        "options": ["<em>warned     </em>   ",  "<em>going to warn   </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>amans</p>",
+        "answer": "<em>loving</em>  ",
+        "options": ["<em>going to love </em>   ",  "<em>loved </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>visus</p>",
+        "answer": "<em>seen</em>  ",
+        "options": ["<em>seeing     </em>   ",  "<em>going to see   </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>dictura</p>",
+        "answer": "<em>going to say</em>  ",
+        "options": ["<em>said     </em>   ",  "<em>saying  </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "mc",
+        "quiz": "<p>acturus</p>",
+        "answer": "<em>going to do</em>  ",
+        "options": ["<em>done     </em>   ",  "<em>doing  </em>"],
+        "correct": "Well done!",
+        "incorrect": "Very close. Try again.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

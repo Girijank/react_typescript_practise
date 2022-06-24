@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/05_01_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/05_01_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “f”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve done a great job identifying the “f” sound. You’ve got an ear!",
+                "incorrect": "Oops, you just missed it. Let’s try again.",
+                "text": "<span lang='zh-Hans'>分</span> fēn (minute)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/minute.mp3",
+                    "textVersion": "<span lang='zh-Hans'>分</span> fēn",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying the “f” sound. You’ve got an ear!",
+                "incorrect": "Oops, you just missed it. Let’s try again.",
+                "text": "<span lang='zh-Hans'>米饭</span> mǐfàn (rice)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/rice.mp3",
+                    "textVersion": "<span lang='zh-Hans'>米饭</span> mǐfàn",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying the “f” sound. You’ve got an ear!",
+                "incorrect": "Oops, you just missed it. Let’s try again.",
+                "text": "<span lang='zh-Hans'>房子</span> fángzi (house) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/house.mp3",
+                    "textVersion": "<span lang='zh-Hans'>房子</span> fángzi ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done a great job identifying the “f” sound. You’ve got an ear!",
+                "incorrect": "Oops, you just missed it. Let’s try again.",
+                "text": "<span lang='zh-Hans'>饭厅</span> fàntīng (dining room)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/dining_room.mp3",
+                    "textVersion": "<span lang='zh-Hans'>饭厅</span> fàntīng ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ian” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "What an outstanding job! You’ve identified the “ian” sound. How wonderful!",
+                "incorrect": "Not quite…got to get it right. Let’s try again.",
+                "text": "<span lang='zh-Hans'>面条</span> miàntiáo (noodles)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/noodles.mp3",
+                    "textVersion": "<span lang='zh-Hans'>面条</span> miàntiáo ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "What an outstanding job! You’ve identified the “ian” sound. How wonderful!",
+                "incorrect": "Not quite…got to get it right. Let’s try again.",
+                "text": "<span lang='zh-Hans'>价钱</span> jiàqián (price)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/price.mp3",
+                    "textVersion": "<span lang='zh-Hans'>价钱</span jiàqián >",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "What an outstanding job! You’ve identified the “ian” sound. How wonderful!",
+                "incorrect": "Not quite…got to get it right. Let’s try again.",
+                "text": "<span lang='zh-Hans'>右边</span> yòubiān (right side)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/right_side.mp3",
+                    "textVersion": "<span lang='zh-Hans'>右边</span> yòubiān ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "What an outstanding job! You’ve identified the “ian” sound. How wonderful!",
+                "incorrect": "Not quite…got to get it right. Let’s try again.",
+                "text": "<span lang='zh-Hans'>点</span> diǎn (o'clock)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_01_02/media/o_clock.mp3",
+                    "textVersion": "<span lang='zh-Hans'>点</span> diǎn",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

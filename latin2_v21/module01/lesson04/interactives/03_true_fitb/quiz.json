@@ -1,0 +1,79 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "You all are being sent"
+        ],
+        "quiz": "Fill in the blank: Translate the Latin verb into English. <br><br> For example: <br> Latin: mittimini <br><br> Fill in the blank English answer: You all are being sent <br> Try it: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite &ndash;try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "I am being sent"
+        ],
+        "quiz": "Fill in the blank: Translate the Latin verb into English. <br><br> Sentence Verb to Use: mitto, mittere, misi, missus,a,um = to send <br><br> Latin: mittor <br><br> Fill in the blank English answer: *_ .",
+        "correct": "That's right! Gratulationes on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin and five it another shot. Bona fortuna!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "They were being led"
+        ],
+        "quiz": "Fill in the blank: Translate the Latin verb into English. <br><br> Sentence Verb to Use: duco, ducere, duxi, ductus,a,um = to lead <br><br> Latin: ducebantur <br><br> Fill in the blank English answer: *_ .",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "Iterum tempta! Try again! Learning Latin takes effort &ndash;give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "We will be driven"
+        ],
+        "quiz": "Fill in the blank: Translate the Latin verb into English. <br><br> Sentence Verb to Use: pello, pellere, pepuli, pulsus,a,um = to drive <br><br> Latin: pellemur <br><br> Fill in the blank English answer: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite &ndash;try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "You were being worshipped"
+        ],
+        "quiz": "Fill in the blank: Translate the Latin verb into English. <br><br> Sentence Verb to Use: colo, colere, colui, cultus, -a, -um = to till, worship <br><br> Latin: colebaris <br><br> Fill in the blank English answer: *_ .",
+        "correct": "That's right! Gratulationes on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin and five it another shot. Bona fortuna!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

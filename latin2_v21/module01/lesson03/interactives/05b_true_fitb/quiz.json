@@ -1,0 +1,25 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Fill in the blank by conjugating the verb in the Imperfect Tense Passive Voice."
+      },
+      {
+        "type": "truefitb",
+        "answers": ["portabamur","portabaris","portabamini","portabatur","portabantur"],
+        "quiz": "<p>Fill in the blank by conjugating the verb in the Imperfect Tense Passive Voice. We have started you off with the 1<sup>st</sup> person singular form. </p><p>Verb: <em>porto, portare, portavi, portatus, -a, -um</em> = to carry</p></br><table class='table table-bordered table-condensed table-striped'><tr><td><strong>Person</strong></td><td><strong>Singular</strong></td><td><strong>Plural</strong></td></tr><tr><td>1<sup>st</sup> Person</td><td><em>portabar</em></td><td>*_</td></tr><tr><td>2<sup>nd</sup> Person</td><td>*_</td><td>*_</td></tr><tr><td>3<sup>rd</sup> Person</td><td>*_</td><td>*_</td></tr></table>",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

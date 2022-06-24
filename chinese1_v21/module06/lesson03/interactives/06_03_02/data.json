@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_03_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/06_03_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, and then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “b”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve successfully identified the “b” sound. Terrific job!",
+                "incorrect": "Almost there…try to catch it by your ears.",
+                "text": "<span lang='zh-Hans'>上边</span> shàngbiān (on top)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/on_top.mp3",
+                    "textVersion": "<span lang='zh-Hans'>上边</span> shàngbiān",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “b” sound. Terrific job!",
+                "incorrect": "Almost there…try to catch it by your ears.",
+                "text": "<span lang='zh-Hans'>背包</span> bèibāo (backpack) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/backpack.mp3",
+                    "textVersion": "<span lang='zh-Hans'>背包</span> bèibāo",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “b” sound. Terrific job!",
+                "incorrect": "Almost there…try to catch it by your ears.",
+                "text": "<span lang='zh-Hans'>后边</span> hòubiān (behind) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/behind.mp3",
+                    "textVersion": "<span lang='zh-Hans'>后边</span> hòubiān ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve successfully identified the “b” sound. Terrific job!",
+                "incorrect": "Almost there…try to catch it by your ears.",
+                "text": "<span lang='zh-Hans'>冰箱</span> bīngxiāng (fridge) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/fridge.mp3",
+                    "textVersion": "<span lang='zh-Hans'>冰箱</span> bīngxiāng ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “u” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite…looks like you missed it. Listen again and try to catch the right sound.",
+                "text": "<span lang='zh-Hans'>衣服</span> yīfu (clothes) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/clothes.mp3",
+                    "textVersion": "<span lang='zh-Hans'>衣服</span> yīfu ",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite…looks like you missed it. Listen again and try to catch the right sound.",
+                "text": "<span lang='zh-Hans'>结束</span> jiéshù (to end)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/to_end.mp3",
+                    "textVersion": "<span lang='zh-Hans'>结束</span> jiéshù",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite…looks like you missed it. Listen again and try to catch the right sound.",
+                "text": "<span lang='zh-Hans'>猪肉</span> zhūròu (pork) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/pork.mp3",
+                    "textVersion": "<span lang='zh-Hans'>猪肉</span> zhūròu",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve got an ear! Fantastic job identifying the “u” final!",
+                "incorrect": "Not quite…looks like you missed it. Listen again and try to catch the right sound.",
+                "text": "<span lang='zh-Hans'>宠物</span> chǒngwù (pet) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/06_03_02/media/pet.mp3",
+                    "textVersion": "<span lang='zh-Hans'>宠物</span> chǒngwù",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

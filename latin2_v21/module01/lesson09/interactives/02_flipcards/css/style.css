@@ -1,0 +1,13 @@
+#flipcard01 .fev-wrapper {
+  width: 670px;
+  height: 300px;
+}
+
+.fev-card {
+  width: 140px;
+  height: 120px;
+}
+
+#card_05, #card_06, #card_07 {
+  width: 194px;
+}

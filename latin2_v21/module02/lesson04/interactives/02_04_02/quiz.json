@@ -1,0 +1,88 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": true,
+    "resultsPage": false,
+    "interactiveTitle": "",
+    "css": ["interactives/02_04_02/matching.css"],
+    "_customTextversionAll": "../../global/templates/quizmo/matching_text.htm"
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Match each vocabulary word with its correct image.",
+        "customView": "../../global/templates/quizmo/matching.htm"
+      },
+
+      {
+        "type": "matching",
+        "quiz": "",
+        "chances": "99999",
+        "options": [
+          {
+            "left": "corpus, corporis n.",
+            "right": "<span class='forTV'>Image of a woman with a stout body standing with hands on her waist</span><img src='images/m2_l4_p1_img1.png' alt='A woman with a stout body standing with hands on her waist' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A woman with a stout body standing with hands on her waist"
+          },
+          {
+            "left": "flumen, flumenis n.",
+            "right": "<span class='forTV'>Image of a river flowing between stones and trees on its sides</span><img src='images/m2_l4_p1_img2.png' alt='A river flowing between stones and trees on its sides' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A river flowing between stones and trees on its sides"
+          },
+          {
+            "left": "imperium, imperii n.",
+            "right": "<span class='forTV'>Image of a person of giant proportion in suit and tie with hands on waist towering over four others looking at him in attention</span><img src='images/m2_l4_p1_img3.png' alt='A person of giant proportion in suit and tie with hands on waist towering over four others looking at him in attention' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A person of giant proportion in suit and tie with hands on waist towering over four others looking at him in attention"
+          },
+          {
+            "left": "mensis, mensis m.",
+            "right": "<span class='forTV'>Image of a woman holding a calendar page that shows one month</span><img src='images/m2_l4_p1_img4.png' alt='A woman holding a calendar page that shows one month' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "A woman holding a calendar page that shows one month"
+          },
+          {
+            "left": "ordo, ordinis n.",
+            "right": "<span class='forTV'>Image of six customer satisfaction ratings arranged in a row</span><img src='images/m2_l4_p1_img5.png' alt='Six customer satisfaction ratings arranged in a row' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of Six customer satisfaction ratings arranged in a row"
+          },
+          {
+            "left": "pila, pilae f.",
+            "right": "<span class='forTV'>Image of a scene from a ball championship where several men are running after a ball</span><img src='images/m2_l4_p1_img6.png' alt='A scene from a ball championship where several men are running after a ball' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A scene from a ball championship where several men are running after a ball"
+          },
+          {
+            "left": "regia, regiae f.",
+            "right": "<span class='forTV'>Image of the Buckingham Palace in London</span><img src='images/m2_l4_p1_img7.png' alt='The Buckingham Palace in London' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of The Buckingham Palace in London"
+          },
+          {
+            "left": "tempus, temporis n.",
+            "right": "<span class='forTV'>Image of sand running through the bulbs of an hourglass</span><img src='images/m2_l4_p1_img8.png' alt='Sand running through the bulbs of an hourglass' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of Sand running through the bulbs of an hourglass"
+          },
+          {
+            "left": "vulnus, vulneris n.",
+            "right": "<span class='forTV'>Image of an elderly being treated for a wound</span><img src='images/m2_l4_p1_img9.png' alt='An elderly being treated for a wound' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of An elderly being treated for a wound"
+          },
+          {
+            "left": "sus, suis m./f.",
+            "right": "<span class='forTV'>Image of a newborn pig</span><img src='images/m2_l4_p1_img10.png' alt='A newborn pig' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A newborn pig"
+          }
+          
+        ]
+      }
+    ]
+  ]
+}

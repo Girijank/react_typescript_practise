@@ -1,0 +1,36 @@
+.testing {
+    font-size: 22px;
+    color: #a52700;
+}
+
+p.tagestitle {
+    font-size: 22px;
+    background: #e1e2e2;
+    padding: 5px;
+    box-shadow: 1px 1px 2px #948a87;
+    border-radius: 5px;
+    display: table;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+div.tages {
+    padding: 20px;
+    border: 1px solid #deb7ba;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #948a87;
+    margin: 30px 0;
+
+}
+
+.note {
+    font-size: 30px;
+    background: #dcfff3;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #948a87;
+    color: #082d4a;
+}

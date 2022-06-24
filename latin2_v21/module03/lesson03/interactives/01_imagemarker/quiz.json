@@ -1,0 +1,76 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "customTextversionAll": "interactives/01_imagemarker/imgmarker_text.htm",
+    "css": [
+      "interactives/01_imagemarker/quizmo.css"
+    ]
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Select each marker to view description of the location."
+      },
+      {
+        "type": "imageMarker",
+        "background": "interactives/01_imagemarker/intmedia/downtown_rome.png",
+        "width": "700",
+        "height": "550",
+        "items": [
+          {
+            "top": "455",
+            "left": "610",
+            "custom_marker": "interactives/01_imagemarker/intmedia/marker_flvs.png",
+            "custom_marker_width": "30px",
+            "custom_marker_height": "44px",
+            "title": "",
+            "textversion": "<div class='row clearfix mb-4'><div class='col-xs-6'><img src='interactives/01_imagemarker/intmedia/circus_maximus.jpg' class='showcase' alt='Image of Chariot race at the Circus Maximus' data-caption='Circus Maximus'/><span class='copyright'>©Private Collection / ImageQuest 2021</span></div><div class='col-xs-6'><h4>Step 1</h4><hr><h2>Circus Maximus</h2></div></div>"
+          },
+          {
+            "top": "430",
+            "left": "260",
+            "custom_marker": "interactives/01_imagemarker/intmedia/marker_flvs.png",
+            "custom_marker_width": "30px",
+            "custom_marker_height": "44px",
+            "title": "",
+            "textversion": "<div class='row clearfix mb-4'><div class='col-xs-6'><img src='interactives/01_imagemarker/intmedia/forum_boarium.jpg' class='showcase' alt='Arch of Janus: Excavation of the Forum Boarium, 1833 (etching with brown wash)' data-caption='Arch of Janus at the Forum Boarium'/><span class='copyright'>©Private Collection / ImageQuest 2021</span></div><div class='col-xs-6'><h4>Step 2</h4><hr><h2>Forum Boarium</h2></div></div>"
+          },
+          {
+            "top": "320",
+            "left": "295",
+            "custom_marker": "interactives/01_imagemarker/intmedia/marker_flvs.png",
+            "custom_marker_width": "30px",
+            "custom_marker_height": "44px",
+            "title": "",
+            "textversion": "<div class='row clearfix mb-4'><div class='col-xs-6'><img src='interactives/01_imagemarker/intmedia/cloaca_maxima.jpg' class='showcase' alt='View of the Cloaca Maxima, 1833 (etching with brown wash)' data-caption='Cloaca Maxima'/><span class='copyright'>©Private Collection / ImageQuest 2021</span></div><div class='col-xs-6'><h4>Step 3</h4><hr><h2>Cloaca Maxima</h2></div></div>"
+          },
+          {
+            "top": "40",
+            "left": "121",
+            "custom_marker": "interactives/01_imagemarker/intmedia/marker_flvs.png",
+            "custom_marker_width": "30px",
+            "custom_marker_height": "44px",
+            "title": "",
+            "textversion": "<div class='row clearfix mb-4'><div class='col-xs-6'><img src='interactives/01_imagemarker/intmedia/trajan_forum.jpg' class='showcase' alt='Image of Trajan’s Forum' data-caption='Trajan’s Forum'/><span class='copyright'>©Marco Cristofori / Robert Harding World Imagery / ImageQuest 2021</span></div><div class='col-xs-6'><h4>Step 4</h4><hr><h2>Trajan’s Forum</h2></div></div>"
+          },
+          {
+            "top": "14",
+            "left": "594",
+            "custom_marker": "interactives/01_imagemarker/intmedia/marker_flvs.png",
+            "custom_marker_width": "30px",
+            "custom_marker_height": "44px",
+            "title": "",
+            "textversion": "<div class='row clearfix mb-4'><div class='col-xs-6'><img src='interactives/01_imagemarker/intmedia/flavian_amphitheatre.jpg' class='showcase' alt='Image of the Colisseum' data-caption='Flavian Amphitheatre'/><span class='copyright'>©Mondadori Electa / ImageQuest 2021</span></div><div class='col-xs-6'><h4>Step 5</h4><hr><h2>Flavian Amphitheatre</h2></div></div>"
+            
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "<span class='copyright'>Public Domain</span>"
+      }
+    ]
+  ]
+}

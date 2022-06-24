@@ -1,0 +1,95 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_02_04/styles.css"],
+    "intMedia": "interactives/06_02_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "customView": "interactives/06_02_04/customview_imgbtn.htm",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "pastime.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>休闲活动</span> xiūxián huódòng (pastime)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can <strong>least</strong> likely be described by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Image of a teenage girl who is studying online, looking stressed</span><img src='interactives/06_02_04/intmedia/img_1.jpg' alt='Image of a teenage girl who is studying online, looking stressed' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of someone who is reading at the park</span><img src='interactives/06_02_04/intmedia/img_2.jpg' alt='Image of someone who is reading at the park' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a family who is hiking in the wildness</span><img src='interactives/06_02_04/intmedia/img_3.jpg' alt='Image of a family who is hiking in the wildness' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of someone who is listening to music, looking relaxed</span><img src='interactives/06_02_04/intmedia/img_4.jpg' alt='Image of someone who is listening to music, looking relaxed' class='border center-block'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>休闲活动</span> xiūxián huódòng means “pastime,” and it includes activities that you can do for enjoyment or relaxation. ",
+        "incorrect": "Very close. Listen to the audio several times to understand its meaning, and then view the images in the choices to see which one you would least likely use the word to describe.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_buy.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>买</span> mǎi (to buy) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我妈妈需要_____洗衣液。</span>Wǒ māma xūyào _____ xǐyīyè.",
+        "options": [
+          "<span lang='zh-Hans'>他哥哥每天_____健身房。</span>Tā gēge měitiān ____  jiànshēnfáng.",
+          "<span lang='zh-Hans'>她妹妹不喜欢_____家务。</span>Tā mèimei bùxǐhuān____ jiāwù.",
+          "<span lang='zh-Hans'>我爷爷每星期二_____垃圾。</span>Wǒ yéye měi xīngqīèr _____lājī."
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>买</span> mǎi means “to buy,” and of the sentences in the choices, the one item that can likely be bought would be <span lang='zh-Hans'>洗衣液</span> xǐyīyè (laundry detergent). ",   
+        "incorrect": "Not quite…Listen to the word again to understand its meaning. Then, try it for all four sentences in the choices to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_go_shopping.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>购物</span> gòuwù (to go shopping)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following places is <strong>least</strong> likely visited during the activity indicated by the word in the audio?</p>", 
+        "answer": "A dentist’s office",      
+        "options":[
+          "A bakery",
+          "A shoe store",
+          "A candy shop"
+        ],
+        "correct": "Fabulous job! <span lang='zh-Hans'>购物</span> gòuwù means “to go shopping.” There are many places to visit when you go shopping, but maybe not your dentist’s office.",
+        "incorrect": "Oops…Listen to the word again to identify the activity it refers to. Then, consider which place in the choices you will least likely visit during that activity.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "why.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>为什么</span> wèishénme (why) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following phrases can be appropriately used as a direct response to the phrase said in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>因为</span> yīnwèi (because) </span><audio class='audio' controls src='interactives/06_02_04/intmedia/because.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>可以</span> kěyǐ (may/can )</span><audio class='audio' controls src='interactives/06_02_04/intmedia/may_can.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>或是</span> huòshì (or) </span><audio class='audio' controls src='interactives/06_02_04/intmedia/or_2.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>请给我</span> qǐnggěiwǒ (please give me) </span><audio class='audio' controls src='interactives/06_02_04/intmedia/please_give_me.mp3' ></audio>"
+        ],
+        "correct": "Amazingly done! <span lang='zh-Hans'>为什么</span> wèishénme means “why,” and to directly respond to it, you will start with <span lang='zh-Hans'>因为</span> yīnwèi (because).",        
+        "incorrect": "Very close! Listen to the audio several times to identify the meaning of the phrase, and then consider which phrase in the choices you will use if you are to directly respond to it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_03_03/styles.css"],
+    "intMedia": "interactives/04_03_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then, complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "every.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>每</span> měi (every)  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>cannot</strong> be placed after the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>今天</span> jīntiān",
+        "options": ["<span lang='zh-Hans'>天</span> tiān", 
+                    "<span lang='zh-Hans'>年</span> nián", 
+                    "<span lang='zh-Hans'>星期</span> xīngqī"],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>每</span> měi means &quot;every,&quot; and it can be followed by a time unit to form phrases such as &quot;every day,&quot; &quot;every year,&quot; or &quot;every week.&quot; But you may not want to say &quot;<span lang='zh-Hans'>今天</span> jīntiān (every today).&quot;",
+        "incorrect": "Not quite. Listen to the audio again, think about its meaning, and then combine each word in the choices with it to see which one doesn’t fit.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "day_casual.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>天</span> tiān (day(casual)/sky) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words does <strong>not</strong> contain the same initial as the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>字典</span>",
+        "options": [
+          "<span lang='zh-Hans'>太太</span>",
+          "<span lang='zh-Hans'>面条</span>",
+          "<span lang='zh-Hans'>体育课</span>"
+        ],
+        "correct": "Outstanding work! <span lang='zh-Hans'>天</span> tiān (day) has the initial 't,' which is not in the word <span lang='zh-Hans'>字典</span> zìdiǎn (dictionary).",
+        "incorrect": "So close! Listen again and identify the initial of the single-character word in the audio; then sound out the pinyin of the words in the choices to see which one does <strong>not</strong> have the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "config",       
+        "customView": "interactives/04_03_03/customview_imgbtn.htm"
+      },
+      {
+        "type": "localAudio",
+        "src": "week.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>星期</span> xīngqī (week) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following hand gestures for numbers is <strong>best</strong> associated with the word in the audio?</p>",
+        "answer": "<span class='fortv'>Hand gesture for number seven</span><img src='interactives/04_03_03/images/img1_flvs.png' alt='Hand gesture for number seven'>",
+        "options": [
+          "<span class='fortv'>Hand gesture for number six</span><img src='interactives/04_03_03/images/img2_flvs.png' alt='Hand gesture for number six'>",
+          "<span class='fortv'>Hand gesture for number eight </span><img src='interactives/04_03_03/images/img3_flvs.png' alt='Hand gesture for number eight'>",
+          "<span class='fortv'>Hand gesture for number nine</span><img src='interactives/04_03_03/images/img4_flvs.png' alt='Hand gesture for number nine'>"
+        ],
+        "correct": "Totally awesome! <span lang='zh-Hans'>星期</span>xīngqī means &quot;week.&quot; It can be best associated with the number seven(seven days in a week), which is represented by the secondhand gesture in the choices.",
+        "incorrect": "Not quite…think about the meaning of the word in the audio, and then consider what number can be best used to describe it and which hand gesture in the choices represent it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_start.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>开始</span> kāishǐ (to start)  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is a antonym (word with opposite meaning) of the word in the audio?</p>",
+        "answer": "<span class='fortv'> Audio for <span lang='zh-Hans'>结束</span> jiéshù  </span><audio class='audio' controls src='interactives/04_03_03/intmedia/to_end.mp3' ></audio>",
+        "options": ["<span class='fortv'> Audio for <span lang='zh-Hans'>需要</span> xūyào</span><audio class='audio' controls src='interactives/04_03_03/intmedia/to_need.mp3' ></audio>", 
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>需要</span> qìngzhù</span><audio class='audio' controls src='interactives/04_03_03/intmedia/celebrate.mp3' ></audio>", 
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>喜欢</span> xǐhuān </span><audio class='audio' controls src='interactives/04_03_03/intmedia/to_like.mp3' ></audio>"],
+        "correct": "How wonderful! <span lang='zh-Hans'>开始</span> kāishǐ means &quot;to start,&quot; and its antonym (word with opposite meaning) should be <span lang='zh-Hans'>结束</span> jiéshù (to end).",
+        "incorrect": "Oops…listen to the audio several more times to identify the word’s meaning, and then consider which word of the choices has the opposite meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

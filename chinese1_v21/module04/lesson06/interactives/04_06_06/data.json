@@ -1,0 +1,87 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_06_06/styles.css"],
+    "intMedia": "interactives/04_06_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read the phrases in Chinese and answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>裤子</span> kùzi"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words falls in the same category as the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>衬衫</span>",
+        "options": ["<span lang='zh-Hans'>蛋糕</span>", 
+          "<span lang='zh-Hans'>勺子</span>", 
+          "<span lang='zh-Hans'>字典</span>"],
+        "correct": "You got it! <span lang='zh-Hans'>裤子</span> kùzi means “pants.” Of the four choices, <span lang='zh-Hans'>衬衫</span> chènshān (shirt) falls in the same category as they are both clothing items.",
+        "incorrect": "Very close. Think about the meaning of this word and the function of the item. Then consider which item in the choices share a similar function.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [{
+      "type": "config",       
+      "customView": "interactives/04_06_06/customview_imgbtn.htm"
+    },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>裙子</span> qúnzi"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following images best represents the word?</p>",
+        "answer": "<span class='fortv'>Image of someone wearing a skirt</span><img src='interactives/04_06_06/images/img1.jpg' class='border center-block' alt='Image of someone wearing a skirt'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of someone wearing jeans </span><img src='interactives/04_06_06/images/img2.jpg' class='border center-block' alt='Image of someone wearing jeans'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a young girl wearing a coat</span><img src='interactives/04_06_06/images/img3.jpg' class='border center-block' alt='Image of a young girl wearing a coat'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a senior man wearing hat and shirt </span><img src='interactives/04_06_06/images/img4.jpg' class='border center-block' alt='Image of a senior man wearing hat and shirt'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Fabulous job! The word <span lang='zh-Hans'>裙子</span> qúnzi means “skirt,” which is what the person in the third image is wearing. Don’t forget to review the items in the other images in Chinese!",
+        "incorrect": "Not quite. Think about the meaning of the word presented, and then consider in which image you see the item described by the word.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>夹克</span> jiākè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words does <strong>not</strong> belong in the same category as the word in audio?</p>",
+        "answer": "<span class='fortv'> Audio for <span lang='zh-Hans'>文件夹</span> wénjiànjiā </span><audio class='audio' controls src='interactives/04_06_06/intmedia/folder_binder.mp3' ></audio>",
+        "options": ["<span class='fortv'> Audio for <span lang='zh-Hans'>马克笔</span> mǎkèbǐ </span><audio class='audio' controls src='interactives/04_06_06/intmedia/marker.mp3' ></audio>", 
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>三明治</span> sānmíngzhì </span><audio class='audio' controls src='interactives/04_06_06/intmedia/sandwich.mp3' ></audio>", 
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>巧克力</span> qiǎokèlì  </span><audio class='audio' controls src='interactives/04_06_06/intmedia/chocolate.mp3' ></audio>"],
+        "correct": "Outstanding job! The word <span lang='zh-Hans'>夹克</span> jiākè (jacket) is a borrowed word, which has similar pronunciation in both Chinese and English. Of the choices, the word that does not have the same characteristic is <span lang='zh-Hans'>文件夹</span> wénjiànjiā (folder/binder).",
+        "incorrect": "Oops. First identify the meaning of the word presented, and then sound it out to identify its characteristic. Then listen to the words in the choices to see which one does <strong>not</strong> share the same characteristic.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>球鞋</span> qiúxié"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>你上体育课需要____。</span>Nǐshàng tǐyùkè xūyào____.",
+        "options": ["<span lang='zh-Hans'>她上艺术课需要____。</span>Tāshàng yìshùkè xūyào____.", 
+          "<span lang='zh-Hans'>我上数学课需要____。</span>Wǒshàng shùxuékè xūyào____.", 
+          "<span lang='zh-Hans'>他上社会研究课需要____。</span>Tāshàng shèhuìyánjiū kè xūyào____."],
+        "correct": "How excellent! The word <span lang='zh-Hans'>球鞋</span> qiúxié means “sneakers.” Of the sentences describing the supplies needed for different classes, this word fits best with <span lang='zh-Hans'>你上体育课需要球鞋。</span> Nǐ shàng tǐyùkè xūyào qiúxié. (For PE class you need___.)",
+        "incorrect": "Almost there.Think about the meaning of the word presented. Then consider in which sentence it can best fit, considering the needs of supplies in different classes.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

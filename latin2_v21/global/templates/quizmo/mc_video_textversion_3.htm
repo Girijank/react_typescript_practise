@@ -1,0 +1,17 @@
+<p>{{ vm.data.config.modal.directions }}</p>
+
+<div ng-repeat="slide in vm.data.body">
+	<hr>
+	<p><strong>Slide {{ $index + 1}}</strong></p>
+
+	<div ng-repeat="object in slide">
+		<div ng-if="object.type === 'image'">
+			<p><strong>Image: </strong> {{ object.alt }}</p>
+		</div>
+
+		<div ng-if="object.type === 'mc'">
+			<p><strong>Video of: </strong>{{ object.answer.text }}</p>
+			<p><strong>Correct answer is:</strong> {{ object.answer.text }}</p>
+		</div>
+	</div>
+</div>

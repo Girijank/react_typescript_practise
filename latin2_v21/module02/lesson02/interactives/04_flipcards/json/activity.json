@@ -1,0 +1,69 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Translate these sentences into English. Select the card to reveal the answer. <em>Bona Fortuna!</em>",
+    "instruction_textversion":"Translate these sentences into English. Check your answer. <em>Bona Fortuna!</em>",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Illi ad regnum redire poterant.</p>",
+          "textversion": "<p>Illi ad regnum redire poterant.</p>"
+        },
+        "back": {
+          "content": "<p>Those men were able to return to the kingdom.</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Those men were able to return to the kingdom.</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>Illa saxa nobis impendimentum sunt.</p>",
+          "textversion": "<p>Illa saxa nobis impendimentum sunt.</p>"
+        },
+        "back": {
+          "content": "<p>Those rocks are an impediment to us.</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>Those rocks are an impediment to us.</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>In hoc modo, tempestas in maria venit.</p>",
+          "textversion": "<p>In hoc modo, tempestas in maria venit.</p>"
+        },
+        "back": {
+          "content": "<p>In this manner, the storm came upon the seas.</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>In this manner, the storm came upon the seas.</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Patrimonium ex avo meo statim gustabatur.</p>",
+          "textversion": "<p>Patrimonium ex avo meo statim gustabatur.</p>"
+        },
+        "back": {
+          "content": "<p>The inheritance from my grandfather was enjoyed immediately.</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>The inheritance from my grandfather was enjoyed immediately.</p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Iudicium illis patriciis datum erit.</p>",
+          "textversion": "<p>Iudicium illis patriciis datum erit.</p>"
+        },
+        "back": {
+          "content": "<p>Judgment will have been given to those patricians.</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'>Judgment will have been given to those patricians.</p>"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+/*======================================
+CSS DOCUMENT FOR MEDIA QUERIES
+HAVE TO CALL IT IN SETTINGS FILE var course_csslibs = ['../global/css/media_queries.css'...
+======================================*/
+
+
+/*-------------------- Large Devices  -------------------------*/
+@media (min-width: 1200px) {
+
+}
+
+/*-------------------- Medium Devices, standard 1330px with educator left column  -------------------------*/
+@media (min-width: 992px){
+	
+}
+
+/*-------------------- Small Devices, standard 1024px with educator left column  -------------------------*/
+@media (min-width: 768px){
+
+}
+
+/*--------------------  X-Small Devices, phones, etc. -------------------------*/
+@media (max-width: 768px){
+	
+}
+

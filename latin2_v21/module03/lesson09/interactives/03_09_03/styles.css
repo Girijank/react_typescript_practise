@@ -1,0 +1,18 @@
+.ng_il .viewport img {
+    max-width: none;
+    float: left;
+    padding: 10px;
+    display: none;
+}
+
+.ng_il .il_viewport h2.il_int_title {
+    display: none;
+}
+
+.ng_il .interactiveElements .btn {
+    text-align: center !important;
+}
+
+.ng_il .il_textversion h4.ng-binding{
+    color: #fff !important
+}

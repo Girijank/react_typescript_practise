@@ -1,0 +1,190 @@
+
+.ng_il {
+    max-width: 800px !important;
+}
+.ng_il .viewport {
+      max-width: 800px !important;
+}
+.ng_il.matching0 .viewport {
+    padding-bottom: 50px;
+    min-height: 650px;
+}
+
+.ng_il.matching0 .viewport:not(.il_textversion) {
+    height: 520px;
+}
+
+.ng_il.matching0 .left, .ng_il.matching0 .right {
+    width: 100%;
+    display: inline-block;
+}
+
+.ng_il.matching0 .btn-group .tile {
+    width: 186px;
+    height: 119px;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0;
+}
+
+.ng_il.matching0 .btn-group .tile img {
+    max-height: 100%;
+}
+
+.ng_il.matching0 .il_correct_quiz li img {
+    max-height: 90px;
+    display: inline-block;
+}
+
+.ng_il.matching0 .btn-group .btn:nth-child(even) {
+    /*! margin-left: 5px; */
+}
+
+.ng_il.matching0 .viewport .tile button {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border-color: #BBB !important;
+    transition: var(--fade);
+}
+
+.ng_il.matching0 .il_correct_quiz li {
+    width: 240px;
+}
+
+.ng_il.matching0 .viewport .tile button:hover {
+    /* background-color: var(--main-hover) !important; */
+    background-color: #ffffff !important;
+    color: var(--main-color);
+}
+
+.ng_il.matching0 .viewport .tile button:focus {
+    box-shadow: inset 0 0 3px 2px #2DAFF6 !important;
+    outline: none;
+}
+
+.ng_il.matching0 .viewport .tile button.active {
+    background-color: #1c1d4d !important;
+    color: white;
+}
+
+.ng_il.matching0 .il_correct_quiz em {
+    margin: 0 10px;
+}
+
+.ng_il.matching0 .viewport .left .tile button {
+    margin-bottom: 0;
+}
+
+.ng_il.matching0 .viewport.il_viewport .options.right {
+    text-align: right;
+}
+
+.ng_il.matching0 .il_textversion .options.left {
+    margin: 5px 0 20px;
+}
+
+.ng_il.matching0 .il_textversion .options.left>div {
+    padding: 5px;
+    float: left;
+    width: 120px;
+    min-height: 60px;
+    margin-left: 11px;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.ng_il.matching0 .il_textversion .options.right>div {
+    padding: 5px;
+    margin-left: 11px;
+    /* float: left;
+    width: 120px;    
+    min-height: 105px; 
+    display: inline-block; 
+    border: 1px solid #ccc;*/
+    margin-bottom: 10px;   
+}
+
+.ng_il.matching0 .il_textversion .options.right {
+    margin: 5px 0 40px;
+}
+
+/* .ng_il.matching0 .il_textversion .options.right .vertical-center {
+    width: 120px;
+    height: 110px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+} */
+
+.ng_il.matching0 .il_textversion .results .left {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 0 10px;
+    height: 90px;
+    width: 145px;
+    margin-bottom: 20px;
+}
+
+.ng_il.matching0 .il_textversion .results .right {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 0 10px;
+    height: 90px;
+    width: 170px;
+    margin-bottom: 20px;   
+}
+
+.ng_il.matching0 .matching .flex {
+    background-image: url('intmedia/background.jpg');
+    height: 476px;
+    background-size: contain;
+    display: flex;
+}
+
+.ng_il.matching0 .matching .col-xs-6 {
+    padding: 0;
+    /*! float: none; */
+    width: 50%;
+}
+
+.ng_il .il_question, .ng_il .il_wb_remaining_words {
+    padding: 5px
+}
+
+.ng_il .il_textversion img {
+    margin-top: 0px;
+}
+
+.viewport .tile button .forTV {
+    display: none;
+}
+.ng_il.matching0 .il_textversion img {
+    display: none;
+}
+.text-center{
+    text-align: left;
+}
+
+
+@media (max-width: 640px) {
+    .ng_il.matching0 .il_textversion .results .left, .ng_il.matching0 .il_textversion .results .right {
+        width: 100px;
+        height: 100px
+    }
+}
+
+@media (max-width: 480px) {
+    .ng_il.matching0 .il_textversion .results .left, .ng_il.matching0 .il_textversion .results .right {
+        width: 80px;
+        height: 80px;
+    }
+}

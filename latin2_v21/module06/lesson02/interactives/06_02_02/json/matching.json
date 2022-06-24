@@ -1,0 +1,36 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding derivative, and you will become a vocab guru!",
+        "options": [
+          {
+            "left": "<em>munus, muneris n.</em>",
+            "right": "munificent, munificence"
+          },
+          
+          {
+            "left": "<em>vis, vis (pl. vires, virium) f.</em>",
+            "right": "vim"
+          },
+          {
+            "left": "<em>levis, leve</em>",
+            "right": "levitate, levity, alleviate"
+          },
+          {
+            "left": "<em>princeps, principis m.</em>",
+            "right": "prince, principal, principate"
+          }
+          
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

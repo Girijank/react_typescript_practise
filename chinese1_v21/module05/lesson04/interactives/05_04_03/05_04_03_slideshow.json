@@ -1,0 +1,43 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": "<span lang='zh-Hans'>生字</span> (New Characters)",
+    "theme": "standard",
+    "showInteractive": "Show Slideshow",
+    "css": ["interactives/05_04_03/css/styles.css"]
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr><th class='col_15'>Character</th><th class='col_15'>Pinyin</th><th class='col_70'>Stroke sequence</th></tr><tr><td><p class='text-center'><span lang='zh-Hans'>房 </span></p></td><td><p class='text-center pinyin'>fáng </p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_1_flvs.png' alt='Stroke sequence for “fáng”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>门 </span></p></td><td><p class='text-center pinyin'>mén</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_2_flvs.png' alt='Stroke sequence for “mén”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>阳 </span></p></td><td><p class='text-center pinyin'>yáng </p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_3_flvs.png' alt='Stroke sequence for “yáng”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>室 </span></p></td><td><p class='text-center pinyin'>shì</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_4_flvs.png' alt='Stroke sequence for “shì”' /></div></td></tr></table>"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr><th class='col_15'>Character</th><th class='col_15'>Pinyin</th><th class='col_70'>Stroke sequence</th></tr><tr><td><p class='text-center'><span lang='zh-Hans'>厨</span></p></td><td><p class='text-center pinyin'>chú</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_5_flvs.jpg' alt='Stroke sequence for “chú”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>边</span></p></td><td><p class='text-center pinyin'>biān</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_6_flvs.png' alt='Stroke sequence for “biān”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>窗 </span></p></td><td><p class='text-center pinyin'>chuāng</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_7_flvs.png' alt='Stroke sequence for “chuāng”' /></div></td></tr></table>"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr><th class='col_15'>Character</th><th class='col_15'>Pinyin</th><th class='col_70'>Stroke sequence</th></tr><tr><td><p class='text-center'><span lang='zh-Hans'>床 </span></p></td><td><p class='text-center pinyin'>chuáng</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_8_flvs.png' alt='Stroke sequence for “chuáng”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>柜 </span></p></td><td><p class='text-center pinyin'>guì </p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_9_flvs.png' alt='Stroke sequence for “guì”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>椅</span></p></td><td><p class='text-center pinyin'>yǐ</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_10_flvs.png' alt='Stroke sequence for “yǐ”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>桌</span></p></td><td><p class='text-center pinyin'>zhuō</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_11_flvs.png' alt='Stroke sequence for “zhuō”' /></div></td></tr></table>"
+      }
+    ],
+     [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr><th class='col_15'>Character</th><th class='col_15'>Pinyin</th><th class='col_70'>Stroke sequence</th></tr><tr><td><p class='text-center'><span lang='zh-Hans'>叠</span></p></td><td><p class='text-center pinyin'>dié </p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_12_flvs.png' alt='Stroke sequence for “dié”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>沙</span></p></td><td><p class='text-center pinyin'>shā</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_13_flvs.png' alt='Stroke sequence for “shā”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>视</span></p></td><td><p class='text-center pinyin'>shì</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_14_flvs.png' alt='Stroke sequence for “shì”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>擦</span></p></td><td><p class='text-center pinyin'>cā</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_15_flvs.png' alt='Stroke sequence for “cā”' /></div></td></tr></table>"
+      }
+    ],
+    [
+     {
+       "type": "text",
+       "content": "<table class='fevng_table'><tr><th class='col_15'>Character</th><th class='col_15'>Pinyin</th><th class='col_70'>Stroke sequence</th></tr><tr><td><p class='text-center'><span lang='zh-Hans'>架</span></p></td><td><p class='text-center pinyin'>jià </p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_16_flvs.png' alt='Stroke sequence for “jià”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>炉</span></p></td><td><p class='text-center pinyin'>lú</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_17_flvs.png' alt='Stroke sequence for “lú”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>箱</span></p></td><td><p class='text-center pinyin'>xiāng </p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_18_flvs.png' alt='Stroke sequence for “xiāng”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>洗</span></p></td><td><p class='text-center pinyin'>xǐ</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_19_flvs.png' alt='Stroke sequence for “xǐ”' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>槽</span></p></td><td><p class='text-center pinyin'>cáo</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_04_03/intmedia/slide_20_flvs.png' alt='Stroke sequence for “cáo”' /></div></td></tr></table>"
+     }
+   ]
+  ]
+}

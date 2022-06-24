@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_01_05/styles.css"],
+    "intMedia": "interactives/05_01_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>卧室</span> wòshì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has a character that’s the same as one of the characters in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>浴室</span> yùshì </span><audio class='audio' controls src='interactives/05_01_05/intmedia/bathroom.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>老师</span> lǎoshī </span><audio class='audio' controls src='interactives/05_01_05/intmedia/teacher.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>或是</span> huòshì</span><audio class='audio' controls src='interactives/05_01_05/intmedia/or_2.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>准时</span> zhǔnshí</span><audio class='audio' controls src='interactives/05_01_05/intmedia/on_time.mp3' ></audio>"
+        ],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>卧室</span> wòshì has the character <span lang='zh-Hans'>室</span>, which is the same as the second character in <span lang='zh-Hans'>浴室</span> yùshì (bathroom).",
+        "incorrect": "Not quite. Listen to the audios in the choices, and then recall the characters that are in them. Compare them to the characters in the word presented and find a match. Careful—don’t be confused by the characters with similar pronunciations in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>客厅</span> kètīng "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>When are you  <strong>most</strong> likely in the location indicated by the word presented?</p>",
+        "answer": "When I watch TV",
+        "options": [
+          "When I have dinner",
+          "When I take a shower",
+          "When I go to bed"
+        ],
+        "correct": "Very nice job! <span lang='zh-Hans'>客厅</span> kètīng means “living room.” Of the activities in the choices, watching TV most likely takes place in a living room. Imagine taking a shower there.",
+        "incorrect": "Oops...Think about the meaning of the word presented, and then review the activities in the choices. Consider where you will reasonably do each of these activities.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>厨房</span> chúfáng"    
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same initial as the second character in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>制服</span> zhìfú  </span><audio class='audio' controls src='interactives/05_01_05/intmedia/uniform.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>卧室</span> wòshì </span><audio class='audio' controls src='interactives/05_01_05/intmedia/bedroom.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>公寓</span> gōngyù </span><audio class='audio' controls src='interactives/05_01_05/intmedia/apartment.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>字典</span> zìdiǎn </span><audio class='audio' controls src='interactives/05_01_05/intmedia/dictionary.mp3' ></audio>"
+        ],
+        "correct": "You got it! The second character <span lang='zh-Hans'>房</span> fáng in the word <span lang='zh-Hans'>厨房</span> chúfáng has the initial “f.” So does the second character <span lang='zh-Hans'>服</span> fú in the word <span lang='zh-Hans'>制服</span> zhìfú (uniform).",
+        "incorrect": "Not quite. First identify the initial of the second character in the word presented; then listen to the words in the choices to see which one has the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>饭厅</span> fàntīng "     
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can <strong>best</strong> be completed with the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>我在_____吃晚餐。</span>Wǒ zài _____chī wǎncān.",
+        "options": [
+          "<span lang='zh-Hans'>她在_____写作业。</span>Tā zài _____xiě zuòyè.",
+          "<span lang='zh-Hans'>我们在_____上体育课。</span>Wǒmen zài _____shàng tǐyùkè.",
+          "<span lang='zh-Hans'>他们在_____唱歌。</span>Tāmen zài _____chànggē."
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>饭厅</span> fàntīng means “dining room.” This word can best complete the sentence <span lang='zh-Hans'>我在饭厅吃晚餐。</span>Wǒ zài fàntīng chī wǎncān. (I am having dinner in the dining room.)",
+        "incorrect": "Not quite…Think about the meaning of <span lang='zh-Hans'>饭厅</span> fàntīng and what location in a house it indicates, and then place it in the sentences in the choices to see which one fits the best for both meaning and structure. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Decide whether each sentence is a direct or indirect statement. Select the card to check your answer.",
+    "instruction_textversion":"Decide whether each sentence is a direct or indirect statement. Reveal the answer; to check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Ancient sailors thought that monsters and whirlpools were in the ocean.  </p>",
+          "textversion": "<p>Ancient sailors thought that monsters and whirlpools were in the ocean.  </p>"
+        },
+        "back": {
+          "content": "<p>Indirect</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Indirect</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>The Romans learned that Constantine had won the battle at the Milvian bridge. </p>",
+          "textversion": "<p>The Romans learned that Constantine had won the battle at the Milvian bridge.  </p>"
+        },
+        "back": {
+          "content": "<p>Indirect</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>Indirect</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Diocletian separated the Roman Empire into a tetrarchy. </p>",
+          "textversion": "<p>Diocletian separated the Roman Empire into a tetrarchy. </p>"
+        },
+        "back": {
+          "content": "<p>Direct</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>Direct</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Caligula hoped that his horse, Incitatus would be called a senator.  </p>",
+          "textversion": "<p>Caligula hoped that his horse, Incitatus would be called a senator. </p>"
+        },
+        "back": {
+          "content": "<p>Indirect</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>Indirect</p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Apollo is the god of poetry and music.</p>",
+          "textversion": "<p>Apollo is the god of poetry and music.</p>"
+        },
+        "back": {
+          "content": "<p>Direct</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'>Direct</p>"
+        }
+      }
+    ]
+  }
+}

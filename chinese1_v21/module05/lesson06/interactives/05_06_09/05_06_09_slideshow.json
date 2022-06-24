@@ -1,0 +1,25 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": "<span lang='zh-Hans'>生字</span> (New Characters)",
+    "theme": "standard",
+    "showInteractive": "Show Slideshow",
+    "css": ["interactives/05_06_09/css/styles.css"]
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr><th class='col_15'>Character</th><th class='col_15'>Pinyin</th><th class='col_70'>Stroke sequence</th></tr><tr><td><p class='text-center'><span lang='zh-Hans'>打</span></p></td><td><p class='text-center pinyin'>dǎ</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_1_flvs.png' alt='stroke sequence for dǎ' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>扫</span></p></td><td><p class='text-center pinyin'>sǎo</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_2_flvs.png' alt='stroke sequence for sǎo' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>拖 </span></p></td><td><p class='text-center pinyin'>tuō</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_3_flvs.png' alt='stroke sequence for tuō' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>倒</span></p></td><td><p class='text-center pinyin'>dào</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_4_flvs.png' alt='stroke sequence for dào' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>家</span></p></td><td><p class='text-center pinyin'>jiā</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_5_flvs.png' alt='stroke sequence for jiā' /></div></td></tr></table>"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<table class='fevng_table'><tr><th class='col_15'>Character</th><th class='col_15'>Pinyin</th><th class='col_70'>Stroke sequence</th></tr><tr><td><p class='text-center'><span lang='zh-Hans'>务</span></p></td><td><p class='text-center pinyin'>wù</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_6_flvs.png' alt='stroke sequence for wù' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>桶</span></p></td><td><p class='text-center pinyin'>tǒng</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_7_flvs.png' alt='stroke sequence for tǒng' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>机</span></p></td><td><p class='text-center pinyin'>jī</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_8_flvs.png' alt='stroke sequence for jī' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>液</span></p></td><td><p class='text-center pinyin'>yè</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_9_flvs.png' alt='stroke sequence for yé' /></div></td></tr><tr><td><p class='text-center'><span lang='zh-Hans'>间</span></p></td><td><p class='text-center pinyin'>jiān</p></td><td><div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_06_09/intmedia/slide_10_flvs.png' alt='stroke sequence for jiān' /></div></td></tr></table>"
+      }
+    ]
+  ]
+}

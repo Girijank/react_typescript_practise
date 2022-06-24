@@ -1,0 +1,23 @@
+/* .ng_il .dragdrop>.bin:last-child {
+    display: none;
+} */
+
+.ng_il .dragdrop>.bin.col {
+    width: 96% !important;
+}
+
+.ng_il .dragdrop .bin h2.il_header {
+    background-color: #9456ac;
+}
+
+.ng_il .dragdrop .il_dragdrop_items .il_btn {
+    border-color: #9456ac !important
+}
+
+.ng_il .dragdrop>.bin.col .il_question .il_btn {
+    margin: 10px 5px;
+}
+
+.ng_il .il_textversion_question h4 {
+    color: #ffffff !important;
+}

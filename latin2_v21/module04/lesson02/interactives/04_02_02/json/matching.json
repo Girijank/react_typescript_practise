@@ -1,0 +1,54 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>ferox, ferocis</em>",
+            "right": "ferocious"
+          },
+          {
+            "left": "<em>audax, audacis</em>",
+            "right": "audacious"
+          },
+          {
+            "left": "<em>fortis, forte</em>",
+            "right": "fort, fortitude, forte"
+          },
+          {
+            "left": "<em>moribundus, -a, -um</em>",
+            "right": "moribund"
+          },
+          {
+            "left": "<em>ferrum, ferri n.</em>",
+            "right": "ferrous"
+          },
+          {
+            "left": "<em>ignominia, ignominiae f.</em>",
+            "right": "ignominy, ignominious"
+          },
+          {
+            "left": "<em>iudex, iudicis m.</em>",
+            "right": "judicial"
+          },
+          {
+            "left": "<em>lac, lactis n.</em>",
+            "right": "lactic, lactose"
+          },
+          {
+            "left": "<em>lyra, lyrae f.</em>",
+            "right": "lyrical"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

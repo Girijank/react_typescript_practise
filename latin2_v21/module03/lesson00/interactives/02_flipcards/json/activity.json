@@ -1,0 +1,68 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>The man loves the <strong>day</strong></p>",
+          "textversion": "<p>The man loves the <strong>day</strong></p>"
+        },
+        "back": {
+          "content": "<p><em>diem</em> – Accusative case</p>",
+          "textversion": "<p><em>diem</em> – Accusative case</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>On this <strong>day,</strong> the slave teaches the students.</p>",
+          "textversion": "<p>On this <strong>day,</strong> the slave teaches the students.</p>"
+        },
+        "back": {
+          "content": "<p><em>die</em> – Ablative case</p>",
+          "textversion": "<p><em>die</em> – Ablative case</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Legal <strong>matters</strong> of the family are handled by the male head of the household.</p>",
+          "textversion": "<p>Legal <strong>matters</strong> of the family are handled by the male head of the household.</p>"
+        },
+        "back": {
+          "content": "<p><em>res</em> – Nominative case</p>",
+          "textversion": "<p><em>res</em> – Nominative case</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>We give<strong> to the things</strong>  that matter most to us.</p>",
+          "textversion": "<p>We give<strong> to the things</strong>  that matter most to us.</p>"
+        },
+        "back": {
+          "content": "<p> <em>rebus</em> – Dative case</p>",
+          "textversion": "<p><em>rebus</em> – Dative case</p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Which <strong> to the things</strong> in the household is of importance to the father?</p>",
+          "textversion": "<p>Which <strong> to the things</strong> in the household is of importance to the father?</p>"
+        },
+        "back": {
+          "content": "<p><em>rerum</em> – Genitive case</p>",
+          "textversion": "<p><em>rerum</em> – Genitive case</p>"
+        }
+      }
+     
+    ]
+  }
+}

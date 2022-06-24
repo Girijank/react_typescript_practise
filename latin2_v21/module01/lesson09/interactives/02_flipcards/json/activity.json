@@ -1,0 +1,91 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Which Roman king was known for this? Select each card to check your answer.",
+    "instruction_textversion":"Which Roman king was known for this? Check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Distrust of nobles</p>",
+          "textversion": "<p>Distrust of nobles</p>"
+        },
+        "back": {
+          "content": "<p>Tarquinius Superbus</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Tarquinius Superbus</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>Creation of the five classes</p>",
+          "textversion": "<p>Creation of the five classes</p>"
+        },
+        "back": {
+          "content": "<p>Servius Tullus</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>Servius Tullus</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Built the Temple of Janus</p>",
+          "textversion": "<p>Built the Temple of Janus</p>"
+        },
+        "back": {
+          "content": "<p>Numa Pompilius</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>Numa Pompilius</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Built Rome on the Palatine Hill</p>",
+          "textversion": "<p>Built Rome on the Palatine Hill</p>"
+        },
+        "back": {
+          "content": "<p>Romulus</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'>Romulus</p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Built the Temple of Jupiter Optimus Maximus</p>",
+          "textversion": "<p>Built the Temple of Jupiter Optimus Maximus</p>"
+        },
+        "back": {
+          "content": "<p>Tarquinius Priscus</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'>Tarquinius Priscus</p>"
+        }
+      },
+      {
+        "id": "card_06",
+        "front": {
+          "content": "<p>Built the Curia Hostilia</p>",
+          "textversion": "<p>Built the Curia Hostilia</p>"
+        },
+        "back": {
+          "content": "<p>Tullus Hostilius</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans6'>Show Answer</div><p id='ans6' class='collapse'>Tullus Hostilius</p>"
+        }
+      },
+      {
+        "id": "card_07",
+        "front": {
+          "content": "<p>Created the prison system</p>",
+          "textversion": "<p>Created the prison system</p>"
+        },
+        "back": {
+          "content": "<p>Ancus Marcius</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans7'>Show Answer</div><p id='ans7' class='collapse'>Ancus Marcius</p>"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+.ng_il .il_textbtn {
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #29ABE2;
+	color: white;
+	font-weight: bold;
+
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-tbottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+.ng_il .viewport {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 750px;
+	width: 100%;
+	min-height: 500px;
+	overflow: hidden;
+	border: 5px solid #29ABE2;
+	border-radius: 10px;
+	z-index: 0;
+}
+
+.ng_il .closeBTN {
+	cursor: pointer;
+	box-shadow: 0px 0px 10px #888888;
+	margin-top: -2px;
+	margin-left: 628px;
+	border-radius: 50%;
+	font-weight: bold;
+	width: 40px;
+	height: 40px;
+	padding: 6px;
+	padding-left: 13px;
+	position: absolute;
+	background-color: white;
+	/* border: 3px solid black; */
+	font-size: 16pt;
+	background-color: #efefef;
+	/* color: white; */
+	/* border: 3px solid white; */
+}
+
+.ng_il .at-view-fade-in.ng-enter {
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	position: absolute;
+	opacity: 0;
+}
+
+.ng_il .at-view-fade-in.ng-enter-active {
+	opacity: 1;
+}
+
+.ng_il .at-view-fade-out.ng-leave {
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	position: absolute;
+	opacity: 1;
+}
+
+.ng_il at-view-fade-out.ng-leave-active {
+	opacity: 0;
+}
+
+.ng_il .viewWrapper {
+	margin: 0 auto;
+}
+
+.ng_il .animate-show.ng-hide-remove.ng-hide-remove-active {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-duration: .3s;
+	animation-duration: .3s
+}
+
+.ng_il .animate-show.ng-hide-add.ng-hide-add-active {
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut;
+	-webkit-animation-duration: .3s;
+	animation-duration: .3s
+}
+
+/*
+.modal-dialog {
+    position: relative;
+    width: 86%;
+    margin: 7%;
+    margin-top: 30px;
+}
+*/
+/*
+
+.modal {
+    background-color: transparent;
+    position: absolute;
+
+    width: 100%;
+    bottom: 0;
+  
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    overflow-y: scroll;
+    outline: 0;
+}
+*/
+
+.ng_il .showContent.il_well p {
+
+}
+
+/*
+
+.modal-backdrop {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+*/
+
+.ng_il .il_modalbtn {
+	position: absolute;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	bottom: 8px;
+	right: 22px;
+	width: 50px;
+	color: white;
+
+}
+
+.ng_il .il_modalbtn:hover {
+
+	width: 50px;
+	color: white;
+
+}
+
+.ng_il .modal-content {
+
+}
+
+.ng_il .modal-footer {
+	width: 100%;
+	padding: 34px 20px 20px;
+	margin-top: 15px;
+	text-align: right;
+	background-color: #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+}
+
+.ng_il .il_header {
+
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+}
+
+.ng_il .modal-title {
+	margin: 0;
+	line-height: 1.42857143;
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	padding: 1px;
+	border-radius: 33px;
+	text-align: center;
+	color: white;
+}
+
+.ng_il .il_modalbtn {
+	position: absolute;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	bottom: 8px;
+	right: 22px;
+	border-radius: 5px;
+	background-color: #29ABE2;
+}
+
+.ng_il .il_btn:hover {
+	background-color: #3276b1;
+
+}
+
+.ng_il .viewport {
+	background-image: url(../images/interactive_bg.jpg);
+}
+
+.ng_il h2.il_int_title {
+	background-image: url(../images/line.jpg);
+	color: white;
+	background-size: cover;
+	padding: 6px;
+	margin-top: -24px;
+	border-radius: 7px;
+	text-align: center;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+
+.ng_il .il_well.directions {
+	background-color: white;
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.ng_il .modal-body p {
+	font-size: 12pt;
+}
+
+.ng_il .modal-backdrop {
+	height: 500px;
+	border-radius: 10px;
+}
+
+.ng_il .modal {
+	overflow-x: hidden;
+	overflow-y: hidden !important;
+}
+
+.ng_il .popover {
+	background-color:#FFF !important;
+	min-height:40px;
+}
+
+.ng_il .popover-content {
+	padding: 9px 13px;
+	line-height:30px !important;
+}
+
+.ng_il .modal_holder {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	margin-left: -20px;
+}
+
+.ng_il .il_modal-backdrop {
+	padding-top: 20px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 580px;
+	position: absolute;
+	z-index: 999;
+	margin: -20px;
+}
+
+.modal-show {
+	position: relative;
+	min-height: 100px;
+	-webkit-transition: 0.5s ease all;
+	transition: 0.5s ease all;
+	top: 0;
+	opacity: 1;
+}
+
+.modal-show.ng-hide {
+	top: -50px;
+	opacity: 0;
+}
+
+.modal-show.ng-hide-add, .modal-show.ng-hide-remove {
+	display: block !important;
+}
+
+.ng_il .cssFade {
+	transition: 0.5s ease all;
+	opacity: 1;
+}
+
+.ng_il .cssFade.ng-hide {
+	opacity: 0;
+}
+
+.ng_il .modal-content .showContent .col-sm-8 p {
+    width: 100%;
+}

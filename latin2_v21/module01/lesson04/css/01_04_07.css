@@ -1,0 +1,15 @@
+.tabs div.panel {
+    height: 350px;
+}
+
+.tabs div.panel img{
+    max-height: 225px;
+}
+
+.carousel .carousel-inner img{
+    max-height: 200px !important;
+}
+
+.carousel .carousel-inner .item{
+    height: 290px;
+}

@@ -1,0 +1,25 @@
+{
+  "config": {
+    "type": "flipcard04",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Select the image of each emperor to learn more about what they did during their reign.",
+    "cards": [
+      {
+        "id": "card_04",        
+        "front": {
+          "content": "<div><img src='images/flip_0901_galba.jpg' alt='Bust of the Roman emperor Galba.' class='frame' data-caption='Bust of the Roman emperor Galba, preserved in the Hall of the Emperors of the Capitoline Museum, Rome' data-width=' ' data-copyright='©Alinari Archives  / ImageQuest 2021' /></div><span class='caption'>Bust of the Roman emperor Galba, preserved in the Hall of the Emperors of the Capitoline Museum, Rome</span><span class='copyright'>©Alinari Archives  / ImageQuest 2021</span>",
+          "textversion": "<p>Image: Galba</p>"
+        },
+        "back": {
+          "content": "<h5>I am known for:</h5><ul><li>ruling Rome for sevenmonths total, beginning in June, 68 CE</li><li>ruling Rome for two weeks in 69 CE (January 1<sup>st</sup>–-15<sup>st</sup>, CE)</li><li>being governor of Africa</li></ul>",
+          "textversion": "<h5>I am known for:</h5><ul><li>ruling Rome for sevenmonths total, beginning in June, 68 CE</li><li>ruling Rome for two weeks in 69 CE (January 1<sup>st</sup>–-15<sup>st</sup>, CE)</li><li>being governor of Africa</li></ul>"
+        }
+      }
+      
+    ]
+  }
+}

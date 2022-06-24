@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/05_06_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/05_06_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word; then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “s” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Job amazingly done finding the “s” sound among these words. You are becoming a really good listener!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>蓝色</span> lánsè (blue)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/blue.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Job amazingly done finding the “s” sound among these words. You are becoming a really good listener!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>苏打</span> sūdǎ (soda)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/soda.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Job amazingly done finding the “s” sound among these words. You are becoming a really good listener!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>松饼</span> sōngbǐng (pancakes)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/pancakes.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Job amazingly done finding the “s” sound among these words. You are becoming a really good listener!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>打扫</span> dǎsǎo (to clean)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/to_clean.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “in” ",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Excellent job identifying the word containing the “in” sound. You’ve done exceptionally well! ",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>您</span> nín (formal you) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/formal_you.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Excellent job identifying the word containing the “in” sound. You’ve done exceptionally well!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>现金</span> xiànjīn (cash)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/cash.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Excellent job identifying the word containing the “in” sound. You’ve done exceptionally well!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>今天</span> jīntiān (today)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/today.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Excellent job identifying the word containing the “in” sound. You’ve done exceptionally well!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>毛巾</span> máojīn (towel)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/05_06_02/media/towel.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

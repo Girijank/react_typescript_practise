@@ -1,0 +1,108 @@
+{
+  "config": {
+    "src": "quizmo",
+    "intMedia": "interactives/01_01_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio and select the correct letter of the alphabet used in the audio. Practice as many times as you may need!"
+      },
+      {
+        "type": "localAudio",
+        "src": "lemon_slide1_flvs.mp3",
+        "textVersion": "lemon"
+      },
+      {
+        "type": "mc",
+        "quiz": "<strong>Based on the audio,</strong> with what letter does the word start?",
+        "answer": "lamed",
+        "options": [
+          "gimmel",
+          "vav",
+          "mem"
+        ],
+        "correct": "Terrific! This wasn't a sour practice for you.",
+        "incorrect": "Almost! Review your note guide and try again."
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "tomato_slide2_flvs.mp3",
+        "textVersion": "tomato"
+      },
+      {
+        "type": "mc",
+        "quiz": "<strong>Based on the audio,</strong> with what letter does the word start?",
+        "answer": "ayin",
+        "options": [
+          "bet",
+          "tsade",
+          "alef"
+        ],
+        "correct": "Great job! You smashed this practice.",
+        "incorrect": "You can do this! Review your note guide and try again."
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "train_slide3_flvs.mp3",
+        "textVersion": "train"
+      },
+      {
+        "type": "mc",
+        "quiz": "<strong>Based on the audio,</strong> with what letter does the word start?",
+        "answer": "<span lang=\"he\">ר</span>",
+        "options": [
+          "<span lang=\"he\">ח</span>",
+          "<span lang=\"he\">י</span>",
+          "<span lang=\"he\">ס</span>"
+        ],
+        "correct": "Awesome! Ride your success until the last stop!",
+        "incorrect": "Almost! Review your note guide and try again."
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "dress_slide4_flvs.mp3",
+        "textVersion": "dress"
+      },
+      {
+        "type": "mc",
+        "quiz": "<strong>Based on the audio,</strong> with what letter does the word start?",
+        "answer": "<span lang=\"he\">שׂ</span>",
+        "options": [
+          "<span lang=\"he\">שׁ</span>",
+          "<span lang=\"he\">ס</span>",
+          "<span lang=\"he\">ב</span>ּ"
+        ],
+        "correct": "Sweet! You got the core!",
+        "incorrect": "Don't let gravity pull you down. Try again!"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "camel_slide5_flvs.mp3",
+        "textVersion": "camel"
+      },
+      {
+        "type": "mc",
+        "quiz": "<strong>Based on the audio,</strong> with what letter does the word start?",
+        "answer": "<span lang=\"he\">ג</span>",
+        "options": [
+          "<span lang=\"he\">ד</span>",
+          "<span lang=\"he\">ז</span>",
+          "<span lang=\"he\">ס</span>"
+        ],
+        "correct": "Great job! No humps on the way.",
+        "incorrect": "Almost there. Review your note guide and try again."
+      }
+    ]
+  ]
+}

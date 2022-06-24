@@ -1,0 +1,33 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [
+              {
+                "type": "text",
+                "content": "Verb tenses are placed into two buckets:<br /><br />Bucket 1: Present System = Present Tense, Imperfect Tense, Future Tense<br /><br />Bucket 2: Perfect System = Perfect Tense, Pluperfect Tense, Future Perfect Tense<br /><br />Let's review these Tense endings!"
+              }
+            ],
+			[
+              {
+                "type": "text",
+                "content": "Present System: Uses the 2<sup>nd</sup> principal part of the verb to conjugate and add the stem vowel:<br /><ul><li>1<sup>st</sup> Conjugation (-a)</li><li>2<sup>nd</sup> Conjugation (-e)</li><li>The stem formations look mostly the same as 1<sup>st</sup> and 2<sup>nd</sup> conjugations, but 3<sup>rd</sup> and 4<sup>th</sup> conjugations are different in the Present and Future tenses.</li></ul><br />1<sup>st</sup> and 2<sup>nd</sup> Conjugation verbs use these endings:<br /><br /><table class='table table-bordered'><thead><tr><th class='black white-text' scope='col' width='20%'>&nbsp;</th><th class='black white-text' scope='col'>Present Personal Endings</th><th class='black white-text' scope='col'>Imperfect Personal Endings</th><th class='black white-text' scope='col'>Future Personal Endings</th></tr></thead><tbody><tr><th scope='row'>1<sup>st</sup> singular</th><td>-o</td><td>-bam</td><td>-bo</td></tr><tr><th scope='row'>2<sup>nd</sup> singular</th><td>-s</td><td>-bas</td><td>-bis</td></tr><tr><th scope='row'>3<sup>rd</sup> singular</th><td>-t</td><td>-bat</td><td>-bit</td></tr><tr><th scope='row'>1<sup>st</sup> plural</th><td>-mus</td><td>-bamus</td><td>-bimus</td></tr><tr><th scope='row'>2<sup>nd</sup> plural</th><td>-tis</td><td>-batis</td><td>-bitis</td></tr><tr><th scope='row'>3<sup>rd</sup> plural</th><td>-nt</td><td>-bant</td><td>-bunt</td></tr><tr><th scope='row'>Translations</td><td>am/is/are verbing</td><td><em>was/were verbing,</em><br /><br /><em>used to verb</em></td><td><em>will verb</em></td></tr></tbody></table>"
+              }
+            ],
+			[
+              {
+                "type": "text",
+                "content": "3<sup>rd</sup> Conjugation verbs use these endings:<br /><br /><table class='table table-bordered'><thead><tr><th class='black white-text' scope='col' width='20%'>&nbsp;</th><th class='black white-text' scope='col'>Present Personal Endings</th><th class='black white-text' scope='col'>Imperfect Personal Endings</th><th class='black white-text' scope='col'>Future Personal Endings</th></tr></thead><tbody><tr><th scope='row'>1<sup>st</sup> singular</th><td>-o</td><td>-bam</td><td>-am</td></tr><tr><th scope='row'>2<sup>nd</sup> singular</th><td>-s</td><td>-bas</td><td>-es</td></tr><tr><th scope='row'>3<sup>rd</sup> singular</th><td>-t</td><td>-bat</td><td>-et</td></tr><tr><th scope='row'>1<sup>st</sup> plural</th><td>-mus</td><td>-bamus</td><td>-emus</td></tr><tr><th scope='row'>2<sup>nd</sup> plural</th><td>-tis</td><td>-batis</td><td>-etis</td></tr><tr><th scope='row'>3<sup>rd</sup> plural</th><td>-nt</td><td>-bant</td><td>-ent</td></tr><tr><th scope='row'>Translations</td><td>am/is/are verbing</td><td><em>was/were verbing,</em><br /><br /><em>used to verb</em></td><td><em>will verb</em></td></tr></tbody></table>3<sup>rd</sup>-io and 4<sup>th</sup> Conjugation verbs use these endings:<br /><br /><table class='table table-bordered'><thead><tr><th class='black white-text' scope='col' width='20%'>&nbsp;</th><th class='black white-text' scope='col'>Present Personal Endings</th><th class='black white-text' scope='col'>Imperfect Personal Endings</th><th class='black white-text' scope='col'>Future Personal Endings</th></tr></thead><tbody><tr><th scope='row'>1<sup>st</sup> singular</th><td>-io</td><td>-iebam</td><td>-iam</td></tr><tr><th scope='row'>2<sup>nd</sup> singular</th><td>-is</td><td>-iebas</td><td>-ees</td></tr><tr><th scope='row'>3<sup>rd</sup> singular</th><td>-it</td><td>-iebat</td><td>-iet</td></tr><tr><th scope='row'>1<sup>st</sup> plural</th><td>-imus</td><td>-iebamus</td><td>-iemus</td></tr><tr><th scope='row'>2<sup>nd</sup> plural</th><td>-itis</td><td>-iebatis</td><td>-ietis</td></tr><tr><th scope='row'>3<sup>rd</sup> plural</th><td>-niut</td><td>-iebant</td><td>-ient</td></tr><tr><th scope='row'>Translations</td><td>am/is/are verbing</td><td><em>was/were verbing,</em><br /><br /><em>used to verb</em></td><td><em>will verb</em></td></tr></tbody></table>"
+              }
+            ],
+			[
+              {
+                "type": "text",
+                "content": "<p>Perfect System: Use the 3<sup>rd</sup> principal part of the verb to conjugate<p><p><strong>Note: </strong>The 3<sup>rd</sup> principal part forms the Perfect stem by dropping the final -i and the Active Perfect, Pluperfect, and Future Perfect tense endings are added.</p><table class='table table-bordered'><thead><tr><th class='black white-text' scope='col' width='20%'>&nbsp;</th><th class='black white-text' scope='col'>Present Personal Endings</th><th class='black white-text' scope='col'>Imperfect Personal Endings</th><th class='black white-text' scope='col'>Future Personal Endings</th></tr></thead><tbody><tr><th scope='row'>1<sup>st</sup> singular</th><td>-i</td><td>-eram</td><td>-ero</td></tr><tr><th scope='row'>2<sup>nd</sup> singular</th><td>-isti</td><td>-eras</td><td>-eris</td></tr><tr><th scope='row'>3<sup>rd</sup> singular</th><td>-it</td><td>-erat</td><td>-erit</td></tr><tr><th scope='row'>1<sup>st</sup> plural</th><td>-imus</td><td>-eramus</td><td>-erimus</td></tr><tr><th scope='row'>2<sup>nd</sup> plural</th><td>-isti</td><td>-eratis</td><td>-eritis</td></tr><tr><th scope='row'>3<sup>rd</sup> plural</th><td>-erunt</td><td>-erant</td><td>-erint</td></tr><tr><th scope='row'>Translations</td><td><em>has/ have verbed, did verb</em></td><td><em>had verb</em></td><td><em>will have verbed</em></td></tr></tbody></table>"
+              }
+            ]
+        ]
+      }

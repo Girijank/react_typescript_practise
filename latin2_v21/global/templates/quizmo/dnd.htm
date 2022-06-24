@@ -1,0 +1,110 @@
+<div class="objectLoopContainer">
+  <div class="objectLoop dragdropv2"
+       data-ng-init="objNum = $index"
+       data-quizmo-jqmath
+       data-ng-repeat="object in vm.slide"
+       data-ng-switch data-on="object.type"
+       data-ng-if="object.type !== 'config'">
+
+    <div data-elements></div>
+
+    <div data-ng-attr-id="{{object.id}}"
+         data-ng-switch-when="dragdropv2"
+         class="dragDrop">
+      <div class="il_question il_dnd_quiz"
+           data-ng-if="object.quiz.length"
+           data-ng-bind-html="vm.format(object.quiz)"
+           compile-template
+           data-quizmo-jqmath></div>
+
+      <div class="il_dragdrop_items"
+           data-ng-keypress="vm.dragDropv2Keypress($event)">
+        <div class="il_question" data-ng-if="object.items.length != 0">
+          <div tabindex="0"
+               aria-live="polite"
+               aria-hidden="{{vm.hideDraggableItem(object)}}"
+               aria-label="New Draggable Item {{item.text}}"
+               data-ng-if="$index === 0 && !object.multipleItems"
+               data-ng-repeat="item in object.items track by $index"
+               data-ng-attr-id="{{item.id}}"
+               data-quizmo-jqmath
+               data-ng-class="{'hasMedia': item.media || vm.hasMedia($event.currentTarget)}"
+               class="btn il_btn btn-info btn-draggable"
+               data-drag="true"
+               data-jqyoui-options="{revert: 'invalid'}"
+               data-ng-model="object.items"
+               jqyoui-draggable="{index: {{$index}}, animate:false, onStart:'vm.dragStartCallback(item)'}">
+          <span compile-template
+                data-ng-bind-html="vm.format(item.text)"></span>
+
+            <div ng-if="item.image !=''">
+              <img ng-if="item.image"
+                   alt="{{ item.alt }}"
+                   data-ng-src="{{ vm.data.config.intMedia + item.image }}">
+            </div>
+
+            <span data-medialoop
+                  data-ng-repeat="object in item.media"
+                  data-ng-switch data-on="object.type"></span>
+          </div>
+
+          <div tabindex="0"
+               aria-live="polite"
+               aria-hidden="{{vm.hideDraggableItem(object)}}"
+               aria-label="New Draggable Item {{item.text}}"
+               data-ng-if="object.multipleItems"
+               data-ng-repeat="item in object.items track by $index"
+               data-ng-attr-id="{{item.id}}"
+               data-quizmo-jqmath
+               data-ng-class="{'hasMedia': item.media || vm.hasMedia($event.currentTarget)}"
+               class="btn il_btn btn-info btn-draggable"
+               data-drag="true"
+               data-jqyoui-options="{revert: 'invalid'}"
+               data-ng-model="object.items"
+               jqyoui-draggable="{index: {{$index}}, animate:false, onStart:'vm.dragStartCallback(item)'}">
+            <span compile-template data-ng-bind-html="vm.format(item.text)"></span>
+
+            <div ng-if="item.image !=''">
+              <img ng-if="item.image" alt="{{ item.alt }}" data-ng-src="{{ vm.data.config.intMedia + item.image }}">
+            </div>
+
+            <span data-medialoop data-ng-repeat="object in item.media" data-ng-switch data-on="object.type"></span>
+          </div>
+        </div>
+
+        <h2 class="text-center" data-ng-if="object.items.length === 0">Well done!</h2>
+      </div>
+
+      <div class="bin-container">
+        <div class="bin col"
+             data-ng-keypress="vm.dragDropBinv2Keypress($event, $index)"
+             aria-label="Droppable Bin {{bin.title}}"
+             tabindex="0"
+             data-ng-style="{'width':object.width+'%'}"
+             data-ng-repeat="bin in object.bins track by $index"
+             data-ng-attr-id="{{bin.id}}"
+             data-quizmo-jqmath data-ng-init="thisBin = $index">
+          <h2 class="il_header at-repeat-fade-in at-repeat-fade-out"
+              data-ng-bind-html="vm.format(bin.title)"></h2>
+          <div class="il_question"
+               data-drop="vm.shouldAllowDrop(object.bins[thisBin], object.screenBin[thisBin].length)"
+               data-ng-model="object.screenBin[thisBin]"
+               data-jqyoui-droppable="{multiple:true, onDrop:'vm.dropCallbackv2($index)'}">
+            <div class="btn il_btn btn-info btn-draggable"
+                 data-ng-attr-id="{{item.id}}"
+                 data-ng-repeat="item in object.screenBin[thisBin] track by $index"
+                 data-quizmo-jqmath data-jqyoui-options="{revert: 'invalid'}"
+                 data-ng-model="object.screenBin[$index]">
+
+              <span data-ng-bind-html="vm.format(item.text)"></span>
+              <span data-medialoop data-ng-repeat="object in item.media" data-ng-switch data-on="object.type"></span>
+              <div data-ng-if="item.image">
+                <img data-ng-if="item.image" alt="{{ item.alt }}" data-ng-src="{{ vm.data.config.intMedia + item.image }}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

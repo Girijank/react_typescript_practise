@@ -1,0 +1,92 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_03_07/styles.css"],
+    "intMedia": "interactives/02_03_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio;then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "menu.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>菜单</span>"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same pinyin final as the second character in the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>米饭</span>",
+        "options": [
+          "<span lang='zh-Hans'>筷子</span>",
+          "<span lang='zh-Hans'>谢谢</span> ",
+          "<span lang='zh-Hans'>面包</span> "
+        ],
+        "correct": "Job nicely done! <em><span lang='zh-Hans'>菜单</span> càidān</em> (menu) has “an” as the second character’s pinyin final, and so does <em><span lang='zh-Hans'>米饭</span> mǐfàn</em> (rice).",
+        "incorrect": "So close! Listen to the word in the audio several times to identify its second pinyin final, and then compare it with the words in the options.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "restaurant.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>餐厅</span> cāntīng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following do we most likely see professionally at the location in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>服务员</span> fúwùyuán</span><audio class='audio' controls src='interactives/02_03_07/intmedia/waiter_waitress.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>老师</span> lǎoshī</span><audio class='audio' controls src='interactives/02_03_07/intmedia/teacher.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>医生</span> yīshēng</span><audio class='audio' controls src='interactives/02_03_07/intmedia/doctor.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>教授</span> jiàoshòu</span><audio class='audio' controls src='interactives/02_03_07/intmedia/professor.mp3' ></audio>"
+        ],
+        "correct": "Impressive work! <em><span lang='zh-Hans'>餐厅</span> cāntīng</em> means “restaurant,” and we are most likely to see waiters or waitresses working there.",
+        "incorrect": "Not quite… listen again several times, and think about what type of profession best fits that location.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "please_give_me.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>请给我</span> qǐnggěiwǒ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In what situation will you most likely use the phrase in the audio?</p>",
+        "answer": "To a waiter when you order food at a restaurant",
+        "options": ["To your teacher when you turn in your term paper in class", 
+                    "To your friend at the end of a birthday party", 
+                    "To your classmate when you bump into each other by accident"],
+        "correct": "You got it! <em><span lang='zh-Hans'>请给我</span> qǐnggěiwǒ</em> (please give me) is a phrase you can use to order food besides <em><span lang='zh-Hans'>我要</span> Wǒ yào</em> (I want). ",
+        "incorrect": "Not quite. Do you want to listen to the audio one more time to fully understand the phrase?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "thanks.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>谢谢</span> xièxiè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is an appropriate response to the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>不客气</span> búkèqì",
+        "options": [
+          "<span lang='zh-Hans'>对不起</span> duìbùqǐ",
+          "<span lang='zh-Hans'>晚上好</span> wǎnshàng hǎo'",
+          "<span lang='zh-Hans'>请给我</span> qǐnggěiwǒ"
+        ],
+        "correct": "You got it! <em><span lang='zh-Hans'>谢谢</span> xièxiè</em> means “thanks,” and to respond to it you need to say “<em><span lang='zh-Hans'>不客气</span> búkèqì</em> (you are welcome).” ",
+        "incorrect": "Oops… listen to the audio several more times and think about what it means and how you should respond to it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

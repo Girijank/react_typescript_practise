@@ -1,0 +1,53 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_03_06/styles.css"],
+    "disableRemoteCss": true,
+    "_customTextversionAll": "interactives/06_03_06/textversion/textversion.htm",
+    "modal": {
+      "directions": "Select all the correct infinitive form(s) which accurately complete(s) the translation of the indirect statement. Notice that the main “sensory” verb is in the future tense.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "selectable",
+        "quiz": "We will hope that the chief <strong>is</strong>_______<strong>(verbing). Same Time</strong>",
+        "answer": ["movere", "ambulare", "laborare", "ducere"],
+        "options": ["bibisse", "auditurum esse", "legisse"],
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "selectable",
+        "quiz": "We will hope that the chief <strong>has</strong>_______<strong>(verbing). Time Before</strong>",
+        "answer": ["ambulavisse", "bibisse", "legisse"],
+        "options": ["movere", "laborare", "ducere", "auditurum esse"],
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "selectable",
+        "quiz": "We will hope that the chief <strong>will</strong>_______<strong>(verbing). Time After</strong>",
+        "answer": [
+          "moturum esse",
+          "laboraturum esse",
+          "auditurum esse",
+          "lecturum esse"
+        ],
+        "options": ["ambulavisse", "bibisse", "ducere"],
+        "correct": "Great Job!",
+        "incorrect": "That’s not quite right, try again.",
+        "failed": "You've tried too many times.  The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

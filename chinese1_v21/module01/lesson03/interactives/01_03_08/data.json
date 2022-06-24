@@ -1,0 +1,56 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_03_08/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/01_03_08/textversion/textversion.htm",
+    "modal": {
+      "directions": "Drag the appropriate adverb of degree for each sentence in Chinese to match the English translation underneath.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job adding the adverbs of degree to complete the sentences. You’ve now mastered these adverbs very well. Way to go!",
+        "incorrect": "Not quite. Let’s try again and get them all!",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>我的朋友</span>_____<span lang='zh-Hans'>开朗。</span> <br> My friend is very outgoing.",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>很</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>丽丽</span>_____<span lang='zh-Hans'>高。</span> <br> Lili is somewhat tall.",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>比较</span>"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>你</span>_____<span lang='zh-Hans'>害羞。</span> <br> You are a little shy.",
+            "limit": 1,
+            "item": [
+              {
+                "text": "<span lang='zh-Hans'>有点</span>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

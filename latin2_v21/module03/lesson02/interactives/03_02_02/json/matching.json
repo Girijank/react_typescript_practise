@@ -1,0 +1,54 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>res, rei f.</em>",
+            "right": "real"
+          },
+          {
+            "left": "<em>dies, diei m./f.</em>",
+            "right": "diary, diurnal"
+          },
+          {
+            "left": "<em>fides, fidei f.</em>",
+            "right": "fidelity, infidel"
+          },
+          {
+            "left": "<em>mater, matris f.</em>",
+            "right": "maternal, maternity, matricide"
+          },
+          {
+            "left": "<em>pater, patris m.</em>",
+            "right": "paternal, paternity"
+          },
+          {
+            "left": "<em>frater, fratris m.</em>",
+            "right": "fraternal, fraternity, fratricide, fraternize"
+          },
+          {
+            "left": "<em>soror, sororis f.</em>",
+            "right": "sorority, sororicide"
+          },
+          {
+            "left": "<em>evoco, evocare, evocavi, evocatus, -a, -um</em>",
+            "right": "evoke"
+          },
+          {
+            "left": "<em>propulso, propulsare, propulsavi, propulsavus, -a, -um</em>",
+            "right": "propulsion"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

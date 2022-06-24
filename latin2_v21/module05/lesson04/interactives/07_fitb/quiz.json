@@ -1,0 +1,67 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/07_fitb/styles.css"],
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Find the correct Latin word to complete the Ablative Absolute."
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "duce"
+        ],
+        "quiz": "<p>Viro parvo *_, monstrum proelieum contra eum commissit.</p><h3>Translation: </h3><p>With the small man as leader, the monster began a battle against him.</p>",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "daturo"
+        ],
+        "quiz": "<p>Deo prodigium clarum de morti consuli *_, consul gravius spirabat.</p><h3>Translation: </h3><p>With the god about to give a clear sign about death to the consul, the consul was breathing rather heavily.</p>",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "Iterum tempta! Try again! Learning Latin takes effort –give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "gerenti"
+        ],
+        "quiz": "<p>Domitiano bellum in Dacia *_, exercitus multum virorum amittebat.</p><h3>Translation: </h3><p>With Domitian waging war in Dacia, the army was losing a lot of men. </p>",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "portato"
+        ],
+        "quiz": "<p>Morte Domitiani ob maleficium *_, scriptores eum libere castigare iam poterant.</p><h3>Translation: </h3><p>With the death of Domitian having been brought on account of an evil deed, writers were now able to freely chastise him. </p>",
+        "correct": "That's right! Gratulationes on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin and five it another shot. Bona fortuna!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

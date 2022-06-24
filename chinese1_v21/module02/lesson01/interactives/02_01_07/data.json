@@ -1,0 +1,71 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_01_07/styles.css"],
+    "intMedia": "interactives/02_01_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "vegetable.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>蔬菜</span> shūcài"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items does <strong>not</strong> belong to the category described by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>橙子</span> chéngzi",
+        "options": ["<span lang='zh-Hans'>白菜</span> báicài", "<span lang='zh-Hans'>西兰花</span> xīlánhuā", "<span lang='zh-Hans'>胡萝卜</span> húluóbo"],
+        "correct": "Well done! <span lang='zh-Hans'><em>蔬菜</em></span><em> shūcài</em> means “vegetable,” and the only item in the choices that is not a vegetable is <span lang='zh-Hans'><em>橙子</em></span><em> chéngzi</em> (oranges).",
+        "incorrect": "So close! Review all four items in the choices and think about what they represent. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "apple.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>苹果</span> píngguǒ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can the word in the audio relate to?</p>",
+        "answer": "<span lang='zh-Hans'>水果</span> shuǐguǒ",
+        "options": [
+          "<span lang='zh-Hans'>蔬菜</span> shūcài",
+          "<span lang='zh-Hans'>女孩</span> nǚhái",
+          "<span lang='zh-Hans'>教授</span> jiàoshòu"
+        ],
+        "correct": "Wonderfully done! <span lang='zh-Hans'><em>苹果</em></span> <em>píngguǒ</em> means “apple,” and it’s one of the most popular fruits.",
+        "incorrect": "Not quite… listen again several times and think about what it represents.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "broccoli.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>西兰花</span> xīlánhuā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following colors best describes the item in the audio?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>绿色</span> lǜsè</span><audio class='audio' controls src='interactives/02_01_07/intmedia/green.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>蓝色</span> lánsè</span><audio class='audio' controls src='interactives/02_01_07/intmedia/blue.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>红色</span> hóngsè</span><audio class='audio' controls src='interactives/02_01_07/intmedia/red.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>黑色</span> hēisè</span><audio class='audio' controls src='interactives/02_01_07/intmedia/black.mp3' ></audio>"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'><em>西兰花</em></span><em> xīlánhuā</em> means broccoli, and it’s commonly a green color. ",
+        "incorrect": "Oops… listen to the audio several more times and think about what it represents.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

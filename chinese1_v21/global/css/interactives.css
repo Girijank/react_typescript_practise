@@ -1,0 +1,1439 @@
+/*======================================
+
+DEFAULT INTERACTIVE CSS
+
+======================================*/
+
+
+.ng_il .preload {
+	display: none;
+}
+
+.ng_il .col-sm-6 {
+	width: 50%;
+	float: left;
+}
+
+/* Space out content a bit */
+.ng_il {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-weight: 300;
+}
+
+.ng_il .il_header {
+	font-size: 10pt;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	background-color: #9F243D;
+	background-image: none !important;
+	color: #FFF;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+}
+
+.ng_il .il_textversion {
+	background-color: rgba(254, 254, 246, 0.8);
+	background-image: none !important;
+}
+
+.ng_il .viewportTextVersion {
+	background-color: #D3D3D3;
+	background-image: none;
+	margin: 0 auto;
+	padding: 20px;
+	width: 700px;
+	overflow: hidden;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.ng_il .viewport {
+	/*background-color: #e8fcfc;*/
+    background-color: white;
+}
+
+.ng_il .il_well.choices li {
+	list-style: none;
+	padding: 10px;
+	background-color: white;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.ng_il .il_int_title {
+	background-color: white;
+	padding: 9px;
+	margin-top: -7px;
+	border-radius: 49px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.ng_il .il_well.directions {
+	background-color: #efefef;
+	margin: 0 auto;
+	width: 503px;
+	padding: 16px;
+	margin-top: -24px;
+	margin-bottom: 40px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+.ng_il hr {
+	width: 100%;
+	border-top: 2px solid black;
+}
+
+.ng_il .line {
+	margin-top: -20px;
+	margin-bottom: 20px;
+	margin-left: -20px;
+	border: 0;
+	width: 101%;
+	border-top: 50px solid #29ABE2;
+}
+
+.ng_il .date {
+	font-size: 20pt;
+	margin-top: -79px;
+	margin-bottom: -4px;
+	border-left: 3px solid white;
+	padding-left: 10px;
+	color: white;
+	padding-top: 2px;
+	height: 83px;
+}
+
+.ng_il .showContent.il_well.noImage p {
+	float: left;
+	width: 608px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.ng_il .il_btn.restart {
+	border-radius: 6px;
+	cursor: pointer;
+	/* position: absolute; */
+	margin: 0 auto;
+	width: 124px;
+	background-color: #29ABE2;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+.ng_il .il_mc_options .btn-group .btn {
+	border: 2px solid #9F243D;
+	text-align: right;
+}
+
+.ng_il .il_textversion li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.ng_il .il_btn.navigation {
+	width: 40px;
+	position: absolute !important;
+	font-size: 73pt;
+	color: white;
+	cursor: pointer;
+}
+
+.ng_il .il_btn.navigation.previous {
+	/* width: 30px; */
+	margin-top: 213px;
+	margin-left: -20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #29ABE2;
+	display: block !important;
+}
+
+.ng_il .il_btn.navigation.next {
+	margin-top: 213px;
+	margin-left: 633px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #29ABE2;
+}
+
+.ng_il .slideNum.il_well {
+	background-color: white;
+	/* margin: 0 auto; */
+	width: 76px;
+	padding: 13px;
+	margin-top: -24px;
+	margin-left: 24px;
+	margin-bottom: -28px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.ng_il .panel-heading {
+	padding: 0;
+}
+
+.panel-title > a {
+	padding: 3px 13px;
+	display: block;
+	color: inherit;
+	text-decoration: none !important;
+}
+
+.ng_il .animate-show {
+	line-height: 20px;
+	opacity: 1;
+	padding: 10px;
+}
+
+.ng_il .animate-show.ng-hide-add.ng-hide-add-active, .ng_il .animate-show.ng-hide-remove.ng-hide-remove-active {
+	-webkit-transition: all linear 0.5s;
+	transition: all linear 0.5s;
+}
+
+.ng_il .animate-show.ng-hide {
+	line-height: 0;
+	opacity: 0;
+	padding: 0 10px;
+}
+
+.ng_il img.btnImage {
+	width: 20px;
+	margin-top: -20px;
+}
+
+.ng_il .il_btn.navigation.next:hover, .ng_il .il_btn.navigation.next:focus{
+	background-color: #3276b1;
+}
+
+.ng_il .il_btn.navigation.previous:hover, .ng_il .il_btn.navigation.previous:focus {
+	background-color: #3276b1;
+}
+
+.ng_il .slideInstructions {
+	position: absolute;
+	background-color: white;
+	padding: 5px;
+	border-radius: 20px;
+	margin-left: 289px;
+	z-index: 200;
+}
+
+.animate-if {
+}
+
+.animate-if.ng-enter, .animate-if.ng-leave, .animate-if.ng-hide-add, .animate-if.ng-hide-remove {
+	-webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+	transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+.animate-if.ng-enter, .animate-if.ng-leave.ng-leave-active, .animate-if.ng-hide-add, .animate-if.ng-hide-remove {
+	opacity: 0;
+}
+
+.animate-if.ng-leave, .animate-if.ng-enter.ng-enter-active, .animate-if.ng-hide-add, .animate-if.ng-hide-remove {
+	opacity: 1;
+}
+
+.ng_il select.il_wb_select {
+	border: 3px solid #29ABE2;
+	border-radius: 5px;
+}
+
+.ng_il .il_question, .il_wb_remaining_words {
+	background-color: rgba(254, 254, 246, 0.8);
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.ng_il .il_navigation {
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left: -20px;
+	padding-left: 10px;
+}
+
+.ng_il .il_nav_btns {
+	position: absolute;
+	right: 10px;
+	bottom: 7px;
+	left: 10px;
+}
+
+.ng_il button.il_previous {
+	bottom: 0px !important;
+	position: absolute;
+}
+
+.ng_il .il_previous {
+	-moz-border-radius-topleft: 20px;
+	-webkit-border-top-left-radius: 20px;
+	border-top-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.ng_il .il_next {
+	-moz-border-radius-topright: 20px;
+	-webkit-border-top-right-radius: 20px;
+	border-top-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.ng_il .il_nav_btns button:hover, .ng_il .il_nav_btns button:focus {
+	background-color: #fed5ad;
+}
+
+.ng_il .il_progress {
+	background-color: gray;
+	border-radius: 10px;
+	height: 20px;
+	width: 100px;
+	/* position: absolute; */
+	/* top: 10px; */
+	/* left: 20px; */
+	color: #EEE;
+	text-shadow: 1px 1px 2px #202020;
+	cursor: default;
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+	box-shadow: inset 0 0 5px black;
+}
+
+.ng_il .il_bar {
+	background-image: url(../images/line.jpg);
+	background-size: cover;
+	height: 20px;
+	background-color: black;
+	box-shadow: 0 0 8px black;
+	transition: 0.5s ease;
+}
+
+.ng_il .il_navigation {
+	color: white;
+	font-size: 12pt;
+}
+
+.ng_il .il_btns {
+	position: absolute;
+	bottom: 55px;
+	right: -25px;
+/*	bottom: 78px;
+	right: 15px; */
+	/* border: 0; */
+	/* background-color: white; */
+}
+
+.ng_il button.il_wb_submit, .ng_il button.il_wb_restart_btn {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	border: none;
+}
+
+.ng_il button.il_wb_submit:hover, .ng_il button.il_wb_restart_btn:hover, .ng_il button.il_wb_submit:focus, .ng_il button.il_wb_restart_btn:focus {
+	background-color: #fed5ad;
+}
+
+.ng_il .wrong {
+	border: 3px solid orange !important;
+}
+
+.ng_il button[disabled=disabled], .ng_il button:disabled {
+	background-color: #e6e6e6 !important;
+	opacity: 0.5;
+}
+
+.ng_il button[disabled=disabled]:hover, .ng_il button:disabled:hover, .ng_il button[disabled=disabled]:focus, .ng_il button:disabled:focus {
+	background-color: #e6e6e6 !important;
+}
+
+.ng_il select option:disabled {
+	display: none;
+}
+
+.ng_il span.underline {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ng_il .well-lg {
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.ng_il .il_textversion_question {
+	background-color: #FAFAFA;
+	padding: 1px 10px 1px 10px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+.ng_il .textversionHeight {
+	position: absolute !important;
+	top: -999999px;
+	visibility: hidden !important;
+	display: block !important;
+}
+
+.ng_il .well {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 5px;
+	background-image: none;
+}
+
+.ng_il .il_question_wrapper {
+	/*
+	position: absolute;
+	*/
+	width: 95%;
+	height: 390px;
+}
+
+.ng_il h4.il_question_number {
+	background-image: url(../images/flag.png);
+	/* width: 151px; */
+	background-size: cover;
+	padding: 10px 10px 10px 20px;
+	width: 186px;
+	margin-left: -20px;
+	margin-top: -10px;
+	color: white;
+}
+
+.ng_il .well {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 5px;
+	background-color: #29ABE2;
+	color: white;
+}
+
+.ng_il .il_big_question {
+	font-size: 12pt;
+}
+
+.ng_il .wrong_sortable {
+	background-color: orange;
+}
+
+.ng_il button.il_tf_btn {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.ng_il h3.il_wb_heading {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.ng_il .il_question label {
+	display: block;
+}
+
+.ng_il .il_radio {
+	width: 32px;
+	height: 16px;
+}
+
+.ng_il .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-left: -1px;
+}
+
+.ng_il .btn-group > .btn:last-child:not(:first-child), .ng_il .btn-group > .dropdown-toggle:not(:first-child) {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 5px;
+}
+
+.ng_il .btn-group > .btn, .ng_il .btn-group-vertical > .btn {
+	position: relative;
+	float: none;
+}
+
+.ng_il .btn-primary {
+	text-align: left;
+	width: 100%;
+	color: black;
+	background-color: white;
+	border: 3px solid #29ABE2;
+	margin-top: -3px;
+}
+
+.ng_il .btn-primary:hover, .ng_il .btn-primary:focus {
+	width: 100%;
+	color: black;
+	background-color: #ecebeb;
+}
+
+.ng_il .btn-group, .ng_il .btn-group-vertical {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ng_il button.active {
+	background: #29ABE2 !important;
+	color: white !important;
+}
+
+.ng_il .il_textversion ul {
+	margin-left: 0;
+	padding: 0;
+}
+
+.ng_il button.btn {
+	width: 100%;
+	white-space:normal;
+}
+
+.ng_il .well.well-lg {
+	border-radius: 0;
+	background-color: #edeeef;
+	color: black;
+}
+
+.well.well-lg strong.hebrew {
+	float: right;
+}
+
+.ng_il .il_wb_sentence_frag {
+	display: inline;
+}
+
+.ng_il .progress {
+	width: 400px;
+	float: left;
+	margin-right: 10px;
+}
+
+.ng_il .progress-bar {
+	cursor: pointer;
+}
+
+.ng_il .popover-content {
+	color: black;
+	font-size: 10pt;
+}
+
+.ng_il .il_nav_btns button {
+	color: black;
+	border: none;
+	background-color: white;
+	width: 120px !important;
+}
+
+.ng_il .il_question, .ng_il .il_wb_remaining_words {
+	background-color: rgba(254, 254, 246, 0.8);
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 530px) {
+	.il_int_title {
+		display: none;
+	}
+
+	.ng_il .il_question_number {
+		display: none !important;
+	}
+
+	.ng_il .il_question {
+		margin-bottom: 5px !important;
+	}
+
+	.ng_il .progress {
+		display: none !important;
+	}
+
+	.ng_il span.il_slide_num {
+		display: block;
+		padding-bottom: 18px;
+	}
+}
+
+.ng_il span.il_down_arrow {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: -25px;
+	margin-right: 10px;
+}
+
+.ng_il span.il_up_arrow {
+	position: absolute;
+	/* top: 10px; */
+	margin-top: -7px;
+	margin-left: -25px;
+}
+
+.ng_il .well div {
+	padding-left: 10px;
+}
+
+.ng_il .results h1 {
+	text-align: center;
+}
+
+.ng_il .il_stars {
+	font-size: 50pt;
+	margin: 0 auto;
+	width: 245px;
+	color: #FFB000;
+}
+
+.ng_il button.il_wb_restart {
+	padding: 20px;
+	font-size: 18pt;
+	margin: 30px auto;
+	display: block;
+}
+
+.ng_il .il_questions_correct {
+	font-size: 15pt;
+	text-align: center;
+}
+
+.ng_il .il_navigation button.il_wb_restart {
+	font-size: 12pt;
+	padding: 5px 20px 5px 20px;
+	margin: 0;
+	margin-top: -42px;
+	/* float: right; */
+	right: 20px;
+	position: absolute;
+	bottom: 5px;
+}
+
+.ng_il .progress {
+	height: 20px;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.ng_il span.il_slide_num {
+	display: block;
+	margin-top: 0;
+}
+
+.ng_il span.il_results_text {
+	display: Block;
+	width: 255px;
+	margin: 0 auto;
+}
+
+.ng_il html.no-js {
+	height: 100%;
+}
+
+.ng_il .modal {
+	overflow-y: auto;
+}
+
+.ng_il .modal-open {
+	overflow: auto;
+}
+
+.il_mc .active .check {
+}
+
+.ng_il .il_textversion_question h4.slideTitle {
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	margin: -10px -10px 0;
+	padding: 5px 0 5px 9px;
+	color: white;
+}
+
+.ng_il .il_text_quiz {
+	background-color: white;
+	margin: 0;
+	padding: 10px !important;
+	border-bottom: 1px solid black;
+}
+
+.ng_il .il_textversion img {
+	margin-top: 32px;
+}
+
+.ng_il .il_show.ng-hide-add, .ng_il .il_show.ng-hide-remove {
+	/* this is required as of 1.3x to properly
+     apply all styling in a show/hide animation */
+	transition: 1s linear all;
+}
+
+.ng_il .il_show.ng-hide-add-active, .ng_il .il_show.ng-hide-remove-active {
+	/* the transition is defined in the active class */
+	transition: 1s linear all;
+}
+
+.ng_il .il_modal-backdrop {
+	padding-top: 20px;
+	width: 150%;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 150%;
+	position: absolute;
+	z-index: 999;
+	margin: -20px;
+}
+
+.modal-show {
+	position: relative;
+	min-height: 100px;
+	-webkit-transition: 0.5s ease all;
+	transition: 0.5s ease all;
+	top: 0;
+	opacity: 1;
+}
+
+.modal-show.ng-hide {
+	top: -50px;
+	opacity: 0;
+}
+
+.modal-show.ng-hide-add, .modal-show.ng-hide-remove {
+	display: block !important;
+}
+
+.ng_il .cssFade {
+	transition: 0.5s ease all;
+	opacity: 1;
+}
+
+.ng_il .cssFade.ng-hide {
+	opacity: 0;
+}
+
+/*
+.ng_il button.il_wb_restart_btn {
+	background-color: white;
+	border: 0 none;
+	border-radius: 5px;
+	bottom: 55px;
+	color: black;
+	margin: -75px 0 0 100px;
+	position: absolute;
+	right: 10px;
+}
+*/
+
+span.copyright {
+	font-size: 8pt;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+.ng_il .il_customView {
+	position: absolute;
+	width: 94%;
+}
+
+.il_viewport_backgrop {
+	position: absolute;
+	margin: -20px;
+	z-index: -1;
+	padding: -2px;
+	height: 100%;
+	width: 100%;
+}
+
+.ng_il .il_viewport_backgrop img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 0;
+}
+
+h3.il_question {
+	margin-top: 0;
+}
+
+span.copyright {
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h4.il_question.matching_correct {
+	position: absolute;
+}
+
+/**
+ * For the correct positioning of the placeholder element, the dnd-list and
+ * it's children must have position: relative
+ */
+.dnd ul,
+.dnd ul > li {
+	position: relative;
+}
+
+/**
+ * The dnd-list should always have a min-height,
+ * otherwise you can't drop to it once it's empty
+ */
+.dnd ul {
+	min-height: 42px;
+	padding-left: 0;
+}
+
+/**
+ * The dndDraggingSource class will be applied to
+ * the source element of a drag operation. It makes
+ * sense to hide it to give the user the feeling
+ * that he's actually moving it.
+ */
+.dnd ul .dndDraggingSource {
+	display: none;
+}
+
+/**
+ * An element with .dndPlaceholder class will be
+ * added to the dnd-list while the user is dragging
+ * over it.
+ */
+.dnd ul .dndPlaceholder {
+	display: block;
+	background-color: #ddd;
+	min-height: 35px;
+	margin-bottom: -12px;
+}
+
+/**
+ * The dnd-lists's child elements currently MUST have
+ * position: relative. Otherwise we can not determine
+ * whether the mouse pointer is in the upper or lower
+ * half of the element we are dragging over. In other
+ * browsers we can use event.offsetY for this.
+ */
+.dnd ul li {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: -1px;
+}
+
+/**
+ * Show selected elements in green
+ */
+.dnd ul li.selected {
+	background-color: #dff0d8;
+	color: #3c763d;
+}
+
+ul.il_question.il_dnd_bin li {
+	display: inline-block;
+}
+
+.ng_il .il_header {
+	z-index: 1;
+	position: relative;
+}
+
+.il_question.ng-pristine.ng-untouched.ng-valid.ui-droppable {
+	z-index: 0;
+	min-height: 110px;
+	border: 2px solid black;
+	border-top: none;
+	border-radius: 0 0 15px 15px;
+	margin-top: -20px;
+	padding: 15px;
+	background: #FFF;
+}
+
+.ng_il .dragdropv2 .il_header {
+	font-size: 18px;
+}
+
+/*.bin.col {
+	float: left;
+	margin-right: 1%;
+}*/
+
+.bin.col {
+	float: left;
+	margin: 0 5px 0 20px;
+	width: 21% !important;
+}
+
+.btn.il_btn.btn-info.btn-draggable.ng-pristine.ng-untouched.ng-valid.ng-binding.ng-scope.ui-draggable.ui-draggable-handle:hover,.btn.il_btn.btn-info.btn-draggable.ng-pristine.ng-untouched.ng-valid.ng-binding.ng-scope.ui-draggable.ui-draggable-handle:focus {
+	font-weight: normal;
+}
+
+label {
+	white-space: normal !important;
+}
+
+.il_text_image {
+	max-width: 150px;
+}
+
+.il_question_mark {
+	top: 9px;
+	position: absolute;
+	right: 10px;
+	background-color: orange;
+	color: white;
+	border: 0;
+}
+
+span.boldText {
+	font-weight: bold;
+}
+
+
+.closeBTN {
+	cursor: pointer;
+	box-shadow: 0px 0px 10px #888888;
+	margin-top: -2px;
+	margin-left: 628px;
+	border-radius: 50%;
+	font-weight: bold;
+	width: 40px;
+	height: 40px;
+	padding: 6px;
+	padding-left: 13px;
+	position: absolute;
+	background-color: white;
+	/* border: 3px solid black; */
+	font-size: 16pt;
+	background-color: #efefef;
+	/* color: white; */
+	/* border: 3px solid white; */
+}
+
+at-view-fade-in.ng-enter {
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	position: absolute;
+	opacity: 0;
+}
+
+.at-view-fade-in.ng-enter-active {
+	opacity: 1;
+}
+
+/*
+.at-view-fade-out.ng-leave {
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	position: absolute;
+	opacity: 1;
+}
+*/
+
+.at-view-fade-out.ng-leave-active {
+	opacity: 0;
+}
+
+.viewWrapper {
+	margin: 0 auto;
+	width: 700px;
+}
+
+
+.ng_il .markerWrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ng_il .marker {
+	position: absolute;
+	cursor: pointer;
+}
+
+.ng_il .beige_marker {
+	position: absolute;
+	background: url(../images/beige_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .blue_marker {
+	position: absolute;
+	background: url(../images/blue_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .green_marker {
+	position: absolute;
+	background: url(../images/green_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .lime_marker {
+	position: absolute;
+	background: url(../images/lime_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .orange_marker {
+	position: absolute;
+	background: url(../images/orange_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .pink_marker {
+	position: absolute;
+	background: url(../images/pink_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .purple_marker {
+	position: absolute;
+	background: url(../images/purple_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .red_marker {
+	position: absolute;
+	background: url(../images/red_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .teal_marker {
+	position: absolute;
+	background: url(../images/teal_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .yellow_marker {
+	position: absolute;
+	background: url(../images/yellow_marker.png) no-repeat;
+	height: 25px;
+	width: 15px;
+}
+
+.ng_il .markerBackdrop {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5000;
+}
+
+.ng_il .markerPopup {
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+	margin: 0 auto;
+	min-height: 155px;
+	padding: 10px 20px;
+	position: absolute;
+	width: 500px;
+	z-index: 9999;
+}
+
+.ng_il .markerInfo {
+	clear: both;
+}
+
+.ng_il .markerInfo img {
+	max-width: 200px;
+	margin: 5px;
+	float: right;
+}
+
+.ng_il .markerPopupClose {
+	float: right;
+	box-shadow: none;
+	border: none;
+	border-radius: 5px;
+	height:30px;
+}
+
+.animate-show {
+	opacity: 1;
+}
+
+.animate-show.ng-hide-add {
+	transition: all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+	opacity: 0;
+}
+
+.ng_il .il_question {
+	background-repeat: no-repeat;
+}
+
+.ng_il img.backgroundImage {
+    position: absolute;
+}
+
+
+
+/*======================================
+
+CSS DOCUMENT FOR CUSTOM INTERACTIVE STYLES, ABOVE THE ILSKIN templates
+HAVE TO CALL IT IN SETTINGS FILE var course_csslibs = ['../global/css/interactives.css'...
+
+======================================*/
+
+/* Interactive Title */
+.ng_il h2.il_int_title{
+	color: #173348 !important;
+	text-shadow: 2px 2px 2px #ebebeb !important;
+	background-color:transparent;
+	background-image:url(../images/interactive_header.jpg);
+	background-repeat:no-repeat;
+    z-index: 998;
+	min-height:99px;
+	margin: 0 0 -30px -21px !important;
+	padding:15px !important;
+	border-radius:0;
+	font-size: 24px !important;
+}
+
+/* Interactive Border */
+.ng_il .viewport {
+	border:3px solid #eeeeef !important;
+	border-radius:0 !important;
+	background-image: none;
+	background-repeat:repeat-y;
+	padding: 20px !important;
+}
+
+/* Hide Default Background on Options */
+.ng_il .btn-primary {
+	background-image: none;
+}
+
+/* Slide Number 1 of 5 */
+.ng_il span.il_slide_num {
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ebebeb !important;
+}
+
+/* Expand area for Question */
+h4.il_question.col-xs-4.ng-binding.ng-scope {
+	width: 40%;
+}
+
+/* M/C Question Area */
+.ng_il .il_question, .ng_il .il_wb_remaining_words{
+	background-color: transparent;
+	border: none;
+	line-height: 1.3em;
+    padding: 25px;
+}
+
+/* Interactive Click/Reveal */
+.ng_il button.btn {
+	/*background-image: -webkit-linear-gradient(top, #9F243D 0, #8D4224 100%);
+	background-image: linear-gradient(to bottom, #9F243D 0, #8D4224 100%);*/
+	background: #9F243D !important;
+	background-position: 0;
+	font-weight: bold;
+	color:#FFF;
+	text-shadow: none;
+}
+.ng_il button.btn:hover,.ng_il button.btn:focus {
+	background: #9F243D;
+	color: white;
+	text-shadow: none;
+}
+
+/* Instructions Title */
+.ng_il .modal-title {
+	color: #FFF;
+	background: #9F243D;
+	background-image: none;
+}
+
+/* Instructions OK button */
+.ng_il .il_btn {
+	border: 3px solid #9F243D !important;
+	background-color: white !important;
+	background-image: none;
+	color: #9F243D !important;
+}
+.ng_il .il_btn:hover,.ng_il .il_btn:focus {
+	background-color: #9F243D !important;
+	color: white !important;
+}
+
+/* Adjust instruction gray cover up to cover the title*/
+.ng_il .il_modal-backdrop {
+	margin-top: -70px;
+}
+
+.markerBackdrop {
+	height: 1000px !important;
+	margin: -20px 0 0 -20px;
+}
+
+/* Submit & Restart buttons */
+.ng_il button.il_wb_submit, .ng_il button.il_wb_restart_btn {
+	border: 3px solid #9F243D !important;
+	background-color: white !important;
+	color: #9F243D !important;
+	font-weight: bold;
+}
+.ng_il button.il_wb_submit:hover, .ng_il button.il_wb_restart_btn:hover, .ng_il button.il_wb_submit:focus, .ng_il button.il_wb_restart_btn:focus {
+	background-color: #9F243D !important;
+	color: white !important;
+}
+
+/* Nav buttons */
+.ng_il .il_nav_btns button {
+	background-color: rgba(0,0,0,0.0) !important;
+	/*color: #976F28 !important;*/
+	color: rgba(0, 0, 0, 0.0) !important;
+	font-weight: bold;
+}
+.ng_il .il_nav_btns button:hover, .ng_il .il_nav_btns button:focus {
+	background-color: rgba(0,0,0,0.0) !important;
+	color: rgba(0, 0, 0, 0.0) !important;
+}
+
+/* Modal grey cover background */
+.ng_il .il_modal-backdrop {
+	height: 800px;
+	width: 800px;
+	z-index: 989;
+}
+/* Modal Holder */
+.ng_il .modal_holder {
+	margin-left: -10px;
+}
+
+/* Modal button */
+button.il_modalbtn {
+	text-align: center !important;
+	width: 70px !important;
+}
+
+/* Textversion Slide # */
+.ng_il .il_textversion_question h4 {
+	color: #FFF;
+}
+
+/* Textversion Button */
+.ng_il .il_textbtn  {
+	background: #FFF !important;
+	border: 5px solid #9f243d !important;
+	color: #9f243d !important;
+	border-radius:0 !important;
+	padding:3px !important;
+	text-transform: uppercase;
+    font-size: 12px;
+	display:block;
+}
+.ng_il .il_textbtn:hover, .ng_il .il_textbtn:focus {
+	background-color: #9f243d !important;
+	color: white !important;
+}
+
+/* Timeline */
+h2.il_header.ng-binding {
+	min-height: 54px;
+}
+
+/**** Pointer in Timeline */
+rzslider span.pointer {
+	background-color: #739729;
+}
+rzslider span.bubble, rzslider span.bubble.limit {
+	color: #739729;
+}
+
+.ng_il .il_dragdrop_items .il_btn {
+    border: 3px solid #9F243D !important;
+    background-color: white !important;
+    background-image: none !important;
+    color: #173348 !important;
+    font-weight: bold !important;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    height: 40px !important;
+}
+
+.ng_il .bin .il_header {
+    z-index: 1;
+    position: relative;
+    min-height:38px;
+}
+
+.il_question.il_wb_question.ng-scope {
+    background: none !important;
+    border: 0 !important;
+}
+
+button.il_question_mark.ng-scope {
+    background: #9F243D;
+    font-weight: bold;
+    z-index: 998;
+}
+
+.ng_il .il_navigation {
+	background: #DDD !important;
+	border-top: 5px solid #FBD600 !important;
+}
+
+.ng_il select.il_wb_select {
+    border: 2px solid #9F243D !important;
+    border-radius: 0px !important;
+}
+
+.ng_il .il_btns {
+    bottom: 75px !important;
+    right: 25px !important;
+}
+
+
+.ng_il .il_nav_btns button {
+	width: 30px !important;
+}
+
+.ng_il .il_next {
+	background-color: transparent !important;
+    background-image: url(../../global/images/interactive_rightarrow.png);
+    background-repeat: no-repeat;
+    width: 30px !important;
+	height: 30px;
+    border-radius: 0px;
+}
+
+.ng_il .il_previous {
+	background-color: transparent !important;
+    background-image: url(../../global/images/interactive_leftarrow.png);
+    background-repeat: no-repeat;
+    width: 30px !important;
+	height: 30px;
+    border-radius: 0px;
+}
+
+.ng_il .il_next, .ng_il .il_previous {
+	text-indent: 150%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.ng_il .il_next span, .ng_il .il_previous span {
+	display:none !important;
+}
+
+.progress-bar-success {
+	background-image: -webkit-linear-gradient(top,#4b8581 0,#3d7470 50%,#31625e 100%);
+    background-image: linear-gradient(to bottom,#4b8581 0,#3d7470 50%,#31625e 100%);
+}
+
+.progress-bar-danger {
+	background-image: -webkit-linear-gradient(top,#cd455d 0,#bf374f 50%,#ae2e44 100%);
+    background-image: linear-gradient(to bottom,#cd455d 0,#bf374f 50%,#ae2e44 100%);
+}
+
+.progress-bar-success span,
+.progress-bar-danger span { padding: 0 2px !important; }
+
+.progress-bar-success span:after {
+    content: url('../images/quizmo_check.png');
+}
+
+.progress-bar-danger span:after {
+    content: url('../images/quizmo_x.png');
+}
+
+.mobile_textversion {
+	display:none;
+}
+
+.textversion1.viewport {
+    padding: 20px !important;
+    background-color: #E5E5E5;
+}
+
+.il_textversion h2 {
+    background-image:none !important;
+}
+
+@media screen and (max-width: 763px) {
+	.mobile_textversion {
+	display:block;
+	}
+	.il_viewport {
+	display:none;
+	}
+}
+
+.ng_il .imgmarker .il_content {
+	position: absolute;
+	width: 100%;
+}
+
+.ng_il .imgmarker .il_question_mark {
+	right:26px !important;
+}
+.carousel .carousel-control.left:focus,
+.carousel .carousel-control.right:focus {
+	box-shadow: 0 0 2px 0 #66afe9;
+}

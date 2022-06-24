@@ -1,0 +1,112 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_02_06/styles.css"],
+    "intMedia": "interactives/06_02_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>散步</span> sànbù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is <strong>least</strong> like the same type of activity as the one indicated by the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>洗碗</span>",
+        "options": [
+          "<span lang='zh-Hans'>拍照</span>",
+          "<span lang='zh-Hans'>唱歌</span>",
+          "<span lang='zh-Hans'>画画</span>"
+        ],
+        "correct": "Job beautifully done, especially recognizing the characters in the choices without the assistance of pinyin. Awesome! <span lang='zh-Hans'>散步</span> sànbù means to walk as a leisure activity, and of the activities in the choices, <span lang='zh-Hans'>洗碗</span> xǐwǎn (to wash dishes) is least like a pastime as a leisure walk.", 
+        "incorrect": "Very close. Think about what activity the word represents. Then read the choices to identify the activities they represent and consider which one may not make you feel the same way as the activity in the question does.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [{
+      "type": "config",
+      "customView": "interactives/06_02_06/customview_imgbtn.htm"
+    },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>演奏</span> yǎnzòu"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items in the images can be used with the verb indicated by the word presented?</p>",
+        "answer": "<span class='fortv'>Image of a piano</span><img src='interactives/06_02_06/intmedia/img_1.jpg' alt='Image of a piano' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of a basketball</span><img src='interactives/06_02_06/intmedia/img_2.jpg' alt='Image of a basketball' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of someone playing music</span><img src='interactives/06_02_06/intmedia/img_3.jpg' alt='Image of someone playing music' class='border center-block'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a videogame controller</span><img src='interactives/06_02_06/intmedia/img_4.jpg' alt='Image of a videogame controller' class='border center-block'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "Outstanding job! <span lang='zh-Hans'>演奏</span> yǎnzòu means “to play (a musical instrument).” Of the choices, the most suitable item that can be placed after <span lang='zh-Hans'>演奏</span> yǎnzòu would be the piano. ",   
+        "incorrect": "Not quite…First identify the meaning of the word and how it’s used. Then, look at the images to see which one meets the criteria.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>瑜伽</span> yújiā "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can <strong>best</strong> be completed with the word presented?</p>", 
+        "answer": "<span lang='zh-Hans'>我每天上午练_____。</span>Wǒ měitiān shàngwǔ liàn_____.",      
+        "options":[
+          "<span lang='zh-Hans'>你下午要去买_____。</span>Nǐ xiàwǔ yào qù mǎi _____.",
+          "<span lang='zh-Hans'>我妹妹今天晚餐想吃_____。</span>Wǒ mèimei jīntiān wǎncān xiǎngchī_____.",
+          "<span lang='zh-Hans'>她星期天要打扫_____。</span>Tā xīngqītiān yào dǎsǎo_____."
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>瑜伽</span> yújiā means “yoga,” and the best verb to go with it in the sentences is <span lang='zh-Hans'>练</span> liàn, which is short for <span lang='zh-Hans'>练习</span> liànxí (to practice).",
+        "incorrect": "So close! Think about the meaning of this word and which verb should be used for it, and then review the sentences to see which one is most suitable in both meaning and structure. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>玩电子游戏</span> wán diànziyóuxì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which place does this activity <strong>most</strong> likely take place?</p>", 
+        "answer": "In the living room",
+        "options": [
+          "In the kitchen",
+          "At the bakery",
+          "In the classroom"
+        ],
+        "correct": "Very nice job! <span lang='zh-Hans'>玩电子游戏</span> wán diànziyóuxì means “to play videogames,” and the most suitable place for it is the family living room. You might play videogames in your classroom.",
+        "incorrect": "Not quite…Think about what activity this word represents. Then review the choices to see in which location you are most likely to see this activity carried out.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>演唱会</span> yǎnchànghuì "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following verbs can be used with the word presented?</p>", 
+        "answer": "<span lang='zh-Hans'>听</span>",      
+        "options":[
+          "<span lang='zh-Hans'>说</span>",
+          "<span lang='zh-Hans'>写</span>",
+          "<span lang='zh-Hans'>读</span>"
+        ],
+        "correct": "Job very well done! <span lang='zh-Hans'>演唱会</span> yǎnchànghuì means “concert,” and two verbs that can be used before it to indicate attending a concert are <span lang='zh-Hans'>看</span> kàn (to watch) and <span lang='zh-Hans'>听</span> tīng (to listen to).",
+        "incorrect": "Oops…Consider the meaning of this word and which verb can be used with it. Then, review the one-character verbs in the choices to see which one is more suitable.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

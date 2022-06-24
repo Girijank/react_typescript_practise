@@ -1,0 +1,46 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Match the English derivative to its Latin vocabulary term.",
+        "options": [
+          {
+            "left": "<em>persuadeo, persuadere, persuasi, persuasus, -a, -um </em>",
+            "right": "persuade, persuasion"
+          },
+          {
+            "left": "<em>video, videre, vidi, visus, -a, -um</em>",
+            "right": "video, vision, visible"
+          },
+          {
+            "left": "<em>cano, canere, cecini, cantus, -a, -um</em>",
+            "right": "cantor, chant, chanteuse"
+          },
+          {
+            "left": "<em>claudo, claudere, clausi, clausus, -a, -um</em>",
+            "right": "clause, include, conclude, preclude, seclude, exclude, conclusion, closure"
+          },
+          {
+            "left": "<em>frango, frangere, fregi, fractus, -a, -um</em>",
+            "right": "fraction, fracture, fragment, refraction, fragile, fragility"
+          },
+          {
+            "left": "<em>lavo, lavare, lavi, lautus, -a, -um</em>",
+            "right": "lavage, lavatory, lave"
+          },
+          {
+            "left": "<em>muto, mutare, mutavi, mutatus, -a, -um</em>",
+            "right": "mutation, permutation"
+          }
+			
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

@@ -1,0 +1,112 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_01_03/styles.css"],
+    "intMedia": "interactives/02_01_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_eat.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>吃</span> chī"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which of the following places will the word in the audio most likely be used?</p>",
+        "answer": "At a restaurant",
+        "options": ["At a post office", "In a classroom", "In a bathroom"],
+        "correct": "Wonderfully done! <span lang='zh-Hans'>吃</span><em> chī</em> means “to eat,” and the most suitable place for that action would definitely be in a restaurant.",
+        "incorrect": "Very close. Listen to the audio again and think about its meaning. You can do it!",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "rice.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>米饭</span> mǐfàn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words falls in the same category as the word in the audio?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>面条</span> miàntiáo</span><audio class='audio' controls src='interactives/02_01_03/intmedia/noodles.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>蓝色</span> lánsè</span><audio class='audio' controls src='interactives/02_01_03/intmedia/blue.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>医生</span> yīshēng</span><audio class='audio' controls src='interactives/02_01_03/intmedia/doctor.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>朋友</span> péngyǒu</span><audio class='audio' controls src='interactives/02_01_03/intmedia/friend.mp3' ></audio>"
+        ],
+        "correct": " Terrific job! <span lang='zh-Hans'>米饭</span><em> mǐfàn</em> (Rice) and<span lang='zh-Hans'>面条</span><em> miàntiáo</em>(noodles) are both food items, and they belong together. ",
+        "incorrect": "So close! Listen to all four words again, and think about the meaning of each one.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_like.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>喜欢</span> xǐhuān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我</span>____<span lang='zh-Hans'>米饭</span>。Wǒ _____ mǐfàn.",
+        "options": [
+          "<span lang='zh-Hans'>我从</span>_____<span lang='zh-Hans'>来</span>. Wǒ cóng____lái.",
+          "<span lang='zh-Hans'>我</span>_____<span lang='zh-Hans'>年出生</span>。Wǒ ___nián chūshēng.",
+          "<span lang='zh-Hans'>我</span>____<span lang='zh-Hans'>开朗</span>。Wǒ _____ kāilǎng."
+        ],
+        "correct": " Wonderful job! <span lang='zh-Hans'>喜欢</span><em> xǐhuān</em> is a verb and should be used to describe preferences. ",
+       
+        "incorrect": "Not quite… think about the meaning of the word in the audio and the structure in each choice. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "cheese.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>奶酪</span> nǎilào"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Where do we most likely find the item in the audio?</p>",
+        "answer": "At a local deli",
+        "options": [
+          "In a hospital",
+          "In a classroom",
+          "In a forest"
+        ],
+        "correct": "Excellently done! <span lang='zh-Hans'>奶酪</span><em>nǎilào</em> means “cheese” and can be found at a deli. Not likely to find it in a forest, is it?",        
+        "incorrect": "So close… think about the meaning of the word in the audio; then you can consider where it can be easily found.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "or.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>还是</span> háishì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following phrases can the word in the audio best complete?</p>",
+        "answer": "<span lang='zh-Hans'>男孩</span>____<span lang='zh-Hans'>女孩</span> nánhái ___ nǚhái",
+        "options": [
+          "<span lang='zh-Hans'>你</span>_____<span lang='zh-Hans'>高</span> nǐ ___ gāo",
+          "<span lang='zh-Hans'>头发</span>_____<span lang='zh-Hans'>红色</span> tóufà ___ hóngsè",
+          "<span lang='zh-Hans'>他</span>_______<span lang='zh-Hans'>医生</span> tā ___ yīshēng"
+        ],
+        "correct": "Wonderful job! <span lang='zh-Hans'>还是</span><em>háishì</em> means “or” and can be used between two items of similar/equal quality such as in “boy or girl.” ",        
+        "incorrect": "Not quite. Think about the meaning of the word in the audio and how it can be used to connect two words or items.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

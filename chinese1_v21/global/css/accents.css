@@ -1,0 +1,97 @@
+#externalContent {
+	border-bottom:none;
+	background: #FFF;
+	border-top: 18px solid #8cb265 !important;
+	width:100%;
+	margin:0 auto;
+	padding:20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#externalContent a {
+	color:#8cb265;
+}
+
+#externalContent a.print, #externalContent a.page-close {
+	color:#566066;
+}
+
+#externalContent img { 
+	display:block;
+	margin:0 auto;
+}
+
+#externalContent h3 {
+	color:#8cb265;
+	font-size:42px;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#externalContent .btn-group {
+	text-align:center;
+}
+
+#externalContent .btn-group>.btn {
+	float:none;
+}
+
+#externalContent .btn {
+	background-image: none;
+	border: 0px;
+	position:relative;
+    padding-right: 16px;
+    padding-left: 7px;
+}
+
+#externalContent .btn:hover {
+	background-color: transparent !important;
+	background-image: url('../images/glossary_link.jpg') !important;
+	background-repeat: no-repeat;
+    background-position: 40% 75%;
+}
+
+#externalContent .btn a {
+	color: #566066;
+    font-size: 24px;
+    width: 40px;
+    display: block;
+}
+
+#externalContent .btn:hover a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#externalContent .btn:after {
+	content: " • ";
+	position: absolute;
+	right: 1px;
+	top:14px;
+}
+
+#externalContent .btn.no-bullet:after {
+	content: "";
+	position: absolute;
+	right: 1px;
+	top:14px;
+}
+
+#externalContent .table-offset {
+	border:1px solid #d9d9d9;
+	padding:10px;
+}
+
+#externalContent .table {
+	margin-bottom:0;
+}
+
+#externalContent th, 
+#externalContent td {
+    border-right: 1px solid #d9d9d9;
+}
+
+#externalContent th:last-child, 
+#externalContent td:last-child {
+    border-right: none;
+}

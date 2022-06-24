@@ -1,0 +1,1637 @@
+{
+  "glossary": [
+    {
+      "chinese": "Wǒ yě shì. (<span lang='zh-Hans'>我也是。</span>)",
+      "english": "likewise"
+    },
+    {
+        "chinese": "nǐhǎo (<span lang='zh-Hans'>你好</span>)",
+        "english": "hi/hello"
+    },
+    {
+        "chinese": "zàijiàn (<span lang='zh-Hans'>再见</span>)",
+        "english": "goodbye"
+    },
+    {
+        "chinese": "nánhái (<span lang='zh-Hans'>男孩</span>)",
+        "english": "boy"
+    },
+    {
+        "chinese": "nǚhái (<span lang='zh-Hans'>女孩</span>)",
+        "english": "girl"
+    },
+    {
+        "chinese": "péngyǒu (<span lang='zh-Hans'>朋友</span>)",
+        "english": "friend"
+    },
+    {
+        "chinese": "zǎoshàng hǎo (<span lang='zh-Hans'>早上好</span>)",
+        "english": "good morning "
+    },
+    {
+        "chinese": "xiàwǔ hǎo (<span lang='zh-Hans'>下午好</span>)",
+        "english": "good afternoon"
+    },
+    {
+        "chinese": "wǎnshàng hǎo (<span lang='zh-Hans'>晚上好</span>)",
+        "english": "good evening "
+    },
+    {
+        "chinese": "wǎn'ān (<span lang='zh-Hans'>晚安</span>)",
+        "english": "good night "
+    },
+    {
+        "chinese": "Nǐ jiào shénme míngzi?  (<span lang='zh-Hans'>你叫什么名字?</span>)",
+        "english": "What's your name?"
+    },
+    {
+        "chinese": "Wǒ jiào… (<span lang='zh-Hans'>我叫…</span>)",
+        "english": "My name is…"
+    },
+    {
+        "chinese": "Nǐ xìng shénme? (<span lang='zh-Hans'>你姓什么?</span>)",
+        "english": "What’s your last name?"
+    },
+    {
+        "chinese": "Wǒ xìng… (<span lang='zh-Hans'>我姓…</span>)",
+        "english": "My last name is…"
+    },
+    {
+        "chinese": "Hěn gāoxìng rènshi nǐ. (<span lang='zh-Hans'>很高兴认识你。</span>)",
+        "english": "Nice to meet you."
+    },
+    {
+        "chinese": "Nǐ zhùzài nǎlǐ? (<span lang='zh-Hans'>你住在哪里？</span>)",
+        "english": "Where do you live?"
+    },
+    {
+        "chinese": "Wǒ zhùzài… (<span lang='zh-Hans'>我住在…</span>)",
+        "english": "I live in/on/at…"
+    },
+    {
+        "chinese": "Nǐ cóng nǎlǐ lái? (<span lang='zh-Hans'>你从哪里来？</span>)",
+        "english": "Where are you from?"
+    },
+    {
+        "chinese": "Wǒ cóng…lái. (<span lang='zh-Hans'>我从…来.</span>)",
+        "english": "I am from … "
+    },
+    {
+        "chinese": "Nǐ ne? (<span lang='zh-Hans'>你呢?</span>)",
+        "english": "What about you?"
+    },
+    {
+        "chinese": "tā (<span lang='zh-Hans'>他/她/它</span>)",
+        "english": "he/she/it"
+    },
+    {
+        "chinese": "shì (<span lang='zh-Hans'>是</span>)",
+        "english": "to be"
+    },
+    {
+        "chinese": "líng (<span lang='zh-Hans'>零/〇</span>)",
+        "english": "zero"
+    },
+    {
+        "chinese": "yī (<span lang='zh-Hans'>一</span>)",
+        "english": "one"
+    },
+    {
+        "chinese": "èr (<span lang='zh-Hans'>二</span>)",
+        "english": "two"
+    },
+    {
+        "chinese": "sān (<span lang='zh-Hans'>三</span>)",
+        "english": "three"
+    },
+    {
+        "chinese": "sì (<span lang='zh-Hans'>四</span>)",
+        "english": "four"
+    },
+    {
+        "chinese": "wǔ (<span lang='zh-Hans'>五</span>)",
+        "english": "five"
+    },
+    {
+        "chinese": "liù (<span lang='zh-Hans'>六</span>)",
+        "english": "six"
+    },
+    {
+        "chinese": "qī (<span lang='zh-Hans'>七</span>)",
+        "english": "seven"
+    },
+    {
+        "chinese": "bā (<span lang='zh-Hans'>八</span>)",
+        "english": "eight"
+    },
+    {
+        "chinese": "jiǔ (<span lang='zh-Hans'>九</span>)",
+        "english": "nine"
+    },
+    {
+        "chinese": "shí (<span lang='zh-Hans'>十</span>)",
+        "english": "ten"
+    },
+    {
+        "chinese": "Nǐde diànhuàhàomǎ shì duōshǎo? (<span lang='zh-Hans'>你的电话号码是多少？</span>)",
+        "english": "What’s your phone number?"
+    },
+    {
+        "chinese": " (Wǒde diànhuà hàomǎ shì…<span lang='zh-Hans'>我的电话号码是…</span>)",
+        "english": "My phone number is…"
+    },
+    {
+        "chinese": "de (<span lang='zh-Hans'>的</span>)",
+        "english": "of (possession)"
+    },
+    {
+        "chinese": "Nǐ zhǎng shénme yàng? (<span lang='zh-Hans'>你长什么样？</span>)",
+        "english": "What do you look like?"
+    },
+    {
+        "chinese": "Nǐ shì shénme yàngde rén? (<span lang='zh-Hans'>你是什么样的人？</span>)",
+        "english": "What are you like?"
+    },
+    {
+        "chinese": "Wǒ hěn… (<span lang='zh-Hans'>我很…</span>)",
+        "english": "I am very …"
+    },
+    {
+        "chinese": "gāo (<span lang='zh-Hans'>高</span>)",
+        "english": "tall"
+    },
+    {
+        "chinese": "ǎi (<span lang='zh-Hans'>矮</span>)",
+        "english": "short"
+    },
+    {
+        "chinese": "hàixiū (<span lang='zh-Hans'>害羞</span>)",
+        "english": "shy"
+    },
+    {
+        "chinese": "kāilǎng (<span lang='zh-Hans'>开朗</span>)",
+        "english": "outgoing"
+    },
+    {
+        "chinese": "Wǒde yǎnjīng shì...de. (<span lang='zh-Hans'>我的眼睛是...的。</span>)",
+        "english": "My eyes are …(followed by adjective)"
+    },
+    {
+        "chinese": "lánsè (<span lang='zh-Hans'>蓝色</span>)",
+        "english": "blue"
+    },
+    {
+        "chinese": "lǜsè (<span lang='zh-Hans'>绿色</span>)",
+        "english": "green"
+    },
+    {
+        "chinese": "hèsè (<span lang='zh-Hans'>褐色</span>)",
+        "english": "brown"
+    },
+    {
+        "chinese": "hēisè (<span lang='zh-Hans'>黑色</span>)",
+        "english": "black"
+    },
+    {
+        "chinese": "Wǒde tóufà shì ...de. (<span lang='zh-Hans'>我的头发是...的。</span>)",
+        "english": "My hair is … (followed by adjective)"
+    },
+    {
+        "chinese": "jīnsè (<span lang='zh-Hans'>金色</span>)",
+        "english": "blonde"
+    },
+    {
+        "chinese": "hóngsè (<span lang='zh-Hans'>红色</span>)",
+        "english": "red"
+    },
+    {
+        "chinese": "hěn (<span lang='zh-Hans'>很</span>)",
+        "english": "very"
+    },
+    {
+        "chinese": "bǐjiào (<span lang='zh-Hans'>比较</span>)",
+        "english": "somewhat"
+    },
+    {
+        "chinese": "yǒudiǎn (<span lang='zh-Hans'>有点</span>)",
+        "english": "a little"
+    },
+    {
+        "chinese": "xiānsheng (<span lang='zh-Hans'>先生</span>)",
+        "english": "Mr."
+    },
+    {
+        "chinese": "tàitai (<span lang='zh-Hans'>太太</span>)",
+        "english": "Mrs."
+    },
+    {
+        "chinese": "xiǎojiě (<span lang='zh-Hans'>小姐</span>)",
+        "english": "Miss"
+    },
+    {
+        "chinese": "nǚshì (<span lang='zh-Hans'>女士</span>)",
+        "english": "Ms."
+    },
+    {
+        "chinese": "lǎoshī (<span lang='zh-Hans'>老师</span>)",
+        "english": "teacher"
+    },
+    {
+        "chinese": "yīshēng (<span lang='zh-Hans'>医生</span>)",
+        "english": "doctor"
+    },
+    {
+        "chinese": "jiàoshòu (<span lang='zh-Hans'>教授</span>)",
+        "english": "professor"
+    },
+    {
+        "chinese": "nín (<span lang='zh-Hans'>您</span>)",
+        "english": "formal you"
+    },
+    {
+        "chinese": "Nǐ jīnnián duōdà? (<span lang='zh-Hans'>你今年多大？</span>)",
+        "english": "How old are you this year?"
+    },
+    {
+        "chinese": "Wǒ jīnnián .. suì. (<span lang='zh-Hans'>我今年...岁。</span>)",
+        "english": "I am … years old this year."
+    },
+    {
+        "chinese": "Nǐ nǎyīnián chūshēng? (<span lang='zh-Hans'>你哪一年出生？</span>)",
+        "english": "Which year were you born?"
+    },
+    {
+        "chinese": "Wǒ … nián chūshēng. (<span lang='zh-Hans'>我…年出生。</span>)",
+        "english": "I was born in (year) ..."
+    },
+    {
+        "chinese": "xǐhuān (<span lang='zh-Hans'>喜欢</span>)",
+        "english": "to like"
+    },
+    {
+        "chinese": "chī (<span lang='zh-Hans'>吃</span>)",
+        "english": "to eat"
+    },
+    {
+        "chinese": "nǎilào (<span lang='zh-Hans'>奶酪</span>)",
+        "english": "cheese"
+    },
+    {
+        "chinese": "mǐfàn (<span lang='zh-Hans'>米饭</span>)",
+        "english": "rice"
+    },
+    {
+        "chinese": "miàntiáo (<span lang='zh-Hans'>面条</span>)",
+        "english": "noodles"
+    },
+    {
+        "chinese": "háishì (<span lang='zh-Hans'>还是</span>)",
+        "english": "or"
+    },
+    {
+        "chinese": "ròu (<span lang='zh-Hans'>肉</span>)",
+        "english": "meat"
+    },
+    {
+        "chinese": "zhūròu (<span lang='zh-Hans'>猪肉</span>)",
+        "english": "pork"
+    },
+    {
+        "chinese": "jīròu (<span lang='zh-Hans'>鸡肉</span>)",
+        "english": "chicken"
+    },
+    {
+        "chinese": "niúròu (<span lang='zh-Hans'>牛肉</span>)",
+        "english": "beef"
+    },
+    {
+        "chinese": "yúròu (<span lang='zh-Hans'>鱼肉</span>)",
+        "english": "fish"
+    },
+    {
+        "chinese": "hé (<span lang='zh-Hans'>和</span>)",
+        "english": "and"
+    },
+    {
+        "chinese": "shūcài (<span lang='zh-Hans'>蔬菜</span>)",
+        "english": "vegetable"
+    },
+    {
+        "chinese": "báicài (<span lang='zh-Hans'>白菜</span>)",
+        "english": "cabbage"
+    },
+    {
+        "chinese": "xīlánhuā (<span lang='zh-Hans'>西兰花</span>)",
+        "english": "broccoli"
+    },
+    {
+        "chinese": "húluóbo (<span lang='zh-Hans'>胡萝卜</span>)",
+        "english": "carrot"
+    },
+    {
+        "chinese": "shuǐguǒ (<span lang='zh-Hans'>水果</span>)",
+        "english": "fruit"
+    },
+    {
+        "chinese": "chéngzi (<span lang='zh-Hans'>橙子</span>)",
+        "english": "orange"
+    },
+    {
+        "chinese": "píngguǒ (<span lang='zh-Hans'>苹果</span>)",
+        "english": "apple"
+    },
+    {
+        "chinese": "hē (<span lang='zh-Hans'>喝</span>)",
+        "english": "to drink"
+    },
+    {
+        "chinese": "guǒzhī (<span lang='zh-Hans'>果汁</span>)",
+        "english": "juice"
+    },
+    {
+        "chinese": "niúnǎi (<span lang='zh-Hans'>牛奶</span>)",
+        "english": "milk"
+    },
+    {
+        "chinese": "shuǐ (<span lang='zh-Hans'>水</span>)",
+        "english": "water"
+    },
+    {
+        "chinese": "sūdǎ (<span lang='zh-Hans'>苏打</span>)",
+        "english": "soda"
+    },
+    {
+        "chinese": "kāfēi (<span lang='zh-Hans'>咖啡</span>)",
+        "english": "coffee"
+    },
+    {
+        "chinese": "chá (<span lang='zh-Hans'>茶</span>)",
+        "english": "tea"
+    },
+    {
+        "chinese": "zuì (<span lang='zh-Hans'>最</span>)",
+        "english": "the most"
+    },
+    {
+        "chinese": "tài…le (<span lang='zh-Hans'>太…了</span>)",
+        "english": "too"
+    },
+    {
+        "chinese": "bù (<span lang='zh-Hans'>不</span>)",
+        "english": "not"
+    },
+    {
+        "chinese": "lěng (<span lang='zh-Hans'>冷</span>)",
+        "english": "cold"
+    },
+    {
+        "chinese": "rè (<span lang='zh-Hans'>热</span>)",
+        "english": "hot"
+    },
+    {
+        "chinese": "miànbāo (<span lang='zh-Hans'>面包</span>)",
+        "english": "bread"
+    },
+    {
+        "chinese": "tāng (<span lang='zh-Hans'>汤</span>)",
+        "english": "soup"
+    },
+    {
+        "chinese": "sānmíngzhì (<span lang='zh-Hans'>三明治</span>)",
+        "english": "sandwich"
+    },
+    {
+        "chinese": "pài (<span lang='zh-Hans'>派</span>)",
+        "english": "pie"
+    },
+    {
+        "chinese": "qǔqí (<span lang='zh-Hans'>曲奇</span>)",
+        "english": "cookie"
+    },
+    {
+        "chinese": "qiǎokèlì (<span lang='zh-Hans'>巧克力</span>)",
+        "english": "chocolate"
+    },
+    {
+        "chinese": "dāozi (<span lang='zh-Hans'>刀子</span>)",
+        "english": "knife"
+    },
+    {
+        "chinese": "chāzi (<span lang='zh-Hans'>叉子</span>)",
+        "english": "fork"
+    },
+    {
+        "chinese": "sháozi (<span lang='zh-Hans'>勺子</span>)",
+        "english": "spoon"
+    },
+    {
+        "chinese": "kuàizi (<span lang='zh-Hans'>筷子</span>)",
+        "english": "chopsticks"
+    },
+    {
+        "chinese": "bōlíbēi (<span lang='zh-Hans'>玻璃杯</span>)",
+        "english": "glass"
+    },
+    {
+        "chinese": "cānjīn (<span lang='zh-Hans'>餐巾</span>)",
+        "english": "napkin"
+    },
+    {
+        "chinese": "yào (<span lang='zh-Hans'>要</span>)",
+        "english": "to want"
+    },
+    {
+        "chinese": "chǎo (<span lang='zh-Hans'>炒</span>)",
+        "english": "to stir fry"
+    },
+    {
+        "chinese": "wǎn (<span lang='zh-Hans'>碗</span>)",
+        "english": "bowl"
+    },
+    {
+        "chinese": "bēi (<span lang='zh-Hans'>杯</span>)",
+        "english": "cup"
+    },
+    {
+        "chinese": "pán (<span lang='zh-Hans'>盘</span>)",
+        "english": "plate"
+    },
+    {
+        "chinese": "gè (<span lang='zh-Hans'>个</span>)",
+        "english": "count of"
+    },
+    {
+        "chinese": "liǎng (<span lang='zh-Hans'>两</span>)",
+        "english": "two"
+    },
+    {
+        "chinese": "càidān (<span lang='zh-Hans'>菜单</span>)",
+        "english": "menu"
+    },
+    {
+        "chinese": "cāntīng (<span lang='zh-Hans'>餐厅</span>)",
+        "english": "restaurant"
+    },
+    {
+        "chinese": "fúwùyuán (<span lang='zh-Hans'>服务员</span>)",
+        "english": "waiter/waitress"
+    },
+    {
+        "chinese": "qǐnggěiwǒ (<span lang='zh-Hans'>请给我</span>)",
+        "english": "please give me"
+    },
+    {
+        "chinese": "xièxiè (<span lang='zh-Hans'>谢谢</span>)",
+        "english": "thanks"
+    },
+    {
+        "chinese": "bùkèqì (<span lang='zh-Hans'>不客气</span>)",
+        "english": "you are welcome"
+    },
+    {
+        "chinese": "duìbuqǐ (<span lang='zh-Hans'>对不起</span>)",
+        "english": "excuse me"
+    },
+    {
+        "chinese": "zǎocān (<span lang='zh-Hans'>早餐</span>)",
+        "english": "breakfast"
+    },
+    {
+        "chinese": "wǔcān (<span lang='zh-Hans'>午餐</span>)",
+        "english": "lunch"
+    },
+    {
+        "chinese": "jīdàn (<span lang='zh-Hans'>鸡蛋</span>)",
+        "english": "eggs"
+    },
+    {
+        "chinese": "sōngbǐng (<span lang='zh-Hans'>松饼</span>)",
+        "english": "pancakes"
+    },
+    {
+        "chinese": "hànbǎo (<span lang='zh-Hans'>汉堡</span>)",
+        "english": "hamburger"
+    },
+    {
+        "chinese": "zhàshǔtiáo (<span lang='zh-Hans'>炸薯条</span>)",
+        "english": "French fries"
+    },
+    {
+        "chinese": "wǎncān (<span lang='zh-Hans'>晚餐</span>)",
+        "english": "dinner"
+    },
+    {
+        "chinese": "bǐsàbǐng (<span lang='zh-Hans'>比萨饼</span>)",
+        "english": "pizza"
+    },
+    {
+        "chinese": "niúpái (<span lang='zh-Hans'>牛排</span>)",
+        "english": "steak"
+    },
+    {
+        "chinese": "yìdàlìmiàn (<span lang='zh-Hans'>意大利面</span>)",
+        "english": "spaghetti"
+    },
+    {
+        "chinese": "xiā (<span lang='zh-Hans'>虾</span>)",
+        "english": "shrimp"
+    },
+    {
+        "chinese": "yǒu (<span lang='zh-Hans'>有</span>)",
+        "english": "to have "
+    },
+    {
+        "chinese": "duōshǎoqián (<span lang='zh-Hans'>多少钱</span>)",
+        "english": "how much"
+    },
+    {
+        "chinese": "jiàqián (<span lang='zh-Hans'>价钱</span>)",
+        "english": "price"
+    },
+    {
+        "chinese": "fùqián (<span lang='zh-Hans'>付钱</span>)",
+        "english": "to pay "
+    },
+    {
+        "chinese": "xìnyòngkǎ (<span lang='zh-Hans'>信用卡</span>)",
+        "english": "credit card "
+    },
+    {
+        "chinese": "xiànjīn (<span lang='zh-Hans'>现金</span>)",
+        "english": "cash"
+    },
+    {
+        "chinese": "mǎidān (<span lang='zh-Hans'>买单</span>)",
+        "english": "to pay for the bill"
+    },
+    {
+        "chinese": "yuán  (<span lang='zh-Hans'>元</span>)",
+        "english": "dollar"
+    },
+    {
+        "chinese": "jiā (<span lang='zh-Hans'>家</span>)",
+        "english": "family; home"
+    },
+    {
+        "chinese": "shéi (<span lang='zh-Hans'>谁</span>)",
+        "english": "who"
+    },
+    {
+        "chinese": "gēge (<span lang='zh-Hans'>哥哥</span>)",
+        "english": "older brother"
+    },
+    {
+        "chinese": "dìdi (<span lang='zh-Hans'>弟弟</span>)",
+        "english": "younger brother"
+    },
+    {
+        "chinese": "jiějie (<span lang='zh-Hans'>姐姐</span>)",
+        "english": "older sister"
+    },
+    {
+        "chinese": "mèimei (<span lang='zh-Hans'>妹妹</span>)",
+        "english": "younger sister "
+    },
+    {
+        "chinese": "méi (<span lang='zh-Hans'>没</span>)",
+        "english": "do not (have)"
+    },
+    {
+        "chinese": "māma (<span lang='zh-Hans'>妈妈</span>)",
+        "english": "mom"
+    },
+    {
+        "chinese": "bàba (<span lang='zh-Hans'>爸爸</span>)",
+        "english": "dad"
+    },
+    {
+        "chinese": "érzi (<span lang='zh-Hans'>儿子</span>)",
+        "english": "son"
+    },
+    {
+        "chinese": "nüér (<span lang='zh-Hans'>女儿</span>)",
+        "english": "daughter"
+    },
+    {
+        "chinese": "háizi (<span lang='zh-Hans'>孩子</span>)",
+        "english": "child"
+    },
+    {
+        "chinese": "māo (<span lang='zh-Hans'>猫</span>)",
+        "english": "cat"
+    },
+    {
+        "chinese": "gǒu (<span lang='zh-Hans'>狗</span>)",
+        "english": "dog"
+    },
+    {
+        "chinese": "chǒngwù (<span lang='zh-Hans'>宠物</span>)",
+        "english": "pet"
+    },
+    {
+        "chinese": "jìmǔ (<span lang='zh-Hans'>继母</span>)",
+        "english": "stepmother"
+    },
+    {
+        "chinese": "jìfù (<span lang='zh-Hans'>继父</span>)",
+        "english": "stepfather"
+    },
+    {
+        "chinese": "yéye (<span lang='zh-Hans'>爷爷</span>)",
+        "english": "paternal grandfather "
+    },
+    {
+        "chinese": "nǎinai (<span lang='zh-Hans'>奶奶</span>)",
+        "english": "paternal grandmother"
+    },
+    {
+        "chinese": "wàigōng (<span lang='zh-Hans'>外公</span>)",
+        "english": "maternal grandfather "
+    },
+    {
+        "chinese": "wàipó (<span lang='zh-Hans'>外婆</span>)",
+        "english": "maternal grandmother"
+    },
+    {
+        "chinese": "tāmen (<span lang='zh-Hans'>他们</span>)",
+        "english": "they/them"
+    },
+    {
+        "chinese": "wǒmen (<span lang='zh-Hans'>我们</span>)",
+        "english": "we/us"
+    },
+    {
+        "chinese": "nǐmen (<span lang='zh-Hans'>你们</span>)",
+        "english": "you (plural)"
+    },
+    {
+        "chinese": "xiōng (<span lang='zh-Hans'>凶</span>)",
+        "english": "mean"
+    },
+    {
+        "chinese": "shànliáng (<span lang='zh-Hans'>善良</span>)",
+        "english": "nice/kind"
+    },
+    {
+        "chinese": "yǒuzhìhuì (<span lang='zh-Hans'>有智慧</span>)",
+        "english": "intelligent/wise "
+    },
+    {
+        "chinese": "tūdǐng (<span lang='zh-Hans'>秃顶</span>)",
+        "english": "bald"
+    },
+    {
+        "chinese": "yǎnjìng (<span lang='zh-Hans'>眼镜</span>)",
+        "english": "glasses"
+    },
+    {
+        "chinese": "huīsè (<span lang='zh-Hans'>灰色</span>)",
+        "english": "grey"
+    },
+    {
+        "chinese": "báisè (<span lang='zh-Hans'>白色</span>)",
+        "english": "white"
+    },
+    {
+        "chinese": "dà (<span lang='zh-Hans'>大</span>)",
+        "english": "big"
+    },
+    {
+        "chinese": "xiǎo (<span lang='zh-Hans'>小</span>)",
+        "english": "small"
+    },
+    {
+        "chinese": "dōu (<span lang='zh-Hans'>都</span>)",
+        "english": "both/all"
+    },
+    {
+        "chinese": "hǎoxiào (<span lang='zh-Hans'>好笑</span>)",
+        "english": "funny/comic "
+    },
+    {
+        "chinese": "piàoliàng (<span lang='zh-Hans'>漂亮</span>)",
+        "english": "pretty"
+    },
+    {
+        "chinese": "shuài (<span lang='zh-Hans'>帅</span>)",
+        "english": "handsome"
+    },
+    {
+        "chinese": "chǒu (<span lang='zh-Hans'>丑</span>)",
+        "english": "ugly"
+    },
+    {
+        "chinese": "jiànzhuàng (<span lang='zh-Hans'>健壮</span>)",
+        "english": "athletic"
+    },
+    {
+        "chinese": "pàng (<span lang='zh-Hans'>胖</span>)",
+        "english": "fat"
+    },
+    {
+        "chinese": "shòu (<span lang='zh-Hans'>瘦</span>)",
+        "english": "skinny"
+    },
+    {
+        "chinese": "niánqīng (<span lang='zh-Hans'>年轻</span>)",
+        "english": "young"
+    },
+    {
+        "chinese": "niánlǎo (<span lang='zh-Hans'>年老</span>)",
+        "english": "old"
+    },
+    {
+        "chinese": "Zhōngguó (<span lang='zh-Hans'>中国</span>)",
+        "english": "China"
+    },
+    {
+        "chinese": "Měiguó (<span lang='zh-Hans'>美国</span>)",
+        "english": "United States"
+    },
+    {
+        "chinese": "Táiwān (<span lang='zh-Hans'>台湾</span>)",
+        "english": "Taiwan"
+    },
+    {
+        "chinese": "Xiānggǎng (<span lang='zh-Hans'>香港</span>)",
+        "english": "Hong Kong"
+    },
+    {
+        "chinese": "guójiā (<span lang='zh-Hans'>国家</span>)",
+        "english": "country"
+    },
+    {
+        "chinese": "chéngshì (<span lang='zh-Hans'>城市</span>)",
+        "english": "city"
+    },
+    {
+        "chinese": "Nǐde shēngrì shì shénme shíhòu? (<span lang='zh-Hans'>你的生日是什么时候？</span>)",
+        "english": "When is your birthday? "
+    },
+    {
+        "chinese": "Wǒde shēngrì shì…  (<span lang='zh-Hans'>我的生日是...</span>)",
+        "english": "My birthday is …"
+    },
+    {
+        "chinese": "yuè (<span lang='zh-Hans'>月</span>)",
+        "english": "month"
+    },
+    {
+        "chinese": "rì (<span lang='zh-Hans'>日</span>)",
+        "english": "day"
+    },
+    {
+        "chinese": "qìngzhù (<span lang='zh-Hans'>庆祝</span>)",
+        "english": "celebrate"
+    },
+    {
+        "chinese": "jìjié (<span lang='zh-Hans'>季节</span>)",
+        "english": "season"
+    },
+    {
+        "chinese": "chūntiān (<span lang='zh-Hans'>春天</span>)",
+        "english": "spring"
+    },
+    {
+        "chinese": "xiàtiān (<span lang='zh-Hans'>夏天</span>)",
+        "english": "summer"
+    },
+    {
+        "chinese": "qiūtiān (<span lang='zh-Hans'>秋天</span>)",
+        "english": "autumn"
+    },
+    {
+        "chinese": "dōngtiān (<span lang='zh-Hans'>冬天</span>)",
+        "english": "winter"
+    },
+    {
+        "chinese": "yǐqián (<span lang='zh-Hans'>以前</span>)",
+        "english": "in the past"
+    },
+    {
+        "chinese": "jīngcháng (<span lang='zh-Hans'>经常</span>)",
+        "english": "often"
+    },
+    {
+        "chinese": "zǒngshì (<span lang='zh-Hans'>总是</span>)",
+        "english": "always"
+    },
+    {
+        "chinese": "cóngbù (<span lang='zh-Hans'>从不</span>)",
+        "english": "never"
+    },
+    {
+        "chinese": "dàngāo (<span lang='zh-Hans'>蛋糕</span>)",
+        "english": "cake"
+    },
+    {
+        "chinese": "bīngjīlíng (<span lang='zh-Hans'>冰激凌</span>)",
+        "english": "ice cream"
+    },
+    {
+        "chinese": "xuéxiào (<span lang='zh-Hans'>学校</span>)",
+        "english": "school"
+    },
+    {
+        "chinese": "qù (<span lang='zh-Hans'>去</span>)",
+        "english": "to go to (school)"
+    },
+    {
+        "chinese": "dàodá (<span lang='zh-Hans'>到达</span>)",
+        "english": "to arrive"
+    },
+    {
+        "chinese": "wǎn (<span lang='zh-Hans'>晚</span>)",
+        "english": "late"
+    },
+    {
+        "chinese": "zǎo (<span lang='zh-Hans'>早</span>)",
+        "english": "early"
+    },
+    {
+        "chinese": "zhǔnshí (<span lang='zh-Hans'>准时</span>)",
+        "english": "on time"
+    },
+    {
+        "chinese": "jīntiān (<span lang='zh-Hans'>今天</span>)",
+        "english": "today"
+    },
+    {
+        "chinese": "diǎn (<span lang='zh-Hans'>点</span>)",
+        "english": "o'clock"
+    },
+    {
+        "chinese": "fēn (<span lang='zh-Hans'>分</span>)",
+        "english": "minute"
+    },
+    {
+        "chinese": "shàngwǔ (<span lang='zh-Hans'>上午</span>)",
+        "english": "am/morning"
+    },
+    {
+        "chinese": "xiàwǔ (<span lang='zh-Hans'>下午</span>)",
+        "english": "p.m./afternoon"
+    },
+    {
+        "chinese": "yīngwénkè (<span lang='zh-Hans'>英文课</span>)",
+        "english": "English class"
+    },
+    {
+        "chinese": "zhōngwénkè (<span lang='zh-Hans'>中文课</span>)",
+        "english": "Chinese class"
+    },
+    {
+        "chinese": "shùxuékè (<span lang='zh-Hans'>数学课</span>)",
+        "english": "math class"
+    },
+    {
+        "chinese": "shèhuìyánjiūkè (<span lang='zh-Hans'>社会研究课</span>)",
+        "english": "social studies class "
+    },
+    {
+        "chinese": "kēxuékè (<span lang='zh-Hans'>科学课</span>)",
+        "english": "science class"
+    },
+    {
+        "chinese": "tǐyùkè (<span lang='zh-Hans'>体育课</span>)",
+        "english": "physical education class"
+    },
+    {
+        "chinese": "shàng (<span lang='zh-Hans'>上</span>)",
+        "english": "to attend (class) "
+    },
+    {
+        "chinese": "xūyào (<span lang='zh-Hans'>需要</span>)",
+        "english": "to need"
+    },
+    {
+        "chinese": "bèibāo (<span lang='zh-Hans'>背包</span>)",
+        "english": "backpack"
+    },
+    {
+        "chinese": "bǐjìběn (<span lang='zh-Hans'>笔记本</span>)",
+        "english": "notebook"
+    },
+    {
+        "chinese": "shū (<span lang='zh-Hans'>书</span>)",
+        "english": "book"
+    },
+    {
+        "chinese": "xuésheng (<span lang='zh-Hans'>学生</span>)",
+        "english": "student"
+    },
+    {
+        "chinese": "qiānbǐ (<span lang='zh-Hans'>铅笔</span>)",
+        "english": "pencil"
+    },
+    {
+        "chinese": "bǐ (<span lang='zh-Hans'>笔</span>)",
+        "english": "pen"
+    },
+    {
+        "chinese": "wénjiànjiā (<span lang='zh-Hans'>文件夹</span>)",
+        "english": "folder/binder"
+    },
+    {
+        "chinese": "huòshì (<span lang='zh-Hans'>或是</span>)",
+        "english": "or"
+    },
+    {
+        "chinese": "zuòyè (<span lang='zh-Hans'>作业</span>)",
+        "english": "homework"
+    },
+    {
+        "chinese": "chǐzi (<span lang='zh-Hans'>尺子</span>)",
+        "english": "ruler"
+    },
+    {
+        "chinese": "zìdiǎn (<span lang='zh-Hans'>字典</span>)",
+        "english": "dictionary"
+    },
+    {
+        "chinese": "diànnǎo (<span lang='zh-Hans'>电脑</span>)",
+        "english": "computer"
+    },
+    {
+        "chinese": "yìshùkè (<span lang='zh-Hans'>艺术课</span>)",
+        "english": "art class"
+    },
+    {
+        "chinese": "jiǎndāo (<span lang='zh-Hans'>剪刀</span>)",
+        "english": "scissors"
+    },
+    {
+        "chinese": "mǎkèbǐ (<span lang='zh-Hans'>马克笔</span>)",
+        "english": "marker"
+    },
+    {
+        "chinese": "měi (<span lang='zh-Hans'>每</span>)",
+        "english": "every"
+    },
+    {
+        "chinese": "tiān (<span lang='zh-Hans'>天</span>)",
+        "english": "day (casual) "
+    },
+    {
+        "chinese": "xīngqī (<span lang='zh-Hans'>星期</span>)",
+        "english": "week"
+    },
+    {
+        "chinese": "kāishǐ (<span lang='zh-Hans'>开始</span>)",
+        "english": "to start"
+    },
+    {
+        "chinese": "jiéshù (<span lang='zh-Hans'>结束</span>)",
+        "english": "to end "
+    },
+    {
+        "chinese": "huì (<span lang='zh-Hans'>会</span>)",
+        "english": "to know how to"
+    },
+    {
+        "chinese": "néng (<span lang='zh-Hans'>能</span>)",
+        "english": "can/to be able to"
+    },
+    {
+        "chinese": "huà (<span lang='zh-Hans'>画</span>)",
+        "english": "to draw; drawing/picture"
+    },
+    {
+        "chinese": "xiě (<span lang='zh-Hans'>写</span>)",
+        "english": "to write"
+    },
+    {
+        "chinese": "dú (<span lang='zh-Hans'>读</span>)",
+        "english": "to read"
+    },
+    {
+        "chinese": "jiǎn (<span lang='zh-Hans'>剪</span>)",
+        "english": "to cut"
+    },
+    {
+        "chinese": "liànxí (<span lang='zh-Hans'>练习</span>)",
+        "english": "to exercise/to practice"
+    },
+    {
+        "chinese": "yīnyuèkè (<span lang='zh-Hans'>音乐课</span>)",
+        "english": "music class "
+    },
+    {
+        "chinese": "tīng (<span lang='zh-Hans'>听</span>)",
+        "english": "to listen to"
+    },
+    {
+        "chinese": "shuōhuà (<span lang='zh-Hans'>说话</span>)",
+        "english": "to talk/to speak words "
+    },
+    {
+        "chinese": "chànggē (<span lang='zh-Hans'>唱歌</span>)",
+        "english": "to sing songs"
+    },
+    {
+        "chinese": "chuān (<span lang='zh-Hans'>穿</span>)",
+        "english": "to wear (essential items)"
+    },
+    {
+        "chinese": "dài (<span lang='zh-Hans'>戴</span>)",
+        "english": "to wear (accessories) "
+    },
+    {
+        "chinese": "zhìfú (<span lang='zh-Hans'>制服</span>)",
+        "english": "uniform"
+    },
+    {
+        "chinese": "wàitào (<span lang='zh-Hans'>外套</span>)",
+        "english": "coat"
+    },
+    {
+        "chinese": "xié (<span lang='zh-Hans'>鞋</span>)",
+        "english": "shoes"
+    },
+    {
+        "chinese": "chènshān (<span lang='zh-Hans'>衬衫</span>)",
+        "english": "shirt"
+    },
+    {
+        "chinese": "máoyī (<span lang='zh-Hans'>毛衣</span>)",
+        "english": "sweater"
+    },
+    {
+        "chinese": "kěyǐ (<span lang='zh-Hans'>可以</span>)",
+        "english": "may/can"
+    },
+    {
+        "chinese": "kùzi (<span lang='zh-Hans'>裤子</span>)",
+        "english": "pants"
+    },
+    {
+        "chinese": "qúnzi (<span lang='zh-Hans'>裙子</span>)",
+        "english": "skirt"
+    },
+    {
+        "chinese": "wàzi (<span lang='zh-Hans'>袜子</span>)",
+        "english": "socks"
+    },
+    {
+        "chinese": "jiākè (<span lang='zh-Hans'>夹克</span>)",
+        "english": "jacket"
+    },
+    {
+        "chinese": "qiúxié (<span lang='zh-Hans'>球鞋</span>)",
+        "english": "sneakers"
+    },
+    {
+        "chinese": "duǎnkù (<span lang='zh-Hans'>短裤</span>)",
+        "english": "shorts"
+    },
+    {
+        "chinese": "liángxié (<span lang='zh-Hans'>凉鞋</span>)",
+        "english": "sandals"
+    },
+    {
+        "chinese": "niúzǎikù (<span lang='zh-Hans'>牛仔裤</span>)",
+        "english": "jeans"
+    },
+    {
+        "chinese": "tiānqì (<span lang='zh-Hans'>天气</span>)",
+        "english": "weather"
+    },
+    {
+        "chinese": "nuǎnhuo (<span lang='zh-Hans'>暖和</span>)",
+        "english": "warm"
+    },
+    {
+        "chinese": "fángzi (<span lang='zh-Hans'>房子</span>)",
+        "english": "house"
+    },
+    {
+        "chinese": "gōngyù (<span lang='zh-Hans'>公寓</span>)",
+        "english": "apartment"
+    },
+    {
+        "chinese": "lóu (<span lang='zh-Hans'>楼</span>)",
+        "english": "floor/story/building"
+    },
+    {
+        "chinese": "chēkù (<span lang='zh-Hans'>车库</span>)",
+        "english": "garage"
+    },
+    {
+        "chinese": "yuànzi (<span lang='zh-Hans'>院子</span>)",
+        "english": "yard"
+    },
+    {
+        "chinese": "ménláng (<span lang='zh-Hans'>门廊</span>)",
+        "english": "porch"
+    },
+    {
+        "chinese": "yángtái (<span lang='zh-Hans'>阳台</span>)",
+        "english": "balcony"
+    },
+    {
+        "chinese": "wòshì (<span lang='zh-Hans'>卧室</span>)",
+        "english": "bedroom"
+    },
+    {
+        "chinese": "yùshì (<span lang='zh-Hans'>浴室</span>)",
+        "english": "bathroom"
+    },
+    {
+        "chinese": "kètīng (<span lang='zh-Hans'>客厅</span>)",
+        "english": "living room"
+    },
+    {
+        "chinese": "chúfáng (<span lang='zh-Hans'>厨房</span>)",
+        "english": "kitchen"
+    },
+    {
+        "chinese": "fàntīng (<span lang='zh-Hans'>饭厅</span>)",
+        "english": "dining room"
+    },
+    {
+        "chinese": "zuǒbiān (<span lang='zh-Hans'>左边</span>)",
+        "english": "left side"
+    },
+    {
+        "chinese": "yòubiān (<span lang='zh-Hans'>右边</span>)",
+        "english": "right side"
+    },
+    {
+        "chinese": "mén (<span lang='zh-Hans'>门</span>)",
+        "english": "door"
+    },
+    {
+        "chinese": "chuānghù (<span lang='zh-Hans'>窗户</span>)",
+        "english": "window"
+    },
+    {
+        "chinese": "chuáng (<span lang='zh-Hans'>床</span>)",
+        "english": "bed"
+    },
+    {
+        "chinese": "zhěnglǐ (<span lang='zh-Hans'>整理</span>)",
+        "english": "to tidy up "
+    },
+    {
+        "chinese": "zhěntóu (<span lang='zh-Hans'>枕头</span>)",
+        "english": "pillow"
+    },
+    {
+        "chinese": "chuángdān (<span lang='zh-Hans'>床单</span>)",
+        "english": "bedsheet"
+    },
+    {
+        "chinese": "chuángtóuguì (<span lang='zh-Hans'>床头柜</span>)",
+        "english": "nightstand"
+    },
+    {
+        "chinese": "liánzi (<span lang='zh-Hans'>帘子</span>)",
+        "english": "curtain"
+    },
+    {
+        "chinese": "yǐzi (<span lang='zh-Hans'>椅子</span>)",
+        "english": "chair"
+    },
+    {
+        "chinese": "shūzhuō (<span lang='zh-Hans'>书桌</span>)",
+        "english": "desk"
+    },
+    {
+        "chinese": "shàngbiān (<span lang='zh-Hans'>上边</span>)",
+        "english": "on top"
+    },
+    {
+        "chinese": "xiàbiān (<span lang='zh-Hans'>下边</span>)",
+        "english": "on bottom/under"
+    },
+    {
+        "chinese": "yīguì (<span lang='zh-Hans'>衣柜</span>)",
+        "english": "dressing table/dresser"
+    },
+    {
+        "chinese": "dēng (<span lang='zh-Hans'>灯</span>)",
+        "english": "lamp"
+    },
+    {
+        "chinese": "bìchú (<span lang='zh-Hans'>壁橱</span>)",
+        "english": "closet"
+    },
+    {
+        "chinese": "yīfu (<span lang='zh-Hans'>衣服</span>)",
+        "english": "clothes"
+    },
+    {
+        "chinese": "dié (<span lang='zh-Hans'>叠</span>)",
+        "english": "to fold"
+    },
+    {
+        "chinese": "xīchén (<span lang='zh-Hans'>吸尘</span>)",
+        "english": "to vacuum"
+    },
+    {
+        "chinese": "dìtǎn (<span lang='zh-Hans'>地毯</span>)",
+        "english": "rug/carpet"
+    },
+    {
+        "chinese": "shāfā (<span lang='zh-Hans'>沙发</span>)",
+        "english": "sofa"
+    },
+    {
+        "chinese": "diànshì (<span lang='zh-Hans'>电视</span>)",
+        "english": "television"
+    },
+    {
+        "chinese": "dìbǎn (<span lang='zh-Hans'>地板</span>)",
+        "english": "floor"
+    },
+    {
+        "chinese": "kàn (<span lang='zh-Hans'>看</span>)",
+        "english": "to watch/to look at"
+    },
+    {
+        "chinese": "fúshǒuyǐ (<span lang='zh-Hans'>扶手椅</span>)",
+        "english": "armchair"
+    },
+    {
+        "chinese": "cā (<span lang='zh-Hans'>擦</span>)",
+        "english": "to wipe"
+    },
+    {
+        "chinese": "diànshàn (<span lang='zh-Hans'>电扇</span>)",
+        "english": "fan"
+    },
+    {
+        "chinese": "shūjià (<span lang='zh-Hans'>书架</span>)",
+        "english": "bookshelf"
+    },
+    {
+        "chinese": "chájī (<span lang='zh-Hans'>茶几</span>)",
+        "english": "end table"
+    },
+    {
+        "chinese": "zhuōzi (<span lang='zh-Hans'>桌子</span>)",
+        "english": "table"
+    },
+    {
+        "chinese": "zuòfàn (<span lang='zh-Hans'>做饭</span>)",
+        "english": "to cook"
+    },
+    {
+        "chinese": "lúzi (<span lang='zh-Hans'>炉子</span>)",
+        "english": "stove"
+    },
+    {
+        "chinese": "bīngxiāng (<span lang='zh-Hans'>冰箱</span>)",
+        "english": "fridge"
+    },
+    {
+        "chinese": "xǐwǎn (<span lang='zh-Hans'>洗碗</span>)",
+        "english": "to wash dishes"
+    },
+    {
+        "chinese": "shuǐcáo (<span lang='zh-Hans'>水槽</span>)",
+        "english": "sink"
+    },
+    {
+        "chinese": "xǐwǎnyè (<span lang='zh-Hans'>洗碗液</span>)",
+        "english": "dish soap"
+    },
+    {
+        "chinese": "jiāwù (<span lang='zh-Hans'>家务</span>)",
+        "english": "chores"
+    },
+    {
+        "chinese": "jìngzi (<span lang='zh-Hans'>镜子</span>)",
+        "english": "mirror"
+    },
+    {
+        "chinese": "línyùjiān (<span lang='zh-Hans'>淋浴间</span>)",
+        "english": "shower area"
+    },
+    {
+        "chinese": "yùgāng (<span lang='zh-Hans'>浴缸</span>)",
+        "english": "bathtub"
+    },
+    {
+        "chinese": "sǎo (<span lang='zh-Hans'>扫</span>)",
+        "english": "to sweep"
+    },
+    {
+        "chinese": "tuō (<span lang='zh-Hans'>拖</span>)",
+        "english": "to mop"
+    },
+    {
+        "chinese": "mǎtǒng (<span lang='zh-Hans'>马桶</span>)",
+        "english": "toilet"
+    },
+    {
+        "chinese": "máojīn (<span lang='zh-Hans'>毛巾</span>)",
+        "english": "towel"
+    },
+    {
+        "chinese": "wèishēngzhǐ (<span lang='zh-Hans'>卫生纸</span>)",
+        "english": "toilet paper"
+    },
+    {
+        "chinese": "dào (<span lang='zh-Hans'>倒</span>)",
+        "english": "to empty out/to pour out"
+    },
+    {
+        "chinese": "lājītǒng (<span lang='zh-Hans'>垃圾桶</span>)",
+        "english": "garbage can"
+    },
+    {
+        "chinese": "dǎsǎo (<span lang='zh-Hans'>打扫</span>)",
+        "english": "to clean"
+    },
+    {
+        "chinese": "xǐyījī (<span lang='zh-Hans'>洗衣机</span>)",
+        "english": "washing machine"
+    },
+    {
+        "chinese": "hōnggānjī (<span lang='zh-Hans'>烘干机</span>)",
+        "english": "dryer"
+    },
+    {
+        "chinese": "xǐyīyè (<span lang='zh-Hans'>洗衣液</span>)",
+        "english": "laundry detergent"
+    },
+    {
+        "chinese": "shèqū (<span lang='zh-Hans'>社区</span>)",
+        "english": "community"
+    },
+    {
+        "chinese": "diànpù (<span lang='zh-Hans'>店铺</span>)",
+        "english": "store"
+    },
+    {
+        "chinese": "chāoshì (<span lang='zh-Hans'>超市</span>)",
+        "english": "grocery store"
+    },
+    {
+        "chinese": "miànbāodiàn (<span lang='zh-Hans'>面包店</span>)",
+        "english": "bakery"
+    },
+    {
+        "chinese": "gòuwùzhōngxīn (<span lang='zh-Hans'>购物中心</span>)",
+        "english": "shopping center"
+    },
+    {
+        "chinese": "yóujú (<span lang='zh-Hans'>邮局</span>)",
+        "english": "post office"
+    },
+    {
+        "chinese": "lǚdiàn (<span lang='zh-Hans'>旅店</span>)",
+        "english": "hotel"
+    },
+    {
+        "chinese": "lǐfàdiàn (<span lang='zh-Hans'>理发店</span>)",
+        "english": "barbershop"
+    },
+    {
+        "chinese": "yínháng (<span lang='zh-Hans'>银行</span>)",
+        "english": "bank"
+    },
+    {
+        "chinese": "diànyǐngyuàn (<span lang='zh-Hans'>电影院</span>)",
+        "english": "movie theater"
+    },
+    {
+        "chinese": "yàodiàn (<span lang='zh-Hans'>药店</span>)",
+        "english": "pharmacy"
+    },
+    {
+        "chinese": "guò (<span lang='zh-Hans'>过</span>)",
+        "english": "pass/ (past tense indicator)"
+    },
+    {
+        "chinese": "tǐyùchǎng (<span lang='zh-Hans'>体育场</span>)",
+        "english": "stadium"
+    },
+    {
+        "chinese": "gōngyuán (<span lang='zh-Hans'>公园</span>)",
+        "english": "park"
+    },
+    {
+        "chinese": "huódòngzhōngxīn (<span lang='zh-Hans'>活动中心</span>)",
+        "english": "activity center"
+    },
+    {
+        "chinese": "jiànshēnfáng (<span lang='zh-Hans'>健身房</span>)",
+        "english": "gym"
+    },
+    {
+        "chinese": "yóuyǒngchí (<span lang='zh-Hans'>游泳池</span>)",
+        "english": "swimming pool"
+    },
+    {
+        "chinese": "xiūxiánhuódòng (<span lang='zh-Hans'>休闲活动</span>)",
+        "english": "pastime"
+    },
+    {
+        "chinese": "mǎi (<span lang='zh-Hans'>买</span>)",
+        "english": "to buy"
+    },
+    {
+        "chinese": "gòuwù (<span lang='zh-Hans'>购物</span>)",
+        "english": "to go shopping"
+    },
+    {
+        "chinese": "wèishénme (<span lang='zh-Hans'>为什么</span>)",
+        "english": "why"
+    },
+    {
+        "chinese": "yīnwèi (<span lang='zh-Hans'>因为</span>)",
+        "english": "because"
+    },
+    {
+        "chinese": "sànbù (<span lang='zh-Hans'>散步</span>)",
+        "english": "to walk"
+    },
+    {
+        "chinese": "pāizhào (<span lang='zh-Hans'>拍照</span>)",
+        "english": "to take pictures"
+    },
+    {
+        "chinese": "yǎnzòu (<span lang='zh-Hans'>演奏</span>)",
+        "english": "to play (a musical instrument)"
+    },
+    {
+        "chinese": "dúchǔ (<span lang='zh-Hans'>独处</span>)",
+        "english": "to spend time alone"
+    },
+    {
+        "chinese": "yújiā (<span lang='zh-Hans'>瑜伽</span>)",
+        "english": "yoga"
+    },
+    {
+        "chinese": "wán diànziyóuxì (<span lang='zh-Hans'>玩电子游戏</span>)",
+        "english": "to play videogames"
+    },
+    {
+        "chinese": "yǎnchànghuì (<span lang='zh-Hans'>演唱会</span>)",
+        "english": "concert"
+    },
+    {
+        "chinese": "pǎobù (<span lang='zh-Hans'>跑步</span>)",
+        "english": "to run/to jog"
+    },
+    {
+        "chinese": "yóuyǒng (<span lang='zh-Hans'>游泳</span>)",
+        "english": "to swim"
+    },
+    {
+        "chinese": "yùndòng (<span lang='zh-Hans'>运动</span>)",
+        "english": "to exercise; fitness/sports"
+    },
+    {
+        "chinese": "dǎ pīngpāngqiú (<span lang='zh-Hans'>打乒乓球</span>)",
+        "english": "to play pingpong"
+    },
+    {
+        "chinese": "ma (<span lang='zh-Hans'>吗</span>)",
+        "english": "(question particle)"
+    },
+    {
+        "chinese": "túshūguǎn (<span lang='zh-Hans'>图书馆</span>)",
+        "english": "library"
+    },
+    {
+        "chinese": "bówùguǎn (<span lang='zh-Hans'>博物馆</span>)",
+        "english": "museum"
+    },
+    {
+        "chinese": "shìzhōngxīn (<span lang='zh-Hans'>市中心</span>)",
+        "english": "downtown"
+    },
+    {
+        "chinese": "guǎngchǎng (<span lang='zh-Hans'>广场</span>)",
+        "english": "town square; plaza"
+    },
+    {
+        "chinese": "jùyuàn (<span lang='zh-Hans'>剧院</span>)",
+        "english": "theater"
+    },
+    {
+        "chinese": "sìmiào (<span lang='zh-Hans'>寺庙</span>)",
+        "english": "temple"
+    },
+    {
+        "chinese": "qīngzhēnsì (<span lang='zh-Hans'>清真寺</span>)",
+        "english": "mosque"
+    },
+    {
+        "chinese": "jiàotáng (<span lang='zh-Hans'>教堂</span>)",
+        "english": "church"
+    },
+    {
+        "chinese": "jǐngchájú (<span lang='zh-Hans'>警察局</span>)",
+        "english": "police department "
+    },
+    {
+        "chinese": "xiāofángzhàn (<span lang='zh-Hans'>消防站</span>)",
+        "english": "fire station"
+    },
+    {
+        "chinese": "yīyuàn (<span lang='zh-Hans'>医院</span>)",
+        "english": "hospital"
+    },
+    {
+        "chinese": "ba (<span lang='zh-Hans'>吧</span>)",
+        "english": "(sentence particle)"
+    },
+    {
+        "chinese": "biān (<span lang='zh-Hans'>边</span>)",
+        "english": "side"
+    },
+    {
+        "chinese": "pángbiān (<span lang='zh-Hans'>旁边</span>)",
+        "english": "next to"
+    },
+    {
+        "chinese": "hòubiān (<span lang='zh-Hans'>后边</span>)",
+        "english": "behind"
+    },
+    {
+        "chinese": " qiánbiān(<span lang='zh-Hans'>前边</span>)",
+        "english": "in front of"
+    },
+    {
+        "chinese": "jiǎoluò (<span lang='zh-Hans'>角落</span>)",
+        "english": "corner"
+    },
+    {
+        "chinese": "zuòhuǒchē (<span lang='zh-Hans'>坐火车</span>)",
+        "english": "to ride a train"
+    },
+    {
+        "chinese": "chūzūchē (<span lang='zh-Hans'>出租车</span>)",
+        "english": "taxi"
+    },
+    {
+        "chinese": "dìtiě (<span lang='zh-Hans'>地铁</span>)",
+        "english": "subway"
+    },
+    {
+        "chinese": "bāshìzhàn (<span lang='zh-Hans'>巴士站</span>)",
+        "english": "bus station"
+    },
+    {
+        "chinese": "qídānchē (<span lang='zh-Hans'>骑单车</span>)",
+        "english": "to ride a bike"
+    },
+    {
+        "chinese": "zǒulù (<span lang='zh-Hans'>走路</span>)",
+        "english": "to walk (to somewhere)"
+    },
+    {
+        "chinese": "kāichē (<span lang='zh-Hans'>开车</span>)",
+        "english": "to drive a car"
+    },
+    {
+        "chinese": "mótuōchē (<span lang='zh-Hans'>摩托车</span>)",
+        "english": "motorcycle"
+    },
+    {
+        "chinese": "tíng (<span lang='zh-Hans'>停</span>)",
+        "english": "to stop"
+    },
+    {
+        "chinese": "zhuǎn (<span lang='zh-Hans'>转</span>)",
+        "english": "to turn"
+    },
+    {
+        "chinese": "lù (<span lang='zh-Hans'>路</span>)",
+        "english": "road"
+    },
+    {
+        "chinese": "hào (<span lang='zh-Hans'>号</span>)",
+        "english": "number"
+    },
+    {
+        "chinese": "zěnme (<span lang='zh-Hans'>怎么</span>)",
+        "english": "how"
+    },
+    {
+        "chinese": "xiāngcūn (<span lang='zh-Hans'>乡村</span>)",
+        "english": "countryside"
+    },
+    {
+        "chinese": "jiāoqū (<span lang='zh-Hans'>郊区</span>)",
+        "english": "suburbs"
+    },
+    {
+        "chinese": "nóngchǎng (<span lang='zh-Hans'>农场</span>)",
+        "english": "farm"
+    },
+    {
+        "chinese": "hú (<span lang='zh-Hans'>湖</span>)",
+        "english": "lake"
+    },
+    {
+        "chinese": "shān (<span lang='zh-Hans'>山</span>)",
+        "english": "mountain"
+    }
+   
+  ]
+}

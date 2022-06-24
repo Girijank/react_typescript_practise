@@ -1,0 +1,34 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>delecto, delectare, delectavi, delectatus, -a, -um</em>",
+            "right": "delectable, delectation"
+          },
+          {
+            "left": "<em>evenio, evenire, eveni, eventus, -a, -um</em>",
+            "right": "eventual"
+          },
+          {
+            "left": "<em>haereo, haerere, haesi, haesus, -a, -um</em>",
+            "right": "adhere, adhesive, adherence, adherent"
+          },
+          {
+            "left": "<em>sedeo, sedere, sedi, sessurus, -, -um</em>",
+            "right": "preside, session, sediment, sedentary"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

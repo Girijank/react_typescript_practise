@@ -1,0 +1,96 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_01_07/styles.css"],
+    "intMedia": "interactives/06_01_07/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "park.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>公园</span> gōngyuán (park) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can <strong>most</strong> reasonably be completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我姐姐在____画画。</span>Wǒ jiějie zài _______huàhuà.",      
+        "options":[
+          "<span lang='zh-Hans'>我在____写作业。</span>Wǒ zài_____ xiězuòyè.",
+          "<span lang='zh-Hans'>她妈妈在____做饭。</span>Tā māma zài____zuòfàn.",
+          "<span lang='zh-Hans'>他在____洗衣服。</span>Tā zài___ xǐyīfu."
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>公园</span> gōngyuán means “park.” Of the activities in the choices, painting can be most reasonably done at a park. Therefore, this word can  best complete the sentence <span lang='zh-Hans'>我姐姐在公园画画。</span>Wǒ jiějie zài gōngyuán huàhuà. (My older sister is painting at the park.)",
+        "incorrect": "Not quite… Think about the meaning of <span lang='zh-Hans'>公园</span> gōngyuán and what activities can be reasonably done there. Then place it in the sentences in the choices to see which one fits the best for both meaning and structure. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "stadium.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>体育场</span> tǐyùchǎng (stadium)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following activities can <strong>most</strong> likely be held at the site indicated by the word in the audio?</p>", 
+        "answer": "A college football game",
+        "options": [
+          "A family birthday party",
+          "An academic presentation",
+          "A science lab project"
+        ],
+        "correct": "You got it! <span lang='zh-Hans'>体育场</span> tǐyùchǎng means “stadium.” Of the activities in the choices, only a college football game requires the size and capacity that a stadium can offer.",
+        "incorrect": "Oops… Listen to the audio again to identify what site it is. Then consider the different activities to see which one matches the size and capacity of the site.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "swimming_pool.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>游泳池</span> yóuyǒngchí (pool) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which season is the site indicated by the word in the audio <strong>most</strong> likely to be crowded?</p>",
+        "answer": "<span lang='zh-Hans'>夏天</span>",
+        "options": [
+          "<span lang='zh-Hans'>春天</span>",
+          "<span lang='zh-Hans'>秋天</span>",
+          "<span lang='zh-Hans'>冬天</span>"
+        ],
+        "correct": "Beautifully done! The word <span lang='zh-Hans'>游泳池</span> yóuyǒngchí means “swimming pool.” It’s a nice place to go to when it gets hot in the <span lang='zh-Hans'>夏天</span> xiàtiān (summer).",
+       
+        "incorrect": "Not quite… Listen to the word in the audio again to identify its meaning. Then consider what type of activity can be done there and is most suitable for which season.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "gym.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>健身房</span> jiànshēnfáng (gym) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has a character that’s the same as one of the characters in the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>房子</span>",
+        "options": [
+          "<span lang='zh-Hans'>窗户</span>",
+          "<span lang='zh-Hans'>店铺</span>",
+          "<span lang='zh-Hans'>书桌</span>"
+        ],
+        "correct": "Job excellently done! <span lang='zh-Hans'>健身房</span> jiànshēnfáng (gym) has the character  <span lang='zh-Hans'>房</span>, which is also the first character in <span lang='zh-Hans'>房子</span> fángzi (house).",        
+        "incorrect": "Not quite. Listen to the audio to identify its meaning, and then recall the characters that are in it. Compare them to the characters in the choices and find a match. Careful—don’t be confused by the characters with similar shapes in the choices.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+   
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/05_04_08_drop/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "slidesToDisplay": 5,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "Using the dropdowns, find the correct Latin forms for each piece of sentence.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "The monster, losing his foot in the attack, will not wage war."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>Monstrum</span>",
+            "options": [
+              "<span>Monstri</span>",
+              "<span>Monstra</span>"
+            ]
+          },
+          {
+            "answer": "<span>amittens</span>",
+            "options": [
+              "<span>amittere</span>",
+              "<span>amisurum</span>"
+            ]
+          },
+          {
+            "answer": "<span>pedem suum</span>",
+            "options": [
+              "<span>pes suus</span>",
+              "<span>pedibus suis</span>"
+            ]
+          },
+          {
+            "answer": "<span>in impetu</span>",
+            "options": [
+              "<span>in impetum</span>",
+              "<span>ad impetum</span>"
+            ]
+          },
+          {
+            "answer": "<span>bellum non geret</span>",
+            "options": [
+              "<span>bellum non gerebat</span>",
+              "<span>bellum non gessit</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "The consul, about to breathe, ate his tooth."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>consul</span>",
+            "options": [
+              "<span>consulem</span>",
+              "<span>senator</span>"
+            ]
+          },
+          {
+            "answer": "<span>amisurus</span>",
+            "options": [
+              "<span>amittens</span>",
+              "<span>amittere</span>"
+            ]
+          },
+          {
+            "answer": "<span>edidit</span>",
+            "options": [
+              "<span>edo</span>",
+              "<span>edidi</span>"
+            ]
+          },
+          {
+            "answer": "<span>dentem suum</span>",
+            "options": [
+              "<span>dens suus</span>",
+              "<span>dentes suos</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Having been thrown out of Rome, the senator breathed easily."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>Expulsus</span>",
+            "options": [
+              "<span>Expellens</span>",
+              "<span>Expulsurus</span>"
+            ]
+          },
+          {
+            "answer": "<span>e Roma</span>",
+            "options": [
+              "<span>a Roma</span>",
+              "<span>de Roma</span>"
+            ]
+          },
+          {
+            "answer": "<span>senator</span>",
+            "options": [
+              "<span>consulem</span>",
+              "<span>senatorem</span>"
+            ]
+          },
+          {
+            "answer": "<span>faciliter spiravit</span>",
+            "options": [
+              "<span>facillimus spiravit</span>",
+              "<span>facilius spiravit</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "With the speech having been made, the omen had been given."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_ .",
+        "options": [
+          {
+            "answer": "<span>verbo facto</span>",
+            "options": [
+              "<span>verba facere</span>",
+              "<span>verbum factum</span>"
+            ]
+          },
+          {
+            "answer": "<span>omen</span>",
+            "options": [
+              "<span>omina</span>",
+              "<span>ominis</span>"
+            ]
+          },
+          {
+            "answer": "<span>datum erat</span>",
+            "options": [
+              "<span>datus erat</span>",
+              "<span>data est</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

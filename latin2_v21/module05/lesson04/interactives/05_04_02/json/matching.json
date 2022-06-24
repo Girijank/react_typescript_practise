@@ -1,0 +1,46 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>lupa, lupae f.</em>",
+            "right": "lupus, lupine"
+          },
+          {
+            "left": "<em>maleficium, maleficii n.</em>",
+            "right": "Maleficent (proper name), malignant, malicious"
+          },
+          {
+            "left": "<em>mors, mortis f.</em>",
+            "right": "mortal, immortal, postmortem, mortuary, rigor mortis"
+          },
+          {
+            "left": "<em>prodigium, prodigii n.</em>",
+            "right": "prodigious"
+          },
+          {
+            "left": "<em>omen, ominis n.</em>",
+            "right": "ominous"
+          },
+          {
+            "left": "<em>spiro, spirare, spiravi, spiratus, -a, -um</em>",
+            "right": "inspiration, spirit, perspire, aspire, respiration"
+          },
+          {
+            "left": "<em>amitto, amittere, amisi, amissus, -a, -um   </em>",
+            "right": "amiss"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

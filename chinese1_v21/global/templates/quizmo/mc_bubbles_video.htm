@@ -1,0 +1,32 @@
+<div class="objectLoop">
+  <div data-quizmo-jqmath data-ng-repeat="object in vm.slide" data-ng-switch data-on="object.type"
+       ng-class="object.type" ng-if="object.type !== 'config'">
+    <img data-ng-src="{{ object.src }}" alt="{{ object.alt }}" data-ng-switch-when="image"/>
+
+    <div data-quizmo-kaltura id="{{object.entryID}}" object="object" data-ng-switch-when="video"></div>
+
+    <div class="il_wb animate-if" data-ng-switch-when="mc">
+      <div class="il_question myQuestions" data-quizmo-jqmath data-ng-bind-html="object.quiz"></div>
+      <div class="myChoices">
+        <div class="il_question">
+          <div class="btn-group interactiveElements">
+            <button data-ng-repeat="option in object.options" data-ng-click="vm.mcClick(option)" data-quizmo-jqmath
+                    data-ng-class="{'hasMedia': option.media}" class="btn btn-primary" data-ng-model="object.selection"
+                    data-ng-checked="object.selection" uib-btn-radio="option.text" uncheckable>
+              <span data-ng-if="option.text" data-ng-bind-html="vm.format(option.text)"></span>
+              <span class="mc_image" data-ng-if="option.image">
+                      <img data-ng-src="{{vm.data.config.intMedia + option.image.src}}" alt="{{option.image.alt}}"/>
+                      <span data-ng-if="option.image.copyright"
+                            data-ng-bind-html="vm.format(option.image.copyright)"></span>
+                  </span>
+
+              <span data-ng-if="option.media" data-medialoop data-ng-repeat="object in option.media" data-ng-switch
+                    data-on="object.type">
+                  </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

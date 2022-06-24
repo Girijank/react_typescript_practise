@@ -1,0 +1,50 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>senatus, senatus m.</em>",
+            "right": "senatorial, senatorship"
+          },
+          {
+            "left": "<em>species, speciei f.</em>",
+            "right": "especially"
+          },
+          {
+            "left": "<em>virtus, virtutis f.</em>",
+            "right": "virtue, virtuoso, virtuosity"
+          },
+          {
+            "left": "<em>familiaris, familiare</em>",
+            "right": "familiar, familiarity"
+          },
+          {
+            "left": "<em>confirmo, confirmare, confirmavi, confirmatus, -a, um</em>",
+            "right": "confirm, confirmation"
+          },
+          {
+            "left": "<em>respondeo, respondere, respondi, responsus, -a, -um</em>",
+            "right": "respondent, response"
+          },
+          {
+            "left": "<em>senex, senis</em>",
+            "right": "senile, senescent, senectitude, senior "
+          },
+          {
+            "left": "<em>artifex, artificis m.</em>",
+            "right": "artifice"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_03_05/styles.css"],
+    "intMedia": "interactives/03_03_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Please read the phrases in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>健壮</span> jiànzhuàng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words have the same pinyin initial as the 2nd character in the word?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>果汁</span> guǒzhī</span><audio class='audio' controls src='interactives/03_03_05/intmedia/juice.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>儿子</span> érzi</span><audio class='audio' controls src='interactives/03_03_05/intmedia/son.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>继母</span> jìmǔ</span><audio class='audio' controls src='interactives/03_03_05/intmedia/stepmother.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>菜单</span> càidān</span><audio class='audio' controls src='interactives/03_03_05/intmedia/menu.mp3'></audio>"
+        ],
+        "correct": "Job excellently done! The 2nd character <span lang='zh-Hans'>壮</span> in <span lang='zh-Hans'>健壮</span> jiànzhuàng has the initial “zh,” which is also in the 2nd character for the word <span lang='zh-Hans'>果汁</span> guǒzhī (juice). ",
+        "incorrect": "Almost…try to sound out the word and identify the initial of its 2nd character; then compare it with the audios in the options.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>胖</span> pàng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the <strong>antonym</strong> of the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>瘦</span> shòu",
+        "options": ["<span lang='zh-Hans'>大</span> dà", 
+          "<span lang='zh-Hans'>凶</span> xiōng", 
+          "<span lang='zh-Hans'>帅</span> shuài"],
+        "correct": "Job wonderfully done! The word 胖pàng means “fat,” and its antonym (word with opposite meaning) is <span lang='zh-Hans'>瘦</span> shòu (skinny).",
+        "incorrect": "Not quite… think about the meaning of the word; then consider what its opposite (antonym) should be.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>年轻</span> niánqīng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be completed using the word presented?</p>",
+        "answer": "Smith <span lang='zh-Hans'>小姐很______。</span> Smith xiǎojiě hěn_____.",
+        "options": [
+          "<span lang='zh-Hans'>一盘_____多少钱？</span> Yīpán _____duōshǎoqián?",
+          "<span lang='zh-Hans'>请给我一杯______。</span> Qǐnggěiwǒ yībēi_____.",
+          "<span lang='zh-Hans'>我的头发是______的。</span> Wǒde tóufà shì _____ de."
+        ],
+        "correct": "You got it!  <span lang='zh-Hans'>年轻</span> niánqīng (young) can be used to describe a person—Smith <span lang='zh-Hans'>小姐很年轻。</span> Smith xiǎojiě hěn niánqīng. (Ms. Smith is very young.)",
+        "incorrect": "So close! Think about the meaning of the word and how it can be fitted into one of the sentences properly.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>年老</span> niánlǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Keysie has a loving family. Which of the following family members of hers can the word presented be used to describe?</p>",
+        "answer": "Her 78-year-old grandpa",
+        "options": [
+          "Her 3-year-old niece",
+          "Her 26-year-old aunt",
+          "Her 14-year-old younger brother"
+        ],
+        "correct": "You got it!  <span lang='zh-Hans'>年老</span> niánlǎo means “old.” It can be used to describe Keysie’s 78-year-old grandpa.",
+        "incorrect": "So close! Think about the meaning of the word, and consider what range of age it can be used to describe.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

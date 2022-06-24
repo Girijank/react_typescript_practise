@@ -1,0 +1,66 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>fluctus, fluctus m.</em>",
+            "right": "fluctuate"
+          },
+          {
+            "left": "<em>impetus, impetus m.</em>",
+            "right": "impetuous"
+          },
+          {
+            "left": "<em>manus, manus f.</em>",
+            "right": "manicure"
+          },
+          {
+            "left": "<em>urbs, urbis f.</em>",
+            "right": "urban, suburban"
+          },
+          {
+            "left": "<em>condo, condere, condidi, conditus, -a, -um</em>",
+            "right": "condominium"
+          },
+          {
+            "left": "<em>creo, creare, creavi, creatus, -a, -um</em>",
+            "right": "creation"
+          },
+          {
+            "left": "<em>nutrio, nutrire, nutrivi, nutritus, -a, -um</em>",
+            "right": "nutrient, nutritious"
+          },
+          {
+            "left": "<em>census, census m.</em>",
+            "right": "census"
+          },
+          {
+            "left": "<em>concordia, concordiae f.</em>",
+            "right": "concordance"
+          },
+          {
+            "left": "<em>foedus, foederis n.</em>",
+            "right": "federation"
+          },
+          {
+            "left": "<em>cornu, cornus n.</em>",
+            "right": "cornucopia"
+          },
+          {
+            "left": "<em>genu, genus n.</em>",
+            "right": "genuflect"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

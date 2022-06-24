@@ -1,0 +1,71 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "intmedia": "interactives/imgmarker/intmedia/",
+    "customTextversionAll": "interactives/imgmarker/imgmarker_text.htm",
+    "css": [
+      "interactives/imgmarker/imgmarker.css"
+    ]
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Select each marker to view how Chloe refers to those around her. When you're ready, use the video recorder to practice on your own."
+      },
+      {
+        "type": "imageMarker",
+        "background": "01_03_page10_interactive.jpg",
+        "width": "680",
+        "items": [
+          {
+            "top": "0",
+            "left": "0",
+            "title": "",
+            "textversion": "<h4><strong>That girl over there at the locker.</strong></h4><br><p><strong>Pointing Style:</strong> When describing what one girl in the room is doing, Chloe points in that direction with just one finger.<br><strong>NMMs: </strong> She puckers her mouth slightly to show a small struggle with her locker sticking.</p><div class='col-xs-8'><iframe src='https://cdnapisec.kaltura.com/p/2061901/sp/206190100/embedIframeJs/uiconf_id/35766781/partner_id/2061901?iframeembed=true&playerId=Kaltura&entry_id=0_4jed23dl' allowfullscreen></iframe></div><div class='hidden'><a class='pop record_icon' data-height='400px' href='../../global/video_recorder/video-only.htm'><img src='../../global/images/record.svg' alt='record image' alt='Select to open recording too.' class='skipimg'> Give It a Try</a></div>",
+            "custom_marker": "hotspot_interactive.svg",
+            "custom_marker_height": "50",
+            "custom_marker_width": "50"
+          },
+          {
+            "top": "50",
+            "left": "50",
+            "title": "",
+            "textversion": "<h4><strong>I don't know the three boys standing behind me.</strong></h4><br><p><strong>Pointing Style:</strong> These three boys are behind Chloe, so she uses three fingers and motions over the shoulder closest to them. <br><strong>NMMs: </strong> She leans her body in their direction and uses her face to indicate 'don't' know.</p><div class='col-xs-8'><iframe src='https://cdnapisec.kaltura.com/p/2061901/sp/206190100/embedIframeJs/uiconf_id/35766781/partner_id/2061901?iframeembed=true&playerId=Kaltura&entry_id=0_5mnnk9yw' allowfullscreen></iframe></div><div class='hidden'><a class='pop record_icon' data-height='400px' href='../../global/video_recorder/video-only.htm'><img src='../../global/images/record.svg' alt='record image' alt='Select to open recording too.' class='skipimg'> Give It a Try</a></div>",
+            "custom_marker": "hotspot_interactive.svg",
+            "custom_marker_height": "50",
+            "custom_marker_width": "50"
+          },
+          {
+            "top": "100",
+            "left": "100",
+            "title": "",
+            "textversion": "<h4><strong>Those two girls, they are walking.</strong></h4><br><p><strong>Pointing Style:</strong> Since there are two girls present and walking, Chloe uses two fingers in motion as she points in their direction.</p><div class='col-xs-8'><iframe src='https://cdnapisec.kaltura.com/p/2061901/sp/206190100/embedIframeJs/uiconf_id/35766781/partner_id/2061901?iframeembed=true&playerId=Kaltura&entry_id=0_qe75pxe7' allowfullscreen></iframe></div><div class='hidden'><a class='pop record_icon' data-height='400px' href='../../global/video_recorder/video-only.htm'><img src='../../global/images/record.svg' alt='record image' alt='Select to open recording too.' class='skipimg'> Give It a Try</a></div>",
+            "custom_marker": "hotspot_interactive.svg",
+            "custom_marker_height": "50",
+            "custom_marker_width": "50"
+          },
+          {
+            "top": "150",
+            "left": "150",
+            "title": "",
+            "textversion": "<h4><strong>That boy over there, he has brown hair and a black backpack.</strong></h4><br> <p><strong>Pointing Style:</strong> Chloe's talking about one boy who's in the room, so she uses one finger and points in his direction. <br><strong>NMMs: </strong>She shifts her body in his direction and uses head tilting.</p><div class='col-xs-8'><iframe src='https://cdnapisec.kaltura.com/p/2061901/sp/206190100/embedIframeJs/uiconf_id/35766781/partner_id/2061901?iframeembed=true&playerId=Kaltura&entry_id=0_jaap6esx' allowfullscreen></iframe></div><div class='hidden'><a class='pop record_icon' data-height='400px' href='../../global/video_recorder/video-only.htm'><img src='../../global/images/record.svg' alt='record image' alt='Select to open recording too.' class='skipimg'> Give It a Try</a></div>",
+            "custom_marker": "hotspot_interactive.svg",
+            "custom_marker_height": "50",
+            "custom_marker_width": "50"
+          },
+          {
+            "top": "200",
+            "left": "200",
+            "title": "",
+            "textversion": "<h4><strong>We are going to class together.</strong></h4><br><p><strong>Pointing Style:</strong> See how Chloe is referring to herself and the collective group? For that, she uses a designated handshape to show a group and the direction of its movement.<br><strong>NMMs: </strong> Watch how she uses her body's natural motion to shift forward with her hands.</p><div class='col-xs-8'><iframe src='https://cdnapisec.kaltura.com/p/2061901/sp/206190100/embedIframeJs/uiconf_id/35766781/partner_id/2061901?iframeembed=true&playerId=Kaltura&entry_id=0_ipgh6fij' allowfullscreen></iframe></div><div class='hidden'><a class='pop record_icon' data-height='400px' href='../../global/video_recorder/video-only.htm'><img src='../../global/images/record.svg' alt='record image' alt='Select to open recording too.' class='skipimg'> Give It a Try</a></div>",
+            "custom_marker": "hotspot_interactive.svg",
+            "custom_marker_height": "50",
+            "custom_marker_width": "50"
+          }
+        ]
+      }
+    ]
+  ]
+}

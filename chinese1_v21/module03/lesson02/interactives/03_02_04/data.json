@@ -1,0 +1,91 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_02_04/styles.css"],
+    "intMedia": "interactives/03_02_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "paternal_grandfather.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>爷爷</span> yéye (paternal grandfather)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following best describes the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>他是我的爸爸的爸爸</span>. Tā shì wǒde bàba de bàba. ",
+         
+        "options": ["<span lang='zh-Hans'>她是我的爸爸的妈妈</span>. Tā shì wǒde bàba de māma. ", "<span lang='zh-Hans'>他是我的妈妈的爸爸</span>. Tā shì wǒde māma de bàba.", "<span lang='zh-Hans'>她是我的妈妈的妈妈</span>. Tā shì wǒde māma de māma."],
+        "correct": "Wonderfully done! <em><span lang='zh-Hans'>爷爷</span></em>Yéye refers to paternal grandfather. Therefore, he is your dad’s dad.",
+        "incorrect": "Very close. Think about the meaning of the word in the audio, and then consider the tie the person has with you in the family.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "paternal_grandmother.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>奶奶</span> nǎinai (paternal grandmother)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same initial in pinyin as both characters in the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>女儿</span> nüér (daughter)</span><audio class='audio' controls src='interactives/03_02_04/intmedia/daughter.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>妹妹</span> mèimei (younger sister)</span><audio class='audio' controls src='interactives/03_02_04/intmedia/younger_sister.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>儿子</span> érzi (son)</span><audio class='audio' controls src='interactives/03_02_04/intmedia/son.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>妈妈</span> māma (mom)</span><audio class='audio' controls src='interactives/03_02_04/intmedia/mom.mp3' ></audio>"
+        ],
+        "correct": "Terrific job! <span lang='zh-Hans'>奶奶</span>nǎinai (paternal grandmother) has initial “n” in pinyin, and so does <span lang='zh-Hans'>女儿</span>nüér (daughter).",   
+        "incorrect": "So close! Listen to the audio again to identify the initial of the word; then listen to all options to see which one has the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "maternal_grandfather.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>外公</span> wàigōng (maternal grandfather)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following family members is the spouse of the person referred to by the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>外婆</span> wàipó",      
+        "options":[
+          "<span lang='zh-Hans'>爷爷</span> yéye",
+          "<span lang='zh-Hans'>妈妈</span> māma",
+          "<span lang='zh-Hans'>女儿</span> nüér"
+        ],
+        "correct": " Outstanding job! <span lang='zh-Hans'>外公</span>wàigōng means “maternal grandfather,” and his spouse should be <span lang='zh-Hans'>外婆</span>wàipó, the maternal grandmother. ",
+        "incorrect": "Not quite… listen to the word again, and think about its meaning. Then consider which family member’s title in the choices can be associated.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "they_them.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>他们</span> tāmen (they)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>cannot</strong> be plural for the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我</span>",
+        "options": [
+          "<span lang='zh-Hans'>他</span>",
+          "<span lang='zh-Hans'>她</span>",
+          "<span lang='zh-Hans'>它</span>"
+        ],
+        "correct": "Excellently done! The audio “tāmen” means “they,” in which “tā,” verbally, can be “he,” “she,” or “it” with different characters but same pronunciation. Of the four choices, <span lang='zh-Hans'>我</span>wǒ (I) doesn’t fall in the same category.",        
+        "incorrect": "So close… focus on the first syllable in the audio, and then consider the character that does not match it. The 2nd syllable “men” is simply the plural for pronouns.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

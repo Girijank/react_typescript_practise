@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "sta<sup>nd</sup>ard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the following.",
+        "options": [
+          {
+            "left": "1<sup>st</sup> Declension",
+            "right": "Genitive Ending ‘-ae’"
+          },
+          {
+            "left": "2<sup>nd</sup> Declension",
+            "right": "Genitive Ending ‘-i’"
+          },
+          {
+            "left": "3<sup>rd</sup> Declension",
+            "right": "Genitive Ending ‘-is’"
+          },
+          {
+            "left": "4<sup>th</sup> Declension",
+            "right": "Genitive Ending ‘-us’"
+          },
+          {
+            "left": "5<sup>th</sup> Declension",
+            "right": "Genitive Ending ‘-ei’"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

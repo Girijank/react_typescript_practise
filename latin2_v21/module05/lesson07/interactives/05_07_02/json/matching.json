@@ -1,0 +1,50 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>armo, armare, armavi, armatus, -a, -um</em>",
+            "right": "armor"
+          },
+          {
+            "left": "<em>efficio, efficere, effeci, effectus, -a, -um</em>",
+            "right": "efficient, effect, effective"
+          },
+          {
+            "left": "<em>lego, legere, legi, lectus, -a, -um</em>",
+            "right": "legible"
+          },
+          {
+            "left": "<em>observo, observare, observavi, observatus, -a, -um</em>",
+            "right": "observatory, observation"
+          },
+          {
+            "left": "<em>recipio, recipere, recepi, receptus -a, -um</em>",
+            "right": "reception"
+          },
+          {
+            "left": "<em>remitto, remittere, remisi, remissus, -a, -um</em>",
+            "right": "remission, remit"
+          },
+          {
+            "left": "<em>rescindo, rescindere, rescidi, rescissus, -a, -um</em>",
+            "right": "rescind"
+          },
+          {
+            "left": "<em>desilio, desilire, desilui, desultus, -a, -um</em>",
+            "right": "desultory"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

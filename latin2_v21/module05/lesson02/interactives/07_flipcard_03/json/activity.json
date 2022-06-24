@@ -1,0 +1,25 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Select the image of each emperor to learn more about what they did during their reign.",
+    "cards": [
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<div><img src='images/flip_03_claudius.jpg' alt='Bust of Claudius  ' class='frame' data-caption='Tiberius Bust' data-width=' ' data-copyright='©De Agostini Picture Library  / ImageQuest 2021' /></div><span class='caption'>Claudius </span><span class='copyright'>©De Agostini Picture Library  / ImageQuest 2021</span>",
+          "textversion": "<p>Image: Claudius  </p>"
+        },
+        "back": {
+          "content": "<h4>Reign: 41 CE–54 CE.</h4><h5>I am known for:</h5><ul><li>building the Aqua Claudia</li><li>being a successful military commander</li></ul>",
+          "textversion": "<h4>Reign: 41 CE–54 CE.</h4><h5>I am known for:</h5><ul><li>building the Aqua Claudia</li><li>being a successful military commander</li></ul>"
+        }
+      }
+      
+    ]
+  }
+}

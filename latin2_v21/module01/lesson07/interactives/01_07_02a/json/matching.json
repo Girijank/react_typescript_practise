@@ -1,0 +1,53 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English derivative.",
+        "options": [
+          {
+            "left": "<em>certus, certa, certum</em>",
+            "right": "certain"
+          },
+			{
+            "left": "<em>mutatus, mutata, mutatum</em>",
+            "right": "mutation"
+          },
+			{
+            "left": "<em>superbus, superba, superbum</em>",
+            "right": "supercilious"
+          },
+			{
+            "left": "<em>incognitus, incognita, incognitum</em>",
+            "right": "incognito"
+          },
+			{
+            "left": "<em>brevis, breve</em>",
+            "right": "brevity"
+          },
+			{
+            "left": "<em>communis, commune</em>",
+            "right": "communal"
+          },
+			{
+            "left": "<em>crudelis, crudele</em>",
+            "right": "crude"
+          },
+			{
+            "left": "<em>demens, dementis</em>",
+            "right": "dementia"
+          },
+			{
+            "left": "<em>difficilis, difficile</em>",
+            "right": "difficulty"
+          }
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

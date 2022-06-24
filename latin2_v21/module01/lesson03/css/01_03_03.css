@@ -1,0 +1,8 @@
+#polaroid figure:before {   
+    left: 7px !important;
+    top: -17px !important;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

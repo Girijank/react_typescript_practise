@@ -1,0 +1,633 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/03_03_04/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "_slidesToDisplay": 5,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "In each drop-down menu, select the appropriate word to form a complete sentence in Chinese.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": "They all like pizza."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>他们</span>",
+            "options": [
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>都</span>",
+            "options": [
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>他们</span>",
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>喜欢</span>",
+            "options": [
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>他们</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>比萨饼</span>",
+            "options": [
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>我</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>他们</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>喜欢</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>他们 都 喜欢 比萨饼。</span>? means “They all like pizza.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "She and her younger sister are both very pretty."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>她</span>",
+            "options": [
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>外公</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>姐姐三个</span>",             
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>漂亮</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>和</span>",
+            "options": [
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>外公</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>姐姐三个</span>",
+              "<span lang='zh-Hans'>她</span>",             
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>漂亮</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>她妹妹</span>",
+            "options": [
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>外公</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>姐姐三个</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",             
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>漂亮</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>都</span>",
+            "options": [
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>外公</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>姐姐三个</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",              
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>漂亮</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>很</span>",
+            "options": [
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>外公</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>姐姐三个</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>都</span>",             
+              "<span lang='zh-Hans'>漂亮</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>漂亮</span>",
+            "options": [
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>外公</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>姐姐三个</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>她妹妹</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>"            
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>她 和 她妹妹 都 很 漂亮。</span> means “She and her younger sister are both very pretty.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "My maternal grandpa and paternal grandpa are both a little bald."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>我的</span>",
+            "options": [
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>有点</span>",             
+              "<span lang='zh-Hans'>外公</span>",             
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>秃顶</span>"
+             
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>外公</span>",
+            "options": [
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>有点</span>",
+              "<span lang='zh-Hans'>我的</span>", 
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>秃顶</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>和</span>",
+            "options": [
+              "<span lang='zh-Hans'>都</span>",             
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>有点</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>外公</span>",             
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>秃顶</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>爷爷</span>",
+            "options": [
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>有点</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>外公</span>",
+              "<span lang='zh-Hans'>秃顶</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>都</span>",
+            "options": [          
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>有点</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>外公</span>",             
+              "<span lang='zh-Hans'>爷爷</span>",
+              "<span lang='zh-Hans'>秃顶</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>有点</span>",
+            "options": [
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>很</span>",         
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>外公</span>",           
+              "<span lang='zh-Hans'>爷爷</span>",  
+              "<span lang='zh-Hans'>秃顶</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>秃顶</span>",
+            "options": [
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>有点</span>",
+              "<span lang='zh-Hans'>我的</span>",
+              "<span lang='zh-Hans'>外公</span>",             
+              "<span lang='zh-Hans'>爷爷</span>"              
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>我的 外公 和 爷爷 都 有点 秃顶。</span> means “My maternal grandpa and paternal grandpa are both a little bald.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Her three daughters’ eyes are all blue."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>她的</span>",
+            "options": [
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>有</span>",            
+              "<span lang='zh-Hans'>三个</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>蓝色的</span>"             
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>三个</span>",
+            "options": [
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>她的</span>",             
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>蓝色的</span>" 
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>女儿的</span>",
+            "options": [
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>三个</span>",   
+              "<span lang='zh-Hans'>眼睛</span>",           
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>蓝色的</span>" 
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>眼睛</span>",
+            "options": [
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>三个</span>",
+              "<span lang='zh-Hans'>女儿的</span>", 
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>蓝色的</span>" 
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>都</span>",
+            "options": [
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>三个</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>眼睛</span>",              
+              "<span lang='zh-Hans'>是</span>",
+              "<span lang='zh-Hans'>蓝色的</span>" 
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>是</span>",
+            "options": [
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>三个</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>都</span>",             
+              "<span lang='zh-Hans'>蓝色的</span>" 
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>蓝色的</span>",
+            "options": [
+              "<span lang='zh-Hans'>喜欢</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>她的</span>",
+              "<span lang='zh-Hans'>三个</span>",
+              "<span lang='zh-Hans'>女儿的</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>是</span>"             
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>她的 三个 女儿的 眼睛 都 是 蓝色的。</span>. means “Her three daughters’ eyes are all blue.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "Your dad and mom are both very kind."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>你的</span>",
+            "options": [
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>爸爸</span>",
+            "options": [
+              "<span lang='zh-Hans'>你的</span>",             
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>和</span>",
+            "options": [
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>爸爸</span>",             
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>妈妈</span>",
+            "options": [
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>都</span>",
+            "options": [
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>很</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>很</span>",
+            "options": [
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>善良</span>",
+            "options": [
+              "<span lang='zh-Hans'>你的</span>",
+              "<span lang='zh-Hans'>爸爸</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>妈妈</span>",
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>很</span>",             
+              "<span lang='zh-Hans'>眼睛</span>",
+              "<span lang='zh-Hans'>比萨饼</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>你的 爸爸 和 妈妈 都 很 善良。</span> means “Your dad and mom are both very kind.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "She and I both have older sisters."
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_*_*_*_*_*_ <span lang='zh-Hans'>。</span>",
+        "options": [
+          {
+            "answer": "<span lang='zh-Hans'>她</span>",
+            "options": [                
+              "<span lang='zh-Hans'>秃顶</span>",
+              "<span lang='zh-Hans'>漂亮</span>",
+              "<span lang='zh-Hans'>善良</span>",          
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>我</span>",              
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>姐姐</span>",
+              "<span lang='zh-Hans'>蓝色的</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>和</span>",
+            "options": [
+              "<span lang='zh-Hans'>秃顶</span>",
+              "<span lang='zh-Hans'>漂亮</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>她</span>",            
+              "<span lang='zh-Hans'>我</span>",              
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>姐姐</span>",
+              "<span lang='zh-Hans'>蓝色的</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>我</span>",
+            "options": [
+              "<span lang='zh-Hans'>秃顶</span>",
+              "<span lang='zh-Hans'>漂亮</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",                         
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>姐姐</span>",
+              "<span lang='zh-Hans'>蓝色的</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>都</span>",
+            "options": [
+              "<span lang='zh-Hans'>秃顶</span>",
+              "<span lang='zh-Hans'>漂亮</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>我</span>", 
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>姐姐</span>",
+              "<span lang='zh-Hans'>蓝色的</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>有</span>",
+            "options": [
+              "<span lang='zh-Hans'>秃顶</span>",
+              "<span lang='zh-Hans'>漂亮</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>我</span>",              
+              "<span lang='zh-Hans'>都</span>",             
+              "<span lang='zh-Hans'>姐姐</span>",
+              "<span lang='zh-Hans'>蓝色的</span>"
+            ]
+          },
+          {
+            "answer": "<span lang='zh-Hans'>姐姐</span>",
+            "options": [
+              "<span lang='zh-Hans'>秃顶</span>",
+              "<span lang='zh-Hans'>漂亮</span>",
+              "<span lang='zh-Hans'>善良</span>",
+              "<span lang='zh-Hans'>她</span>",
+              "<span lang='zh-Hans'>和</span>",
+              "<span lang='zh-Hans'>我</span>",              
+              "<span lang='zh-Hans'>都</span>",
+              "<span lang='zh-Hans'>有</span>",
+              "<span lang='zh-Hans'>蓝色的</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it! <span lang='zh-Hans'>她 和 我 都 有 姐姐。</span> means “She and I both have older sisters.”",
+        "incorrect": "Not quite. Please try again!",
+        "incorrectHeading": "Incorrect",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

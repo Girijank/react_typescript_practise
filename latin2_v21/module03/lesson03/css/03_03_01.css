@@ -1,0 +1,31 @@
+.para{
+    padding: 20px;
+}
+.padding{
+    padding: 20px;
+    margin-bottom: -40px;
+}
+.profiles .col-sm-3 {
+  
+    border-right: 0px solid ;
+    margin-top: 4px;
+    
+}
+.profiles .col-sm-5 {
+    border-right: 0px solid ;
+}
+.profiles .col-sm-8{
+    border-left: 0px solid #f5f5f5;;
+    margin: -17px 0;
+}
+/* .profiles {
+    padding: 15px;
+} */
+/* @media (min-width: 768px) */
+.col-sm-5 {
+    width: 33.666667%;
+    margin-left: 12px;
+}
+.margin{
+    margin-left: 100px;
+}

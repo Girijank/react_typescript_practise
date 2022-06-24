@@ -1,0 +1,39 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding derivative, and you will become a vocab guru!",
+        "options": [
+          {
+            "left": "<em>navalis, navale</em>",
+            "right": "naval"
+          },
+          {
+            "left": "<em>consisto, consistere, constiti, constiturus, -a, -um</em>",
+            "right": "consist, consistent"
+          },
+          {
+            "left": "<em>permuto, permutare, permutavi, permutatus, -a, -um</em>",
+            "right": "permutation"
+          },
+          {
+            "left": "<em>prohibeo, prohibere, prohibui, prohibitus, -a, -um</em>",
+            "right": "prohibit, prohibition"
+          },
+          {
+            "left": "<em>recuso, recusare, recusavi, recusatus, -a, -um</em>",
+            "right": "recuse"
+          }
+          
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

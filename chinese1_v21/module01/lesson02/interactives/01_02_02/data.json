@@ -1,0 +1,103 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_02_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/01_02_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “h”",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "Excellent job catching  those “h” sounds. You are on a roll!",
+                "incorrect": "So very close! Please try again.",
+                "text": "<span lang='zh-Hans'>好</span> hǎo (good)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_02_02/media/good.mp3",
+                    "textVersion": "<span lang='zh-Hans'>好</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Excellent job catching  those “h” sounds. You are on a roll!",
+                "incorrect": "So very close! Please try again.",
+                "text": "<span lang='zh-Hans'>很</span> hěn (very)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_02_02/media/hen.mp3",
+                    "textVersion": "<span lang='zh-Hans'>很</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “o” ",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You’ve caught  the “o” sounds. Way to go!",
+                "incorrect": "Oops… got to get them all! Try again.",
+                "text": "<span lang='zh-Hans'>我</span> wǒ (I/me)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_02_02/media/wo.mp3",
+                    "textVersion": "<span lang='zh-Hans'>我</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “ua” and initial &quot;h&quot;",
+            "limit": 1,
+            "item": [
+              {
+                "correct": "You’ve done well identifying  the “ua” sounds.  Did you catch that <span lang='zh-Hans'>电话</span> diànhuà also has an initial “h” sound? You’ve got an ear! ",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>电话</span> diànhuà (telephone)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_02_02/media/telephone.mp3",
+                    "textVersion": "<span lang='zh-Hans'>电话</span>",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "You are being seen."
+        ],
+        "quiz": "<p>Fill in the blank: Translate the Latin verb into English. </p><br> <p><strong>Sentence Verb to Use:</strong> <em>video, videre, vidi, visus, -a, -um</em> = to see</p><p> <strong>Latin:</strong> <em>videris</em></p><br> Fill in the blank English answer: *_ ",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite—try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

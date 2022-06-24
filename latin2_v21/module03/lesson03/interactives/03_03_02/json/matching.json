@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>omnis, omnis</em>",
+            "right": "omniscient"
+          },
+          {
+            "left": "<em>par, paris</em>",
+            "right": "parity, peer, par"
+          },
+          {
+            "left": "<em>nullus, nulla, nullum</em>",
+            "right": "null, nullify"
+          },
+          {
+            "left": "<em>siccus, sicca, siccum</em>",
+            "right": "siccant, desiccant, siccative"
+          },
+          {
+            "left": "<em>adventus, adventus m. </em>",
+            "right": "advent"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

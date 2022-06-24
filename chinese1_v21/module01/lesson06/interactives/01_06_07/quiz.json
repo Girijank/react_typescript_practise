@@ -1,0 +1,117 @@
+{
+	"config": {
+		"src": "quizmo",
+		"interactiveTitle": "",
+		"css": ["interactives/01_06_07/styles.css"],
+		"disableRemoteCss": true,
+		
+    	"customTextversionAll":"interactives/01_06_07/textversion/textversion.htm",
+		"modal": {
+			"directions": "Drag and drop the appropriate title to complete the addressing in different settings.",
+			"title": "Instructions"
+		}
+	},
+	"body": [
+		[
+			{
+				"type":"dragdrop",
+				"failedHeading": "Incorrect",
+				"rejectIncorrect": true,
+				"quiz":"",
+				"bins":[
+					{
+						"title": "<span lang='zh-Hans'>张</span>______ Miss Zhang",
+						"limit": 1,
+						"item": [
+							{
+								"correctHeading": "Correct",
+								"correct": "Awesome. You got it!",
+								"incorrectHeading": "Incorrect",
+								"incorrect": "Oops, this is not correct. Try again.",
+								"text": "<span lang='zh-Hans'>小姐</span>"
+							}
+						]
+					},
+					{
+						"title": "<span lang='zh-Hans'>刘</span>______ Ms. Liu",
+						"limit": 1,
+						"item": [
+							{
+								"correctHeading": "Correct",
+								"correct": "Awesome. You got it!",
+								"incorrectHeading": "Incorrect",
+								"incorrect": "Oops, this is not correct. Try again.",
+								"text": "<span lang='zh-Hans'>女士</span>"
+							}
+						]
+					},
+					{
+						"title": "<span lang='zh-Hans'>李</span>_______ Doctor Li",
+						"limit": 1,
+						"item": [
+							{
+								"correctHeading": "Correct",
+								"correct": "Awesome. You got it!",
+								"incorrectHeading": "Incorrect",
+								"incorrect": "Oops, this is not correct. Try again.",
+								"text": "<span lang='zh-Hans'>医生</span>"
+							}
+						]
+					},
+					{
+						"title": "<span lang='zh-Hans'>王</span>________ Teacher Wang",
+						"limit": 1,
+						"item": [
+							{
+								"correctHeading": "Correct",
+								"correct": "Awesome. You got it!",
+								"incorrectHeading": "Incorrect",
+								"incorrect": "Oops, this is not correct. Try again.",
+								"text": "<span lang='zh-Hans'>老师</span>"
+							}
+						]
+					},
+					{
+						"title": "<span lang='zh-Hans'>陈</span>________ Mr. Chen",
+						"limit": 1,
+						"item": [
+							{
+								"correctHeading": "Correct",
+								"correct": "Awesome. You got it!",
+								"incorrectHeading": "Incorrect",
+								"incorrect": "Oops, this is not correct. Try again.",
+								"text": "<span lang='zh-Hans'>先生</span>"
+							}
+						]
+					},
+					{
+						"title": "<span lang='zh-Hans'>陈</span>________ Mrs. Chen",
+						"limit": 1,
+						"item": [
+							{
+								"correctHeading": "Correct",
+								"correct": "Awesome. You got it!",
+								"incorrectHeading": "Incorrect",
+								"incorrect": "Oops, this is not correct. Try again.",
+								"text": "<span lang='zh-Hans'>太太</span>"
+							}
+						]
+					},
+					{
+						"title": "<span lang='zh-Hans'>卢</span>________ Professor Lu",
+						"limit": 1,
+						"item": [
+							{
+								"correctHeading": "Correct",
+								"correct": "Awesome. You got it!",
+								"incorrectHeading": "Incorrect",
+								"incorrect": "Oops, this is not correct. Try again.",
+								"text": "<span lang='zh-Hans'>教授</span>"
+							}
+						]
+					}
+				]
+			}
+		]
+	]
+}

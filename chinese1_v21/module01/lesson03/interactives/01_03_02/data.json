@@ -1,0 +1,163 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/01_03_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/01_03_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to each word, then drag it to the initial or final you hear.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “sh”",
+            "limit": 2,
+            "item": [
+              {
+                "correct": "Excellent job catching  those “sh” sounds. You are on a roll!",
+                "incorrect": "So very close! Please try again.",
+                "text": "<span lang='zh-Hans'>早上</span> zǎoshàng (morning)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/zaoshang.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Excellent job catching  those “sh” sounds. You are on a roll!",
+                "incorrect": "So very close! Please try again.",
+                "text": "<span lang='zh-Hans'>多少</span> duōshǎo (how many)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/duoshao.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “i”",
+            "limit": 3,
+            "item": [
+              {
+                "correct": "You’ve caught  the “i” sounds. Way to go!",
+                "incorrect": "Oops… got to get them all! Try again.",
+                "text": "<span lang='zh-Hans'>你</span> nǐ (you)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/ni.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve caught  the “i” sounds. Way to go!",
+                "incorrect": "Oops… got to get them all! Try again.",
+                "text": "<span lang='zh-Hans'>哪里</span> nǎlǐ (where)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/nali.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve caught  the “i” sounds. Way to go!",
+                "incorrect": "Oops… got to get them all! Try again.",
+                "text": "<span lang='zh-Hans'>比较</span> bǐjiào (somewhat)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/somewhat.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “e”",
+            "limit": 3,
+            "item": [
+              {
+                "correct": "You’ve done well identifying  the “e” sounds. You’ve got an ear!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>你呢</span> nǐne (what about you)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/what_about_you.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done well identifying  the “e” sounds. You’ve got an ear!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>的</span> de (of)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/de.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "You’ve done well identifying  the “e” sounds. You’ve got an ear!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>蓝色</span> lánsè (blue)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/01_03_02/media/blue.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

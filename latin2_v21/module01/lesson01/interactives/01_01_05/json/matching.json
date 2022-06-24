@@ -1,0 +1,41 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Now it's time to practice your 1<sup>st</sup> Declension skills. Use your knowledge of the endings specific to this declension to match case and number. Keep going until you get them all right!",
+        "options": [
+          {
+            "left": "<em>incolam</em>",
+            "right": "Accusative singular"
+          },
+			{
+            "left": "<em>feminas</em>",
+            "right": "Accusative plural"
+          },
+			{
+            "left": "<em>poeta</em>",
+            "right": "Nominative singular; Ablative singular"
+          },
+			{
+            "left": "<em>agricolarum</em>",
+            "right": "Genitive plural"
+          },
+			{
+            "left": "<em>feminae</em>",
+            "right": "Genitive singular; Dative singular; Nominative plural"
+          },
+			{
+            "left": "<em>poetis</em>",
+            "right": "Dative plural; Ablative plural"
+          }
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

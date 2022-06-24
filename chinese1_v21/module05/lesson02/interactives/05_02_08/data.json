@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_02_08/styles.css"],
+    "intMedia": "interactives/05_02_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio; then complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "dressing_table_dresser.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>衣柜</span> yīguì (dressing table/dresser) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items do you <strong>most</strong> likely find in the furniture item indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>裤子</span>",
+        "options": [
+          "<span lang='zh-Hans'>筷子</span>",
+          "<span lang='zh-Hans'>橙子</span>",
+          "<span lang='zh-Hans'>房子</span>"
+        ],
+        "correct": "Excellently done! <span lang='zh-Hans'>衣柜</span> yīguì means “dressing table/dresser.” You can most likely find pants there, but maybe not chopsticks, oranges, or a house—even though they all share the same character <span lang='zh-Hans'>子</span> zi.",
+        "incorrect": "So close! Listen to the word again to identify its meaning. Then, identify the meanings of the words in the choices to see which one you can most likely find in the furniture mentioned in the audio.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "lamp.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>灯</span> dēng (lamp) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>For which of the following actions do you <strong>least</strong> likely need the furniture item said in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>听</span> tīng (to listen to) </span><audio class='audio' controls src='interactives/05_02_08/intmedia/to_listen_to.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>画</span> huà (to draw; drawing/picture) </span><audio class='audio' controls src='interactives/05_02_08/intmedia/to_draw.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>读</span> dú (to read) </span><audio class='audio' controls src='interactives/05_02_08/intmedia/to_read.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>写</span> xiě (to write) </span><audio class='audio' controls src='interactives/05_02_08/intmedia/to_write.mp3'></audio>"
+        ],
+        "correct": "Very nicely done! <span lang='zh-Hans'>灯</span> dēng means “lamp,” and you are least likely to use it when you are listening to something such as music.",
+        "incorrect": "Not quite…listen to the word again to understand what furniture item it refers to. Then, consider which action in the choices you can accomplish without the item.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "clothes.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>衣服</span> yīfu (clothes) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words does <strong>not</strong> contain the same initial as the first character in the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>枕头</span>",
+        "options": [
+          "<span lang='zh-Hans'>浴室</span>",
+          "<span lang='zh-Hans'>右边</span>",
+          "<span lang='zh-Hans'>椅子</span>"
+        ],
+        "correct": "Excellently done! The first character in <span lang='zh-Hans'>衣服</span> yīfu (clothes) has the initial “y,” which is not in the word <span lang='zh-Hans'>枕头</span> zhěntóu (pillow). ",
+        "incorrect": "Not quite…listen to the word again to identify the initial in its first character. Then, sound out the words in the choices to see which one does <strong>not</strong> have that initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "to_fold.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>叠</span> dié (to fold)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>他在卧室_____衣服。</span>Tā zài wòshì _____ yīfu.",
+        "options": [
+          "<span lang='zh-Hans'>我在学校_____体育课。</span>Wǒ zài xuéxiào _____ tǐyùkè.",
+          "<span lang='zh-Hans'>我妹妹在阳台_____唱歌。</span>Wǒ mèimei zài yángtái _____ chànggē.",
+          "<span lang='zh-Hans'>她哥哥在秋天_____生日。</span>Tā gēge zài qiūtiān _____ shēngrì."
+        ],
+        "correct": "Outstanding job! <strong><span lang='zh-Hans'>叠</span></strong> dié means “to fold,” and it suits the sentence “<span lang='zh-Hans'>他在卧室</span><strong><span lang='zh-Hans'>叠</span></strong><span lang='zh-Hans'>衣服。</span>Tā zài wòshì dié yīfu. (He is folding clothes in the bedroom.)” ",
+        "incorrect": "Oops…listen to the audio one more time to identify the meaning of the verb. Then, place it in each of the sentences in the choices to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

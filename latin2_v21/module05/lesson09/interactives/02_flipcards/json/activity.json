@@ -1,0 +1,102 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Select the card to reveal the correct Caesar.",
+    "instruction_textversion":"Reveal the answer to reveal the correct Caesar.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Having entered into a confederacy with Antony and Lepidus, he brought the war at Philippi to an end in two battles, although he was at that time weak and suffering from sickness.</p>",
+          "textversion": "<p>Having entered into a confederacy with Antony and Lepidus, he brought the war at Philippi to an end in two battles, although he was at that time weak and suffering from sickness.</p>"
+        },
+        "back": {
+          "content": "<p><em>Augustus</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'><em>Augustus</em></p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>All now becoming insistent to hear “his heavenly voice,” he informed them, “that he would gratify those who desired it at the gardens.”</p>",
+          "textversion": "<p>All now becoming insistent to hear “his heavenly voice,” he informed them, “that he would gratify those who desired it at the gardens.”</p>"
+        },
+        "back": {
+          "content": "<p><em>Nero</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'><em>Nero</em></p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Returning to the island, he abandoned all care of the government so far, that he never filled up the decuriae of the knights, never changed any military tribunes, prefects, or governors of provinces, and kept Spain and Syria for several years without any consular lieutenants.</p>",
+          "textversion": "<p>Returning to the island, he abandoned all care of the government so far, that he never filled up the decuriae of the knights, never changed any military tribunes, prefects, or governors of provinces, and kept Spain and Syria for several years without any consular lieutenants.</p>"
+        },
+        "back": {
+          "content": "<p><em>Tiberius</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'><em>Tiberius</em></p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>No suspicion was too trifling, no person on whom it rested too contemptible, to throw him into a panic and induce him to take precautions for his safety and meditate revenge. </p>",
+          "textversion": "<p>No suspicion was too trifling, no person on whom it rested too contemptible, to throw him into a panic and induce him to take precautions for his safety and meditate revenge.</p>"
+        },
+        "back": {
+          "content": "<p><em>Claudius</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'><em>Claudius</em></p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Nor was he more mild or respectful in his behavior towards the Senate. Some who had borne the highest offices in the government, he suffered to run by his litter in their togas for several miles together and to attend him at supper, sometimes at the head of his couch, sometimes at his feet, with napkins. </p>",
+          "textversion": "<p>Nor was he more mild or respectful in his behavior towards the Senate. Some who had borne the highest offices in the government, he suffered to run by his litter in their togas for several miles together and to attend him at supper, sometimes at the head of his couch, sometimes at his feet, with napkins. </p>"
+        },
+        "back": {
+          "content": "<p><em>Caligula</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'><em>Caligula</em></p>"
+        }
+      },
+      {
+        "id": "card_06",
+        "front": {
+          "content": "<p>Becoming still more savage after his success in the civil war, he employed the utmost industry to discover those of the adverse party who absconded: many of them he racked with a new-invented torture. </p>",
+          "textversion": "<p>Becoming still more savage after his success in the civil war, he employed the utmost industry to discover those of the adverse party who absconded: many of them he racked with a new-invented torture. </p>"
+        },
+        "back": {
+          "content": "<p><em>Domitian</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans6'>Show Answer</div><p id='ans6' class='collapse'><em>Domitian</em></p>"
+        }
+      },
+      {
+        "id": "card_07",
+        "front": {
+          "content": "<p>Having dedicated his amphitheatre and built some warm baths close by it with great expedition, he entertained the people with most magnificent spectacles. </p>",
+          "textversion": "<p>Having dedicated his amphitheatre and built some warm baths close by it with great expedition, he entertained the people with most magnificent spectacles. </p>"
+        },
+        "back": {
+          "content": "<p><em>Titus</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans7'>Show Answer</div><p id='ans7' class='collapse'><em>Titus</em></p>"
+        }
+      },
+      {
+        "id": "card_08",
+        "front": {
+          "content": "<p>After the deaths of Nero and Galba, whilst Otho and Vitellius were contending for the sovereignty, he entertained hopes of obtaining the empire, with the prospect of which he had long before flattered himself, from following omens. </p>",
+          "textversion": "<p>After the deaths of Nero and Galba, whilst Otho and Vitellius were contending for the sovereignty, he entertained hopes of obtaining the empire, with the prospect of which he had long before flattered himself, from following omens. </p>"
+        },
+        "back": {
+          "content": "<p><em>Vespasian</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans8'>Show Answer</div><p id='ans8' class='collapse'><em>Vespasian</em></p>"
+        }
+      }
+    ]
+  }
+}

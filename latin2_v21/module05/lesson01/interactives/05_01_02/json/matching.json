@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Match the Latin vocabulary word with its corresponding English derivative.",
+        "options": [
+          {
+            "left": "<em>avis, avis f.</em>",
+            "right": "aviary, avian"
+          },
+          {
+            "left": "<em>dens, dentis m.</em>",
+            "right": "dental, dentition"
+          },
+          {
+            "left": "<em>libertas, libertatis f.</em>",
+            "right": "liberty, liberation"
+          },
+          {
+            "left": "<em>monstrum, monstri n.</em>",
+            "right": "monstrosity"
+          },
+          {
+            "left": "<em>pes, pedis m.</em>",
+            "right": "pedestrian, pedestal, impediment"
+          }
+        ],
+        "chances": "5"
+      }
+    ]
+  ]
+}

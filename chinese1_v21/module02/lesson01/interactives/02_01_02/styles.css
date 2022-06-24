@@ -1,0 +1,94 @@
+.ng_il .il_dragdrop_items .il_btn {
+    height: 70px !important;
+}
+
+.ng_il.fev_audioactivity .viewport.il_viewport {
+    background: #f4f4f4 url(images/bg_gi.jpg) no-repeat;
+    background-size: contain;
+}
+
+
+.ng_il.fev_audioactivity audio.fev_audioBtn {
+    display: none;
+}
+
+.ng_il.fev_audioactivity .ui-droppable .btn-draggable span.ng-scope {
+    display: none;
+}
+
+.ng_il.fev_audioactivity .bin .il_header,
+.ng_il.fev_audioactivity .bin .il_question.ng-pristine.ng-untouched.ng-valid.ui-droppable {
+    margin: 0;
+}
+
+.ng_il.fev_audioactivity .bin .il_header {
+    font-size: 16px;
+}
+
+.ng_il.fev_audioactivity .bin.col {
+    width: 31% !important;
+    margin: 0 5px;
+} 
+
+.ng_il.fev_audioactivity button.fev_audiobtn {
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+    margin: 7px 5px;
+    padding: 0;
+    position: relative;
+    height: 16px;
+    width: 16px;
+    border: 0;
+    background: #00080c url(https://cdn.flvs.net/cdn/4.0/imgs/mediaelements/controls.png) no-repeat;
+    background-position: 3px 0px;
+    padding: 10px;
+    background-size: 700% 200%;
+}
+
+.ng_il.fev_audioactivity button.fev_audiobtn.fevpause {
+    background-position: 3px -20px;
+}
+
+
+.ng_il.fev_audioactivity .il_dragdrop_items .il_btn span.ng-binding{
+    display: none;
+}
+
+.ng_il.fev_audioactivity .ui-droppable .il_btn span.ng-binding{
+    display: block;
+}
+
+
+.ng_il.fev_audioactivity .il_dragdrop_items .il_btn {
+    /* height: auto !important; */
+    padding: 5px 5px 0;
+
+}
+
+.ng_il.fev_audioactivity audio.mejs-player {   
+    width: 200px;
+    margin-top: 8px;
+}
+
+.ng_il.fev_audioactivity .il_question,
+.ng_il.fev_audioactivity .il_wb_remaining_words {
+    padding: 0;
+
+}
+
+.ng_il.fev_audioactivity .bin audio {
+    display: none !important;
+}
+
+
+.ng_il.fev_audioactivity .il_textversion ul li {
+    list-style: disc !important;
+}
+
+.ng_il.fev_audioactivity .il_textversion ul{
+    margin-left: 15px;
+    padding-left: 15px;
+}

@@ -1,0 +1,52 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+		"theme": "standard"
+  },
+  "body": [
+    [{
+      "type": "matching",
+      "quiz": "Match each Latin Verbs to its characteristics.",
+      "options": [
+        {
+          "left": "Docti estis",
+          "right": "Perfect tense, masculine, 2<sup>nd</sup> person plural"
+        },
+			  {
+          "left": "Remota eras",
+          "right": "Pluperfect tense, feminine, 2<sup>nd</sup> person singular"
+        },
+			  {
+          "left": "Monita ero</em>",
+          "right": "Future Perfect tense, feminine, 1<sup>st</sup> person singular"
+        },
+			  {
+          "left": "Amata sum",
+          "right": "Perfect tense, feminine, 1<sup>st</sup> person singular"
+        },
+			  {
+          "left": "Rogati eramus",
+          "right": "Pluperfect tense, masculine, 1<sup>st</sup> person plural"
+        },
+			  {
+          "left": "Occupata sunt",
+          "right": "Perfect tense, neuter, 3<sup>rd</sup> person plural"
+        }
+        ,
+			  {
+          "left": "Aedificata erant",
+          "right": "Pluperfect tense, neuter, 3<sup>rd</sup> person plural"
+        },
+			  {
+          "left": "Mandatus eris",
+          "right": "Future perfect tense, masculine, 2<sup>nd</sup> person singular"
+        },
+			  {
+          "left": "Exercitum est",
+          "right": "Perfect tense, neuter 3<sup>rd</sup> person singular"
+        }
+      ],"chances": "5"
+    }]
+  ]
+}

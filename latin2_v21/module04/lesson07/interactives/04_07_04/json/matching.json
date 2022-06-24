@@ -1,0 +1,49 @@
+{
+        "config": {
+          "src": "quizmo",
+          "interactiveTitle": "",
+			"theme": "standard"
+        },
+        "body": [
+            [    
+        {
+        "type": "matching",
+        "quiz": "Match each Latin vocabulary word to its English definition.",
+        "options": [
+          {
+            "left": "<em>paulum </em>",
+            "right": "a little"
+          },
+			{
+            "left": "<em><strong>plur</strong>imus, a, um</em>",
+            "right": "most"
+          },
+			{
+            "left": "<em><strong>pess</strong>imus, a, um</em>",
+            "right": "worst "
+          },
+			{
+            "left": "<em>plus</em>",
+            "right": "more"
+          },
+			{
+            "left": "<em><strong>mel</strong>ior, -ior, -ius</em>",
+            "right": "better"
+          },
+			{
+            "left": "<em><strong>max</strong>imus, a, um</em>",
+            "right": "greatest"
+          },
+			{
+            "left": "<em><strong>minor</strong>, -us</em>",
+            "right": "smaller"
+          },		
+			{
+            "left": "<em>minus </em>",
+            "right": "less"
+          }
+        ],"chances": "5"
+      }
+            ]
+        ]
+      }

@@ -1,0 +1,90 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/04_02_06/styles.css"],
+    "intMedia": "interactives/04_02_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese, and then answer the question."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>铅笔</span> qiānbǐ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items is most similar in shape to the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>笔</span>",
+        "options": [
+          "<span lang='zh-Hans'>书</span>",
+          "<span lang='zh-Hans'>笔记本</span>",
+          "<span lang='zh-Hans'>背包</span>"
+        ],
+        "correct": "Job wonderfully done!  <em><span lang='zh-Hans'>铅笔</span> qiānbǐmeans </em>“pencil,” and  <span lang='zh-Hans'>笔</span> bǐ (pen) has the closest shape to it.",
+        "incorrect": "Very close. Think about the meaning of the word presented, and then consider the items in the choices. Watch out for <span lang='zh-Hans'>笔</span> and <span lang='zh-Hans'>笔记本</span>, both of which have the same character with the word presented. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>文件夹</span> wénjiànjiā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following has the same initial as the 1st character in the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>上午</span> shàngwǔ (a.m./morning) </span><audio class='audio' controls src='interactives/04_02_06/intmedia/am_morning.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>需要</span> xūyào (to need)</span><audio class='audio' controls src='interactives/04_02_06/intmedia/to_need.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>到达</span> dàodá (to arrive) </span><audio class='audio' controls src='interactives/04_02_06/intmedia/to_arrive.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>体育课</span> tǐyùkè (physical education class) </span><audio class='audio' controls src='interactives/04_02_06/intmedia/physical_education_class.mp3' ></audio>"
+        ],
+        "correct": "Fabulous job! The 1st character <span lang='zh-Hans'>文</span> wén in the word <span lang='zh-Hans'>文件夹</span> wénjiànjiā has the initial “w,” while the 2nd character of the word <span lang='zh-Hans'>上午</span> shàngwǔ (a.m./morning) also has the same initial.",   
+        "incorrect": "Not quite… first identify the initial of the 1st character in the word, and then listen to the four words in the choices to see which one contains the same initial.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>或是</span> huòshì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following phrases can this word be used to complete?</p>", 
+        "answer": "<span lang='zh-Hans'>中文课_____英文课</span> zhōngwénkè_____ yīngwénkè",      
+        "options":[
+          "<span lang='zh-Hans'>上午九_____三十分</span> shàngwǔ jiǔ_____ sānshífēn",
+          "<span lang='zh-Hans'>两_____意大利面</span> liǎng_____ yìdàlìmiàn",
+          "<span lang='zh-Hans'>他们_____好笑</span> tāmen _____ hǎoxiào"
+        ],
+        "correct": "You got it!  <span lang='zh-Hans'>或是</span> huòshìmeans “or,” and it is used in a sentence or phrase to indicate selecting among two or more choices.",
+        "incorrect": "So close! Think about the meaning of this word and how it can be properly used in a phrase.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>作业</span> zuòyè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can be <strong>least</strong> associated with the word presented?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>勺子</span> sháozi (spoon) End </span><audio class='audio' controls src='interactives/04_02_06/intmedia/spoon.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>学生</span> xuésheng (student) </span><audio class='audio' controls src='interactives/04_02_06/intmedia/student.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>铅笔</span> qiānbǐ (pencil) </span><audio class='audio' controls src='interactives/04_02_06/intmedia/pencil.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>书</span> shū (book) </span><audio class='audio' controls src='interactives/04_02_06/intmedia/book.mp3' ></audio>"
+        ],
+        "correct": "Fabulous job!  <span lang='zh-Hans'>作业</span> zuòyè means “homework.” To do homework, the last thing you need from the choices would be a <span lang='zh-Hans'>勺子</span> sháozi (spoon).",        
+        "incorrect": "So close! Think about the meaning of the word presented, then consider what in the choices you will reasonably need for it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

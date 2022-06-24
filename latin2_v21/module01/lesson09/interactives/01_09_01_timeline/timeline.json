@@ -1,0 +1,29 @@
+{
+	"config": {
+		"interactiveTitle": false,
+		"intMedia": "interactives/01_09_01_timeline/intmedia/",
+		"css":["interactives/01_09_01_timeline/timeline.css"],
+		"src": "timeline",
+		"directions": "Move the slider to explore the timeline.",
+		"theme": "",
+		"entries": [			
+			
+			{
+				"date": "578 BCE–534 BCE",
+				"content": "<strong>I am Servius Tullius, 6<sup>th</sup> king of Rome. </strong>I ruled from: 578 BCE–534 BCE. I am known for the following:<ul><li>marriage to Tarquinia</li><li>prophecy by Tanaquil</li><li>creation of election by Senate</li><li>the Census</li><li>creation of five classes</li><li>the Servian Wall</li><li>murder of spouses by Tarquinius Superbus and Tullia Minor</li></ul>",
+				"image": "timeline_img8.jpg",
+				"caption": "Servius Tullius",
+				"copyright": "Public domain, via Wikimedia Commons",
+				"alt":"Drawing of bust of Servius Tullius with Latin text underneath"
+			},
+			{
+				"date": "534 BCE–510 BCE",
+				"content": "<strong>I am Tarquinius Superbus, 7<sup>th</sup> king of Rome. </strong>I ruled from: c. 534 BCE–510 BCE. I am known for the following:  <ul><li>the assassination of Servius Tullius</li><li>distrust of nobles</li><li>creation of capital punishment</li><li>the Cloaca Maxima</li><li>the Cumaean Sibyl</li><li>Sextus/Lucretia</li><li>exile  </li></ul>",
+				"image": "timeline_img9.jpg",
+				"caption": "Tarquinius Superbus",
+				"copyright": "Public domain, via Wikimedia Commons",
+				"alt":"Bust of Tarquinius Superbus"
+			}
+		]
+	}
+}

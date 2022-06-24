@@ -1,0 +1,88 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_03_05/styles.css"],
+    "intMedia": "interactives/02_03_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Please read the phrases in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>要</span> yào"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words have the same pinyin final as the word?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>高</span> gāo </span><audio class='audio' controls src='interactives/02_03_05/intmedia/tall.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>最</span> zuì </span><audio class='audio' controls src='interactives/02_03_05/intmedia/the_most.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>汤</span> tāng </span><audio class='audio' controls src='interactives/02_03_05/intmedia/soup.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>茶</span> chá </span><audio class='audio' controls src='interactives/02_03_05/intmedia/tea.mp3'></audio>"
+        ],
+        "correct": "Job wonderfully done! Both <em><span lang='zh-Hans'>要</span> yào</em> (to want) and <em><span lang='zh-Hans'>高</span> gāo</em> (tall) have the same final “ao.” Nice catch!",
+        "incorrect": "Not quite… try to sound out the word; then compare it with the audios in the options.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>炒</span> chǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can the action indicated by this word <strong>not</strong> be reasonably applied?</p>",
+        "answer": "<span lang='zh-Hans'>牛奶</span> niúnǎi",
+        "options": ["<span lang='zh-Hans'>西兰花</span> xīlánhuā", 
+          "<span lang='zh-Hans'>猪肉</span> zhūròu", 
+          "<span lang='zh-Hans'>鸡肉</span> jīròu"],
+        "correct": "Outstanding job! The action <span lang='zh-Hans'>炒</span> chǎo (to stir-fry) can be applied to meat or vegetables. It would not be reasonable to “stir-fry milk.”",
+        "incorrect": "Oops... think about the meaning of the word; then consider the action it indicates related to cooking food.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>碗</span> wǎn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does <strong>not</strong> belong in the same category as this word?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>曲奇</span> qǔqí </span><audio class='audio' controls src='interactives/02_03_05/intmedia/cookie.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>杯</span> bēi </span><audio class='audio' controls src='interactives/02_03_05/intmedia/cup.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>叉子</span> chāzi </span><audio class='audio' controls src='interactives/02_03_05/intmedia/fork.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>盘</span> pán </span><audio class='audio' controls src='interactives/02_03_05/intmedia/plate.mp3'></audio>"
+        ],
+        "correct": "You got it! <em><span lang='zh-Hans'>碗</span> wǎn</em> (bowl) is a type of utensil, and so are the options except <em><span lang='zh-Hans'>曲奇</span> qǔqí</em> (cookie).",
+        "incorrect": "So close! Think about the meaning of the word, and then listen to the options carefully to understand the items they represent.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>个</span> gè"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following phrases correctly uses this word as a measure word?</p>",
+        "answer": "<span lang='zh-Hans'>三个橙子</span> sān gè chéngzi",
+        "options": [
+          "<span lang='zh-Hans'>个三橙子</span> gè sān chéngzi",
+          "<span lang='zh-Hans'>面包个四</span> miànbāo gè sì",
+          "<span lang='zh-Hans'>四面包个</span> sì miànbāo gè"
+        ],
+        "correct": "You got it! <em><span lang='zh-Hans'>个</span> gè</em> means “count of.” It is placed after a number and before the object as a measure word.",
+        "incorrect": "So close! Think about the meaning of the word, then think about how it’s used in a phrase or sentence.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

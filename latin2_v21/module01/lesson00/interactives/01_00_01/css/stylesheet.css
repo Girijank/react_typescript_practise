@@ -1,0 +1,168 @@
+.fev_imgClick .activityHolder {
+    position: relative;
+    width: 100%;
+}
+
+.fev_imgClick .butnholder,
+.fev_imgClick .popupHolder {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fev_imgClick .popupHolder {
+    z-index: 3;
+}
+
+.fev_imgClick .imgclickbtn {
+   /*  background: transparent;
+    /* border: 1px solid #fff;
+    border: 3px solid #000;  */
+    background-image: url(../intmedia/marker_01.png);
+    padding: 0;
+    margin: 0;
+   /*  width: 50px;
+    height: 50px; */
+    height: 28px;
+    width: 28px;
+    background-image: url(../../../../../global/images/icons/hotspot_interactive.svg); 
+    height: 31px;
+    width: 31px;
+    opacity: 0.9;
+    transition: 280ms ease opacity;
+    border-radius: 50%;
+    background-color: #ab4e2b;
+    display: block;
+    position: absolute;
+}
+
+.fev_imgClick #imgbtn_1 {
+    top: 250px;
+    left: 70px;
+    /* height: 100px;
+    width: 100px; */
+}
+
+.fev_imgClick #imgbtn_2 {
+    top: 50px;
+    left: 50px;
+    /* height: 100px;
+    width: 100px; */
+}
+
+.fev_imgClick #imgbtn_3 {
+    top: 30px;
+    left: 320px;
+   /*  height: 100px;
+    width: 100px; */
+}
+
+.fev_imgClick #imgbtn_4 {
+    top: 153px;
+    left: 471px;
+    height: 66px;
+    width: 48px;
+}
+
+.fev_imgClick #imgbtn_5 {
+    top: 11px;
+    left: 552px;
+    height: 153px;
+    width: 158px;
+}
+
+.fev_imgClick #imgbtn_6 {
+    top: 171px;
+    left: 520px;
+    height: 133px;
+    width: 196px;
+}
+
+.fev_imgClick #imgbtn_7 {
+    top: 212px;
+    left: 300px;
+    height: 205px;
+    width: 236px;
+}
+
+.fev_imgClick .popupHolder {
+    display: none
+}
+
+.fev_imgClick .popupHolder,
+.fev_imgClick .poup_bgblack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.fev_imgClick .poup_bgblack {
+    background: rgba(0, 0, 0, .5);
+}
+
+.fev_imgClick .closeit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    color: #ffffff;
+    background: #7d4d24;
+    padding: 2px 4px;
+    line-height: normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    z-index: 2;
+}
+
+.fev_imgClick .popupContent {
+    position: absolute;
+    top: 40px;
+    width: 97%;
+    height: 89%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.fev_imgClick .popupwin {
+    /* display: none; */
+    width: 88%;
+    height: 66%;
+    position: relative;
+    padding: 10px;
+    background-color: #f1eee5;
+    background-image: url(../intmedia/dialog_texture_top.png), url(../intmedia/dialog_texture_bot.png);
+    background-position: -12px, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    border: 4px #7d4d24 solid;
+    line-height: normal;
+    margin: 10% auto;
+}
+
+.fev_imgClick .imgclass {
+    border: 3px solid #333;
+    border-radius: 4px;
+}
+
+.fev_imgClick .image-container.frame {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.fev_imgClick a.dlink{
+    position: relative;
+    z-index: 2;
+}
+
+.fev_imgClick .image-container .copyright{
+    position: absolute;
+    bottom: 28px;
+    background: #e8e8e8;
+    padding: 5px;
+    display: block;
+}

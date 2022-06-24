@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .jFlipCard.il_interactive .ui_card .ui_flip p {
+        margin: 0 0 0 2px;
+    }
+}

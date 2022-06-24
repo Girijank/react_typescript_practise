@@ -1,0 +1,11 @@
+.tabs div.panel{
+    position: relative;
+    width:auto;
+    height:450px !important;
+}
+
+.panel-block{
+    position: relative;
+    width:auto;
+    height:450px !important;
+}

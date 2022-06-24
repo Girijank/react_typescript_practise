@@ -1,0 +1,24 @@
+.resizetest .viewport {
+    min-height: 440px;
+}
+
+.ng_il .wbbtn.dropdown {
+    min-width: 65px;
+    width: auto;
+    margin-right: -9px;
+}
+
+.ng_il .il_viewport h2.il_int_title {
+    display: none;
+}
+
+.ng_il .il_wb.il_p_wrapper {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.il_textversion [data-ng-switch-when='fitb']>div>span {
+    display: block;
+
+}

@@ -1,0 +1,38 @@
+.resizetest .viewport {
+    min-height: 440px;
+}
+
+.ng_il .wbbtn.dropdown {
+    min-width: 90px;
+    width: auto;
+    margin-right: -9px;
+}
+
+.ng_il .wbbtn.dropdown button{
+    width: 94% !important;
+}
+
+.ng_il .il_viewport h2.il_int_title {
+    display: none;
+}
+
+.ng_il .il_wb.il_p_wrapper {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.il_textversion [data-ng-switch-when='fitb']>div>span {
+    display: block;
+
+}
+
+li.ng-scope{
+    float: left;
+    width: 77px;  
+    box-shadow: 1px 1px 1px #dcdcdc;
+    text-align: center;
+}
+
+.open>.dropdown-menu{
+    min-width: auto;
+}

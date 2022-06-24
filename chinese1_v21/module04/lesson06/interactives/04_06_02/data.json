@@ -1,0 +1,157 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/04_06_02/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/04_06_02/textversion/textversion.htm",
+    "modal": {
+      "directions": "Listen to the audio; then,  drag and drop it to the initial or final box.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdropv2",
+        "failedHeading": "Incorrecto",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "Initial “m”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Job wonderful done finding “m” sounds among these words. You are getting better and better!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>猫</span> māo (cat)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/cat.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Job wonderful done finding “m” sounds among these words. You are getting better and better!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>继母</span> jìmǔ (stepmother) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/stepmother.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Job wonderful done finding “m” sounds among these words. You are getting better and better!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>美国</span> měiguó (United States)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/united_states.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Job wonderful done finding “m” sounds among these words. You are getting better and better!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>三明治</span> sānmíngzhì (sandwich) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/sandwich.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Final “uan”",
+            "limit": 4,
+            "item": [
+              {
+                "correct": "Awesome job identifying the “uan” sound. You’ve done very well!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>服务员</span> fúwùyuán (waiter/waitress)",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/waiter_waitress.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Awesome job identifying the “uan” sound. You’ve done very well!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>元</span> yuán (dollar) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/dollar.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Awesome job identifying the “uan” sound. You’ve done very well!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>暖和</span> nuǎnhuo (warm) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/warm.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              },
+              {
+                "correct": "Awesome job identifying the “uan” sound. You’ve done very well!",
+                "incorrect": "Not quite yet… try again, please.",
+                "text": "<span lang='zh-Hans'>穿</span> chuān (to wear (essential items)) ",
+
+                "media": [
+                  {
+                    "type": "localAudio",
+                    "src": "interactives/04_06_02/media/to_wear_essential.mp3",
+                    "textVersion": "text of the audio",
+                    "height": "50",
+                    "width": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

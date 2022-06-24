@@ -1,0 +1,91 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_02_06/styles.css"],
+    "intMedia": "interactives/02_02_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read each word or phrase in Chinese,and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>最</span> zuì"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>cannot</strong> be placed after this word?</p>", 
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>咖啡</span> kāfēi (coffee)</span><audio class='audio' controls src='interactives/02_02_06/intmedia/coffee.mp3' ></audio>",      
+        "options":[
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>害羞</span> hàixiū </span><audio class='audio' controls src='interactives/02_02_06/intmedia/shy.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>开朗</span> kāilǎng </span><audio class='audio' controls src='interactives/02_02_06/intmedia/outgoing.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>喜欢</span> xǐhuān </span><audio class='audio' controls src='interactives/02_02_06/intmedia/to_like.mp3' ></audio>"
+        ],
+        "correct": " Job well done! <span lang='zh-Hans'>最</span> zuì (the most) can be placed before an adjective, noun, or some verbs to indicate the superlative.",
+        "incorrect": "Very close. Think about the meaning of this word, and recall how it can be used in a sentence. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>太…了</span> tài…le"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words can be used to complete this phrase?</p>",
+        "answer": "<span lang='zh-Hans'>冷</span> lěng",
+        "options": [
+          "<span lang='zh-Hans'>茶</span> chá",
+          "<span lang='zh-Hans'>喝</span> hē",
+          "<span lang='zh-Hans'>水</span> shuǐ"
+        ],
+        "correct": "Awesome job! An adjective should be inserted to complete this phrase.",
+        "incorrect": "Oops... think about what types of words can be inserted for this phrase.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+   
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>不</span> bù"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In what situation can we use this word in a sentence?</p>",
+        "answer": "When we want to disagree or deny",
+        "options": [
+          "When we want to express excitement",
+          "When we want to express approval",
+          "When we want to give an order"
+        ],
+        "correct": "You got it! <em><span lang='zh-Hans'>不</span> bù</em> means “not,” and it is used in a sentence to express disagreement or denial.",        
+        "incorrect": "So close! Think about the meaning of this word and how it can be used in a sentence.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>冷</span> lěng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the antonym (word with opposite meaning) for this word?</p>", 
+        "answer": "<span lang='zh-Hans'>热</span> rè",      
+        "options":[
+          "<span lang='zh-Hans'>最</span> zuì",
+          "<span lang='zh-Hans'>和</span> hé",
+          "<span lang='zh-Hans'>吃</span> chī"
+        ],
+        "correct": "Fabulous job! <em><span lang='zh-Hans'>冷</span> lěng</em> means “cold,” and its opposite should be <em><span lang='zh-Hans'>热</span> rè</em> (hot).",
+        "incorrect": "So close! Think about the meaning of this word and what its opposite adjective should be.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

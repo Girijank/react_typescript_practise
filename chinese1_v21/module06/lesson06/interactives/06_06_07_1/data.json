@@ -1,0 +1,59 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_06_07_1/styles.css"],
+    "disableRemoteCss": true,
+    "customTextversionAll": "interactives/06_06_07_1/textversion/textversion.htm",
+    "modal": {
+      "directions": "Match each traffic or road sign to its function in English.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job matching the images with the correct time phrases in Chinese! Way to go!",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "bins": [
+          {
+            "title": "A road sign",
+            "limit": 1,
+            "item": [
+              {
+                "image": "interactives/06_06_07_1/images/img1_flvs.png",
+                "alt":"mage of a sign in Chinese <span lang='zh-Hans'>西山路，大明路，玉泉路</span>"
+              }
+            ]
+          },
+          {
+            "title": "The welcome sign of a city ",
+            "limit": 1,
+            "item": [
+              {
+                "image": "interactives/06_06_07_1/images/img2_flvs.jpg",
+                "alt":"Image of a sign in Chinese <span lang='zh-Hans'>岳阳市欢迎您</span>！"
+              }
+            ]
+          },
+          {
+            "title": "A stop sign",
+            "limit": 1,
+            "item": [
+              {
+                "image": "interactives/06_06_07_1/images/img3_flvs.png",
+                "alt":"Image of a sign in Chinese <span lang='zh-Hans'>停</span>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

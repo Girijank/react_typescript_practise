@@ -1,0 +1,48 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Can you identify the participle in the sentence? Select the card to check your answer.",
+    "instruction_textversion":"Can you identify the participle in the sentence? Check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Actaeon, having been changed into a deer by Diana, was hunted by his friends.</p>",
+          "textversion": "<p>Actaeon, having been changed into a deer by Diana, was hunted by his friends.</p>"
+        },
+        "back": {
+          "content": "<p>Having been changed</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'>Having been changed</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>Having been turned into an empire by Augustus, Rome would now have a succession of emperors.  </p>",
+          "textversion": "<p>Having been turned into an empire by Augustus, Rome would now have a succession of emperors.  </p>"
+        },
+        "back": {
+          "content": "<p>Having been turned</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'>Having been turned</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Having been laden with imagery of Augustus, Roman provinces became part of Augustus’s propaganda machine </p>",
+          "textversion": "<p>Having been laden with imagery of Augustus, Roman provinces became part of Augustus’s propaganda machine</p>"
+        },
+        "back": {
+          "content": "<p>Having been laden</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'>Having been laden</p>"
+        }
+      }
+      
+    ]
+  }
+}

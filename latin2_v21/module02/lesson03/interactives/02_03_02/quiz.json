@@ -1,0 +1,69 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": true,
+    "resultsPage": false,
+    "interactiveTitle": "",
+    "css": ["interactives/02_03_02/matching.css"],
+    "_customTextversionAll": "../../global/templates/quizmo/matching_text.htm"
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Match each vocabulary word with its correct image.",
+        "customView": "../../global/templates/quizmo/matching.htm"
+      },
+
+      {
+        "type": "matching",
+        "quiz": "",
+        "chances": "99999",
+        "options": [
+          {
+            "left": "spelunca, speluncae f.",
+            "right": "<span class='forTV'>Image of a man standing at the entrance of a cave</span><img src='images/m2_l3_p2_img1.jpg' alt='A man standing at the entrance of a cave' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A man standing at the entrance of a cave"
+          },
+          {
+            "left": "vinum, vini n.",
+            "right": "<span class='forTV'>Image of a bottle and glass of wine overlooking a vineyard</span><img src='images/m2_l3_p2_img2.jpg' alt='A bottle and glass of wine overlooking a vineyard' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A bottle and glass of wine overlooking a vineyard"
+          },
+          {
+            "left": "devoro, devorare, devoravi, devoratus, -a, -um",
+            "right": "<span class='forTV'>Image of a man eating a burger with two hands and with sauce spilled on his t-shirt</span><img src='images/m2_l3_p2_img3.jpg' alt='A man eating a burger with two hands and with sauce spilled on his t-shirt' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A man eating a burger with two hands and with sauce spilled on his t-shirt"
+          },
+          {
+            "left": "edo, edere, edi, esus,-a,-um",
+            "right": "<span class='forTV'>Image of a woman eating a banana</span><img src='images/m2_l3_p2_img4.jpg' alt='A woman eating a banana' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A woman eating a banana"
+          },
+          {
+            "left": "excedo, excedere, excessi, excessurus, -a, -um",
+            "right": "<span class='forTV'>Image of an extinguished candle</span><img src='images/m2_l3_p2_img5.jpg' alt='An extinguished candle' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of An extinguished candle"
+          },
+          {
+            "left": "ligo, ligare, ligavi, ligatus, -a, -um",
+            "right": "<span class='forTV'>Image of a police officer puts handcuffs on a person</span><img src='images/m2_l3_p2_img6.jpg' alt='A police officer puts handcuffs on a person' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A police officer puts handcuffs on a person"
+          },
+          {
+            "left": "caput, capitis n.",
+            "right": "<span class='forTV'>Image of clay models of the heads of daemons in Hindu religion</span><img src='images/m2_l3_p2_img7.png' alt='Clay models of the heads of daemons in Hindu religion' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of Clay models of the heads of daemons in Hindu religion"
+          }
+        ]
+      }
+    ]
+  ]
+}

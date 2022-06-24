@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/03_01_03/styles.css"],
+    "intMedia": "interactives/03_01_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "family_home.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>家</span> jiā"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is <strong>not</strong> a family role belonging to the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>谢谢</span> xièxiè </span><audio class='audio' controls src='interactives/03_01_03/intmedia/thanks.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>弟弟</span> dìdi </span><audio class='audio' controls src='interactives/03_01_03/intmedia/younger_brother.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>妹妹</span> mèimei </span><audio class='audio' controls src='interactives/03_01_03/intmedia/younger_sister.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>姐姐</span> jiějie </span><audio class='audio' controls src='interactives/03_01_03/intmedia/older_sister.mp3' ></audio>"
+        ],
+        "correct": "Excellently done! <span lang='zh-Hans'>家</span> jiā means “family” or “home,” and <span lang='zh-Hans'>谢谢</span> xièxiè (thanks) is obviously not a role in it, like <span lang='zh-Hans'>弟弟</span> dìdi (younger brother) or <span lang='zh-Hans'>妹妹</span> mèimei (younger sister)—even though they are all duplicated words (the words with the same character(s) repeating).",
+        "incorrect": "Very close. Listen to all the words in the options, which have similar sounds, and try to differentiate them and find their meanings.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "older_sister.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>姐姐</span> jiějie "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我有一个_____。</span>Wǒ yǒu yīgè ____.",
+        "options": [
+          "<span lang='zh-Hans'>我今年____岁。</span>Wǒ jīnnián ____ suì.",
+          "<span lang='zh-Hans'>请给我一碗_____。</span>Qǐng gěiwǒ yīwǎn ____.",
+          "<span lang='zh-Hans'>他____奶酪。</span>Tā ____nǎilào."
+        ],
+        "correct": "Outstanding job! <span lang='zh-Hans'>姐姐</span> jiějie means older sister, and you can use the verb <span lang='zh-Hans'>有</span> yǒu (to have) to form a sentence. “<span lang='zh-Hans'>我有一个姐姐。</span> Wǒ yǒu yīgè jiějie. I have an older sister.”",
+        "incorrect": "So close! Listen to the audio again, and understand the word’s meaning. Then review all the structures in the options and see which one it fits.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "older_brother.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>哥哥</span> gēge"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words have the same initial in its pinyin as the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>苹果</span> (apple)",
+        "options": [
+          "<span lang='zh-Hans'>付钱</span> (to pay)",
+          "<span lang='zh-Hans'>妹妹</span> (younger sister)",
+          "<span lang='zh-Hans'>早餐</span> (breakfast)"
+        ],
+        "correct": "Outstanding job! The word <span lang='zh-Hans'>哥哥</span> gēge (older brother) has initial “g,” while the word <span lang='zh-Hans'>苹果</span> píngguǒ (apple) also has the initial “g” for its 2nd character.",
+        "incorrect": "Not quite… listen to the word in the audio again, and identify its initial. Then sound out the words in the options to see which one has the same initial. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "who.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>谁</span> shéi  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words does <strong>not</strong> serve the same purpose in a sentence as the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>喜欢</span> xǐhuān",
+        "options": [
+          "<span lang='zh-Hans'>什么</span> shénme",
+          "<span lang='zh-Hans'>多少</span> duōshǎo",
+          "<span lang='zh-Hans'>哪里</span> nǎlǐ"
+        ],
+        "correct": "Excellently done! The word <span lang='zh-Hans'>谁</span> shéi (who) is used to form a question. Words <span lang='zh-Hans'>什么</span> shénme (what), <span lang='zh-Hans'>多少</span> duōshǎo (how many), and <span lang='zh-Hans'>哪里</span> nǎlǐ (where) are also used to form a question. ",
+        "incorrect": "Not quite… listen to the word in the audio again, and think about how it can be used in a sentence. Then review the choices to identify the one that doesn’t belong.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_01_04/styles.css"],
+    "progressBar": true,
+    "resultsPage": false,
+    "slidesToDisplay": 11,
+    "disableRemoteCss": true,
+
+    "modal": {
+      "directions": "Using the dropdowns, find the correct sensory verb to its corresponding picture.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_1.jpg' alt='Image of a dog wearing white earphones' class='border'><span class='fev_copy caption'>To hear</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>audio, audire, audivi, auditus, -a, -um</span>",
+            "options": [
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_2.jpg' alt='Image of talking heads' class='border'><span class='fev_copy caption'>To say</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_3.jpg' alt='Image of a computer with a hand coming out of the screen onto the keyboard' class='border'><span class='fev_copy caption'>To threaten</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>insto, instare, institi, -</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_4.jpg' alt='Image of spotlights on a stage' class='border'><span class='fev_copy caption'>To show</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_5.jpg' alt='Woman with smartphone using face ID recognition system' class='border'><span class='fev_copy caption'>To recognize, to learn</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_6.jpg' alt='Image of a man pointing to a white cardboard' class='border'><span class='fev_copy caption'>To point out, to show</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_7.jpg' alt='Image of a boy thinking with a lightbulb and question marks behind him' class='border'><span class='fev_copy caption'>To think</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>puto, putare, putavi, putatus, -a, -um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_8.jpg' alt='Image of a brain on a podium winning first place' class='border'><span class='fev_copy caption'>To know</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>scio, scire, scivi, scitus, -a, -um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_9.jpg' alt='Picture of a woman’s face with perception' class='border'><span class='fev_copy caption'>To perceive, to feel</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_10.jpg' alt='Cartoon image of a woman seeing with binoculars' class='border'><span class='fev_copy caption'>To see</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>video, videre, vidi, visus, -a, um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>spero, sperare, speravi, speratus, -a, -um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": ""
+      },
+      {
+        "type": "fitb",
+        "quiz": "*_<br> <img src='interactives/06_01_04/intmedia/p4_img_11.jpg' alt='Image of a hopeful girl in the rain with a rainbow umbrella' class='border'><span class='fev_copy caption'>To hope</span><span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          {
+            "answer": "<span>spero, sperare, speravi, speratus, -a, -um</span>",
+            "options": [
+              "<span>audio, audire, audivi, auditus, -a, -um</span>",              
+              "<span>dico, dicere, dixi, dictus,-a,-um</span>",
+              "<span>insto, instare, institi, -</span>",
+              "<span>ostendo, ostendere, ostendi, ostensus,-a,-um</span>",
+              "<span>(cog)nosco, (cog)noscere, (cog)novi, (cog)notus, -a, -um</span>",
+              "<span>monstro, monstrare, monstravi, monstratus, -a, -um</span>",
+              "<span>puto, putare, putavi, putatus, -a, -um</span>",
+              "<span>scio, scire, scivi, scitus, -a, -um</span>",
+              "<span>sentio, sentire, sensi, sensus, -a, -um</span>",
+              "<span>video, videre, vidi, visus, -a, um</span>"
+            ]
+          }
+        ],
+        "chances": 2,
+        "correctHeading": "Correct",
+        "correct": "You got it!",
+        "incorrectHeading": "Incorrect",
+        "incorrect": "Not quite. Please try again!",
+        "failedHeading": "Incorrect",
+        "failed": "You've tried too many times. The correct answer has been filled in for you."
+      }
+    ]
+  ]
+}

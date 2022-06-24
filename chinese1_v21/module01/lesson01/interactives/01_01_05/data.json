@@ -1,0 +1,86 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_01_05/styles.css"],
+    "intMedia": "interactives/01_01_05/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Answer the multiple choice questions."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>早上好</span> zǎoshànghǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>If someone says this greeting to you, what would you say?</p>",
+        "answer": "Good morning",
+        "options": ["Good evening", "Good afternoon", "Good night"],
+        "correct": "Excellent job! <span lang='zh-Hans'>早上好</span> zǎoshànghǎo – “morning” + “good.”",
+        "incorrect": "Not quite… would you like to try again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>下午好</span> xiàwǔhǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Around which of the following times should you use this phrase for a greeting?</p>", 
+        "answer": "3 p.m.",      
+        "options":[
+          "10 a.m.",
+          "9 p.m.",
+          "3 a.m. "
+        ],
+        "correct": "Terrific! <span lang='zh-Hans'>下午好</span> xiàwǔhǎo – “afternoon” + “good.” It’s the perfect greeting for 3 p.m.",
+        "incorrect": "Almost… would you like to try again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>晚上好</span> wǎnshànghǎo"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What is the correct word order in this greeting phrase?</p>", 
+        "answer": "Evening good",      
+        "options":[
+          "Good evening",
+          "Good afternoon",
+          "Afternoon good"
+        ],
+        "correct": "Outstanding work! <span lang='zh-Hans'>晚上好</span> wǎnshànghǎo – “evening” + “good.” How nice it is to snuggle with family in an early evening to watch a fun movie!",
+        "incorrect": "Oops… would you like to try again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>晚安</span> wǎn‘ān"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following phrases would the phrase presented go best with?</p>", 
+        "answer": "I’m so tired now.",      
+        "options":[
+          "Rise and shine!",
+          "It’s great running into you before our last class period.",
+          "How was your dinner?"
+        ],
+        "correct": "You nailed it! We say <span lang='zh-Hans'>晚安</span> wǎn‘ān – “evening” + “peaceful.” <span lang='zh-Hans'>安</span> ān is an auspicious word in Chinese culture. Many people name their children using <span lang='zh-Hans'>安</span> ān; for example, <span lang='zh-Hans'>李安</span> Lǐ Ān (Ang Lee), the director of the movie, Crouching Tiger, Hidden Dragon. ",
+        "incorrect": "Not quite… would you like to try again?",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

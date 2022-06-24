@@ -1,0 +1,114 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": [
+      "interactives/04_06_04/styles.css"
+    ],
+    "intMedia": "interactives/04_06_04/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, and complete the multiple-choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "to_wear_essential.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>穿</span> chuān  "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which <strong> bold </strong> type character in the following words has the same final as the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>服务<strong>员</strong></span>",
+        "options": [
+          "<span lang='zh-Hans'>数<strong>学</strong>课</span>",
+          "<span lang='zh-Hans'>多少<strong>钱</strong></span>",
+          "<span lang='zh-Hans'>笔记<strong>钱</strong></span>"
+        ],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>穿</span> chuān (to wear (essential items)) has the final “uan,” which is also shared by the character <span lang='zh-Hans'>员</span> yuán in the word <span lang='zh-Hans'>服务<strong>员</strong></span> fúwù<strong>yuán</strong> (waiter/waitress).",
+        "incorrect": "Very close. Listen to the word in the audio again, and consider what final it has. You can then sound out the bold type characters in the words in the choices to see which one has the same final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [{
+      "type": "config",       
+      "customView": "interactives/04_06_04/customview_imgbtn.htm"
+    },
+      {
+        "type": "localAudio",
+        "src": "uniform.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>制服</span> zhìfú (uniform)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following images does <strong>not</strong> show the word in the audio?</p>",
+        "answer": "<span class='fortv'>Image of a man in a shirt </span><img src='interactives/04_06_04/images/img1.jpg' class='border center-block' alt='Image of a man in a shirt'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of engineer in blue workwear uniform </span><img src='interactives/04_06_04/images/img2.jpg' class='border center-block' alt='Image of engineer in blue workwear uniform'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of medical worker, wearing uniform</span><img src='interactives/04_06_04/images/img3.jpg' class='border center-block' alt='Image of medical worker, wearing uniform'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of waitress, wearing uniform</span><img src='interactives/04_06_04/images/img4.jpg' class='border center-block' alt='Image of waitress, wearing uniform'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+
+        "correct": "Outstanding! <span lang='zh-Hans'>制服</span> zhìfú means “uniform” in general. Of the images provided, the person in the shirt is not wearing a uniform.",
+        "incorrect": "Not quite. Listen to the word again. Identify its meaning, and then look at the images to see which person’s clothing cannot be described by it.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+[
+      {
+        "type": "localAudio",
+        "src": "shoes.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>鞋</span> xié (shoes) "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>best</strong> completed with the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>我很喜欢你的____。</span>Wǒ hěn xǐhuān nǐde____.",
+        "options": [
+          "<span lang='zh-Hans'>她今天早餐吃____。</span> Tā jīntiān zǎocān chī____.",
+          "<span lang='zh-Hans'>他星期一庆祝____。</span> Tā xīngqīyī qìngzhù____.",
+          "<span lang='zh-Hans'>我姐姐____点去学校。 </span> Wǒjiějie____ diǎn qù xuéxiào."
+        ],
+        
+        "correct": "Outstanding job! <span lang='zh-Hans'>鞋</span> xié means “shoes,” and the one sentence it can fit in is <span lang='zh-Hans'>我很喜欢你的鞋。</span>Wǒ hěn xǐhuān nǐde xié. (I like your shoes very much.)",
+        "incorrect": "Not quite. Listen to the audio several more times to identify its meaning, and then fit it in the sentences to see which one makes the most sense to you.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+
+    [
+      {
+        "type": "localAudio",
+        "src": "sweater.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>毛衣</span> máoyī (sweater)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following seasons do you <strong>least</strong> need the item in audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>夏天 </span> xiàtiān</span><audio class='audio' controls src='interactives/04_06_04/intmedia/summer.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>春天 </span> chūntiān</span><audio class='audio' controls src='interactives/04_06_04/intmedia/spring.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>秋天 </span> qiūtiān</span><audio class='audio' controls src='interactives/04_06_04/intmedia/autumn.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>冬天 </span> dōngtiān</span><audio class='audio' controls src='interactives/04_06_04/intmedia/winter.mp3' ></audio>"
+        ],
+
+        "correct": "Excellently done! <span lang='zh-Hans'>毛衣</span> máoyī means “sweater,” which is least needed when it’s warmer, while <span lang='zh-Hans'>夏天</span> xiàtiān (summer) is the hottest season of the four.",
+        "incorrect": "Listen to the audio again and consider its meaning. Then listen to the choices and consider for which season the item in audio is <strong>least</strong> needed, temperature-wise.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+
+
+
+
+
+
+    
+
+
+
+
+  ]
+}

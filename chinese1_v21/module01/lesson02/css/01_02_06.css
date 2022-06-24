@@ -1,0 +1,15 @@
+#cboxLoadedContent .vocab_img img.showcase {
+    width: auto !important;
+}
+
+#cboxLoadedContent .vocab_img {
+    width: 52px;
+}
+
+.wp-caption .wp-caption-text {
+    width: 100%;
+}
+
+.wp-caption {
+    max-width: 70px;
+}

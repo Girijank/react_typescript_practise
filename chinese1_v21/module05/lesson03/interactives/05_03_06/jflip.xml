@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+	<title>Flip Card</title>
+	<directionsTextVer><![CDATA[Select the image which shows the correct demonstration of this feng shui rule in Chinese: <span lang='zh-Hans'>冰箱在厨房。</span> Bīngxiāng zài chúfáng.]]></directionsTextVer>
+	<width>210</width>
+	<height>195</height>
+	<bgcolor>#bebebe</bgcolor>
+	<speed>350</speed>
+	<spinDirection>lr</spinDirection>
+	<customTextVer><!--interactives/05_03_06/textversion.htm--></customTextVer>
+  
+	<flipcard>
+	  <cardfront>
+	  	<title></title>
+		<text><![CDATA[<div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_03_06/intmedia/flip_1.jpg' alt='Image of a kitchen with washing machine in it' /><span class="copyright">©iStock</span></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>Incorrect</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_03_06/intmedia/flip_2.jpg' alt='Image of a living room with sofa in it' /><span class="copyright">©iStock</span></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>Incorrect</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_03_06/intmedia/flip_3.jpg' alt='Image of a kitchen with fridge in it' /><span class="copyright">©iStock</span></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    <text><![CDATA[<p>Correct</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+	<flipcard>
+	  <cardfront>
+	    <title></title>
+	    <text><![CDATA[<div class='fevimagecenter'><img class='fevimageBorder' src='interactives/05_03_06/intmedia/flip_4.jpg' alt='Image of a kitchen with stove and sink in it' /><span class="copyright">©iStock</span></div>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardfront>
+	  <cardback>
+	  	<title></title>
+	    	<text><![CDATA[<p>Incorrect</p>]]></text>
+		<img>
+		  <alt></alt>
+		  <description></description>
+		  <src></src>
+		</img>
+	  </cardback>
+	</flipcard>
+
+</settings>

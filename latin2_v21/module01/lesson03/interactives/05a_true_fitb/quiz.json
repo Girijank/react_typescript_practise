@@ -1,0 +1,66 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "resultsPage": false,
+    "progressBar": true
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "You have your chance to identify the verb forms!"
+      },
+      {
+        "type": "truefitb",
+        "answers": [
+          "We used to be moved."
+        ],
+        "quiz": "<p>Fill in the blank: Translate the Latin verb into English.</p> <br><p>For example: <br> Latin: <em>amabantur</em> </p><p>Fill in the blank English answer: They used to be loved.</p><br><p><strong>Sentence Verb to Use:</strong> <em>moveo, movere, movi, motus, -a, -um</em> = to move </p><p> <strong>Latin:</strong> <em>movebamur</em></p><br> Fill in the blank English answer: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],   
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "I used to be praised."
+        ],
+        "quiz": "<p>Fill in the blank: Translate the Latin verb into English. </p><br> <p><strong>Sentence Verb to Use:</strong> <em>laudo, laudare, laudavi, laudatus, -a, -um</em> = to praise</p><p> <strong>Latin:</strong> <em>Laudabar</em></p><br> Fill in the blank English answer: *_ .",
+        "correct": "Eu! Well done! Keep on putting your Latin skills to the test!",
+        "incorrect": "Iterum tempta! Try again! Learning Latin takes effort –give it another go!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "You used to be seen."
+        ],
+        "quiz": "<p>Fill in the blank: Translate the Latin verb into English. </p><br> <p><strong>Sentence Verb to Use:</strong> <em>video, videre, vidi, visus, -a, -um</em> = to see</p><p> <strong>Latin:</strong> <em>videbaris</em></p><br> Fill in the blank English answer: *_ .",
+        "correct": "Bene! Your hard work is paying off!",
+        "incorrect": "Not quite –try again! Look back over your notes. In memoria tene!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "truefitb",
+        "answers": [
+          "They used to be taught."
+        ],
+        "quiz": "<p>Fill in the blank: Translate the Latin verb into English. </p><br> <p><strong>Sentence Verb to Use:</strong> <em>doceo, docere, docui, doctus, -a, -um</em> = to teach</p><p> <strong>Latin:</strong> <em>docebantur</em></p><br> Fill in the blank English answer: *_ .",
+        "correct": "That's right! Gratulationes on putting your best foot forward!",
+        "incorrect": "Take another look at the Latin and five it another shot. Bona fortuna!",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ]
+  ]
+}

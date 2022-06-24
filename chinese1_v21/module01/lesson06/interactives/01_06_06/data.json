@@ -1,0 +1,82 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/01_06_06/styles.css"],
+    "intMedia": "interactives/01_06_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Read the phrases in Chinese, and then answer the question that follows."
+      },
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>老师</span> lǎoshī"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>What do the two characters in this word mean when broken down?</p>",
+        "answer": "old + teacher",
+        "options": ["young + doctor", "young + teacher", "old + doctor"],
+        "correct": "You got it! <span lang='zh-Hans'>老lǎo</span> means “old” and <span lang='zh-Hans'>师shī</span> means “teacher.” ",
+        "incorrect": "Very close. Think about the “word dissection” for this word and check the meaning of the individual characters.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>教授</span> jiàoshòu"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words in the audio has the same social function as the word shown?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>老师</span> lǎoshī</span><audio class='audio' controls src='interactives/01_06_06/intmedia/teacher.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>再见</span> zàijiàn</span><audio class='audio' controls src='interactives/01_06_06/intmedia/goodbye.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>男孩</span> nánhái</span><audio class='audio' controls src='interactives/01_06_06/intmedia/boy.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>害羞</span> hàixiū</span><audio class='audio' controls src='interactives/01_06_06/intmedia/shy.mp3' ></audio>"
+        ],
+        "correct": "Outstanding! The words <span lang='zh-Hans'>教授</span> jiàoshòu (professor) is a profession, while <span lang='zh-Hans'>老师</span> lǎoshī (teacher) is also a profession. ",
+        "incorrect": "Not quite. Think about what the word <span lang='zh-Hans'>老师</span> lǎoshī means and how it’s used in society. ",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>医生</span> yīshēng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following words share a same character in Chinese as the word shown?",
+        "answer": "Mr.",
+        "options": ["boy", "Ms.", "shy"],
+        "correct": "Terrific job! Both <span lang='zh-Hans'>医生</span> yīshēng (doctor) and <span lang='zh-Hans'>先生</span> xiānsheng (Mr.) have the character <span lang='zh-Hans'>生</span> shēng, which means “livelihood.”",
+        "incorrect": "So close! Think about what each character means in this word, and which other word, when dissected, has the same character and meaning.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "content": "<span lang='zh-Hans'>您</span> nín"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>In which one of the following situations can the word shown be used?",
+        "answer": "When greeting my grandfather at a family gathering",
+        "options": [
+          "When hanging out with my friends",
+          "When babysitting my nephew",
+          "When discussing a math problem with my classmate"
+        ],
+        "correct": "How awesome! The word <span lang='zh-Hans'>您</span> nín ((formal) you) is used in formal settings to address people who are older or respected in society or family.",
+        "incorrect": "So close! Think about what this word means and its social function. Check the vocabulary if you need to.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

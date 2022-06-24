@@ -1,0 +1,146 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "css": ["interactives/06_01_04/styles.css"],
+    "disableRemoteCss": true,
+
+    "customTextversionAll": "interactives/06_01_04/textversion/textversion.htm",
+    "modal": {
+      "directions": "Drop the sensory verb onto its corresponding picture.",
+      "title": "Instructions"
+    }
+  },
+  "body": [
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": true,
+        "quiz": "",
+        "bins": [
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_1.jpg' alt='Image of a dog wearing white earphones' class='border'><span class='fev_copy caption'>To hear</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "audio, audire, audivi, auditus, -a, -um"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_2.jpg' alt='Image of talking heads' class='border'><span class='fev_copy caption'>To say</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "dico, dicere, dixi, dictus,-a,-um"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_3.jpg' alt='Image of a computer with a hand coming out of the screen onto the keyboard ' class='border'><span class='fev_copy caption'>To threaten</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "insto, instare, institi, -"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_4.jpg' alt='Image of spotlights on a stage' class='border'><span class='fev_copy caption'>To show</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "ostendo, ostendere, ostendi, ostensus,-a,-um"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_7.jpg' alt='Image of of a boy thinking with a lightbulb and question marks behind him' class='border'><span class='fev_copy caption'>To think</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "puto, putare, putavi, putatus, -a, -um"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_8.jpg' alt='Image of a brain on a podium winning first place' class='border'><span class='fev_copy caption'>To know</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "scio, scire, scivi, scitus, -a, -um"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_9.jpg' alt='Image of a woman’s face with perception' class='border'><span class='fev_copy caption'>To perceive, to feel</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "sentio, sentire, sensi, sensus, -a, -um"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_10.jpg' alt='Image of a woman seeing with binoculars' class='border'><span class='fev_copy caption'>To see</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "video, videre, vidi, visus, -a, um"
+              }
+            ]
+          },
+          {
+            "title": "<br>________________________ <br> <img src='interactives/06_01_04/intmedia/p4_img_11.jpg' alt='Image of a hopeful girl in the rain with a rainbow umbrella' class='border'><span class='fev_copy caption'>To hope</span><span class='fev_copy copyright'>©Shutterstock</span>",
+            "limit": 1,
+            "item": [
+              {
+                "correctHeading": "Correct",
+                "correct": "Correct",
+                "incorrectHeading": "Incorrect",
+                "incorrect": "Incorrect",
+                "text": "spero, sperare, speravi, speratus, -a, -um"
+              }
+            ]
+          }
+
+
+
+        ]
+      }
+    ]
+  ]
+}

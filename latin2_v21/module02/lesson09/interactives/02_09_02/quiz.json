@@ -1,0 +1,88 @@
+{
+  "config": {
+    "src": "quizmo",
+    "progressBar": true,
+    "resultsPage": false,
+    "interactiveTitle": "",
+    "css": ["interactives/02_09_02/matching.css"],
+    "_customTextversionAll": "../../global/templates/quizmo/matching_text.htm"
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Match each vocabulary word with its correct image.",
+        "customView": "../../global/templates/quizmo/matching.htm"
+      },
+
+      {
+        "type": "matching",
+        "quiz": "",
+        "chances": "99999",
+        "options": [
+          {
+            "left": "labor, laboris m.",
+            "right": "<span class='forTV'>Image of technicians working hard to fix the jet engine</span><img src='images/m2_l9_p2_img1.png' alt='Technicians working hard to fix the jet engine' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of technicians working hard to fix the jet engine"
+          },
+          {
+            "left": "mare, maris n.",
+            "right": "<span class='forTV'>Image of a mariner looking into the sea</span><img src='images/m2_l9_p2_img2.jpg' alt='A mariner looking into the sea' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A mariner looking into the sea"
+          },
+          {
+            "left": "mons, montis m.",
+            "right": "<span class='forTV'>Image of a view of the Himalaya mountain</span><img src='images/m2_l9_p2_img3.jpg' alt='A view of the Himalaya mountain' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A view of the Himalaya mountain"
+          },
+          {
+            "left": "navis, navis f.",
+            "right": "<span class='forTV'>Image of a naval ship sailing in the sea</span><img src='images/m2_l9_p2_img4.jpg' alt='A naval ship sailing in the sea' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A naval ship sailing in the sea"
+          },
+          {
+            "left": "pastor, pastoris m.",
+            "right": "<span class='forTV'>Image of an elderly shepherd looking into the field where animals are grazing</span><img src='images/m2_l9_p2_img5.jpg' alt='An elderly shepherd looking into the field where animals are grazing' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of An elderly shepherd looking into the field where animals are grazing"
+          },
+          {
+            "left": "uxor, uxoris f.",
+            "right": "<span class='forTV'>Image of a woman doing dishes while a man looks at her smilingly</span><img src='images/m2_l9_p2_img6.jpg' alt='A woman doing dishes while a man looks at her smilingly' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A woman doing dishes while a man looks at her smilingly"
+          },
+          {
+            "left": "vestis, vestis f.",
+            "right": "<span class='forTV'>Image of close up of a Catholic priest with hands claspedwearing a bright red gold patterned vestment</span><img src='images/m2_l9_p2_img7.jpg' alt='Close up of a Catholic priest with hands claspedwearing a bright red gold patterned vestment' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of Close up of a Catholic priest with hands claspedwearing a bright red gold patterned vestment"
+          },
+          {
+            "left": "conficio, conficere, confeci, <br>confectus, -a, -um",
+            "right": "<span class='forTV'>Image of a woman bottling jam</span><img src='images/m2_l9_p2_img8.jpg' alt='A woman bottling jam' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of A woman bottling jam"
+          },
+          {
+            "left": "texo, texere, texui, textus, -a, -um",
+            "right": "<span class='forTV'>Image of an Indian woman weaving traditional textile</span><img src='images/m2_l9_p2_img9.jpg' alt='An Indian woman weaving traditional textile' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of An Indian woman weaving traditional textile"
+          },
+          {
+            "left": "tutus, tuta, tutum",
+            "right": "<span class='forTV'>Image of people alighting from a plane after a safe flight</span><img src='images/m2_l9_p2_img10.jpg' alt='People alighting from a plane after a safe flight' />",
+            "failedHeading": "Not quite, but you'll get it soon!",
+            "textVersion": "Image of People alighting from a plane after a safe flight"
+          }
+          
+        ]
+      }
+    ]
+  ]
+}

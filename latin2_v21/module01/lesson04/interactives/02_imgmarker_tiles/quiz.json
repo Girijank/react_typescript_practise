@@ -1,0 +1,80 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "customTextversionAll": "interactives/02_imgmarker_tiles/imgmarker_text.htm",
+    "css": [
+      "interactives/02_imgmarker_tiles/imgmarker.css"
+    ]
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Select each image to view the sign for that word. When you're ready, use the audio recorder to practice on your own."
+      },
+      {
+        "type": "imageMarker",
+        "background": "interactives/02_imgmarker_tiles/intmedia/months_gi.jpg",
+        "width": "680",
+        "items": [
+          {
+            "title": "1",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='avus, avi m.'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_grandfather.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>avus, avi m.</td></tr><tr><td><strong>Part of Speech</strong></td><td>noun</td></tr><tr><td><strong>Definition</strong></td><td>grandfather</td></tr><tr><td><strong>Derivative</strong></td><td>avuncular</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "2",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='modus, modi m.'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_manner.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>modus, modi m.</td></tr><tr><td><strong>Part of Speech</strong></td><td>noun</td></tr><tr><td><strong>Definition</strong></td><td>manner, method, mode</td></tr><tr><td><strong>Derivative</strong></td><td>mode, modality, modus vivendi</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "3",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='spatium, spatii n.'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_space.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>spatium, spatii n.</td></tr><tr><td><strong>Part of Speech</strong></td><td>noun</td></tr><tr><td><strong>Definition</strong></td><td>space, time</td></tr><tr><td><strong>Derivative</strong></td><td>spacious, spatial</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "4",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='saxum, saxi n.'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_rock.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>saxum, saxi n.</td></tr><tr><td><strong>Part of Speech</strong></td><td>noun</td></tr><tr><td><strong>Definition</strong></td><td>rock</td></tr><tr><td><strong>Derivative</strong></td><td>----</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "5",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='bracchium, bracchii n.'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_arm.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>bracchium, bracchii n.</td></tr><tr><td><strong>Part of Speech</strong></td><td>noun</td></tr><tr><td><strong>Definition</strong></td><td>arm</td></tr><tr><td><strong>Derivative</strong></td><td>bracelet, embrace</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "6",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='redeo, redire, redii, rediturus, -a, -um'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_return.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>redeo, redire, redii, rediturus, -a, -um</td></tr><tr><td><strong>Part of Speech</strong></td><td>verb</td></tr><tr><td><strong>Definition</strong></td><td>to return</td></tr><tr><td><strong>Derivative</strong></td><td>----</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "7",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='cerno, cernere, crevi, cretus, -a, -um'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_discern.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>cerno, cernere, crevi, cretus, -a, -um</td></tr><tr><td><strong>Part of Speech</strong></td><td>verb</td></tr><tr><td><strong>Definition</strong></td><td>to discern, to see</td></tr><tr><td><strong>Derivative</strong></td><td>discrete, discretion, discretionary</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "8",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='colo, colere, colui, cultus, -a, -um'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_till.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>colo, colere, colui, cultus, -a, -um</td></tr><tr><td><strong>Part of Speech</strong></td><td>verb</td></tr><tr><td><strong>Definition</strong></td><td>to till, to cultivate, to inhabit, to worship</td></tr><tr><td><strong>Derivative</strong></td><td>cult, culture, occult</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "9",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='relinquo, relinquere, reliqui, relictus, -a, -um'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_abandon.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>relinquo, relinquere, reliqui, relictus, -a, -um</td></tr><tr><td><strong>Part of Speech</strong></td><td>verb</td></tr><tr><td><strong>Definition</strong></td><td>to abandon, to leave behind</td></tr><tr><td><strong>Derivative</strong></td><td>relinquish, relinquishment, reliquary</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "10",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='pello, pellere, pepuli, pulsus, -a, -um'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_drive.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>pello, pellere, pepuli, pulsus, -a, -um</td></tr><tr><td><strong>Part of Speech</strong></td><td>verb</td></tr><tr><td><strong>Definition</strong></td><td>to drive</td></tr><tr><td><strong>Derivative</strong></td><td>expel, propulsion, repel</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          },
+          {
+            "title": "11",
+            "textversion": "<div class='row clearfix'><div class='col-xs-5'><div class='sptFrame' data-phrase='consulo, consulere, consului, consultus, -a, -um'></div></div><div class='col-xs-6'><audio class='audioBtn' controls src='media/la2_02_consult.mp3'></audio><table class='table'><tbody><tr><td><strong>Vocabulary</strong></td><td>consulo, consulere, consului, consultus, -a, -um</td></tr><tr><td><strong>Part of Speech</strong></td><td>verb</td></tr><tr><td><strong>Definition</strong></td><td>to consult</td></tr><tr><td><strong>Derivative</strong></td><td>consultant, consultation</td></tr></tbody></table></div></div>",
+            "marker": "area"
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+<div data-ng-init="slide = vm.data.body[0]">
+  <p>{{ slide[0].directions }}</p>
+
+  <p>First set of options:</p>
+  <div class="options left flex">
+    <div data-ng-repeat="object in slide[1].options">
+      <div data-ng-bind-html="object.left"></div>
+    </div>
+  </div>
+
+  <p>Second set of options:</p>
+  <div class="options right">
+    <div data-ng-repeat="object in slide[1].options" class="d-inline-block">
+      <div data-ng-bind-html="object.right" class="text-center vertical-center"></div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <button class="btn btn-default" type="button" data-toggle="collapse" href="#collapse{{::$id}}" aria-expanded="false" aria-controls="collapse{{::$id}}">Check Answer</button>
+  <div id="collapse{{::$id}}" class="collapse">
+    <div class="panel-body results">
+      <div data-ng-repeat="object in slide[1].options">
+        <div data-ng-bind-html="object.left" class="left"></div>
+
+        <span>goes with </span>
+
+        <div data-ng-bind-html="object.right" class="right vertical-center"></div>
+      </div>
+    </div>
+  </div>
+</div>

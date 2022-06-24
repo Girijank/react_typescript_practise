@@ -1,0 +1,111 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": [
+      "interactives/05_06_06/styles.css"
+    ],
+    "intMedia": "interactives/05_06_06/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {   
+        "type": "config",       
+        "customView": "interactives/05_06_06/customview_imgbtn.htm"
+      },
+      {
+        "type": "localAudio",
+        "src": "toilet.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>马桶</span> mǎtǒng"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the words that the following images represent have the same character as the second character in the word presented?</p>",
+        "answer":  "<span class='fortv'>Image of garbage can</span><img src='interactives/05_06_06/images/garbage_can.jpg' class='border center-block' alt='Image of garbage can'><span class='fev_copy copyright'>©iStock</span>",
+        "options": [
+          "<span class='fortv'>Image of a pair of winter gloves </span><img src='interactives/05_06_06/images/gloves.jpg' class='border center-block' alt='Image of a pair of winter gloves'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a mirror</span><img src='interactives/05_06_06/images/mirror.jpg' class='border center-block' alt='Image of a mirror'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a fridge</span><img src='interactives/05_06_06/images/fridge.jpg' class='border center-block' alt='Image of a fridge'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "correct": "You got it! The second character of the word <span lang='zh-Hans'>马桶</span> mǎtǒng (toilet) is <span lang='zh-Hans'>桶</span> tǒng, which is the same as the third character in the word <span lang='zh-Hans'>垃圾桶</span> lājītǒng (garbage can).",
+        "incorrect": "Very close. Listen to the audio several times to identify the word, and then identify its second character. Then, find the words that the images in the choices represent, and compare their characters.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "towel.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>毛巾</span> máojīn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following <strong>bold type</strong> characters have the same final as the second character of the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'><strong>金</strong>色</span>",
+        "options": [
+          "<span lang='zh-Hans'><strong>地</strong>板</span>",
+          "<span lang='zh-Hans'>书<strong>架</strong></span>",
+          "<span lang='zh-Hans'>浴<strong>缸</strong></span>"
+        ],
+
+        "correct": "Fabulous job! The second character in the word <span lang='zh-Hans'>毛巾</span> máojīn (towel) has the final “in,” which is also shared by the first character <span lang='zh-Hans'>金</span> jīn in the word <span lang='zh-Hans'>金色</span> jīnsè (gold/blonde).",
+        "incorrect": "Not quite. Listen to the word in the audio several times to identify the final of its second character, and then sound out the words in the choices to see which one shares the same final.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+[
+      {
+        "type": "localAudio",
+        "src": "toilet_paper.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>卫生纸</span> wèishēngzhǐ"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is <strong>most</strong> likely made of the same material as the item indicated by the word in the audio?</p>",
+        "answer": "<span lang='zh-Hans'>书</span>",
+        "options": [
+          "<span lang='zh-Hans'>玻璃杯</span>",
+          "<span lang='zh-Hans'>剪刀</span>",
+          "<span lang='zh-Hans'>浴缸</span>"
+        ],
+        
+        "correct": "Fabulous job! <span lang='zh-Hans'>卫生纸,</span> wèishēngzhǐ means “toilet paper,” and of the items in the choices, books are made of paper as well.",
+        "incorrect": "Oops. First identify the meaning of the word in the audio. Then, consider what material it is made of, and examine the items in the choices to see which one uses the same material.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    
+    [
+      {
+        "type": "localAudio",
+        "src": "to_empty_out_to_pour_out.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>倒</span> dào"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>least</strong> reasonably completed with the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>我在卧室_____床。</span> Wǒ zài wòshì _____ chuáng.",
+        "options": [
+          "<span lang='zh-Hans'>他在厨房_____牛奶。</span> Tā zài chúfán _____ niúnǎi.",
+          "<span lang='zh-Hans'>我妹妹在浴室_____水。</span> Wǒ mèimei zài yùshì _____ shuǐ.",
+          "<span lang='zh-Hans'>她今天下午_____垃圾。</span> Tā jīntiān xiàwǔ _____ lājī."
+        ],
+
+        "correct": "How excellent! The word <span lang='zh-Hans'>倒</span> dào means “to empty out/to pour out.” Of the sentences in the choices, the item that’s least likely to be poured or emptied out would be the bed in the sentence <span lang='zh-Hans'>我在卧室_____床。</span> Wǒ zài wòshì _____ chuáng. I am ____ the bed in the bedroom. An ideal verb for this sentence would be <span lang='zh-Hans'>整理</span> zhěnglǐ (to tidy up).",
+        "incorrect": "Not quite…Think about the meaning of the word in the audio. Then, consider in which sentences it can reasonably fit and which one it can’t.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+
+
+
+
+
+
+    
+
+
+
+
+  ]
+}

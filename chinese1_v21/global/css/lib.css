@@ -1,0 +1,294 @@
+/*======================================
+
+CSS DOCUMENT FOR ALL Libraries
+Colobox, accordions, etc
+
+======================================*/
+
+
+/* ---------------------------------
+-- COLORBOX
+---------------------------------*/
+/*Can add colorbox revisions back in*/
+/* ---------------------------------
+-- CLICK TO REVEAL
+---------------------------------*/
+.panel-default > .collapsed {
+    background: rgb(243,164,0);
+    background: linear-gradient(0deg, rgba(243,164,0,1) 0%, rgba(254,210,1,1) 100%);
+    color: black;
+	border: 2px solid #000;
+}
+
+.panel-default > .panel-heading {
+    background: rgb(243,164,0);
+    background: linear-gradient(0deg, rgba(243,164,0,1) 0%, rgba(254,210,1,1) 100%);
+    color: black;
+	border: 2px solid #000;
+}
+
+.panel-body {
+    box-shadow: 10px 10px 5px -5px rgba(161,161,161,0.75);
+    -webkit-box-shadow: 10px 10px 5px -5px rgba(161,161,161,0.75);
+    -moz-box-shadow: 10px 10px 5px -5px rgba(161,161,161,0.75);
+}
+
+/* ---------------------------------
+-- TABBED PANELS
+---------------------------------*/
+.tabs a.tab {
+    background-image: none;
+    background: rgb(243,164,0);
+    background: linear-gradient(0deg, rgba(243,164,0,1) 0%, rgba(254,210,1,1) 100%);
+    color: black;
+	border: 2px solid #000;
+}
+
+.tabs a.active, .tabs a.tab:hover {
+    background: rgb(243,164,0);
+    background: linear-gradient(0deg, rgba(243,164,0,1) 0%, rgba(254,210,1,1) 25%);
+    color: black;
+    outline: none;
+}
+
+.nav-tabs > li > a {
+    background-image: none;
+    background: rgb(243,164,0);
+    background: linear-gradient(0deg, rgba(243,164,0,1) 0%, rgba(254,210,1,1) 100%);
+    color: black;
+	border: 2px solid #000;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+    background: rgb(243,164,0);
+    background: linear-gradient(0deg, rgba(243,164,0,1) 0%, rgba(254,210,1,1) 25%);
+    color: black;
+}
+
+/* ---------------------------------
+-- TABLES
+---------------------------------*/
+.table-chinese {
+    padding: 20px;
+    background-color: white;
+}
+
+.table > thead > tr > th {
+    border-bottom: none;
+}
+
+.table-chinese thead tr {
+    background-color: #f7f7f7;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+table td {
+    padding: 1rem;
+}
+
+table td + td {
+    border-left: 5px solid #f7f7f7;
+}
+
+table tr + tr td {
+    border-top: none;
+}
+
+.table > tbody > tr > td {
+    border-top: none;
+}
+
+
+
+/* ---------------------------------
+-- ACCORDION
+---------------------------------*/
+
+
+/* ---------------------------------
+-- SLIDESHOW
+------------------------------------*/
+
+
+/* ---------------------------------
+-- CAROUSEL
+------------------------------------*/
+
+
+/* ---------------------------------
+-- Roundabout
+------------------------------------*/
+
+/* ---------------------------------
+-- PROGRESS BAR
+------------------------------------*/
+
+/* ---------------------------------
+-- LARGE ROLLOVER CARDS
+------------------------------------*/
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 900px;
+	list-style: none;
+	text-align: center;
+}
+
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	/* background: #673962; */
+	background: #922138;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	opacity: 1;
+}
+
+.grid figure figcaption {
+	padding: 15px 12px;
+	color: white;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before, .grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption, .grid figure figcaption > a {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 100%;
+}
+
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 14px;
+	opacity: 0;
+}
+
+.grid figure h4 {
+	font-weight: 300;
+	color: white;
+	margin: 0;
+	display: block;
+	/* background: #673962; */
+	background: #9f243d;
+}
+
+.grid figure h4 span {
+	font-weight: 800;
+}
+
+.grid figure h4, .grid figure p {
+	margin: 0;
+}
+
+.grid figure p, .grid figure ul, .grid figure ol {
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+figure.effect-sarah.smaller p, figure.effect-sarah.smaller ul, figure.effect-sarah.smaller ol {
+	font-size: 14px;
+}
+
+figure.effect-sarah img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-sarah:hover img {
+	opacity: .12;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figure.effect-sarah figcaption {
+	text-align: left;
+}
+
+figure.effect-sarah h4 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+
+figure.effect-sarah h4::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #f2f0d0;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+
+figure.effect-sarah:hover h4::after {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figure.effect-sarah p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%, 0, 0);
+	transform: translate3d(100%, 0, 0);
+}
+
+figure.effect-sarah:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figure.effect-sarah div {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%, 0, 0);
+	transform: translate3d(100%, 0, 0);
+}
+
+figure.effect-sarah:hover div {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+figcaption p a, figcaption p a:visited, figcaption p a:active {
+	color: #eee7be;
+}
+
+figcaption p a:hover, figcaption p a:focus {
+	color: #ffffff;
+}

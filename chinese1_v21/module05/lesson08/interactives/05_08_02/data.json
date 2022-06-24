@@ -1,0 +1,302 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/05_08_02/styles.css"],
+    "progressBar": true,
+    "resultsPage": false
+  },
+  "body": [    
+    [
+      {
+        "type": "config",
+        "customView": "interactives/05_08_02/index.htm",
+        "directions": "Read the question, and then select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>厨房</span> chúfáng (kitchen)</span><audio class='audio' controls src='interactives/05_08_02/intmedia/kitchen.mp3'></audio>",
+
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>卧室</span> wòshì (bedroom)</span><audio class='audio' controls src='interactives/05_08_02/intmedia/bedroom.mp3' ></audio>",
+
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>浴室</span> yùshì (bathroom)</span><audio class='audio' controls src='interactives/05_08_02/intmedia/bathroom.mp3'></audio>"
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "Balcony design of modern urban residential building",
+          "src": "interactives/05_08_02/intmedia/img1.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "<p>Which of the following audios best describe the image?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>阳台</span> yángtái (balcony)</span><audio class='audio' controls src='interactives/05_08_02/intmedia/balcony.mp3'></audio>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    
+    [ {
+      "type": "config",
+      "directions": "Read the phrases in Chinese, and then answer the question that follows.",
+      "customView": "interactives/05_08_02/customview_imgbtn.htm"
+    },
+      {
+        "type": "mc",
+        "options": [
+          "<span class='fortv'>Image of a small end table to the left of a sofa</span><img src='interactives/05_08_02/intmedia/img3.jpg' alt='Image of a small end table to the left of a sofa'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a small end table to the right of a sofa</span><img src='interactives/05_08_02/intmedia/img4.jpg' alt='Image of a small end table to the right of a sofa'><span class='fev_copy copyright'>©iStock</span>",
+          "<span class='fortv'>Image of a nightstand to the right of a bed</span><img src='interactives/05_08_02/intmedia/img6.jpg' alt='Image of a nightstand to the right of a bed'><span class='fev_copy copyright'>©iStock</span>"
+        ],
+        "quiz": "It’s Sunday afternoon. Kailan is exchanging text messages with her friend Karen. Kailan is describing what her home looks like to Karen. Read one of the text messages she sent. Which of the following images best matches Kailan’s description from her viewpoint?<br><br> <span lang='zh-Hans'>我 的卧室有床和床头柜。床头柜在床的左边。</span> Wǒde wòshì yǒu chuáng hé chuángtóuguì. Chuángtóuguì zài chuáng de zuǒbiān.",
+        
+        "answer": "<span class='fortv'>Image of a nightstand to the left of a bed</span><img src='interactives/05_08_02/intmedia/img5.jpg' alt='Image of a nightstand to the left of a bed'><span class='fev_copy copyright'>©iStock</span>",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+ 
+    [
+      {
+        "type": "text",
+        "content": "Listen to the dialogue in the audio between David and Lili on a Saturday morning; then answer the question that follows."
+      },
+      {
+        "type": "localAudio",
+        "src": "interactives/05_08_02/intmedia/david_lili_yard_and_garage.mp3",
+        "textVersion": "Audio for  <p>Lili: <span lang='zh-Hans'>你家有院子吗</span>？ Nǐjiā yǒu yuànzi ma?<br>David: <span lang='zh-Hans'>我家有一个大院子。</span>Wǒ jiā yǒu yīgè dà yuànzi.<br>Lili: <span lang='zh-Hans'>我家没有院子。你家有车库吗</span>？ Wǒjiā méiyǒu yuànzi. Nǐjiā yǒu chēkù ma?<br>David: <span lang='zh-Hans'>我家没有车库。你家有门廊吗</span>？ Wǒjiā méiyǒu chēkù. Nǐjiā yǒu ménláng ma?<br>Lili: <span lang='zh-Hans'>没有。不过我家有阳台。我家有三个卧室和两个浴室。</span>Méiyǒu. Búguò wǒjiā yǒu yángtái. Wǒjiā yǒu sāngè wòshì hé liǎnggè yùshì.<br>David: <span lang='zh-Hans'>我家也有三个卧室。不过只有一个浴室。对了，你今天做什么</span>？Wǒjiā yě yǒu sāngè wòshì. Búguò zhǐyǒu yīgè yùshì. Duìle, nǐ jīntiān zuò shénme?<br>Lili: <span lang='zh-Hans'>我要擦椅子和灯，整理床和衣柜，还要叠衣服。</span> Wǒyào cā yǐzi hé dēng, zhěnglǐ chuáng hé yīguì, háiyào dié yīfu. <br>David: <span lang='zh-Hans'>你太忙了！我今天一整天都看书。</span> Nǐ tài máng le! Wǒ jīntiān yīzhěngtiān dōu kànshū.<br>Lili: <span lang='zh-Hans'>你要看什么书</span>？Nǐ yào kàn shénme shū?<br>David: <span lang='zh-Hans'>我星期一有数学课，我要复习数学。</span> WǑ xīngqīyī yǒu shùxuékè, wǒ yào fùxí shùxué.<br>Lili: <span lang='zh-Hans'>你晚上也要看书吗</span>？ Nǐ wǎnshàng yě yào kànshū ma?<br>David: <span lang='zh-Hans'>你看，我的书桌上有灯。我是有准备的。</span> Nǐkàn, wǒde shūzhuō shàng yǒu dēng.Wǒ shì yǒuzhǔnbèi de.</p>"  
+      },
+      {
+        "type": "mc",
+        "options": [
+          "Free",
+          "Lazy",
+          "Funny"
+        ],
+        "quiz": "<p>Based on the context in the dialogue, what does the word <span lang='zh-Hans'>忙</span> máng probably mean in the sentence that David said “<span lang='zh-Hans'>你太忙了</span>！Nǐ tài máng le!”?</p>",
+        "answer": "Busy",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+    [
+      {
+        "type": "mc",
+        "options": [
+          "In the kitchen, the stove should be away from the sink because the elements of fire and water are not compatible.",
+          "Bedrooms should be away from the kitchen; otherwise, the heat will make the room uncomfortable or too hot.",
+          "In the bedroom, the bottom of the beds should be lifted up from the floor, which protects the sleeper(s) from the unpleasant spirits from the ground."
+        ],
+        "quiz": "Based on the feng shui rules introduced in the lesson, which of the following is not true about the setup of the bedroom, living room, and kitchen in a house using feng shui?",
+        
+        "answer": "In the living room, end tables should be square-shaped. They should be placed in front of a sofa and need to be the same length as the sofa.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+
+    [
+      {
+        "type": "mc",
+        "options": [
+          "Above the sofa",
+          "To the right of the sofa",
+          "Below the sofa"
+        ],
+        "quiz": "Tracy is writing a letter to her pen pal in China. In the letter, she describes what her home looks like. Read the provided part of her letter.<br><br><span lang='zh-Hans'>我家的客厅有沙发。沙发的左边是茶几，茶几上有电扇。沙发的右边是桌子，桌子上有电脑。我妈妈每个星期天上午擦电扇。她每个星期二下午整理桌子。</span>Wǒjiā de kètīng yǒu shāfā. Shāfā de zuǒbiān shì chájī, chájī shàng yǒu diànshàn. Shāfā de yòubiān shì zhuōzi, zhuōzi shàng yǒu diànnǎo. Wǒ māma měigè xīngqītiān shàngwǔ cādiànshàn. Tāměigè xīngqīèr xiàwǔ zhěnglǐ zhuōzi. <br><br>Based on the description, which direction should Tracy turn to when she feels hot while sitting on the sofa?",
+
+        "answer": "To the left of the sofa",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+    [
+      {
+        "type": "mc",
+        "options": [
+          "Kailan’s family uses a rice cooker when cooking, while Karen’s family uses a crockpot.",
+          "Kailan’s family uses a cleaver when prepping food, while Karen’s family uses knives.",
+          "Stir-frying is a common cooking method in Kailan’s family, while pan frying is common in Karen’s family."
+        ],
+        "quiz": "Based on the talks in the lesson of Friends for Life with Kailan and Karen, which of the following is not true about the cooking methods, utensils, and routines in each of their families?",
+        "answer": "Kailan’s family uses small bowls, knives, forks, and spoons for individuals when serving food, while Karen’s family uses plates, chopsticks, and spoons.",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "Match each of the characters with its meaning in English. ",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job finding the right match.",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>窗 </span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "Window"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>叠 </span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "To fold"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>椅 </span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "Chair"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>床</span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "Bed"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "type": "config",
+        "customView": "interactives/05_08_02/custom_withvideo.htm"
+      },
+      {
+        "type": "video",
+        "entryID": "1_lyts6fzp",
+        "textVersion": "The audio for this video content is an example of the Chinese Language."
+      },
+    
+      {
+        "type": "mc",
+        "options": [
+          "Mop the dining room floor",
+          "Tidy up the bedroom",
+          "Dust some furniture in the living room"
+        ],   
+        "quiz": "Based on the dialogue video, which of the following is not a chore that Zhang Ming needs to do that morning?",
+        "answer": "Clean up the kitchen",
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+
+
+    [
+      {
+        "type": "config",
+        "customView": "interactives/05_08_02/index.htm",
+        "directions": "Read the question, and then select the correct answer."
+      },
+      {
+        "type": "mc",
+        "options": [
+          "<span lang='zh-Hans'>她在浴室扫地板。</span>Tā zài yùshì sǎo dìbǎn.",
+
+          "<span lang='zh-Hans'>她在厨房洗衣服。</span> Tā zài chúfáng xǐ yīfu.",
+
+          "<span lang='zh-Hans'>她在浴室洗衣服。</span>Tā zài yùshì xǐ yīfu."
+        ],
+        "media": {
+          "type": "image",
+          "id": "image1",
+          "alt": "A woman who is sweeping the floor in the kitchen",
+          "src": "interactives/05_08_02/intmedia/img2.jpg",
+          "copyright":"©iStock"
+        },
+        "quiz": "<p>Which sentence best describes the image?</p><p class='fortv'> A woman who is sweeping the floor in the kitchen</p>",
+        "answer": "<span lang='zh-Hans'>她在厨房扫地板。</span>Tā zài chúfáng sǎo dìbǎn.",
+
+        "correct": "Nailed it! Great job!",
+        "incorrect": "Good try. Keep that same great effort and try again.",
+        "failed": "The answer has been filled in for you, but you're sure to get it next time.",
+        "failedHeading": "Not quite, but you'll get it soon!"
+      }
+    ],
+    [
+      {
+        "type": "dragdrop",
+        "failedHeading": "Incorrect",
+        "rejectIncorrect": false,
+        "quiz": "Match each of the following bold type characters with its pronunciation in pinyin.",
+        "incorrectHeading": "Incorrect",
+        "correctHeading": "Correct",
+        "correct": "Perfect job finding the right match.",
+        "incorrect": "Not quite. Let’s try again and get them all matched.",
+        "bins": [
+          {
+            "title": "<span lang='zh-Hans'>床<span class='fev_bold'>单</span></span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "Dān"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>打<span class='fev_bold'>扫</span></span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "Sǎo"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'><span class='fev_bold'>右</span>边</span> ",
+            "limit": 1,
+            "item": [
+              {
+                "text": "Yòu"
+              }
+            ]
+          },
+          {
+            "title": "<span lang='zh-Hans'>毛<span class='fev_bold'>巾</span></span>",
+            "limit": 1,
+            "item": [
+              {
+                "text": "Jīn"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+    
+  ]
+}

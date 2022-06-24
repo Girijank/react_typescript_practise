@@ -1,0 +1,108 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/02_03_03/styles.css"],
+    "intMedia": "interactives/02_03_03/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [
+      {
+        "type": "config",
+        "directions": "Listen to the audio, then complete the multiple choice questions that follow."
+      },
+      {
+        "type": "localAudio",
+        "src": "knife.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>刀子</span> dāozi "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is most likely to be found together with the item in the audio on a dining table?</p>",
+        "answer": "<span lang='zh-Hans'>叉子</span> chāzi",
+        "options": ["<span lang='zh-Hans'>米饭</span> mǐfàn", 
+                    "<span lang='zh-Hans'>曲奇</span> qǔqí", 
+                    "<span lang='zh-Hans'>苏打</span> sūdǎ"],
+        "correct": "Excellently done! <em><span lang='zh-Hans'>刀子</span> dāozi</em> means “knife,” and it can usually be seen together with a fork.",
+        "incorrect": "Not quite. Listen to the audio again, and think about its meaning. You got this!",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "spoon.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>勺子</span> sháozi (spoon)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following can the item in the audio be used for?</p>",
+        "answer": "<span class='fortv'>Image of a bowl of soup</span><img src='interactives/02_03_03/images/soup.jpg' alt='Image of a bowl of soup'> <span class='fev_copy copyright'>©Shutterstock</span>",
+        "options": [
+          "<span class='fortv'>Image of loaf of bread on chopping board, close-up</span><img src='interactives/02_03_03/images/loaf.jpg' alt='Image of loaf of bread on chopping board, close-up'> <span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>Image of Close-up of grilled meat on plate</span><img src='interactives/02_03_03/images/meat.jpg' alt='Close-up of grilled meat on plate'><span class='fev_copy copyright'>©Shutterstock</span>",
+          "<span class='fortv'>up of two apples with white background</span><img src='interactives/02_03_03/images/apples.jpg' alt='up of two apples with white background' > <span class='fev_copy copyright'>©Shutterstock</span>"
+        ],
+        "correct": "Fabulous job! <em><span lang='zh-Hans'>勺子</span> sháozi</em> (spoon) can be used to scoop up soup, but it is not very useful for cutting a steak. ",
+        "incorrect": "So close! Listen again and try to understand the meaning of the word in the audio, and then consider how it can be used for the items in the options.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "chopsticks.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>筷子</span> kuàizi "
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items will you find the utensil in the audio useful for?</p>",
+        "answer": "A bowl of rice",
+        "options": ["A cup of soup", "A piece of steak", "A glass of water"],
+        "correct": "Outstanding job! <em><span lang='zh-Hans'>筷子</span> kuàizi</em> (chopsticks) are a common utensil used for Chinese food. You can easily find them in any Chinese or Asian restaurant. ",
+        "incorrect": "Not quite… think about the meaning of the word in the audio and what it is most likely used for.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "glass.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>玻璃杯</span> bōlí bēi"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following is the item in the audio <strong>least likely</strong> used for?</p>",
+        "answer": "<span class='fortv'> Audio for <span lang='zh-Hans'>咖啡</span> kāfēi</span><audio class='audio' controls src='interactives/02_03_03/intmedia/coffee.mp3' ></audio>",
+        "options": [
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>牛奶</span> niúnǎi </span><audio class='audio' controls src='interactives/02_03_03/intmedia/milk.mp3' ></audio>",
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>苏打</span> sūdǎ </span><audio class='audio' controls src='interactives/02_03_03/intmedia/soda.mp3' ></audio>",
+          "<span class='fortv'> Audio for <span lang='zh-Hans'>果汁</span> guǒzhī </span><audio class='audio' controls src='interactives/02_03_03/intmedia/juice.mp3' ></audio>"
+        ],
+        "correct": "Excellently done! <em><span lang='zh-Hans'>玻璃杯</span> bōlí bēi</em> (glass) is perfect for holding cold liquids but maybe not a good idea to have a hot cup of coffee in a glass. You could burn your hand!",
+        "incorrect": "Very close… listen again and think about the meaning of the word. What type of drink can it be the least useful for?",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "napkin.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>餐巾</span> cānjīn"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following best describes the item in the audio?</p>",
+        "answer": "You need it when you spill your drink.",
+        "options": [
+          "It is used to pick up food.",
+          "It is made of metal or stone.",
+          "You need it when you order food."
+        ],
+        "correct": "Awesome job! <em><span lang='zh-Hans'>餐巾</span> cānjīn</em> (napkin) comes handy when you spill a drink, but you might not need it when you order food.",
+        "incorrect": "Not quite. Listen again to understand its meaning, and then think about situations when it can be used.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Translate the sentence, identify the type of pronoun or adjective, and select the card to reveal the answer.",
+    "instruction_textversion":"Translate the sentence, identify the type of pronoun or adjective, and then check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>Pueros  vestros</strong> vidi.  </p>",
+          "textversion": "<p>Pueros  vestros vidi.  </p>"
+        },
+        "back": {
+          "content": "<p><em>I saw your boys. (possessive)</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'><em>I saw your boys. (possessive)</em></p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>Ipsi  <strong> eum</strong>  vidimus.     </p>",
+          "textversion": "<p>Ipsi   <strong> eum</strong> vidimus.    </p>"
+        },
+        "back": {
+          "content": "<p><em>We  ourselves saw him.  (intensive)</p></em>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'><em>We   ourselves saw him.  (intensive)</p></em>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Matrem  <strong>  eius</strong> vocavi.    </p>",
+          "textversion": "<p>Matrem <strong> eius</strong>  vocavi.  </p>"
+        },
+        "back": {
+          "content": "<p><em>I called  his mother. (personal)</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'><em>I called his mother. (personal)</em></p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>Matrem <strong> suam</strong> vocavit.      </p>",
+          "textversion": "<p>Matrem <strong> suam</strong> vocavit.     </p>"
+        },
+        "back": {
+          "content": "<p> <em> He called  his (own) mother. (reflexive possessive)</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'><em> He called his (own) mother. (reflexive possessive)</em></p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Matrem  <strong> eius</strong> vocavit.   </p>",
+          "textversion": "<p>Matrem  <strong> eius</strong> vocavit.   </p>"
+        },
+        "back": {
+          "content": "<p><em>He called his(someone else's) mother. (personal)</em></p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'><em>He called  his(someone else's) mother. (personal)</em></p>"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+.fev_local .well.assignment {
+    margin-top: 60px
+}
+
+.fev_local .image-container.border {
+    margin-top: 110px;
+}
+
+.card .card-action{
+    padding: 15px 3px;
+}
+
+@media (max-width: 768px) {
+    .col-sm-9 {
+        width: 72%;
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "config": {
+    "type": "flipcard",
+    "progressBar": false,
+    "resultsPage": false,
+    "interactiveTitle": false
+  },
+  "body": {
+    "instruction":"Use the context of the sentence to decide the Latin vocabulary and case for the word in <strong>bold type</strong>. Select the card to check your answer.",
+    "instruction_textversion":"Use the context of the sentence to decide the Latin vocabulary and case for the word in <strong>bold type</strong>. Select the card to check your answer.",
+    "cards": [
+      {
+        "id": "card_01",
+        "front": {
+          "content": "<p>The man loves the <strong>day</strong>.</p>",
+          "textversion": "<p>The man loves the <strong>day</strong>.</p>"
+        },
+        "back": {
+          "content": "<p><em>diem</em> – Accusative case</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans1'>Show Answer</div><p id='ans1' class='collapse'><em>diem</em> – Accusative case</p>"
+        }
+      },
+      {
+        "id": "card_02",
+        "front": {
+          "content": "<p>On this <strong>day,</strong> the slave teaches the students.</p>",
+          "textversion": "<p>On this <strong>day,</strong> the slave teaches the students.</p>"
+        },
+        "back": {
+          "content": "<p><em>die</em> – Ablative case</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans2'>Show Answer</div><p id='ans2' class='collapse'><em>die</em> – Ablative case</p>"
+        }
+      },
+      {
+        "id": "card_03",
+        "front": {
+          "content": "<p>Legal <strong>matters</strong> of the family are handled by the male head of the household.</p>",
+          "textversion": "<p>Legal <strong>matters</strong> of the family are handled by the male head of the household.</p>"
+        },
+        "back": {
+          "content": "<p><em>res</em> – Nominative case</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans3'>Show Answer</div><p id='ans3' class='collapse'><em>res</em> – Nominative case</p>"
+        }
+      },
+      {
+        "id": "card_04",
+        "front": {
+          "content": "<p>We give<strong> to the things</strong>  that matter most to us.</p>",
+          "textversion": "<p>We give<strong> to the things</strong>  that matter most to us.</p>"
+        },
+        "back": {
+          "content": "<p> <em>rebus</em> – Dative case</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans4'>Show Answer</div><p id='ans4' class='collapse'><em>rebus</em> – Dative case</p>"
+        }
+      },
+      {
+        "id": "card_05",
+        "front": {
+          "content": "<p>Which <strong> of the things</strong> in the household is of importance to the father?</p>",
+          "textversion": "<p>Which <strong> of the things</strong> in the household is of importance to the father?</p>"
+        },
+        "back": {
+          "content": "<p><em>rerum</em> – Genitive case</p>",
+          "textversion": "<div class='btn-show-answer' data-toggle='collapse' tabindex='0' data-target='#ans5'>Show Answer</div><p id='ans5' class='collapse'><em>rerum</em> – Genitive case</p>"
+        }
+      }
+     
+    ]
+  }
+}

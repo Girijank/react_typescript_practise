@@ -1,0 +1,38 @@
+{
+  "config": {
+    "src": "quizmo",
+    "interactiveTitle": "",
+    "theme": "standard"
+  },
+  "body": [
+    [
+      {
+        "type": "matching",
+        "quiz": "Translate each sentence and find its translation match. Practice as many times as you need until you translate it correct every time!",
+        "options": [
+          {
+            "left": "<em>Puella agricolam ad villam mittit.</em>",
+            "right": "The girl sends the farmer to the farmhouse."
+          },
+          {
+            "left": "<em>Agricolam defendebamus.</em>",
+            "right": "We used to defend the farmer."
+          },
+          {
+            "left": "<em>Agricolas ad villam duxistis.</em>",
+            "right": "You led the farmers to the farmhouse."
+          },
+          {
+            "left": "We sought the girls.",
+            "right": "<em>Puellas petivimus.</em>"
+          },
+          {
+            "left": "I was defending the girl.",
+            "right": "<em>Puellam defendebam.</em>"
+          }
+        ],
+        "chances": "2"
+      }
+    ]
+  ]
+}

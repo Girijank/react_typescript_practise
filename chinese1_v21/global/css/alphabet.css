@@ -1,0 +1,105 @@
+body { overflow-x:hidden; }
+
+#cboxLoadedContent {
+    float:left;
+    background:#FFF;
+    border:none;
+    margin-bottom:0px;
+    padding:0 10px !important;
+    overflow: hidden !important;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+.wp-caption .wp-caption-text { width:125px; }
+
+.vocab_img {
+    float: left;
+    width: 165px;
+}
+
+.vocab_right_col {
+    width: 45%;
+    margin-left: 10px;
+    float: left;
+}
+
+span.vocab_def {
+    float: left;
+    width: 80%;
+}
+
+/*#cboxLoadedContent p {*/
+/*float:left;*/
+/*width:30%;*/
+/*padding:0 10px;*/
+/*}*/
+
+#cboxLoadedContent audio {
+    width: 200px !important;
+}
+
+#cboxLoadedContent .sptFrame {
+    float: left;
+    margin-left: 5px;
+}
+
+#cboxLoadedContent .vocab_content {
+    float: left;
+    width: 480px !important;
+}
+
+/*#cboxLoadedContent .vocab_word,*/
+/*#cboxLoadedContent .vocab_phrase { */
+/*clear:none;*/
+/*float:left;*/
+/*}*/
+
+#cboxLoadedContent .vocab_word {
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+
+#cboxLoadedContent p.engTrans {
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+#cboxLoadedContent p.vocabExample {
+    margin: 0 0 10px;
+    font-size: 14px;
+    text-align: right;
+}
+
+#cboxLoadedContent p.vocabExampleTranslation {
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+#cboxLoadedContent .vocab_phrase {
+    font-size: 16px;
+}
+
+#cboxLoadedContent .showcase {
+    margin: 0 10px 0 0;
+    float:left;
+    width: 160px !important;
+}
+
+#cboxLoadedContent .kalturaAudio {
+    width: 210px !important;
+    height: 40px !important;
+    margin: 0 0 10px 0 !important;
+}
+
+#cboxLoadedContent .kWidgetPlayBtn.audio {
+    width:326px;
+    height:40px;
+    background: url(../../global/images/kaltura_audio_standard.png);
+}
+
+#cboxLoadedContent .record_icon {
+    float:right;
+    margin:0 0 10px 10px;
+}

@@ -1,0 +1,94 @@
+{
+  "config": {
+    "src": "quizmo",
+    "css": ["interactives/06_06_08/styles.css"],
+    "intMedia": "interactives/06_06_08/intmedia/",
+    "interactiveTitle": ""
+  },
+  "body": [
+    [{
+      "type": "config",
+      "directions": "Listen to the audio, and then complete the multiple-choice questions that follow."
+    },
+      {
+        "type": "localAudio",
+        "src": "countryside.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>乡村</span> xiāngcūn (countryside)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which is another word that has the same meaning as the word in the audio?</p>", 
+        "answer": "<span lang='zh-Hans'>乡下</span>",      
+        "options":[
+          "<span lang='zh-Hans'>下午</span>",
+          "<span lang='zh-Hans'>晚上</span>",
+          "<span lang='zh-Hans'>上边</span>"
+        ],
+        "correct": "You got it! An alternative word for <span lang='zh-Hans'>乡村</span> xiāngcūn (countryside) is <span lang='zh-Hans'>乡下</span> xiāngxià (countryside), especially in spoken Chinese.",
+        "incorrect": "Not quite. Review the vocabulary again, especially the notes, and then check the words in the choices very carefully. Look very closely as the shapes of the characters in the choices are very similar.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "suburb.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>郊区</span> jiāoqū (suburbs)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following sentences can be <strong>reasonably</strong> completed with the word presented?</p>",
+        "answer": "<span lang='zh-Hans'>我爷爷奶奶住在_____。</span>Wǒ yéye nǎinai zhùzài_____.",
+        "options": [
+          "<span lang='zh-Hans'>我今天晚餐要吃_____。</span>Wǒ jīntiān wǎncān yào chī_____.",
+          "<span lang='zh-Hans'>我家有院子和_____。</span>Wǒjiā yǒu yuànzi hé _____.",
+          "<span lang='zh-Hans'>我上数学课需要_____。</span>Wò shàng shùxuékè xūyào_____."
+        ],
+        "correct": "Job wonderfully done! <span lang='zh-Hans'>郊区</span> jiāoqū means “suburbs,” and it best completes the sentence: <span lang='zh-Hans'>我爷爷奶奶住在郊区。</span> Wǒ yéye nǎinai zhùzài jiāoqū. (My paternal grandparents live in the suburbs.)",   
+        "incorrect": "Not quite. Listen to the word again to understand its meaning. Then place it in the sentences in the choices, one by one, to see which one makes the most sense.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      
+      {
+        "type": "localAudio",
+        "src": "farm.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>农场</span> nóngchǎng (farm)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following items is <strong>least</strong> likely produced at the place indicated by the word in the audio?</p>",
+        "answer": "<span class='fortv'>Audio for <span lang='zh-Hans'>衣服</span> yīfu (clothes)</span><audio class='audio' controls src='interactives/06_06_08/intmedia/clothes.mp3'></audio>",
+        "options": [
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>肉</span> ròu (meat) </span><audio class='audio' controls src='interactives/06_06_08/intmedia/meat.mp3'></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>水果</span> shuǐguǒ (fruit) E</span><audio class='audio' controls src='interactives/06_06_08/intmedia/fruit.mp3' ></audio>",
+          "<span class='fortv'>Audio for <span lang='zh-Hans'>蔬菜</span> shūcài (vegetable) </span><audio class='audio' controls src='interactives/06_06_08/intmedia/vegetable.mp3' ></audio>"
+        ],
+        "correct": "Fantastic job! <span lang='zh-Hans'>农场</span> nóngchǎng means “farm,” where vegetables, fruits, or meats are produced, while clothes are more likely produced in a factory instead of a farm.",
+        "incorrect": "Not quite. Listen to the word several more times to identify its meaning, and then listen to the audios in the choices to identify their meanings as well. Then consider which one is <strong>least</strong> likely produced at the place indicated in the question.",
+        "incorrectHeading": "Incorrect"
+      }
+    ],
+    [
+      {
+        "type": "localAudio",
+        "src": "lake.mp3",
+        "textVersion": "Audio for <span lang='zh-Hans'>湖</span> hú (lake)"
+      },
+      {
+        "type": "mc",
+        "quiz": "<p>Which of the following does the place indicated in the audio mostly contain? </p>",
+        "answer": "<span lang='zh-Hans'>水</span>",
+        "options": [
+          "<span lang='zh-Hans'>茶</span>",
+          "<span lang='zh-Hans'>门</span>",
+          "<span lang='zh-Hans'>山</span>"
+        ],
+        "correct": "Terrific job! <span lang='zh-Hans'>湖</span> hú means “lake,” and a lake mostly contains water. There might be a <span lang='zh-Hans'>山</span> shān (mountain) surrounding a lake, but not contained in it.",        
+        "incorrect": "So close! Listen to the word presented several more times to understand its meaning. Then consider its nature and what material it most likely contains.",
+        "incorrectHeading": "Incorrect"
+      }
+    ]
+  ]
+}
